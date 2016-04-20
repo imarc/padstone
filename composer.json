@@ -13,5 +13,10 @@
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"
         }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "Imarc\\Padstone\\Test::test"
+        ]
     }
 }
