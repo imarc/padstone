@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Imarc\Padstone\\": "padstone/"
+            "Imarc\\Padstone\\": "padstone/"
         }
     }
 }
