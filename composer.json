@@ -1,0 +1,17 @@
+{
+    "name": "imarc/padstone",
+    "description": "Craft CMS installer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kevin Hamer",
+            "email": "kevin@imarc.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Imarc\Padstone\\": "padstone/"
+        }
+    }
+}
