@@ -1,6 +1,8 @@
 <?php
 namespace Imarc\Padstone;
 
+use ZipArchive;
+
 class Install
 {
     static public function run()
