@@ -11,7 +11,9 @@
     "require": {
         "imarc/craft-boost": "^0.3.2",
         "imarc/craft-sass": "^1.0.0",
-        "imarc/craft-googlecustomsearch": "^1.0.2"
+        "imarc/craft-googlecustomsearch": "^1.0.2",
+        "imarc/craft-social": "^1.0.0",
+        "itmundi/reroute": "^1.2"
     },
     "autoload": {
         "psr-4": {
