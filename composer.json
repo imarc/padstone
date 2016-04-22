@@ -1,6 +1,6 @@
 {
     "name": "imarc/padstone",
-    "description": "Craft CMS installer",
+    "description": "Padstone is a Craft CMS starter that includes plugins and configuration Imarc has found to be useful defaults.",
     "type": "project",
     "authors": [
         {
