@@ -14,8 +14,10 @@ class Install
     static private function skippedFiles()
     {
         return array(
+            'craft/config/db.php',
             'craft/config/general.php',
-            'craft/config/db.php'
+            'public/htaccess',
+            'public/web.config',
         );
     }
 
