@@ -8,7 +8,11 @@
             "email": "kevin@imarc.com"
         }
     ],
-    "require": {},
+    "require": {
+        "imarc/craft-boost": "^0.3.2",
+        "imarc/craft-sass": "^1.0.0",
+        "imarc/craft-googlecustomsearch": "^1.0.2"
+    },
     "autoload": {
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"
@@ -16,7 +20,7 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "Imarc\\Padstone\\Test::test"
+            "Imarc\\Padstone\\Install::run"
         ]
     }
 }
