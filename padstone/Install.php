@@ -5,6 +5,11 @@ use ZipArchive;
 
 class Install
 {
+    const DO_NOT_OVERWRITE = array(
+        'craft/config/general.php',
+        'craft/config/db.php'
+    );
+
     static public function run()
     {
         $install = new Install();
@@ -25,7 +30,15 @@ class Install
 
         $zip = new ZipArchive();
         if ($zip->open($zip_file) === true) {
-            $zip->extractTo('.');
+
+            $files = array();
+            for ($i = 0; $i < $zip->numFiles; $i++) {
+                $files[] = $zip->getNameIndex($i);
+            }
+
+            $files = array_diff($files, static::$DO_NOT_OVERWRITE);
+
+            $zip->extractTo('.', $files);
             $zip->close();
         } else {
             echo "'$zipfile' is not a valid ZIP archive.\n";
