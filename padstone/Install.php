@@ -5,10 +5,19 @@ use ZipArchive;
 
 class Install
 {
-    const DO_NOT_OVERWRITE = array(
-        'craft/config/general.php',
-        'craft/config/db.php'
-    );
+    /**
+     * This function returns an array of files that should not be extracted
+     * from the craft.zip file.
+     *
+     * @return array
+     */
+    static private function skippedFiles()
+    {
+        return array(
+            'craft/config/general.php',
+            'craft/config/db.php'
+        );
+    }
 
     static public function run()
     {
@@ -36,7 +45,7 @@ class Install
                 $files[] = $zip->getNameIndex($i);
             }
 
-            $files = array_diff($files, static::$DO_NOT_OVERWRITE);
+            $files = array_diff($files, static::skippedFiles());
 
             $zip->extractTo('.', $files);
             $zip->close();
