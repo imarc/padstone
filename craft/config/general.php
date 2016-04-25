@@ -10,6 +10,10 @@
 
 $env = preg_replace('#^.*/#', '', dirname(CRAFT_BASE_PATH));
 
+if (strpos(CRAFT_BASE_PATH, '/vagrant/') === 0) {
+    $env = 'dev';
+}
+
 $config = [
 	'generateTransformsBeforePageLoad' => true,
 	'maxUploadFileSize' => 104857600,

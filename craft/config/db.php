@@ -10,6 +10,10 @@
 
 $env = preg_replace('#^.*/#', '', dirname(CRAFT_BASE_PATH));
 
+if (strpos(CRAFT_BASE_PATH, '/vagrant/') === 0) {
+    $env = 'dev';
+}
+
 $config = [
     'server'      => 'localhost',
     'user'        => 'web',
@@ -33,7 +37,7 @@ switch ($env) {
 		]);
 		break;
 	default:
-		die("Unfortunately, the server is misconfigured. Please review the configuration in config/general.php.");
+		die("Unfortunately, the server is misconfigured. Please review the configuration in config/db.php.");
 }
 
 return $config;
