@@ -28,8 +28,8 @@ fields:
         multiline: ''
         initialRows: '4'
       context: global
-  News:
-    newsContent:
+  Blog:
+    blogContent:
       name: Content
       required: false
       instructions: ''
@@ -43,10 +43,10 @@ fields:
         purifyHtml: '1'
         columnType: text
       context: global
-    newsDescription:
+    blogDescription:
       name: Description
       required: false
-      instructions: 'A short description of this news article to be displayed on listings.'
+      instructions: 'A short description of this blog article to be displayed on listings.'
       translatable: '0'
       type: RichText
       settings:
@@ -398,29 +398,29 @@ plugins:
       instagram_user_id: ''
       social_cache_expiration: 1200
 sections:
-  news:
-    name: News
+  blog:
+    name: Blog
     type: channel
     hasUrls: '1'
-    template: news/_entry
+    template: blog/_entry
     maxLevels: null
     enableVersioning: '1'
     locales:
       en_us:
         enabledByDefault: '1'
-        urlFormat: 'news/{slug}'
+        urlFormat: 'blog/{slug}'
         nestedUrlFormat: null
     entryTypes:
-      newsArticle:
-        name: 'News Article'
+      blogArticle:
+        name: 'Blog Article'
         hasTitleField: '1'
         titleLabel: Title
         titleFormat: null
         fieldLayout:
           tabs:
-            News:
-              newsDescription: '1'
-              newsContent: '1'
+            Blog:
+              blogDescription: '1'
+              blogContent: '1'
             Meta:
               metaDescription: '0'
               metaTitle: '0'
