@@ -1,0 +1,480 @@
+locales:
+  - en_us
+assetSources: {  }
+fields:
+  Default: {  }
+  Meta:
+    metaDescription:
+      name: 'Meta Description'
+      required: false
+      instructions: 'If provided, this field will be used as the meta description for this landing page or the detail page for this entry.'
+      translatable: '0'
+      type: PlainText
+      settings:
+        placeholder: ''
+        maxLength: '265'
+        multiline: ''
+        initialRows: '4'
+      context: global
+    metaTitle:
+      name: Title
+      required: false
+      instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry.'
+      translatable: '0'
+      type: PlainText
+      settings:
+        placeholder: ''
+        maxLength: '80'
+        multiline: ''
+        initialRows: '4'
+      context: global
+  News:
+    newsContent:
+      name: Content
+      required: false
+      instructions: ''
+      translatable: '0'
+      type: RichText
+      settings:
+        configFile: ''
+        availableAssetSources: '*'
+        availableTransforms: '*'
+        cleanupHtml: '1'
+        purifyHtml: '1'
+        columnType: text
+      context: global
+    newsDescription:
+      name: Description
+      required: false
+      instructions: 'A short description of this news article to be displayed on listings.'
+      translatable: '0'
+      type: RichText
+      settings:
+        configFile: Simple.json
+        availableAssetSources: '*'
+        availableTransforms: '*'
+        cleanupHtml: '1'
+        purifyHtml: '1'
+        columnType: text
+      context: global
+  Pages:
+    pageStructuredContent:
+      name: 'Structured Content'
+      required: false
+      instructions: ''
+      translatable: '0'
+      type: Matrix
+      settings:
+        maxBlocks: null
+      context: global
+      blockTypes:
+        fullWidth:
+          name: 'Full Width'
+          fields:
+            blockTitle:
+              name: Title
+              required: '0'
+              instructions: 'This is an optional title field for this block.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            blockContent:
+              name: Content
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+        twoColumns:
+          name: 'Two Columns'
+          fields:
+            blockTitle:
+              name: Title
+              required: '0'
+              instructions: 'This is an optional title field for this block.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            leftContent:
+              name: 'Left Content'
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+            rightContent:
+              name: 'Right Content'
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+        threeColumns:
+          name: 'Three Columns'
+          fields:
+            blockTitle:
+              name: Title
+              required: '0'
+              instructions: 'This is an optional title field for this block.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            leftContent:
+              name: 'Left Content'
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+            centerContent:
+              name: 'Center Content'
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+            rightContent:
+              name: 'Right Content'
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+        videoWithText:
+          name: 'Video with Text'
+          fields:
+            blockTitle:
+              name: Title
+              required: '0'
+              instructions: 'This is an optional title field for this block.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            video:
+              name: Video
+              required: '1'
+              instructions: 'Put video embed code into this field.'
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: ''
+                purifyHtml: ''
+                columnType: text
+            position:
+              name: Position
+              required: '1'
+              instructions: 'Specify how you would like the video positioned relative to the content.'
+              translatable: '0'
+              type: PositionSelect
+              settings:
+                options:
+                  - left
+                  - right
+            blockContent:
+              name: Content
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+        imageWithText:
+          name: 'Image with Text'
+          fields:
+            blockTitle:
+              name: Title
+              required: '0'
+              instructions: 'This is an optional title field for this block.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            image:
+              name: Image
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: Assets
+              settings:
+                useSingleFolder: ''
+                defaultUploadLocationSubpath: ''
+                singleUploadLocationSubpath: ''
+                restrictFiles: ''
+                limit: '1'
+                viewMode: large
+                selectionLabel: 'Add the image'
+            position:
+              name: Position
+              required: '1'
+              instructions: 'Specify how you would like the image positioned relative to the content.'
+              translatable: '0'
+              type: PositionSelect
+              settings:
+                options:
+                  - left
+                  - right
+            blockContent:
+              name: Content
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: ''
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+        testimonial:
+          name: Testimonial
+          fields:
+            quote:
+              name: Quote
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: RichText
+              settings:
+                configFile: Simple.json
+                availableAssetSources: '*'
+                availableTransforms: '*'
+                cleanupHtml: '1'
+                purifyHtml: '1'
+                columnType: text
+            person:
+              name: Person
+              required: '1'
+              instructions: ''
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+            jobTitle:
+              name: 'Job Title'
+              required: '0'
+              instructions: 'Optionally you can provide the job title or company for this person.'
+              translatable: '0'
+              type: PlainText
+              settings:
+                placeholder: ''
+                maxLength: ''
+                multiline: ''
+                initialRows: '4'
+  Team:
+    teamBio:
+      name: Bio
+      required: false
+      instructions: ''
+      translatable: '0'
+      type: RichText
+      settings:
+        configFile: ''
+        availableAssetSources: '*'
+        availableTransforms: '*'
+        cleanupHtml: '1'
+        purifyHtml: '1'
+        columnType: text
+      context: global
+    teamPhoto:
+      name: Photo
+      required: false
+      instructions: ''
+      translatable: '0'
+      type: Assets
+      settings:
+        useSingleFolder: ''
+        defaultUploadLocationSubpath: ''
+        singleUploadLocationSubpath: ''
+        restrictFiles: ''
+        limit: '1'
+        viewMode: list
+        selectionLabel: 'Add their photo'
+      context: global
+globalSets: {  }
+plugins:
+  Boost:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      vcsUrl: ''
+      vcsCache: /var/www/example.com/git_cache
+      dbName: example_com
+      envRoot: /var/www/example.com
+      vcsDirs: 'craft/plugins craft/templates public craft/config'
+      canonicalEnv: dev
+  GoogleCustomSearch:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      searchEngineId: ''
+      apiKey: ''
+  Reroute:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
+  Sass:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
+  Social:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      facebook_app_id: ''
+      facebook_app_secret: ''
+      facebook_user_id: ''
+      twitter_screen_name: ''
+      twitter_consumer_key: ''
+      twitter_consumer_secret: ''
+      wordpress_rss_feed: ''
+      instagram_access_token: ''
+      instagram_user_id: ''
+      social_cache_expiration: 1200
+sections:
+  news:
+    name: News
+    type: channel
+    hasUrls: '1'
+    template: news/_entry
+    maxLevels: null
+    enableVersioning: '1'
+    locales:
+      en_us:
+        enabledByDefault: '1'
+        urlFormat: 'news/{slug}'
+        nestedUrlFormat: null
+    entryTypes:
+      newsArticle:
+        name: 'News Article'
+        hasTitleField: '1'
+        titleLabel: Title
+        titleFormat: null
+        fieldLayout:
+          tabs:
+            News:
+              newsDescription: '1'
+              newsContent: '1'
+            Meta:
+              metaDescription: '0'
+              metaTitle: '0'
+  pages:
+    name: Pages
+    type: structure
+    hasUrls: '1'
+    template: pages/_entry
+    maxLevels: null
+    enableVersioning: '1'
+    locales:
+      en_us:
+        enabledByDefault: '1'
+        urlFormat: '{slug}'
+        nestedUrlFormat: '{parent.uri}/{slug}'
+    entryTypes:
+      page:
+        name: Page
+        hasTitleField: '1'
+        titleLabel: Title
+        titleFormat: null
+        fieldLayout:
+          tabs:
+            Pages:
+              pageStructuredContent: '1'
+            Meta:
+              metaDescription: '0'
+              metaTitle: '0'
+  team:
+    name: Team
+    type: structure
+    hasUrls: '0'
+    template: null
+    maxLevels: '1'
+    enableVersioning: '1'
+    locales:
+      en_us:
+        enabledByDefault: '1'
+        urlFormat: null
+        nestedUrlFormat: null
+    entryTypes:
+      teamMember:
+        name: 'Team Member'
+        hasTitleField: '1'
+        titleLabel: Name
+        titleFormat: null
+        fieldLayout:
+          tabs:
+            Team:
+              teamPhoto: '0'
+              teamBio: '1'
+userGroups: {  }
+users:
+  fieldLayout:
+    fields: {  }
+elementIndexSettings: {  }
+pluginData: {  }
