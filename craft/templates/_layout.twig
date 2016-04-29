@@ -1,0 +1,53 @@
+{% set body_id = path_id(0, 3) ?: 'home' %}
+{% if entry is defined %}
+    {% if title is not defined %}
+        {% if entry.metaTitle %}
+            {% set title = entry.metaTitle %}
+        {% else %}
+            {% set title = entry.title %}
+        {% endif %}
+        {% set metaDescription = entry.metaDescription %}
+    {% endif %}
+{% endif %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% if title is defined %}{{ title }} – {% endif %}{{ siteName }}</title>
+        {% if metaDescription is defined and metaDescription != "" %}
+            <meta name="description" content="{{ metaDescription }}" />
+        {% endif %}
+        <meta name="web_author" content="Imarc, A Digital Agency | Boston + Silicon Valley | more info at imarc.com" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ craft.sass.link("/css/styles.scss") }}" media="all" />
+    </head>
+    <body class="{{ path_classes() }}" id="{{ body_id }}">
+        <header class="primary" role="banner">
+            <div class="container">
+                <div class="branding">
+                    <h1>
+                        <a href="/">{{ siteName }}</a>
+                    </h1>
+                </div>
+                <nav aria-label="utility" class="utility">
+                    <ul>
+                    </ul>
+                </nav>
+            </div>
+            <nav aria-label="primary" class="primary">
+                <ul class="container">
+                </ul>
+            </nav>
+        </header>
+
+        <div class="torso">
+            {% block content %}{% endblock %}
+        </div>
+
+        <footer class="primary" role="contentinfo">
+            <div class="container">
+                <div class="copyright">© {{ now.year }} {{ siteName }}.</div>
+            </div>
+        </footer>
+    </body>
+</html>

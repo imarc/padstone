@@ -1,0 +1,78 @@
+{##
+ # The pagination macro outputs pagination links. It generates markup like
+ #
+ # <nav class="pagination">
+ #     <ul>
+ #         <li class="prev"><a href="http://example.com/blog/p5">Previous</a></li>
+ #         <li><a href="http://example.com/blog">1</a></li>
+ #         <li class="abridged">…</li>
+ #         <li><a href="http://example.com/blog/p5">5</a></li>
+ #         <li class="current">6</li>
+ #         <li><a href="http://example.com/blog/p7">7</a></li>
+ #         <li class="abridged">…</li>
+ #         <li><a href="http://example.com/blog/p10">10</a></li>
+ #         <li class="next"><a href="http://example.com/blog/p7">Next</a></li>
+ #     <ul>
+ # </nav>
+ #
+ # @param paginate
+ #    This should be a paginate variable, as created by Craft's {% paginate %}
+ #    tag.
+ # @param radius
+ #    This deterines how many links for pages immediately before and after the
+ #    current page there should be. For example:
+ #        at 1:     PREV | 1 | … | 5 | *6* | 7 | … | 20 | NEXT
+ #        at 2:     PREV | 1 | … | 4 | 5 | *6* | 7 | 8 | … | 20 | NEXT
+ #        at 3: PREV | 1 | 2 | 3 | 4 | 5 | *6* | 7 | 8 | 9 | … | 20 | NEXT
+ #}
+{% macro pagination(paginate, radius) %}
+    <nav class="pagination">
+        <ul>
+            {% set startRange = paginate.currentPage - radius %}
+            {% if startRange < 1 %}
+                {% set startRange = 1 %}
+            {% endif %}
+
+            {% set endRange = startRange + radius + radius %}
+            {% if endRange > paginate.totalPages %}
+                {% set endRange = paginate.totalPages %}
+            {% endif %}
+
+            {# if the startRange is 3, rather than showing '1 … 3' add 2 to the range. #}
+            {% if startRange == 3 %}
+                {% set startRange = 2 %}
+            {% endif %}
+
+            {# if the endRange is exactly 2 short, show the number instead of …. #}
+            {% if endRange == paginate.totalPages - 2 %}
+                {% set endRange = paginate.totalPages - 1 %}
+            {% endif %}
+
+            {# If not on the first page, show a 'previous' link #}
+            {% if paginate.currentPage > 1 %}<li class="prev"><a href="{{ paginate.prevUrl }}">Previous</a></li>{% endif %}
+
+            {# If not on the first page, show a link to the first page #}
+            {% if startRange > 1 %}<li><a href="{{ paginate.firstUrl }}">1</a></li>{% endif %}
+
+            {% if startRange > 3 %}<li class="abridged">…</li>{% endif %}
+
+            {# show links #}
+            {% for page, url in paginate.getRangeUrls(startRange, endRange) %}
+                {% if page == paginate.currentPage %}
+                    <li class="current">{{ paginate.currentPage }}</li>
+                {% else %}
+                    <li><a href="{{ url }}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            {# if there's a jump between the end range and last page, show an ellipsis #}
+            {% if endRange < paginate.totalPages - 1 %}<li class="abridged">…</li>{% endif %}
+
+            {# Show the last page if not already shown #}
+            {% if endRange < paginate.totalPages %}<li><a href="{{ paginate.lastUrl }}">{{ paginate.totalPages }}</a></li>{% endif %}
+
+            {# show a next link if not on the last page #}
+            {% if paginate.currentPage < paginate.totalPages %}<li class="next"><a href="{{ paginate.nextUrl }}">Next</a></li>{% endif %}
+        </ul>
+    </nav>
+{% endmacro %}

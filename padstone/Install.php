@@ -11,17 +11,24 @@ class Install
      *
      * @return array
      */
-    static private function skippedFiles()
+    private static function skippedFiles()
     {
         return array(
             'craft/config/db.php',
             'craft/config/general.php',
+            'craft/templates/404.html',
+            'craft/templates/_layout.html',
+            'craft/templates/index.html',
+            'craft/templates/news',
+            'craft/templates/news/_entry.html',
+            'craft/templates/news/index.html',
+            'craft/templates/web.config',
             'public/htaccess',
             'public/web.config',
         );
     }
 
-    static public function run()
+    public static function run()
     {
         $install = new Install();
     }

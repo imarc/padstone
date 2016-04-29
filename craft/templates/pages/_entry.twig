@@ -1,0 +1,64 @@
+{% extends "_layout" %}
+{% block torso %}
+    {% for block in entry.pageStructuredContent %}
+        <section class="{{ block.type }}">
+            <div class="container">
+                {% if block.type != "testimonial" and block.blockTitle %}
+                    <h2>{{ block.blockTitle }}</h2>
+                {% endif %}
+                {% switch block.type %}
+                    {% case "fullWidth" %}
+                        {{ block.blockContent }}
+                    {% case "twoColumns" %}
+                        <div class="columns">
+                            <div>{{ block.leftContent }}</div>
+                            <hr />
+                            <div>{{ block.rightContent }}</div>
+                        </div>
+                    {% case "threeColumns" %}
+                        <div class="columns">
+                            <div>{{ block.leftContent }}</div>
+                            <hr />
+                            <div>{{ block.centerContent }}</div>
+                            <hr />
+                            <div>{{ block.rightContent }}</div>
+                        </div>
+                    {% case "videoWithText" %}
+                        <div class="columns">
+                            {% if block.position == "left" %}
+                                <div class="video">{{ block.video }}</div>
+                                <hr />
+                                <div>{{ block.blockContent }}</div>
+                            {% else %}
+                                <div>{{ block.blockContent }}</div>
+                                <hr />
+                                <div class="video">{{ block.video }}</div>
+                            {% endif %}
+                        </div>
+                    {% case "imageWithText" %}
+                        <div class="columns">
+                            {% if block.position == "left" %}
+                                <div class="image">{{ block.image }}</div>
+                                <hr />
+                                <div>{{ block.blockContent }}</div>
+                            {% else %}
+                                <div>{{ block.blockContent }}</div>
+                                <hr />
+                                <div class="image">{{ block.image }}</div>
+                            {% endif %}
+                        </div>
+                    {% case "testimonial" %}
+                        <blockquote>
+                            <p class="quote">{{ block.quote }}</p>
+                            <footer>
+                                <cite>
+                                    <div class="name">{{ block.person }}</div>
+                                    <div class="title">{{ block.jobTitle }}</div>
+                                </cite>
+                            </footer>
+                        </blockquote>
+                {% endswitch %}
+            </div>
+        </section>
+    {% endfor %}
+{% endblock %}
