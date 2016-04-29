@@ -29,11 +29,15 @@ The following plugins are currently included and installed via [composer/install
 
 * [Boost](https://github.com/imarc/craft-boost)
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
+* [Kindling](https://github.com/imarc/craft-kindling)
 * [Reroute](https://github.com/itmundi/reroute)
 * [Sass](https://github.com/imarc/craft-sass)
 * [Social](https://github.com/imarc/craft-social)
 
 
+### Macros
+
+There is a `_macros.twig` file that (so far) just provides a macro for generating pagination.
 
 
 Usage
@@ -67,10 +71,16 @@ At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` d
 Changelog
 ---------
 
+### 1.2.0
+
+* Added [craft-kindling](https://github.com/imarc/craft-kindling), and swapped
+  out the templates included in the ZIP for some provided by Padstone.
+
 
 ### 1.1.0
 
-* Added [itmundi/schematic](https://github.com/itmundi/schematic) and a basic schema that includes a sections for Pages, Blog, and Team.
+* Added [itmundi/schematic](https://github.com/itmundi/schematic) and a basic
+  schema that includes a sections for Pages, Blog, and Team.
 
 ### 1.0.2
 
