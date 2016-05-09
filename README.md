@@ -1,8 +1,22 @@
-Padstone
-========
+Padstone (Docker Branch)
+========================
 
 Padstone is a start for using Craft CMS that works with `composer create-project` and [composer/installers](https://github.com/composer/installers) to streamline initial site creation.
 
+Usage
+-----
+
+Install padstone by running the following [composer](https://getcomposer.org/) command in a terminal:
+
+```sh
+composer create-project imarc/padstone [folder] dev-docker
+```
+
+Go into the project folder you just create, and then bootstrap your entire development environment with:
+
+```sh
+docker-compose up
+```
 
 What's Included
 ---------------
@@ -39,33 +53,6 @@ The following plugins are currently included and installed via [composer/install
 
 There is a `_macros.twig` file that (so far) just provides a macro for generating pagination.
 
-
-Usage
------
-
-Start out with Padstone by running the following [composer](https://getcomposer.org/) command in a terminal:
-
-```sh
-composer create-project imarc/padstone [folder]
-```
-
-This command downloads Padstone, Craft, and some hand-selected Craft plugins, and puts everything in the right place.
-
-At this point, you'll need to [Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) as you would a normal Craft install.
-
-Next, you should edit both `craft/config/general.php` and `craft/config/db.php` to match your site. At the minimum, you should **replace all the places it says example.com** with your site's domain.
-
-Now, you can run the installer by going to http://example.com/admin (except for your domain.)
-
-Lastly, in a terminal on the server in your new folder, run
-
-```sh
-vendor/bin/schematic import
-```
-
-This imports the schema.yml file, creating fields, enabling the plugins, etc.
-
-At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` directory, or the `craft/config/schema.yml` file.
 
 
 Changelog
