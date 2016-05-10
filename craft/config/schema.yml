@@ -379,6 +379,10 @@ plugins:
     isInstalled: true
     isEnabled: true
     settings: {  }
+  Kindling:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
   Sass:
     isInstalled: true
     isEnabled: true
