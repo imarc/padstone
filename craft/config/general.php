@@ -14,7 +14,7 @@ $config = [
     'devMode' => true,
     'testToEmailAddress' => 'test+vestmark.com@imarc.com',
     'useCompressedJs' => false,
-    'siteUrl' => $_SERVER['HTTP_HOST']
+    'siteUrl' => $_SERVER['HTTPS'] ? 'https://' : 'http://'
 ];
 
 return $config;
