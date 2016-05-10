@@ -9,11 +9,12 @@
  */
 
 $config = [
-	'omitScriptNameInUrls' => true,
-	'maxUploadFileSize' => 104857600,
-	'devMode' => true,
-	'testToEmailAddress' => 'test+vestmark.com@imarc.com',
-	'useCompressedJs' => false,
+    'omitScriptNameInUrls' => true,
+    'maxUploadFileSize' => 104857600,
+    'devMode' => true,
+    'testToEmailAddress' => 'test+vestmark.com@imarc.com',
+    'useCompressedJs' => false,
+    'siteUrl' => $_SERVER['HTTP_HOST']
 ];
 
 return $config;
