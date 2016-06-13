@@ -35,7 +35,7 @@ class Install
 
     public function __construct()
     {
-        $zip_file = 'craft_' . date('c') . '.zip';
+        $zip_file = 'craft_latest.zip';
 
         echo "Downloading Craft from https://craftcms.com/latest.zip...\n";
 
