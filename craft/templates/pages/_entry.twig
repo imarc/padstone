@@ -38,13 +38,17 @@
                     {% case "imageWithText" %}
                         <div class="columns">
                             {% if block.position == "left" %}
-                                <div class="image">{{ block.image }}</div>
+                                <div class="image">
+                                    <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                </div>
                                 <hr />
                                 <div>{{ block.blockContent }}</div>
                             {% else %}
                                 <div>{{ block.blockContent }}</div>
                                 <hr />
-                                <div class="image">{{ block.image }}</div>
+                                <div class="image">
+                                    <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                </div>
                             {% endif %}
                         </div>
                     {% case "testimonial" %}
