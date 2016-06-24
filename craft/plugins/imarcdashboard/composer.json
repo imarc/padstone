@@ -1,0 +1,18 @@
+{
+    "name": "imarc/imarcdashboard",
+    "description": "Imarc fork of the One Dashboard Plugin for Craft CMS",
+    "authors": [
+        {
+            "name": "Bob Olde Hampsink",
+            "email": "b.oldehampsink@itmundi.nl"
+        },
+        {
+            "name": "Kevin Hamer",
+            "email": "kevin@imarc.com"
+        }
+    ],
+    "type": "craft-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

@@ -2,32 +2,6 @@ locales:
   - en_us
 assetSources: {  }
 fields:
-  Default: {  }
-  Meta:
-    metaDescription:
-      name: 'Meta Description'
-      required: false
-      instructions: 'If provided, this field will be used as the meta description for this landing page or the detail page for this entry.'
-      translatable: '0'
-      type: PlainText
-      settings:
-        placeholder: ''
-        maxLength: '265'
-        multiline: ''
-        initialRows: '4'
-      context: global
-    metaTitle:
-      name: Title
-      required: false
-      instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry.'
-      translatable: '0'
-      type: PlainText
-      settings:
-        placeholder: ''
-        maxLength: '80'
-        multiline: ''
-        initialRows: '4'
-      context: global
   Blog:
     blogContent:
       name: Content
@@ -56,6 +30,51 @@ fields:
         cleanupHtml: '1'
         purifyHtml: '1'
         columnType: text
+      context: global
+  Default:
+    body:
+      name: Body
+      required: false
+      instructions: null
+      translatable: '1'
+      type: RichText
+      settings:
+        configFile: Standard.json
+        columnType: text
+      context: global
+    tags:
+      name: Tags
+      required: false
+      instructions: null
+      translatable: '0'
+      type: Tags
+      settings:
+        source: 'taggroup:default'
+      context: global
+  Meta:
+    metaDescription:
+      name: 'Meta Description'
+      required: false
+      instructions: 'If provided, this field will be used as the meta description for this landing page or the detail page for this entry.'
+      translatable: '0'
+      type: PlainText
+      settings:
+        placeholder: ''
+        maxLength: '265'
+        multiline: ''
+        initialRows: '4'
+      context: global
+    metaTitle:
+      name: Title
+      required: false
+      instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry.'
+      translatable: '0'
+      type: PlainText
+      settings:
+        placeholder: ''
+        maxLength: '80'
+        multiline: ''
+        initialRows: '4'
       context: global
   Pages:
     pageStructuredContent:
@@ -369,16 +388,30 @@ plugins:
       envRoot: /var/www/example.com
       vcsDirs: 'craft/plugins craft/templates public craft/config'
       canonicalEnv: dev
+  FieldManager:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      cpSectionEnabled: true
   GoogleCustomSearch:
     isInstalled: true
     isEnabled: true
     settings:
       searchEngineId: ''
       apiKey: ''
-  Reroute:
+  ImarcDashboard:
     isInstalled: true
     isEnabled: true
     settings: {  }
+  Kindling:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
+  Retour:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      pluginNameOverride: 'Redirect Manager'
   Sass:
     isInstalled: true
     isEnabled: true
@@ -397,6 +430,10 @@ plugins:
       instagram_access_token: ''
       instagram_user_id: ''
       social_cache_expiration: 1200
+  TagManager:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
 sections:
   blog:
     name: Blog
@@ -424,6 +461,51 @@ sections:
             Meta:
               metaDescription: '0'
               metaTitle: '0'
+  homepage:
+    name: Homepage
+    type: single
+    hasUrls: '1'
+    template: index
+    maxLevels: null
+    enableVersioning: '1'
+    locales:
+      en_us:
+        enabledByDefault: '1'
+        urlFormat: __home__
+        nestedUrlFormat: null
+    entryTypes:
+      homepage:
+        name: Homepage
+        hasTitleField: '1'
+        titleLabel: Title
+        titleFormat: null
+        fieldLayout:
+          tabs:
+            Content:
+              body: '1'
+  news:
+    name: News
+    type: channel
+    hasUrls: '1'
+    template: news/_entry
+    maxLevels: null
+    enableVersioning: '1'
+    locales:
+      en_us:
+        enabledByDefault: '1'
+        urlFormat: 'news/{postDate.year}/{slug}'
+        nestedUrlFormat: null
+    entryTypes:
+      news:
+        name: News
+        hasTitleField: '1'
+        titleLabel: Title
+        titleFormat: null
+        fieldLayout:
+          tabs:
+            Content:
+              body: '1'
+              tags: '0'
   pages:
     name: Pages
     type: structure
@@ -478,3 +560,9 @@ users:
     fields: {  }
 elementIndexSettings: {  }
 pluginData: {  }
+categoryGroups: {  }
+tagGroups:
+  default:
+    name: Default
+    fieldLayout:
+      fields: {  }

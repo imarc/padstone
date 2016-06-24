@@ -1,0 +1,45 @@
+{% import "_includes/forms" as forms %}
+{% if craft.request.getPost('sent_successfully') %}
+    <p class="thanks">
+        Successfully sent; you'll hear from us soon.
+    </p>
+{% endif %}
+<form method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+    <input type="hidden" name="action" value="imarcDashboard/supportInfo/contactSupport" />
+    {% set fromEmail = currentUser.email %}
+
+    {{ forms.textField({
+        label: "Your Email"|t,
+        class: 'fromEmail',
+        name: 'fromEmail',
+        value: fromEmail
+    }) }}
+
+    {{ forms.textareaField({
+        label: "Message"|t,
+        class: 'message',
+        name: 'message',
+        placeholder: "What can we help with?"|t,
+        rows: 8
+    }) }}
+
+    {{ forms.fileField({
+        label: "Attach a file?"|t,
+        class: 'attachFile',
+        name: 'attachFile',
+    }) }}
+
+    <div class="buttons last">
+        <input type="submit" class="btn submit" value="{{ 'Send'|t }}">
+        <div class="spinner hidden"></div>
+    </div>
+
+    {% set email %}<a href="mailto:support@imarc.com">support@imarc.com</a>{% endset %}
+    <p class="error hidden">{{ "Couldn’t send your message. Please email it to {email} instead."|t({ email: email })|raw }}</p>
+
+    <p>
+        You can always send us an email at
+        <a href="mailto:support@imarc.com">support@imarc.com</a>
+        <br />or call us at <a href="tel:9784628848">(978)-462-8848</a>.
+    </p>
+</form>
