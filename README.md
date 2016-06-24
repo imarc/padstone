@@ -30,9 +30,11 @@ The following plugins are currently included and installed via [composer/install
 * [Boost](https://github.com/imarc/craft-boost)
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
 * [Kindling](https://github.com/imarc/craft-kindling)
-* [Reroute](https://github.com/itmundi/reroute)
+* [Retour](https://github.com/nystudio107/retour)
 * [Sass](https://github.com/imarc/craft-sass)
 * [Social](https://github.com/imarc/craft-social)
+* [Field Manager](https://github.com/engram-design/FieldManager)
+* [Tag Manager](https://github.com/boboldehampsink/tagmanager)
 
 
 ### Macros
@@ -71,11 +73,20 @@ At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` d
 Changelog
 ---------
 
+### 1.3.0
+
+* Added [Retour](https://github.com/nystudio107/retour), replacing Reroute for
+  handling redirects. Retour provides more features, allows for regex in
+  redirects, and provides a statistics widget for the dashboard.
+* Removed Reroute
+* Added [Field Manager](https://github.com/engram-design/FieldManager).
+* Added [Tag Manager](https://github.com/boboldehampsink/tagmanager), primarily
+  because stock Craft doesn't seem to provide a away to delete tags.
+
 ### 1.2.0
 
 * Added [craft-kindling](https://github.com/imarc/craft-kindling), and swapped
   out the templates included in the ZIP for some provided by Padstone.
-
 
 ### 1.1.0
 
