@@ -378,6 +378,10 @@ fields:
       context: global
 globalSets: {  }
 plugins:
+  BetterRedactor:
+    isInstalled: false
+    isEnabled: true
+    settings: {  }
   Boost:
     isInstalled: true
     isEnabled: true
