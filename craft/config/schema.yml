@@ -39,7 +39,7 @@ fields:
       translatable: '1'
       type: RichText
       settings:
-        configFile: Standard.json
+        configFile: ''
         columnType: text
       context: global
     tags:
