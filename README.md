@@ -27,6 +27,7 @@ Padstone includes the following:
 
 The following plugins are currently included and installed via [composer/installers](https://github.com/composer/installers) and are referenced in the composer.json file.
 
+* [Better Redactor](https://github.com/imarc/craft-betterredactor)
 * [Boost](https://github.com/imarc/craft-boost)
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
 * [Kindling](https://github.com/imarc/craft-kindling)
@@ -72,6 +73,10 @@ At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` d
 
 Changelog
 ---------
+
+### 1.4.0
+
+* Added [Better Redactor](https://github.com/imarc/craft-betterreddactor)
 
 ### 1.3.0
 
