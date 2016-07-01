@@ -8,7 +8,7 @@ fields:
       required: false
       instructions: ''
       translatable: '0'
-      type: RichText
+      type: BetterRedactor
       settings:
         configFile: ''
         availableAssetSources: '*'
@@ -22,7 +22,7 @@ fields:
       required: false
       instructions: 'A short description of this blog article to be displayed on listings.'
       translatable: '0'
-      type: RichText
+      type: BetterRedactor
       settings:
         configFile: Simple.json
         availableAssetSources: '*'
@@ -37,7 +37,7 @@ fields:
       required: false
       instructions: null
       translatable: '1'
-      type: RichText
+      type: BetterRedactor
       settings:
         configFile: ''
         columnType: text
@@ -106,7 +106,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -133,7 +133,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -146,7 +146,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -173,7 +173,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -186,7 +186,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -199,7 +199,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -226,7 +226,7 @@ fields:
               required: '1'
               instructions: 'Put video embed code into this field.'
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -249,7 +249,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -300,7 +300,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: ''
                 availableAssetSources: '*'
@@ -316,7 +316,7 @@ fields:
               required: '1'
               instructions: ''
               translatable: '0'
-              type: RichText
+              type: BetterRedactor
               settings:
                 configFile: Simple.json
                 availableAssetSources: '*'
@@ -352,7 +352,7 @@ fields:
       required: false
       instructions: ''
       translatable: '0'
-      type: RichText
+      type: BetterRedactor
       settings:
         configFile: ''
         availableAssetSources: '*'
@@ -379,7 +379,7 @@ fields:
 globalSets: {  }
 plugins:
   BetterRedactor:
-    isInstalled: false
+    isInstalled: true
     isEnabled: true
     settings: {  }
   Boost:
