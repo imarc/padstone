@@ -1,6 +1,16 @@
 locales:
   - en_us
-assetSources: {  }
+assetSources:
+  images:
+    type: Local
+    name: Images
+    sortOrder: '1'
+    settings:
+      path: ../public/writable/images/
+      publicURLs: '1'
+      url: '{baseAssetUrl}/writable/images/'
+    fieldLayout:
+      fields: {  }
 fields:
   Blog:
     blogContent:
