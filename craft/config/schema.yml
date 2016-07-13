@@ -8,7 +8,7 @@ assetSources:
     settings:
       path: ../public/writable/images/
       publicURLs: '1'
-      url: '{baseAssetUrl}/writable/images/'
+      url: '/writable/images/'
     fieldLayout:
       fields: {  }
 fields:
