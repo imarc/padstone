@@ -1,1 +1,10 @@
+/craft/app
+/craft/config/redactor
+/craft/config/routes.php
+/craft/config/web.config
+/craft/plugins
+/craft/storage
+/public/index.php
+craft_latest.zip
+/node_modules
 /vendor
