@@ -17,7 +17,7 @@
         "imarc/craft-sass": "^1.0.0",
         "imarc/craft-social": "^1.0.0",
         "imarc/craft-betterredactor": "0.*",
-        "itmundi/schematic": "^3.2",
+        "itmundi/schematic": "^3.4",
         "boboldehampsink/tagmanager": "^0.2.0",
         "nystudio107/retour": "^1.0"
     },

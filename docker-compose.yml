@@ -12,7 +12,6 @@ services:
   php:
     image: imarcagency/php-apache:latest
     environment:
-      - "BOOTSTRAP=/bootstrap.sh"
       - "CRAFT_ENV=local"
       - "CRAFT_USERNAME=admin"
       - "CRAFT_EMAIL=info@imarc.com"
@@ -27,4 +26,4 @@ services:
       - db
     volumes:
       - "./:/var/www/"
-      - "./docker-bootstrap.sh:/bootstrap.sh"
+      - "./docker-bootstrap.sh:/opt/bootstrap"
