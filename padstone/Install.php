@@ -25,6 +25,7 @@ class Install
             'craft/templates/web.config',
             'public/htaccess',
             'public/web.config',
+            'public/index.php'
         );
     }
 

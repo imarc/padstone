@@ -1,13 +1,14 @@
 #!/bin/bash
 set -e
 
+#chown -R docker:www-data
+#chmod -R 775 craft
+
 # if initialized don't run schematic
-if [ -f /initialized ]
+if [ -f /tmp/initialized ]
 then
 	exit
 fi
-
-touch /initialized
 
 echo "Waiting for MariaDB to respond..."
 
@@ -21,6 +22,8 @@ export CRAFT_PASSWORD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 6 | head
 
 php /var/www/vendor/bin/schematic import
 
-echo "---------------------------------------------------------"
-echo "Your Craft password is: $CRAFT_PASSWORD". Change it ASAP.
-echo "---------------------------------------------------------"
+echo "---------------------------------------------------------------------------"
+echo "Your Craft credentials are admin/$CRAFT_PASSWORD". Change the password ASAP.
+echo "---------------------------------------------------------------------------"
+
+touch /tmp/initialized

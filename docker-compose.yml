@@ -12,12 +12,12 @@ services:
   php:
     image: imarcagency/php-apache:latest
     environment:
-      - "CRAFT_ENV=local"
       - "CRAFT_USERNAME=admin"
       - "CRAFT_EMAIL=info@imarc.com"
       - "CRAFT_SITENAME=Site"
       - "CRAFT_SITEURL=localhost"
       - "CRAFT_LOCALE=en_us"
+      - "CRAFT_DEVMODE=1"
     ports:
       - "80:80"
     links:

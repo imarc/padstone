@@ -1,0 +1,861 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2e6f76560ffb524cc1dfa53c5106cef1",
+    "content-hash": "8eaabbddeb7958c623fe43f455404e15",
+    "packages": [
+        {
+            "name": "boboldehampsink/tagmanager",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boboldehampsink/tagmanager.git",
+                "reference": "af657182aef14d419fd8874240e12dc4c1ddebdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boboldehampsink/tagmanager/zipball/af657182aef14d419fd8874240e12dc4c1ddebdd",
+                "reference": "af657182aef14d419fd8874240e12dc4c1ddebdd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Bob Olde Hampsink",
+                    "email": "b.oldehampsink@itmundi.nl"
+                }
+            ],
+            "description": "Tag Manager plugin for Craft CMS",
+            "time": "2015-07-30 12:27:56"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "Plentymarkets",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-08-13 20:53:52"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Inflector\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "facebook/php-sdk-v4",
+            "version": "4.0.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/c82611e05596622c9bd7abfa1cea1512d885c95e",
+                "reference": "c82611e05596622c9bd7abfa1cea1512d885c95e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~4.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "abandoned": "facebook/graph-sdk",
+            "time": "2015-04-03 20:31:47"
+        },
+        {
+            "name": "illuminate/contracts",
+            "version": "v5.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/contracts.git",
+                "reference": "f766fc0452d82d545b866a8ad5860b20ccd50763"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/f766fc0452d82d545b866a8ad5860b20ccd50763",
+                "reference": "f766fc0452d82d545b866a8ad5860b20ccd50763",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Contracts\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Contracts package.",
+            "homepage": "https://laravel.com",
+            "time": "2016-08-21 12:37:00"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v5.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "1b4f32dfa799dd8d0e0d11e0aaaf677e2829d6e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/1b4f32dfa799dd8d0e0d11e0aaaf677e2829d6e8",
+                "reference": "1b4f32dfa799dd8d0e0d11e0aaaf677e2829d6e8",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "~1.0",
+                "ext-mbstring": "*",
+                "illuminate/contracts": "5.3.*",
+                "paragonie/random_compat": "~1.4|~2.0",
+                "php": ">=5.6.4"
+            },
+            "replace": {
+                "tightenco/collect": "self.version"
+            },
+            "suggest": {
+                "illuminate/filesystem": "Required to use the composer class (5.2.*).",
+                "symfony/process": "Required to use the composer class (3.1.*).",
+                "symfony/var-dumper": "Required to use the dd function (3.1.*)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Support package.",
+            "homepage": "https://laravel.com",
+            "time": "2016-08-26 17:26:49"
+        },
+        {
+            "name": "imarc/craft-betterredactor",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-betterredactor.git",
+                "reference": "28b76d7e8971bb37c109bc000a85e4d5e9c88119"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-betterredactor/zipball/28b76d7e8971bb37c109bc000a85e4d5e9c88119",
+                "reference": "28b76d7e8971bb37c109bc000a85e4d5e9c88119",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.com"
+                }
+            ],
+            "description": "An improved starting configuration for Redactor II as well as way to add additional plugins.",
+            "homepage": "https://github.com/imarc/craft-betterredactor",
+            "time": "2016-06-30 19:41:17"
+        },
+        {
+            "name": "imarc/craft-boost",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-boost.git",
+                "reference": "9181189e35a2d15818539a5772efe2b83da4e873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-boost/zipball/9181189e35a2d15818539a5772efe2b83da4e873",
+                "reference": "9181189e35a2d15818539a5772efe2b83da4e873",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.com"
+                }
+            ],
+            "description": "A Craft plugin that provides basic deployment.",
+            "homepage": "https://github.com/imarc/craft-boost",
+            "time": "2016-08-22 15:44:28"
+        },
+        {
+            "name": "imarc/craft-googlecustomsearch",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-googlecustomsearch.git",
+                "reference": "b402916485a7d8fe0cba0a5de9833c930791ce58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-googlecustomsearch/zipball/b402916485a7d8fe0cba0a5de9833c930791ce58",
+                "reference": "b402916485a7d8fe0cba0a5de9833c930791ce58",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Collins",
+                    "email": "dan@imarc.com"
+                }
+            ],
+            "description": "A Craft plugin for integrating with Google's Custom Search (and Google's Site Search.)",
+            "homepage": "https://github.com/imarc/craft-googlecustomsearch",
+            "time": "2016-05-16 20:06:16"
+        },
+        {
+            "name": "imarc/craft-kindling",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-kindling.git",
+                "reference": "ee24c11db45e81efac2da26ee2c4fbc2e8130942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-kindling/zipball/ee24c11db45e81efac2da26ee2c4fbc2e8130942",
+                "reference": "ee24c11db45e81efac2da26ee2c4fbc2e8130942",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.com"
+                }
+            ],
+            "description": "A Craft plugin and Twig Extension providing some convienences.",
+            "homepage": "https://github.com/imarc/craft-kindling",
+            "time": "2016-08-15 20:52:12"
+        },
+        {
+            "name": "imarc/craft-sass",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-sass.git",
+                "reference": "d28cfa94f6be008e62997f835ac792667bf4b836"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-sass/zipball/d28cfa94f6be008e62997f835ac792667bf4b836",
+                "reference": "d28cfa94f6be008e62997f835ac792667bf4b836",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "leafo/scssphp": "^0.1.1"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.net"
+                }
+            ],
+            "description": "A Craft plugin that compiles SASS on the server as needed.",
+            "homepage": "https://github.com/imarc/craft-sass",
+            "time": "2016-05-09 17:24:15"
+        },
+        {
+            "name": "imarc/craft-social",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-social.git",
+                "reference": "7c2c28109fc96e1d9d000fc1bcc86966f4c4fb79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-social/zipball/7c2c28109fc96e1d9d000fc1bcc86966f4c4fb79",
+                "reference": "7c2c28109fc96e1d9d000fc1bcc86966f4c4fb79",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "facebook/php-sdk-v4": "4.0.*"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.net"
+                }
+            ],
+            "description": "A Craft plugin that provides integration with a few social networks for use in templates.",
+            "homepage": "https://github.com/imarc/craft-social",
+            "time": "2016-06-24 20:07:49"
+        },
+        {
+            "name": "itmundi/schematic",
+            "version": "3.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itmundi/schematic.git",
+                "reference": "d93bdc4c28ade494d2a79643f40743f8410ec675"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itmundi/schematic/zipball/d93bdc4c28ade494d2a79643f40743f8410ec675",
+                "reference": "d93bdc4c28ade494d2a79643f40743f8410ec675",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5|^7.0",
+                "symfony/yaml": "~2.8"
+            },
+            "bin": [
+                "bin/schematic"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NerdsAndCompany\\Schematic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bart van Gennep",
+                    "email": "b.vangennep@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Bob Olde Hampsink",
+                    "email": "b.oldehampsink@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gijs Stegehuis",
+                    "email": "g.stegehuis@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nick Obermeijer",
+                    "email": "n.obermeijer@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Arjan Kleene",
+                    "email": "a.kleene@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Niek Schmoller",
+                    "email": "n.schmoller@nerds.company",
+                    "homepage": "http://www.nerds.company",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Craft setup and sync tool",
+            "time": "2016-07-19 13:34:08"
+        },
+        {
+            "name": "leafo/scssphp",
+            "version": "v0.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "kherge/box": "~2.5",
+                "phpunit/phpunit": "~3.7",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classmap.php"
+                ],
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "time": "2015-08-23 16:12:31"
+        },
+        {
+            "name": "nystudio107/retour",
+            "version": "1.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/retour.git",
+                "reference": "48e0c479cefe9da791e1884199516ada1b6184e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/retour/zipball/48e0c479cefe9da791e1884199516ada1b6184e2",
+                "reference": "48e0c479cefe9da791e1884199516ada1b6184e2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "craft-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Retour allows you to intelligently redirect legacy URLs, so that you don't lose SEO value when rebuilding & restructuring a website.",
+            "time": "2016-09-01 04:30:24"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2016-04-03 06:00:07"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.8.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "e7540734bad981fe59f8ef14b6fc194ae9df8d9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e7540734bad981fe59f8ef14b6fc194ae9df8d9c",
+                "reference": "e7540734bad981fe59f8ef14b6fc194ae9df8d9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-09-02 01:57:56"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01 10:05:43"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
