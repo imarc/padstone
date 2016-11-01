@@ -9,10 +9,10 @@
  */
 
 $config = [
-    'server' => env('DB_HOST', 'db'),
-    'user' => env('DB_USER', 'craft'),
-    'database' => env('DB_NAME', 'craft'),
-    'password' => env('DB_PASSWORD', 'craft'),
+    'server' => env('DB_HOST'),
+    'user' => env('DB_USER'),
+    'database' => env('DB_NAME'),
+    'password' => env('DB_PASSWORD'),
     'tablePrefix' => env('DB_TABLE_PREFIX', ''),
 ];
 

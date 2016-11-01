@@ -10,14 +10,14 @@ services:
       - "MYSQL_RANDOM_ROOT_PASSWORD=yes"
 
   php:
-    image: imarcagency/php-apache:latest
+    image: imarcagency/php-apache:1
     environment:
       - "CRAFT_USERNAME=admin"
       - "CRAFT_EMAIL=info@imarc.com"
       - "CRAFT_SITENAME=Site"
       - "CRAFT_SITEURL=localhost"
       - "CRAFT_LOCALE=en_us"
-      - "CRAFT_DEVMODE=1"
+      - "CRAFT_DEVMODE=true"
     ports:
       - "80:80"
     links:

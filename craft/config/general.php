@@ -19,7 +19,7 @@ $config = [
     'devMode' => env('CRAFT_DEVMODE', false),
     'testToEmailAddress' => 'test@imarc.com',
     'useCompressedJs' => false,
-    'siteUrl' => $scheme . '://' . env('CRAFT_SITEURL', $_SERVER['HTTP_HOST']),
+    'siteUrl' => $scheme . '://' . env('CRAFT_SITEURL'),
 ];
 
 return $config;
