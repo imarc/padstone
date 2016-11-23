@@ -34,11 +34,15 @@
     },
     "scripts": {
         "post-create-project-cmd": [
+            "@create-project"
+        ],
+        "create-project": [
             "@install-craft",
-            "php -r \"copy('.gitignore-install', '.gitignore');\""
+            "php -r \"rename('.gitignore-install', '.gitignore');\""
         ],
         "install-craft": [
             "Imarc\\Padstone\\Install::run"
         ]
+    }
     }
 }
