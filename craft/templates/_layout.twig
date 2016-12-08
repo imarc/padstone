@@ -9,10 +9,11 @@
         {% set metaDescription = entry.metaDescription %}
     {% endif %}
 {% endif %}
+
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>{% if title is defined %}{{ title }} – {% endif %}{{ siteName }}</title>
+        <title>{% if title is defined %}{{ title }}{% endif %}</title>
         {% if metaDescription is defined and metaDescription != "" %}
             <meta name="description" content="{{ metaDescription }}" />
         {% endif %}
@@ -21,27 +22,105 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="{{ craft.sass.link("/css/styles.scss") }}" media="all" />
     </head>
-    <body class="{{ path_classes() }}" id="{{ body_id }}">
-        <header class="primary" role="banner">
+     <body>
+        <header class="primary">
             <div class="container">
                 <div class="branding">
-                    <h1>
-                        <a href="/">{{ siteName }}</a>
-                    </h1>
+                     <a href="/">
+                        <img src="img/logo-boilerplate.png" alt="">
+                    </a>
                 </div>
-                <nav aria-label="utility" class="utility">
+            </div>
+             <div class="wrapper">
+                <nav aria-label="Primary Navigation" class="primary">
                     <ul>
+                        <li class="mega">
+                            <a href="">Maine <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <div class="dropdown">
+                                <div class="menu">
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="">Products</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h3>Lorem Ipsum Dolar Amat</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos quisquam numquam veniam eos reprehenderit, nemo sunt nihil rem suscipit.
+                                        </p>
+                                        <p>
+                                           Nemo sunt nihil rem lorem amat fuga consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <img src="http://dummyimage.com/600x400/ff665b/ffffff.png&text=Just an image placeholder " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#yup">Markup <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <div class="dropdown">
+                                <div class="menu">
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <a href="">Hello World</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Lorem Ipsum Amat</a>
+                                            </li>
+                                            <li>
+                                                <a href="">HTML is on version 5</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">New Hampshire</a>
+                        </li>
+                        <li>
+                            <a href="">Vermont</a>
+                        </li>
                     </ul>
                 </nav>
+                <div class="utilities">
+                    <nav aria-label="Utility Navigation" class="utility">
+                        <ul>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Legal</a></li>
+                            <li><a href="">Log In</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
             </div>
-            <nav aria-label="primary" class="primary">
-                <ul class="container">
-                </ul>
-            </nav>
         </header>
 
+        {% block hero %} {% endblock %}
+
         <div class="torso">
-            {% block content %}{% endblock %}
+            <div class="container">
+                <main>
+                    {% block content %}{% endblock %}
+                </main>
+            </div>
         </div>
 
         <footer class="primary" role="contentinfo">
@@ -49,5 +128,15 @@
                 <div class="copyright">© {{ now.year }} {{ siteName }}.</div>
             </div>
         </footer>
+
+         <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+        <script src="js/dropdown.plugin.js"></script>
+        <script src="js/stickyHeader.plugin.js"></script>
+        <script>
+            $(function() {
+                $('header.primary').stickyHeader();
+                $('nav.primary').dropdown();
+            });
+        </script>
     </body>
 </html>
