@@ -56,7 +56,12 @@ class Install
 
             $files = array_diff($files, static::skippedFiles());
 
-            $zip->extractTo('.', $files);
+            // only extract 250 files at a time
+            $chunks = array_chunk($files, 250);
+            foreach($chunks as $chunk) {
+                $zip->extractTo('.', $chunk);
+            }
+
             $zip->close();
         } else {
             echo "'$zipfile' is not a valid ZIP archive.\n";
