@@ -23,14 +23,9 @@
  */
 
 @import "css/_components";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900i');
 
 /* = Variables = */
-$font-stack: "canada-type-gibson", Arial, sans-serif;
-$light: 300;
-$regular: 400;
-$semibold: 600;
-$bold: 700;
+$font-stack: "Helvetica Neue", Arial, sans-serif;
 
 
 /* Grays */
@@ -42,10 +37,9 @@ $charcoal:  #191919;
 $black:     #000;
 
 /* The brand colors (name them the color) */
-$brand-light-blue: #31beda;
-$brand-blue: #195179;
-$brand-dark-blue: #0d1d29;
-$brand-green: #5eca74;
+$brand-blue: #0C96DD;
+$brand-dark-blue: #0C508A;
+$brand-orange: #EB7424;
 
 /* Messaging colors */
 $success: #48AC2C;
@@ -55,8 +49,8 @@ $info: #DDD;
 /* Applied colors */
 $plain-text: $charcoal;
 $meta-text: lighten($charcoal, 35%);
-$link: $brand-green;
-$link-hover: $brand-light-blue;
+$link: $brand-blue;
+$link-hover: $brand-orange;
 $border: lighten($charcoal, 80%);
 
 /* Social Network Colors */
@@ -71,6 +65,30 @@ $large: 1024px;
 
 
 /* = Mixins = */
+
+@mixin button {
+    background-color: $link;
+    color: #FFF;
+    display: inline-block;
+    font-family: $font-stack;
+    font-weight: bold;
+    padding: 0.4em 1em;
+    text-align: center;
+    vertical-align: top;
+
+    &:hover,
+    &:focus {
+        background-color: $link-hover;
+    }
+
+    &.disabled,
+    &[disabled] {
+        background-color: lighten($charcoal, 45%);
+        color: darken(#FFF, 20%);
+        pointer-events: none;
+    }
+}
+
 @mixin container {
     margin-left: auto;
     margin-right: auto;
@@ -197,7 +215,6 @@ html {
 
 body {
     min-width: 300px;
-    overflow-x: hidden;
 }
 
 img {
@@ -231,87 +248,26 @@ img {
     @include carousel;
 }
 
-.flex {
-    display: flex;
+.wrapper {
+    overflow: hidden;
+}
+
+.sr-only {
+    @include visuallyhidden;
 }
 
 header.primary {
-    //background-color: #333;
-
-    .utilities {
-        background-color: $brand-dark-blue;
-        nav.utility {
-        
-            div {
-                display: flex;
-                justify-content: flex-end;
-                align-items: baseline;
-
-                a {
-                    font-size: .9375rem;
-                    padding: 0;
-                    &::before {
-                        display: inline-block;
-                        content: '';
-                        height: 5px;
-                        width: 5px;
-                        margin: 0 1rem;
-                        border-radius: 100%;
-                        background: #fff;
-                        position: relative;
-                        top: -2px;
-                    }
-
-                    &.button {
-                        font-size: 1rem;
-                        padding: 1.125rem 1.875rem;
-                        margin-left: 2rem;
-
-                        &::before {
-                            display: none;
-                        }
-                    }
-
-                    &:first-child {
-                        &::before {
-                            display: none;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
+    background-color: $charcoal;
+    padding: 1rem 0;
     .container {
         position: static;
     }
 }
-.header-nav {
-    display: flex;
-    margin: 2rem 0 3rem;
-}
+
 .branding {
-    margin-bottom: 1rem;
-    margin-right: 2rem;
-    text-align: center;
     a {
         display: inline-block;
         max-width: 180px;
-
-        svg {
-            #enlighten {
-                fill: #fff;
-            }
-            #tag {
-                fill: #fff; 
-            }
-            #lighthouse-1 {
-                fill: #fff;
-            }
-            #lighthouse-2 {
-                fill: rgba(#fff, .7);
-            }
-        }
     }
 }
 
@@ -334,38 +290,65 @@ nav {
 
 nav.primary {
     margin-bottom: 0.7rem;
-    flex-grow: 2;
     > ul {
-        display: flex;
-        justify-content: space-between;
         li {
             margin-bottom: 0;
-            
-            
-
-            a {
-                text-transform: uppercase;
-                font-weight: $semibold;
-                font-size: 1.25rem;
-                position: relative;
-                padding: 0;
-                top: 10px;
-            }
         }
         li.active,
         li:hover {
             > a {
-                color: #fff;
-                border-bottom: 3px solid $brand-light-blue;
+                color: lighten($charcoal, 55%);
             }
         }
     }
 }
 
 nav.utility {
+    margin-bottom: 0.7rem;
     a {
         font-size: 0.8rem;
     }
+}
+
+.mobile {
+    @include mobileNavigation;
+}
+
+.header-content > .dropdown {
+    @include mobileNavigation;
+    z-index: 1001;
+    background: lighten($charcoal, 5%);
+    &.sub-menu {
+        z-index: 1002;
+        background: lighten($charcoal, 10%);
+    }
+
+}
+
+.desktop {
+    display: none;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-basis: 80%;
+    max-width: 80%;
+
+    nav.primary {
+        flex-basis: 70%;
+        max-width: 70%;
+        align-self: flex-start;
+    }
+    .utilities {
+        flex-basis: 30%;
+        max-width: 30%;
+    }
+}
+
+.header-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 form.search {
@@ -389,20 +372,23 @@ form.search {
 
 .torso {
     @include grouping;
+
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .hero {
-    background: $plain-text url(../img/hero.jpg) no-repeat center center / cover;
+    background: $plain-text url(../img/hero.jpg) no-repeat center top / cover;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
+    height: 240px;
     -webkit-justify-content: center;
     justify-content: center;
-    padding: 1rem 0 9rem;
+    text-align: center;
     .copy {
         @include container;
-        padding: 0;
         * {
             color: #FFF;
         }
@@ -496,19 +482,12 @@ h2,
 h3,
 h4,
 h5 {
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 0.6em;
 }
 
 h1 {
-    font-size: 3.75rem;
-    text-transform: uppercase;
-    font-weight: $semibold;
-
-    em {
-        font-weight: $light;
-        font-style: normal;
-    }
+    font-size: 2.2rem;
 }
 
 h2 {
@@ -536,8 +515,6 @@ em {
 }
 
 blockquote {
-    @include grouping;
-
     border-left: 1px solid $border;
     color: $meta-text;
     font-style: italic;
@@ -551,6 +528,15 @@ blockquote {
         font-size: 1.3rem;
         margin-bottom: 0.8em;
     }
+}
+
+.guide {
+    color: $meta-text;
+    font-size: 1.25rem;
+}
+
+.meta {
+    color: $meta-text;
 }
 
 hr {
@@ -591,8 +577,6 @@ ol,
 ul,
 dl {
     margin-bottom: 2rem;
-    font-size: 1.375rem;
-    font-weight: $light;
 }
 
 ol,
@@ -618,8 +602,14 @@ dd {
     padding-left: 2em;
 }
 
+pre {
+    background-color: #4A4A4A;
+    padding: 1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
 code {
-    background-color: #41322F;
     color: #FBCE78;
     font-family: "Consolas", monospace;
     padding: 2px 4px;
@@ -685,7 +675,6 @@ textarea {
     color: $plain-text;
     display: block;
     font-family: $font-stack;
-    font-size: 0.9rem;
     margin: 0;
     padding: 0.4em 0.6em;
     width: 100%;
@@ -725,50 +714,9 @@ input[type="radio"] {
     padding: 0;
 }
 
-@mixin button {
-    color: #FFF;
-    display: inline-block;
-    font-family: $font-stack;
-    font-weight: $semibold;
-    font-size: 1.25rem;
-    padding: 0.6em 1em;
-    text-align: center;
-    vertical-align: top;
-    text-transform: uppercase;
-
-    &:hover,
-    &:focus {
-        background-color: $link-hover;
-    }
-
-    &.disabled,
-    &[disabled] {
-        background-color: lighten($charcoal, 45%);
-        color: darken(#FFF, 20%);
-        pointer-events: none;
-    }
-}
-
 a.button {
     @include button;
     margin-bottom: 0;
-    border: 3px solid $brand-green;
-
-    &.filled {
-        background: $brand-green;
-        color: #fff !important;
-    }
-
-    &.video {
-        &::after {
-            @include fontawesome("\f144");
-            margin-left: 1rem;
-        }
-    }
-
-    & + .button {
-        margin-left: 2rem;
-    }
 }
 
 button:not(.link),
@@ -869,452 +817,19 @@ table {
     }
 }
 
-.resource-item {
-    h3 {
-        font-weight: $semibold;
-        font-size: 2.25rem;
-        
-        span {
-            display: block;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-        }
-    }
-}
-
-.resource {
-    background-image: url('/img/resource-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-
-    .content {
-        background: rgba(lighten($brand-dark-blue, 4%), .95);
-        width: 100%;
-        padding: 3rem;
-
-        h3 {
-            color: #fff;
-            
-            a {
-                color: #fff;
-            }
-
-            span {
-                
-                color: $brand-light-blue;
-                
-            }
-        }
-
-        p {
-            color: #fff;
-        }
-    }
-}
-
-/* Section Specific */
-
-.timeline {
-
-    .callout {
-        color: #fff;
-        margin: 0 4em 0 8em;
-        padding: 2em 3em 1em 1.5em;
-        background: $darkgray;
-
-    }
-}
+/* = Section Specific = */
 
 
-/* Page Specific */
+/* =  Page Specific = */
 
-/* == HOME == */
 
-#home {
-
-    section {
-        padding: 7rem 0;
-        margin: 0;
-        border: 0;
-    }
-
-    .results {
-        text-align: center;
-        
-        p {
-            font-size: 1.875rem;
-        }
-
-        .flex {
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 4rem;
-            height: 400px;
-        }
-        .stat-circle {
-            @include transition;
-            //background: $brand-light-blue;
-            color: #fff;
-            width: 200px;
-            height: 200px;
-            margin: 0 4rem;
-
-            &:hover {
-                cursor: pointer;
-            }
-                        
-            div {
-                width: 100%;
-                height: 100%;
-                border-radius: 100%;
-                display: flex;
-                align-content: center;
-                flex-wrap: wrap;
-                justify-content: center;
-                position: relative;
-            }
-
-            .front {
-                @include transition;
-                background: $brand-light-blue;
-            }
-
-            .back {
-                @include transition;
-                background: $brand-blue;
-                display: flex;
-                align-content: center;
-                p {
-                    font-size: .875rem;
-                    line-height: 1;
-                    padding: 1rem;
-                    margin-bottom: 0;
-                }
-            }
-
-            /*&::after {
-                display: block;
-                content: '';
-                width: 65%;
-                height: 1px;
-                background: #999;
-                position: absolute;
-                bottom: -20px;
-                left: 50%;
-                transform: translateX(-50%);
-                filter: blur(3px);
-            }*/
-
-            h2 {
-                @include transition;
-                font-size: 3.75rem;
-                font-weight: $semibold;
-                letter-spacing: -3px;
-                margin-bottom: .5rem;
-                flex: 0 0 100%;
-                padding: 0 2rem;
-            }
-
-            h3 {
-                @include transition;
-                text-transform: uppercase;
-                font-weight: $semibold;
-                font-size: 1rem;
-                padding: 0 2rem;
-                margin-bottom: 0;
-            }
-
-            &.blur {
-                width: 175px;
-                height: 175px;
-                //transform: scale(.8);
-            }
-
-            &.focus {
-                width: 260px;
-                height: 260px;
-                //transform: scale(1.2);
-
-                &::after {
-                    bottom: -2px;
-                }
-
-                h2 {
-                    font-size: 5rem;
-                }
-
-                h3 {
-                    font-size: 1.625rem;
-                }
-
-                p {
-                    font-size: 1rem;
-                }
-            } 
-        }
-    }
-
-    .testimonials {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b728c+0,31bdd9+54 */
-        background: #1b728c; /* Old browsers */
-        background: -moz-linear-gradient(top,  #1b728c 0%, #31bdd9 54%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  #1b728c 0%,#31bdd9 54%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  #1b728c 0%,#31bdd9 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b728c', endColorstr='#31bdd9',GradientType=0 ); /* IE6-9 */
-        
-        color: #fff;
-
-        h1 {
-            text-align: center;
-            margin-bottom: 6rem;
-        }
-
-        .flex {
-            width: 80%;
-            margin: 0 auto;
-            .logo {
-                img {
-                    max-width: 150px;
-                }
-            }
-            .quote {
-                border: 0;
-                font-style: normal;
-                margin-left: 4rem;
-                p {
-                    color: #fff;
-                    font-size: 1.875rem;
-                    font-weight: $regular;
-                    font-style: italic;
-                    position: relative;
-                    padding-left: 4rem;
-                    margin-bottom: 1rem;
-
-                    &::before {
-                        font-family: "Source Sans Pro";
-                        font-size: 4.5rem;
-                        color: #009dbc;
-                        content:'“';
-                        display: inline-block;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        line-height: 1;
-                    }
-
-                    &::after {
-                        font-family: "Source Sans Pro";
-                        font-size: 4.5rem;
-                        color: #009dbc;
-                        content:'”';
-                        display: inline-block;
-                        line-height: 0;
-                        position: relative;
-                        bottom: -25px;
-                        padding-left: 1rem;
-                    }
-                }
-                footer {
-                    font-size: 1.125rem;
-                    text-transform: uppercase;
-                    color: $brand-dark-blue;
-                    font-weight: $semibold;
-                    padding-left: 4rem;
-
-                    &::before {
-                        content: '–';
-                        display: inline-block;
-                        padding-right: .5rem;
-                    }
-                }
-            }
-        }
-    }
-
-    .metrics {
-        background-image: url('/img/metrics-bg.png');
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        text-align: right;
-
-        h1, p {
-            width: 65%;
-            float: right;
-        }
-    }
-
-    .program {
-        background-image: url('/img/program-bg.jpg');
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: cover;
-
-        h1 {
-            width: 85%;
-        }
-
-        p {
-            width: 50%;
-        }
-    }
-
-    .industries {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09273d+0,00475e+100 */
-        background: #09273d; /* Old browsers */
-        background: -moz-linear-gradient(left,  #09273d 0%, #00475e 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left,  #09273d 0%,#00475e 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right,  #09273d 0%,#00475e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09273d', endColorstr='#00475e',GradientType=1 ); /* IE6-9 */
-
-        color: #fff;
-
-        .flex {
-            .content {
-                //flex-basis: 50%;
-            }
-            .industry-cards {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                a {
-                    @include transition;
-                    display: flex;
-                    text-align: center;
-                    text-transform: uppercase;
-                    color: $brand-light-blue;
-                    font-weight: $semibold;
-                    font-size: .8125rem;
-                    line-height: 1;
-                    width: 175px;
-                    height: 175px;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    align-content: center;
-                    border-radius: 100%;
-                    box-shadow: 5px 5px 5px rgba(0,0,0,.3), inset 2px 2px 2px rgba(255,255,255,.1);
-                    margin-bottom: 2rem;
-
-                    span {
-                        width: 100%;
-                    }
-
-                    .icon {
-                        display: block;
-                        fill: #fff;
-                        width: 50%;
-                        margin: 0 auto 1rem;
-                    }
-
-                    .label {
-                        display: block;
-                        padding: 0 1.75rem;
-                    }
-
-                    &:hover {
-                        background: $brand-light-blue;
-                        color: $brand-dark-blue;
-                    }
-                }
-            }
-        }
-    }
-
-    .news-cta {
-        padding: 0;
-        .container {
-            padding: 0;
-
-            div {
-                padding-top: 7rem;
-                padding-bottom: 7rem;
-            }
-
-            .latest-news {
-                padding-right: 1rem;
-                padding-left: 1rem;
-
-                a {
-                    color: $brand-blue;
-                }
-            }
-
-            .convo-cta {
-                background: $brand-green;
-                padding-left: 1rem;
-                padding-right: 1rem;
-                position: relative;
-                min-height: 450px;
-
-                h1 {
-                    font-size: 3.125rem;
-                    color: #fff;
-
-                    span {
-                        font-weight: $light;
-                    }
-                }
-
-                a {
-                    display: block;
-                    color: #fff;
-                    font-size: 1.875rem;
-                    text-transform: uppercase;
-                    font-weight: $semibold;
-                    position: absolute;
-                    bottom: 7rem;
-
-                    &::after {
-                        content: '';
-                        height: 30px;
-                        width: 30px;
-                        display: inline-block;
-                        border-top: 3px solid #fff;
-                        border-right: 3px solid #fff;
-                        transform: rotate(45deg);
-                        position: relative;
-                        top: 5px;
-                        margin-left: 1rem;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/* == Program == */
-
-#program {
-    .week {
-        padding: 7rem 0;
-        margin: 0;
-        border: 0;
-
-        &:nth-child(odd) {
-            background: #f9f9f9;
-        }
-    }
-}
-
-/* Components */
+/* = Components = */
 .backgroundvideo {
     @include backgroundvideo();
 }
 
-.features {
-    @include features(3rem);
-}
-
-footer.primary {
-    @include footer();
-}
-
-header.primary {
-    //@include sticky-header;
-}
-
-.login {
-    @include login;
+.dossier {
+    @include dossier($gutter: 2rem, $photoWidth: 25%, $direction: row);
 }
 
 nav.primary {
@@ -1324,8 +839,48 @@ nav.primary {
     }
 }
 
+.features {
+    @include features($gutter: 3rem);
+}
+
+footer.primary {
+    @include footer();
+}
+
+header.primary {
+    @include sticky-header();
+}
+
+.listing {
+    @include listing();
+}
+
+.login {
+    @include login;
+}
+
+nav.pagination {
+    @include pagination();
+}
+
+header.primary {
+    @include sticky-header();
+}
+
 .tabs {
     @include tabs();
+}
+
+.testimonial {
+    @include testimonial;
+}
+
+.tiles {
+    @include tiles();
+}
+
+.accordions {
+    @include accordion();
 }
 
 /* = Media Queries = */
@@ -1344,25 +899,13 @@ nav.primary {
         padding-right: 2rem;
         width: 80%;
     }
-    .hero {
-        .copy {
-            p {
-                width: 75%;
-            }
-        }
-    }
 }
 
 
 @media only screen and (min-width: $large) {
     /* = Layout = */
-    .branding {
-        margin-bottom: 0;
-    }
-
     .wrapper {
-        float: right;
-        width: 80%;
+        overflow: auto;
     }
 
     nav {
@@ -1370,22 +913,16 @@ nav.primary {
             text-align: left;
         }
     }
-
-    .hero {
-        .copy {
-            p {
-                width: 55%;
-            }
-        }
-    }
-
     nav.primary {
+        margin-bottom: 0;
         > ul > li {
             font-size: 1.3rem;
-            padding-bottom: 1rem;
+            margin-left: 1rem;
             position: relative;
         }
-        
+        > ul > li:first-child {
+            margin-left: 0;
+        }
         ul {
             text-align: left;
             li li {
@@ -1395,45 +932,49 @@ nav.primary {
         }
     }
 
+    .utilities {
+        nav.utility {
+            margin-bottom: 0.4rem;
+            ul {
+                text-align: right;
+            }
+        }
+    }
+
+    .desktop {
+        display: flex;
+    }
+
+    button.menu-toggle {
+        display: none;
+    }
+
     aside.primary {
         width: 25%;
     }
     aside.primary ~ main {
         width: 75%;
     }
-    
-    .resource {
-        .content {
-            width: 55%;
-        }
+
+    /* = Typography = */
+    h1 {
+        font-size: 2.6rem;
     }
 
-    #home {
-        .news-cta {
-            .container {
-                display: flex;
+    h2 {
+        font-size: 2.1rem;
+    }
 
-                .latest-news {
-                    padding-right: 7rem;
-                }
+    h3 {
+        font-size: 1.6rem;
+    }
 
-                .convo-cta {
-                    padding-left: 7rem;
-                    min-height: none;
-                
-                    &::after {
-                        display: block;
-                        content: '';
-                        background: $brand-green;
-                        bottom: 0;
-                        left: 100%;
-                        position: absolute;
-                        top: 0;
-                        width: 9999px;
-                    }
-                }
-            }
-        }
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.15rem;
     }
 }
 
