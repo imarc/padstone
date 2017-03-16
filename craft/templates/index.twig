@@ -11,27 +11,31 @@
 {% endblock %}
     
 {% block content %}
-    <div class="main">
-        <section>
-            <div class="container">
-                <h1>{{ entry.title }}</h1>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                {% paginate craft.entries({section: 'news'}).limit(10) as newsEntries %}
-                {% for entry in newsEntries %}
-                    <article>
-                        <h3>{{ entry.link }}</h3>
-                        <div class="meta">
-                            <span class="date">{{ entry.postDate.format('F d, Y') }}</span>
-                        </div>
-                        {{ entry.body }}
-                    </article>
-                {% endfor %}
+   <div class="torso">
+        <div class="container">
+            <main>
+                <section>
+                    <div class="container">
+                        <h1>{{ entry.title }}</h1>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        {% paginate craft.entries({section: 'news'}).limit(10) as newsEntries %}
+                        {% for entry in newsEntries %}
+                            <article>
+                                <h3>{{ entry.link }}</h3>
+                                <div class="meta">
+                                    <span class="date">{{ entry.postDate.format('F d, Y') }}</span>
+                                </div>
+                                {{ entry.body }}
+                            </article>
+                        {% endfor %}
 
-                {{ macros.pagination(paginate, 2) }}
-            </div>
-        </section>
+                        {{ macros.pagination(paginate, 2) }}
+                    </div>
+                </section>
+            </main>
+        </div>
     </div>
 {% endblock %}
