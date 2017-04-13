@@ -1,6 +1,8 @@
 <?php
-// Initialize environment variables
+// load env() helper method
+Env::init();
 
+// Initialize environment variables
 try {
     $dotenv = new Dotenv\Dotenv(dirname(__DIR__));
 
