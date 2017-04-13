@@ -28,7 +28,6 @@
             "Imarc\\Padstone\\": "padstone/"
         },
         "files": [
-            "padstone/helpers.php",
             "padstone/init.php"
         ]
     },
