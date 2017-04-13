@@ -8,43 +8,18 @@
  * You can see a list of the default settings in craft/app/etc/config/defaults/general.php
  */
 
-$env = preg_replace('#^.*/#', '', dirname(realpath(CRAFT_BASE_PATH)));
-
-if (strpos(CRAFT_BASE_PATH, '/vagrant/') === 0) {
-    $env = 'dev';
+$scheme = 'http';
+if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
+    $scheme = 'https';
 }
 
 $config = [
-    'generateTransformsBeforePageLoad' => true,
-    'maxUploadFileSize' => 104857600,
     'omitScriptNameInUrls' => true,
+    'maxUploadFileSize' => 104857600,
+    'devMode' => env('CRAFT_DEVMODE', false),
+    'testToEmailAddress' => 'test@imarc.com',
+    'useCompressedJs' => false,
+    'siteUrl' => $scheme . '://' . env('CRAFT_SITEURL'),
 ];
-
-switch ($env) {
-    case 'dev':
-        $config = array_merge($config, [
-            'siteUrl' => "http://dev.example.com",
-            'devMode' => true,
-            'testToEmailAddress' => 'test+example.com@imarc.com',
-            'useCompressedJs' => false,
-            'cache' => false,
-        ]);
-        break;
-    case 'stage':
-        $config = array_merge($config, [
-            'siteUrl' => 'http://stage.example.com',
-            'useCompressedJs' => false,
-            'cache' => true,
-        ]);
-        break;
-    case 'prod':
-        $config = array_merge($config, [
-            'siteUrl' => 'https://example.com',
-            'cache' => true,
-        ]);
-        break;
-    default:
-        die("Unfortunately, the server is misconfigured. Please review the configuration in config/general.php.");
-}
 
 return $config;

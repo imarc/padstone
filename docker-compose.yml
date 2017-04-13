@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  db:
+    image: mariadb:10
+    environment:
+      - "MYSQL_DATABASE=craft"
+      - "MYSQL_USER=craft"
+      - "MYSQL_PASSWORD=craft"
+      - "MYSQL_RANDOM_ROOT_PASSWORD=yes"
+
+  php:
+    image: imarcagency/php-apache:1
+    environment:
+      - "CRAFT_USERNAME=admin"
+      - "CRAFT_EMAIL=info@imarc.com"
+      - "CRAFT_SITENAME=Site"
+      - "CRAFT_SITEURL=localhost"
+      - "CRAFT_LOCALE=en_us"
+      - "CRAFT_DEVMODE=true"
+    ports:
+      - "80:80"
+    links:
+      - db
+    depends_on:
+      - db
+    volumes:
+      - "./:/var/www/"
+      - "./docker-bootstrap.sh:/opt/bootstrap"

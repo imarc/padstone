@@ -17,17 +17,29 @@
         "imarc/craft-sass": "^1.0.0",
         "imarc/craft-social": "^1.0.0",
         "imarc/craft-betterredactor": "0.*",
-        "itmundi/schematic": "^3.2",
+        "itmundi/schematic": "^3.4",
         "boboldehampsink/tagmanager": "^0.2.0",
-        "nystudio107/retour": "^1.0"
+        "nystudio107/retour": "^1.0",
+        "vlucas/phpdotenv": "^2.0",
+        "oscarotero/env": "^1.0"
     },
     "autoload": {
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"
-        }
+        },
+        "files": [
+            "padstone/init.php"
+        ]
     },
     "scripts": {
         "post-create-project-cmd": [
+            "@create-project"
+        ],
+        "create-project": [
+            "@install-craft",
+            "php -r \"rename('.gitignore-install', '.gitignore');\""
+        ],
+        "install-craft": [
             "Imarc\\Padstone\\Install::run"
         ]
     }

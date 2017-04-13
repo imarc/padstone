@@ -1,0 +1,6 @@
+.env
+craft_latest.zip
+/craft/config/license.key
+/public/writable
+/node_modules
+/vendor

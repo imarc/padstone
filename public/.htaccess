@@ -1,6 +1,104 @@
 # Increase the max nesting level for Craft
 php_value xdebug.max_nesting_level 500
 
+AddDefaultCharset utf-8
+
+# Remove leaked information headers
+
+ServerSignature Off
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+</IfModule>
+
+# GZIP Compression
+
+<IfModule mod_deflate.c>
+    # Force compression for mangled `Accept-Encoding` request headers
+    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
+
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    <ifModule mod_filter.c>
+        AddOutputFilterByType DEFLATE \
+            "application/atom+xml" \
+            "application/javascript" \
+            "application/json" \
+            "application/ld+json" \
+            "application/manifest+json" \
+            "application/rdf+xml" \
+            "application/rss+xml" \
+            "application/schema+json" \
+            "application/vnd.geo+json" \
+            "application/vnd.ms-fontobject" \
+            "application/x-font-ttf" \
+            "application/x-javascript" \
+            "application/x-web-app-manifest+json" \
+            "application/xhtml+xml" \
+            "application/xml" \
+            "font/eot" \
+            "font/opentype" \
+            "image/bmp" \
+            "image/svg+xml" \
+            "image/vnd.microsoft.icon" \
+            "image/x-icon" \
+            "text/cache-manifest" \
+            "text/css" \
+            "text/html" \
+            "text/javascript" \
+            "text/plain" \
+            "text/vcard" \
+            "text/vnd.rim.location.xloc" \
+            "text/vtt" \
+            "text/x-component" \
+            "text/x-cross-domain-policy" \
+            "text/xml"
+    </IfModule>
+    <IfModule mod_mime.c>
+        AddEncoding gzip svgz
+    </IfModule>
+</IfModule>
+
+# Prevent Clickjacking
+
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "DENY"
+
+    <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$">
+        Header unset X-Frame-Options
+    </FilesMatch>
+</IfModule>
+
+# HTTP Strict Transport Security
+
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=16070400; includeSubDomains"
+</IfModule>
+
+# Content Security Policy.
+# https://content-security-policy.com/
+
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy \
+        "default-src 'self' 'unsafe-inline' www.google-analytics.com ajax.googleapis.com"
+
+    <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$">
+        Header unset Content-Security-Policy
+    </FilesMatch>
+</IfModule>
+
+# Prevent some browsers from MIME-sniffing responses
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Rewrites/Redirects
+
 <IfModule mod_rewrite.c>
         RewriteEngine On
 
