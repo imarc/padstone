@@ -8,16 +8,13 @@ services:
       - "MYSQL_USER=craft"
       - "MYSQL_PASSWORD=craft"
       - "MYSQL_RANDOM_ROOT_PASSWORD=yes"
+    volumes:
+        - "./.volumes/mysql:/var/lib/mysql"
 
   php:
     image: imarcagency/php-apache:1
     environment:
-      - "CRAFT_USERNAME=admin"
-      - "CRAFT_EMAIL=info@imarc.com"
-      - "CRAFT_SITENAME=Site"
-      - "CRAFT_SITEURL=localhost"
-      - "CRAFT_LOCALE=en_us"
-      - "CRAFT_DEVMODE=true"
+      - "APACHE_ROOT=/var/www/public"
     ports:
       - "80:80"
     links:
@@ -26,4 +23,6 @@ services:
       - db
     volumes:
       - "./:/var/www/"
+      - "./.volumes/craft/storage:/var/www/craft/storage"
+      - "./.volumes/craft/writable:/var/www/public/writable"
       - "./docker-bootstrap.sh:/opt/bootstrap"

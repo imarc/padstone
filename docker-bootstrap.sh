@@ -1,11 +1,19 @@
 #!/bin/bash
 set -e
 
-#chown -R docker:www-data
-#chmod -R 775 craft
+# create craft storage volume dirs
+echo "Creating craft storage volume dirs"
+
+mkdir -p /var/www/craft/storage/runtime/{cache,compiled_templates,logs,state}
+chown -R www-data:www-data /var/www/craft/storage
+chmod -R 775 /var/www/craft/storage
+
+mkdir -p /var/www/public/writable/images
+chown -R www-data:www-data /var/www/public/writable
+chmod -R 775 /var/www/public/writable
 
 # if initialized don't run schematic
-if [ -f /tmp/initialized ]
+if [ -f /var/www/craft/storage/padstone.lock ]
 then
 	exit
 fi
@@ -26,4 +34,4 @@ echo "--------------------------------------------------------------------------
 echo "Your Craft credentials are admin/$CRAFT_PASSWORD". Change the password ASAP.
 echo "---------------------------------------------------------------------------"
 
-touch /tmp/initialized
+touch /var/www/craft/storage/padstone.lock

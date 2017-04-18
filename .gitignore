@@ -1,3 +1,4 @@
+.volumes
 /craft/app
 /craft/config/redactor
 /craft/config/routes.php
