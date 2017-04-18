@@ -17,7 +17,7 @@ $config = [
     'omitScriptNameInUrls' => true,
     'maxUploadFileSize' => 104857600,
     'devMode' => env('CRAFT_DEVMODE', false),
-    'testToEmailAddress' => 'test@imarc.com',
+    'testToEmailAddress' => env('CRAFT_TEST_EMAIL'),
     'useCompressedJs' => false,
     'siteUrl' => $scheme . '://' . env('CRAFT_SITEURL'),
 ];
