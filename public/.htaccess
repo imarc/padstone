@@ -1,5 +1,8 @@
 # Increase the max nesting level for Craft
-php_value xdebug.max_nesting_level 500
+php_value xdebug.max_nesting_level  500
+php_value max_input_vars            2000
+php_value upload_max_filesize       "100M"
+php_value post_max_size             "101M"
 
 AddDefaultCharset utf-8
 
