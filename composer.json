@@ -26,10 +26,7 @@
     "autoload": {
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"
-        },
-        "files": [
-            "padstone/init.php"
-        ]
+        }
     },
     "scripts": {
         "post-create-project-cmd": [
