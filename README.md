@@ -56,7 +56,7 @@ This command downloads Padstone, Craft, and some hand-selected Craft plugins, an
 
 At this point, you'll need to [Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) as you would a normal Craft install.
 
-Next, you should edit both `craft/config/general.php` and `craft/config/db.php` to match your site. At the minimum, you should **replace all the places it says example.com** with your site's domain.
+Next, you should edit both `.env` and `craft/config/db.php` to match your site. At the minimum, you should add the site domain, database info, and remove any unused fields from .env and the db.php file. If using multiple environments, copy the .env to each environment and update to match that environment's database, domain, etc.
 
 Now, you can run the installer by going to http://example.com/admin (except for your domain.)
 
