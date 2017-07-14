@@ -73,10 +73,22 @@ At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` d
 Local Usage
 -----------
 
+Start local environment with Docker:
+
     docker-compose up -d
+
+One first run, install craft and schema and initial admin user:
 
     docker exec -ti $(docker-compose ps -q php) bash scripts/install.sh
 
+Shut down local environment:
+
+    docker-compose stop
+
+Destroy local environment:
+
+    # CAUTION! This will destroy all data volumes, such as the database and uploads!
+    docker-compose down -v
 
 Changelog
 ---------
