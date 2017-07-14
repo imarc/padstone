@@ -15,7 +15,7 @@ chmod -R 775 /var/www/public/writable
 # if initialized don't run schematic
 if [ -f /var/www/craft/storage/padstone.lock ]
 then
-	exit
+    exit
 fi
 
 echo "Waiting for MariaDB to respond..."

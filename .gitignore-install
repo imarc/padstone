@@ -1,5 +1,4 @@
 .env
-.volumes
 craft_latest.zip
 /craft/config/license.key
 /public/writable
