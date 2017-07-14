@@ -34,7 +34,8 @@
         ],
         "create-project": [
             "@install-craft",
-            "php -r \"rename('.gitignore-install', '.gitignore');\""
+            "php -r \"rename('.gitignore-install', '.gitignore');\"",
+            "php -r \"rename('.env-sample', '.env');\""
         ],
         "install-craft": [
             "Imarc\\Padstone\\Install::run"

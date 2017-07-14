@@ -9,20 +9,20 @@ services:
       - "MYSQL_PASSWORD=craft"
       - "MYSQL_RANDOM_ROOT_PASSWORD=yes"
     volumes:
-        - "./.volumes/mysql:/var/lib/mysql"
+        - "db:/var/lib/mysql"
+        - "./my.cnf:/root/.my.cnf"
 
   php:
     image: imarcagency/php-apache:1
     environment:
       - "APACHE_ROOT=/var/www/public"
-    ports:
-      - "80:80"
-    links:
-      - db
-    depends_on:
-      - db
     volumes:
-      - "./:/var/www/"
-      - "./.volumes/craft/storage:/var/www/craft/storage"
-      - "./.volumes/craft/writable:/var/www/public/writable"
       - "./docker-bootstrap.sh:/opt/bootstrap"
+      - "./:/var/www/"
+      - "storage:/var/www/craft/storage"
+      - "writable:/var/www/public/writable"
+
+volumes:
+  storage:
+  uploads:
+  db:
