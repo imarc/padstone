@@ -70,6 +70,13 @@ This imports the schema.yml file, creating fields, enabling the plugins, etc.
 
 At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` directory, or the `craft/config/schema.yml` file.
 
+Local Usage
+-----------
+
+    docker-compose up -d
+
+    docker exec -ti $(docker-compose ps -q php) bash scripts/install.sh
+
 
 Changelog
 ---------
