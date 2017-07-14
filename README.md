@@ -79,7 +79,7 @@ Start local environment with Docker:
 
 One first run, install craft and schema and initial admin user:
 
-    docker exec -ti $(docker-compose ps -q php) bash scripts/install.sh
+    docker exec -i $(docker-compose ps -q php) bash scripts/install.sh
 
 Shut down local environment:
 

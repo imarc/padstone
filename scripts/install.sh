@@ -12,7 +12,7 @@ echo "MariaDB ready!"
 
 export CRAFT_PASSWORD=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 6 | head -n 1)
 
-sudo -E -u www-data php /var/www/vendor/bin/schematic import
+sudo -E -u www-data /var/www/vendor/bin/schematic import
 
 echo "--------------------------------------------------------------------------------"
 echo "First schema import?"
