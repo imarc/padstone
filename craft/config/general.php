@@ -8,14 +8,14 @@
  * You can see a list of the default settings in craft/app/etc/config/defaults/general.php
  */
 
-require_once dirname(CRAFT_BASE_DIR) . '/vendor/autoload.php';
+require_once dirname(CRAFT_BASE_PATH) . '/vendor/autoload.php';
 
 // load env() helper method
 Env::init();
 
 // Initialize environment variables
 try {
-    $dotenv = new Dotenv\Dotenv(dirname(CRAFT_BASE_DIR));
+    $dotenv = new Dotenv\Dotenv(dirname(CRAFT_BASE_PATH));
 
     $dotenv->load();
 
