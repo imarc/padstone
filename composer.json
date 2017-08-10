@@ -17,7 +17,7 @@
         "imarc/craft-sass": "^1.0.0",
         "imarc/craft-social": "^1.0.0",
         "imarc/craft-betterredactor": "0.*",
-        "nerds-and-company/schematic": "^4.4",
+        "nerds-and-company/schematic": "^3.8",
         "boboldehampsink/tagmanager": "^0.2.0",
         "nystudio107/retour": "^1.0",
         "vlucas/phpdotenv": "^2.0",
