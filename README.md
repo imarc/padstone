@@ -79,7 +79,7 @@ Start local environment with Docker:
 
 One first run, install craft and schema and initial admin user:
 
-    docker exec -ti $(docker-compose ps -q php) bash scripts/install.sh
+    docker exec -i $(docker-compose ps -q craft) bash scripts/install.sh
 
 Shut down local environment:
 
@@ -88,6 +88,7 @@ Shut down local environment:
 Destroy local environment:
 
     # CAUTION! This will destroy all data volumes, such as the database and uploads!
+    # DO NOT RUN THIS UNLESS YOU ARE SURE ALL PERSISTANT DATA CAN BE DELETED
     docker-compose down -v
 
 Changelog

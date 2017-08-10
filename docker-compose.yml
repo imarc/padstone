@@ -12,7 +12,7 @@ services:
         - "db:/var/lib/mysql"
         - "./my.cnf:/root/.my.cnf"
 
-  php:
+  craft:
     image: imarcagency/php-apache:1
     environment:
       - "APACHE_ROOT=/var/www/public"
