@@ -6,10 +6,10 @@
         <h1>Simple &amp; semantic frontend</h1>
         <a class="button" href="https://github.com/imarc/boilerplate">
             Boilerplate on Github
-        </a> 
+        </a>
     </div>
 {% endblock %}
-    
+
 {% block content %}
    <div class="torso">
         <div class="container">
@@ -22,6 +22,22 @@
                 <section>
                     <div class="container">
                         {% paginate craft.entries({section: 'news'}).limit(10) as newsEntries %}
+                        {% for entry in newsEntries %}
+                            <article>
+                                <h3>{{ entry.link }}</h3>
+                                <div class="meta">
+                                    <span class="date">{{ entry.postDate.format('F d, Y') }}</span>
+                                </div>
+                                {{ entry.body }}
+                            </article>
+                        {% endfor %}
+
+                        {{ macros.pagination(paginate, 2) }}
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        {% paginate craft.entries({section: 'blog'}).limit(10) as newsEntries %}
                         {% for entry in newsEntries %}
                             <article>
                                 <h3>{{ entry.link }}</h3>
