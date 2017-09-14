@@ -13,7 +13,7 @@ services:
         - "./my.cnf:/root/.my.cnf"
 
   craft:
-    image: imarcagency/php-apache:ssl
+    image: imarcagency/php-apache:1
     environment:
       - "APACHE_ROOT=/var/www/public"
     volumes:

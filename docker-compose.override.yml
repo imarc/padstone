@@ -4,4 +4,3 @@ services:
   craft:
     ports:
       - "80:80"
-      - "443:443"
