@@ -7,6 +7,10 @@
         {% else %}
             {% set title = entry.title %}
         {% endif %}
+        {% set metaDescription = entry.metaDescription %}
+        {% set ogImage = entry.ogImage %}
+        {% set metaTags = entry.metaTags %}
+        {% set footerJS = entry.footerJS %}
     {% endif %}
 
     {% set metaDescription = entry.metaDescription %}
@@ -25,16 +29,19 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% if title is defined %}{{ title }}{% endif %}</title>
-        {% if metaDescription != '' %}<meta name="description" content="{{ metaDescription }}" />{% endif %}
-
-        {% if ogImage %}<meta property="og:image" content="{{ ogImage }}" />{% endif %}
-
+        {% if metaDescription is defined and metaDescription != "" %}
+            <meta name="description" content="{{ metaDescription }}" />
+        {% endif %}
+        {% if ogImage is defined and ogImage != "" %}
+            <meta property="og:image" content="{{ ogImage.first().getUrl() }}" />
+        {% endif %}
         <meta name="web_author" content="Imarc, A Digital Agency | Boston + Silicon Valley | more info at imarc.com" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="{{ craft.sass.link("/css/styles.scss") }}" media="all" />
-        {% if metaTags is defined %}{{ metaTags | raw }}{% endif %}
-
+        {% if metaTags is defined %}
+            {{ metaTags | raw }}
+        {% endif %}
     </head>
     <body class="{{ path_classes() }}" id="{{ body_id }}">
 
