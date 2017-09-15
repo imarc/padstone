@@ -16,7 +16,7 @@
     {% set metaDescription = entry.metaDescription %}
 
     {% if entry.ogImage.total() %}
-        {% set ogImage = entry.ogImage.first().getUrl() %}
+        {% set ogImage = entry.ogImage.first().getUrl('ogImage') %}
     {% else %}
         {% set ogImage = false %}
     {% endif %}
