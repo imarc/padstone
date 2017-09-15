@@ -127,7 +127,7 @@ fields:
     ogImage:
       name: 'Open Graph Image '
       required: false
-      instructions: "    If provided, this image will show up when shared on social media\r\n"
+      instructions: "If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best."
       translatable: '0'
       type: Assets
       settings:
