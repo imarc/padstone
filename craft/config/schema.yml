@@ -6,11 +6,20 @@ assetSources:
     name: Images
     sortOrder: '1'
     settings:
-      path: ../public/writable/images/
       publicURLs: '1'
-      url: '/writable/images/'
+      path: ../public/writable/images/
+      url: /writable/images/
     fieldLayout:
       fields: {  }
+assetTransforms:
+    ogImage:
+      name: ogImage
+      width: '1200'
+      height: '1200'
+      format: null
+      mode: crop
+      position: center-center
+      quality: null
 fields:
   Blog:
     blogContent:
@@ -61,7 +70,42 @@ fields:
       settings:
         source: 'taggroup:default'
       context: global
-  Meta:
+  Meta/SEO:
+    footerJS:
+      name: 'Code Injection/Footer Code'
+      required: false
+      instructions: 'Any raw code or Javascript entered here will be output at the bottom of this page. This can be used for calling specific Marketo or Google Analytics scripts that are specific to this page and not part of the global template.'
+      translatable: '0'
+      type: BetterRedactor
+      settings:
+        configFile: ''
+        availableAssetSources: '*'
+        availableTransforms: '*'
+        cleanupHtml: '1'
+        purifyHtml: ''
+        columnType: text
+      context: global
+    hideInNav:
+      name: 'Hide in Navigation'
+      required: false
+      instructions: 'If set, this field will hide this page from navigation.'
+      translatable: '0'
+      type: Lightswitch
+      settings:
+        default: ''
+      context: global
+    metaTitle:
+      name: 'HTML Title'
+      required: false
+      instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry.'
+      translatable: '0'
+      type: PlainText
+      settings:
+        placeholder: ''
+        maxLength: '155'
+        multiline: ''
+        initialRows: '4'
+      context: global
     metaDescription:
       name: 'Meta Description'
       required: false
@@ -74,17 +118,37 @@ fields:
         multiline: ''
         initialRows: '4'
       context: global
-    metaTitle:
-      name: Title
+    metaTags:
+      name: 'Meta Tags/Header Code'
       required: false
-      instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry.'
+      instructions: 'Provide any relevant meta tags, Open Graph tags, or Javascript to be placed on in the page''s header. Useful for Twitter Cards - https://dev.twitter.com/cards/overview - or Open Graph Tags such as <meta property="og:title" content="My shorter title" />'
       translatable: '0'
-      type: PlainText
+      type: BetterRedactor
       settings:
-        placeholder: ''
-        maxLength: '80'
-        multiline: ''
-        initialRows: '4'
+        configFile: ''
+        availableAssetSources: '*'
+        availableTransforms: '*'
+        cleanupHtml: '1'
+        purifyHtml: ''
+        columnType: text
+      context: global
+    ogImage:
+      name: 'Open Graph Image '
+      required: false
+      instructions: "If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best."
+      translatable: '0'
+      type: Assets
+      settings:
+        useSingleFolder: ''
+        sources: '*'
+        defaultUploadLocationSource: images
+        defaultUploadLocationSubpath: ''
+        singleUploadLocationSource: images
+        singleUploadLocationSubpath: ''
+        restrictFiles: ''
+        limit: '1'
+        viewMode: list
+        selectionLabel: ''
       context: global
   Pages:
     pageStructuredContent:
@@ -396,17 +460,21 @@ plugins:
     isInstalled: true
     isEnabled: true
     settings:
-      vcsUrl: ''
-      vcsCache: /var/www/example.com/git_cache
+      canonicalEnv: dev
+      devDbName: ''
+      stageDbName: ''
       dbName: example_com
       envRoot: /var/www/example.com
+      vcsCache: /var/www/example.com/git_cache
       vcsDirs: 'craft/plugins craft/templates public craft/config'
-      canonicalEnv: dev
+      vcsUrl: ''
+      preDeploymentHooks: ''
+      postDeploymentHooks: ''
   FieldManager:
     isInstalled: true
     isEnabled: true
     settings:
-      cpSectionEnabled: true
+      cpSectionEnabled: 1
   GoogleCustomSearch:
     isInstalled: true
     isEnabled: true
@@ -472,9 +540,13 @@ sections:
             Blog:
               blogDescription: '1'
               blogContent: '1'
-            Meta:
-              metaDescription: '0'
+            Meta/SEO:
               metaTitle: '0'
+              hideInNav: '0'
+              metaDescription: '0'
+              ogImage: '0'
+              metaTags: '0'
+              footerJS: '0'
   homepage:
     name: Homepage
     type: single
@@ -542,9 +614,13 @@ sections:
           tabs:
             Pages:
               pageStructuredContent: '1'
-            Meta:
-              metaDescription: '0'
+            Meta/SEO:
               metaTitle: '0'
+              hideInNav: '0'
+              metaDescription: '0'
+              ogImage: '0'
+              metaTags: '0'
+              footerJS: '0'
   team:
     name: Team
     type: structure
@@ -572,7 +648,21 @@ userGroups: {  }
 users:
   fieldLayout:
     fields: {  }
-elementIndexSettings: {  }
+elementIndexSettings:
+  Entry:
+    sources:
+      'section:2':
+        tableAttributes:
+          1: postDate
+          2: expiryDate
+          3: link
+          4: 'field:34'
+      'section:3':
+        tableAttributes:
+          1: postDate
+          2: expiryDate
+          3: link
+          4: 'field:34'
 pluginData: {  }
 categoryGroups: {  }
 tagGroups:
