@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a03dd7e8f76fda6fdd4420219778bdb8",
-    "content-hash": "75003de714709ccac3815b813ceff474",
+    "content-hash": "4e426c2f4d03ac23142c7ac5d8fc8edd",
     "packages": [
         {
             "name": "boboldehampsink/tagmanager",
@@ -33,20 +32,20 @@
                 }
             ],
             "description": "Tag Manager plugin for Craft CMS",
-            "time": "2015-07-30 12:27:56"
+            "time": "2015-07-30T12:27:56+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.2.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
-                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
                 "shasum": ""
             },
             "require": {
@@ -88,12 +87,17 @@
             "keywords": [
                 "Craft",
                 "Dolibarr",
+                "Eliasis",
                 "Hurad",
                 "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
                 "MODX Evo",
                 "Mautic",
+                "Maya",
                 "OXID",
                 "Plentymarkets",
+                "Porto",
                 "RadPHP",
                 "SMF",
                 "Thelia",
@@ -111,20 +115,24 @@
                 "croogo",
                 "dokuwiki",
                 "drupal",
+                "eZ Platform",
                 "elgg",
                 "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
+                "itop",
                 "joomla",
                 "kohana",
                 "laravel",
+                "lavalite",
                 "lithium",
                 "magento",
                 "mako",
                 "mediawiki",
                 "modulework",
                 "moodle",
+                "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
@@ -133,6 +141,7 @@
                 "roundcube",
                 "shopware",
                 "silverstripe",
+                "sydes",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -140,7 +149,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "facebook/php-sdk-v4",
@@ -190,7 +199,7 @@
                 "sdk"
             ],
             "abandoned": "facebook/graph-sdk",
-            "time": "2015-04-03 20:31:47"
+            "time": "2015-04-03T20:31:47+00:00"
         },
         {
             "name": "imarc/craft-betterredactor",
@@ -222,20 +231,20 @@
             ],
             "description": "An improved starting configuration for Redactor II as well as way to add additional plugins.",
             "homepage": "https://github.com/imarc/craft-betterredactor",
-            "time": "2017-02-14 18:38:37"
+            "time": "2017-02-14T18:38:37+00:00"
         },
         {
             "name": "imarc/craft-boost",
-            "version": "1.2.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/imarc/craft-boost.git",
-                "reference": "9181189e35a2d15818539a5772efe2b83da4e873"
+                "reference": "e89249814c6be03c867778935b51ea8dec443f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imarc/craft-boost/zipball/9181189e35a2d15818539a5772efe2b83da4e873",
-                "reference": "9181189e35a2d15818539a5772efe2b83da4e873",
+                "url": "https://api.github.com/repos/imarc/craft-boost/zipball/e89249814c6be03c867778935b51ea8dec443f6e",
+                "reference": "e89249814c6be03c867778935b51ea8dec443f6e",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +263,7 @@
             ],
             "description": "A Craft plugin that provides basic deployment.",
             "homepage": "https://github.com/imarc/craft-boost",
-            "time": "2016-08-22 15:44:28"
+            "time": "2017-08-10T15:58:58+00:00"
         },
         {
             "name": "imarc/craft-googlecustomsearch",
@@ -286,7 +295,7 @@
             ],
             "description": "A Craft plugin for integrating with Google's Custom Search (and Google's Site Search.)",
             "homepage": "https://github.com/imarc/craft-googlecustomsearch",
-            "time": "2016-05-16 20:06:16"
+            "time": "2016-05-16T20:06:16+00:00"
         },
         {
             "name": "imarc/craft-kindling",
@@ -318,7 +327,7 @@
             ],
             "description": "A Craft plugin and Twig Extension providing some convienences.",
             "homepage": "https://github.com/imarc/craft-kindling",
-            "time": "2016-08-15 20:52:12"
+            "time": "2016-08-15T20:52:12+00:00"
         },
         {
             "name": "imarc/craft-sass",
@@ -351,7 +360,7 @@
             ],
             "description": "A Craft plugin that compiles SASS on the server as needed.",
             "homepage": "https://github.com/imarc/craft-sass",
-            "time": "2017-01-12 21:23:55"
+            "time": "2017-01-12T21:23:55+00:00"
         },
         {
             "name": "imarc/craft-social",
@@ -384,20 +393,76 @@
             ],
             "description": "A Craft plugin that provides integration with a few social networks for use in templates.",
             "homepage": "https://github.com/imarc/craft-social",
-            "time": "2017-03-28 22:09:35"
+            "time": "2017-03-28T22:09:35+00:00"
         },
         {
-            "name": "itmundi/schematic",
-            "version": "3.7.1",
+            "name": "leafo/scssphp",
+            "version": "v0.1.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nerds-and-company/schematic.git",
-                "reference": "ea1049ba6f04939e3342da2b1e4945a574cf9a23"
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nerds-and-company/schematic/zipball/ea1049ba6f04939e3342da2b1e4945a574cf9a23",
-                "reference": "ea1049ba6f04939e3342da2b1e4945a574cf9a23",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "kherge/box": "~2.5",
+                "phpunit/phpunit": "~3.7",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classmap.php"
+                ],
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "time": "2015-08-23T16:12:31+00:00"
+        },
+        {
+            "name": "nerds-and-company/schematic",
+            "version": "3.8.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nerds-and-company/schematic.git",
+                "reference": "5de243abc4410fe60df8bf91d43fd7c3d9f45cf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nerds-and-company/schematic/zipball/5de243abc4410fe60df8bf91d43fd7c3d9f45cf9",
+                "reference": "5de243abc4410fe60df8bf91d43fd7c3d9f45cf9",
                 "shasum": ""
             },
             "require": {
@@ -459,76 +524,20 @@
                 }
             ],
             "description": "Craft setup and sync tool",
-            "time": "2017-04-13 07:19:20"
-        },
-        {
-            "name": "leafo/scssphp",
-            "version": "v0.1.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leafo/scssphp.git",
-                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leafo/scssphp/zipball/9e945cc64ccb6126123dd45cc2d219a4fbc99582",
-                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "kherge/box": "~2.5",
-                "phpunit/phpunit": "~3.7",
-                "squizlabs/php_codesniffer": "~2.3"
-            },
-            "bin": [
-                "bin/pscss"
-            ],
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "classmap.php"
-                ],
-                "psr-4": {
-                    "Leafo\\ScssPhp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Leaf Corcoran",
-                    "email": "leafot@gmail.com",
-                    "homepage": "http://leafo.net"
-                }
-            ],
-            "description": "scssphp is a compiler for SCSS written in PHP.",
-            "homepage": "http://leafo.github.io/scssphp/",
-            "keywords": [
-                "css",
-                "less",
-                "sass",
-                "scss",
-                "stylesheet"
-            ],
-            "time": "2015-08-23 16:12:31"
+            "time": "2017-09-05T12:00:45+00:00"
         },
         {
             "name": "nystudio107/retour",
-            "version": "1.0.19",
+            "version": "1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/retour.git",
-                "reference": "be1a67bfb1ae2f69f2cbf6ad45771420d01dd4ce"
+                "reference": "825b9b2733da6d21ce144ee4541c6a2b6e2f5d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/retour/zipball/be1a67bfb1ae2f69f2cbf6ad45771420d01dd4ce",
-                "reference": "be1a67bfb1ae2f69f2cbf6ad45771420d01dd4ce",
+                "url": "https://api.github.com/repos/nystudio107/retour/zipball/825b9b2733da6d21ce144ee4541c6a2b6e2f5d25",
+                "reference": "825b9b2733da6d21ce144ee4541c6a2b6e2f5d25",
                 "shasum": ""
             },
             "require": {
@@ -537,20 +546,20 @@
             "type": "craft-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Retour allows you to intelligently redirect legacy URLs, so that you don't lose SEO value when rebuilding & restructuring a website.",
-            "time": "2017-02-10 19:26:43"
+            "time": "2017-08-31T23:47:05+00:00"
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
                 "shasum": ""
             },
             "require": {
@@ -579,24 +588,24 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08 17:14:32"
+            "time": "2017-07-17T20:41:59+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.7",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "62b4cdb99d52cb1ff253c465eb1532a80cebb621"
+                "reference": "1d8c2a99c80862bdc3af94c1781bf70f86bccac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/62b4cdb99d52cb1ff253c465eb1532a80cebb621",
-                "reference": "62b4cdb99d52cb1ff253c465eb1532a80cebb621",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/1d8c2a99c80862bdc3af94c1781bf70f86bccac0",
+                "reference": "1d8c2a99c80862bdc3af94c1781bf70f86bccac0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": "^5.5.9|>=7.0.8"
             },
             "require-dev": {
                 "symfony/console": "~2.8|~3.0"
@@ -607,7 +616,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -634,7 +643,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20 09:45:15"
+            "time": "2017-07-29T21:54:42+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -684,7 +693,26 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wbrowar/adminbar",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:wbrowar/adminbar.git",
+                "reference": "tags/2.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/wbrowar/adminbar/archive/v2.1.2.zip",
+                "reference": "tags/2.1.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "craft-plugin"
         }
     ],
     "packages-dev": [],
