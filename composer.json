@@ -42,7 +42,7 @@
         "nystudio107/retour": "^1.0",
         "vlucas/phpdotenv": "^2.0",
         "oscarotero/env": "^1.0",
-        "wbrowar/adminbar": "master"
+        "wbrowar/adminbar": "dev-master"
     },
     "autoload": {
         "psr-4": {

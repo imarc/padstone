@@ -11,3 +11,6 @@ sudo chmod -R 775 /var/www/craft/storage
 sudo mkdir -p /var/www/public/writable/images
 sudo chown -R www-data:www-data /var/www/public/writable
 sudo chmod -R 775 /var/www/public/writable
+
+sudo chown -R www-data:www-data /var/www/public
+sudo chown -R www-data:www-data /var/www/craft/config
