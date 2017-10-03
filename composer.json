@@ -42,35 +42,13 @@
         "nystudio107/retour": "^1.0",
         "vlucas/phpdotenv": "^2.0",
         "oscarotero/env": "^1.0",
-        "wbrowar/adminbar": "2.1.2"
+        "wbrowar/adminbar": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"
         }
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "wbrowar/adminbar",
-                "version": "2.1.2",
-                "type": "craft-plugin",
-                "dist": {
-                    "url": "https://github.com/wbrowar/adminbar/archive/v2.1.2.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "git@github.com:wbrowar/adminbar.git",
-                    "type": "git",
-                    "reference": "tags/2.1.2"
-                },
-                "require": {
-                    "composer/installers": "^1.0"
-                }
-            }
-        }
-    ],
     "scripts": {
         "post-create-project-cmd": [
             "@create-project"
