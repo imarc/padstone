@@ -10,6 +10,26 @@
             "email": "kevin@imarc.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wbrowar/adminbar",
+                "version": "master",
+                "dist": {
+                    "url": "https://github.com/wbrowar/adminbar/archive/master.zip",
+                    "type": "zip",
+                    "reference": "master"
+                },
+                "source": {
+                    "url": "git@github.com:wbrowar/adminbar.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "type": "craft-plugin"
+            }
+        }
+    ],
     "require": {
         "imarc/craft-boost": "^2.0.0",
         "imarc/craft-googlecustomsearch": "^1.0.2",
@@ -21,7 +41,8 @@
         "boboldehampsink/tagmanager": "^0.2.0",
         "nystudio107/retour": "^1.0",
         "vlucas/phpdotenv": "^2.0",
-        "oscarotero/env": "^1.0"
+        "oscarotero/env": "^1.0",
+        "wbrowar/adminbar": "dev-master"
     },
     "autoload": {
         "psr-4": {
