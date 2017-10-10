@@ -82,18 +82,6 @@ ServerSignature Off
     Header always set Strict-Transport-Security "max-age=16070400; includeSubDomains"
 </IfModule>
 
-# Content Security Policy.
-# https://content-security-policy.com/
-
-<IfModule mod_headers.c>
-    Header set Content-Security-Policy \
-        "default-src 'self' 'unsafe-inline' www.google-analytics.com ajax.googleapis.com"
-
-    <FilesMatch "\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$">
-        Header unset Content-Security-Policy
-    </FilesMatch>
-</IfModule>
-
 # Prevent some browsers from MIME-sniffing responses
 
 <IfModule mod_headers.c>
