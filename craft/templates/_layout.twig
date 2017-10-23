@@ -43,8 +43,14 @@
         {% endif %}
     </head>
     <body class="{{ body_class ?? "" }}" id="{{ body_id ?? "" }}">
-
         <header class="primary sticky">
+            {% if craft.adminbar is defined %}
+                {% set config = {
+                    entry: entry,
+                    sticky: false
+                } %}
+                {{ craft.adminbar.bar(config) }}
+            {% endif %}
             <div class="container">
                 <div class="header-content">
                     <div class="branding">
