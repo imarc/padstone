@@ -112,6 +112,8 @@ $large: 1024px;
 
 @mixin fontawesome($character: "") {
     font: normal normal normal 1em unquote("/") 1 FontAwesome;
+    font-size: inherit;
+    line-height: inherit;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     speak: none;
