@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6616baf12f49b17f0f0ac5086e161d8c",
+    "content-hash": "9b660f8ed5365ce569b6503b1c2bdeb0",
     "packages": [
+        {
+            "name": "aelvan/inlin",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aelvan/Inlin-Craft.git",
+                "reference": "0887d3c77b36b74002fba00e8261f1134dbe862b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aelvan/Inlin-Craft/zipball/0887d3c77b36b74002fba00e8261f1134dbe862b",
+                "reference": "0887d3c77b36b74002fba00e8261f1134dbe862b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "~3.0.0-beta.23"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Inlin",
+                "handle": "inlin",
+                "schemaVersion": "2.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://github.com/aelvan/Inlin-Craft/blob/craft3/CHANGELOG.md",
+                "class": "aelvan\\inlin\\Inlin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "aelvan\\inlin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "André Elvan",
+                    "homepage": "https://www.vaersaagod.no"
+                }
+            ],
+            "description": "A simple plugin for inlining stuff in your templates.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "criticalcss",
+                "inline",
+                "inlining",
+                "svg"
+            ],
+            "time": "2017-08-09T22:00:10+00:00"
+        },
         {
             "name": "cebe/markdown",
             "version": "1.1.2",
@@ -323,55 +378,6 @@
             "time": "2018-01-03T16:37:06+00:00"
         },
         {
-            "name": "craftcms/ckeditor",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/ckeditor.git",
-                "reference": "185f6064cc135d717cf7b43c93aff2063ce399f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/ckeditor/zipball/185f6064cc135d717cf7b43c93aff2063ce399f1",
-                "reference": "185f6064cc135d717cf7b43c93aff2063ce399f1",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC1"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "CKEditor",
-                "handle": "ckeditor",
-                "changelogUrl": "https://raw.githubusercontent.com/craftcms/ckeditor/master/CHANGELOG.md",
-                "downloadUrl": "https://github.com/craftcms/ckeditor/archive/master.zip"
-            },
-            "autoload": {
-                "psr-4": {
-                    "craft\\ckeditor\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pixel & Tonic",
-                    "homepage": "https://pixelandtonic.com/"
-                }
-            ],
-            "description": "Edit rich text content in Craft CMS using CKEditor.",
-            "keywords": [
-                "CKEditor",
-                "cms",
-                "craftcms",
-                "html",
-                "yii2"
-            ],
-            "time": "2018-01-15T18:06:22+00:00"
-        },
-        {
             "name": "craftcms/cms",
             "version": "3.0.0-RC5",
             "source": {
@@ -451,6 +457,103 @@
                 "yii2"
             ],
             "time": "2018-01-09T19:21:35+00:00"
+        },
+        {
+            "name": "craftcms/contact-form",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/contact-form.git",
+                "reference": "84a76265f1258e9b9450ae4df5c80db970c16e39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/contact-form/zipball/84a76265f1258e9b9450ae4df5c80db970c16e39",
+                "reference": "84a76265f1258e9b9450ae4df5c80db970c16e39",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-beta.27"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Contact Form",
+                "handle": "contact-form",
+                "changelogUrl": "https://raw.githubusercontent.com/craftcms/contact-form/v2/CHANGELOG.md",
+                "downloadUrl": "https://github.com/craftcms/contact-form/archive/v2.zip",
+                "components": {
+                    "mailer": "craft\\contactform\\Mailer"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\contactform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Add a simple contact form to your Craft CMS site",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "yii2"
+            ],
+            "time": "2017-12-05T00:33:27+00:00"
+        },
+        {
+            "name": "craftcms/contact-form-honeypot",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/contact-form-honeypot.git",
+                "reference": "57f4e16c1d24074dcd5575440bcfe7bf6c3b8de0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/contact-form-honeypot/zipball/57f4e16c1d24074dcd5575440bcfe7bf6c3b8de0",
+                "reference": "57f4e16c1d24074dcd5575440bcfe7bf6c3b8de0",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-beta.20"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Contact Form Honeypot",
+                "handle": "contact-form-honeypot",
+                "changelogUrl": "https://raw.githubusercontent.com/craftcms/contact-form-honeypot/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/craftcms/contact-form-honeypot/archive/master.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\contactform\\honeypot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Add a honeypot captcha to your Craft CMS contact form",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "yii2"
+            ],
+            "time": "2017-12-05T00:55:45+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -543,6 +646,55 @@
                 "plugin"
             ],
             "time": "2017-07-25T13:26:24+00:00"
+        },
+        {
+            "name": "craftcms/redactor",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/redactor.git",
+                "reference": "11b0b7606f93d223b9e8d5457fc320405aeb1545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/11b0b7606f93d223b9e8d5457fc320405aeb1545",
+                "reference": "11b0b7606f93d223b9e8d5457fc320405aeb1545",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "changelogUrl": "https://raw.githubusercontent.com/craftcms/redactor/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/craftcms/redactor/archive/master.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "Redactor",
+                "cms",
+                "craftcms",
+                "html",
+                "yii2"
+            ],
+            "time": "2018-01-15T18:04:13+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -727,6 +879,65 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "dolphiq/redirect",
+            "version": "1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dolphiq/craft3-plugin-redirect.git",
+                "reference": "9e2189845a4432c2c384d10c6a3158f83c6ee0c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dolphiq/craft3-plugin-redirect/zipball/9e2189845a4432c2c384d10c6a3158f83c6ee0c4",
+                "reference": "9e2189845a4432c2c384d10c6a3158f83c6ee0c4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC4"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redirect plugin for Craft 3",
+                "handle": "redirect",
+                "schemaVersion": "1.0.4",
+                "developer": "Dolphiq",
+                "developerUrl": "https://dolphiq.nl/",
+                "description": "Craft redirect plugin provides an easy way to enter and maintain 301 and 302 redirects and 404 error pages.",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "documentationUrl": "https://github.com/Dolphiq/craft3-plugin-redirect/blob/master/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/Dolphiq/craft3-plugin-redirect/master/CHANGELOG.md",
+                "class": "dolphiq\\redirect\\RedirectPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "dolphiq\\redirect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dolphiq",
+                    "email": "info@dolphiq.nl",
+                    "homepage": "https://dolphiq.nl/"
+                }
+            ],
+            "description": "Craft redirect plugin provides an easy way to enter and maintain 301 and 302 redirects and 404 error pages.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craft3",
+                "craftcms",
+                "redirect",
+                "seo"
+            ],
+            "time": "2018-01-10T16:48:12+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1267,6 +1478,100 @@
             "time": "2017-04-25T14:43:14+00:00"
         },
         {
+            "name": "luwes/craft3-codemirror",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/luwes/craft3-codemirror.git",
+                "reference": "3162246ca420df39b1c8763844f80f39e3588561"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/luwes/craft3-codemirror/zipball/3162246ca420df39b1c8763844f80f39e3588561",
+                "reference": "3162246ca420df39b1c8763844f80f39e3588561",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "~3.0.0-beta.20"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "CodeMirror",
+                "handle": "code-mirror",
+                "changelogUrl": "https://raw.githubusercontent.com/luwes/craft3-codemirror/master/CHANGELOG.md",
+                "class": "luwes\\codemirror\\CodeMirror"
+            },
+            "autoload": {
+                "psr-4": {
+                    "luwes\\codemirror\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wesley Luyten",
+                    "homepage": "https://wesleyluyten.com"
+                }
+            ],
+            "description": "Add the awesome in-browser code editor CodeMirror as a field type.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "codemirror",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2017-11-26T00:47:53+00:00"
+        },
+        {
+            "name": "mexitek/phpcolors",
+            "version": "v0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mexitek/phpColors.git",
+                "reference": "89bf30473a68dc8845e46e9db3e536b969e18c11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mexitek/phpColors/zipball/89bf30473a68dc8845e46e9db3e536b969e18c11",
+                "reference": "89bf30473a68dc8845e46e9db3e536b969e18c11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arlo Carreon",
+                    "homepage": "http://arlocarreon.com",
+                    "role": "creator"
+                }
+            ],
+            "description": "A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.",
+            "homepage": "http://mexitek.github.com/phpColors/",
+            "keywords": [
+                "color",
+                "css",
+                "design",
+                "frontend",
+                "ui"
+            ],
+            "time": "2015-09-09T15:43:06+00:00"
+        },
+        {
             "name": "mikehaertl/php-shellcommand",
             "version": "1.2.5",
             "source": {
@@ -1301,6 +1606,64 @@
                 "shell"
             ],
             "time": "2017-06-30T06:21:01+00:00"
+        },
+        {
+            "name": "misterbk/mix",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mister-bk/craft-plugin-mix.git",
+                "reference": "e631f17058891b8f66de97fafab62456f71ff05c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mister-bk/craft-plugin-mix/zipball/e631f17058891b8f66de97fafab62456f71ff05c",
+                "reference": "e631f17058891b8f66de97fafab62456f71ff05c",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Mix",
+                "handle": "mix",
+                "schemaVersion": "1.0.0",
+                "documentationUrl": "https://github.com/mister-bk/craft-plugin-mix/blob/master/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/mister-bk/craft-plugin-mix/master/CHANGELOG.md",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "components": {
+                    "mix": "misterbk\\mix\\services\\MixService"
+                },
+                "class": "misterbk\\mix\\Mix"
+            },
+            "autoload": {
+                "psr-4": {
+                    "misterbk\\mix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mister bk! GmbH",
+                    "email": "info@mister-bk.de",
+                    "homepage": "https://www.mister-bk.de/"
+                }
+            ],
+            "description": "Helper plugin for Laravel Mix in Craft CMS templates",
+            "keywords": [
+                "Craft",
+                "craft-plugin",
+                "craft3",
+                "craftcms",
+                "laravel-mix",
+                "mix"
+            ],
+            "time": "2017-11-23T09:21:07+00:00"
         },
         {
             "name": "nerds-and-company/schematic",
@@ -1724,6 +2087,43 @@
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
             "time": "2018-01-13T18:31:46+00:00"
+        },
+        {
+            "name": "sebastianlenz/linkfield",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastian-lenz/craft-linkfield.git",
+                "reference": "8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98",
+                "reference": "8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "php": "^7.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "typedlinkfield",
+                "name": "Typed link Field",
+                "developer": "Sebastian Lenz",
+                "developerUrl": "https://github.com/sebastian-lenz/"
+            },
+            "autoload": {
+                "psr-4": {
+                    "typedlinkfield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Craft field type for selecting links",
+            "time": "2018-01-10T10:00:31+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -2377,6 +2777,59 @@
             "time": "2017-09-27T18:10:31+00:00"
         },
         {
+            "name": "verbb/expanded-singles",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/expanded-singles.git",
+                "reference": "1c466ceeaba921bb50912a04f27ec316bb9e517e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/expanded-singles/zipball/1c466ceeaba921bb50912a04f27ec316bb9e517e",
+                "reference": "1c466ceeaba921bb50912a04f27ec316bb9e517e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "~3.0.0-beta.23"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Expanded Singles",
+                "handle": "expanded-singles",
+                "description": "Alters the Entries Index sidebar to list all Singles, rather than grouping them under a 'Singles' link.",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/expanded-singles/master/CHANGELOG.md",
+                "class": "verbb\\expandedsingles\\ExpandedSingles"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\expandedsingles\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "A simple plugin for Craft CMS that alters the Entries Index sidebar to list all Singles, rather than grouping them under a 'Singles' link.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "expanded singles"
+            ],
+            "time": "2017-12-06T22:40:26+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -2425,6 +2878,63 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wbrowar/adminbar",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wbrowar/craft-3-adminbar.git",
+                "reference": "f874c8dd2e2da41810ff399be75e4429aeb86114"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wbrowar/craft-3-adminbar/zipball/f874c8dd2e2da41810ff399be75e4429aeb86114",
+                "reference": "f874c8dd2e2da41810ff399be75e4429aeb86114",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "mexitek/phpcolors": "^v0.4"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Admin Bar",
+                "handle": "admin-bar",
+                "schemaVersion": "3.0.1",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/wbrowar/craft-3-adminbar/master/CHANGELOG.md",
+                "components": {
+                    "bar": "wbrowar\\adminbar\\services\\Bar",
+                    "editLinks": "wbrowar\\adminbar\\services\\EditLinks"
+                },
+                "class": "wbrowar\\adminbar\\AdminBar"
+            },
+            "autoload": {
+                "psr-4": {
+                    "wbrowar\\adminbar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Will Browar",
+                    "homepage": "https://wbrowar.com/plugins/adminbar"
+                }
+            ],
+            "description": "Front-end shortcuts for clients logged into Craft CMS.",
+            "keywords": [
+                "Craft",
+                "admin bar",
+                "cms",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2017-11-25T01:09:51+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -2955,8 +3465,7 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "craftcms/cms": 10,
-        "roave/security-advisories": 20,
-        "craftcms/ckeditor": 20
+        "roave/security-advisories": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

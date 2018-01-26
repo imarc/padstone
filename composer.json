@@ -25,7 +25,16 @@
     "vlucas/phpdotenv": "^2.4.0",
     "roave/security-advisories": "dev-master",
     "nerds-and-company/schematic": "^3.8",
-    "craftcms/ckeditor": "dev-master"
+    "dolphiq/redirect": "^1.0",
+    "misterbk/mix": "^1.4",
+    "verbb/expanded-singles": "^1.0",
+    "sebastianlenz/linkfield": "^1.0",
+    "luwes/craft3-codemirror": "^1.0",
+    "craftcms/redactor": "^1.0",
+    "wbrowar/adminbar": "^3.0",
+    "craftcms/contact-form": "^2.1",
+    "craftcms/contact-form-honeypot": "^1.0",
+    "aelvan/inlin": "^2.0"
   },
   "autoload": {
     "psr-4": {
