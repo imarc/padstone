@@ -379,16 +379,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.0-RC5",
+            "version": "3.0.0-RC7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "d3ee52019f3c772fd2d69017f0e2071308e5be85"
+                "reference": "f8c991cb01afce44cb0803749e84e776f1ce2d51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/d3ee52019f3c772fd2d69017f0e2071308e5be85",
-                "reference": "d3ee52019f3c772fd2d69017f0e2071308e5be85",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/f8c991cb01afce44cb0803749e84e776f1ce2d51",
+                "reference": "f8c991cb01afce44cb0803749e84e776f1ce2d51",
                 "shasum": ""
             },
             "require": {
@@ -398,6 +398,7 @@
                 "craftcms/server-check": "~1.1.0",
                 "creocoder/yii2-nested-sets": "~0.9.0",
                 "danielstjules/stringy": "~3.1.0",
+                "elvanto/litemoji": "^1.3.1",
                 "enshrined/svg-sanitize": "~0.8.2",
                 "ext-curl": "*",
                 "ext-dom": "*",
@@ -456,7 +457,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2018-01-09T19:21:35+00:00"
+            "time": "2018-01-24T23:47:15+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -653,12 +654,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/redactor.git",
-                "reference": "11b0b7606f93d223b9e8d5457fc320405aeb1545"
+                "reference": "0ca795da09e06f50edbc7a99f36b9359ad9e72ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/11b0b7606f93d223b9e8d5457fc320405aeb1545",
-                "reference": "11b0b7606f93d223b9e8d5457fc320405aeb1545",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/0ca795da09e06f50edbc7a99f36b9359ad9e72ed",
+                "reference": "0ca795da09e06f50edbc7a99f36b9359ad9e72ed",
                 "shasum": ""
             },
             "require": {
@@ -995,6 +996,44 @@
                 "validator"
             ],
             "time": "2017-11-15T23:40:40+00:00"
+        },
+        {
+            "name": "elvanto/litemoji",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elvanto/litemoji.git",
+                "reference": "fc1d2b8b3d174ee9425ac506430377dc3b50cdfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/fc1d2b8b3d174ee9425ac506430377dc3b50cdfb",
+                "reference": "fc1d2b8b3d174ee9425ac506430377dc3b50cdfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "milesj/emojibase": "*",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LitEmoji\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP library simplifying the conversion of unicode, HTML and shortcode emoji.",
+            "keywords": [
+                "emoji",
+                "php-emoji"
+            ],
+            "time": "2017-10-09T01:54:36+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -1609,16 +1648,16 @@
         },
         {
             "name": "misterbk/mix",
-            "version": "1.4.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mister-bk/craft-plugin-mix.git",
-                "reference": "e631f17058891b8f66de97fafab62456f71ff05c"
+                "reference": "857acb666cb71b8ed6517cdf1b4e009ff1718e46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mister-bk/craft-plugin-mix/zipball/e631f17058891b8f66de97fafab62456f71ff05c",
-                "reference": "e631f17058891b8f66de97fafab62456f71ff05c",
+                "url": "https://api.github.com/repos/mister-bk/craft-plugin-mix/zipball/857acb666cb71b8ed6517cdf1b4e009ff1718e46",
+                "reference": "857acb666cb71b8ed6517cdf1b4e009ff1718e46",
                 "shasum": ""
             },
             "require": {
@@ -1629,6 +1668,7 @@
                 "name": "Mix",
                 "handle": "mix",
                 "schemaVersion": "1.0.0",
+                "developerEmail": "dev@mister-bk.de",
                 "documentationUrl": "https://github.com/mister-bk/craft-plugin-mix/blob/master/README.md",
                 "changelogUrl": "https://raw.githubusercontent.com/mister-bk/craft-plugin-mix/master/CHANGELOG.md",
                 "hasCpSettings": true,
@@ -1663,7 +1703,7 @@
                 "laravel-mix",
                 "mix"
             ],
-            "time": "2017-11-23T09:21:07+00:00"
+            "time": "2018-01-22T22:07:40+00:00"
         },
         {
             "name": "nerds-and-company/schematic",
@@ -1949,12 +1989,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a54d4cf91890993ee599c446e2eb3dba3f9eae32"
+                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a54d4cf91890993ee599c446e2eb3dba3f9eae32",
-                "reference": "a54d4cf91890993ee599c446e2eb3dba3f9eae32",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/eca509e364dcea7b7f41f9452d575684cc8e3fb4",
+                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4",
                 "shasum": ""
             },
             "conflict": {
@@ -1968,9 +2008,10 @@
                 "codeigniter/framework": "<=3.0.6",
                 "composer/composer": "<=1.0.0-alpha11",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
-                "contao/core": ">=2,<3.5.31",
+                "contao/core": ">=2,<3.5.32",
                 "contao/core-bundle": ">=4,<4.4.8",
                 "contao/listing-bundle": ">=4,<4.4.8",
+                "contao/newsletter-bundle": ">=4,<4.1",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
                 "doctrine/common": ">=2,<2.4.3|>=2.5,<2.5.1",
@@ -2008,7 +2049,7 @@
                 "phpxmlrpc/extras": "<0.6.1",
                 "pusher/pusher-php-server": "<2.2.1",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
-                "shopware/shopware": "<5.2.25",
+                "shopware/shopware": "<5.3.7",
                 "silverstripe/cms": ">=3,<=3.0.11|>=3.1,<3.1.11",
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
                 "silverstripe/framework": ">=3,<3.3",
@@ -2037,7 +2078,7 @@
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "twig/twig": "<1.20",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.22|>=8,<8.7.5",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
@@ -2086,20 +2127,20 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-01-13T18:31:46+00:00"
+            "time": "2018-01-22T14:51:56+00:00"
         },
         {
             "name": "sebastianlenz/linkfield",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastian-lenz/craft-linkfield.git",
-                "reference": "8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98"
+                "reference": "e569890957358f3a0225427e5e9255f4d8e45c40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98",
-                "reference": "8e1fb5b3845df8cfd1dc08dba43eb9e6a853cc98",
+                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/e569890957358f3a0225427e5e9255f4d8e45c40",
+                "reference": "e569890957358f3a0225427e5e9255f4d8e45c40",
                 "shasum": ""
             },
             "require": {
@@ -2123,7 +2164,7 @@
                 "MIT"
             ],
             "description": "A Craft field type for selecting links",
-            "time": "2018-01-10T10:00:31+00:00"
+            "time": "2018-01-19T11:15:10+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -2175,16 +2216,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "9b355654ea99460397b89c132b5c1087b6bf4473"
+                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9b355654ea99460397b89c132b5c1087b6bf4473",
-                "reference": "9b355654ea99460397b89c132b5c1087b6bf4473",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/d15f59a67ff805a44c50ea0516d2341740f81a38",
+                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2261,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-03T12:13:57+00:00"
+            "time": "2018-01-24T12:46:19+00:00"
         },
         {
             "name": "seld/phar-utils",
