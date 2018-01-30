@@ -9,5 +9,6 @@
 /public/js
 /public/writable
 /vendor
+composer.lock
 craft_latest.zip
 mix-manifest.json

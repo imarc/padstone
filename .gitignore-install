@@ -1,6 +1,9 @@
 .env
-craft_latest.zip
 /craft/config/license.key
-/public/writable
 /node_modules
+/public/css
+/public/js
+/public/writable
 /vendor
+craft_latest.zip
+mix-manifest.json
