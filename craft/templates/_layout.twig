@@ -37,7 +37,7 @@
         <meta name="web_author" content="Imarc, A Digital Agency | Boston + Silicon Valley | more info at imarc.com" />
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/styles.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="{{ mix('css/styles.css') }}" media="all" />
         {% if metaTags is defined %}
             {{ metaTags | raw }}
         {% endif %}
@@ -192,9 +192,9 @@
             </div>
         </footer>
 
-        <script src="/js/manifest.js"></script>
-        <script src="/js/vendor.js"></script>
-        <script src="/js/site.js"></script>
+        <script src="{{ mix('js/manifest.js') }}"></script>
+        <script src="{{ mix('js/vendor.js') }}"></script>
+        <script src="{{ mix('js/site.js') }}"></script>
         {% if footerJS is defined %}
             {{ footerJS | raw }}
         {% endif %}
