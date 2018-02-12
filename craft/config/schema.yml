@@ -12,14 +12,14 @@ assetSources:
     fieldLayout:
       fields: {  }
 assetTransforms:
-    ogImage:
-      name: ogImage
-      width: '1200'
-      height: '1200'
-      format: null
-      mode: crop
-      position: center-center
-      quality: null
+  ogImage:
+    name: ogImage
+    width: '1200'
+    height: '1200'
+    format: null
+    mode: crop
+    position: center-center
+    quality: null
 fields:
   Blog:
     blogContent:
@@ -135,7 +135,7 @@ fields:
     ogImage:
       name: 'Open Graph Image '
       required: false
-      instructions: "If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best."
+      instructions: 'If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best.'
       translatable: '0'
       type: Assets
       settings:
@@ -452,6 +452,13 @@ fields:
       context: global
 globalSets: {  }
 plugins:
+  Adminbar:
+    isInstalled: true
+    isEnabled: true
+    settings:
+      autoEmbed: 0
+      customLinks: {  }
+      defaultColor: '#d85b4b'
   BetterRedactor:
     isInstalled: true
     isEnabled: true
@@ -464,12 +471,27 @@ plugins:
       devDbName: ''
       stageDbName: ''
       dbName: example_com
+      devDbUser: ''
+      stageDbUser: ''
+      dbUser: ''
+      devDbPass: ''
+      stageDbPass: ''
+      dbPass: ''
+      devDbHost: ''
+      stageDbHost: ''
+      dbHost: localhost
       envRoot: /var/www/example.com
       vcsCache: /var/www/example.com/git_cache
       vcsDirs: 'craft/plugins craft/templates public craft/config'
       vcsUrl: ''
       preDeploymentHooks: ''
       postDeploymentHooks: ''
+      deleteLeftoverFiles: 0
+      protectFromDeletion: .env
+      resetOwnership: 'www-data:web'
+      resetPermissions: g+rw
+      keepDatabase: 0
+      resetDbPermissions: web@localhost
   FieldManager:
     isInstalled: true
     isEnabled: true
@@ -489,15 +511,15 @@ plugins:
     isInstalled: true
     isEnabled: true
     settings: {  }
+  Mix:
+    isInstalled: true
+    isEnabled: true
+    settings: {  }
   Retour:
     isInstalled: true
     isEnabled: true
     settings:
       pluginNameOverride: 'Redirect Manager'
-  Sass:
-    isInstalled: true
-    isEnabled: true
-    settings: {  }
   Social:
     isInstalled: true
     isEnabled: true
@@ -516,10 +538,6 @@ plugins:
     isInstalled: true
     isEnabled: true
     settings: {  }
-  Adminbar:
-      isInstalled: true
-      isEnabled: true
-      settings: {  }
 sections:
   blog:
     name: Blog

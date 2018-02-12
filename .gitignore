@@ -4,8 +4,11 @@
 /craft/config/web.config
 /craft/plugins
 /craft/storage
-/public/writable
-craft_latest.zip
 /node_modules
+/public/css
+/public/js
+/public/writable
 /vendor
 composer.lock
+craft_latest.zip
+mix-manifest.json

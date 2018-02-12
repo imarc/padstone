@@ -42,7 +42,8 @@
         "nystudio107/retour": "^1.0",
         "vlucas/phpdotenv": "^2.0",
         "oscarotero/env": "^1.0",
-        "wbrowar/adminbar": "dev-master"
+        "wbrowar/adminbar": "dev-master",
+        "dnunez24/craft-laravel-mix": "^0.1.0"
     },
     "autoload": {
         "psr-4": {
@@ -61,5 +62,12 @@
         "install-craft": [
             "Imarc\\Padstone\\Install::run"
         ]
+    },
+    "extra": {
+        "installer-paths": {
+            "craft/plugins/mix/": [
+                "dnunez24/craft-laravel-mix"
+            ]
+        }
     }
 }

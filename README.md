@@ -32,7 +32,6 @@ The following plugins are currently included and installed via [composer/install
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
 * [Kindling](https://github.com/imarc/craft-kindling)
 * [Retour](https://github.com/nystudio107/retour)
-* [Sass](https://github.com/imarc/craft-sass)
 * [Social](https://github.com/imarc/craft-social)
 * [Field Manager](https://github.com/engram-design/FieldManager)
 * [Tag Manager](https://github.com/boboldehampsink/tagmanager)
@@ -43,8 +42,8 @@ The following plugins are currently included and installed via [composer/install
 There is a `_macros.twig` file that (so far) just provides a macro for generating pagination.
 
 
-Usage
------
+Getting Started
+---------------
 
 Start out with Padstone by running the following [composer](https://getcomposer.org/) command in a terminal:
 
@@ -68,10 +67,11 @@ vendor/bin/schematic import
 
 This imports the schema.yml file, creating fields, enabling the plugins, etc.
 
+You will also want to run `npm install` and `npm run dev` at least once; see the "Usage During Development" section below for more details.
+
 At this point, you're done. Feel free to delete the Craft ZIP, The `padstone/` directory, or the `craft/config/schema.yml` file.
 
-Local Usage
------------
+### Local Usage
 
 Start local environment with Docker:
 
@@ -91,8 +91,67 @@ Destroy local environment:
     # DO NOT RUN THIS UNLESS YOU ARE SURE ALL PERSISTANT DATA CAN BE DELETED
     docker-compose down -v
 
+
+Usage During Development
+------------------------
+
+To install all npm dependencies:
+
+    npm install
+
+### Watching/Building all assets for Development
+
+While developing, you most likely want to watch the files you are working on,
+so the build happens automatically after every save.
+
+    npm run watch
+
+If you want to run this same build process for dev without watching, you can
+run the following:
+
+    npm run dev
+
+### Building all assets for Production
+
+Unless your project is using a deploy buildstep Before committing to production
+
+    npm run prod
+
+
+
+File Structure
+--------------
+
+Beyond the typical craft files, you will also see a resources/ folder. Padstone
+uses Laravel Mix to compile JS and Sass files from the resources/ folder and
+store the results into the public/ folder:
+
+* resources/assets/sass/styles.scss is compiled to public/css/styles.css
+* resources/assets/js/site.js is compiled to public/js/site.js
+
+Additionally, Padstone produces **manifest.js** and **vendor.js** files that
+must be included, in that order, before any of your own JS files. You can
+customize this behavior in `webpack.mix.js`.
+
+
+
 Changelog
 ---------
+
+### 2.0.0
+
+* Switch from craft-sass to use Laravel Mix for Sass/JS compilation
+
+### 1.6.0
+
+* Merge in pull request from @jeffturcotte, which did all the following
+* Add support for local development
+* Add dotenv support
+* Add editorconfig and other cleanup
+
+### 1.5.0
+
+* Add latest Boilerplate
 
 ### 1.4.0
 
