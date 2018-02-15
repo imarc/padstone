@@ -3,7 +3,7 @@
     "description": "Padstone is a Craft CMS starter that includes plugins and configuration Imarc has found to be useful defaults.",
     "homepage": "https://github.com/imarc/padstone",
     "type": "project",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Kevin Hamer",
