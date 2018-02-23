@@ -39,9 +39,17 @@ class Install
 
         echo "Downloading Craft from https://craftcms.com/latest.zip...\n";
 
+        $options  = [
+            'http' => [
+                'user_agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
+            ]
+        ];
+
+        $context = stream_context_create($options);
+
         file_put_contents(
             $zip_file,
-            fopen("https://craftcms.com/latest.zip?accept_license=yes", "r")
+            file_get_contents("https://craftcms.com/latest.zip?accept_license=yes", false, $context)
         );
 
         echo "Created ZIP file '$zip_file'. Extracting contents...\n";
