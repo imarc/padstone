@@ -51,6 +51,21 @@
                 } %}
                 {{ craft.adminbar.bar(config) }}
             {% endif %}
+            <div class="search-drawer">
+                <div>
+                    <div class="container">
+                        <form action="">
+                            <div class="text">
+                                <label class="sr-only" for="">Search the website</label>
+                                <input type="text" />
+                            </div>
+                            <div class="submit">
+                                <input type="submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="header-content">
                     <div class="branding">
@@ -101,6 +116,7 @@
                         <div class="utilities">
                             <nav aria-label="Utility Navigation" class="utility">
                                 <ul>
+                                    <li><a class="search-toggle" href="/search"><i aria-hidden="true" class="fa fa-search"></i> Search</a></li>
                                     <li><a href="">Careers</a></li>
                                     <li><a href="">Legal</a></li>
                                     <li><a href="">Log In</a></li>
