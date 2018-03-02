@@ -138,6 +138,10 @@ customize this behavior in `webpack.mix.js`.
 Changelog
 ---------
 
+### 2.1.0
+
+* Add latest Boilerplate
+
 ### 2.0.0
 
 * Switch from craft-sass to use Laravel Mix for Sass/JS compilation
