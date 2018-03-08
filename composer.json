@@ -37,7 +37,8 @@
     "aelvan/inlin": "^2.0",
     "dolphiq/iconpicker": "^1.0",
     "rias/craft-position-fieldtype": "^1.0",
-    "verbb/field-manager": "^2.0"
+    "verbb/field-manager": "^2.0",
+    "wbrowar/guide": "^1.1"
   },
   "autoload": {
     "psr-4": {

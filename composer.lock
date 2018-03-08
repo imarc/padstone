@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7672ac4ff49d1c3c9a2b717b3e14245c",
+    "content-hash": "edb7ea252efc16e0b60a7744a4b4a82f",
     "packages": [
         {
             "name": "aelvan/inlin",
@@ -695,7 +695,7 @@
                 "html",
                 "yii2"
             ],
-            "time": "2018-01-15T18:04:13+00:00"
+            "time": "2018-01-25T02:45:45+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -3180,6 +3180,61 @@
                 "craftcms"
             ],
             "time": "2017-11-25T01:09:51+00:00"
+        },
+        {
+            "name": "wbrowar/guide",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wbrowar/craft-3-guide.git",
+                "reference": "32c6e289b6f9b82243badd7ad3ac4d5b3d837776"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wbrowar/craft-3-guide/zipball/32c6e289b6f9b82243badd7ad3ac4d5b3d837776",
+                "reference": "32c6e289b6f9b82243badd7ad3ac4d5b3d837776",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC7"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Guide",
+                "handle": "guide",
+                "schemaVersion": "1.1.0",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/wbrowar/craft-3-guide/master/CHANGELOG.md",
+                "components": {
+                    "guide": "wbrowar\\guide\\services\\GuideService"
+                },
+                "class": "wbrowar\\guide\\Guide"
+            },
+            "autoload": {
+                "psr-4": {
+                    "wbrowar\\guide\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Will Browar",
+                    "homepage": "https://wbrowar.com"
+                }
+            ],
+            "description": "A CMS Guide for Craft CMS.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "guide"
+            ],
+            "time": "2018-02-05T15:26:39+00:00"
         },
         {
             "name": "yiisoft/yii2",
