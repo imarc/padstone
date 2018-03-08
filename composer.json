@@ -34,7 +34,10 @@
     "wbrowar/adminbar": "^3.0",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
-    "aelvan/inlin": "^2.0"
+    "aelvan/inlin": "^2.0",
+    "dolphiq/iconpicker": "^1.0",
+    "rias/craft-position-fieldtype": "^1.0",
+    "verbb/field-manager": "^2.0"
   },
   "autoload": {
     "psr-4": {

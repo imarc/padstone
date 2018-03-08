@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b660f8ed5365ce569b6503b1c2bdeb0",
+    "content-hash": "7672ac4ff49d1c3c9a2b717b3e14245c",
     "packages": [
         {
             "name": "aelvan/inlin",
@@ -318,16 +318,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "2d899e9b33023c631854f36c39ef9f8317a7ab33"
+                "reference": "7e111c50db92fa2ced140f5ba23b4e261bc77a30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/2d899e9b33023c631854f36c39ef9f8317a7ab33",
-                "reference": "2d899e9b33023c631854f36c39ef9f8317a7ab33",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7e111c50db92fa2ced140f5ba23b4e261bc77a30",
+                "reference": "7e111c50db92fa2ced140f5ba23b4e261bc77a30",
                 "shasum": ""
             },
             "require": {
@@ -375,20 +375,20 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-01-03T16:37:06+00:00"
+            "time": "2018-01-31T13:17:27+00:00"
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.0-RC7.1",
+            "version": "3.0.0-RC8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "f8c991cb01afce44cb0803749e84e776f1ce2d51"
+                "reference": "952585f7b1afc1905368c2c22457049e2e6f80d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/f8c991cb01afce44cb0803749e84e776f1ce2d51",
-                "reference": "f8c991cb01afce44cb0803749e84e776f1ce2d51",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/952585f7b1afc1905368c2c22457049e2e6f80d6",
+                "reference": "952585f7b1afc1905368c2c22457049e2e6f80d6",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2018-01-24T23:47:15+00:00"
+            "time": "2018-01-30T18:59:17+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -882,21 +882,81 @@
             "time": "2014-09-09T13:34:57+00:00"
         },
         {
-            "name": "dolphiq/redirect",
-            "version": "1.0.13",
+            "name": "dolphiq/iconpicker",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Dolphiq/craft3-plugin-redirect.git",
-                "reference": "9e2189845a4432c2c384d10c6a3158f83c6ee0c4"
+                "url": "https://github.com/Dolphiq/craft3-iconpicker.git",
+                "reference": "efadc1359ad4ae4fc90e2bbaeda28f58b28f10d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dolphiq/craft3-plugin-redirect/zipball/9e2189845a4432c2c384d10c6a3158f83c6ee0c4",
-                "reference": "9e2189845a4432c2c384d10c6a3158f83c6ee0c4",
+                "url": "https://api.github.com/repos/Dolphiq/craft3-iconpicker/zipball/efadc1359ad4ae4fc90e2bbaeda28f58b28f10d6",
+                "reference": "efadc1359ad4ae4fc90e2bbaeda28f58b28f10d6",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.0.0-RC4"
+                "craftcms/cms": "^3.0.0-RC2",
+                "phenx/php-font-lib": "^0.5.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "dolphiq-iconpicker",
+                "name": "Iconpicker",
+                "description": "Craft Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
+                "schemaVersion": "1.0.0",
+                "developer": "Dolphiq",
+                "developerUrl": "https://dolphiq.nl/",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "documentationUrl": "https://github.com/Dolphiq/craft3-iconpicker/blob/master/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/Dolphiq/craft3-iconpicker/master/CHANGELOG.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "plugins\\dolphiq\\iconpicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dolphiq",
+                    "email": "info@dolphiq.nl",
+                    "homepage": "https://dolphiq.nl/"
+                }
+            ],
+            "description": "Craft Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craft3",
+                "craftcms",
+                "icon",
+                "iconpicker",
+                "symbol"
+            ],
+            "time": "2017-12-14T16:14:03+00:00"
+        },
+        {
+            "name": "dolphiq/redirect",
+            "version": "1.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dolphiq/craft3-plugin-redirect.git",
+                "reference": "520939db4d0c0bcdc8174a7a0c03a45458bbebd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dolphiq/craft3-plugin-redirect/zipball/520939db4d0c0bcdc8174a7a0c03a45458bbebd8",
+                "reference": "520939db4d0c0bcdc8174a7a0c03a45458bbebd8",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC7.1"
             },
             "type": "craft-plugin",
             "extra": {
@@ -938,7 +998,7 @@
                 "redirect",
                 "seo"
             ],
-            "time": "2018-01-10T16:48:12+00:00"
+            "time": "2018-01-28T23:08:07+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1368,16 +1428,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.41",
+            "version": "1.0.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f400aa98912c561ba625ea4065031b7a41e5a155"
+                "reference": "09eabc54e199950041aef258a85847676496fe8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f400aa98912c561ba625ea4065031b7a41e5a155",
-                "reference": "f400aa98912c561ba625ea4065031b7a41e5a155",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/09eabc54e199950041aef258a85847676496fe8e",
+                "reference": "09eabc54e199950041aef258a85847676496fe8e",
                 "shasum": ""
             },
             "require": {
@@ -1388,12 +1448,13 @@
             },
             "require-dev": {
                 "ext-fileinfo": "*",
-                "mockery/mockery": "~0.9",
-                "phpspec/phpspec": "^2.2",
-                "phpunit/phpunit": "~4.8"
+                "phpspec/phpspec": "^3.4",
+                "phpunit/phpunit": "^5.7"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
+                "ext-ftp": "Allows you to use FTP server storage",
+                "ext-openssl": "Allows you to use FTPS server storage",
                 "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
                 "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
                 "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
@@ -1447,7 +1508,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-08-06T17:41:04+00:00"
+            "time": "2018-01-27T16:03:56+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -1829,6 +1890,43 @@
             "time": "2017-09-27T21:40:39+00:00"
         },
         {
+            "name": "phenx/php-font-lib",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-font-lib.git",
+                "reference": "760148820110a1ae0936e5cc35851e25a938bc97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/760148820110a1ae0936e5cc35851e25a938bc97",
+                "reference": "760148820110a1ae0936e5cc35851e25a938bc97",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FontLib\\": "src/FontLib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse, export and make subsets of different types of font files.",
+            "homepage": "https://github.com/PhenX/php-font-lib",
+            "time": "2017-09-13T16:14:37+00:00"
+        },
+        {
             "name": "pixelandtonic/imagine",
             "version": "v0.7.1.3",
             "source": {
@@ -1984,17 +2082,69 @@
             "time": "2016-10-10T12:19:37+00:00"
         },
         {
+            "name": "rias/craft-position-fieldtype",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rias500/craft-position-fieldtype.git",
+                "reference": "83f660adc608d561d0df763e9c033a42b0c9acc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rias500/craft-position-fieldtype/zipball/83f660adc608d561d0df763e9c033a42b0c9acc3",
+                "reference": "83f660adc608d561d0df763e9c033a42b0c9acc3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Position Fieldtype",
+                "handle": "position-fieldtype",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/Rias500/position-fieldtype/master/CHANGELOG.md",
+                "class": "rias\\positionfieldtype\\PositionFieldtype"
+            },
+            "autoload": {
+                "psr-4": {
+                    "rias\\positionfieldtype\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rias",
+                    "homepage": "https://rias.be"
+                }
+            ],
+            "description": "Brings back the Position fieldtype from Craft 2",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "position fieldtype"
+            ],
+            "time": "2018-01-29T22:15:26+00:00"
+        },
+        {
             "name": "roave/security-advisories",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4"
+                "reference": "a5ff7ff05264c8796ffb1b7b6fdde43a9c6b0776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/eca509e364dcea7b7f41f9452d575684cc8e3fb4",
-                "reference": "eca509e364dcea7b7f41f9452d575684cc8e3fb4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a5ff7ff05264c8796ffb1b7b6fdde43a9c6b0776",
+                "reference": "a5ff7ff05264c8796ffb1b7b6fdde43a9c6b0776",
                 "shasum": ""
             },
             "conflict": {
@@ -2054,8 +2204,8 @@
                 "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
                 "silverstripe/framework": ">=3,<3.3",
                 "silverstripe/userforms": "<3",
-                "simplesamlphp/saml2": "<1.8.1|>=1.9,<1.9.1|>=1.10,<1.10.3|>=2,<2.3.3",
-                "simplesamlphp/simplesamlphp": "<1.14.16",
+                "simplesamlphp/saml2": "<1.10.4|>=2,<2.3.5|>=3,<3.1.1",
+                "simplesamlphp/simplesamlphp": "<1.15.2",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1",
@@ -2078,7 +2228,7 @@
                 "symfony/web-profiler-bundle": ">=2,<2.3.19|>=2.4,<2.4.9|>=2.5,<2.5.4",
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "twig/twig": "<1.20",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.22|>=8,<8.7.5",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
@@ -2127,7 +2277,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-01-22T14:51:56+00:00"
+            "time": "2018-01-31T19:36:12+00:00"
         },
         {
             "name": "sebastianlenz/linkfield",
@@ -2364,16 +2514,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d"
+                "reference": "26b6f419edda16c19775211987651cb27baea7f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/8394c8ef121949e8f858f13bc1e34f05169e4e7d",
-                "reference": "8394c8ef121949e8f858f13bc1e34f05169e4e7d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/26b6f419edda16c19775211987651cb27baea7f1",
+                "reference": "26b6f419edda16c19775211987651cb27baea7f1",
                 "shasum": ""
             },
             "require": {
@@ -2429,20 +2579,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-01-29T09:03:43+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "9ae4223a661b56a9abdce144de4886cca37f198f"
+                "reference": "c77bb31d0f6310a2ac11e657475d396a92e5dc54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/9ae4223a661b56a9abdce144de4886cca37f198f",
-                "reference": "9ae4223a661b56a9abdce144de4886cca37f198f",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/c77bb31d0f6310a2ac11e657475d396a92e5dc54",
+                "reference": "c77bb31d0f6310a2ac11e657475d396a92e5dc54",
                 "shasum": ""
             },
             "require": {
@@ -2485,11 +2635,11 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T17:15:19+00:00"
+            "time": "2018-01-18T22:19:33+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -2538,7 +2688,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -2587,16 +2737,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -2608,7 +2758,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -2642,20 +2792,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2018-01-30T19:27:44+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba"
+                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
-                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
+                "url": "https://api.github.com/repos/symfony/process/zipball/09a5172057be8fc677840e591b17f385e58c7c0d",
+                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d",
                 "shasum": ""
             },
             "require": {
@@ -2691,20 +2841,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-01-29T09:03:43+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "25c192f25721a74084272671f658797d9e0e0146"
+                "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/25c192f25721a74084272671f658797d9e0e0146",
-                "reference": "25c192f25721a74084272671f658797d9e0e0146",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
+                "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
                 "shasum": ""
             },
             "require": {
@@ -2749,7 +2899,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-01-21T19:05:02+00:00"
         },
         {
             "name": "twig/twig",
@@ -2869,6 +3019,60 @@
                 "expanded singles"
             ],
             "time": "2017-12-06T22:40:26+00:00"
+        },
+        {
+            "name": "verbb/field-manager",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/field-manager.git",
+                "reference": "6377fa76725b25d03e4555514ba7c5366fc7399f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/field-manager/zipball/6377fa76725b25d03e4555514ba7c5366fc7399f",
+                "reference": "6377fa76725b25d03e4555514ba7c5366fc7399f",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Field Manager",
+                "handle": "field-manager",
+                "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "documentationUrl": "https://github.com/verbb/field-manager",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/field-manager/craft-3/CHANGELOG.md",
+                "class": "verbb\\fieldmanager\\FieldManager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\fieldmanager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "field manager"
+            ],
+            "time": "2018-02-12T11:35:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
