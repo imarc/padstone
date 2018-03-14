@@ -9,6 +9,9 @@
 return [
     // Global settings
     '*' => [
+        // Disable updates via Control Panel
+        'allowUpdates' => false,
+
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 0,
 
@@ -28,7 +31,7 @@ return [
     // Dev environment settings
     'dev' => [
         // Base site URL
-        'siteUrl' => null,
+        'siteUrl' => 'http://padstone3.imarc.io',
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,

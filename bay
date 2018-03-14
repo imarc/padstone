@@ -1,0 +1,175 @@
+#/bin/bash
+##
+# bay is a simple wrapper script for docker containers that provides
+#
+#  * a simple way to run npm within a container,
+#  * a simple way to run composer within a container, and
+#  * a simple way to sync remote databases to within a local container.
+#
+# bay should only depend on Bash 3, Docker, and SSH (for the sync.)
+#
+# @author Kevin Hamer [kh] <kevin@imarc.com>
+#
+
+## Set PWD to the directory of this script.
+cd "$(dirname $0)"
+
+## Read in .env variables.
+if [ -e .env ]; then
+    source .env
+fi
+
+## Set USER_ID to the current user's UID for reference in docker-compose.yml.
+if [[ "$OSTYPE" != "darwin"* ]]; then
+    USER_ID="${USER_ID-$(id -u)}"
+    GROUP_ID="${GROUP_ID-$(id -g)}"
+fi
+
+DOCROOT="${BAY_DOCROOT-./}"
+SITE="${BAY_SITE-site}"
+
+REMOTE_USER="${REMOTE_USER-web}"
+REMOTE_DATABASE="${REMOTE_DATABASE-$DB_DATABASE}"
+APACHE_LOG_LEVEL="${APACHE_LOG_LEVEL-info}"
+
+WWW_PORT="${WWW_PORT-80}"
+
+export USER_ID GROUP_ID DOCROOT SITE REMOTE_USER DOCROOT REMOTE_DATABASE APACHE_LOG_LEVEL WWW_PORT
+
+export DB_DATABASE DB_USERNAME DB_PASSWORD
+
+## Handle arguments.
+case "$1" in
+    serve)
+        shift
+        docker-compose up "$@" apache
+        ;;
+    sync)
+        shift
+        DB_DOCKER_ID="$(docker-compose ps -q db)"
+        if [ "$DB_CONNECTION" = "mysql" ]; then
+            echo ssh -TC ${REMOTE_USER}@${REMOTE_SERVER} "mysqldump --databases --add-drop-database $REMOTE_DATABASE"
+            echo docker exec -i $DB_DOCKER_ID mysql
+            ssh -TC ${REMOTE_USER}@${REMOTE_SERVER} "mysqldump --databases --add-drop-database $REMOTE_DATABASE" \
+                | docker exec -i $DB_DOCKER_ID mysql
+        elif [ "$DB_CONNECTION" = "pgsql" ]; then
+            ssh -TC ${REMOTE_USER}@${REMOTE_SERVER} "pg_dump -cC $REMOTE_DATABASE" \
+                | docker exec -i $DB_DOCKER_ID psql -U postgres
+            if [ "$REMOTE_DATABASE" != "$DB_DATABASE" ]; then
+                docker-compose exec db psql -U postgres -c "ALTER DATABASE $REMOTE_DATABASE RENAME TO $DB_DATABASE;"
+            fi
+        else
+            echo "DB_CONNECTION isn't specified."
+            exit 1
+        fi
+        ;;
+    import-db)
+        shift
+        DB_DOCKER_ID="$(docker-compose ps -q db)"
+        docker exec -i $DB_DOCKER_ID mysql -e "DROP DATABASE $DB_DATABASE; CREATE DATABASE $DB_DATABASE"
+        docker exec -i $DB_DOCKER_ID mysql $DB_DATABASE < "$1"
+        ;;
+    n|npm)
+        shift
+
+        if [ "$USER_ID" ]; then
+            docker run -it \
+                --rm \
+                --user $USER_ID \
+                -v "$(pwd):/var/www" \
+                -w "/var/www" \
+                --entrypoint "npm" \
+                'node:8.7.0' \
+                "$@"
+        else
+            docker run -it \
+                --rm \
+                -v "$(pwd)":/var/www \
+                -w "/var/www" \
+                --entrypoint "npm" \
+                'node:8.7.0' \
+                "$@"
+        fi
+
+        ;;
+    y|yarn)
+        shift
+        docker-compose run --rm npm yarn "$@"
+        ;;
+    c|composer)
+        shift
+
+        docker run -it \
+            --rm \
+            -v "$PWD:/var/www/${SITE}" \
+            -w "/var/www/${SITE}" \
+            --entrypoint composer \
+            'shedhost/apache:1.2.0' \
+            "$@"
+
+        ;;
+    apache)
+        shift
+        docker-compose exec apache "$@"
+        ;;
+    db)
+        shift
+        docker-compose exec db "$@"
+        ;;
+    artisan)
+        shift
+        docker-compose exec apache php /var/www/$SITE/artisan "$@"
+        ;;
+	mysql)
+        shift
+        DB_DOCKER_ID="$(docker-compose ps -q db)"
+        echo Running docker exec -it $DB_DOCKER_ID mysql "$@"
+        docker exec -it $DB_DOCKER_ID mysql "$@"
+		;;
+	mysql-backup)
+		docker-compose exec db mysqldump --databases --add-drop-database dwre > $(date +%Y%m%d-%H:%M:%S)-dwre.sql
+		;;
+    phpunit)
+        shift
+        docker-compose exec apache php /var/www/$SITE/vendor/bin/phpunit "$@"
+        ;;
+	psql)
+        shift
+		docker-compose exec db psql "$@"
+		;;
+
+    reset)
+        docker-compose down
+        docker-compose up -d
+        ./bay artisan migrate:fresh --seed
+        ;;
+
+	sh)
+		docker-compose exec apache bash
+		;;
+    ""|help)
+        echo "bay is a wrapper for docker and docker-compose for basic web development."
+        echo
+        echo "Quickstart:"
+        echo
+        echo -e " * Run \e[4mbay up\e[0m to start everything and fire up a web server in a container."
+        echo -e " * Run \e[4mbay down\e[0m to stop everything."
+        echo -e " * Run \e[4mbay ps\e[0m to see what is running."
+        echo
+        echo "Usage:"
+        echo
+        echo "bay npm"
+        echo "    Calls NPM within a container on the current directory."
+        echo
+        echo "bay composer"
+        echo "    Calls Composer within a container on the current directory."
+        echo
+        echo "bay sync"
+        echo "    Uses SSH and the current .env file to sync databases locally from remote hosts."
+        echo
+        exit 1
+        ;;
+    *)
+        docker-compose "$@"
+        ;;
+esac
