@@ -1,4 +1,5 @@
 {
-	"buttons": ["bold", "italic"],
+    "buttons": ["bold", "italic", "link"],
+    "plugins": ["alignment"],
 	"toolbarFixed": true
 }

@@ -30,7 +30,7 @@
     "verbb/expanded-singles": "^1.0",
     "sebastianlenz/linkfield": "^1.0.4",
     "luwes/craft3-codemirror": "^1.0",
-    "craftcms/redactor": "^1.0",
+    "craftcms/redactor": "^2.0",
     "wbrowar/adminbar": "^3.1.5",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
