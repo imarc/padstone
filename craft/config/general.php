@@ -19,20 +19,23 @@ try {
 
     $dotenv->load();
 
-    $dotenv->required(
+    $dotenv->required([
         'DB_HOST',
         'DB_USER',
         'DB_NAME',
         'CRAFT_SITEURL',
         'CRAFT_SITENAME'
-    )->notEmpty();
+    ])->notEmpty();
 } catch (Exception $e) {
     die($e->getMessage());
 }
 
-
 $scheme = 'http';
-if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
+
+if (
+    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ||
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https'
+) {
     $scheme = 'https';
 }
 
