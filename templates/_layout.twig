@@ -1,0 +1,71 @@
+{% set themePath = "themes/bootstrap-4/" %}
+
+<!DOCTYPE html>
+{% if entry is not defined %}
+    {% set entry = craft.entries.uri('404-page-not-found').one() %}
+{% endif %}
+
+{% if title is not defined %}
+    {% set title = entry.htmlTitleOverride? entry.htmlTitleOverride : entry.title %}
+{% endif %}
+
+{% set metaDescription = entry.metaDescription %}
+
+{% if entry.openGraphImage.count() %}
+    {% set ogImage = entry.openGraphImage.first().getUrl('ogImage') %}
+{% else %}
+    {% set ogImage = false %}
+{% endif %}
+
+{% set headerCode = entry.headerCode %}
+
+{% set isLoggedIn = currentUser|length %}
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% if title is defined %}{{ title }}{% endif %}</title>
+        {% if metaDescription is defined and metaDescription != "" %}
+            <meta name="description" content="{{ metaDescription }}" />
+        {% endif %}
+        {% if ogImage is defined and ogImage != "" %}
+            <meta property="og:image" content="{{ ogImage }}" />
+        {% endif %}
+        <meta name="web_author" content="Imarc, A Digital Agency | Boston + Silicon Valley | more info at imarc.com" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css" media="all" />
+        {% if headerCode is defined %}
+            {{ headerCode | raw }}
+        {% endif %}
+    </head>
+    <body class="{{ body_class ?? "" }}" id="{{ body_id ?? "" }}">
+
+        {% include themePath~'_header' %}
+
+        <div class="hero">
+            {% block hero %}{% endblock %}
+        </div>
+        
+        {% block content %}{% endblock %}
+
+        <footer class="primary" role="contentinfo">
+            <div class="container">
+                <div class="copyright">© {{ "now"|date("Y") }} {{ siteName }}</div>
+            </div>
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script src="{{ mix('js/manifest.js') }}"></script>
+        <script src="{{ mix('js/vendor.js') }}"></script>
+        <script src="{{ mix('js/site.js') }}"></script>
+        {% set footerCode = (entry is defined) ? entry.footerCode %}
+        {% if footerCode is defined %}
+            {{ footerCode | raw }}
+        {% endif %}
+    </body>
+</html>

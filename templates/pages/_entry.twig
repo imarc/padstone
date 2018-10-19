@@ -1,0 +1,6 @@
+{% switch entry.type %}
+    {% case "foo" %}
+        {% include 'pages/_foo' %}
+    {% default %}
+        {% include 'pages/_page' %}
+{% endswitch %}

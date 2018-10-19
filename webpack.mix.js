@@ -42,7 +42,7 @@ mix.webpackConfig({
 // Asset Config
 
 // Map the theme variable to a folder in resources/assets
-var theme = 'bootstrap-4'; // or "imarc-boilerplate" when the
+var theme = 'bootstrap-4'; /* bootstrap-4 || imarc-boilerplate */
 
 mix.js('resources/assets/' + theme + '/js/site.js', 'js');
 mix.sass('resources/assets/' + theme + '/sass/styles.scss', 'css');

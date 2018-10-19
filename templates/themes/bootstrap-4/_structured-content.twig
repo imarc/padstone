@@ -1,0 +1,44 @@
+{% block structuredContent %}
+    {% if entry.structuredContent is defined %}
+        {% for block in entry.structuredContent.all %}
+            <section class="{{ block.type }}">
+                {% if block.blockTitle %}
+                    <h2>{{ block.blockTitle }}</h2>
+                {% endif %}
+                {% switch block.type %}
+                    {% case "fullWidth" %}
+                        {{ block.blockContent }}
+                    {% case "twoColumns" %}
+                        <div class="row">
+                            <div class="col-md">{{ block.leftContent }}</div>
+                            <div class="col-md">{{ block.rightContent }}</div>
+                        </div>
+                    {% case "threeColumns" %}
+                        <div class="row">
+                            <div class="col-md">{{ block.leftContent }}</div>
+                            <div class="col-md">{{ block.centerContent }}</div>
+                            <div class="col-md">{{ block.rightContent }}</div>
+                        </div>
+                    {% case "imageWithText" %}
+                        <div class="row">
+                            {% if block.position == "left" %}
+                                <div class="col-md">
+                                    {% if block.image|length %}
+                                        <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                    {% endif %}
+                                </div>
+                                <div class="col-md">{{ block.blockContent }}</div>
+                            {% else %}
+                                <div class="col-md">{{ block.blockContent }}</div>
+                                <div class="col-md">
+                                    {% if block.image|length %}
+                                        <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        </div>
+                {% endswitch %}
+            </section>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

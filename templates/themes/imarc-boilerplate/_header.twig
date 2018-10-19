@@ -1,0 +1,134 @@
+{% cache globally using key 'bp-navigation' ~ cacheState for 1 month if craft.app.config.general.cache %}
+    {% set pages = craft.entries.section('pages')  %}
+    {% set showSearch = 'utility' in pages.slug('search').one.navigationMenus %}
+    <header class="primary sticky">
+        {#
+        {% if craft.adminbar is defined and entry is defined %}
+            {% set config = {
+                entry: entry,
+                sticky: false
+            } %}
+            {{ craft.adminbar.bar(config) }}
+        {% endif %}
+        #}
+        <div class="search-drawer">
+            <div>
+                <div class="container">
+                    {% if showSearch %}
+                        <form action="">
+                            <div class="text">
+                                <label class="sr-only" for="">Search the website</label>
+                                <input type="text" />
+                            </div>
+                            <div class="submit">
+                                <input type="submit" />
+                            </div>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-content">
+                <div class="branding">
+                    <a href="/">
+                        Site Home
+                    </a>
+                </div>
+                <button class="menu-toggle"><i class="fa fa-bars"></i></button>
+                <div class="mobile">
+                    <nav aria-label="Primary Mobile Navigation" class="primary">
+                        <ul>
+                            {% for page in pages.search('navigationMenus:"primary"').level(1).all if isLoggedIn or not page.membersOnly %}
+                                {% set children = page.children.search('navigationMenus:"primary"').all %}                                
+                                <li> {# <li class="active"> #}
+                                    {% if children|length %}
+                                        <a href="{{ page.url }}">{{ page }}</a>
+                                        <div class="dropdown">
+                                            <ul>
+                                                {% for child in children %}
+                                                    <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% else %}
+                                        <a href="{{ page.url }}">{{ page.title }}</a>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}    
+                        </ul>
+                    </nav>
+                    <div class="utilities">
+                        <nav aria-label="Utility Navigation" class="utility">
+                            <ul>
+                                {% for page in pages.search('navigationMenus:"utility"').all %}
+                                    <li><a href="{{ page.url }}">{{ page }}</a></li>                          
+                                {% endfor %}
+                                {% if isLoggedIn %}
+                                    <li><a href="/logout">Log Out</a></li>
+                                {% else %}
+                                    <li><a href="/login">Log In</a></li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                        {% if showSearch %}
+                            <form class="search" method="post">
+                                <div class="text">
+                                    <label for="search">Search the website</label>
+                                    <input id="search" placeholder="Search the website" type="text" />
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Search" />
+                                </div>
+                            </form>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="desktop">
+                    <div class="utilities">
+                        <nav aria-label="Utility Navigation" class="utility">
+                            <ul>
+                                {% for page in pages.search('navigationMenus:"utility"').all %}
+                                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>                          
+                                {% endfor %}
+                                {% if isLoggedIn %}
+                                    <li><a href="/logout">Log Out</a></li>
+                                {% else %}
+                                    <li><a href="/login">Log In</a></li>
+                                {% endif %}
+                                {% if showSearch %}
+                                    <li><a class="search-toggle" href="/search"><i aria-hidden="true" class="fa fa-search"></i> Search</a></li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    </div>
+                    <nav aria-label="Primary Desktop Navigation" class="primary">
+                        <ul>
+                            {% for page in pages.search('navigationMenus:"primary"').level(1).all if isLoggedIn or not page.membersOnly %}  
+                                {% set children = page.children.search('navigationMenus:"primary"').all %}                                 
+                                <li> {# <li class="mega"> #} 
+                                    {% if children|length %}
+                                        <a href="{{ page.url }}">{{ page.title }} <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                        <div class="dropdown">
+                                            <div class="menu">
+                                                <div>
+                                                    <ul>
+                                                        {% for child in children %}
+                                                            <li><a href="{{ child.url }}">{{ child }}</a></li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% else %}
+                                        <a href="{{ page.url }}">{{ page }}</a>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endcache %}

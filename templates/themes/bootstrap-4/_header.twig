@@ -1,0 +1,65 @@
+{% cache globally using key 'bs-navigation' for 1 month if craft.app.config.general.cache %} 
+    <header class="primary sticky">
+        {% if 'utility' in craft.entries.slug('search').one.navigationMenus %}
+            <div class="container mb-3">
+                <form class="search" action="/search">
+                    <div class="row no-gutters justify-content-end">
+                        <div class="col-auto form-input text-right">
+                            <input type="text" name="q" placeholder="Search the site" class="form-control" /> 
+                        </div>
+                        <div class="col-auto">
+                            <input type="submit" value="Q" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        {% endif %}
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div>
+                    <a href="/">
+                        Site Home
+                    </a>
+                </div>
+                <a href="#" id="mobile-menu" class="d-md-none">Menu</a>
+                <div id="main-navigation" class="col-12 col-md-10 d-none d-md-block">  
+                    {% set pages = craft.entries.section('pages')  %}
+                    <div class="top-navigation">
+                        {% for page in pages.search('navigationMenus:"utility"').all %}
+                            <a href="{{ page.url }}">{{ page.title }}</a>
+                            
+                        {% endfor %}
+                        {% if isLoggedIn %}
+                            <a href="/logout">Log Out</a>
+                        {% else %}
+                            <a href="/login">Log In</a>
+                        {% endif %}
+                    </div>
+                    <nav role="main-navigation" class="navbar nav">                        
+                        {% for page in pages.search('navigationMenus:"primary"').level(1).all if isLoggedIn or not page.membersOnly %}
+                            {% set children = page.children.search('navigationMenus:"primary"').all %}
+                            {% if children|length %}
+                                <div class="dropdown">
+                                    <a href="{{ page.url }}">{{ page }}</a>
+                                    <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="Maine">
+                                        {% for child in children %}
+                                            <a href="{{ child.url }}">{{ child.title }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div>
+                                    <a href="{{ page.url }}">{{ page.title }}</a>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endcache %}

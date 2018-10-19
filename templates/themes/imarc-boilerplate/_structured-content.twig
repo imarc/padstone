@@ -1,0 +1,49 @@
+{% block structuredContent %}
+    {% if entry.structuredContent is defined %}
+        {% for block in entry.structuredContent.all %}
+            <section class="{{ block.type }}">
+                {% if block.type != "testimonial" and block.blockTitle %}
+                    <h2>{{ block.blockTitle }}</h2>
+                {% endif %}
+                {% switch block.type %}
+                    {% case "fullWidth" %}
+                        {{ block.blockContent }}
+                    {% case "twoColumns" %}
+                        <div class="columns">
+                            <div>{{ block.leftContent }}</div>
+                            <hr />
+                            <div>{{ block.rightContent }}</div>
+                        </div>
+                    {% case "threeColumns" %}
+                        <div class="columns">
+                            <div>{{ block.leftContent }}</div>
+                            <hr />
+                            <div>{{ block.centerContent }}</div>
+                            <hr />
+                            <div>{{ block.rightContent }}</div>
+                        </div>
+                    {% case "imageWithText" %}
+                        <div class="columns">
+                            {% if block.position == "left" %}
+                                <div class="image">
+                                    {% if block.image|length %}
+                                        <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                    {% endif %}
+                                </div>
+                                <hr />
+                                <div>{{ block.blockContent }}</div>
+                            {% else %}
+                                <div>{{ block.blockContent }}</div>
+                                <hr />
+                                <div class="image">
+                                    {% if block.image|length %}
+                                        <img src="{{ block.image.first.url }}" alt="{{ block.image.first.filename }}" />
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        </div>
+                {% endswitch %}
+            </section>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

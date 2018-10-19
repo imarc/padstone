@@ -1,0 +1,13 @@
+{% extends "_layout" %}
+
+{% block content %}
+    <div class="container">
+        <main>
+            <h1>{{ entry.title }}</h1>
+               
+            {% include themePath ~ "_structured-content" %}
+            
+            {% block pageSpecificBlock %}{% endblock %}
+        </main>
+    </div>
+{% endblock %}
