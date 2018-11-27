@@ -26,6 +26,10 @@ return [
 
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => getenv('SECURITY_KEY'),
+       
+        // Overload the default CP asset source paths (/web/cperesources).
+        'resourceBasePath' => '@webroot/writable/cpresources',
+        'resourceBaseUrl'  => '@web/writable/cpresources',
     ],
 
     // Dev environment settings
