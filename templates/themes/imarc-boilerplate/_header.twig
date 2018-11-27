@@ -1,6 +1,7 @@
 {% cache globally using key 'bp-navigation' ~ cacheState for 1 month if craft.app.config.general.cache %}
     {% set pages = craft.entries.section('pages')  %}
-    {% set showSearch = 'utility' in pages.slug('search').one.navigationMenus %}
+    {% set searchEntry = craft.entries.slug('search').one %}
+    {% set showSearch = searchEntry and 'utility' in searchEntry.navigationMenus %}
     <header class="primary sticky">
         {#
         {% if craft.adminbar is defined and entry is defined %}

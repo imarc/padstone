@@ -1,6 +1,7 @@
 {% cache globally using key 'bs-navigation' for 1 month if craft.app.config.general.cache %} 
     <header class="primary sticky">
-        {% if 'utility' in craft.entries.slug('search').one.navigationMenus %}
+        {% set searchEntry = craft.entries.slug('search').one %}
+        {% if searchEntry and 'utility' in searchEntry.navigationMenus %}
             <div class="container mb-3">
                 <form class="search" action="/search">
                     <div class="row no-gutters justify-content-end">
