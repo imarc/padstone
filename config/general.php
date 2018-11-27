@@ -9,6 +9,9 @@
 return [
     // Global settings
     '*' => [
+        // Base site URL
+        'siteUrl' => getenv('CRAFT_SITEURL'),
+
         // Disable updates via Control Panel
         'allowUpdates' => false,
 
@@ -32,24 +35,21 @@ return [
         'resourceBaseUrl'  => '@web/writable/cpresources',
     ],
 
-    // Dev environment settings
+    // Environment specific settings
     'dev' => [
-        // Base site URL
-        'siteUrl' => 'http://padstone3.imarc.io',
-
-        // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'devMode' => true,
+        'devMode' => true, // Dev Mode (see https://craftcms.com/support/dev-mode)
+        'cache'   => false,
     ],
 
     // Staging environment settings
     'staging' => [
-        // Base site URL
-        'siteUrl' => null,
+        'devMode' => false, // Dev Mode (see https://craftcms.com/support/dev-mode)
+        'cache'   => true,
     ],
 
     // Production environment settings
     'production' => [
-        // Base site URL
-        'siteUrl' => null,
+        'devMode' => false, // Dev Mode (see https://craftcms.com/support/dev-mode)
+        'cache'   => true,
     ],
 ];
