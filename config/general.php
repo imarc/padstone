@@ -38,18 +38,19 @@ return [
     // Environment specific settings
     'dev' => [
         'devMode' => true, // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'cache'   => false,
+        'cacheElementQueries'   => false,
+        'testToEmailAddress' => 'test@imarc.com',
     ],
 
     // Staging environment settings
     'staging' => [
         'devMode' => false, // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'cache'   => true,
+        'cacheElementQueries'   => true,
     ],
 
     // Production environment settings
     'production' => [
         'devMode' => false, // Dev Mode (see https://craftcms.com/support/dev-mode)
-        'cache'   => true,
+        'cacheElementQueries'   => true,
     ],
 ];

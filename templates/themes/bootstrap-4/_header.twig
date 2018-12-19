@@ -1,4 +1,4 @@
-{% cache globally using key 'bs-navigation' for 1 month if craft.app.config.general.cache %} 
+{% cache globally using key 'bs-navigation' for 1 month %} 
     <header class="primary sticky">
         {% set searchEntry = craft.entries.slug('search').one %}
         {% if searchEntry and 'utility' in searchEntry.navigationMenus %}

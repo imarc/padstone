@@ -17,5 +17,11 @@ return [
     'modules' => [
         'my-module' => \modules\Module::class,
     ],
-    //'bootstrap' => ['my-module'],
+    'components' => [
+        'session' => [
+            'name' => 'PHPSESSID',
+            'as session' => craft\behaviors\SessionBehavior::class,
+            'savePath' => str_replace('/web', '/session', $_SERVER['DOCUMENT_ROOT']),
+        ],
+    ],
 ];

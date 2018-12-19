@@ -1,5 +1,6 @@
 {
   "buttons": ["formatting", "bold", "italic", "unorderedlist", "orderedlist", "link", "image", "file"],
   "plugins": ["alignment", "imagemanager", "filemanager", "video", "widget"],
-  "toolbarFixed": true
+  "toolbarFixed": true,
+  "imagePosition": true
 }
