@@ -18,10 +18,11 @@ return [
         'my-module' => \modules\Module::class,
     ],
     'components' => [
+        /* overloads the default PHP session path */
         'session' => [
             'name' => 'PHPSESSID',
             'as session' => craft\behaviors\SessionBehavior::class,
-            'savePath' => str_replace('/web', '/session', $_SERVER['DOCUMENT_ROOT']),
+            'savePath' => str_replace('/web', '/session', $_SERVER['DOCUMENT_ROOT']), 
         ],
     ],
 ];
