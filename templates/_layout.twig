@@ -67,5 +67,14 @@
         {% if footerCode is defined %}
             {{ footerCode | raw }}
         {% endif %}
+        {% if not craft.app.config.general.devMode %}
+            {# hide the tracking code on dev #}
+            
+            <!-- Google Analytics Code BEGINS -->
+            
+            {# put your GA code here #}
+
+            <!-- Google Analytics Code ENDS -->
+        {% endif %}
     </body>
 </html>
