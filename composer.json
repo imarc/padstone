@@ -21,7 +21,7 @@
   "minimum-stability": "beta",
   "require": {
     "php": ">=7.0.0",
-    "craftcms/cms": "^3.0.0",
+    "craftcms/cms": "3.0.*",
     "vlucas/phpdotenv": "^2.4.0",
     "roave/security-advisories": "dev-master",
     "nerds-and-company/schematic": "^3.8",
@@ -39,7 +39,8 @@
     "rias/craft-position-fieldtype": "^1.0",
     "verbb/field-manager": "^2.0",
     "wbrowar/guide": "^1.1",
-    "ether/tags": "^1.0"
+    "ether/tags": "^1.0",
+    "imarc/craft-kindling": "^2.0",
   },
   "autoload": {
     "psr-4": {
