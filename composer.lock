@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2578a63916718cff32eea477f134253",
+    "content-hash": "db7bab3c956c9ea9210f227d56b497a9",
     "packages": [
         {
             "name": "aelvan/inlin",
@@ -1367,6 +1367,59 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "imarc/craft-kindling",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-kindling.git",
+                "reference": "128cb0b0e49c195d6c6e153d680151abd5d05a16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-kindling/zipball/128cb0b0e49c195d6c6e153d680151abd5d05a16",
+                "reference": "128cb0b0e49c195d6c6e153d680151abd5d05a16",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.2",
+                "twig/twig": "^2.4.4"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "craft-kindling",
+                "name": "Craft Kindling",
+                "developer": "Imarc",
+                "developerUrl": "https://www.imarc.com",
+                "hasCpSettings": false,
+                "hasCpSection": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imarc\\Craft\\Kindling\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Hamer",
+                    "email": "kevin@imarc.com"
+                }
+            ],
+            "description": "A Craft plugin and Twig Extension providing some convienences.",
+            "homepage": "https://github.com/imarc/craft-kindling",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-kindling",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2019-01-03T19:58:06+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
