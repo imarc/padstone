@@ -31,7 +31,7 @@ return [
     // Dev environment settings
     'dev' => [
         // Base site URL
-        'siteUrl' => 'http://padstone3.imarc.io',
+        'siteUrl' => getenv('APP_URL'),
 
         // Dev Mode (see https://craftcms.com/support/dev-mode)
         'devMode' => true,
