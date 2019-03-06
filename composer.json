@@ -39,7 +39,8 @@
     "rias/craft-position-fieldtype": "^1.0",
     "verbb/field-manager": "^2.0",
     "wbrowar/guide": "^1.1",
-    "imarc/craft-kindling": "^2.0"
+    "imarc/craft-kindling": "^2.0",
+    "ether/tags": "^1.0"
   },
   "autoload": {
     "psr-4": {

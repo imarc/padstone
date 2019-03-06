@@ -31,7 +31,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1551731763
+dateModified: 1551813957
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -1191,6 +1191,10 @@ plugins:
     licenseKey: null
     schemaVersion: 1.0.4
     settings: null
+  tag-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   typedlinkfield:
     enabled: '1'
     licenseKey: null
@@ -1544,7 +1548,7 @@ sections:
       uid: 160e63e2-a512-4ade-9f18-2171d2cd84eb
     type: structure
   3375cf3e-4d50-4b42-b4ab-d8ad7e40cdfb:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       7e27ed3f-7f88-4e7a-a754-8a958f75b010:
         fieldLayouts:
@@ -1590,15 +1594,15 @@ sections:
         titleLabel: Title
     handle: aboutPages
     name: 'About Pages'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
+        enabledByDefault: true
+        hasUrls: true
         template: about-pages/_entry
         uriFormat: 'about/{slug}'
     structure:
-      maxLevels: null
+      maxLevels: ''
       uid: bdbf4600-d3a2-4085-9cec-643027e88562
     type: structure
   548dacf3-a377-4ba7-9bc4-d9102a1fc455:
