@@ -15,10 +15,6 @@ categoryGroups:
       6890171e-e900-455f-9fa7-5bdf37b57e09:
         tabs:
           -
-            fields:
-              05d5c19d-c542-4c08-ab17-d612274709a1:
-                required: '0'
-                sortOrder: '1'
             name: 'Resource Category'
             sortOrder: '1'
     handle: resourceCategories
@@ -31,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1552330919
+dateModified: 1552334424
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -54,21 +50,6 @@ fieldGroups:
   c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b:
     name: Common
 fields:
-  05d5c19d-c542-4c08-ab17-d612274709a1:
-    contentColumnType: string
-    fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
-    handle: resourceCategoryIcon
-    instructions: ''
-    name: 'Resource Category Icon'
-    searchable: '1'
-    settings:
-      charLimit: null
-      columnType: string
-      iconFont: fa-regular-400-ttf
-      placeholder: null
-    translationKeyFormat: null
-    translationMethod: none
-    type: plugins\dolphiq\iconpicker\fields\Iconpicker
   0610a849-e9bc-455c-86d5-ee8175b2ae9a:
     contentColumnType: text
     fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
@@ -268,31 +249,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  7b6ea82f-c077-45d5-b8ba-35e53b7695b4:
-    contentColumnType: string
-    fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
-    handle: resourceFile
-    instructions: 'Upload or select the file for this resource.'
-    name: 'Resource File'
-    searchable: '1'
-    settings:
-      allowedKinds: null
-      defaultUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
-      defaultUploadLocationSubpath: ''
-      limit: '1'
-      localizeRelations: false
-      restrictFiles: ''
-      selectionLabel: 'Add a file'
-      singleUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
-      singleUploadLocationSubpath: ''
-      source: null
-      sources: '*'
-      targetSiteId: null
-      useSingleFolder: ''
-      viewMode: list
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
   7ccca481-afc6-4d2d-a691-46d51885c73e:
     contentColumnType: string
     fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
@@ -330,12 +286,13 @@ fields:
   8db154b4-31aa-4a46-bd7e-e040f96b91a8:
     contentColumnType: text
     fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
-    handle: resourceFileCTA
+    handle: resourceCTA
     instructions: 'Text shown on the Call to Action to download this file.'
-    name: 'File Download Call to Action'
-    searchable: '1'
+    name: 'Call to Action'
+    searchable: true
     settings:
       charLimit: ''
+      code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
@@ -348,21 +305,45 @@ fields:
     fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
     handle: resourceUrl
     instructions: 'URL for this resource.'
-    name: resourceURL
-    searchable: '1'
+    name: Resource
+    searchable: true
     settings:
       allowCustomText: '1'
       allowTarget: ''
       allowedLinkNames:
-        - url
-        - entry
+        3: entry
+        9: url
+      autoNoReferrer: ''
+      defaultLinkName: asset
       defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
       typeSettings:
         asset:
+          allowCustomQuery: ''
           sources: '*'
         category:
+          allowCustomQuery: ''
           sources: '*'
+        custom:
+          allowAliases: ''
+          disableValidation: ''
+        email:
+          allowAliases: ''
+          disableValidation: ''
         entry:
+          allowCustomQuery: ''
+          sources: '*'
+        site:
+          sites: '*'
+        tel:
+          allowAliases: ''
+          disableValidation: ''
+        url:
+          allowAliases: ''
+          disableValidation: ''
+        user:
+          allowCustomQuery: ''
           sources: '*'
     translationKeyFormat: null
     translationMethod: none
@@ -549,6 +530,24 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: luwes\codemirror\fields\CodeMirrorField
+  e6810524-42e4-4e35-8fe8-edfb548dd138:
+    contentColumnType: text
+    fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+    handle: resourceDescription
+    instructions: ''
+    name: Description
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: '1'
+      columnType: text
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
   e72e6691-b2c5-41b9-b75e-56b6a7200933:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
@@ -1423,49 +1422,52 @@ sections:
               -
                 fields:
                   0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 5
                   86444c22-bd97-4a40-9136-f5613c95ba48:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 3
                   93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 2
                   d5e98a9a-c478-4cf5-8c85-1083950e2e9f:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 4
+                  e6810524-42e4-4e35-8fe8-edfb548dd138:
+                    required: false
+                    sortOrder: 1
                 name: Resources
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: resourceLink
-        hasTitleField: '1'
-        name: 'External Link'
-        sortOrder: '2'
-        titleFormat: null
+        hasTitleField: true
+        name: 'Direct Link'
+        sortOrder: 2
+        titleFormat: ''
         titleLabel: 'Link Title'
       9de11a83-392f-4ebb-9d01-e5ebaf22cf18:
         fieldLayouts:
@@ -1474,55 +1476,58 @@ sections:
               -
                 fields:
                   0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e:
-                    required: '0'
-                    sortOrder: '3'
-                  7b6ea82f-c077-45d5-b8ba-35e53b7695b4:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 6
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 7
                   86444c22-bd97-4a40-9136-f5613c95ba48:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 4
                   8db154b4-31aa-4a46-bd7e-e040f96b91a8:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 2
+                  93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1:
+                    required: false
+                    sortOrder: 3
                   d5e98a9a-c478-4cf5-8c85-1083950e2e9f:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 5
+                  e6810524-42e4-4e35-8fe8-edfb548dd138:
+                    required: false
+                    sortOrder: 1
                 name: Resources
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: resourceFile
-        hasTitleField: '1'
-        name: 'Downloadable Resource'
-        sortOrder: '1'
-        titleFormat: null
+        hasTitleField: true
+        name: 'Resource with Detail Page'
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
       a30dc10d-322d-4159-b375-7566cebf3755:
         fieldLayouts:
@@ -1531,52 +1536,58 @@ sections:
               -
                 fields:
                   0610a849-e9bc-455c-86d5-ee8175b2ae9a:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 6
                   0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 5
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 7
                   86444c22-bd97-4a40-9136-f5613c95ba48:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
+                  8db154b4-31aa-4a46-bd7e-e040f96b91a8:
+                    required: false
+                    sortOrder: 2
                   d5e98a9a-c478-4cf5-8c85-1083950e2e9f:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 4
+                  e6810524-42e4-4e35-8fe8-edfb548dd138:
+                    required: false
+                    sortOrder: 1
                 name: Resources
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: resourceVideo
-        hasTitleField: '1'
+        hasTitleField: true
         name: Video
-        sortOrder: '3'
-        titleFormat: null
+        sortOrder: 3
+        titleFormat: ''
         titleLabel: Title
     handle: resources
     name: Resources

@@ -1,0 +1,45 @@
+{% import "/_macros" as macros %}
+{% set section = 'resources' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">{{ entry.headline }}</h1>
+            <p class="lead">{{ entry.subheadline }}</p>
+        </div>
+    </div>
+
+    <div class="resources container">
+        <div class="card-deck">
+            {% for resource in craft.entries.section('resources').all() %}
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            {% if resource.type == 'resourceLink' %}
+                                <a href="{{ resource.resourceUrl }}">{{ resource.title }}</a>
+                            {% else %}
+                                {{ resource.link }}
+                            {% endif %}
+                        </h4>
+                        <div class="card-text">
+                            {{ resource.resourceDescription }}
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        {% if resource.type == 'resourceLink' %}
+                            {{ resource.resourceUrl.link({class: 'btn btn-sm btn-outline-primary'}) }}
+                        {% else %}
+                            <a href="{{ resource.url }}" class="btn btn-sm btn-outline-primary">
+                                {{ resource.resourceCTA }}
+                            </a>
+                        {% endif %}
+
+                        <small class="text-muted">{{ resource.resourceDate|date("F jS, Y") }}</small>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

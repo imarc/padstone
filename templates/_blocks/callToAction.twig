@@ -1,4 +1,4 @@
-<div class="layer pt-5">
+<div class="layer call-to-action {% if not blockLoop.first %}pt-5{% endif %}">
     <div class="container">
         <div class="row justify-content-md-center align-items-center">
             <div class="col-md-6">
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        {% if not blockLoop.last %}
+        {% if showSeparator %}
             <hr class="mt-5">
         {% endif %}
     </div>

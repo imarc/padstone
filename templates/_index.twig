@@ -1,4 +1,4 @@
-    {% import "/_macros" as macros %}
+{% import "/_macros" as macros %}
 {% set section = 'home' %}
 {% extends "_layouts/main" %}
 {% block content %}
@@ -10,6 +10,6 @@
         </div>
     </div>
 
-    {{ macros.renderAllBlocks(entry.structuredContent) }}
+    {{ macros.renderAllBlocks(entry.structuredContent, true) }}
 
 {% endblock %}

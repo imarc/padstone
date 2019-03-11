@@ -1,16 +1,12 @@
-{% macro renderBlock(block, blockLoop) %}
+{% macro renderBlock(block, blockLoop, showSeparator) %}
     {% import _self as macros %}
     {% include '/_blocks/' ~ block.type %}
 {% endmacro %}
 
-{% macro renderAllBlocks(field) %}
+{% macro renderAllBlocks(field, withSeparators) %}
     {% import _self as macros %}
 
     {% for block in field.all() %}
-        {{ macros.renderBlock(block, loop) }}
+        {{ macros.renderBlock(block, loop, withSeparators and not loop.last) }}
     {% endfor %}
-{% endmacro %}
-
-{% macro test() %}
-    hELOJJ
 {% endmacro %}

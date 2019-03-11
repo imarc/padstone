@@ -1,11 +1,23 @@
 <!doctype html>
 {% spaceless %}
-    {% if section is not defined %}
+    {% if bodyClasses is not defined %}
+        {% set bodyClasses = [] %}
+    {% endif %}
+
+    {% if section is defined %}
+        {% set bodyClasses = bodyClasses|merge([section|kebab]) %}
+    {% else %}
         {% set section = '' %}
     {% endif %}
-    {% if title is not defined %}
-        {% set title = entry.title %}
+
+    {% if entry is defined %}
+        {% if title is not defined %}
+            {% set title = entry.title %}
+        {% endif %}
+
+        {% set bodyClasses = bodyClasses|merge(['section-' ~ (entry.section.handle|kebab)]) %}
     {% endif %}
+
 {% endspaceless %}
 <html lang="en">
     <head>
@@ -16,7 +28,7 @@
 
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
-    <body>
+    <body class="{{ bodyClasses|join(' ') }}" >
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="/">{{ siteName }}</a>

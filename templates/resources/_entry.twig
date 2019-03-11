@@ -1,0 +1,26 @@
+{% import "/_macros" as macros %}
+{% extends "_layouts/main" %}
+{% block content %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">{{ entry.title }}</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-8">
+                {{ entry.resourceDescription }}
+            </div>
+        </div>
+    </div>
+
+    {{ macros.renderAllBlocks(entry.structuredContent) }}
+
+    <div class="text-center my-5">
+        {{ entry.resourceUrl.link({class: 'btn btn-primary btn-lg'}) }}
+    </div>
+
+
+{% endblock %}

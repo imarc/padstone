@@ -1,4 +1,4 @@
-<div class="layer pt-5">
+<div class="layer rich-text {% if not blockLoop.first %}pt-5{% endif %}">
     <div class="container">
         {% if block.sectionTitle %}
             <h2>
@@ -8,7 +8,7 @@
 
         {{ block.blockContent }}
 
-        {% if not blockLoop.last %}
+        {% if showSeparator %}
             <hr class="mt-5">
         {% endif %}
     </div>
