@@ -12,14 +12,14 @@
 
     <div class="articles">
         {% for article in craft.entries.section('blog').all() %}
-            <article class="my-5">
+            <div class="my-5">
                 <div class="container mb-0">
-                    <h2>{{ article.title }}</h2>
+                    <h2>{{ article.link }}</h2>
                     <p class="text-muted">{{ article.blogDate|date("F jS, Y") }}</p>
-                </div>
 
-                {{ macros.renderAllBlocks(article.structuredContent) }}
-            </article>
+                    {{ article.blogAbstract }}
+                </div>
+            </div>
         {% endfor %}
     </div>
 

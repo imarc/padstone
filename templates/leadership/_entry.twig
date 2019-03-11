@@ -1,0 +1,22 @@
+{% import "/_macros" as macros %}
+{% set section = 'about' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">{{ entry.title }}</h1>
+            <p class="lead">{{ entry.personJobTitle }}</p>
+        </div>
+    </div>
+
+    <div class="container">
+        {{ entry.personBio }}
+    </div>
+
+    <div class="text-center my-5">
+        {% set index = craft.entries.section('leadershipPage').one %}
+        <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
+    </div>
+
+{% endblock %}

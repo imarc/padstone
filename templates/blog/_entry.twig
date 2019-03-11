@@ -1,0 +1,24 @@
+{% import "/_macros" as macros %}
+{% set section = 'blog' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">{{ entry.title }}</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="text-muted">{{ entry.blogDate|date("F jS, Y") }}</p>
+    </div>
+
+    {{ macros.renderAllBlocks(entry.structuredContent) }}
+
+    <div class="text-center my-5">
+        {% set index = craft.entries.section('blogPage').one %}
+        <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
+    </div>
+
+
+{% endblock %}

@@ -1,4 +1,5 @@
 {% import "/_macros" as macros %}
+{% set section = 'resources' %}
 {% extends "_layouts/main" %}
 {% block content %}
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -18,8 +19,16 @@
 
     {{ macros.renderAllBlocks(entry.structuredContent) }}
 
-    <div class="text-center my-5">
-        {{ entry.resourceUrl.link({class: 'btn btn-primary btn-lg'}) }}
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-3 text-left">
+                {% set index = craft.entries.section('resourcesPage').one %}
+                <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
+            </div>
+            <div class="col-md-6 text-center">
+                {{ entry.resourceUrl.link({class: 'btn btn-primary btn-lg'}) }}
+            </div>
+        </div>
     </div>
 
 

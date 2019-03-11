@@ -74,6 +74,9 @@
                                 {% endif %}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="aboutdropdown">
+                                {% set leadershipPage = craft.entries.section('leadershipPage').one %}
+                                <a class="dropdown-item" href="{{ leadershipPage.url }}">{{ leadershipPage.title }}</a>
+
                                 {% for aboutPage in craft.entries.section('aboutPages').all() %}
                                     <a class="dropdown-item" href="{{ aboutPage.url }}">{{ aboutPage.title }}</a>
                                 {% endfor %}
@@ -91,7 +94,7 @@
             </div>
         </nav>
 
-        <main role="main">
+        <main role="main" class="mt-5">
             {% block content %}{% endblock %}
         </main>
 
