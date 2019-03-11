@@ -40,7 +40,8 @@ mix.webpackConfig({
 });
 
 mix.js('resources/assets/js/main.js', 'js')
-    .sass('resource/assets/sass/main.scss', 'css')
+    .sass('resources/assets/sass/main.scss', 'css')
+    .extract()
     .sourceMaps()
     .version();
 
