@@ -39,17 +39,10 @@ mix.webpackConfig({
     }
 });
 
-// Asset Config
-
-// Map the theme variable to a folder in resources/assets
-var theme = 'bootstrap-4'; // or "imarc-boilerplate" when the
-
-mix.js('resources/assets/' + theme + '/js/site.js', 'js');
-mix.sass('resources/assets/' + theme + '/sass/styles.scss', 'css');
-
-mix.extract(['jquery']);
-mix.sourceMaps();
-mix.version();
+mix.js('resources/assets/js/main.js', 'js')
+    .sass('resource/assets/sass/main.scss', 'css')
+    .sourceMaps()
+    .version();
 
 // Full API Examples
 
