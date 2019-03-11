@@ -15,10 +15,34 @@
   "private": true,
   "author": {
     "name": "Kevin Hamer",
-    "email": "kevin@imarc.com",
-    "url": "https://www.imarc.com/about/kevin"
+    "email": "kevin@imarc.com"
   },
-  "contributors": [],
+  "contributors": [
+      {
+          "name": "Jeff Turcotte",
+          "email": "jeff@imarc.com"
+      },
+      {
+          "name": "Chandler Blum",
+          "email": "chandler@imarc.com"
+      },
+      {
+          "name": "Shawna O'Neal",
+          "email": "shawna@imarc.com"
+      },
+      {
+          "name": "Kerri Cranwell",
+          "email": "kerri@imarc.com"
+      },
+      {
+          "name": "Dan Collins",
+          "email": "dan@imarc.com"
+      },
+      {
+          "name": "Bill Bushee",
+          "email": "bill@imarc.com"
+      }
+  ],
   "engines": {
     "node": ">=10.0.0 <12.0"
   },
