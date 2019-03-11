@@ -1,0 +1,25 @@
+<div class="layer pt-5">
+    <div class="container">
+        <div class="row justify-content-md-center align-items-center">
+            <div class="col-md-6">
+                {% if block.sectionTitle %}
+                    <h2>
+                        {{ block.sectionTitle }}
+                    </h2>
+                {% endif %}
+
+                {{ block.blockContent }}
+            </div>
+
+            <div class="col-md-3">
+                <p class="text-center mb-0">
+                    {{ block.cta.link({class: 'btn btn-primary btn-lg'}) }}
+                </p>
+            </div>
+        </div>
+
+        {% if not blockLoop.last %}
+            <hr class="mt-5">
+        {% endif %}
+    </div>
+</div>

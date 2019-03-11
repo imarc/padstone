@@ -1,0 +1,132 @@
+<!doctype html>
+{% spaceless %}
+    {% if section is not defined %}
+        {% set section = '' %}
+    {% endif %}
+    {% if title is not defined %}
+        {% set title = entry.title %}
+    {% endif %}
+{% endspaceless %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>{{ title }} - {{ siteName }}</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">{{ siteName }}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item {{ section == 'news' ? 'active' : '' }}">
+                            {% set page = craft.entries.section('newsEventsPage').one %}
+                            <a class="nav-link" href="{{ page.url }}">
+                                {{ page.title }}
+                                {% if section == 'news' %}
+                                    <span class="sr-only">(current)</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item {{ section == 'resources' ? 'active' : '' }}">
+                            {% set page = craft.entries.section('resourcesPage').one %}
+                            <a class="nav-link" href="{{ page.url }}">
+                                {{ page.title }}
+                                {% if section == 'resources' %}
+                                    <span class="sr-only">(current)</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item {{ section == 'blog' ? 'active' : '' }}">
+                            {% set page = craft.entries.section('blogPage').one %}
+                            <a class="nav-link" href="{{ page.url }}">
+                                {{ page.title }}
+                                {% if section == 'blog' %}
+                                    <span class="sr-only">(current)</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown {{ section == 'about' ? 'active' : '' }}">
+                            {% set page = craft.entries.section('aboutPage').one %}
+                            <a class="nav-link dropdown-toggle" href="{{ page.url }}" id="aboutdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ page.title }}
+                                {% if section == 'about' %}
+                                    <span class="sr-only">(current)</span>
+                                {% endif %}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="aboutdropdown">
+                                {% for aboutPage in craft.entries.section('aboutPages').all() %}
+                                    <a class="dropdown-item" href="{{ aboutPage.url }}">{{ aboutPage.title }}</a>
+                                {% endfor %}
+
+                                {% set contactPage = craft.entries.section('contactPage').one %}
+                                <a class="dropdown-item" href="{{ contactPage.url }}">{{ contactPage.title }}</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <main role="main">
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="bg-dark text-white py-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        {{ siteName }}
+                        <small class="d-block mb-3 text-muted">© {{ "now"|date("Y") }}</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        {% set page = craft.entries.section('newsEventsPage').one %}
+                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                    <div class="col-6 col-md">
+                        {% set page = craft.entries.section('resourcesPage').one %}
+                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                    <div class="col-6 col-md">
+                        {% set page = craft.entries.section('blogPage').one %}
+                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                    <div class="col-6 col-md">
+                        {% set page = craft.entries.section('aboutPage').one %}
+                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
+                        <ul class="list-unstyled text-small">
+                            {% for aboutPage in craft.entries.section('aboutPages').all() %}
+                                <li><a class="text-light" href="{{ aboutPage.url }}">{{ aboutPage.title }}</a></li>
+                            {% endfor %}
+
+                            {% set contactPage = craft.entries.section('contactPage').one %}
+                            <li><a class="text-light" href="{{ contactPage.url }}">{{ contactPage.title }}</a></li>
+
+                            {% set privacyPage = craft.entries.section('privacyPage').one %}
+                            <li><a class="text-light" href="{{ privacyPage.url }}">{{ privacyPage.title }}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -31,12 +31,14 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1551813957
+dateModified: 1552328148
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
   transportType: craft\mail\transportadapters\Sendmail
 fieldGroups:
+  1cd65752-f86f-48a3-9924-90919c9ca915:
+    name: Homepage
   28bbb761-2bca-4754-ba9e-c0bfe22f4496:
     name: People
   4cd84b5c-0162-4148-a588-37b2fcc1da0a:
@@ -175,6 +177,23 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+    contentColumnType: text
+    fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
+    handle: subheadline
+    instructions: 'Shown just below the headline on the page.'
+    name: Subheadline
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   48df7913-438b-433b-96d3-163d33a83ea7:
     contentColumnType: string
     fieldGroup: 28bbb761-2bca-4754-ba9e-c0bfe22f4496
@@ -200,6 +219,23 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+    contentColumnType: text
+    fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
+    handle: headline
+    instructions: 'Most prominent text on the page; typically shown on top of the hero.'
+    name: Headline
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   4f214271-7640-4763-948d-3eb791a16473:
     contentColumnType: text
     fieldGroup: 61009477-6ca8-4122-b871-b3b715eec012
@@ -1154,11 +1190,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  dolphiq-iconpicker:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 1.0.0
-    settings: null
   expanded-singles:
     enabled: '1'
     licenseKey: null
@@ -1166,11 +1197,10 @@ plugins:
     settings:
       expandSingles: '1'
       redirectToEntry: '1'
-  inlin:
-    enabled: '1'
-    licenseKey: null
+  googlecustomsearch:
+    edition: standard
+    enabled: true
     schemaVersion: 2.0.0
-    settings: null
   mix:
     enabled: '1'
     licenseKey: null
@@ -1202,7 +1232,7 @@ plugins:
     settings: null
 sections:
   16f0db7d-a9b8-4569-8198-d836625cea77:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       ca7b7e4c-25a6-449f-ad1d-bd7a08c52a99:
         fieldLayouts:
@@ -1210,53 +1240,59 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: 'Landing Pages'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: landingPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Landing Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: landingPages
     name: 'Landing Pages'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: 'pages/_{type}'
+        enabledByDefault: true
+        hasUrls: true
+        template: _default
         uriFormat: '{slug}'
     structure:
-      maxLevels: null
+      maxLevels: ''
       uid: 6934792a-730e-492e-9701-92209d98f59b
     type: structure
   1e6d0ae4-0c2d-4c61-aa0e-f67a0d64d0be:
@@ -1268,41 +1304,44 @@ sections:
             tabs:
               -
                 fields:
-                  7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                 name: 'Blog Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: blogPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Blog Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: blogPage
     name: 'Blog Page'
@@ -1323,41 +1362,44 @@ sections:
             tabs:
               -
                 fields:
-                  7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                 name: 'Resources Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: resourcesPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Resources Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: resourcesPage
     name: 'Resources Page'
@@ -1614,41 +1656,47 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: 'Contact Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: contact
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Contact Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: contactPage
     name: 'Contact Page'
@@ -1719,7 +1767,7 @@ sections:
         uriFormat: 'news/{slug}'
     type: channel
   698462dc-1720-42e6-a09e-9e59bce0aa23:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       3e918fe0-05a0-4a21-88e8-4fe6125a5fae:
         fieldLayouts:
@@ -1727,54 +1775,60 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: 'Privacy Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: privacyPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Privacy Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: privacyPage
     name: 'Privacy Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _privacy
+        enabledByDefault: true
+        hasUrls: true
+        template: _default
         uriFormat: privacy
     type: single
   6e318b58-9c19-4a89-aece-8db4a7b52124:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       181988f5-74b6-4bf7-8825-b5e458651ce9:
         fieldLayouts:
@@ -1782,51 +1836,57 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: 'Error Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: errorPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Error Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: errorPage
     name: 'Error Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _error
-        uriFormat: error-page
+        enabledByDefault: true
+        hasUrls: true
+        template: _500
+        uriFormat: '500'
     type: single
   7b352338-e4c1-4527-8c7b-dd3ae5e9d28f:
     enableVersioning: '1'
@@ -1893,7 +1953,7 @@ sections:
         uriFormat: 'events/{slug}'
     type: channel
   804ebac0-45d8-49c0-9e1f-418cc9c708e7:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       969995e1-dbd5-42c5-917f-a13e492a5c83:
         fieldLayouts:
@@ -1901,54 +1961,60 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: Homepage
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: homepage
-        hasTitleField: '1'
+        hasTitleField: true
         name: Homepage
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: homepage
     name: Homepage
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
+        enabledByDefault: true
+        hasUrls: true
         template: _index
-        uriFormat: homepage
+        uriFormat: __home__
     type: single
   aa4b309e-df7a-47cf-9aa5-25285f46796f:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       754177a1-494c-4f11-806a-112af873ab1d:
         fieldLayouts:
@@ -1956,9 +2022,15 @@ sections:
             tabs:
               -
                 fields:
-                  7ccca481-afc6-4d2d-a691-46d51885c73e:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: '0'
+                    sortOrder: '2'
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
                     required: '0'
                     sortOrder: '1'
+                  7ccca481-afc6-4d2d-a691-46d51885c73e:
+                    required: '0'
+                    sortOrder: '3'
                 name: 'Page Not Found'
                 sortOrder: '1'
               -
@@ -1986,21 +2058,21 @@ sections:
                     sortOrder: '3'
                 name: SEO
                 sortOrder: '2'
-        handle: pageNotFound
+        handle: notFoundPage
         hasTitleField: '1'
-        name: 'Page Not Found'
-        sortOrder: '1'
-        titleFormat: null
+        name: '404 Page'
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: notFoundPage
-    name: 'Page Not Found'
-    propagateEntries: '1'
+    name: '404 Page'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
+        enabledByDefault: true
+        hasUrls: true
         template: _404
-        uriFormat: page-not-found
+        uriFormat: '404'
     type: single
   c87b5acc-afe1-4ddf-b73c-b449c9f29c2d:
     enableVersioning: '1'
@@ -2078,41 +2150,44 @@ sections:
             tabs:
               -
                 fields:
-                  7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                 name: 'News & Events Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: newsEventsPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'News & Events Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: newsEventsPage
     name: 'News & Events Page'
@@ -2133,41 +2208,47 @@ sections:
             tabs:
               -
                 fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 3
                 name: 'About Page'
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: aboutPage
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'About Page'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: aboutPage
     name: 'About Page'

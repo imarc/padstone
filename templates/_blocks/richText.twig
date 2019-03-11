@@ -1,0 +1,15 @@
+<div class="layer pt-5">
+    <div class="container">
+        {% if block.sectionTitle %}
+            <h2>
+                {{ block.sectionTitle }}
+            </h2>
+        {% endif %}
+
+        {{ block.blockContent }}
+
+        {% if not blockLoop.last %}
+            <hr class="mt-5">
+        {% endif %}
+    </div>
+</div>

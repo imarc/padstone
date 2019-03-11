@@ -1,0 +1,16 @@
+{% macro renderBlock(block, blockLoop) %}
+    {% import _self as macros %}
+    {% include '/_blocks/' ~ block.type %}
+{% endmacro %}
+
+{% macro renderAllBlocks(field) %}
+    {% import _self as macros %}
+
+    {% for block in field.all() %}
+        {{ macros.renderBlock(block, loop) }}
+    {% endfor %}
+{% endmacro %}
+
+{% macro test() %}
+    hELOJJ
+{% endmacro %}
