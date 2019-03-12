@@ -1237,11 +1237,6 @@ plugins:
       highlightColor: '#D85B4B'
       scrollLinks: true
       textColor: '#FFFFFF'
-  ckeditor:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 1.0.0
-    settings: null
   code-mirror:
     enabled: '1'
     licenseKey: null
