@@ -3,6 +3,8 @@ Padstone
 
 Padstone is a starter package for Craft 3 built by Imarc. It provides a simple project config as well as example entries and templates.
 
+If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2).
+
 
 What's Included
 ---------------
