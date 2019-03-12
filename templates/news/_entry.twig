@@ -13,7 +13,7 @@
         <p class="text-muted">{{ entry.newsDate|date("F jS, Y") }}</p>
     </div>
 
-    {{ macros.renderAllBlocks(entry.structuredContent) }}
+    {{ macros.renderAllBlocks(entry.designedContent) }}
 
     <div class="text-center my-5">
         {% set index = craft.entries.section('newsEventsPage').one %}

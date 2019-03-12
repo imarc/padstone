@@ -1,12 +1,18 @@
-{% macro renderBlock(block, blockLoop, showSeparator) %}
+{% macro renderBlock(block, blockLoop) %}{% spaceless %}
     {% import _self as macros %}
-    {% include '/_blocks/' ~ block.type %}
-{% endmacro %}
+    {% if block.type == 'sharedBlock' %}
+        {% for subblock in block.sharedBlock %}
+            {{ macros.renderAllBlocks(subblock.designedContent, loop) }}
+        {% endfor %}
+    {% else %}
+        {% include '/_blocks/' ~ block.type %}
+    {% endif %}
+{% endspaceless %}{% endmacro %}
 
-{% macro renderAllBlocks(field, withSeparators) %}
+{% macro renderAllBlocks(field) %}{% spaceless %}
     {% import _self as macros %}
 
     {% for block in field.all() %}
-        {{ macros.renderBlock(block, loop, withSeparators and not loop.last) }}
+        {{ macros.renderBlock(block, loop) }}
     {% endfor %}
-{% endmacro %}
+{% endspaceless %}{% endmacro %}

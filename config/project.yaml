@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1552341711
+dateModified: 1552406362
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -252,12 +252,12 @@ fields:
   7ccca481-afc6-4d2d-a691-46d51885c73e:
     contentColumnType: string
     fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
-    handle: structuredContent
-    instructions: blockContent
-    name: 'Structured Content'
-    searchable: '1'
+    handle: designedContent
+    instructions: 'Add one or more blocks of content and choose the layout or design you''d like that content to use.'
+    name: 'Content Designer'
+    searchable: true
     settings:
-      contentTable: '{{%matrixcontent_structuredcontent}}'
+      contentTable: '{{%matrixcontent_designedcontent}}'
       localizeBlocks: false
       maxBlocks: ''
       minBlocks: ''
@@ -616,19 +616,19 @@ matrixBlockTypes:
           -
             fields:
               832bda63-d7a5-494e-a960-dbc6d4f71755:
-                required: '1'
-                sortOrder: '3'
+                required: true
+                sortOrder: 3
               8b129965-072e-4380-bd83-2cc75fe7c989:
-                required: '0'
-                sortOrder: '4'
+                required: false
+                sortOrder: 4
               c04d3133-756c-44d2-ae47-41f5946dddaf:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
               c5eb763d-fb5a-4f00-8fc2-74e9b242860b:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       832bda63-d7a5-494e-a960-dbc6d4f71755:
         contentColumnType: text
@@ -636,9 +636,10 @@ matrixBlockTypes:
         handle: person
         instructions: ''
         name: Person
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -650,11 +651,12 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: jobTitle
-        instructions: ''
+        instructions: 'Optional job title for this person.'
         name: 'Job Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -668,9 +670,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -684,7 +687,7 @@ matrixBlockTypes:
         handle: quote
         instructions: ''
         name: Quote
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -698,7 +701,7 @@ matrixBlockTypes:
         type: craft\redactor\Field
     handle: testimonial
     name: Testimonial
-    sortOrder: '5'
+    sortOrder: 5
   318e27c6-9622-4e58-9013-b8731641271f:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -707,19 +710,19 @@ matrixBlockTypes:
           -
             fields:
               44cce794-ef87-4267-b50d-b4234ba0bd59:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
               5f8ee8da-9277-4b2e-9482-9f78c77a131a:
-                required: '1'
-                sortOrder: '3'
+                required: true
+                sortOrder: 3
               7a63a845-8a3f-4576-948f-5e1699226882:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
               f01c690c-38f2-4d42-8123-2f1ef7ab7a1e:
-                required: '1'
-                sortOrder: '4'
+                required: true
+                sortOrder: 4
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       44cce794-ef87-4267-b50d-b4234ba0bd59:
         contentColumnType: text
@@ -727,9 +730,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -741,9 +745,9 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: position
-        instructions: ''
+        instructions: 'Whether the image should be displayed to the left or right of the content.'
         name: 'Image Position'
-        searchable: '1'
+        searchable: true
         settings:
           default: ''
           options:
@@ -762,7 +766,7 @@ matrixBlockTypes:
         handle: image
         instructions: ''
         name: Image
-        searchable: '1'
+        searchable: true
         settings:
           allowedKinds: null
           defaultUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
@@ -785,9 +789,9 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: blockContent
-        instructions: ''
+        instructions: 'Content to accompany this image.'
         name: Content
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -801,7 +805,7 @@ matrixBlockTypes:
         type: craft\redactor\Field
     handle: imageWithText
     name: 'Image with Text'
-    sortOrder: '3'
+    sortOrder: 3
   7f264ef3-9650-4cb3-9de7-cdc442a98a4d:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -810,23 +814,24 @@ matrixBlockTypes:
           -
             fields:
               3ebface3-3651-4864-b86f-2eaa76ff7b82:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
               fd5e975b-61c7-46ca-9927-12fcb7d04fcd:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       3ebface3-3651-4864-b86f-2eaa76ff7b82:
         contentColumnType: text
         fieldGroup: null
         handle: sectionTitle
-        instructions: ''
+        instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -838,15 +843,17 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: embed
-        instructions: ''
+        instructions: 'Raw code for this widget or embed. Be careful!'
         name: 'HTML Widget or Embed'
-        searchable: '1'
+        searchable: true
+        settings:
+          mode: gfm
         translationKeyFormat: null
         translationMethod: none
         type: luwes\codemirror\fields\CodeMirrorField
     handle: htmlWidgetEmbed
     name: 'HTML Widget/Embed'
-    sortOrder: '6'
+    sortOrder: 6
   c5c9e5cd-cbe8-4b48-b85e-2dcccae569ba:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -855,27 +862,29 @@ matrixBlockTypes:
           -
             fields:
               8526fc89-e8e9-4565-bdf0-a16ed9a6bc69:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
               a83d00fb-de79-47a0-bd4d-e2778c73ef0c:
-                required: '0'
-                sortOrder: '3'
+                required: false
+                sortOrder: 3
               c1bad40b-bf3e-410f-9d20-499eeff520bf:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
               f085c9a4-9812-4550-a6ac-84dfb0c4459d:
-                required: '1'
-                sortOrder: '4'
+                required: true
+                sortOrder: 4
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       8526fc89-e8e9-4565-bdf0-a16ed9a6bc69:
         contentColumnType: text
         fieldGroup: null
         handle: videoOrEmbedCode
-        instructions: ''
+        instructions: 'Raw code for this video or embed. Be careful!'
         name: 'Video or Embed Code'
-        searchable: '1'
+        searchable: true
+        settings:
+          mode: gfm
         translationKeyFormat: null
         translationMethod: none
         type: luwes\codemirror\fields\CodeMirrorField
@@ -883,9 +892,9 @@ matrixBlockTypes:
         contentColumnType: string
         fieldGroup: null
         handle: position
-        instructions: ''
+        instructions: 'Whether the video should be displayed to the left or right of the content.'
         name: 'Video Position'
-        searchable: '1'
+        searchable: true
         settings:
           default: ''
           options:
@@ -904,9 +913,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -918,9 +928,9 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: blockContent
-        instructions: ''
+        instructions: 'Content to accompany the video.'
         name: Content
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -934,7 +944,7 @@ matrixBlockTypes:
         type: craft\redactor\Field
     handle: videoWithText
     name: 'Video with Text'
-    sortOrder: '4'
+    sortOrder: 4
   dc575719-2de8-473b-9872-9e294da811a2:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -943,16 +953,16 @@ matrixBlockTypes:
           -
             fields:
               562f7fa1-cbca-4b54-afad-7d44b1be171a:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
               670d63fe-1da6-4a38-b355-941b9c53c5d7:
-                required: '1'
-                sortOrder: '3'
+                required: true
+                sortOrder: 3
               a52f1e8a-cba5-455a-ab66-c739b9463856:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       562f7fa1-cbca-4b54-afad-7d44b1be171a:
         contentColumnType: text
@@ -960,7 +970,7 @@ matrixBlockTypes:
         handle: leftContent
         instructions: ''
         name: 'Left Content'
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -978,7 +988,7 @@ matrixBlockTypes:
         handle: rightContent
         instructions: ''
         name: 'Right Content'
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -996,9 +1006,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -1008,7 +1019,7 @@ matrixBlockTypes:
         type: craft\fields\PlainText
     handle: twoColumns
     name: 'Two Columns'
-    sortOrder: '2'
+    sortOrder: 2
   ddfe72db-cc91-496e-a097-1be94045f971:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -1017,13 +1028,13 @@ matrixBlockTypes:
           -
             fields:
               8cf354bc-58ad-42e1-aeb4-f6439b839750:
-                required: '1'
-                sortOrder: '2'
+                required: true
+                sortOrder: 2
               f4709cc7-103f-4722-860c-463eb0524b7b:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       8cf354bc-58ad-42e1-aeb4-f6439b839750:
         contentColumnType: text
@@ -1031,7 +1042,7 @@ matrixBlockTypes:
         handle: blockContent
         instructions: ''
         name: Content
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -1049,9 +1060,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -1061,7 +1073,42 @@ matrixBlockTypes:
         type: craft\fields\PlainText
     handle: richText
     name: 'Rich Text'
-    sortOrder: '1'
+    sortOrder: 1
+  ebbc6a1f-74ae-456e-8091-ad2853f1f503:
+    field: 7ccca481-afc6-4d2d-a691-46d51885c73e
+    fieldLayouts:
+      1326cf27-56cb-47cf-b4ce-a4f127cd00ef:
+        tabs:
+          -
+            fields:
+              cb951d67-04af-4a80-9936-c2183b970628:
+                required: true
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      cb951d67-04af-4a80-9936-c2183b970628:
+        contentColumnType: string
+        fieldGroup: null
+        handle: sharedBlock
+        instructions: 'Choose a Shared Block to display.'
+        name: 'Shared Block'
+        searchable: true
+        settings:
+          limit: ''
+          localizeRelations: false
+          selectionLabel: 'Choose Shared Block'
+          source: null
+          sources:
+            - 'section:16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98'
+          targetSiteId: null
+          viewMode: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Entries
+    handle: sharedBlock
+    name: 'Shared Block'
+    sortOrder: 8
   edc14065-98d5-402c-a1ed-a745b252ada4:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -1070,16 +1117,16 @@ matrixBlockTypes:
           -
             fields:
               245fe7e9-d7f5-4de8-8cb6-0ed50edddffb:
-                required: '1'
-                sortOrder: '3'
+                required: true
+                sortOrder: 3
               24bcd6a1-3fa6-4839-940a-af27d389740b:
-                required: '0'
-                sortOrder: '2'
+                required: false
+                sortOrder: 2
               85c7e535-dbcd-4e5d-af41-3bf0b93d5c89:
-                required: '0'
-                sortOrder: '1'
+                required: false
+                sortOrder: 1
             name: Content
-            sortOrder: '1'
+            sortOrder: 1
     fields:
       245fe7e9-d7f5-4de8-8cb6-0ed50edddffb:
         contentColumnType: text
@@ -1087,18 +1134,42 @@ matrixBlockTypes:
         handle: cta
         instructions: 'This is the link and label for the Call to Action button itself. If you don''t specify link text, it will default to "Learn More".'
         name: 'Call to Action'
-        searchable: '1'
+        searchable: true
         settings:
           allowCustomText: '1'
           allowTarget: ''
           allowedLinkNames: '*'
+          autoNoReferrer: ''
+          defaultLinkName: asset
           defaultText: 'Learn More'
+          enableAriaLabel: ''
+          enableTitle: ''
           typeSettings:
             asset:
+              allowCustomQuery: ''
               sources: '*'
             category:
+              allowCustomQuery: ''
               sources: '*'
+            custom:
+              allowAliases: ''
+              disableValidation: ''
+            email:
+              allowAliases: ''
+              disableValidation: ''
             entry:
+              allowCustomQuery: ''
+              sources: '*'
+            site:
+              sites: '*'
+            tel:
+              allowAliases: ''
+              disableValidation: ''
+            url:
+              allowAliases: ''
+              disableValidation: ''
+            user:
+              allowCustomQuery: ''
               sources: '*'
         translationKeyFormat: null
         translationMethod: none
@@ -1107,9 +1178,9 @@ matrixBlockTypes:
         contentColumnType: text
         fieldGroup: null
         handle: blockContent
-        instructions: ''
+        instructions: 'Optional content displayed next to this Call to Action.'
         name: Content
-        searchable: '1'
+        searchable: true
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
@@ -1127,9 +1198,10 @@ matrixBlockTypes:
         handle: sectionTitle
         instructions: 'Optional title for this section.'
         name: 'Section Title'
-        searchable: '1'
+        searchable: true
         settings:
           charLimit: ''
+          code: ''
           columnType: text
           initialRows: '4'
           multiline: ''
@@ -1139,7 +1211,7 @@ matrixBlockTypes:
         type: craft\fields\PlainText
     handle: callToAction
     name: 'Call to Action'
-    sortOrder: '7'
+    sortOrder: 7
 plugins:
   admin-bar:
     enabled: '1'
@@ -1290,6 +1362,39 @@ sections:
         template: _leadership
         uriFormat: leadership
     type: single
+  16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98:
+    enableVersioning: true
+    entryTypes:
+      5ca24464-6fc5-4ec1-b72f-bd44b3d7f72f:
+        fieldLayouts:
+          26a6743b-375d-4250-b3e1-7e399520fb34:
+            tabs:
+              -
+                fields:
+                  7ccca481-afc6-4d2d-a691-46d51885c73e:
+                    required: true
+                    sortOrder: 1
+                name: 'Shared Block'
+                sortOrder: 1
+        handle: sharedBlock
+        hasTitleField: true
+        name: 'Shared Block'
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Title
+    handle: sharedBlocks
+    name: 'Shared Blocks'
+    propagateEntries: true
+    siteSettings:
+      5a949caa-356a-45ea-b408-2b267055c99c:
+        enabledByDefault: false
+        hasUrls: false
+        template: null
+        uriFormat: null
+    structure:
+      maxLevels: ''
+      uid: 2f71ab53-78c9-442d-a830-50cc16e2c184
+    type: structure
   16f0db7d-a9b8-4569-8198-d836625cea77:
     enableVersioning: true
     entryTypes:
@@ -1670,40 +1775,40 @@ sections:
               -
                 fields:
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                 name: Page
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
-        handle: aboutPages
-        hasTitleField: '1'
-        name: 'About Pages'
-        sortOrder: '1'
-        titleFormat: null
+                sortOrder: 2
+        handle: aboutPage
+        hasTitleField: true
+        name: 'About Page'
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: aboutPages
     name: 'About Pages'
