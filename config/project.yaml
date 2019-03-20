@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1552406362
+dateModified: 1553111881
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -64,9 +64,9 @@ fields:
     contentColumnType: string
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: openGraphImage
-    instructions: ''
+    instructions: 'If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best.'
     name: 'Open Graph Image'
-    searchable: '1'
+    searchable: true
     settings:
       allowedKinds: null
       defaultUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
@@ -146,11 +146,12 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: htmlTitleOverride
-    instructions: 'Title tags are often truncated around 60 characters, so when possible, try to keep them under that length.'
+    instructions: 'If provided, this field will override the TITLE tag for this landing page or the detail page for this entry. Title tags are often truncated around 60 characters, so when possible, try to keep them under that length.'
     name: 'HTML Title Override'
-    searchable: '1'
+    searchable: true
     settings:
-      charLimit: ''
+      charLimit: '155'
+      code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
@@ -237,11 +238,12 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: metaDescription
-    instructions: ''
+    instructions: 'If provided, this field will be used as the meta description for this landing page or the detail page for this entry. It is better to leave this field blank if you don''t have specific content for this page or entry.'
     name: 'Meta Description'
-    searchable: '1'
+    searchable: true
     settings:
-      charLimit: ''
+      charLimit: '300'
+      code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
@@ -405,11 +407,12 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: openGraphDescription
-    instructions: ''
+    instructions: 'If provided, this field will be used as the Open Graph description for this landing page or the detail page for this entry.'
     name: 'Open Graph Description'
-    searchable: '1'
+    searchable: true
     settings:
       charLimit: ''
+      code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
@@ -500,9 +503,11 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: headerCode
-    instructions: 'If you have any additional header tags or javascript that needs to be added, you can add it here.'
+    instructions: 'Provide any relevant meta tags, Open Graph tags, or Javascript to be placed on in the page''s header. Useful for Twitter Cards - https://dev.twitter.com/cards/overview - or additional Open Graph tags.'
     name: 'Additional Header Code'
-    searchable: '1'
+    searchable: true
+    settings:
+      mode: gfm
     translationKeyFormat: null
     translationMethod: none
     type: luwes\codemirror\fields\CodeMirrorField
@@ -524,9 +529,11 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: footerCode
-    instructions: 'If you have any additional javascript code that needs to be added, you can add it here.'
+    instructions: 'Any raw code or Javascript entered here will be output at the bottom of this page. This can be used for calling specific Marketo or Google Analytics scripts that are specific to this page and not part of the global template.'
     name: 'Additional Footer Code'
-    searchable: '1'
+    searchable: true
+    settings:
+      mode: gfm
     translationKeyFormat: null
     translationMethod: none
     type: luwes\codemirror\fields\CodeMirrorField
@@ -552,11 +559,12 @@ fields:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: openGraphTitle
-    instructions: ''
+    instructions: 'If provided, this field will be used as the Open Graph title for this landing page or the detail page for this entry.'
     name: 'Open Graph Title'
-    searchable: '1'
+    searchable: true
     settings:
       charLimit: ''
+      code: ''
       columnType: text
       initialRows: '4'
       multiline: ''
