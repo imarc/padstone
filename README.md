@@ -93,7 +93,7 @@ composer create-project imarc/padstone [folder]
 
 This command downloads Padstone, Craft, and all of the plugins.
 
-At this point, you'll need to [Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) as you would a normal Craft install.
+At this point, you'll need to [Create your database](https://docs.craftcms.com/v3/installation.html#step-4-create-a-database) as you would a normal Craft install.
 
 Next, you should edit the `.env` file to match your site's hosting. At minimum, you'll need to tell Craft how to connect to your database and your domain.
 
