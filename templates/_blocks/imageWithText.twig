@@ -1,0 +1,30 @@
+<div class="layer image-with-text {% if not blockLoop.first %}pt-5{% endif %}">
+    <div class="container">
+
+        {% if block.sectionTitle %}
+            <h2>
+                {{ block.sectionTitle }}
+            </h2>
+        {% endif %}
+
+        <div class="row">
+            {% if block.position == 'right' %}
+                <div class="col-md-6">
+                    {{ block.image.one.img }}
+                </div>
+                <div class="col-md-6">
+                    {{ block.blockContent }}
+                </div>
+            {% else %}
+                <div class="col-md-6">
+                    {{ block.blockContent }}
+                </div>
+                <div class="col-md-6">
+                    {{ block.image.one.img }}
+                </div>
+            {% endif %}
+        </div>
+
+        <hr class="mt-5">
+    </div>
+</div>
