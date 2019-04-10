@@ -105,6 +105,11 @@ You will also want to run `npm install` and `npm run dev` at least once; see the
 
 At this point, you're done!
 
+### Logging in
+
+By default, the username is Craft's default of **admin** with the password **padstone**. Please change the password after you first login.
+
+
 ### Local Usage
 
 While the previous version of Padstone shipped with a `docker-compose.yml` file, we're no longer providing that. Feel free to use Padstone with whatever local development app you'd like - be it [imarc/ops](https://github.com/imarc/ops), [Laravel Valet](https://laravel.com/docs/master/valet), [ddev](https://ddev.readthedocs.io/en/stable/), etc.
