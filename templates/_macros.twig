@@ -5,7 +5,7 @@
 {% macro renderBlock(block, blockLoop) %}{% spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedBlock' %}
-        {% for subblock in block.sharedBlock %}
+        {% for subblock in block.sharedBlock.all() %}
             {{ macros.renderAllBlocks(subblock.designedContent, loop) }}
         {% endfor %}
     {% else %}
