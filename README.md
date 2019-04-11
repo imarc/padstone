@@ -27,6 +27,10 @@ npm run dev
 
 Optionally, you can import the supplied `padstone.sql` file into your database if you want Padstone's starter entries.
 
+### Logging in
+
+If you import `padstone.sql`, the username is *admin* and the password is *padstone*. Please change the password after you first login.
+
 Front-End Build
 ------------------------
 
