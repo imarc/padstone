@@ -3,8 +3,58 @@ Padstone
 
 Padstone is a starter package for Craft 3 built by Imarc. It provides a simple project config as well as example entries and templates.
 
-If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2).
+_If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2)._
 
+Getting Started
+---------------
+
+Create a new padstone project with the following [composer](https://getcomposer.org/) command:
+
+```sh
+composer create-project imarc/padstone [folder]
+```
+
+Enter the newly created folder and run the front-end buildstep.
+
+```sh
+cd [folder]
+
+npm install
+npm run dev
+```
+
+[Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) and ensure the settings in your `.env` match your environment. At minimum, you'll need to tell Craft how to connect to your database and your domain. Then run the installer by going to /admin (except for your domain.)
+
+Optionally, you can import the supplied `padstone.sql` file into your database if you want Padstone's starter entries.
+
+Front-End Build
+------------------------
+
+Beyond the typical craft files, you will also see a resources/ folder. Padstone
+uses [Laravel Mix](https://laravel-mix.com/docs/4.0/basic-example) to compile JS and Sass files from the resources/ folder and store the results into the public/ folder:
+
+* `resources/assets/sass/main.scss` is compiled to `public/css/main.css`
+* `resources/assets/js/main.js` is compiled to `public/js/main.js`
+
+Additionally, Padstone produces `manifest.js` and `vendor.js` files that
+must be included, in that order, before any of your own JS files. You can
+customize this behavior in `webpack.mix.js`.
+
+### Watching/Building assets
+
+While developing, you most likely want to watch the files you are working on,
+so the build happens automatically after every save.
+
+    npm run watch
+
+If you want to run this same build process for dev without watching, you can
+run the following:
+
+    npm run dev
+    
+If you are building to production, run:
+
+    npm run prod
 
 What's Included
 ---------------
@@ -81,132 +131,8 @@ The **Content Designer** Field (designedContent) allows CMS users to use the fol
 * Call to Action
 * Shared Block
 
+## License
 
-Getting Started
----------------
+MIT License
 
-Start out with Padstone by running the following [composer](https://getcomposer.org/) command in a terminal:
-
-```sh
-composer create-project imarc/padstone [folder]
-```
-
-This command downloads Padstone, Craft, and all of the plugins.
-
-At this point, you'll need to [Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) as you would a normal Craft install.
-
-Next, you should edit the `.env` file to match your site's hosting. At minimum, you'll need to tell Craft how to connect to your database and your domain.
-
-Now, you can run the installer by going to http://example.com/admin (except for your domain.)
-
-Lastly, import the padstone.sql file into your database. This will populate the database with Padstone's starter entries. Technically, you can skip this step if you don't want that content.
-
-You will also want to run `npm install` and `npm run dev` at least once; see the "Usage During Development" section below for more details.
-
-At this point, you're done!
-
-### Local Usage
-
-While the previous version of Padstone shipped with a `docker-compose.yml` file, we're no longer providing that. Feel free to use Padstone with whatever local development app you'd like - be it [imarc/ops](https://github.com/imarc/ops), [Laravel Valet](https://laravel.com/docs/master/valet), [ddev](https://ddev.readthedocs.io/en/stable/), etc.
-
-
-Usage During Development
-------------------------
-
-To install all npm dependencies:
-
-    npm install
-
-### Watching/Building all assets for Development
-
-While developing, you most likely want to watch the files you are working on,
-so the build happens automatically after every save.
-
-    npm run watch
-
-If you want to run this same build process for dev without watching, you can
-run the following:
-
-    npm run dev
-
-### Building all assets for Production
-
-Unless your project is using a deploy buildstep Before committing to production
-
-    npm run prod
-
-
-
-File Structure
---------------
-
-Beyond the typical craft files, you will also see a resources/ folder. Padstone
-uses Laravel Mix to compile JS and Sass files from the resources/ folder and
-store the results into the public/ folder:
-
-* resources/assets/sass/main.scss is compiled to public/css/main.css
-* resources/assets/js/main.js is compiled to public/js/main.js
-
-Additionally, Padstone produces **manifest.js** and **vendor.js** files that
-must be included, in that order, before any of your own JS files. You can
-customize this behavior in `webpack.mix.js`.
-
-
-
-Changelog
----------
-
-### 3.0.0
-
-* Major version for Craft 3, including new plugins, templates, fields and more! Not remotely backwards compatible.
-
-### 2.1.0
-
-* Add latest Boilerplate
-
-### 2.0.0
-
-* Switch from craft-sass to use Laravel Mix for Sass/JS compilation
-
-### 1.6.0
-
-* Merge in pull request from @jeffturcotte, which did all the following
-* Add support for local development
-* Add dotenv support
-* Add editorconfig and other cleanup
-
-### 1.5.0
-
-* Add latest Boilerplate
-
-### 1.4.0
-
-* Added [Better Redactor](https://github.com/imarc/craft-betterreddactor)
-
-### 1.3.0
-
-* Added [Retour](https://github.com/nystudio107/retour), replacing Reroute for
-  handling redirects. Retour provides more features, allows for regex in
-  redirects, and provides a statistics widget for the dashboard.
-* Removed Reroute
-* Added [Field Manager](https://github.com/engram-design/FieldManager).
-* Added [Tag Manager](https://github.com/boboldehampsink/tagmanager), primarily
-  because stock Craft doesn't seem to provide a away to delete tags.
-
-### 1.2.0
-
-* Added [craft-kindling](https://github.com/imarc/craft-kindling), and swapped
-  out the templates included in the ZIP for some provided by Padstone.
-
-### 1.1.0
-
-* Added [itmundi/schematic](https://github.com/itmundi/schematic) and a basic
-  schema that includes a sections for Pages, Blog, and Team.
-
-### 1.0.2
-
-* Added updated `config/general.php` and `config/db.php`.
-
-### 1.0.0
-
-* initial release
+Copyright (c) 2019 Imarc
