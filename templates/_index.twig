@@ -7,6 +7,11 @@
         <div class="container">
             <h1 class="display-3">{{ entry.headline }}</h1>
             <p class="lead">{{ entry.subheadline }}</p>
+            <pre>
+                {{ entry ? entry.headline|lower : '' }}
+                {{ entry ? entry|lower }}
+                {{ (entry ?: '')|lower }}
+            </pre>
         </div>
     </div>
 

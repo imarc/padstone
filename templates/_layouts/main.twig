@@ -12,10 +12,23 @@
 
     {% if entry is defined %}
         {% if title is not defined %}
-            {% set title = entry.title %}
+            {% set title = entry.htmlTitleOverride ?: (entry.title ~ " | " ~ siteName) %}
         {% endif %}
 
         {% set bodyClasses = bodyClasses|merge(['section-' ~ (entry.section.handle|kebab)]) %}
+
+        {% if metaDescription is not defined %}
+            {% set metaDescription = entry.metaDescription %}
+        {% endif %}
+        {% if openGraphDescription is not defined %}
+            {% set openGraphDescription = entry.openGraphDescription %}
+        {% endif %}
+        {% if openGraphImage is not defined and entry.openGraphImage|length > 0 %}
+            {% set openGraphImage = entry.openGraphImage.one.url %}
+        {% endif %}
+        {% if openGraphTitle is not defined %}
+            {% set openGraphTitle = entry.openGraphTitle %}
+        {% endif %}
     {% endif %}
 
 {% endspaceless %}
@@ -24,9 +37,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>{{ title }} - {{ siteName }}</title>
+        <title>{{ title }}</title>
+
+        {% if metaDescription is defined and metaDescription|length > 0 %}
+            <meta name="description" content="{{ metaDescription|e('html_attr') }}" />
+        {% endif %}
+        {% if openGraphImage is defined and openGraphImage|length %}
+            <meta property="og:image" content="{{ openGraphImage|e('html_attr') }}" />
+        {% endif %}
+        {% if openGraphTitle is defined and openGraphTitle|length %}
+            <meta property="og:title" content="{{ openGraphTitle|e('html_attr') }}" />
+        {% endif %}
+        {% if openGraphDescription is defined and openGraphDescription|length %}
+            <meta property="og:description" content="{{ openGraphDescription|e('html_attr') }}" />
+        {% endif %}
 
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
+
+        {% if entry is defined and entry.headerCode %}
+            {{ entry.headerCode|raw }}
+        {% endif %}
     </head>
     <body class="{{ bodyClasses|join(' ') }}" >
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -140,5 +170,9 @@
         <script src="{{ mix('/js/manifest.js') }}"></script>
         <script src="{{ mix('/js/vendor.js') }}"></script>
         <script src="{{ mix('/js/main.js') }}"></script>
+
+        {% if entry is defined and entry.footerCode %}
+            {{ entry.footerCode|raw }}
+        {% endif %}
     </body>
 </html>
