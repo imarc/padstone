@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1553111881
+dateModified: 1555708345
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -64,7 +64,7 @@ fields:
     contentColumnType: string
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
     handle: openGraphImage
-    instructions: 'If provided, this image will show up when shared on social media. A square image at least 1200x1200 pixels works best.'
+    instructions: 'If provided, this image will show up when shared on social media. A landscape image at 1200x630 pixels works best.'
     name: 'Open Graph Image'
     searchable: true
     settings:
@@ -1265,7 +1265,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   expanded-singles:
-    enabled: '1'
+    enabled: true
     licenseKey: null
     schemaVersion: 1.0.0
     settings:
