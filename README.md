@@ -141,8 +141,10 @@ The **Content Designer** Field (designedContent) allows CMS users to use the fol
 
 ## License
 
-MIT License
+Padstone is released under the MIT License.
+
+
 
 <img src="https://user-images.githubusercontent.com/1452/56690112-b04fbd00-66aa-11e9-9e87-049b403cfa26.png" alt="Imarc" width="100">
 
-Copyright (c) 2019 Imarc
+© 2019 Imarc
