@@ -1,9 +1,20 @@
-Padstone
-========
+Padstone for Craft CMS
+======================
 
 Padstone is a starter package for Craft 3 built by Imarc. It provides a simple project config as well as example entries and templates.
 
 _If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2)._
+
+Features
+--------
+
+* Pre-built CMS sections, including ones for the Homepage, a Blog, News, and Resources. (18 in total!)
+* A set of **Bootstrap 4** twig templates for you to replace or customize.
+* A matrix-based **Content Designer** field, built within Craft, for laying out pages beyond simple rich text.
+* A set of (free) plugins selected by Imarc that we recommend for new projects.
+
+<img src="https://user-images.githubusercontent.com/1452/56689796-f0fb0680-66a9-11e9-8b4b-e66690ed9607.jpg">
+
 
 Getting Started
 ---------------
@@ -55,20 +66,13 @@ If you want to run this same build process for dev without watching, you can
 run the following:
 
     npm run dev
-    
+
 If you are building to production, run:
 
     npm run prod
 
 What's Included
 ---------------
-
-Padstone includes the following:
-
-* **Eighteen CMS Sections**, including the Homepage, a Blog, News and Resources.
-* A set of **Bootstrap 4 based Twig Templates** for you to replace or customize.
-* A block-based **Content Designer** Field, built within the CMS, for building out pages with layout.
-
 
 ### Sections
 
@@ -138,5 +142,7 @@ The **Content Designer** Field (designedContent) allows CMS users to use the fol
 ## License
 
 MIT License
+
+<img src="https://user-images.githubusercontent.com/1452/56690112-b04fbd00-66aa-11e9-9e87-049b403cfa26.png" alt="Imarc" width="100">
 
 Copyright (c) 2019 Imarc
