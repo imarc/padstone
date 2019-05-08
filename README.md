@@ -1,3 +1,9 @@
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/1452/57405127-a7331580-71ab-11e9-8d16-0ee4a9c55328.jpg">
+</p>
+
+
+
 Padstone for Craft CMS
 ======================
 
