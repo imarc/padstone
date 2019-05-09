@@ -40,7 +40,7 @@
     "verbb/field-manager": "^2.0",
     "wbrowar/guide": "^1.1",
     "ether/tags": "^1.0",
-    "imarc/craft-kindling": "^2.0",
+    "imarc/craft-kindling": "^2.0"
   },
   "autoload": {
     "psr-4": {
