@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1555708345
+dateModified: 1556215747
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -2547,3 +2547,12 @@ volumes:
     sortOrder: '1'
     type: craft\volumes\Local
     url: /images
+  57423459-e14e-4a06-af08-3f1c378379ba:
+    handle: resources
+    hasUrls: true
+    name: Resources
+    settings:
+      path: '@webroot/resources'
+    sortOrder: 2
+    type: craft\volumes\Local
+    url: /resources
