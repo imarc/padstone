@@ -40,16 +40,16 @@
         <title>{{ title }}</title>
 
         {% if metaDescription is defined and metaDescription|length > 0 %}
-            <meta name="description" content="{{ metaDescription|e('html_attr') }}" />
+            <meta name="description" content="{{ metaDescription }}" />
         {% endif %}
         {% if openGraphImage is defined and openGraphImage|length %}
-            <meta property="og:image" content="{{ openGraphImage|e('html_attr') }}" />
+            <meta property="og:image" content="{{ openGraphImage }}" />
         {% endif %}
         {% if openGraphTitle is defined and openGraphTitle|length %}
-            <meta property="og:title" content="{{ openGraphTitle|e('html_attr') }}" />
+            <meta property="og:title" content="{{ openGraphTitle }}" />
         {% endif %}
         {% if openGraphDescription is defined and openGraphDescription|length %}
-            <meta property="og:description" content="{{ openGraphDescription|e('html_attr') }}" />
+            <meta property="og:description" content="{{ openGraphDescription }}" />
         {% endif %}
 
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
