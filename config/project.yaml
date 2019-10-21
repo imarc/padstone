@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1556215747
+dateModified: 1571685364
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -1362,7 +1362,7 @@ sections:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
         hasUrls: true
-        template: _leadership
+        template: leadership/_index
         uriFormat: leadership
     type: single
   16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98:
@@ -1463,7 +1463,7 @@ sections:
       uid: 6934792a-730e-492e-9701-92209d98f59b
     type: structure
   1e6d0ae4-0c2d-4c61-aa0e-f67a0d64d0be:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       f4b21aa5-34c8-486b-9a4a-2283e15f1b00:
         fieldLayouts:
@@ -1512,16 +1512,16 @@ sections:
         titleLabel: Title
     handle: blogPage
     name: 'Blog Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _blog
+        enabledByDefault: true
+        hasUrls: true
+        template: blog/_index
         uriFormat: blog
     type: single
   20423d03-2767-4e23-8ba6-41dc15391050:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       462c63db-f464-467b-ab60-114cf3cfa50a:
         fieldLayouts:
@@ -1570,12 +1570,12 @@ sections:
         titleLabel: Title
     handle: resourcesPage
     name: 'Resources Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _resources
+        enabledByDefault: true
+        hasUrls: true
+        template: resources/_index
         uriFormat: resources
     type: single
   31726602-42e3-461e-ad79-08d69e6e899a:
@@ -2324,7 +2324,7 @@ sections:
       uid: 4b707a60-93c9-4e86-a44c-587eb894590e
     type: structure
   ca363472-ca75-4a5e-9e46-dc48bfec0b5d:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       035617c5-1f35-490e-9216-fd539fee3802:
         fieldLayouts:
@@ -2373,12 +2373,12 @@ sections:
         titleLabel: Title
     handle: newsEventsPage
     name: 'News & Events Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _news
+        enabledByDefault: true
+        hasUrls: true
+        template: news/_index
         uriFormat: news
     type: single
   ebac57bc-baaf-4975-bf81-a0f4c66bad4d:
