@@ -2,13 +2,10 @@
 {% set section = 'blog' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3">{{ entry.headline }}</h1>
-            <p class="lead">{{ entry.subheadline }}</p>
-        </div>
-    </div>
+    {% include '_partials/hero' with {
+        headline: entry.headline,
+        subheadline: entry.subheadline
+    } %}
 
     <div class="articles">
         {% for article in craft.entries.section('blog').all() %}

@@ -2,12 +2,9 @@
 {% set section = 'blog' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3">{{ entry.title }}</h1>
-        </div>
-    </div>
+    {% include '_partials/hero' with {
+        headline: entry.title
+    } %}
 
     <div class="container">
         <p class="text-muted">{{ entry.blogDate|date("F jS, Y") }}</p>
