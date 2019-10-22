@@ -1,0 +1,10 @@
+{
+  "buttons": ["html", "bold", "italic", "link", "file", "redo", "undo"],
+  "replaceTags": {
+    "b": "strong",
+    "i": "em",
+    "strike": "del"
+  },
+  "structure": true,
+  "toolbarFixed": true
+}
