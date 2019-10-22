@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1571685364
+dateModified: 1571756022
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -2382,7 +2382,7 @@ sections:
         uriFormat: news
     type: single
   ebac57bc-baaf-4975-bf81-a0f4c66bad4d:
-    enableVersioning: '1'
+    enableVersioning: true
     entryTypes:
       2091741e-3916-401f-8b4c-00ee93c78914:
         fieldLayouts:
@@ -2434,12 +2434,12 @@ sections:
         titleLabel: Title
     handle: aboutPage
     name: 'About Page'
-    propagateEntries: '1'
+    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        enabledByDefault: '1'
-        hasUrls: '1'
-        template: _about
+        enabledByDefault: true
+        hasUrls: true
+        template: about/_index
         uriFormat: about
     type: single
   fdc8d709-53c4-4104-ba7b-f424bad5b7fc:
