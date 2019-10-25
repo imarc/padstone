@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1571756022
+dateModified: 1572031243
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -2380,6 +2380,67 @@ sections:
         hasUrls: true
         template: news/_index
         uriFormat: news
+    type: single
+  d44a5a95-fa08-4efd-8496-2ac825c5acd1:
+    enableVersioning: true
+    entryTypes:
+      2ddfd638-9959-4fb7-877b-10b6424503bc:
+        fieldLayouts:
+          645a65f2-ba3e-489e-a506-53888b688a58:
+            tabs:
+              -
+                fields:
+                  41f2c51a-22b8-4d31-ac8e-1c7b72590f7b:
+                    required: false
+                    sortOrder: 2
+                  4e031b1d-eb8f-4453-90bc-165adf99fd49:
+                    required: false
+                    sortOrder: 1
+                  7ccca481-afc6-4d2d-a691-46d51885c73e:
+                    required: false
+                    sortOrder: 3
+                name: 'Service Unavailable Page'
+                sortOrder: 1
+              -
+                fields:
+                  0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
+                    required: false
+                    sortOrder: 5
+                  27247eb3-ce02-4776-a57d-c34c35c19127:
+                    required: false
+                    sortOrder: 1
+                  71853a8b-b74d-4320-83d5-b8ef585bc335:
+                    required: false
+                    sortOrder: 2
+                  b1abef14-c4df-4e03-adf6-740fbfae5ddf:
+                    required: false
+                    sortOrder: 4
+                  d1edff97-994f-4f78-9318-6cdbbdfd446d:
+                    required: false
+                    sortOrder: 6
+                  e60a84f5-789c-489b-a95e-ae0419f4ae7d:
+                    required: false
+                    sortOrder: 7
+                  e72e6691-b2c5-41b9-b75e-56b6a7200933:
+                    required: false
+                    sortOrder: 3
+                name: SEO
+                sortOrder: 2
+        handle: serviceUnavailablePage
+        hasTitleField: true
+        name: 'Service Unavailable Page'
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: Title
+    handle: serviceUnavailablePage
+    name: 'Service Unavailable Page'
+    propagateEntries: true
+    siteSettings:
+      5a949caa-356a-45ea-b408-2b267055c99c:
+        enabledByDefault: true
+        hasUrls: true
+        template: '503'
+        uriFormat: '503'
     type: single
   ebac57bc-baaf-4975-bf81-a0f4c66bad4d:
     enableVersioning: true
