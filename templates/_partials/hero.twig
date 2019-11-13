@@ -2,7 +2,7 @@
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-3">{{ headline }}</h1>
-        {% if subheadline|length %}
+        {% if subheadline is defined and subheadline|length %}
         	<p class="lead">{{ subheadline }}</p>
         {% endif %}
     </div>
