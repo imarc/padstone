@@ -18,26 +18,33 @@
     "docs": "https://craftcms.com/docs",
     "rss": "https://craftcms.com/changelog.rss"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/imarc/craft3-codemirror.git"
+    }
+  ],
   "require": {
     "php": ">=7.0.0",
     "craftcms/cms": "~3.1.17",
-    "vlucas/phpdotenv": "^2.4.0",
-    "roave/security-advisories": "dev-master",
-    "nerds-and-company/schematic": "^3.8",
-    "dolphiq/redirect": "^1.0.15",
-    "misterbk/mix": "^1.4",
-    "verbb/expanded-singles": "^1.0",
-    "sebastianlenz/linkfield": "^1.0.4",
-    "luwes/craft3-codemirror": "^1.0",
-    "craftcms/redactor": "^2.0",
-    "wbrowar/adminbar": "^3.1.5",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
-    "rias/craft-position-fieldtype": "^1.0",
-    "verbb/field-manager": "^2.0",
-    "imarc/craft-kindling": "^2.0",
+    "craftcms/redactor": "^2.0",
+    "dolphiq/redirect": "^1.0.15",
     "ether/tags": "^1.0",
-    "imarc/craft-googlecustomsearch": "^2.0"
+    "imarc/craft-googlecustomsearch": "^2.0",
+    "imarc/craft-kindling": "^2.0",
+    "imarc/craft-volume-permissions": "^1.0",
+    "luwes/craft3-codemirror": "dev-master",
+    "misterbk/mix": "^1.4",
+    "nerds-and-company/schematic": "^3.8",
+    "rias/craft-position-fieldtype": "^1.0",
+    "roave/security-advisories": "dev-master",
+    "sebastianlenz/linkfield": "^1.0.4",
+    "verbb/expanded-singles": "^1.0",
+    "verbb/field-manager": "^2.0",
+    "vlucas/phpdotenv": "^2.4.0",
+    "wbrowar/adminbar": "^3.1.5"
   },
   "autoload": {
     "psr-4": {

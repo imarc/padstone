@@ -15,7 +15,11 @@
 
 return [
     'modules' => [
-        'my-module' => \modules\Module::class,
+        'volume-permissions' => Imarc\Craft\Modules\VolumePermissions::class,
+        //'my-module' => \modules\Module::class,
     ],
-    //'bootstrap' => ['my-module'],
+    'bootstrap' => [
+        'volume-permissions',
+        //'my-module'
+    ],
 ];
