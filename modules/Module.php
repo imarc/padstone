@@ -28,5 +28,11 @@ class Module extends \yii\base\Module
         parent::init();
 
         // Custom initialization code goes here...
+        if (Craft::$app->request->getIsSiteRequest()) {
+            $devMode = (boolean) Craft::$app->config->getConfigSettings('general')->devMode;
+            if ($devMode) {
+                Craft::$app->view->twig->setCache(false);
+            }
+        }
     }
 }
