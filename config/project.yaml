@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1576860588
+dateModified: 1576876291
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -1331,6 +1331,18 @@ plugins:
     licenseKey: null
     schemaVersion: 1.0.0
     settings: null
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.2
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
 sections:
   0041c886-3d54-4352-801b-0450a61a9011:
     enableVersioning: true
