@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1572031243
+dateModified: 1576858657
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -120,11 +120,13 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: '1'
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Simple.json
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -376,11 +378,13 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: '1'
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Standard.json
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -477,11 +481,13 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: '1'
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Simple.json
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -547,11 +553,13 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: '1'
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Simple.json
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -582,11 +590,13 @@ fields:
     settings:
       availableTransforms: '*'
       availableVolumes: '*'
-      cleanupHtml: '1'
       columnType: text
       purifierConfig: ''
       purifyHtml: '1'
       redactorConfig: Simple.json
+      removeInlineStyles: '1'
+      removeEmptyTags: '1'
+      removeNbsp: '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
@@ -699,11 +709,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -803,11 +815,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -942,11 +956,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -982,11 +998,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1000,11 +1018,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1054,11 +1074,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1192,11 +1214,13 @@ matrixBlockTypes:
         settings:
           availableTransforms: '*'
           availableVolumes: '*'
-          cleanupHtml: '1'
           columnType: text
           purifierConfig: ''
           purifyHtml: '1'
           redactorConfig: Standard.json
+          removeInlineStyles: '1'
+          removeEmptyTags: '1'
+          removeNbsp: '1'
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1290,12 +1314,12 @@ plugins:
   redactor:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 2.2.2
+    schemaVersion: 2.3.0
     settings: null
   redirect:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 1.0.4
+    schemaVersion: 1.0.5
     settings: null
   tag-manager:
     edition: standard
@@ -1357,7 +1381,6 @@ sections:
         titleLabel: Title
     handle: leadershipPage
     name: 'Leadership Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -1365,6 +1388,7 @@ sections:
         template: leadership/_index
         uriFormat: leadership
     type: single
+    propagationMethod: all
   16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98:
     enableVersioning: true
     entryTypes:
@@ -1387,7 +1411,6 @@ sections:
         titleLabel: Title
     handle: sharedBlocks
     name: 'Shared Blocks'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: false
@@ -1398,6 +1421,7 @@ sections:
       maxLevels: ''
       uid: 2f71ab53-78c9-442d-a830-50cc16e2c184
     type: structure
+    propagationMethod: all
   16f0db7d-a9b8-4569-8198-d836625cea77:
     enableVersioning: true
     entryTypes:
@@ -1451,7 +1475,6 @@ sections:
         titleLabel: Title
     handle: landingPages
     name: 'Landing Pages'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -1462,6 +1485,7 @@ sections:
       maxLevels: ''
       uid: 6934792a-730e-492e-9701-92209d98f59b
     type: structure
+    propagationMethod: all
   1e6d0ae4-0c2d-4c61-aa0e-f67a0d64d0be:
     enableVersioning: true
     entryTypes:
@@ -1512,7 +1536,6 @@ sections:
         titleLabel: Title
     handle: blogPage
     name: 'Blog Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -1520,6 +1543,7 @@ sections:
         template: blog/_index
         uriFormat: blog
     type: single
+    propagationMethod: all
   20423d03-2767-4e23-8ba6-41dc15391050:
     enableVersioning: true
     entryTypes:
@@ -1570,7 +1594,6 @@ sections:
         titleLabel: Title
     handle: resourcesPage
     name: 'Resources Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -1578,6 +1601,7 @@ sections:
         template: resources/_index
         uriFormat: resources
     type: single
+    propagationMethod: all
   31726602-42e3-461e-ad79-08d69e6e899a:
     enableVersioning: '1'
     entryTypes:
@@ -1757,7 +1781,6 @@ sections:
         titleLabel: Title
     handle: resources
     name: Resources
-    propagateEntries: '1'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: '1'
@@ -1768,6 +1791,7 @@ sections:
       maxLevels: null
       uid: 160e63e2-a512-4ade-9f18-2171d2cd84eb
     type: structure
+    propagationMethod: all
   3375cf3e-4d50-4b42-b4ab-d8ad7e40cdfb:
     enableVersioning: true
     entryTypes:
@@ -1815,7 +1839,6 @@ sections:
         titleLabel: Title
     handle: aboutPages
     name: 'About Pages'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -1826,6 +1849,7 @@ sections:
       maxLevels: ''
       uid: bdbf4600-d3a2-4085-9cec-643027e88562
     type: structure
+    propagationMethod: all
   548dacf3-a377-4ba7-9bc4-d9102a1fc455:
     enableVersioning: '1'
     entryTypes:
@@ -1879,7 +1903,6 @@ sections:
         titleLabel: Title
     handle: contactPage
     name: 'Contact Page'
-    propagateEntries: '1'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: '1'
@@ -1887,6 +1910,7 @@ sections:
         template: _contact
         uriFormat: contact
     type: single
+    propagationMethod: all
   550e9481-b606-4b2b-83e1-9a895a224d38:
     enableVersioning: '1'
     entryTypes:
@@ -1940,7 +1964,6 @@ sections:
         titleLabel: Title
     handle: news
     name: 'News Articles'
-    propagateEntries: '1'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: '1'
@@ -1948,6 +1971,7 @@ sections:
         template: news/_entry
         uriFormat: 'news/{slug}'
     type: channel
+    propagationMethod: all
   698462dc-1720-42e6-a09e-9e59bce0aa23:
     enableVersioning: true
     entryTypes:
@@ -2001,7 +2025,6 @@ sections:
         titleLabel: Title
     handle: privacyPage
     name: 'Privacy Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2009,6 +2032,7 @@ sections:
         template: _default
         uriFormat: privacy
     type: single
+    propagationMethod: all
   6e318b58-9c19-4a89-aece-8db4a7b52124:
     enableVersioning: true
     entryTypes:
@@ -2062,7 +2086,6 @@ sections:
         titleLabel: Title
     handle: errorPage
     name: 'Error Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2070,6 +2093,7 @@ sections:
         template: _500
         uriFormat: '500'
     type: single
+    propagationMethod: all
   7b352338-e4c1-4527-8c7b-dd3ae5e9d28f:
     enableVersioning: '1'
     entryTypes:
@@ -2126,7 +2150,6 @@ sections:
         titleLabel: Title
     handle: events
     name: Events
-    propagateEntries: '1'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: '1'
@@ -2134,6 +2157,7 @@ sections:
         template: events/_entry
         uriFormat: 'events/{slug}'
     type: channel
+    propagationMethod: all
   804ebac0-45d8-49c0-9e1f-418cc9c708e7:
     enableVersioning: true
     entryTypes:
@@ -2187,7 +2211,6 @@ sections:
         titleLabel: Title
     handle: homepage
     name: Homepage
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2195,6 +2218,7 @@ sections:
         template: _index
         uriFormat: __home__
     type: single
+    propagationMethod: all
   aa4b309e-df7a-47cf-9aa5-25285f46796f:
     enableVersioning: true
     entryTypes:
@@ -2248,7 +2272,6 @@ sections:
         titleLabel: Title
     handle: notFoundPage
     name: '404 Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2256,6 +2279,7 @@ sections:
         template: _404
         uriFormat: '404'
     type: single
+    propagationMethod: all
   c87b5acc-afe1-4ddf-b73c-b449c9f29c2d:
     enableVersioning: true
     entryTypes:
@@ -2312,7 +2336,6 @@ sections:
         titleLabel: Name
     handle: people
     name: People
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2323,6 +2346,7 @@ sections:
       maxLevels: ''
       uid: 4b707a60-93c9-4e86-a44c-587eb894590e
     type: structure
+    propagationMethod: all
   ca363472-ca75-4a5e-9e46-dc48bfec0b5d:
     enableVersioning: true
     entryTypes:
@@ -2373,7 +2397,6 @@ sections:
         titleLabel: Title
     handle: newsEventsPage
     name: 'News & Events Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2381,6 +2404,7 @@ sections:
         template: news/_index
         uriFormat: news
     type: single
+    propagationMethod: all
   d44a5a95-fa08-4efd-8496-2ac825c5acd1:
     enableVersioning: true
     entryTypes:
@@ -2434,7 +2458,6 @@ sections:
         titleLabel: Title
     handle: serviceUnavailablePage
     name: 'Service Unavailable Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2442,6 +2465,7 @@ sections:
         template: '503'
         uriFormat: '503'
     type: single
+    propagationMethod: all
   ebac57bc-baaf-4975-bf81-a0f4c66bad4d:
     enableVersioning: true
     entryTypes:
@@ -2495,7 +2519,6 @@ sections:
         titleLabel: Title
     handle: aboutPage
     name: 'About Page'
-    propagateEntries: true
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: true
@@ -2503,6 +2526,7 @@ sections:
         template: about/_index
         uriFormat: about
     type: single
+    propagationMethod: all
   fdc8d709-53c4-4104-ba7b-f424bad5b7fc:
     enableVersioning: '1'
     entryTypes:
@@ -2565,7 +2589,6 @@ sections:
         titleLabel: Title
     handle: blog
     name: 'Blog Articles'
-    propagateEntries: '1'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
         enabledByDefault: '1'
@@ -2573,6 +2596,7 @@ sections:
         template: blog/_entry
         uriFormat: 'blog/{slug}'
     type: channel
+    propagationMethod: all
 siteGroups:
   a20a79e6-31e4-4179-833c-e756db8c0d15:
     name: Padstone
@@ -2590,7 +2614,7 @@ system:
   edition: solo
   live: true
   name: Padstone
-  schemaVersion: 3.1.25
+  schemaVersion: 3.3.3
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

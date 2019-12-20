@@ -18,15 +18,9 @@
     "docs": "https://craftcms.com/docs",
     "rss": "https://craftcms.com/changelog.rss"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/imarc/craft3-codemirror.git"
-    }
-  ],
   "require": {
     "php": ">=7.0.0",
-    "craftcms/cms": "~3.1.17",
+    "craftcms/cms": "~3.3.18.3",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
     "craftcms/redactor": "^2.0",
@@ -35,7 +29,7 @@
     "imarc/craft-googlecustomsearch": "^2.0",
     "imarc/craft-kindling": "^2.0",
     "imarc/craft-volume-permissions": "^1.0",
-    "luwes/craft3-codemirror": "dev-master",
+    "luwes/craft3-codemirror": "^1.0.2",
     "misterbk/mix": "^1.4",
     "nerds-and-company/schematic": "^3.8",
     "rias/craft-position-fieldtype": "^1.0",
