@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1576858657
+dateModified: 1576860588
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -86,30 +86,31 @@ fields:
     translationMethod: site
     type: craft\fields\Assets
   0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e:
-    contentColumnType: string
-    fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
-    handle: resourecFeaturedImage
-    instructions: 'This image will be shown in lists and other places this resource is featured.'
     name: 'Featured Image'
-    searchable: '1'
+    handle: resourceFeaturedImage
+    instructions: 'This image will be shown in lists and other places this resource is featured.'
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Assets
     settings:
-      allowedKinds: null
+      useSingleFolder: ''
       defaultUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
       defaultUploadLocationSubpath: ''
-      limit: '1'
-      localizeRelations: false
-      restrictFiles: ''
-      selectionLabel: 'Add a featured image'
       singleUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
       singleUploadLocationSubpath: ''
-      source: null
+      restrictFiles: ''
+      allowedKinds: null
       sources: '*'
+      source: null
       targetSiteId: null
-      useSingleFolder: ''
       viewMode: large
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Assets
+      limit: '1'
+      selectionLabel: 'Add a featured image'
+      localizeRelations: false
+      validateRelatedElements: ''
+    contentColumnType: string
+    fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
   2575b2df-9c7d-43dc-b00c-7c8b4a389b22:
     contentColumnType: text
     fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
