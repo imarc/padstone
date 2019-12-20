@@ -156,6 +156,13 @@ ServerSignature Off
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 
+    # Increasing Upload Limit for Assets
+    php_value max_input_vars 10000
+    php_value post_max_size 300M
+    php_value upload_max_filesize 30M
+    php_value memory_limit 512M
+    php_value max_execution_time 120
+
 	# Send would-be 404 requests to Craft
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
