@@ -1,6 +1,8 @@
 <?php
 namespace modules;
 
+use Craft;
+
 /**
  * Custom module class.
  *
