@@ -68,53 +68,36 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item {{ section == 'news' ? 'active' : '' }}">
-                            {% set page = craft.entries.section('newsEventsPage').one %}
-                            <a class="nav-link" href="{{ page.url }}">
-                                {{ page.title }}
-                                {% if section == 'news' %}
-                                    <span class="sr-only">(current)</span>
-                                {% endif %}
-                            </a>
-                        </li>
-                        <li class="nav-item {{ section == 'resources' ? 'active' : '' }}">
-                            {% set page = craft.entries.section('resourcesPage').one %}
-                            <a class="nav-link" href="{{ page.url }}">
-                                {{ page.title }}
-                                {% if section == 'resources' %}
-                                    <span class="sr-only">(current)</span>
-                                {% endif %}
-                            </a>
-                        </li>
-                        <li class="nav-item {{ section == 'blog' ? 'active' : '' }}">
-                            {% set page = craft.entries.section('blogPage').one %}
-                            <a class="nav-link" href="{{ page.url }}">
-                                {{ page.title }}
-                                {% if section == 'blog' %}
-                                    <span class="sr-only">(current)</span>
-                                {% endif %}
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown {{ section == 'about' ? 'active' : '' }}">
-                            {% set page = craft.entries.section('aboutPage').one %}
-                            <a class="nav-link dropdown-toggle" href="{{ page.url }}" id="aboutdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {{ page.title }}
-                                {% if section == 'about' %}
-                                    <span class="sr-only">(current)</span>
-                                {% endif %}
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="aboutdropdown">
-                                {% set leadershipPage = craft.entries.section('leadershipPage').one %}
-                                <a class="dropdown-item" href="{{ leadershipPage.url }}">{{ leadershipPage.title }}</a>
+                        {% for item in primaryNavigation.primaryNavItems.all() %}
+                            {% if item.topLevelItem.type == 'entry' and item.topLevelItem.element|length %}
+                                {% set navItemSection = item.topLevelItem.element.section.handle %}
+                            {% else %}
+                                {% set navItemSection = null %}
+                            {% endif %}
 
-                                {% for aboutPage in craft.entries.section('aboutPages').all() %}
-                                    <a class="dropdown-item" href="{{ aboutPage.url }}">{{ aboutPage.title }}</a>
-                                {% endfor %}
+                            {% if item.dropdownLinks|length %}
+                                {% set hasDropdown = true %}
+                            {% else %}
+                                {% set hasDropdown = false %}
+                            {% endif %}
 
-                                {% set contactPage = craft.entries.section('contactPage').one %}
-                                <a class="dropdown-item" href="{{ contactPage.url }}">{{ contactPage.title }}</a>
-                            </div>
-                        </li>
+                            <li class="nav-item{{ hasDropdown ? ' dropdown ' : '' }}{{ navItemSection|length and section == navItemSection ? 'active' : '' }}">
+                                <a class="nav-link{{ hasDropdown ? ' dropdown-toggle' : '' }}" href="{{ item.topLevelItem.url }}" {% if hasDropdown %}id="aboutdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>
+                                    {{ item.topLevelItem.text }}
+                                    {% if navItemSection|length and section == navItemSection %}
+                                        <span class="sr-only">(current)</span>
+                                    {% endif %}
+                                </a>
+
+                                {% if hasDropdown %}
+                                    <div class="dropdown-menu" aria-labelledby="aboutdropdown">
+                                        {% for link in item.dropdownLinks.all() %}
+                                            {{ link.blockLink.link({class: 'dropdown-item'}) }}
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -135,33 +118,20 @@
                         {{ siteName }}
                         <small class="d-block mb-3 text-muted">© {{ "now"|date("Y") }}</small>
                     </div>
-                    <div class="col-6 col-md">
-                        {% set page = craft.entries.section('newsEventsPage').one %}
-                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
-                    </div>
-                    <div class="col-6 col-md">
-                        {% set page = craft.entries.section('resourcesPage').one %}
-                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
-                    </div>
-                    <div class="col-6 col-md">
-                        {% set page = craft.entries.section('blogPage').one %}
-                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
-                    </div>
-                    <div class="col-6 col-md">
-                        {% set page = craft.entries.section('aboutPage').one %}
-                        <h5><a class="text-white" href="{{ page.url }}">{{ page.title }}</a></h5>
-                        <ul class="list-unstyled text-small">
-                            {% for aboutPage in craft.entries.section('aboutPages').all() %}
-                                <li><a class="text-light" href="{{ aboutPage.url }}">{{ aboutPage.title }}</a></li>
-                            {% endfor %}
 
-                            {% set contactPage = craft.entries.section('contactPage').one %}
-                            <li><a class="text-light" href="{{ contactPage.url }}">{{ contactPage.title }}</a></li>
-
-                            {% set privacyPage = craft.entries.section('privacyPage').one %}
-                            <li><a class="text-light" href="{{ privacyPage.url }}">{{ privacyPage.title }}</a></li>
-                        </ul>
-                    </div>
+                    {% for item in footerNavigation.footerNavItems.all() %}
+                        <div class="col-6 col-md">
+                            <h5>{{ item.topLevelItem.link({class: 'text-white'}) }}</h5>
+                            
+                            {% if item.columnLinks|length %}
+                                <ul class="list-unstyled text-small">
+                                    {% for link in item.columnLinks.all() %}
+                                        <li>{{ link.blockLink.link({class: 'text-light'}) }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </footer>

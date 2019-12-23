@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1577116526
+dateModified: 1577132298
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -108,6 +108,21 @@ fields:
           disableValidation: ''
           allowAliases: ''
     contentColumnType: text
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
+  0ab4908b-bab6-4e71-ae0b-a5b6098cdaa2:
+    name: 'Primary Nav Items'
+    handle: primaryNavItems
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Matrix
+    settings:
+      minBlocks: ''
+      maxBlocks: '6'
+      contentTable: '{{%matrixcontent_primarynavitems}}'
+      propagationMethod: all
+    contentColumnType: string
     fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
     contentColumnType: string
@@ -365,6 +380,21 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Matrix
+  845c4d3c-77ca-498c-abfc-c923b56c257a:
+    name: 'Footer Nav Items'
+    handle: footerNavItems
+    instructions: ''
+    searchable: true
+    translationMethod: site
+    translationKeyFormat: null
+    type: craft\fields\Matrix
+    settings:
+      minBlocks: ''
+      maxBlocks: '6'
+      contentTable: '{{%matrixcontent_footernavitems}}'
+      propagationMethod: all
+    contentColumnType: string
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   849e9f92-3a0a-42d1-a8a5-8d4e53e8cbdf:
     name: 'Twitter Link'
     handle: twitterLink
@@ -856,6 +886,32 @@ globalSets:
               d0ef6070-9d0c-4998-b117-5233a7251716:
                 required: false
                 sortOrder: 1
+  49c29c1d-a40b-4fdc-b79e-237911ae899b:
+    name: 'Footer Navigation'
+    handle: footerNavigation
+    fieldLayouts:
+      f69485a5-76cd-4bc9-aa1c-64e4c3d68b22:
+        tabs:
+          -
+            name: 'Footer Navigation'
+            sortOrder: 1
+            fields:
+              845c4d3c-77ca-498c-abfc-c923b56c257a:
+                required: true
+                sortOrder: 1
+  bca12576-fed9-4ec6-8597-2011bc9e21da:
+    name: 'Primary Navigation'
+    handle: primaryNavigation
+    fieldLayouts:
+      5901683b-5120-4653-bbac-df8cf79a06cb:
+        tabs:
+          -
+            name: Navigation
+            sortOrder: 1
+            fields:
+              0ab4908b-bab6-4e71-ae0b-a5b6098cdaa2:
+                required: true
+                sortOrder: 1
 matrixBlockTypes:
   12dbddde-14fb-4b79-98fe-6c9bee0e3de8:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
@@ -1335,6 +1391,95 @@ matrixBlockTypes:
     handle: richText
     name: 'Rich Text'
     sortOrder: 1
+  e29e5466-db5e-4508-a4f9-ac405ec409cc:
+    field: 845c4d3c-77ca-498c-abfc-c923b56c257a
+    name: 'Nav Item'
+    handle: navItem
+    sortOrder: 1
+    fields:
+      808de827-54e1-4656-9faa-498dc49a6d78:
+        name: 'Top Level Item'
+        handle: topLevelItem
+        instructions: "You may select an entry, provide a URL or link to an asset for the top level item.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry. Asset links with no custom link text will use the name of the file."
+        searchable: true
+        translationMethod: none
+        translationKeyFormat: null
+        type: typedlinkfield\fields\LinkField
+        settings:
+          allowCustomText: '1'
+          allowedLinkNames:
+            1: asset
+            3: entry
+            9: url
+          allowTarget: ''
+          autoNoReferrer: ''
+          defaultLinkName: entry
+          defaultText: ''
+          enableAriaLabel: ''
+          enableTitle: ''
+          typeSettings:
+            asset:
+              sources: '*'
+              allowCustomQuery: ''
+            category:
+              sources: '*'
+              allowCustomQuery: ''
+            entry:
+              sources: '*'
+              allowCustomQuery: ''
+            site:
+              sites: '*'
+            user:
+              sources: '*'
+              allowCustomQuery: ''
+            custom:
+              disableValidation: ''
+              allowAliases: ''
+            email:
+              disableValidation: ''
+              allowAliases: ''
+            tel:
+              disableValidation: ''
+              allowAliases: ''
+            url:
+              disableValidation: ''
+              allowAliases: ''
+        contentColumnType: text
+        fieldGroup: null
+      973e24a8-d7d9-4072-83fc-5e86d98ba38c:
+        name: 'Column Links'
+        handle: columnLinks
+        instructions: ''
+        searchable: true
+        translationMethod: site
+        translationKeyFormat: null
+        type: verbb\supertable\fields\SuperTableField
+        settings:
+          minRows: ''
+          maxRows: ''
+          contentTable: '{{%stc_11_columnlinks}}'
+          propagationMethod: all
+          staticField: ''
+          columns:
+            a5122e92-6ea2-485f-90de-d19fa34b7964:
+              width: ''
+          fieldLayout: matrix
+          selectionLabel: 'Add a Column Link'
+        contentColumnType: string
+        fieldGroup: null
+    fieldLayouts:
+      350dfec5-22b2-4ca7-a168-228d51449c8c:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              808de827-54e1-4656-9faa-498dc49a6d78:
+                required: true
+                sortOrder: 1
+              973e24a8-d7d9-4072-83fc-5e86d98ba38c:
+                required: false
+                sortOrder: 2
   ebbc6a1f-74ae-456e-8091-ad2853f1f503:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
     fieldLayouts:
@@ -1475,6 +1620,94 @@ matrixBlockTypes:
     handle: callToAction
     name: 'Call to Action'
     sortOrder: 7
+  f899cfb1-0e32-46bc-a21a-de14de150f2f:
+    field: 0ab4908b-bab6-4e71-ae0b-a5b6098cdaa2
+    name: 'Nav Item'
+    handle: navItem
+    sortOrder: 1
+    fields:
+      572d5ceb-17dc-41f7-a83f-09f6629ead11:
+        name: 'Top Level Item'
+        handle: topLevelItem
+        instructions: "You may select an entry or provide a URL for the top level item.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry."
+        searchable: true
+        translationMethod: none
+        translationKeyFormat: null
+        type: typedlinkfield\fields\LinkField
+        settings:
+          allowCustomText: '1'
+          allowedLinkNames:
+            3: entry
+            9: url
+          allowTarget: ''
+          autoNoReferrer: ''
+          defaultLinkName: entry
+          defaultText: ''
+          enableAriaLabel: ''
+          enableTitle: ''
+          typeSettings:
+            asset:
+              sources: '*'
+              allowCustomQuery: ''
+            category:
+              sources: '*'
+              allowCustomQuery: ''
+            entry:
+              sources: '*'
+              allowCustomQuery: ''
+            site:
+              sites: '*'
+            user:
+              sources: '*'
+              allowCustomQuery: ''
+            custom:
+              disableValidation: ''
+              allowAliases: ''
+            email:
+              disableValidation: ''
+              allowAliases: ''
+            tel:
+              disableValidation: ''
+              allowAliases: ''
+            url:
+              disableValidation: ''
+              allowAliases: ''
+        contentColumnType: text
+        fieldGroup: null
+      e64822fb-fcca-4268-bbd0-904594ef1765:
+        name: 'Dropdown Links'
+        handle: dropdownLinks
+        instructions: ''
+        searchable: true
+        translationMethod: site
+        translationKeyFormat: null
+        type: verbb\supertable\fields\SuperTableField
+        settings:
+          minRows: ''
+          maxRows: ''
+          contentTable: '{{%stc_10_dropdownlinks}}'
+          propagationMethod: all
+          staticField: ''
+          columns:
+            3b513ac1-6451-43f1-a7f0-c2339d8cb885:
+              width: ''
+          fieldLayout: matrix
+          selectionLabel: 'Add a Dropdown Link'
+        contentColumnType: string
+        fieldGroup: null
+    fieldLayouts:
+      23c58abe-25af-4ebd-83e7-a7274537ec15:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              572d5ceb-17dc-41f7-a83f-09f6629ead11:
+                required: true
+                sortOrder: 1
+              e64822fb-fcca-4268-bbd0-904594ef1765:
+                required: false
+                sortOrder: 2
 plugins:
   admin-bar:
     enabled: '1'
@@ -1573,6 +1806,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
 sections:
   0041c886-3d54-4352-801b-0450a61a9011:
     enableVersioning: true
@@ -2853,6 +3090,131 @@ sites:
     primary: '1'
     siteGroup: a20a79e6-31e4-4179-833c-e756db8c0d15
     sortOrder: '1'
+superTableBlockTypes:
+  7ee361e5-4124-49db-b055-a552c4862618:
+    field: e64822fb-fcca-4268-bbd0-904594ef1765
+    fields:
+      3b513ac1-6451-43f1-a7f0-c2339d8cb885:
+        name: Link
+        handle: blockLink
+        instructions: "You may select an entry, provide a URL or link to an asset for dropdown links.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry. Asset links with no custom link text will use the name of the file."
+        searchable: true
+        translationMethod: none
+        translationKeyFormat: null
+        type: typedlinkfield\fields\LinkField
+        settings:
+          allowCustomText: '1'
+          allowedLinkNames:
+            1: asset
+            3: entry
+            9: url
+          allowTarget: ''
+          autoNoReferrer: ''
+          defaultLinkName: entry
+          defaultText: ''
+          enableAriaLabel: ''
+          enableTitle: ''
+          typeSettings:
+            asset:
+              sources: '*'
+              allowCustomQuery: ''
+            category:
+              sources: '*'
+              allowCustomQuery: ''
+            entry:
+              sources: '*'
+              allowCustomQuery: ''
+            site:
+              sites: '*'
+            user:
+              sources: '*'
+              allowCustomQuery: ''
+            custom:
+              disableValidation: ''
+              allowAliases: ''
+            email:
+              disableValidation: ''
+              allowAliases: ''
+            tel:
+              disableValidation: ''
+              allowAliases: ''
+            url:
+              disableValidation: ''
+              allowAliases: ''
+        contentColumnType: text
+        fieldGroup: null
+    fieldLayouts:
+      4cec4b33-b2c4-40c1-9484-c84c33900288:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              3b513ac1-6451-43f1-a7f0-c2339d8cb885:
+                required: true
+                sortOrder: 1
+  904e1c27-6846-49ac-92bc-3b833a6d875b:
+    field: 973e24a8-d7d9-4072-83fc-5e86d98ba38c
+    fields:
+      a5122e92-6ea2-485f-90de-d19fa34b7964:
+        name: Link
+        handle: blockLink
+        instructions: "You may select an entry, provide a URL or link to an asset for column links.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry. Asset links with no custom link text will use the name of the file."
+        searchable: true
+        translationMethod: none
+        translationKeyFormat: null
+        type: typedlinkfield\fields\LinkField
+        settings:
+          allowCustomText: '1'
+          allowedLinkNames:
+            1: asset
+            3: entry
+            9: url
+          allowTarget: ''
+          autoNoReferrer: ''
+          defaultLinkName: entry
+          defaultText: ''
+          enableAriaLabel: ''
+          enableTitle: ''
+          typeSettings:
+            asset:
+              sources: '*'
+              allowCustomQuery: ''
+            category:
+              sources: '*'
+              allowCustomQuery: ''
+            entry:
+              sources: '*'
+              allowCustomQuery: ''
+            site:
+              sites: '*'
+            user:
+              sources: '*'
+              allowCustomQuery: ''
+            custom:
+              disableValidation: ''
+              allowAliases: ''
+            email:
+              disableValidation: ''
+              allowAliases: ''
+            tel:
+              disableValidation: ''
+              allowAliases: ''
+            url:
+              disableValidation: ''
+              allowAliases: ''
+        contentColumnType: text
+        fieldGroup: null
+    fieldLayouts:
+      068a98b9-5280-4125-86a9-ccd726964bce:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              a5122e92-6ea2-485f-90de-d19fa34b7964:
+                required: true
+                sortOrder: 1
 system:
   edition: solo
   live: true

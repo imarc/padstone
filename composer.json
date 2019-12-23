@@ -41,7 +41,8 @@
     "wbrowar/adminbar": "^3.1.5",
     "craftcms/element-api": "^2.6",
     "craftcms/feed-me": "^4.1",
-    "aelvan/imager": "^2.3"
+    "aelvan/imager": "^2.3",
+    "verbb/super-table": "^2.3"
   },
   "autoload": {
     "psr-4": {
