@@ -81,7 +81,7 @@
                                 {% set hasDropdown = false %}
                             {% endif %}
 
-                            <li class="nav-item{{ hasDropdown ? ' dropdown ' : '' }}{{ navItemSection|length and section == navItemSection ? 'active' : '' }}">
+                            <li class="nav-item{{ hasDropdown ? ' dropdown ' : '' }}{{ navItemSection|length and section == navItemSection ? ' active' : '' }}">
                                 <a class="nav-link{{ hasDropdown ? ' dropdown-toggle' : '' }}" href="{{ item.topLevelItem.url }}" {% if hasDropdown %}id="aboutdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>
                                     {{ item.topLevelItem.text }}
                                     {% if navItemSection|length and section == navItemSection %}
