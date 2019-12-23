@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1577114681
+dateModified: 1577116526
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -43,6 +43,8 @@ fieldGroups:
     name: Events
   6533045f-a95c-45a5-a67a-c8da4cec0d5d:
     name: News
+  8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188:
+    name: Globals
   b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9:
     name: Blog
   bbb87adb-e632-4579-b223-79796ba4ff1a:
@@ -60,6 +62,53 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: luwes\codemirror\fields\CodeMirrorField
+  09eace92-99e5-4c80-b462-0bc90dc92379:
+    name: 'Instagram Link'
+    handle: instagramLink
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: typedlinkfield\fields\LinkField
+    settings:
+      allowCustomText: ''
+      allowedLinkNames:
+        9: url
+      allowTarget: ''
+      autoNoReferrer: ''
+      defaultLinkName: url
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        asset:
+          sources: '*'
+          allowCustomQuery: ''
+        category:
+          sources: '*'
+          allowCustomQuery: ''
+        entry:
+          sources: '*'
+          allowCustomQuery: ''
+        site:
+          sites: '*'
+        user:
+          sources: '*'
+          allowCustomQuery: ''
+        custom:
+          disableValidation: ''
+          allowAliases: ''
+        email:
+          disableValidation: ''
+          allowAliases: ''
+        tel:
+          disableValidation: ''
+          allowAliases: ''
+        url:
+          disableValidation: ''
+          allowAliases: ''
+    contentColumnType: text
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
     contentColumnType: string
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
@@ -237,6 +286,53 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  5a295f2c-c2ce-40c0-b50c-23f6c88f66a5:
+    name: 'LinkedIn Link'
+    handle: linkedinLink
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: typedlinkfield\fields\LinkField
+    settings:
+      allowCustomText: ''
+      allowedLinkNames:
+        9: url
+      allowTarget: ''
+      autoNoReferrer: ''
+      defaultLinkName: url
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        asset:
+          sources: '*'
+          allowCustomQuery: ''
+        category:
+          sources: '*'
+          allowCustomQuery: ''
+        entry:
+          sources: '*'
+          allowCustomQuery: ''
+        site:
+          sites: '*'
+        user:
+          sources: '*'
+          allowCustomQuery: ''
+        custom:
+          disableValidation: ''
+          allowAliases: ''
+        email:
+          disableValidation: ''
+          allowAliases: ''
+        tel:
+          disableValidation: ''
+          allowAliases: ''
+        url:
+          disableValidation: ''
+          allowAliases: ''
+    contentColumnType: text
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   71853a8b-b74d-4320-83d5-b8ef585bc335:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
@@ -269,6 +365,53 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Matrix
+  849e9f92-3a0a-42d1-a8a5-8d4e53e8cbdf:
+    name: 'Twitter Link'
+    handle: twitterLink
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: typedlinkfield\fields\LinkField
+    settings:
+      allowCustomText: ''
+      allowedLinkNames:
+        9: url
+      allowTarget: ''
+      autoNoReferrer: ''
+      defaultLinkName: url
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        asset:
+          sources: '*'
+          allowCustomQuery: ''
+        category:
+          sources: '*'
+          allowCustomQuery: ''
+        entry:
+          sources: '*'
+          allowCustomQuery: ''
+        site:
+          sites: '*'
+        user:
+          sources: '*'
+          allowCustomQuery: ''
+        custom:
+          disableValidation: ''
+          allowAliases: ''
+        email:
+          disableValidation: ''
+          allowAliases: ''
+        tel:
+          disableValidation: ''
+          allowAliases: ''
+        url:
+          disableValidation: ''
+          allowAliases: ''
+    contentColumnType: text
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   86444c22-bd97-4a40-9136-f5613c95ba48:
     contentColumnType: string
     fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
@@ -523,6 +666,53 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Date
+  d0ef6070-9d0c-4998-b117-5233a7251716:
+    name: 'Facebook Link'
+    handle: facebookLink
+    instructions: ''
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: typedlinkfield\fields\LinkField
+    settings:
+      allowCustomText: ''
+      allowedLinkNames:
+        9: url
+      allowTarget: ''
+      autoNoReferrer: ''
+      defaultLinkName: url
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        asset:
+          sources: '*'
+          allowCustomQuery: ''
+        category:
+          sources: '*'
+          allowCustomQuery: ''
+        entry:
+          sources: '*'
+          allowCustomQuery: ''
+        site:
+          sites: '*'
+        user:
+          sources: '*'
+          allowCustomQuery: ''
+        custom:
+          disableValidation: ''
+          allowAliases: ''
+        email:
+          disableValidation: ''
+          allowAliases: ''
+        tel:
+          disableValidation: ''
+          allowAliases: ''
+        url:
+          disableValidation: ''
+          allowAliases: ''
+    contentColumnType: text
+    fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
   d1edff97-994f-4f78-9318-6cdbbdfd446d:
     contentColumnType: text
     fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
@@ -643,6 +833,29 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+globalSets:
+  44031532-c550-4d38-88fe-a68e15b51f0e:
+    name: 'Social Links'
+    handle: socialLinks
+    fieldLayouts:
+      9ac4610a-b9fc-4b41-b3e9-223b0280e8d0:
+        tabs:
+          -
+            name: 'Social Links'
+            sortOrder: 1
+            fields:
+              09eace92-99e5-4c80-b462-0bc90dc92379:
+                required: false
+                sortOrder: 2
+              5a295f2c-c2ce-40c0-b50c-23f6c88f66a5:
+                required: false
+                sortOrder: 3
+              849e9f92-3a0a-42d1-a8a5-8d4e53e8cbdf:
+                required: false
+                sortOrder: 4
+              d0ef6070-9d0c-4998-b117-5233a7251716:
+                required: false
+                sortOrder: 1
 matrixBlockTypes:
   12dbddde-14fb-4b79-98fe-6c9bee0e3de8:
     field: 7ccca481-afc6-4d2d-a691-46d51885c73e
