@@ -27,7 +27,7 @@ categoryGroups:
     structure:
       maxLevels: null
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1576876291
+dateModified: 1577114681
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -305,6 +305,23 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  8fda9d17-0a07-4bc1-a1f4-1fe23066f315:
+    name: 'Alt Text'
+    handle: altText
+    instructions: 'Alt text is the content that appears in place of an image on a webpage if the image fails to load on a user''s screen. This text helps screen-reading tools describe images to visually impaired readers and allows search engines to better crawl and rank your website.'
+    searchable: true
+    translationMethod: none
+    translationKeyFormat: null
+    type: craft\fields\PlainText
+    settings:
+      placeholder: ''
+      code: ''
+      multiline: ''
+      initialRows: '4'
+      charLimit: ''
+      columnType: text
+    contentColumnType: text
+    fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
   93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1:
     contentColumnType: text
     fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
@@ -2637,14 +2654,24 @@ users:
   requireEmailVerification: true
 volumes:
   09773b73-a304-4513-84fd-c4d5d4dd953a:
-    handle: images
-    hasUrls: '1'
     name: Images
+    handle: images
+    type: craft\volumes\Local
+    hasUrls: true
+    url: /images
     settings:
       path: '@webroot/images'
-    sortOrder: '1'
-    type: craft\volumes\Local
-    url: /images
+    sortOrder: 1
+    fieldLayouts:
+      de763855-6652-40e7-a14a-311417ca2d41:
+        tabs:
+          -
+            name: Content
+            sortOrder: 1
+            fields:
+              8fda9d17-0a07-4bc1-a1f4-1fe23066f315:
+                required: false
+                sortOrder: 1
   57423459-e14e-4a06-af08-3f1c378379ba:
     handle: resources
     hasUrls: true
