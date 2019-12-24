@@ -74,16 +74,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.130.1",
+            "version": "3.130.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d426a86391c5d7f1a979dad0fd3bd0fd48ba7575"
+                "reference": "35289d9dd5184dd1106e49f99ef5074a84635b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d426a86391c5d7f1a979dad0fd3bd0fd48ba7575",
-                "reference": "d426a86391c5d7f1a979dad0fd3bd0fd48ba7575",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/35289d9dd5184dd1106e49f99ef5074a84635b5c",
+                "reference": "35289d9dd5184dd1106e49f99ef5074a84635b5c",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +154,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-12-20T19:17:37+00:00"
+            "time": "2019-12-23T19:12:28+00:00"
         },
         {
             "name": "cakephp/core",
@@ -576,16 +576,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.3.18.3",
+            "version": "3.3.18.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "47beab74bcc1e3341a19f69f0e20b5f4092bc877"
+                "reference": "69faaee88ab6b797fe8fb95e2c525271f4f094ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/47beab74bcc1e3341a19f69f0e20b5f4092bc877",
-                "reference": "47beab74bcc1e3341a19f69f0e20b5f4092bc877",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/69faaee88ab6b797fe8fb95e2c525271f4f094ef",
+                "reference": "69faaee88ab6b797fe8fb95e2c525271f4f094ef",
                 "shasum": ""
             },
             "require": {
@@ -634,7 +634,7 @@
                 "bower-asset/yii2-pjax": "~2.0.1"
             },
             "require-dev": {
-                "codeception/codeception": "3.1.0",
+                "codeception/codeception": "^3.1.0",
                 "codeception/mockery-module": "^0.3",
                 "codeception/phpunit-wrapper": "^7.7",
                 "codeception/specify": "^0.4",
@@ -666,7 +666,7 @@
                 "craftcms",
                 "yii2"
             ],
-            "time": "2019-12-17T23:46:45+00:00"
+            "time": "2019-12-21T20:44:53+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -1978,16 +1978,16 @@
         },
         {
             "name": "grpc/grpc",
-            "version": "1.26.0",
+            "version": "1.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grpc/grpc-php.git",
-                "reference": "22ce4b5919dda95b9978d1ba289f4c9e10d1099a"
+                "reference": "6b22409ff46a1c245a28efd16867870b13c3cbcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/22ce4b5919dda95b9978d1ba289f4c9e10d1099a",
-                "reference": "22ce4b5919dda95b9978d1ba289f4c9e10d1099a",
+                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/6b22409ff46a1c245a28efd16867870b13c3cbcc",
+                "reference": "6b22409ff46a1c245a28efd16867870b13c3cbcc",
                 "shasum": ""
             },
             "require": {
@@ -2015,20 +2015,20 @@
             "keywords": [
                 "rpc"
             ],
-            "time": "2019-12-19T19:34:44+00:00"
+            "time": "2019-12-21T02:28:51+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.4.1",
+            "version": "6.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11"
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
-                "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
                 "shasum": ""
             },
             "require": {
@@ -2043,12 +2043,13 @@
                 "psr/log": "^1.1"
             },
             "suggest": {
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.3-dev"
+                    "dev-master": "6.5-dev"
                 }
             },
             "autoload": {
@@ -2081,7 +2082,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2019-10-23T15:58:00+00:00"
+            "time": "2019-12-23T11:57:10+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -4118,12 +4119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "1b2183eef1fdf7438d26b37dd87beb07dd4808bc"
+                "reference": "181dd66fd666ed397991ded7b725fe90a8a00413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1b2183eef1fdf7438d26b37dd87beb07dd4808bc",
-                "reference": "1b2183eef1fdf7438d26b37dd87beb07dd4808bc",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/181dd66fd666ed397991ded7b725fe90a8a00413",
+                "reference": "181dd66fd666ed397991ded7b725fe90a8a00413",
                 "shasum": ""
             },
             "conflict": {
@@ -4158,8 +4159,8 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
-                "drupal/drupal": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
+                "drupal/core": ">=7,<8.7.11|>=8.8,<8.8.1",
+                "drupal/drupal": ">=7,<8.7.11|>=8.8,<8.8.1",
                 "erusev/parsedown": "<1.7.2",
                 "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.4",
                 "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
@@ -4214,6 +4215,7 @@
                 "pusher/pusher-php-server": "<2.2.1",
                 "robrichards/xmlseclibs": ">=1,<3.0.4",
                 "sabre/dav": ">=1.6,<1.6.99|>=1.7,<1.7.11|>=1.8,<1.8.9",
+                "scheb/two-factor-bundle": "<3.26|>=4,<4.11",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/shopware": "<5.3.7",
@@ -4328,7 +4330,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-12-17T15:12:43+00:00"
+            "time": "2019-12-21T14:43:42+00:00"
         },
         {
             "name": "sebastianlenz/linkfield",
@@ -6132,16 +6134,16 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.4.5",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "8cba623f3a5af2b31ad1c70565bde4698c2834b3"
+                "reference": "8b23920025c9b040301e3d1443b302547560f48d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/8cba623f3a5af2b31ad1c70565bde4698c2834b3",
-                "reference": "8cba623f3a5af2b31ad1c70565bde4698c2834b3",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/8b23920025c9b040301e3d1443b302547560f48d",
+                "reference": "8b23920025c9b040301e3d1443b302547560f48d",
                 "shasum": ""
             },
             "require": {
@@ -6177,7 +6179,7 @@
                 "clean",
                 "php"
             ],
-            "time": "2019-12-19T00:46:43+00:00"
+            "time": "2019-12-23T12:30:26+00:00"
         },
         {
             "name": "voku/portable-utf8",
