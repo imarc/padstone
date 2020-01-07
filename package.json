@@ -18,30 +18,30 @@
     "email": "kevin@imarc.com"
   },
   "contributors": [
-      {
-          "name": "Jeff Turcotte",
-          "email": "jeff@imarc.com"
-      },
-      {
-          "name": "Chandler Blum",
-          "email": "chandler@imarc.com"
-      },
-      {
-          "name": "Shawna O'Neal",
-          "email": "shawna@imarc.com"
-      },
-      {
-          "name": "Kerri Cranwell",
-          "email": "kerri@imarc.com"
-      },
-      {
-          "name": "Dan Collins",
-          "email": "dan@imarc.com"
-      },
-      {
-          "name": "Bill Bushee",
-          "email": "bill@imarc.com"
-      }
+    {
+      "name": "Jeff Turcotte",
+      "email": "jeff@imarc.com"
+    },
+    {
+      "name": "Chandler Blum",
+      "email": "chandler@imarc.com"
+    },
+    {
+      "name": "Shawna O'Neal",
+      "email": "shawna@imarc.com"
+    },
+    {
+      "name": "Kerri Cranwell",
+      "email": "kerri@imarc.com"
+    },
+    {
+      "name": "Dan Collins",
+      "email": "dan@imarc.com"
+    },
+    {
+      "name": "Bill Bushee",
+      "email": "bill@imarc.com"
+    }
   ],
   "engines": {
     "node": ">=10.0.0 <12.0"
@@ -61,8 +61,6 @@
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "resolve-url-loader": "^2.3.1",
-    "sass": "^1.17.2",
-    "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.8"
   },
   "scripts": {
