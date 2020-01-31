@@ -1,39 +1,46 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["/js/main"],{
 
-/***/ "./resources/assets/js/main.js":
-/*!*************************************!*\
-  !*** ./resources/assets/js/main.js ***!
-  \*************************************/
+/***/ "./resources/js/main.js":
+/*!******************************!*\
+  !*** ./resources/js/main.js ***!
+  \******************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL2pzL21haW4uanM/MzhjMiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUEiLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2pzL21haW4uanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCJib290c3RyYXBcIjtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/assets/js/main.js\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
+/* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _plugins_accordion_plugin__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./plugins/accordion.plugin */ "./resources/js/plugins/accordion.plugin.js");
+/* harmony import */ var _plugins_dropdown_plugin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./plugins/dropdown.plugin */ "./resources/js/plugins/dropdown.plugin.js");
+/* harmony import */ var _plugins_mobileNavigation_plugin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./plugins/mobileNavigation.plugin */ "./resources/js/plugins/mobileNavigation.plugin.js");
+/* harmony import */ var _plugins_stickyElement_plugin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./plugins/stickyElement.plugin */ "./resources/js/plugins/stickyElement.plugin.js");
+/* harmony import */ var _plugins_stickyHeader_plugin__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./plugins/stickyHeader.plugin */ "./resources/js/plugins/stickyHeader.plugin.js");
+/* harmony import */ var _plugins_tabs_plugin__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./plugins/tabs.plugin */ "./resources/js/plugins/tabs.plugin.js");
+/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
+/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+
+
+
+
+
 
 /***/ }),
 
-/***/ "./resources/assets/sass/main.scss":
-/*!*****************************************!*\
-  !*** ./resources/assets/sass/main.scss ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL3Nhc3MvbWFpbi5zY3NzPzIxN2IiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL3Nhc3MvbWFpbi5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gcmVtb3ZlZCBieSBleHRyYWN0LXRleHQtd2VicGFjay1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/assets/sass/main.scss\n");
-
-/***/ }),
-
-/***/ 0:
-/*!*****************************************************************************!*\
-  !*** multi ./resources/assets/js/main.js ./resources/assets/sass/main.scss ***!
-  \*****************************************************************************/
+/***/ 6:
+/*!************************************!*\
+  !*** multi ./resources/js/main.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/kevin/Code/padstone3/resources/assets/js/main.js */"./resources/assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/kevin/Code/padstone3/resources/assets/sass/main.scss */"./resources/assets/sass/main.scss");
+module.exports = __webpack_require__(/*! /home/kevin/Code/amesbury-company/resources/js/main.js */"./resources/js/main.js");
 
 
 /***/ })
 
-},[[0,"/js/manifest","/js/vendor"]]]);
+},[[6,"/js/manifest","/js/vendor"]]]);
+//# sourceMappingURL=main.js.map

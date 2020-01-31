@@ -50,6 +50,7 @@
     "bootstrap": "^4.3.1",
     "cross-env": "^5.2.0",
     "glob-all": "^3.1.0",
+    "imarc-boilerplate": "github:imarc/boilerplate",
     "jquery": "^3.3.1",
     "laravel-mix": "^4.0.14",
     "normalize-scss": "^7.0.1",
@@ -61,13 +62,16 @@
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "resolve-url-loader": "^2.3.1",
+    "sass": "^1.25.0",
+    "sass-loader": "^7.3.1",
     "vue-template-compiler": "^2.6.8"
   },
   "scripts": {
+    "fractal": "fractal",
     "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "serve": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch:event": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "watch:event": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "serve": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js"
   }
 }
