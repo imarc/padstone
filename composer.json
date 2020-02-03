@@ -33,7 +33,6 @@
     "imarc/craft-volume-permissions": "^1.0",
     "luwes/craft3-codemirror": "^1.0.2",
     "misterbk/mix": "^1.4",
-    "php": ">=7.0.0",
     "roave/security-advisories": "dev-master",
     "sebastianlenz/linkfield": "^1.0.4",
     "verbb/expanded-singles": "^1.0",

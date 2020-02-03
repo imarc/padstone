@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76b511c76847fd1ce6580eb2759b6e91",
+    "content-hash": "f9aba1b536fb14892e2f3c8d324e5773",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -7942,8 +7942,6 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=7.0.0"
-    },
+    "platform": [],
     "platform-dev": []
 }
