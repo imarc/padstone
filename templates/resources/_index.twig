@@ -1,3 +1,4 @@
+{% includeJsFile mix('/js/resources.js') %}
 {% import "/_macros" as macros %}
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
@@ -7,36 +8,30 @@
         subheadline: entry.subheadline
     } %}
 
-    <div class="resources container">
-        <div class="card-deck">
-            {% for resource in craft.entries.section('resources').all() %}
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            {% if resource.type == 'resourceLink' %}
-                                <a href="{{ resource.resourceUrl }}">{{ resource.title }}</a>
-                            {% else %}
-                                {{ resource.link }}
-                            {% endif %}
-                        </h4>
-                        <div class="card-text">
-                            {{ resource.resourceDescription }}
+    <div class="container">
+
+        <search class="search mb-4" placeholder="Search resources" v-model="params.search"></search>
+
+        <resources :params="params" v-slot="{ resources, meta: { pagination } = {} }">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div v-for="resource in resources" :key="resource.id" class="col mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a :href="resource.url" v-text="resource.title"></a>
+                            </h4>
+                            <div class="card-text" v-html="resource.description"></div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <a :href="resource.url" v-text="resource.cta" class="btn btn-sm btn-outline-primary"></a>
+                            <small class="text-muted" v-text="resource.date"></small>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between align-items-center">
-                        {% if resource.type == 'resourceLink' %}
-                            {{ resource.resourceUrl.link({class: 'btn btn-sm btn-outline-primary'}) }}
-                        {% else %}
-                            <a href="{{ resource.url }}" class="btn btn-sm btn-outline-primary">
-                                {{ resource.resourceCTA }}
-                            </a>
-                        {% endif %}
-
-                        <small class="text-muted">{{ resource.resourceDate|date("F jS, Y") }}</small>
-                    </div>
                 </div>
-            {% endfor %}
-        </div>
+
+                <pagination v-if="pagination" :total-pages="pagination.total_pages" v-model="params.page"></pagination>
+            </div>
+        </resources>
     </div>
 
 {% endblock %}
