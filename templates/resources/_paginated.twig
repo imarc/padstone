@@ -8,16 +8,11 @@
         subheadline: entry.subheadline
     } %}
 
-    <resources :params="params" v-slot="{ query, resources, meta: { pagination  = {} } = {} }">
-        <div class="container">
+    <div class="container">
 
-            <div class="input-group mb-4">
-                <search class="form-control" placeholder="Search resources" v-model="params.search"></search>
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" @click="query({mustGet: true})">Search</button>
-                </div>
-            </div>
+        <search class="search mb-4" placeholder="Search resources" v-model="params.search"></search>
 
+        <resources :params="params" v-slot="{ resources, meta: { pagination } = {} }">
             <div class="row row-cols-1 row-cols-md-3">
                 <div v-for="resource in resources" :key="resource.id" class="col mb-4">
                     <div class="card h-100 shadow-sm">
@@ -33,20 +28,10 @@
                         </div>
                     </div>
                 </div>
+
+                <pagination v-if="pagination" :total-pages="pagination.total_pages" v-model="params.page"></pagination>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a
-                        v-if="pagination.current_page < pagination.total_pages"
-                        :href="nextPage"
-                        @click.prevent="params.page += 1"
-                        class="btn btn-outline-primary"
-                    >
-                        More
-                    </a>
-                </div>
-            </div>
-        </div>
-    </resources>
+        </resources>
+    </div>
 
 {% endblock %}
