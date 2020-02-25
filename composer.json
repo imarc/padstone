@@ -19,7 +19,6 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "aelvan/imager": "^2.3",
     "craftcms/cms": "~3.4.1",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
