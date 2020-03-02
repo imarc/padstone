@@ -29,6 +29,17 @@ class Module extends \yii\base\Module
     {
         parent::init();
 
+        // Set a @modules alias pointed to the modules/ directory
+        Craft::setAlias('@modules', __DIR__);
+
+        // Set the controllerNamespace based on whether this is a console or web request
+        if (Craft::$app->getRequest()->getIsConsoleRequest()) {
+            $this->controllerNamespace = 'modules\\console\\controllers';
+        } else {
+            $this->controllerNamespace = 'modules\\controllers';
+        }
+
+
         // Custom initialization code goes here...
         if (Craft::$app->request->getIsSiteRequest()) {
             $devMode = (boolean) Craft::$app->config->getConfigSettings('general')->devMode;
