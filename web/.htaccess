@@ -76,7 +76,7 @@ ServerSignature Off
 # Content Security Policy
 
 <IfModule mod_headers.c>
-   Header set Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *;"
+   Header set Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *;"
 </IfModule>
 
 # Referrer Policy
