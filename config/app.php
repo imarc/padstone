@@ -15,11 +15,18 @@
 
 return [
     'modules' => [
+        'site-module' => \modules\Module::class,
         'volume-permissions' => Imarc\Craft\Modules\VolumePermissions::class,
-        'my-module' => \modules\Module::class,
     ],
     'bootstrap' => [
+        'site-module',
         'volume-permissions',
-        'my-module'
+    ],
+    'components' => [
+        'session' => [
+            'class' => yii\web\DbSession::class,
+            'as session' => craft\behaviors\SessionBehavior::class,
+            'sessionTable' => '{{%phpsessions}}'
+        ],
     ],
 ];

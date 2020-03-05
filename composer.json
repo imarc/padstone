@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=7.0.0",
-    "craftcms/cms": "~3.3.18.3",
+    "craftcms/cms": "~3.4.9",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
     "craftcms/redactor": "^2.0",
