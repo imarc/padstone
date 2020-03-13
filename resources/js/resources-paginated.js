@@ -2,6 +2,7 @@ import Vue from 'vue';
 import store from './store.js';
 import {
     LiveSearch,
+    CollectionComponent,
     PaginatedCollectionComponent,
     PaginationNav,
     SyncsWithUrl,
@@ -17,6 +18,8 @@ const app = new Vue({
             orderBy: 'title asc',
             page: 1,
             search: '',
+            type: null,
+            topic: null,
         },
     },
 
@@ -37,6 +40,8 @@ const app = new Vue({
 
     components: {
         resources: PaginatedCollectionComponent.for('resources'),
+        resourceTypes: CollectionComponent.for('resourceTypes'),
+        resourceTopics: CollectionComponent.for('resourceTopics'),
         search: LiveSearch,
         pagination: PaginationNav,
     },

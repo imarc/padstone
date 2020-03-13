@@ -32,7 +32,7 @@ categoryGroups:
     structure:
       maxLevels: 1
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1584112556
+dateModified: 1584115212
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -2659,10 +2659,6 @@ sections:
         titleLabel: Title
     handle: resourcesPage
     name: 'Resources Page'
-    previewTargets:
-      -
-        label: 'Primary entry page'
-        urlFormat: '{url}'
     propagationMethod: all
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:

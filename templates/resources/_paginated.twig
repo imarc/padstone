@@ -15,12 +15,41 @@
 
     <div class="container">
 
-        <search class="search mb-4" placeholder="Search resources" v-model="params.search"></search>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <h4 class="mb-0">
+                    Filter by Type:
+                </h4>
+                <resource-types v-slot="{ resourceTypes }">
+                    <div>
+                        <select class="form-control" v-model="params.type">
+                            <option :value="null" selected>All</option>
+                            <option v-for="resourceType in resourceTypes" :value="resourceType.slug" :key="resourceType.id" v-text="resourceType.title"></option>
+                        </select>
+                    </div>
+                </resource-types>
+            </div>
+            <div class="form-group col-md-6">
+                <h4 class="mb-0">
+                    Filter by Topic:
+                </h4>
+                <resource-topics v-slot="{ resourceTopics }">
+                    <div>
+                        <select class="form-control" v-model="params.topic">
+                            <option :value="null" selected>All</option>
+                            <option v-for="resourceTopic in resourceTopics" :value="resourceTopic.slug" :key="resourceTopic.id" v-text="resourceTopic.title"></option>
+                        </select>
+                    </div>
+                </resource-topics>
+            </div>
+        </div>
 
-        <resources :params="params" v-slot="{ resources, meta: { pagination } = {} }">
+        <resources :params="params" v-slot="{ resources, isLoading, meta: { pagination } = {} }">
             <div class="row row-cols-1 row-cols-md-3">
-                <div v-for="resource in resources" :key="resource.id" class="col mb-4">
+                <div v-if="resources && !resources.length && !isLoading" class="col mb-4" v-cloak>No resources found.</div>
+                <div v-else v-for="resource in resources" :key="resource.id" class="col mb-4">
                     <div class="card h-100 shadow-sm">
+                        <img class="card-img-top" :src="resource.image" :alt="resource.imageAltText">
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a :href="resource.url" v-text="resource.title"></a>

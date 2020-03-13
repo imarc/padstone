@@ -44,6 +44,7 @@
                 <div v-if="resources && !resources.length && !isLoading" class="col mb-4" v-cloak>No resources found.</div>
                 <div v-else v-for="resource in resources" :key="resource.id" class="col mb-4">
                     <div class="card h-100 shadow-sm">
+                        <img class="card-img-top" :src="resource.image" :alt="resource.imageAltText">
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a :href="resource.url" v-text="resource.title"></a>

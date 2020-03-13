@@ -71,6 +71,8 @@ return [
                         'title' => $entry->title,
                         'type' => $entry->type->handle,
                         'description' => $entry->resourceDescription,
+                        'image' => $entry->resourceFeaturedImage->one() ? $entry->resourceFeaturedImage->one()->url : 'https://via.placeholder.com/350x230',
+                        'imageAltText' => $entry->resourceFeaturedImage->one() ? $entry->resourceFeaturedImage->one()->altText : null,
                         'id' => $entry->id,
                         'url' => $url,
                         'cta' => $cta,
