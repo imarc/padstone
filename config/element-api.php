@@ -2,6 +2,7 @@
 
 use Craft;
 use craft\elements\Entry;
+use craft\elements\Category;
 
 return [
     'defaults' => [
@@ -18,19 +19,48 @@ return [
     'endpoints' => [
 
         'resources.json' => function() {
-            $criteria = ['section' => 'resources'];
+            $criteria  = ['section' => 'resources'];
+            $relatedTo = array();
 
-            $criteria['orderBy'] = Craft::$app->request->getQueryParam('orderBy', 'title asc');
+            $criteria['orderBy'] = Craft::$app->request->getQueryParam('orderBy', ['resourceDate' => SORT_DESC, 'title' => SORT_ASC]);
 
             if ($search = Craft::$app->request->getQueryParam('search')) {
                 $criteria['search'] = $search;
             }
 
+            $resourceType  = Craft::$app->request->getQueryParam('type');
+            $resourceTopic = Craft::$app->request->getQueryParam('topic');
+
+
+            if ($resourceType && $resourceTopic) {
+                $relatedTo[] = 'and';
+            }
+
+            if ($resourceType) {
+                $category = Category::findOne([
+                    'group' => 'resourceTypes',
+                    'slug' => $resourceType
+                ]);
+
+                $relatedTo[] = ["targetElement" => $category];
+            }    
+
+            if ($resourceTopic) {
+                $category = Category::findOne([
+                    'group' => 'resourceTopics',
+                    'slug' => $resourceTopic
+                ]);
+
+                $relatedTo[] = ["targetElement" => $category];
+            }
+
+            $criteria['relatedTo'] = $relatedTo;
+
             return [
                 'criteria' => $criteria,
                 'transformer' => function(Entry $entry) {
-                    if ($entry->type === 'resourceLink') {
-                        $url = $entry->resourceUrl;
+                    if ($entry->type == 'resourceLink') {
+                        $url = $entry->resourceUrl->url;
                         $cta = $entry->resourceUrl->text ?: 'More';
                     } else {
                         $url = $entry->url;
@@ -44,7 +74,7 @@ return [
                         'id' => $entry->id,
                         'url' => $url,
                         'cta' => $cta,
-                        'date' => $entry->resourceDate ? $entry->resourceDate->format('F jS, Y') : null,
+                        'date' => $entry->resourceDate->format('F jS, Y'),
                     ];
                 },
             ];
@@ -61,6 +91,23 @@ return [
                         'description' => $entry->resourceDescription,
                     ];
                 },
+            ];
+        },
+
+        'resourceTypes.json' => function() {
+            return [
+                'elementType' => Category::class,
+                'elementsPerPage' => 100,
+                'criteria' => ['group' => 'resourceTypes'],
+            ];
+        },
+        
+
+        'resourceTopics.json' => function() {
+            return [
+                'elementType' => Category::class,
+                'elementsPerPage' => 100,
+                'criteria' => ['group' => 'resourceTopics'],
             ];
         },
     ],

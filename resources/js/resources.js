@@ -2,6 +2,7 @@ import Vue from 'vue';
 import store from './store.js';
 import {
     LiveSearch,
+    CollectionComponent,
     ContinuousCollectionComponent,
     SyncsWithUrl,
     ResetsPage,
@@ -16,6 +17,8 @@ const app = new Vue({
             orderBy: 'title asc',
             page: 1,
             search: '',
+            type: null,
+            topic: null,
         },
     },
 
@@ -37,6 +40,8 @@ const app = new Vue({
 
     components: {
         resources: ContinuousCollectionComponent.for('resources'),
+        resourceTypes: CollectionComponent.for('resourceTypes'),
+        resourceTopics: CollectionComponent.for('resourceTopics'),
         search: LiveSearch,
     },
 })
