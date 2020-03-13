@@ -32,7 +32,7 @@ categoryGroups:
     structure:
       maxLevels: 1
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1584115212
+dateModified: 1584121935
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -1283,7 +1283,8 @@ matrixBlockTypes:
         name: Person
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1300,7 +1301,8 @@ matrixBlockTypes:
         name: 'Job Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1317,7 +1319,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1344,6 +1347,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1380,7 +1385,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1397,30 +1403,33 @@ matrixBlockTypes:
         name: 'Image Position'
         searchable: true
         settings:
-          default: ''
+          optgroups: true
           options:
-            __assoc__:
-              -
-                - left
-                - '1'
-              -
-                - center
-                - ''
-              -
-                - right
-                - '1'
-              -
-                - full
-                - ''
-              -
-                - drop-left
-                - ''
-              -
-                - drop-right
-                - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - 'Left Side'
+                -
+                  - value
+                  - left
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - 'Right Side'
+                -
+                  - value
+                  - right
+                -
+                  - default
+                  - ''
         translationKeyFormat: null
         translationMethod: none
-        type: rias\positionfieldtype\fields\Position
+        type: craft\fields\Dropdown
       7a63a845-8a3f-4576-948f-5e1699226882:
         contentColumnType: string
         fieldGroup: null
@@ -1436,12 +1445,14 @@ matrixBlockTypes:
           localizeRelations: false
           restrictFiles: ''
           selectionLabel: 'Choose an image'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
           singleUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
           singleUploadLocationSubpath: ''
           source: null
           sources: '*'
           targetSiteId: null
-          useSingleFolder: ''
+          useSingleFolder: false
           validateRelatedElements: ''
           viewMode: large
         translationKeyFormat: null
@@ -1465,6 +1476,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1495,7 +1508,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1561,30 +1575,33 @@ matrixBlockTypes:
         name: 'Video Position'
         searchable: true
         settings:
-          default: ''
+          optgroups: true
           options:
-            __assoc__:
-              -
-                - left
-                - '1'
-              -
-                - center
-                - ''
-              -
-                - right
-                - '1'
-              -
-                - full
-                - ''
-              -
-                - drop-left
-                - ''
-              -
-                - drop-right
-                - ''
+            -
+              __assoc__:
+                -
+                  - label
+                  - 'Left Side'
+                -
+                  - value
+                  - left
+                -
+                  - default
+                  - '1'
+            -
+              __assoc__:
+                -
+                  - label
+                  - 'Right Side'
+                -
+                  - value
+                  - right
+                -
+                  - default
+                  - ''
         translationKeyFormat: null
         translationMethod: none
-        type: rias\positionfieldtype\fields\Position
+        type: craft\fields\Dropdown
       c1bad40b-bf3e-410f-9d20-499eeff520bf:
         contentColumnType: text
         fieldGroup: null
@@ -1593,7 +1610,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1620,6 +1638,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1663,6 +1683,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1684,6 +1706,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1695,7 +1719,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -1741,6 +1766,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -1752,7 +1779,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
@@ -2102,6 +2130,8 @@ matrixBlockTypes:
           removeEmptyTags: '1'
           removeInlineStyles: '1'
           removeNbsp: '1'
+          showUnpermittedFiles: false
+          showUnpermittedVolumes: true
         translationKeyFormat: null
         translationMethod: none
         type: craft\redactor\Field
@@ -2113,7 +2143,8 @@ matrixBlockTypes:
         name: 'Section Title'
         searchable: true
         settings:
-          charLimit: ''
+          byteLimit: null
+          charLimit: null
           code: ''
           columnType: text
           initialRows: '4'
