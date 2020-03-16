@@ -18,6 +18,60 @@ return [
 
     'endpoints' => [
 
+        'blogs.json' => function() {
+            $criteria  = ['section' => 'blog'];
+            $relatedTo = array();
+
+            $criteria['orderBy'] = Craft::$app->request->getQueryParam('orderBy', ['blogDate' => SORT_DESC, 'title' => SORT_ASC]);
+
+            if ($search = Craft::$app->request->getQueryParam('search')) {
+                $criteria['search'] = $search;
+            }
+
+            $blogCategory  = Craft::$app->request->getQueryParam('category');
+
+            if ($blogCategory) {
+                $category = Category::findOne([
+                    'group' => 'blogCategories',
+                    'slug' => $blogCategory
+                ]);
+
+                $criteria['relatedTo'] = ["targetElement" => $category];
+            }
+
+            return [
+                'criteria' => $criteria,
+                'transformer' => function(Entry $entry) {
+
+                    return [
+                        'title' => $entry->title,
+                        'type' => $entry->type->handle,
+                        'description' => $entry->blogAbstract,
+                        'image' => $entry->blogFeaturedImage->one() ? $entry->blogFeaturedImage->one()->url : 'https://via.placeholder.com/350x230',
+                        'imageAltText' => $entry->blogFeaturedImage->one() ? $entry->blogFeaturedImage->one()->altText : null,
+                        'id' => $entry->id,
+                        'url' => $entry->url,
+                        'cta' => $entry->blogCTA ?: 'More',
+                        'date' => $entry->blogDate->format('F jS, Y'),
+                    ];
+                },
+            ];
+        },
+        'blogs/<entryId:\d+>.json' => function($entryId) {
+            return [
+                'criteria' => ['id' => $entryId, 'section' => 'blog'],
+                'one' => true,
+                'transformer' => function(Entry $entry) {
+                    return [
+                        'id' => $entry->id,
+                        'title' => $entry->title,
+                        'url' => $entry->url,
+                        'description' => $entry->blogAbstract,
+                    ];
+                },
+            ];
+        },
+
         'resources.json' => function() {
             $criteria  = ['section' => 'resources'];
             $relatedTo = array();
@@ -93,6 +147,15 @@ return [
                         'description' => $entry->resourceDescription,
                     ];
                 },
+            ];
+        },
+        
+
+        'blogCategories.json' => function() {
+            return [
+                'elementType' => Category::class,
+                'elementsPerPage' => 100,
+                'criteria' => ['group' => 'blogCategories'],
             ];
         },
 

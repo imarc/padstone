@@ -20,6 +20,7 @@ const app = new Vue({
             search: '',
             type: null,
             topic: null,
+            category: null,
         },
     },
 
@@ -42,6 +43,8 @@ const app = new Vue({
         resources: PaginatedCollectionComponent.for('resources'),
         resourceTypes: CollectionComponent.for('resourceTypes'),
         resourceTopics: CollectionComponent.for('resourceTopics'),
+        blogs: PaginatedCollectionComponent.for('blogs'),
+        blogCategories: CollectionComponent.for('blogCategories'),
         search: LiveSearch,
         pagination: PaginationNav,
     },

@@ -59,7 +59,7 @@ mix.autoload({
     jquery: ['$', 'jQuery', 'window.$', 'window.jQuery']
 });
 
-mix.js('resources/js/resources.js', 'js');
+mix.js('resources/js/filtering.js', 'js');
 mix.js('resources/js/main.js', 'js')
 mix.sass('resources/styles/main.scss', 'css');
 mix.extract();

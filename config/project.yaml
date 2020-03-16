@@ -32,7 +32,7 @@ categoryGroups:
     structure:
       maxLevels: 1
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1584121935
+dateModified: 1584391701
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -287,6 +287,24 @@ fields:
       charLimit: '155'
       code: ''
       columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  2e868be5-415e-4f7c-b96c-160e9091705c:
+    contentColumnType: text
+    fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
+    handle: blogCTA
+    instructions: 'Text shown on the Call to Action to view this blog article.'
+    name: 'Call to Action'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
       initialRows: '4'
       multiline: ''
       placeholder: ''
@@ -916,9 +934,9 @@ fields:
     contentColumnType: datetime
     fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
     handle: blogDate
-    instructions: ''
+    instructions: 'This is the date we use to order items. This does not affect whether or not the item appears on the site (use Post Date and Expiry Date for that).'
     name: 'Blog Date'
-    searchable: '1'
+    searchable: true
     settings:
       minuteIncrement: '30'
       showDate: true
@@ -2628,10 +2646,6 @@ sections:
         titleLabel: Title
     handle: blogPage
     name: 'Blog Page'
-    previewTargets:
-      -
-        label: 'Primary entry page'
-        urlFormat: '{url}'
     propagationMethod: all
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
@@ -3631,55 +3645,58 @@ sections:
               -
                 fields:
                   2575b2df-9c7d-43dc-b00c-7c8b4a389b22:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 2
+                  2e868be5-415e-4f7c-b96c-160e9091705c:
+                    required: false
+                    sortOrder: 3
                   7ccca481-afc6-4d2d-a691-46d51885c73e:
-                    required: '1'
-                    sortOrder: '6'
+                    required: true
+                    sortOrder: 7
                   a889cfc2-e16d-4719-88be-773bf11567f4:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 6
                   b54bac54-a6a2-4e19-af8b-eead56deed68:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 5
                   c2b63486-bb0e-42d6-9986-12cead0acc47:
-                    required: '0'
-                    sortOrder: '1'
+                    required: true
+                    sortOrder: 4
                   fe9f15e5-2b68-477e-af16-c6e83c83e642:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 1
                 name: Blog
-                sortOrder: '1'
+                sortOrder: 1
               -
                 fields:
                   0ba5cfaa-93ea-41f9-8b0b-46c048b5b209:
-                    required: '0'
-                    sortOrder: '5'
+                    required: false
+                    sortOrder: 5
                   27247eb3-ce02-4776-a57d-c34c35c19127:
-                    required: '0'
-                    sortOrder: '1'
+                    required: false
+                    sortOrder: 1
                   71853a8b-b74d-4320-83d5-b8ef585bc335:
-                    required: '0'
-                    sortOrder: '2'
+                    required: false
+                    sortOrder: 2
                   b1abef14-c4df-4e03-adf6-740fbfae5ddf:
-                    required: '0'
-                    sortOrder: '4'
+                    required: false
+                    sortOrder: 4
                   d1edff97-994f-4f78-9318-6cdbbdfd446d:
-                    required: '0'
-                    sortOrder: '6'
+                    required: false
+                    sortOrder: 6
                   e60a84f5-789c-489b-a95e-ae0419f4ae7d:
-                    required: '0'
-                    sortOrder: '7'
+                    required: false
+                    sortOrder: 7
                   e72e6691-b2c5-41b9-b75e-56b6a7200933:
-                    required: '0'
-                    sortOrder: '3'
+                    required: false
+                    sortOrder: 3
                 name: SEO
-                sortOrder: '2'
+                sortOrder: 2
         handle: blog
-        hasTitleField: '1'
+        hasTitleField: true
         name: 'Blog Article'
-        sortOrder: '1'
-        titleFormat: null
+        sortOrder: 1
+        titleFormat: ''
         titleLabel: Title
     handle: blog
     name: 'Blog Articles'
