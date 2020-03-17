@@ -4,11 +4,11 @@ categoryGroups:
     name: 'Blog Categories'
     siteSettings:
       5a949caa-356a-45ea-b408-2b267055c99c:
-        hasUrls: '1'
-        template: blog-categories/_category
-        uriFormat: 'blog-categories/{slug}'
+        hasUrls: true
+        template: ''
+        uriFormat: 'blog?category={slug}'
     structure:
-      maxLevels: null
+      maxLevels: 1
       uid: 7500937b-aa4b-4094-9a13-5480a3ca0589
   ca915fd0-926d-4128-b286-ce7f553add12:
     handle: resourceTopics
@@ -32,7 +32,7 @@ categoryGroups:
     structure:
       maxLevels: 1
       uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe
-dateModified: 1584391701
+dateModified: 1584470477
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
