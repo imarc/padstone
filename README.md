@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-[Create your database](https://craftcms.com/docs/installing#step-3-create-your-database) and ensure the settings in your `.env` match your environment. At minimum, you'll need to tell Craft how to connect to your database and your domain. Then run the installer by going to /admin (except for your domain.)
+[Create your database](https://docs.craftcms.com/v3/installation.html#step-4-create-a-database) and ensure the settings in your `.env` match your environment. At minimum, you'll need to tell Craft how to connect to your database and your domain. Then run the installer by going to /admin (except for your domain.)
 
 Optionally, you can import the supplied `padstone.sql` file into your database if you want Padstone's starter entries.
 
