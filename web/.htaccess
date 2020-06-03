@@ -1,3 +1,9 @@
+# Disable any auth for /api.
+
+#<If "%{THE_REQUEST} =~ m#\s/api(/[^\s]+)?\s#">
+#        Require all granted
+#</If>
+
 # Remove leaked information headers
 
 ServerSignature Off
