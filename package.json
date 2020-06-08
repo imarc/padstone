@@ -47,25 +47,25 @@
     "node": ">=10.0.0 <12.0"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.0",
     "clockvine-vue": "^0.4.0-beta.1",
     "cross-env": "^7.0.0",
     "glob-all": "^3.1.0",
     "imarc-boilerplate": "github:imarc/boilerplate",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "laravel-mix": "^5.0.1",
     "normalize-scss": "^7.0.1",
     "popper.js": "^1.14.7",
     "purgecss-webpack-plugin": "^2.0.6",
     "vue": "^2.6.11",
-    "vuex": "^3.1.2",
+    "vuex": "^3.4.0",
     "webpack": "^4.29.6"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "resolve-url-loader": "^2.3.1",
-    "sass": "^1.26.0",
+    "sass": "^1.26.8",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.8"
   },
