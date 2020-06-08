@@ -11,9 +11,10 @@ define('CRAFT_VENDOR_PATH', CRAFT_BASE_PATH.'/vendor');
 require_once CRAFT_VENDOR_PATH.'/autoload.php';
 
 // Load dotenv?
-if (file_exists(CRAFT_BASE_PATH.'/.env')) {
-    (new Dotenv\Dotenv(CRAFT_BASE_PATH))->load();
+if (!file_exists(CRAFT_BASE_PATH.'/.env')) {
+    exit('<p>The dotenv file is missing for this environment.</p>');
 }
+Dotenv\Dotenv::createImmutable(CRAFT_BASE_PATH)->load();
 
 // Load and run Craft
 define('CRAFT_ENVIRONMENT', getenv('ENVIRONMENT') ?: 'production');

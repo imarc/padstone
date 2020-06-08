@@ -23,7 +23,9 @@
     "craftcms/cms": "~3.4.9",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
-    "craftcms/redactor": "^2.0",
+    "craftcms/element-api": "^2.6",
+    "craftcms/feed-me": "^4.1",
+    "craftcms/redactor": "^2.5",
     "dolphiq/redirect": "^1.0.15",
     "ether/tags": "^1.0",
     "imarc/craft-googlecustomsearch": "^2.0",
@@ -31,18 +33,13 @@
     "imarc/craft-volume-permissions": "^1.0",
     "luwes/craft3-codemirror": "^1.0.2",
     "misterbk/mix": "^1.4",
-    "nerds-and-company/schematic": "^3.8",
-    "rias/craft-position-fieldtype": "^1.0",
     "roave/security-advisories": "dev-master",
     "sebastianlenz/linkfield": "^1.0.4",
     "verbb/expanded-singles": "^1.0",
     "verbb/field-manager": "^2.0",
-    "vlucas/phpdotenv": "^2.4.0",
-    "wbrowar/adminbar": "^3.1.5",
-    "craftcms/element-api": "^2.6",
-    "craftcms/feed-me": "^4.1",
-    "aelvan/imager": "^2.3",
-    "verbb/super-table": "^2.3"
+    "verbb/super-table": "^2.4.2",
+    "vlucas/phpdotenv": "^4.1.0",
+    "wbrowar/adminbar": "^3.1.5"
   },
   "autoload": {
     "psr-4": {

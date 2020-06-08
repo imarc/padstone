@@ -1,3 +1,8 @@
+{##
+ # This is just an example file showing a way to implement paginated blogs.
+ #
+ # It has an accompanying JS file, filtering-paginated.js.
+ #}
 {% do view.registerJsFile(mix('/js/filtering.js')) %}
 {% import "/_macros" as macros %}
 {% set section = 'blogPage' %}
@@ -7,26 +12,25 @@
         headline: entry.headline,
         subheadline: entry.subheadline
     } %}
+    <div class="container">
 
-    <blogs :params="params" v-slot="{ query, blogs, isLoading, meta: { pagination  = {} } = {} }">
-        <div class="container">
-
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <h4 class="mb-0">
-                        Filter by Category:
-                    </h4>
-                    <blog-categories v-slot="{ blogCategories }">
-                        <div>
-                            <select class="form-control" v-model="params.category">
-                                <option :value="null" selected>All</option>
-                                <option v-for="blogCategory in blogCategories" :value="blogCategory.slug" :key="blogCategory.id" v-text="blogCategory.title"></option>
-                            </select>
-                        </div>
-                    </blog-categories>
-                </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <h4 class="mb-0">
+                    Filter by Category:
+                </h4>
+                <blog-categories v-slot="{ blogCategories }">
+                    <div>
+                        <select class="form-control" v-model="params.category">
+                            <option :value="null" selected>All</option>
+                            <option v-for="blogCategory in blogCategories" :value="blogCategory.slug" :key="blogCategory.id" v-text="blogCategory.title"></option>
+                        </select>
+                    </div>
+                </blog-categories>
             </div>
+        </div>
 
+        <blogs :params="params" v-slot="{ blogs, isLoading, meta: { pagination } = {} }">
             <div class="row row-cols-1 row-cols-md-3">
                 <div v-if="blogs && !blogs.length && !isLoading" class="col mb-4" v-cloak>No blogs found.</div>
                 <div v-else v-for="article in blogs" :key="article.id" class="col mb-4">
@@ -43,21 +47,11 @@
                             <small class="text-muted" v-text="article.date"></small>
                         </div>
                     </div>
-                </div>
+                </div>      
+
+                <pagination v-if="pagination" :total-pages="pagination.total_pages" v-model="params.page"></pagination>
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a
-                        v-if="pagination.current_page < pagination.total_pages"
-                        :href="nextPage"
-                        @click.prevent="params.page += 1"
-                        class="btn btn-outline-primary"
-                    >
-                        More
-                    </a>
-                </div>
-            </div>
-        </div>
-    </blogs>
+        </blogs>
+    </div>
 
 {% endblock %}
