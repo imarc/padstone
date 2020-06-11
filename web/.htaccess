@@ -159,15 +159,20 @@ ServerSignature Off
     ExpiresByType application/javascript    "access plus 3 months"
 </IfModule>
 
+# PHP Limits
+<IfModule mod_php7.c>
+    # Increase the max nesting level for Craft
+    php_value xdebug.max_nesting_level  500
+    php_value max_input_vars            8000
+    php_value upload_max_filesize       "75M"
+    php_value post_max_size             "101M"
+    php_value memory_limit              "512M"
+    php_value max_execution_time        "120" 
+</IfModule>
+
+# Rewrites
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-
-    # Increasing Upload Limit for Assets
-    php_value max_input_vars 10000
-    php_value post_max_size 35M
-    php_value upload_max_filesize 30M
-    php_value memory_limit 512M
-    php_value max_execution_time 120
 
 	# Send would-be 404 requests to Craft
 	RewriteCond %{REQUEST_FILENAME} !-f
