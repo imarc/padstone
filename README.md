@@ -42,7 +42,9 @@ npm run dev
 
 [Create your database](https://docs.craftcms.com/v3/installation.html#step-4-create-a-database) and ensure the settings in your `.env` match your environment. At minimum, you'll need to tell Craft how to connect to your database and your domain. 
 
-The default Padstone site is configured to store user sessions in the database. The phpsessions table needs to be added to the new database. If you import the padstone.sql file the table will be created by the import. As an alternative, you can create the table manually by runnng the craft setup/php-session-table console command.
+The default Padstone site is configured to [store user sessions in the database](https://docs.craftcms.com/v3/config/app.html#session-component). The phpsessions table needs to be added to the new database. If you import the padstone.sql file the table will be created by the import. As an alternative, you can create the table manually by runnng the craft console command.
+
+    craft setup/php-session-table
 
 Then run the installer by going to /admin (except for your domain.)
 
