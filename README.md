@@ -31,7 +31,7 @@ Create a new padstone project with the following [composer](https://getcomposer.
 composer create-project imarc/padstone [folder]
 ```
 
-Enter the newly created folder and run the front-end buildstep.
+Enter the newly created folder and run the front-end buildstep. The webpack.mix.js file is imported from another project and needs to be updated. Copy the contents of webpack.mix.js-resources and paste them into webpack.mix.js. Then
 
 ```sh
 cd [folder]
