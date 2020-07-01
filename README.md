@@ -149,22 +149,33 @@ The **Content Designer** Field (designedContent) allows CMS users to use the fol
 
 Padstone is released under the MIT License.
 
-## Development
+## Contributing
 
-git clone git@github.com:imarc/padstone.git
+Set up a padstone project with the ability to contribute back.
 
-composer install
+    # clone project and enter directory
+    git clone git@github.com:imarc/padstone.git
+    cd padstone
 
-cp .env.example .env
+    # install composer deps
+    composer install
 
-php craft setup/security-key
+    # create .env
+    cp .env.example .env
 
-npx imarc/boilerplate-components
-echo '@import "~bootstrap/scss/bootstrap";' >> resources/styles/main.scss"
-echo 'import "bootstrap";' >> resources/js/main.js"
+    # generate craft security key
+    php craft setup/security-key
 
-# import sql into db. If you are using ops, the command is:
-ops mariadb padstone padstone.sql
+    # install boilerplate components
+    npx imarc/boilerplate-components
+    echo '@import "~bootstrap/scss/bootstrap";' >> resources/styles/main.scss"
+    echo 'import "bootstrap";' >> resources/js/main.js"
+
+    # import sql into db. If you are using ops, the command is:
+    ops mariadb padstone padstone.sql
+
+    # Manual step:
+    # set DB_DATABASE in your .env to 'padstone'
 
 
 <img src="https://user-images.githubusercontent.com/1452/56690112-b04fbd00-66aa-11e9-9e87-049b403cfa26.png" alt="Imarc" width="100">
