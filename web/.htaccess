@@ -162,12 +162,14 @@ ServerSignature Off
 # PHP Limits
 <IfModule mod_php7.c>
     # Increase the max nesting level for Craft
-    php_value xdebug.max_nesting_level  500
-    php_value max_input_vars            8000
-    php_value upload_max_filesize       "75M"
-    php_value post_max_size             "101M"
+    php_value max_execution_time        "120"
+    php_value max_input_vars            10000
     php_value memory_limit              "512M"
-    php_value max_execution_time        "120" 
+    php_value post_max_size             "300M"
+    php_value session.gc_divisor        100
+    php_value session.gc_probability    1
+    php_value upload_max_filesize       "75M"
+    php_value xdebug.max_nesting_level  500
 </IfModule>
 
 # Rewrites
