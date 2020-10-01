@@ -172,7 +172,7 @@ Set up a padstone project with the ability to contribute back.
     echo 'import "bootstrap";' >> resources/js/main.js"
 
     # import sql into db. If you are using ops, the command is:
-    ops mariadb padstone padstone.sql
+    ops mariadb import padstone padstone.sql
 
     # Manual step:
     # set DB_DATABASE in your .env to 'padstone'
@@ -180,4 +180,4 @@ Set up a padstone project with the ability to contribute back.
 
 <img src="https://user-images.githubusercontent.com/1452/56690112-b04fbd00-66aa-11e9-9e87-049b403cfa26.png" alt="Imarc" width="100">
 
-© 2019 Imarc
+© 2019-2020 Imarc
