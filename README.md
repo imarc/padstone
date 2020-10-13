@@ -4,15 +4,13 @@
 
 
 
-Padstone for Craft CMS
-======================
+# Padstone for Craft CMS
 
 Padstone is a starter package for Craft 3 built by Imarc. It provides a simple project config as well as example entries and templates.
 
 _If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2)._
 
-Features
---------
+## Features
 
 * Pre-built CMS sections, including ones for the Homepage, a Blog, News, and Resources. (18 in total!)
 * A set of **Bootstrap 4** twig templates for you to replace or customize.
@@ -22,8 +20,7 @@ Features
 <img src="https://user-images.githubusercontent.com/1452/56689796-f0fb0680-66a9-11e9-8b4b-e66690ed9607.jpg">
 
 
-Getting Started
----------------
+## Getting Started
 
 Create a new padstone project with the following [composer](https://getcomposer.org/) command:
 
@@ -48,8 +45,7 @@ Optionally, you can import the supplied `padstone.sql` file into your database i
 
 If you import `padstone.sql`, the username is *admin* and the password is *padstone*. Please change the password after you first login.
 
-Front-End Build
-------------------------
+## Front-End Build
 
 Beyond the typical craft files, you will also see a resources/ folder. Padstone
 uses [Laravel Mix](https://laravel-mix.com/docs/4.0/basic-example) to compile JS and Sass files from the resources/ folder and store the results into the public/ folder:
@@ -59,7 +55,7 @@ uses [Laravel Mix](https://laravel-mix.com/docs/4.0/basic-example) to compile JS
 
 Additionally, Padstone produces `manifest.js` and `vendor.js` files that
 must be included, in that order, before any of your own JS files. You can
-customize this behavior in `webpack.mix.js`.
+customize this behavior in `webpack.mix.js`. 
 
 ### Watching/Building assets
 
@@ -77,8 +73,7 @@ If you are building to production, run:
 
     npm run prod
 
-What's Included
----------------
+## What's Included
 
 ### Sections
 
@@ -160,8 +155,8 @@ Set up a padstone project with the ability to contribute back.
     # install composer deps
     composer install
 
-    # create .env
-    cp .env.example .env
+    # create .env file. if you are using Ops, you can copy .env.example.ops
+    cp .env.example.server .env
 
     # generate craft security key
     php craft setup/security-key
@@ -171,7 +166,7 @@ Set up a padstone project with the ability to contribute back.
     echo '@import "~bootstrap/scss/bootstrap";' >> resources/styles/main.scss"
     echo 'import "bootstrap";' >> resources/js/main.js"
 
-    # import sql into db. If you are using ops, the command is:
+    # import sql into db. If you are using Ops, the command is:
     ops mariadb import padstone padstone.sql
 
     # Manual step:
