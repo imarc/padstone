@@ -19,7 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "php": ">=7.0.0",
+    "php": ">=7.2.0",
     "craftcms/cms": "^3.6",
     "craftcms/contact-form": "^2.1",
     "craftcms/contact-form-honeypot": "^1.0",
@@ -40,6 +40,7 @@
     "verbb/super-table": "^2.4.2",
     "vlucas/phpdotenv": "^4.1.0",
     "wbrowar/adminbar": "^3.1.5"
+    "verbb/super-table": "^2.6"
   },
   "autoload": {
     "psr-4": {
