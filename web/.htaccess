@@ -176,6 +176,13 @@ ServerSignature Off
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 
+    # Redirect trailing slashes to no trailing slash
+    RewriteCond %{REQUEST_METHOD} =GET
+    RewriteCond %{REQUEST_URI} !^/admin(.*)?
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
 	# Send would-be 404 requests to Craft
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
