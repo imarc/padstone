@@ -54,10 +54,7 @@
     ],
     "post-create-project-cmd": [
       "@composer dump-autoload -o",
-      "@php craft setup/security-key",
-      "npx imarc/boilerplate-components",
-      "echo \"\n@import \\\"~bootstrap/scss/bootstrap\\\";\" >> resources/styles/main.scss",
-      "echo \"\nimport \\\"bootstrap\\\";\" >> resources/js/main.js"
+      "@php craft setup/security-key"
     ]
   },
   "require-dev": {
