@@ -66,12 +66,12 @@ ops-install() {
             ops sync
         fi
 
-    elif [[ -e padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
+    ls -l $OPS_SITES_DIR/$(ops project name)
+
+    elif [[ -e "$OPS_SITES_DIR/$(ops project name)/padstone.sql" ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
-        echo cd $OPS_SITES_DIR/$(ops project name)
-        cd $OPS_SITES_DIR/$(ops project name)
-        echo pwd $PWD
-        ops mariadb import $DB_DATABASE < padstone.sql
+        ops mariadb import $OPS_SITES_DIR/$(ops project name)/$DB_DATABASE < padstone.sql
+        ops craft migrate/all
     fi
 
     ops composer install
