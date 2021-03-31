@@ -9,7 +9,7 @@ ops-configure() {
     PROJECT=$(ops project name)
 
     DEFAULT=${DB_SERVER:-mariadb}
-    read - "Database Server [$DEFAULT]: " INPUT
+    read -p "Database Server [$DEFAULT]: " INPUT
     ops env DB_SERVER ${INPUT:-$DEFAULT}
 
     DEFAULT=${PROJECT//[^a-zA-Z0-9-]/_}
@@ -68,6 +68,9 @@ ops-install() {
 
     elif [[ -e padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
+        echo cd $OPS_SITES_DIR/$(ops project name)
+        cd $OPS_SITES_DIR/$(ops project name)
+        echo pwd $PWD
         ops mariadb import $DB_DATABASE < padstone.sql
     fi
 
