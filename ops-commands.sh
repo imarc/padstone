@@ -6,9 +6,13 @@ ops-craft() {
 ops-configure() {
     cmd-doc "Interactively configure ops settings in your .env file."
 
-    BASENAME=$(basename $0)
+    PROJECT=$(ops project name)
 
-    DEFAULT=${BASENAME//[^a-zA-Z0-9-]/_}
+    DEFAULT=${DB_SERVER:-mariadb}
+    read - "Database Server [$DEFAULT]: " INPUT
+    ops env DB_SERVER ${INPUT:-$DEFAULT}
+
+    DEFAULT=${PROJECT//[^a-zA-Z0-9-]/_}
     DEFAULT=${DB_DATABASE:-$DEFAULT}
     read -p "Database Name [$DEFAULT]: " INPUT
     ops env DB_DATABASE ${INPUT:-$DEFAULT}
@@ -46,14 +50,14 @@ ops-install() {
         cp .env.example .env
     fi
 
-    if [[ -z "$SECURITY_KEY" ]]; then
-        ops craft setup/security-key
-    fi
-
     if [ -t 1 ]; then
         ops configure
     else
         echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
+    fi
+
+    if [[ -z "$SECURITY_KEY" ]]; then
+        ops craft setup/security-key
     fi
 
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
@@ -63,6 +67,7 @@ ops-install() {
         fi
 
     elif [[ -e padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
+        echo "Importing padstone.sql into $DB_DATABASE..."
         ops mariadb import $DB_DATABASE < padstone.sql
     fi
 
@@ -70,5 +75,5 @@ ops-install() {
     ops npm install
     ops npm run dev
 
-    echo -n "\nVisit your site at https://$(basename $0).imarc.io/"
+    echo -n "\nVisit your site at https://$(ops project name).imarc.io/"
 }
