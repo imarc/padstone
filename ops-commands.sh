@@ -50,7 +50,11 @@ ops-install() {
         ops craft setup/security-key
     fi
 
-    ops configure
+    if [ -t 1 ]; then
+        ops configure
+    else
+        echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
+    fi
 
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
