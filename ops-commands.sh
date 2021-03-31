@@ -60,17 +60,18 @@ ops-install() {
         ops craft setup/security-key
     fi
 
+    echo PWD=$PWD
+    ls -l $OPS_SITES_DIR/$(ops project name)
+
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
         if [[ $INPUT == 'Y' ]]; then
             ops sync
         fi
 
-    ls -l $OPS_SITES_DIR/$(ops project name)
-
     elif [[ -e "$OPS_SITES_DIR/$(ops project name)/padstone.sql" ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
-        ops mariadb import $OPS_SITES_DIR/$(ops project name)/$DB_DATABASE < padstone.sql
+        ops mariadb import $DB_DATABASE < "$OPS_SITES_DIR/$(ops project name)/padstone.sql"
         ops craft migrate/all
     fi
 
