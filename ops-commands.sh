@@ -20,17 +20,21 @@ ops-configure() {
     read -p "Remote host [$OPS_PROJECT_REMOTE_HOST]: " INPUT
     ops env OPS_PROJECT_REMOTE_HOST ${INPUT:-$OPS_PROJECT_REMOTE_HOST}
 
-    read -p "Remote user [$OPS_PROJECT_REMOTE_USER]: " INPUT
-    ops env OPS_PROJECT_REMOTE_USER ${INPUT:-$OPS_PROJECT_REMOTE_USER}
+    if [[ -n "$OPS_PROJECT_REMOTE_HOST" ]]; then
 
-    read -p "Remote path [$OPS_PROJECT_REMOTE_PATH]: " INPUT
-    ops env OPS_PROJECT_REMOTE_PATH ${INPUT:-$OPS_PROJECT_REMOTE_PATH}
+        read -p "Remote user [$OPS_PROJECT_REMOTE_USER]: " INPUT
+        ops env OPS_PROJECT_REMOTE_USER ${INPUT:-$OPS_PROJECT_REMOTE_USER}
 
-    read -p "Remote database name [$OPS_PROJECT_REMOTE_DB_NAME]: " INPUT
-    ops env OPS_PROJECT_REMOTE_DB_NAME ${INPUT:-$OPS_PROJECT_REMOTE_DB_NAME}
+        read -p "Remote path [$OPS_PROJECT_REMOTE_PATH]: " INPUT
+        ops env OPS_PROJECT_REMOTE_PATH ${INPUT:-$OPS_PROJECT_REMOTE_PATH}
 
-    read -p "Sync dirs [$OPS_PROJECT_SYNC_DIRS]: " INPUT
-    ops env OPS_PROJECT_SYNC_DIRS ${INPUT:-$OPS_PROJECT_SYNC_DIRS}
+        read -p "Remote database name [$OPS_PROJECT_REMOTE_DB_NAME]: " INPUT
+        ops env OPS_PROJECT_REMOTE_DB_NAME ${INPUT:-$OPS_PROJECT_REMOTE_DB_NAME}
+
+        read -p "Sync dirs [$OPS_PROJECT_SYNC_DIRS]: " INPUT
+        ops env OPS_PROJECT_SYNC_DIRS ${INPUT:-$OPS_PROJECT_SYNC_DIRS}
+
+    fi
 }
 
 ops-padstone-install() {
@@ -60,19 +64,16 @@ ops-install() {
         ops craft setup/security-key
     fi
 
-    echo PWD=$PWD
-    ls -l $OPS_SITES_DIR/$(ops project name)
-
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
         if [[ $INPUT == 'Y' ]]; then
             ops sync
         fi
 
-    elif [[ -e "$OPS_SITES_DIR/$(ops project name)/padstone.sql" ]] && [[ -n "$DB_DATABASE" ]]; then
+    elif [[ -e ./padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
-        ops mariadb import $DB_DATABASE < "$OPS_SITES_DIR/$(ops project name)/padstone.sql"
-        ops craft migrate/all
+        ops mariadb import $DB_DATABASE < ./padstone.sql
+        ops craft migrate
     fi
 
     ops composer install
