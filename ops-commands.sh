@@ -99,5 +99,5 @@ ops-install() {
     echo "Calling $(tput smul)ops npm run dev$(tput rmul)..."
     ops npm run dev
 
-    echo -n "\nVisit your site at https://$(ops project name).imarc.io/\n"
+    echo -en "\nVisit your site at https://$(ops project name).imarc.io/\n"
 }
