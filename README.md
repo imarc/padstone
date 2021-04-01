@@ -30,6 +30,15 @@ composer create-project imarc/padstone [folder]
 
 ### Using `ops` (the fast way)
 
+Go into your the new project folder, and run
+
+```sh
+ops padstone-install
+```
+
+This will run all the following steps, including prompting you for values to add to your .env file. You likely want to leave DB_SERVER as `mariadb` (the default), but you can change the other settings if you'd like.
+
+
 ### The manual way
 
 0. Copy .env.example to be .env and update settings inside. In particular, DB_DATABASE, DB_SERVER, DB_USER and DB_PASSWORD.
