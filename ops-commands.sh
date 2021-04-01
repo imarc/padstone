@@ -40,7 +40,10 @@ ops-configure() {
 ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
 
+    echo "Running $(tput smul)npx imarc/boilerplate-components$(tput rmul)..."
     npx imarc/boilerplate-components
+
+    echo "Updating main.scss and main.js..."
     echo -e "\n@import \"~bootstrap/scss/bootstrap\";" >> resources/styles/main.scss
     echo -e "\nimport \"bootstrap\"" >> resources/js/main.js
 
@@ -51,10 +54,12 @@ ops-install() {
     cmd-doc "Run this after cloning the project to setup the project for local development on Ops."
 
     if [[ ! -e .env ]]; then
+        echo "Copying .env.example to .env..."
         cp .env.example .env
     fi
 
     if [ -t 1 ]; then
+        echo "Calling $(tput smul)ops configure$(tput rmul)..."
         ops configure
     else
         echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
@@ -66,12 +71,15 @@ ops-install() {
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
         if [[ $INPUT == 'Y' ]]; then
+            echo "Running $(tput smul)ops sync$(tput rmul)..."
             ops sync
         fi
 
     elif [[ -e ./padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
         ops mariadb import $DB_DATABASE < ./padstone.sql
+
+        echo "Running craft migrations..."
         ops craft migrate
     fi
 
@@ -79,9 +87,12 @@ ops-install() {
         ops craft setup/security-key
     fi
 
+    echo "Calling $(tput smul)ops composer install$(tput rmul)..."
     ops composer install
+    echo "Calling $(tput smul)ops npm install$(tput rmul)..."
     ops npm install
+    echo "Calling $(tput smul)ops npm run dev$(tput rmul)..."
     ops npm run dev
 
-    echo -n "\nVisit your site at https://$(ops project name).imarc.io/"
+    echo -n "\nVisit your site at https://$(ops project name).imarc.io/\n"
 }

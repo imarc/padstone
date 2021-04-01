@@ -53,7 +53,7 @@
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ],
     "post-create-project-cmd": [
-      "echo -e \"Change into the new project's directory and run \\e[4mops padstone-install\\e[0m\""
+      "echo -e \"\nChange into the new project's directory and run ops padstone-install\""
     ]
   },
   "require-dev": {
