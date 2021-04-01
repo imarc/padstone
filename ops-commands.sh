@@ -81,10 +81,15 @@ ops-install() {
 
         echo "Running craft migrations..."
         ops craft migrate/all --no-backup=1 --interactive=0
+    else
+        echo "Skipping syncing or importing padstone.sql..."
     fi
 
-    if [[ -z "$SECURITY_KEY" ]]; then
+    if [[ -z "$SECURITY_KEY" ]] && [[ -n "$DB_DATABASE" ]]; then
+        echo "Running $(tput smul)ops craft setup/security-key$(tput rmul)..."
         ops craft setup/security-key
+    else
+        echo "Skipping generating security key ($(tput smul)ops craft setup/security-key$(tput rmul))  because DB_DATABASE is not set."
     fi
 
     echo "Calling $(tput smul)ops composer install$(tput rmul)..."
