@@ -65,8 +65,8 @@ ops-install() {
         echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
     fi
 
-    # get updated settings
-    source <(ops env)
+    # get updated settings; unusual syntax for bash 3.2.57
+    source /dev/stdin <<<"$(ops env)"
 
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
