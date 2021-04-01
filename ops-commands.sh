@@ -80,7 +80,7 @@ ops-install() {
         ops mariadb import $DB_DATABASE < ./padstone.sql
 
         echo "Running craft migrations..."
-        ops craft migrate
+        ops craft migrate/all --no-backup=1 --interactive=0
     fi
 
     if [[ -z "$SECURITY_KEY" ]]; then
