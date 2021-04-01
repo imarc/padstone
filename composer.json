@@ -19,27 +19,26 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "php": ">=7.0.0",
-    "craftcms/cms": "~3.4.9",
-    "craftcms/contact-form": "^2.1",
+    "php": ">=7.2.5",
+    "craftcms/cms": "^3.6",
+    "craftcms/contact-form": "^2.2",
     "craftcms/contact-form-honeypot": "^1.0",
     "craftcms/element-api": "^2.6",
-    "craftcms/feed-me": "^4.1",
-    "craftcms/redactor": "^2.5",
-    "dolphiq/redirect": "^1.0.15",
+    "craftcms/feed-me": "^4.3",
+    "craftcms/redactor": "^2.8",
+    "dolphiq/redirect": "^1.1",
     "ether/tags": "^1.0",
     "imarc/craft-googlecustomsearch": "^2.0",
     "imarc/craft-kindling": "^2.0",
     "imarc/craft-volume-permissions": "^1.0",
-    "luwes/craft3-codemirror": "^1.0.2",
-    "misterbk/mix": "^1.4",
-    "roave/security-advisories": "dev-master",
-    "sebastianlenz/linkfield": "^1.0.4",
-    "verbb/expanded-singles": "^1.0",
-    "verbb/field-manager": "^2.0",
-    "verbb/super-table": "^2.4.2",
-    "vlucas/phpdotenv": "^4.1.0",
-    "wbrowar/adminbar": "^3.1.5"
+    "luwes/craft3-codemirror": "^1.0",
+    "misterbk/mix": "^1.5",
+    "sebastianlenz/linkfield": "^1.0",
+    "verbb/expanded-singles": "^1.1",
+    "verbb/field-manager": "^2.2",
+    "verbb/super-table": "^2.6",
+    "vlucas/phpdotenv": "^5.3",
+    "wbrowar/adminbar": "^3.1"
   },
   "autoload": {
     "psr-4": {
@@ -54,11 +53,10 @@
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ],
     "post-create-project-cmd": [
-      "@composer dump-autoload -o",
-      "@php craft setup/security-key",
-      "npx imarc/boilerplate-components",
-      "echo \"\n@import \\\"~bootstrap/scss/bootstrap\\\";\" >> resources/styles/main.scss",
-      "echo \"\nimport \\\"bootstrap\\\";\" >> resources/js/main.js"
+      "echo -e \"\nChange into the new project's directory and run ops padstone-install\""
     ]
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
   }
 }

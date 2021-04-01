@@ -28,28 +28,32 @@ Create a new padstone project with the following [composer](https://getcomposer.
 composer create-project imarc/padstone [folder]
 ```
 
-Enter the newly created folder and run the front-end buildstep. The webpack.mix.js file is imported from another project and needs to be updated. Copy the contents of webpack.mix.js-resources and paste them into webpack.mix.js. Then
+### Using `ops` (the fast way)
+
+Go into your the new project folder, and run
 
 ```sh
-cd [folder]
-
-npm install
-npm run dev
+ops padstone-install
 ```
 
-[Create your database](https://docs.craftcms.com/v3/installation.html#step-4-create-a-database) and ensure the settings in your `.env` match your environment. At minimum, you'll need to tell Craft how to connect to your database and your domain. 
+This will run all the following steps, including prompting you for values to add to your .env file. You likely want to leave DB_SERVER as `mariadb` (the default), but you can change the other settings if you'd like.
 
-The default Padstone site is configured to [store user sessions in the database](https://docs.craftcms.com/v3/config/app.html#session-component). The phpsessions table needs to be added to the new database. If you import the padstone.sql file the table will be created by the import. As an alternative, you can create the table manually by runnng the craft console command.
+
+### The manual way
+
+0. Copy .env.example to be .env and update settings inside. In particular, DB_DATABASE, DB_SERVER, DB_USER and DB_PASSWORD.
+0. Run `./craft setup/security-key` to generate a SECURITY_KEY for your .env file.
+0. If you'd like to use Padstone's SQL file, import padstone.sql into your site.
+0. The default Padstone site is configured to [store user sessions in the database](https://docs.craftcms.com/v3/config/app.html#session-component). The phpsessions table needs to be added to the new database. If you import the padstone.sql file the table will be created by the import. As an alternative, you can create the table manually by runnng the craft console command.
 
     craft setup/php-session-table
 
 Then run the installer by going to /admin (except for your domain.)
 
-Optionally, you can import the supplied `padstone.sql` file into your database if you want Padstone's starter entries.
+## Logging in
 
-### Logging in
+If you use the ops method or import `padstone.sql` manually, the username is *admin* and the password is *padstone*. Please change the password after you first login.
 
-If you import `padstone.sql`, the username is *admin* and the password is *padstone*. Please change the password after you first login.
 
 ## Front-End Build
 
@@ -61,7 +65,7 @@ uses [Laravel Mix](https://laravel-mix.com/docs/4.0/basic-example) to compile JS
 
 Additionally, Padstone produces `manifest.js` and `vendor.js` files that
 must be included, in that order, before any of your own JS files. You can
-customize this behavior in `webpack.mix.js`. 
+customize this behavior in `webpack.mix.js`.
 
 ### Watching/Building assets
 

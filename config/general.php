@@ -22,19 +22,19 @@ return [
         'omitScriptNameInUrls' => true,
 
         // Control Panel trigger word
-        'cpTrigger' => getenv('CP_TRIGGER') ?: 'admin',
+        'cpTrigger' => $_ENV['CP_TRIGGER'] ?? 'admin',
 
         // The secure key Craft will use for hashing and encrypting data
-        'securityKey' => getenv('SECURITY_KEY'),
+        'securityKey' => $_ENV['SECURITY_KEY'],
 
         // Base site URL
-        'siteUrl' => getenv('APP_URL'),
+        'siteUrl' => $_ENV['APP_URL'],
 
         // Whether the site should be in dev mode
-        'devMode' => getenv('DEV_MODE'),
+        'devMode' => $_ENV['DEV_MODE'],
 
         // Use config/project.yaml as the canonical project config
-        'useProjectConfigFile' => getenv('USE_PROJECT_CONFIG'),
+        'useProjectConfigFile' => $_ENV['USE_PROJECT_CONFIG'],
     ],
 
     // Dev environment settings
