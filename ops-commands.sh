@@ -12,7 +12,7 @@ ops-configure() {
     read -p "Database Server [$DEFAULT]: " INPUT
     ops env DB_SERVER ${INPUT:-$DEFAULT}
 
-    DEFAULT=${PROJECT//[^a-zA-Z0-9-]/_}
+    DEFAULT=${PROJECT//[^a-zA-Z0-9]/_}
     DEFAULT=${DB_DATABASE:-$DEFAULT}
     read -p "Database Name [$DEFAULT]: " INPUT
     ops env DB_DATABASE ${INPUT:-$DEFAULT}
@@ -60,9 +60,10 @@ ops-install() {
         echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
     fi
 
-    if [[ -z "$SECURITY_KEY" ]]; then
-        ops craft setup/security-key
-    fi
+    # get updated settings
+    DB_DATABASE=$(ops env DB_DATABASE)
+    OPS_PROJECT_REMOTE_DB_NAME=$(ops env OPS_PROJECT_REMOTE_DB_NAME)
+    SECURITY_KEY=$(ops env SECURITY_KEY)
 
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
@@ -74,6 +75,10 @@ ops-install() {
         echo "Importing padstone.sql into $DB_DATABASE..."
         ops mariadb import $DB_DATABASE < ./padstone.sql
         ops craft migrate
+    fi
+
+    if [[ -z "$SECURITY_KEY" ]]; then
+        ops craft setup/security-key
     fi
 
     ops composer install
