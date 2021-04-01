@@ -61,9 +61,7 @@ ops-install() {
     fi
 
     # get updated settings
-    DB_DATABASE=$(ops env DB_DATABASE)
-    OPS_PROJECT_REMOTE_DB_NAME=$(ops env OPS_PROJECT_REMOTE_DB_NAME)
-    SECURITY_KEY=$(ops env SECURITY_KEY)
+    source <(ops env)
 
     if [[ -n "$DB_DATABASE" ]] && [[ -n "$OPS_PROJECT_REMOTE_DB_NAME" ]]; then
         read -p "Run ops sync now [Yn]: " INPUT
