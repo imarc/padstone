@@ -1,0 +1,11 @@
+contentColumnType: text
+fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
+handle: headerCode
+instructions: 'Provide any relevant meta tags, Open Graph tags, or Javascript to be placed on in the page''s header. Useful for Twitter Cards - https://dev.twitter.com/cards/overview - or additional Open Graph tags.'
+name: 'Additional Header Code'
+searchable: true
+settings:
+  mode: gfm
+translationKeyFormat: null
+translationMethod: none
+type: luwes\codemirror\fields\CodeMirrorField

@@ -1,0 +1,19 @@
+contentColumnType: text
+fieldGroup: 28bbb761-2bca-4754-ba9e-c0bfe22f4496
+handle: personAbstract
+instructions: 'This is a short paragraph used to describe this person when not viewing their full bio.'
+name: Abstract
+searchable: '1'
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Simple.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

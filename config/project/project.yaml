@@ -1,0 +1,140 @@
+dateModified: 1617396317
+email:
+  fromEmail: kevin@imarc.com
+  fromName: Padstone
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+plugins:
+  admin-bar:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 3.1.0
+    settings:
+      bgColor: '#000000'
+      cacheBar: true
+      customLinks:
+        -
+          adminOnly: ''
+          linkLabel: foo
+          linkUrl: fooo
+      displayDashboardLink: true
+      displayDefaultEditSection: true
+      displayEditAuthor: true
+      displayEditDate: true
+      displayGreeting: true
+      displayLogout: true
+      displayRevisionNote: true
+      displaySettingsLink: true
+      enableMobileMenu: true
+      highlightColor: '#D85B4B'
+      scrollLinks: true
+      textColor: '#FFFFFF'
+  code-mirror:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  contact-form:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  contact-form-honeypot:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  craft-kindling:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    enabled: true
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings:
+      expandSingles: '1'
+      redirectToEntry: '1'
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.3.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  googlecustomsearch:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  imager:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  mix:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings:
+      assetPath: /
+      publicPath: web
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: EJDC0EFFBVJWC4IDGXKLNLLX
+    schemaVersion: 2.8.16
+  position-fieldtype:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+  redactor:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 2.3.0
+    settings: null
+  redirect:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.5
+    settings: null
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.9
+  sprout-fields:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.5.3
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  tag-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    enabled: '1'
+    licenseKey: null
+    schemaVersion: 1.0.0
+    settings: null
+system:
+  edition: solo
+  live: true
+  name: Padstone
+  schemaVersion: 3.6.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

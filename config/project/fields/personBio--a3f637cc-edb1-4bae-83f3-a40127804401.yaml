@@ -1,0 +1,19 @@
+contentColumnType: text
+fieldGroup: 28bbb761-2bca-4754-ba9e-c0bfe22f4496
+handle: personBio
+instructions: 'Full bio of this person.'
+name: Bio
+searchable: '1'
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Standard.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

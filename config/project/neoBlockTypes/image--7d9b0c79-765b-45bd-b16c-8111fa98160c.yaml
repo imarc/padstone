@@ -1,0 +1,25 @@
+childBlocks: ''
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  5cdc95af-5b2d-4174-bd92-20a96589e54e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4cf8035e-3fdb-4fee-b44e-7876f8adc134 # Image
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Image
+        sortOrder: 1
+handle: image
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Image
+sortOrder: 5
+topLevel: false

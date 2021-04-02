@@ -1,0 +1,12 @@
+fieldLayouts:
+  5901683b-5120-4653-bbac-df8cf79a06cb:
+    tabs:
+      -
+        fields:
+          0ab4908b-bab6-4e71-ae0b-a5b6098cdaa2:
+            required: true
+            sortOrder: 1
+        name: Navigation
+        sortOrder: 1
+handle: primaryNavigation
+name: 'Primary Navigation'

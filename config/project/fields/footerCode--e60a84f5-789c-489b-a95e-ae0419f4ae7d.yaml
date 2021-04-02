@@ -1,0 +1,11 @@
+contentColumnType: text
+fieldGroup: 4cd84b5c-0162-4148-a588-37b2fcc1da0a
+handle: footerCode
+instructions: 'Any raw code or Javascript entered here will be output at the bottom of this page. This can be used for calling specific Marketo or Google Analytics scripts that are specific to this page and not part of the global template.'
+name: 'Additional Footer Code'
+searchable: true
+settings:
+  mode: gfm
+translationKeyFormat: null
+translationMethod: none
+type: luwes\codemirror\fields\CodeMirrorField

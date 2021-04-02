@@ -1,0 +1,26 @@
+childBlocks:
+  - callToAction
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  11ed3f6f-5a22-4208-a5b1-3ee2095997ee:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 39ab22fe-4e77-41e6-8c13-442f832d2fc4 # Content
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Text
+        sortOrder: 1
+handle: Text
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Text
+sortOrder: 3
+topLevel: false

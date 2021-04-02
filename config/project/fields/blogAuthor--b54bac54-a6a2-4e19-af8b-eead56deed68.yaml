@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
+handle: blogAuthor
+instructions: ''
+name: Author
+searchable: true
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Specify the author'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:eea7d11e-037c-44d7-a992-bd1eaf2b3f72' # Authors
+    - 'section:c87b5acc-afe1-4ddf-b73c-b449c9f29c2d' # Team
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

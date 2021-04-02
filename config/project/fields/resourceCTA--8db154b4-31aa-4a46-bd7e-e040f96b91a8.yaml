@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+handle: resourceCTA
+instructions: 'Text shown on the Call to Action to download this file.'
+name: 'Call to Action'
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

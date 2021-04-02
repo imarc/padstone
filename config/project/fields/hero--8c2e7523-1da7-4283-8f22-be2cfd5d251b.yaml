@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
+handle: hero
+instructions: ''
+name: 'Select Hero'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_hero}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

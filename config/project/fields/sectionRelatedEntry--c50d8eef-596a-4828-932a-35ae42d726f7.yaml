@@ -1,0 +1,20 @@
+contentColumnType: string
+fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
+handle: sectionRelatedEntry
+instructions: ''
+name: 'Related Entry'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Select Entry'
+  showSiteMenu: true
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

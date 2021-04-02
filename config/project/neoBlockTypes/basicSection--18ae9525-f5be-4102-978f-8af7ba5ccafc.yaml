@@ -1,0 +1,16 @@
+childBlocks:
+  - Text
+  - callToAction
+  - image
+  - relatedEntry
+  - Testimonial
+  - video
+  - embed
+field: ccef03bc-c845-46cb-abd4-fa037632c2be # Content Designer (Basic)
+handle: basicSection
+maxBlocks: 0
+maxChildBlocks: 3
+maxSiblingBlocks: 0
+name: 'Basic Section'
+sortOrder: 1
+topLevel: true

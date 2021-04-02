@@ -1,0 +1,10 @@
+handle: resourceTypes
+name: 'Resource Types'
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c:
+    hasUrls: true
+    template: ''
+    uriFormat: 'resources?type={slug}'
+structure:
+  maxLevels: 1
+  uid: a05bccd3-a5b7-4519-a8de-a9fd24a1f6fe

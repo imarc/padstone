@@ -1,0 +1,8 @@
+handle: resources
+hasUrls: true
+name: Resources
+settings:
+  path: '@webroot/resources'
+sortOrder: 2
+type: craft\volumes\Local
+url: /resources

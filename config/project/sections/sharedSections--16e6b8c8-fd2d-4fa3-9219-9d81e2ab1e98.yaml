@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: sharedSections
+name: 'Shared Sections'
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c:
+    enabledByDefault: false
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 2f71ab53-78c9-442d-a830-50cc16e2c184
+type: structure

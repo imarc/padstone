@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
+handle: footerNavItems
+instructions: ''
+name: 'Footer Nav Items'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_footernavitems}}'
+  maxBlocks: '6'
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

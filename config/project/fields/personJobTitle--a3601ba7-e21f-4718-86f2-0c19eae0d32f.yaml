@@ -1,0 +1,15 @@
+contentColumnType: text
+fieldGroup: 28bbb761-2bca-4754-ba9e-c0bfe22f4496
+handle: personJobTitle
+instructions: ''
+name: 'Job Title'
+searchable: '1'
+settings:
+  charLimit: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

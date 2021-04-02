@@ -1,0 +1,13 @@
+contentColumnType: datetime
+fieldGroup: 6533045f-a95c-45a5-a67a-c8da4cec0d5d
+handle: newsDate
+instructions: 'Date of this article.'
+name: Date
+searchable: '1'
+settings:
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

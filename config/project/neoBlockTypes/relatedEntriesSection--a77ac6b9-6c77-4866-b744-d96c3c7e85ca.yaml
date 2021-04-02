@@ -1,0 +1,10 @@
+childBlocks:
+  - relatedEntry
+field: ccef03bc-c845-46cb-abd4-fa037632c2be # Content Designer (Basic)
+handle: relatedEntriesSection
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Related Entries Section'
+sortOrder: 11
+topLevel: true

@@ -1,0 +1,123 @@
+field: e64822fb-fcca-4268-bbd0-904594ef1765
+fieldLayouts:
+  4cec4b33-b2c4-40c1-9484-c84c33900288:
+    tabs:
+      -
+        fields:
+          3b513ac1-6451-43f1-a7f0-c2339d8cb885:
+            required: true
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  3b513ac1-6451-43f1-a7f0-c2339d8cb885:
+    contentColumnType: text
+    fieldGroup: null
+    handle: blockLink
+    instructions: "You may select an entry, provide a URL or link to an asset for dropdown links.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry. Asset links with no custom link text will use the name of the file."
+    name: Link
+    searchable: true
+    settings:
+      allowCustomText: '1'
+      allowTarget: ''
+      allowedLinkNames:
+        1: asset
+        3: entry
+        9: url
+      autoNoReferrer: ''
+      defaultLinkName: entry
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        __assoc__:
+          -
+            - asset
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - category
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - entry
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - site
+            -
+              __assoc__:
+                -
+                  - sites
+                  - '*'
+          -
+            - user
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - custom
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - email
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - tel
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - url
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: typedlinkfield\fields\LinkField

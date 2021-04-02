@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
+handle: sectionJobTitle
+instructions: ''
+name: 'Job Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

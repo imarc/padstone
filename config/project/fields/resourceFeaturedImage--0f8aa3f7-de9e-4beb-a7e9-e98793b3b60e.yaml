@@ -1,0 +1,25 @@
+contentColumnType: string
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+handle: resourceFeaturedImage
+instructions: 'This image will be shown in lists and other places this resource is featured.'
+name: 'Featured Image'
+searchable: true
+settings:
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: ''
+  selectionLabel: 'Add a featured image'
+  singleUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: ''
+  validateRelatedElements: ''
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
+handle: sectionIconGrid
+instructions: ''
+name: 'Icon Grid'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sectionicongrid}}'
+  maxBlocks: ''
+  minBlocks: '1'
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
