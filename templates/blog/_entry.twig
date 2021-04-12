@@ -10,7 +10,7 @@
         <p class="text-muted">{{ entry.blogDate|date("F jS, Y") }}</p>
     </div>
 
-    {{ macros.renderAllBlocks(entry.designedContent) }}
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
 
     <div class="text-center my-5">
         {% set index = craft.entries.section('blogPage').one %}

@@ -1,12 +1,12 @@
 {##
-# The renderBlock macro renders a single block from a designedContent field.
+# The renderBlock macro renders a single block from a contentDesigner field.
 # Mostly for use by renderAllBlocks().
 #}
 {% macro renderBlock(block, blockLoop) %}{% spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedBlock' %}
         {% for subblock in block.sharedBlock.all() %}
-            {{ macros.renderAllBlocks(subblock.designedContent, loop) }}
+            {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
         {% include '/_blocks/' ~ block.type %}
@@ -15,7 +15,7 @@
 
 
 {##
-# The renderAllBlocks macro renders all blocks within a designedContent field.
+# The renderAllBlocks macro renders all blocks within a contentDesigner field.
 # It loops through the blocks and looks within templates/_blocks/ for a twig file
 # matching the block type's handle. The only exception is sharedBlock - which it
 # expects is a block designed to allow creating and reusing shared blocks within
@@ -24,7 +24,7 @@
 {% macro renderAllBlocks(field) %}{% spaceless %}
     {% import _self as macros %}
 
-    {% for block in field.all() %}
+    {% for block in field.level(1).all() %}
         {{ macros.renderBlock(block, loop) }}
     {% endfor %}
 {% endspaceless %}{% endmacro %}
@@ -122,4 +122,12 @@
      {% set list = list ~ element.title %}
  {% endfor %}
  {{ list }}
+{% endspaceless %}{% endmacro %}
+
+{##
+ #
+ #}
+{% macro numberToWord(number, suffix = '') %}{% spaceless %}
+    {% set numbers = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'] %}
+    {{ numbers[ max(number, 0) ] ~ suffix }}
 {% endspaceless %}{% endmacro %}
