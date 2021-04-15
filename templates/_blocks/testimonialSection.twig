@@ -9,17 +9,20 @@
             <h2 class="layer__heading">{{ block.sectionHeading }}</h2>
             <h3 class="layer__subtitle">{{ block.sectionSubheading }}</h3>
         </div>
-        <div class="layer__introduction">
-            {{ block.sectionIntroduction }}
-        </div>
 
-        <div class="layer__content">
-            {% for subblock in block.children.all() %}
-                <div class="layer__item">
-                    {{ macros.renderBlock(subblock) }}
+        <figure class="testimonial">
+            <blockquote class="testimonial__quote">
+                {{ block.sectionQuote }}
+            </blockquote>
+            <figcaption class="testimonial__caption">
+                <div class="avatar -horizontal testimonial__attribution">
+                    <div class="avatar__info">
+                        <h2 class="avatar__name">{{ block.sectionPerson }}</h2>
+                        <div class="avatar__title">{{ block.sectionJobTitle }}</div>
+                    </div>
                 </div>
-            {% endfor %}
-        </div>
+            </figcaption>
+        </figure>
 
         <div class="layer__conclusion">
             {{ block.sectionConclusion }}

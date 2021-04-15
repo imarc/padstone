@@ -132,14 +132,14 @@ These plugins didn't make the cut for Padstone, but they are plugins we'd recomm
 
 There is a `_macros.twig` file that provides The following macros:
 
-* **renderAllBlocks** and **renderBlock** - these are used to render the designedContent field.
+* **renderAllBlocks** and **renderBlock** - these are used to render the contentDesigner field.
 * **pagination** - used to generate pagination.
 * **commaSeparate** - used to generate a comma separated list of elements based on title.
 
 
 ### Blocks
 
-The **Content Designer** Field (designedContent) allows CMS users to use the following blocks out of the box:
+The **Content Designer** Field (contentDesigner) allows CMS users to use the following blocks out of the box:
 
 * Rich Text
 * Two Columns

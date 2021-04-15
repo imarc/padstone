@@ -59,30 +59,8 @@
                 {% block content %}{% endblock %}
             </main>
 
-            <footer class="bg-dark text-white py-5 mt-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md">
-                            {{ siteName }}
-                            <small class="d-block mb-3 text-muted">© {{ "now"|date("Y") }}</small>
-                        </div>
+            {% include "/_partials/footer" %}
 
-                        {% for item in footerNavigation.footerNavItems.all() %}
-                            <div class="col-6 col-md">
-                                <h5>{{ item.topLevelItem.link({class: 'text-white'}) }}</h5>
-
-                                {% if item.columnLinks|length %}
-                                    <ul class="list-unstyled text-small">
-                                        {% for link in item.columnLinks.all() %}
-                                            <li>{{ link.blockLink.link({class: 'text-light'}) }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </footer>
         </div>
 
 
