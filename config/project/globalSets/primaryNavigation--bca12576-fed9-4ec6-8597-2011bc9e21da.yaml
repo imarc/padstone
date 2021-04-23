@@ -2,10 +2,16 @@ fieldLayouts:
   5901683b-5120-4653-bbac-df8cf79a06cb:
     tabs:
       -
-        fields:
-          0ab4908b-bab6-4e71-ae0b-a5b6098cdaa2:
-            required: true
-            sortOrder: 1
+        elements:
+          -
+            fieldUid: 76189277-255d-4e96-a6a5-6d393515b059 # Navigation Links
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Navigation
         sortOrder: 1
 handle: primaryNavigation

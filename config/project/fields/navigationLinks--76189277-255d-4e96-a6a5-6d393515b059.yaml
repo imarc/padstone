@@ -1,14 +1,16 @@
 contentColumnType: string
 fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
-handle: footerNavItems
+handle: navigationLinks
 instructions: ''
-name: 'Footer Nav Items'
-searchable: true
+name: 'Navigation Links'
+searchable: false
 settings:
-  contentTable: '{{%matrixcontent_footernavitems}}'
-  maxBlocks: '6'
+  maxBlocks: ''
+  maxLevels: '3'
+  maxTopBlocks: '7'
   minBlocks: ''
   propagationMethod: all
+  wasModified: false
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Matrix
+type: benf\neo\Field

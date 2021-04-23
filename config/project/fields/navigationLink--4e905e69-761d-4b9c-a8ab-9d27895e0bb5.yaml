@@ -1,16 +1,20 @@
 contentColumnType: text
 fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
-handle: twitterLink
-instructions: ''
-name: 'Twitter Link'
-searchable: true
+handle: navigationLink
+instructions: "You may select an entry, provide a URL or link to an asset for dropdown links.\r\n\r\nPlease note: if you choose to provide a URL, you MUST also provide \"Custom link text\", otherwise the link will appear blank. Entry links with no custom link text will fall back on the title of the entry. Asset links with no custom link text will use the name of the file."
+name: Link
+searchable: false
 settings:
-  allowCustomText: ''
+  allowCustomText: '1'
   allowTarget: ''
   allowedLinkNames:
+    1: asset
+    3: entry
+    7: email
+    8: tel
     9: url
   autoNoReferrer: ''
-  defaultLinkName: url
+  defaultLinkName: entry
   defaultText: ''
   enableAriaLabel: ''
   enableTitle: ''

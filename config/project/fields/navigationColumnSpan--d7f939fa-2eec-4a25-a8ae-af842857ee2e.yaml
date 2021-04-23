@@ -1,0 +1,34 @@
+contentColumnType: string
+fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
+handle: navigationColumnSpan
+instructions: 'Whether nested navigation links should be displayed spanning more than one column on large enough displays.'
+name: 'Column Span'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - One
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Two
+        -
+          - value
+          - two
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

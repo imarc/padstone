@@ -13,10 +13,10 @@
             {{ block.sectionIntroduction }}
         </div>
 
-        <div class="layer__content cards">
-            {% for subblock in block.children.all() %}
-                <div class="layer__item cards__card card">
-                    {{ macros.renderBlock(subblock) }}
+        <div class="layer__content">
+            {% for icon in block.sectionIconGrid.all() %}
+                <div class="layer__item">
+                    {{ icon }}
                 </div>
             {% endfor %}
         </div>

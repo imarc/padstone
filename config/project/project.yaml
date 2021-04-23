@@ -1,4 +1,4 @@
-dateModified: 1617396317
+dateModified: 1619185871
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -108,6 +108,7 @@ plugins:
   seomatic:
     edition: standard
     enabled: true
+    licenseKey: IL7KLC0Y2B2BX6DTIO9QTGIM
     schemaVersion: 3.0.9
   sprout-fields:
     edition: standard

@@ -1,5 +1,10 @@
-{{ block.sectionRelatedEntry }}
-{{ block.sectionImage }}
-{{ block.sectionLabel }}
-{{ block.sectionContent }}
-{{ block.sectionCTALabel }}
+<div class="card__background" style="opacity: .3; background-image: url({{ block.sectionImage.one.url }})"></div>
+<h4 class="card__headline">{{ block.sectionLabel }}</h4>
+<div class="card__content">
+    {{ block.sectionContent }}
+</div>
+<div class="card__actions">
+    <a href="{{ block.sectionRelatedEntry.one.url }}" class="card__action button -primary">
+        {{ block.sectionCTALabel }}
+    </a>
+</div>
