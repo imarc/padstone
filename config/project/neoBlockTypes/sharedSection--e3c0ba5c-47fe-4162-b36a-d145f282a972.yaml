@@ -1,0 +1,25 @@
+childBlocks: ''
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  c9ba615c-307e-4854-9d13-79a861c9679a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 65565a16-00f4-46e1-8520-6975a775133d # Shared Section
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Shared Section'
+        sortOrder: 1
+handle: sharedSection
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Shared Section'
+sortOrder: 13
+topLevel: true
