@@ -35,7 +35,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Shared Block'
+        name: 'Shared Section'
         sortOrder: 1
 handle: sharedSection
 hasTitleField: true
