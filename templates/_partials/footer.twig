@@ -20,7 +20,7 @@
         </a>
 
         <nav class="siteFooter__links linkGroups">
-            {% for navItem in primaryNavigation.navigationLinks.level(1) %}
+            {% for navItem in footerNavigation.navigationLinks.level(1) %}
                 <div class="linkGroup">
                     {% if navItem.type == 'navigationLink' %}
                         {{ navItem.navigationLink.getLink({ class: 'linkGroup__heading' }) }}
@@ -38,7 +38,7 @@
                                         {% elseif subNavItem.type == 'navigationGroup' %}
                                             <div class="linkGroup__heading -secondary">{{ subNavItem.navigationHeading }}</div>
                                         {% endif %}
-                                        <ul class="linkGroup__list -secondary">
+                                        <ul class="linkGroup__list -secondary {{ subNavItem.navigationColumnSpan }}">
                                             {% for subSubNavItem in subNavItem.children %}
                                                 <li class="linkGroup__item -secondary">
                                                     {% if subSubNavItem.type == 'navigationLink' %}
