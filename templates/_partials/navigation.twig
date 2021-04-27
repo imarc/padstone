@@ -16,9 +16,9 @@
                                         {% for subNavItem in navItem.children %}
                                             <div class="linkGroup">
                                                 {% if subNavItem.type == 'navigationLink' %}
-                                                    {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__title' }) }}
+                                                    {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__heading' }) }}
                                                 {% elseif subNavItem.type == 'navigationGroup' %}
-                                                    <div class="linkGroup__title">{{ subNavItem.navigationHeading }}</div>
+                                                    <div class="linkGroup__heading">{{ subNavItem.navigationHeading }}</div>
                                                 {% endif %}
                                                 <ul class="linkGroup__list {{ subNavItem.navigationColumnSpan }}">
                                                     {% for subSubNavItem in subNavItem.children %}

@@ -19,51 +19,49 @@
             <div class="siteFooter__siteName">{{ siteName }}</div>
         </a>
 
-        <nav class="siteFooter__links footerNav">
-            <ul class="footerNav__list linkGroups">
-                {% for navItem in primaryNavigation.navigationLinks.level(1) %}
-                    <li class="footerNav__item linkGroup">
-                        {% if navItem.type == 'navigationLink' %}
-                            {{ navItem.navigationLink.getLink({ class: 'linkGroup__title' }) }}
-                        {% elseif navItem.type == 'navigationGroup' %}
-                            <div class="linkGroup__title">{{ navItem.navigationHeading }}</div>
-                        {% endif %}
+        <nav class="siteFooter__links linkGroups">
+            {% for navItem in primaryNavigation.navigationLinks.level(1) %}
+                <div class="linkGroup">
+                    {% if navItem.type == 'navigationLink' %}
+                        {{ navItem.navigationLink.getLink({ class: 'linkGroup__heading' }) }}
+                    {% elseif navItem.type == 'navigationGroup' %}
+                        <div class="linkGroup__heading">{{ navItem.navigationHeading }}</div>
+                    {% endif %}
 
-                        {% if navItem.children|length %}
-                            <ul class="linkGroup__list {{ navItem.navigationColumnSpan }}">
-                                {% for subNavItem in navItem.children %}
-                                    <li class="linkGroup__item">
-                                        {% if subNavItem.children|length %}
-                                            {% if subNavItem.type == 'navigationLink' %}
-                                                {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__subtitle' }) }}
-                                            {% elseif subNavItem.type == 'navigationGroup' %}
-                                                <div class="linkGroup__subtitle">{{ subNavItem.navigationHeading }}</div>
-                                            {% endif %}
-                                            <ul class="linkGroup__sublist">
-                                                {% for subSubNavItem in subNavItem.children %}
-                                                    <li class="linkGroup__subitem">
-                                                        {% if subSubNavItem.type == 'navigationLink' %}
-                                                            {{ subSubNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
-                                                        {% elseif subSubNavItem.type == 'navigationGroup' %}
-                                                            <div class="linkGroup__link">{{ subNavItem.navigationHeading }}</div>
-                                                        {% endif %}
-                                                    </li>
-                                                {% endfor %}
-                                            </ul>
-                                        {% else %}
-                                            {% if subNavItem.type == 'navigationLink' %}
-                                                {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
-                                            {% elseif subNavItem.type == 'navigationGroup' %}
-                                                {{ subNavItem.navigationHeading }}
-                                            {% endif %}
+                    {% if navItem.children|length %}
+                        <ul class="linkGroup__list {{ navItem.navigationColumnSpan }}">
+                            {% for subNavItem in navItem.children %}
+                                <li class="linkGroup__item">
+                                    {% if subNavItem.children|length %}
+                                        {% if subNavItem.type == 'navigationLink' %}
+                                            {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__heading -secondary' }) }}
+                                        {% elseif subNavItem.type == 'navigationGroup' %}
+                                            <div class="linkGroup__heading -secondary">{{ subNavItem.navigationHeading }}</div>
                                         {% endif %}
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
+                                        <ul class="linkGroup__list -secondary">
+                                            {% for subSubNavItem in subNavItem.children %}
+                                                <li class="linkGroup__item -secondary">
+                                                    {% if subSubNavItem.type == 'navigationLink' %}
+                                                        {{ subSubNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
+                                                    {% elseif subSubNavItem.type == 'navigationGroup' %}
+                                                        <div class="linkGroup__link">{{ subNavItem.navigationHeading }}</div>
+                                                    {% endif %}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% else %}
+                                        {% if subNavItem.type == 'navigationLink' %}
+                                            {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
+                                        {% elseif subNavItem.type == 'navigationGroup' %}
+                                            {{ subNavItem.navigationHeading }}
+                                        {% endif %}
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
         </nav>
 
         <nav class="siteFooter__socialLinks">
