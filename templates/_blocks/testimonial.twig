@@ -1,18 +1,17 @@
-<div class="layer testimonial {% if not blockLoop.first %}pt-5{% endif %}">
-    <div class="container">
-        {% if block.sectionTitle %}
-            <h2>
-                {{ block.sectionTitle }}
-            </h2>
-        {% endif %}
+{% extends "/_blocks/baseSection" %}
 
-        <blockquote class="blockquote text-center">
-            {{ block.quote }}
-            <footer class="blockquote-footer">
-                {{ block.person }}, {{ block.jobTitle }}
-            </footer>
+{% block content %}
+    <figure class="testimonial">
+        <blockquote class="testimonial__quote">
+            {{ block.sectionQuote }}
         </blockquote>
-
-        <hr class="mt-5">
-    </div>
-</div>
+        <figcaption class="testimonial__caption">
+            <div class="avatar -horizontal testimonial__attribution">
+                <div class="avatar__info">
+                    <h2 class="avatar__name">{{ block.sectionPerson }}</h2>
+                    <div class="avatar__title">{{ block.sectionJobTitle }}</div>
+                </div>
+            </div>
+        </figcaption>
+    </figure>
+{% endblock %}

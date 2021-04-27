@@ -4,12 +4,12 @@
 #}
 {% macro renderBlock(block, blockLoop) %}{% spaceless %}
     {% import _self as macros %}
-    {% if block.type == 'sharedBlock' %}
-        {% for subblock in block.sharedBlock.all() %}
+    {% if block.type == 'sharedSection' %}
+        {% for subblock in block.sharedSection.all() %}
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
-        {% include '/_blocks/' ~ block.type %}
+        {% include ['/_blocks/' ~ block.type, '/_blocks/baseSection'] %}
     {% endif %}
 {% endspaceless %}{% endmacro %}
 
@@ -17,8 +17,8 @@
 {##
 # The renderAllBlocks macro renders all blocks within a contentDesigner field.
 # It loops through the blocks and looks within templates/_blocks/ for a twig file
-# matching the block type's handle. The only exception is sharedBlock - which it
-# expects is a block designed to allow creating and reusing shared blocks within
+# matching the block type's handle. The only exception is sharedSection - which it
+# expects is a block designed to allow creating and reusing shared sections within
 # a separate CMS section.
 #}
 {% macro renderAllBlocks(field) %}{% spaceless %}
@@ -27,6 +27,12 @@
     {% for block in field.level(1).all() %}
         {{ macros.renderBlock(block, loop) }}
     {% endfor %}
+{% endspaceless %}{% endmacro %}
+
+
+{% macro renderColumn(block) %}{% spaceless %}
+    {% set columnName = block.type|replace('/Column$/', '') %}
+    {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] %}
 {% endspaceless %}{% endmacro %}
 
 

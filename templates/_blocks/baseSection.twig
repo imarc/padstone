@@ -4,28 +4,55 @@
 
 <div class="layer -{{ block.type }} -{{ columnClass }}">
     <div class="layer__container container">
-        <div class="layer__heading">
-            <div class="eyebrow -primary">{{ block.sectionKicker }}</div>
-            <h2 class="layer__heading">{{ block.sectionHeading }}</h2>
-            <h3 class="layer__subheading">{{ block.sectionSubheading }}</h3>
-        </div>
-        <div class="layer__introduction">
-            {{ block.sectionIntroduction }}
-        </div>
+        {% block header %}
+            {% if block.sectionKicker or block.sectionHeading or block.sectionSubheading %}
+                <header class="layer__header">
+                    {% if block.sectionKicker %}
+                        <div class="kicker -primary">{{ block.sectionKicker }}</div>
+                    {% endif %}
+                    {% if block.sectionHeading %}
+                        <h2 class="layer__heading">{{ block.sectionHeading }}</h2>
+                    {% endif %}
+                    {% if block.sectionSubheading %}
+                        <h3 class="layer__subheading">{{ block.sectionSubheading }}</h3>
+                    {% endif %}
+                </header>
+            {% endif %}
+        {% endblock %}
 
-        <div class="layer__content">
-            {% for subblock in block.children.all() %}
-                <div class="layer__item">
-                    {{ macros.renderBlock(subblock) }}
+        {% block introduction %}
+            {% if block.sectionIntroduction %}
+                <div class="layer__introduction">
+                    {{ block.sectionIntroduction }}
                 </div>
-            {% endfor %}
-        </div>
+            {% endif %}
+        {% endblock %}
 
-        <div class="layer__conclusion">
-            {{ block.sectionConclusion }}
-        </div>
-        <div class="layer__actions">
-            {{ block.sectionCTA.getLink({ class: "layer__actions button -primary" }) }}
-        </div>
+        {% block content %}
+            <div class="layer__content">
+                {% for subblock in block.children.all() %}
+                    <div class="layer__item">
+                        {{ macros.renderBlock(subblock) }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endblock %}
+
+        {% block conclusion %}
+            {% if block.sectionConclusion|length or block.sectionCTA %}
+                <div class="layer__footer">
+                    {% if block.sectionConclusion %}
+                        <div class="layer__conclusion">
+                            {{ block.sectionConclusion }}
+                        </div>
+                    {% endif %}
+                    {% if block.sectionCTA %}
+                        <div class="layer__actions">
+                            {{ block.sectionCTA.getLink({ class: "layer__action button -primary" }) }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        {% endblock %}
     </div>
 </div>

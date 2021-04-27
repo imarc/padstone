@@ -1,0 +1,11 @@
+{% extends "/_blocks/baseSection" %}
+
+{% block content %}
+    <div class="layer__content">
+        {% for icon in block.sectionIconGrid.all() %}
+            <div class="layer__item">
+                {{ icon }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
