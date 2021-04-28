@@ -137,3 +137,7 @@
     {% set numbers = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'] %}
     {{ numbers[ max(number, 0) ] ~ suffix }}
 {% endspaceless %}{% endmacro %}
+
+{% macro responsiveImage(asset, transforms = {}, pictureClass = '', imgClass = '') %}{% spaceless %}
+    {% include '/_partials/responsiveImage.twig' %}
+{% endspaceless %}{% endmacro %}
