@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import store from './store.js';
 import {
     LiveSearch,
@@ -8,8 +7,7 @@ import {
     ResetsPage,
 } from 'clockvine-vue';
 
-const app = new Vue({
-    el: 'main',
+export default {
     store,
 
     data: {
@@ -47,4 +45,4 @@ const app = new Vue({
         blogCategories: CollectionComponent.for('blogCategories'),
         search: LiveSearch,
     },
-})
+}

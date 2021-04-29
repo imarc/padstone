@@ -1,0 +1,29 @@
+{% import "/_macros" as macros %}
+{% set section = 'newsEventsPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with { hero: entry.hero } %}
+
+    <section class="container">
+        <div class="cards">
+            {% for article in craft.entries.section('news').all() %}
+                <div class="card">
+                    <div class="card__container">
+                        <div class="card__background" style="opacity: .3; background-image: url(https://placeimg.com/640/320/tech/grayscale)"></div>
+                        <div class="card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 6 6" stroke-width=".25" stroke="currentColor" fill="none"><rect x="1" y="1" width="4" height="4" rx="1" /></svg>
+                        </div>
+                        <h4 class="card__heading">{{ article.link }}</h4>
+                        <div class="card__content">
+                            {{ article.newsDate|date('F jS, Y') }}
+                        </div>
+                        <div class="card__actions">
+                            <a href="" class="card__action button -primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+{% endblock %}

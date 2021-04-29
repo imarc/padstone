@@ -6,7 +6,7 @@ siteSettings:
   5a949caa-356a-45ea-b408-2b267055c99c:
     enabledByDefault: true
     hasUrls: true
-    template: _default
+    template: _page
     uriFormat: '{slug}'
 structure:
   maxLevels: null
