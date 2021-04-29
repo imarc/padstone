@@ -2,20 +2,20 @@
 {% set section = 'newsEventsPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with {
-        headline: entry.title
-    } %}
-
-    <div class="container">
-        <p class="text-muted">{{ entry.newsDate|date("F jS, Y") }}</p>
-    </div>
+    {% include '_partials/hero' with { hero: {
+        kicker: 'News',
+        headline: entry.title,
+        introduction: entry.newsDate|date('F jS, Y'),
+    } } %}
 
     {{ macros.renderAllBlocks(entry.contentDesigner) }}
 
+    {#
     <div class="text-center my-5">
         {% set index = craft.entries.section('newsEventsPage').one %}
         <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
     </div>
+    #}
 
 
 {% endblock %}

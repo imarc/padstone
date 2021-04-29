@@ -1,11 +1,7 @@
 {% import "/_macros" as macros %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with {
-        headline: entry.headline,
-        subheadline: entry.subheadline
-    } %}
+    {% include '_partials/hero' with { hero: entry.hero.one } %}
 
     {{ macros.renderAllBlocks(entry.contentDesigner) }}
-
 {% endblock %}

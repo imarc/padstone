@@ -24,9 +24,11 @@
 {% macro renderAllBlocks(field) %}{% spaceless %}
     {% import _self as macros %}
 
-    {% for block in field.level(1).all() %}
-        {{ macros.renderBlock(block, loop) }}
-    {% endfor %}
+    {% if field is not null %}
+        {% for block in field.level(1).all() %}
+            {{ macros.renderBlock(block, loop) }}
+        {% endfor %}
+    {% endif %}
 {% endspaceless %}{% endmacro %}
 
 

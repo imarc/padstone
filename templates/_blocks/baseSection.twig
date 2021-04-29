@@ -31,7 +31,7 @@
         {% block content %}
             <div class="layer__content">
                 {% for subblock in block.children.all() %}
-                    <div class="layer__item">
+                    <div class="layer__item -{{ subblock.type|replace('/Column$/', '') }}">
                         {{ macros.renderColumn(subblock) }}
                     </div>
                 {% endfor %}
