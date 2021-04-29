@@ -1,4 +1,4 @@
-{% do asset.setTransform(transforms) %}
+{% do asset.setTransform(transform) %}
 
 {% set defaultSizes = [ 640, 768, 1024, 1366, 1600, 1920 ] %}
 {% if asset.width %}
@@ -12,7 +12,7 @@
 {% endif %}
 
 {% set srcset = asset.getSrcset(sizes) %}
-{% do asset.setTransform(transforms|merge({ format: 'webp' })) %}
+{% do asset.setTransform(transform|merge({ format: 'webp' })) %}
 {% set webpSrcset = asset.getSrcset(sizes) %}
 
 <picture class="{{ pictureClass }}">

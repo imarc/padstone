@@ -116,6 +116,29 @@
 {% endmacro %}
 
 {##
+ # This macro is for generate the markup for responsive images. It uses the
+ # responseImage.twig partial.
+ #
+ # @param asset (Object)
+ #     A Craft Asset
+ #
+ # @param options (Object)
+ #     The follow keys can be defined within this object, all are optional:
+ #
+ #     transform - the transform to use using the object syntax. That means to
+ #         use a named transform, you'd need to specify it as { transform:
+ #         'transformName' }.
+ #
+ #     pictureClass - class(es) to apply to the <picture> tag.
+ #
+ #     imgClass - class(es) to apply to the <img> tag.
+ #}
+ {% macro responsiveImage(asset, options = {}) %}{% spaceless %}
+    {% set options = { transform: {}, pictureClass: '', imgClass: ''} |merge(options) %}
+    {% include '/_partials/responsiveImage.twig' with options %}
+{% endspaceless %}{% endmacro %}
+
+{##
 # Returns a comma separate list of the titles of the elements passed in.
 # Useful for things like categories.
 #}
@@ -138,6 +161,3 @@
     {{ numbers[ max(number, 0) ] ~ suffix }}
 {% endspaceless %}{% endmacro %}
 
-{% macro responsiveImage(asset, transforms = {}, pictureClass = '', imgClass = '') %}{% spaceless %}
-    {% include '/_partials/responsiveImage.twig' %}
-{% endspaceless %}{% endmacro %}
