@@ -3,11 +3,16 @@ handle: homepage
 name: Homepage
 previewTargets:
   -
-    label: 'Primary entry page'
-    urlFormat: '{url}'
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
-  5a949caa-356a-45ea-b408-2b267055c99c:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
     enabledByDefault: true
     hasUrls: true
     template: _index

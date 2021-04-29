@@ -1,9 +1,11 @@
 contentColumnType: text
-fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceEmbed
 instructions: 'Paste code to embed a video or other widget here.'
 name: Embed
-searchable: '1'
+searchable: true
+settings:
+  mode: ''
 translationKeyFormat: null
 translationMethod: none
 type: luwes\codemirror\fields\CodeMirrorField

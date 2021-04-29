@@ -3,7 +3,7 @@ handle: team
 name: Team
 propagationMethod: all
 siteSettings:
-  5a949caa-356a-45ea-b408-2b267055c99c:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
     enabledByDefault: true
     hasUrls: false
     template: null

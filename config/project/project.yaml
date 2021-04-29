@@ -1,12 +1,8 @@
-dateModified: 1619710426
+dateModified: 1619719175
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 plugins:
   admin-bar:
     enabled: '1'

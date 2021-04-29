@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c2f6ae57-a58a-4ddb-8776-b3510df685a6
+            fieldUid: c2f6ae57-a58a-4ddb-8776-b3510df685a6 # Start Date
             instructions: null
             label: null
             required: '1'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: cd059144-5cb6-46db-bcea-8d8e1d747107
+            fieldUid: cd059144-5cb6-46db-bcea-8d8e1d747107 # End Date
             instructions: null
             label: null
             required: '0'
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: 4f214271-7640-4763-948d-3eb791a16473
+            fieldUid: 4f214271-7640-4763-948d-3eb791a16473 # Location
             instructions: null
             label: null
             required: false
@@ -85,7 +85,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d
+            fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
             required: '0'
@@ -94,7 +94,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d
+            fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
             required: '0'

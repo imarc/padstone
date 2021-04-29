@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fe9f15e5-2b68-477e-af16-c6e83c83e642
+            fieldUid: fe9f15e5-2b68-477e-af16-c6e83c83e642 # Featured Image
             instructions: null
             label: null
             required: '0'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2575b2df-9c7d-43dc-b00c-7c8b4a389b22
+            fieldUid: 2575b2df-9c7d-43dc-b00c-7c8b4a389b22 # Abstract
             instructions: null
             label: null
             required: '0'
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2e868be5-415e-4f7c-b96c-160e9091705c
+            fieldUid: 2e868be5-415e-4f7c-b96c-160e9091705c # Call to Action
             instructions: null
             label: null
             required: '0'
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c2b63486-bb0e-42d6-9986-12cead0acc47
+            fieldUid: c2b63486-bb0e-42d6-9986-12cead0acc47 # Blog Date
             instructions: null
             label: null
             required: '1'
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a889cfc2-e16d-4719-88be-773bf11567f4
+            fieldUid: a889cfc2-e16d-4719-88be-773bf11567f4 # Blog Categories
             instructions: null
             label: null
             required: '0'
@@ -103,7 +103,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d
+            fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
             required: '0'
@@ -112,7 +112,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d
+            fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
             required: '0'

@@ -1,5 +1,5 @@
 contentColumnType: string
-fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b
+fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b # Common
 handle: hero
 instructions: ''
 name: 'Select Hero'

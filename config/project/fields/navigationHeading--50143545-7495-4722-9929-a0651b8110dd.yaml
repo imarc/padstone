@@ -1,5 +1,5 @@
 contentColumnType: text
-fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188
+fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188 # Globals
 handle: navigationHeading
 instructions: 'Group links under a heading that isn''t a link itself.'
 name: 'Navigation Heading'

@@ -1,15 +1,18 @@
 contentColumnType: text
-fieldGroup: 61009477-6ca8-4122-b871-b3b715eec012
+fieldGroup: 61009477-6ca8-4122-b871-b3b715eec012 # Events
 handle: eventLocation
 instructions: ''
 name: Location
-searchable: '1'
+searchable: true
 settings:
-  charLimit: ''
+  byteLimit: null
+  charLimit: null
+  code: false
   columnType: text
   initialRows: '4'
   multiline: ''
-  placeholder: ''
+  placeholder: null
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\PlainText

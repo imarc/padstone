@@ -1,5 +1,5 @@
 contentColumnType: text
-fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
+fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9 # Blog
 handle: blogCTA
 instructions: 'Text shown on the Call to Action to view this blog article.'
 name: 'Call to Action'
@@ -11,7 +11,8 @@ settings:
   columnType: null
   initialRows: '4'
   multiline: ''
-  placeholder: ''
+  placeholder: null
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\PlainText

@@ -1,10 +1,12 @@
 contentColumnType: datetime
-fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceDate
 instructions: 'This is the date we use to order items. This does not affect whether or not the item appears on the site (use Post Date and Expiry Date for that).'
 name: 'Resource Date'
 searchable: true
 settings:
+  max: null
+  min: null
   minuteIncrement: '30'
   showDate: true
   showTime: false

@@ -2,10 +2,39 @@ fieldLayouts:
   de763855-6652-40e7-a14a-311417ca2d41:
     tabs:
       -
-        fields:
-          8fda9d17-0a07-4bc1-a1f4-1fe23066f315:
-            required: false
-            sortOrder: 1
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8fda9d17-0a07-4bc1-a1f4-1fe23066f315 # Alt Text
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: images
@@ -14,5 +43,7 @@ name: Images
 settings:
   path: '@webroot/images'
 sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
 type: craft\volumes\Local
 url: /images

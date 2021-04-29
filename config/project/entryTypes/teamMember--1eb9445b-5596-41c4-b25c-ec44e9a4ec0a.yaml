@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a3601ba7-e21f-4718-86f2-0c19eae0d32f
+            fieldUid: a3601ba7-e21f-4718-86f2-0c19eae0d32f # Job Title
             instructions: null
             label: null
             required: '0'
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 48df7913-438b-433b-96d3-163d33a83ea7
+            fieldUid: 48df7913-438b-433b-96d3-163d33a83ea7 # Photo
             instructions: null
             label: null
             required: '0'
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c2fc9bf0-5ff5-4af8-ae54-5ca0a7ce5db4
+            fieldUid: c2fc9bf0-5ff5-4af8-ae54-5ca0a7ce5db4 # Abstract
             instructions: null
             label: null
             required: '1'
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a3f637cc-edb1-4bae-83f3-a40127804401
+            fieldUid: a3f637cc-edb1-4bae-83f3-a40127804401 # Bio
             instructions: null
             label: null
             required: '1'

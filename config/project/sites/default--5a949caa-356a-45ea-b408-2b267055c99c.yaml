@@ -1,8 +1,9 @@
 baseUrl: 'http://dev.padstone.imarc.com/'
+enabled: true
 handle: default
-hasUrls: '1'
+hasUrls: true
 language: en-US
 name: Padstone
-primary: '1'
-siteGroup: a20a79e6-31e4-4179-833c-e756db8c0d15
-sortOrder: '1'
+primary: true
+siteGroup: a20a79e6-31e4-4179-833c-e756db8c0d15 # Padstone
+sortOrder: 1

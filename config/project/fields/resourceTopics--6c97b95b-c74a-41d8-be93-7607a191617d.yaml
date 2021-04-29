@@ -1,5 +1,5 @@
 contentColumnType: string
-fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceTopics
 instructions: ''
 name: 'Resource Topics'
@@ -7,14 +7,16 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: ''
   limit: null
   localizeRelations: false
   selectionLabel: 'Add a Topic'
-  source: 'group:ca915fd0-926d-4128-b286-ce7f553add12'
+  showSiteMenu: true
+  source: 'group:ca915fd0-926d-4128-b286-ce7f553add12' # Resource Topics
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

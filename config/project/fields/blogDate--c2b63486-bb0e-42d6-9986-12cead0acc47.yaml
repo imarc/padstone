@@ -1,10 +1,12 @@
 contentColumnType: datetime
-fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9
+fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9 # Blog
 handle: blogDate
 instructions: 'This is the date we use to order items. This does not affect whether or not the item appears on the site (use Post Date and Expiry Date for that).'
 name: 'Blog Date'
 searchable: true
 settings:
+  max: null
+  min: null
   minuteIncrement: '30'
   showDate: true
   showTime: false

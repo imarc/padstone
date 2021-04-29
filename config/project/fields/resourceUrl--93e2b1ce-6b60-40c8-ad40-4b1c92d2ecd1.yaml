@@ -1,5 +1,5 @@
 contentColumnType: text
-fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceUrl
 instructions: 'URL for this resource.'
 name: Resource

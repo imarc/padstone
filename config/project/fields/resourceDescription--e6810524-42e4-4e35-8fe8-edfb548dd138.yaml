@@ -1,5 +1,5 @@
 contentColumnType: text
-fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceDescription
 instructions: ''
 name: Description
@@ -7,13 +7,21 @@ searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
+  cleanupHtml: true
   columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
   purifierConfig: ''
   purifyHtml: '1'
   redactorConfig: Simple.json
   removeEmptyTags: '1'
   removeInlineStyles: '1'
   removeNbsp: '1'
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  uiMode: enlarged
 translationKeyFormat: null
 translationMethod: none
 type: craft\redactor\Field

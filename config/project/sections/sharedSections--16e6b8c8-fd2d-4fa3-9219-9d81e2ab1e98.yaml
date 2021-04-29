@@ -3,7 +3,7 @@ handle: sharedSections
 name: 'Shared Sections'
 propagationMethod: all
 siteSettings:
-  5a949caa-356a-45ea-b408-2b267055c99c:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
     enabledByDefault: false
     hasUrls: false
     template: null

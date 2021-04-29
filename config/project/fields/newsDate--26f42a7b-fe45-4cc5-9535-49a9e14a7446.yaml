@@ -1,10 +1,12 @@
 contentColumnType: datetime
-fieldGroup: 6533045f-a95c-45a5-a67a-c8da4cec0d5d
+fieldGroup: 6533045f-a95c-45a5-a67a-c8da4cec0d5d # News
 handle: newsDate
 instructions: 'Date of this article.'
 name: Date
-searchable: '1'
+searchable: true
 settings:
+  max: null
+  min: null
   minuteIncrement: '30'
   showDate: true
   showTime: false

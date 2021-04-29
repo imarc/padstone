@@ -1,15 +1,20 @@
-enableVersioning: '1'
+enableVersioning: true
 handle: blog
 name: 'Blog Articles'
 previewTargets:
   -
-    label: 'Primary entry page'
-    urlFormat: '{url}'
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
-  5a949caa-356a-45ea-b408-2b267055c99c:
-    enabledByDefault: '1'
-    hasUrls: '1'
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: true
     template: blog/_entry
     uriFormat: 'blog/{slug}'
 type: channel
