@@ -32,7 +32,7 @@
             <div class="layer__content">
                 {% for subblock in block.children.all() %}
                     <div class="layer__item">
-                        {{ macros.renderBlock(subblock) }}
+                        {{ macros.renderColumn(subblock) }}
                     </div>
                 {% endfor %}
             </div>

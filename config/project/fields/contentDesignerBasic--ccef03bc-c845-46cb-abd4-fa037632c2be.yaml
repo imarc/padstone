@@ -10,7 +10,7 @@ settings:
   maxTopBlocks: ''
   minBlocks: ''
   propagationMethod: all
-  wasModified: false
+  wasModified: true
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

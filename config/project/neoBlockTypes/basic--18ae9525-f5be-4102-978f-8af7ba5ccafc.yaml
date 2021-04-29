@@ -1,9 +1,9 @@
 childBlocks:
-  - TextColumn
+  - textColumn
   - callToActionColumn
   - imageColumn
   - relatedEntryColumn
-  - TestimonialColumn
+  - testimonialColumn
   - videoColumn
   - embedColumn
 field: ccef03bc-c845-46cb-abd4-fa037632c2be # Content Designer (Basic)

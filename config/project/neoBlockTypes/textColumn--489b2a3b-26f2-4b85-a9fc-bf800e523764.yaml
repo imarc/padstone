@@ -18,7 +18,7 @@ fieldLayouts:
             width: 100
         name: Text
         sortOrder: 1
-handle: TextColumn
+handle: textColumn
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0

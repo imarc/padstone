@@ -148,7 +148,7 @@ The **Content Designer** Field (contentDesigner) allows CMS users to use the fol
 * Testimonial
 * HTML Widget/Embed
 * Call to Action
-* Shared Block
+* Shared Section
 
 ## License
 

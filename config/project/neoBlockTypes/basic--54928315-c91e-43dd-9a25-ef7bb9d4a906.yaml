@@ -1,12 +1,11 @@
 childBlocks:
-  - TextColumn
+  - textColumn
   - callToActionColumn
   - imageColumn
   - relatedEntryColumn
-  - TestimonialColumn
+  - testimonialColumn
   - videoColumn
   - embedColumn
-  - callToAction
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   7e5ffe0c-b4b2-46b1-8679-07e4fc0c9f72:

@@ -1,10 +1,13 @@
+{% import "/_macros" as macros %}
+
 {% extends "/_blocks/baseSection" %}
 
 {% block content %}
     <div class="layer__content">
         {% for icon in block.sectionIconGrid.all() %}
             <div class="layer__item">
-                {{ icon }}
+                {{ macros.responsiveImage(icon.icon.one, { pictureClass: 'layer__icon' }) }}
+                {{ icon.label }}
             </div>
         {% endfor %}
     </div>

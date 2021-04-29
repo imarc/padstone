@@ -34,7 +34,7 @@ fieldLayouts:
             width: 100
         name: Testimonial
         sortOrder: 1
-handle: TestimonialColumn
+handle: testimonialColumn
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
