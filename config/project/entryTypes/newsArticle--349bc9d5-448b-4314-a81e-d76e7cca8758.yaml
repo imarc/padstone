@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: ccef03bc-c845-46cb-abd4-fa037632c2be # Content Designer (Basic)
+            fieldUid: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
             instructions: null
             label: null
             required: false
