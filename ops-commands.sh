@@ -41,11 +41,7 @@ ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
 
     echo "Running $(tput smul)npx imarc-boilerplate$(tput rmul)..."
-    npx imarc-boilerplate
-
-    echo "Updating main.scss and main.js..."
-    echo -e "\n@import \"~bootstrap/scss/bootstrap\";" >> resources/styles/main.scss
-    echo -e "\nimport \"bootstrap\"" >> resources/js/main.js
+    npx imarc-boilerplate -y
 
     ops install
 }
