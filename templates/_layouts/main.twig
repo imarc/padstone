@@ -56,7 +56,13 @@
 
 
             <main role="main">
+
+                {% for alert in craft.entries.section('alerts').all() %}
+                    {% include "/_partials/alert" with { alert: alert } %}
+                {% endfor %}
+
                 {% block content %}{% endblock %}
+
             </main>
 
             {% include "/_partials/footer" %}

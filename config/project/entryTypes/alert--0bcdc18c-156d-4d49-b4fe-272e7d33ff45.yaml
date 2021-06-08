@@ -1,0 +1,47 @@
+fieldLayouts:
+  4c30df90-4a47-47ff-b88d-2e54fcf588eb:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: 'For admin reference only - not shown.'
+            label: ''
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6978af6e-566d-496d-abfc-884513d509b9 # Alert
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: alert
+hasTitleField: true
+name: Alert
+section: b7a6ad8e-d32a-4f3b-9ac7-c8a0d7d9e616 # Alerts
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
