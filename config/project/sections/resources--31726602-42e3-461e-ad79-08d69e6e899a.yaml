@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: resources
+name: Resources
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: true
+    template: resources/_entry
+    uriFormat: 'resources/{slug}'
+structure:
+  maxLevels: null
+  uid: 160e63e2-a512-4ade-9f18-2171d2cd84eb
+type: structure

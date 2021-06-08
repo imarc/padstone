@@ -1,9 +1,50 @@
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-    <div class="container">
-        <h1 class="display-3">{{ headline }}</h1>
-        {% if subheadline is defined and subheadline|length %}
-        	<p class="lead">{{ subheadline }}</p>
+{% import "/_macros" as macros %}
+
+{% if hero is instance of('craft\\elements\\db\\MatrixBlockQuery') and hero|length > 0 %}
+    {% set hero = hero.one %}
+{% endif %}
+
+{% if hero %}
+
+    {# set falsy defaults to simplify null checks #}
+    {% set hero = {
+        backgroundImage: null,
+        kicker: null,
+        headline: null,
+        subheadline: null,
+        introduction: null,
+        CTA: null
+    }|merge(hero) %}
+
+    <section class="layer {{ hero.backgroundImage|length ? '-dark' : '' }} -hero">
+        {% if hero.backgroundImage|length %}
+            <div class="layer__background">
+                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'layer__backgroundImg' }) }}
+            </div>
         {% endif %}
-    </div>
-</div>
+        <div class="layer__container container">
+            <header class="layer__header">
+                {% if hero.kicker %}
+                    <div class="heading__eyebrow eyebrow">{{ hero.kicker }}</div>
+                {% endif %}
+                {% if hero.headline %}
+                    <h1 class="layer__heading">{{ hero.headline }}</h1>
+                {% endif %}
+                {% if hero.subheadline %}
+                    <h2 class="layer__subheading">{{ hero.subheadline }}</h2>
+                {% endif %}
+            </header>
+            {% if hero.introduction %}
+                <div class="layer__introduction -emphasized">
+                    {{ hero.introduction }}
+                </div>
+            {% endif %}
+            {% if hero.CTA %}
+                <div class="layer__actions">
+                    {{ hero.CTA.getLink({ class: 'layer__action button -primary' }) }}
+                </div>
+            {% endif %}
+        </div>
+    </section>
+
+{% endif %}

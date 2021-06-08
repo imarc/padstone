@@ -2,22 +2,32 @@
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with {
-        headline: entry.title
-    } %}
+    {% if entry.resourceTopics|length and entry.resourceDate %}
+        {% set introduction = "#{macros.commaSeparate(entry.resourceTopics)} – #{entry.resourceDate|date('F jS, Y')}" %}
+    {% elseif entry.resourceTopics|length %}
+        {% set introduction = macros.commaSeparate(entry.resourceTopics) %}
+    {% elseif entry.resourceDate %}
+        {% set introduction = entry.resourceDate|date('F jS, Y') %}
+    {% endif %}
 
-    <div class="container">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-md-8">
+    {% include '_partials/hero' with { hero: {
+        kicker: macros.commaSeparate(entry.resourceTypes),
+        headline: entry.title,
+        introduction: introduction,
+        backgroundImage: entry.resourceFeaturedImage.one
+    } } %}
+
+    <div class="layer">
+        <div class="layer__container container">
+            <div class="layer__introduction -emphasized">
                 {{ entry.resourceDescription }}
             </div>
         </div>
     </div>
 
-    {% if entry.designedContent %}
-        {{ macros.renderAllBlocks(entry.designedContent) }}
-    {% endif %}
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
 
+    {#
     <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-3 text-left">
@@ -29,6 +39,6 @@
             </div>
         </div>
     </div>
-
+    #}
 
 {% endblock %}

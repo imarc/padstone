@@ -38,7 +38,10 @@
     "verbb/field-manager": "^2.2",
     "verbb/super-table": "^2.6",
     "vlucas/phpdotenv": "^5.3",
-    "wbrowar/adminbar": "^3.1"
+    "wbrowar/adminbar": "^3.1",
+    "spicyweb/craft-neo": "^2.9",
+    "barrelstrength/sprout-fields": "^3.8",
+    "nystudio107/craft-seomatic": "^3.3"
   },
   "autoload": {
     "psr-4": {

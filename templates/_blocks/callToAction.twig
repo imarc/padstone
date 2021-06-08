@@ -1,23 +1,11 @@
-<div class="layer call-to-action {% if not blockLoop.first %}pt-5{% endif %}">
-    <div class="container">
-        <div class="row justify-content-md-center align-items-center">
-            <div class="col-md-6">
-                {% if block.sectionTitle %}
-                    <h2>
-                        {{ block.sectionTitle }}
-                    </h2>
-                {% endif %}
+{% extends "/_blocks/baseSection.twig" %}
 
-                {{ block.blockContent }}
-            </div>
-
-            <div class="col-md-3">
-                <p class="text-center mb-0">
-                    {{ block.cta.link({class: 'btn btn-primary btn-lg'}) }}
-                </p>
+{% block conclusion %}
+    {% if block.sectionCTA %}
+        <div class="layer__footer">
+            <div class="layer__actions">
+                {{ block.sectionCTA.getLink({ class: "layer__action button -outline" }) }}
             </div>
         </div>
-
-        <hr class="mt-5">
-    </div>
-</div>
+    {% endif %}
+{% endblock %}

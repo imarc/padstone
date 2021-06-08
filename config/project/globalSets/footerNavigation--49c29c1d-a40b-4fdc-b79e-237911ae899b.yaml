@@ -1,0 +1,18 @@
+fieldLayouts:
+  f69485a5-76cd-4bc9-aa1c-64e4c3d68b22:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 76189277-255d-4e96-a6a5-6d393515b059 # Navigation Links
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Footer Navigation'
+        sortOrder: 1
+handle: footerNavigation
+name: 'Footer Navigation'

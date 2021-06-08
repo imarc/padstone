@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
+handle: resourceTypes
+instructions: ''
+name: 'Resource Types'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a Type'
+  showSiteMenu: true
+  source: 'group:d9b26dd3-8815-474a-b2d1-df10d1da9ea4' # Resource Types
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

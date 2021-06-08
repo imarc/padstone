@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: true
+    template: _page
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 7083b4c4-92f7-4bee-b0ec-ea4214b51fa0
+type: structure

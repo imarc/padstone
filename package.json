@@ -43,38 +43,33 @@
       "email": "bill@imarc.com"
     }
   ],
-  "engines": {
-    "node": ">=10.0.0 <12.0"
-  },
   "dependencies": {
-    "bootstrap": "^4.5.0",
-    "clockvine-vue": "^0.4.0-beta.1",
-    "cross-env": "^7.0.0",
-    "glob-all": "^3.1.0",
-    "imarc-boilerplate": "github:imarc/boilerplate",
+    "clockvine-vue": "^0.9.1",
+    "cross-env": "^7.0.3",
     "jquery": "^3.5.0",
-    "laravel-mix": "^5.0.1",
+    "laravel-mix": "^6.0.18",
+    "lazysizes": "^5.3.2",
     "normalize-scss": "^7.0.1",
-    "popper.js": "^1.14.7",
-    "purgecss-webpack-plugin": "^2.0.6",
-    "vue": "^2.6.11",
-    "vuex": "^3.4.0",
-    "webpack": "^4.29.6"
+    "vue": "^2.6.12",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "browser-sync-webpack-plugin": "^2.2.2",
-    "resolve-url-loader": "^2.3.1",
-    "sass": "^1.26.8",
+    "imarc-boilerplate": "^5.0.0-beta.6",
+    "postcss": "^8.2.13",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.11",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.8"
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
   },
   "scripts": {
     "fractal": "fractal",
-    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "mix",
+    "prod": "mix --production",
+    "watch": "mix watch",
     "watch:event": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "serve": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "watch-poll": "mix watch -- -- watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "build": "npm run prod && npm run fractal build"
   }
 }

@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: notFoundPage
+name: '404 Page'
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: true
+    template: '404'
+    uriFormat: '404'
+type: single

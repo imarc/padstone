@@ -7,5 +7,21 @@
 /vendor
 /web/cpresources
 /web/css
+/web/fonts
+/web/images
 /web/js
+/web/media
 mix-manifest.json
+webpack.mix.js
+
+# Remove these Ignores
+/resources
+/composer.lock
+/package-lock.json
+/fractal.config.js
+/resources/js/main.js
+/resources/js/main.js
+/web/css/main.css
+/web/js/main.js
+/web/js/vendor.js
+/web/mix-manifest.json

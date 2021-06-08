@@ -1,0 +1,15 @@
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/baseSection.twig" %}
+
+{% block content %}
+    <div class="layer__content cards">
+        {% for subblock in block.children.all() %}
+            <div class="layer__item cards__card card">
+                <div class="card__container">
+                    {{ macros.renderColumn(subblock) }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

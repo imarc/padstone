@@ -1,0 +1,25 @@
+childBlocks: null
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  7b28d28d-b66f-492c-bf3e-c280ca469977:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: acd8e61e-e2f0-4b23-900e-44658f2fa636 # Section Call to Action
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Call to Action'
+        sortOrder: 1
+handle: callToActionColumn
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Call to Action'
+sortOrder: 4
+topLevel: false

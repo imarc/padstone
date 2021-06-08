@@ -1,0 +1,74 @@
+fieldLayouts:
+  1a8ec962-5e1a-4f63-9419-4a15ee59deea:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: a3601ba7-e21f-4718-86f2-0c19eae0d32f # Job Title
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 48df7913-438b-433b-96d3-163d33a83ea7 # Photo
+            instructions: null
+            label: null
+            required: '0'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c2fc9bf0-5ff5-4af8-ae54-5ca0a7ce5db4 # Abstract
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a3f637cc-edb1-4bae-83f3-a40127804401 # Bio
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Team Member'
+        sortOrder: 1
+handle: teamMember
+hasTitleField: true
+name: 'Team Member'
+section: c87b5acc-afe1-4ddf-b73c-b449c9f29c2d # Team
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

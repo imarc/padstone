@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
+handle: sharedSection
+instructions: ''
+name: 'Shared Section'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: 'Select shared sections'
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98' # Shared Sections
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

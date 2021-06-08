@@ -2,20 +2,20 @@
 {% set section = 'blogPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with {
-        headline: entry.title
-    } %}
+    {% include '_partials/hero' with { hero: {
+        kicker: 'Blog Article',
+        headline: entry.title,
+        introduction: "#{macros.commaSeparate(entry.blogAuthor)} – #{entry.blogDate|date('F jS, Y')}"
+    } } %}
 
-    <div class="container">
-        <p class="text-muted">{{ entry.blogDate|date("F jS, Y") }}</p>
-    </div>
 
-    {{ macros.renderAllBlocks(entry.designedContent) }}
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
 
+    {#
     <div class="text-center my-5">
         {% set index = craft.entries.section('blogPage').one %}
         <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
     </div>
-
+    #}
 
 {% endblock %}

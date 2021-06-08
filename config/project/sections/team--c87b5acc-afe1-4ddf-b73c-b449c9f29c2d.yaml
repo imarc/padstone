@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: team
+name: Team
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 4b707a60-93c9-4e86-a44c-587eb894590e
+type: structure

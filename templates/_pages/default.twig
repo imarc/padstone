@@ -1,0 +1,7 @@
+{% import "/_macros" as macros %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with { hero: entry.hero.one } %}
+
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
+{% endblock %}

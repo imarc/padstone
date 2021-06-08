@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: authors
+name: Authors
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: d4e53f89-9878-42bf-9488-cb0412fa0619
+type: structure

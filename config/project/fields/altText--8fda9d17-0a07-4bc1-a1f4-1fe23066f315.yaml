@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: c4593c73-7ed0-4694-9aa8-fa73bd8c1b1b # Common
+handle: altText
+instructions: 'Alt text is the content that appears in place of an image on a webpage if the image fails to load on a user''s screen. This text helps screen-reading tools describe images to visually impaired readers and allows search engines to better crawl and rank your website.'
+name: 'Alt Text'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

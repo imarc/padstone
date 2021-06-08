@@ -1,0 +1,40 @@
+fieldLayouts:
+  ebda98f8-ad10-4f0e-8880-12b6779d45e2:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: resourceTopics
+name: 'Resource Topics'
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    hasUrls: true
+    template: null
+    uriFormat: 'resources?topic={slug}'
+structure:
+  maxLevels: 1
+  uid: 233ad37f-a943-4919-bc27-8a2115bb0b27

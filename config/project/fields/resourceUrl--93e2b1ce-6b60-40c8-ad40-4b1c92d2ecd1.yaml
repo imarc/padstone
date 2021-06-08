@@ -1,0 +1,109 @@
+contentColumnType: text
+fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
+handle: resourceUrl
+instructions: 'URL for this resource.'
+name: Resource
+searchable: true
+settings:
+  allowCustomText: '1'
+  allowTarget: ''
+  allowedLinkNames:
+    3: entry
+    9: url
+  autoNoReferrer: ''
+  defaultLinkName: asset
+  defaultText: ''
+  enableAriaLabel: ''
+  enableTitle: ''
+  typeSettings:
+    __assoc__:
+      -
+        - asset
+        -
+          __assoc__:
+            -
+              - allowCustomQuery
+              - ''
+            -
+              - sources
+              - '*'
+      -
+        - category
+        -
+          __assoc__:
+            -
+              - allowCustomQuery
+              - ''
+            -
+              - sources
+              - '*'
+      -
+        - custom
+        -
+          __assoc__:
+            -
+              - allowAliases
+              - ''
+            -
+              - disableValidation
+              - ''
+      -
+        - email
+        -
+          __assoc__:
+            -
+              - allowAliases
+              - ''
+            -
+              - disableValidation
+              - ''
+      -
+        - entry
+        -
+          __assoc__:
+            -
+              - allowCustomQuery
+              - ''
+            -
+              - sources
+              - '*'
+      -
+        - site
+        -
+          __assoc__:
+            -
+              - sites
+              - '*'
+      -
+        - tel
+        -
+          __assoc__:
+            -
+              - allowAliases
+              - ''
+            -
+              - disableValidation
+              - ''
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowAliases
+              - ''
+            -
+              - disableValidation
+              - ''
+      -
+        - user
+        -
+          __assoc__:
+            -
+              - allowCustomQuery
+              - ''
+            -
+              - sources
+              - '*'
+translationKeyFormat: null
+translationMethod: none
+type: typedlinkfield\fields\LinkField

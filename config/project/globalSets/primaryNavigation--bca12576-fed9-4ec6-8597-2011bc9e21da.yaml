@@ -1,0 +1,18 @@
+fieldLayouts:
+  5901683b-5120-4653-bbac-df8cf79a06cb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 76189277-255d-4e96-a6a5-6d393515b059 # Navigation Links
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Navigation
+        sortOrder: 1
+handle: primaryNavigation
+name: 'Primary Navigation'

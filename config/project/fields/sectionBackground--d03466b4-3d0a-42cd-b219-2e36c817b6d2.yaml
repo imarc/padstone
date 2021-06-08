@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
+handle: sectionBackground
+instructions: ''
+name: 'Section Background'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Select Background'
+  showSiteMenu: false
+  source: 'group:0dc737ab-2193-4940-8f16-9abace44a363' # Section Backgrounds
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

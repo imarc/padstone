@@ -1,0 +1,40 @@
+fieldLayouts:
+  972b4fa3-203b-4194-9976-62d26e074c07:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: blogCategories
+name: 'Blog Categories'
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    hasUrls: true
+    template: null
+    uriFormat: 'blog?category={slug}'
+structure:
+  maxLevels: 1
+  uid: 7500937b-aa4b-4094-9a13-5480a3ca0589

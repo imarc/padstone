@@ -1,0 +1,83 @@
+childBlocks: null
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  8ad463ef-eaef-48e8-9fa2-b3d241d8a0a8:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Kicker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7841a5cf-bd8c-4ea2-aa08-36e932a96da5 # Section Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7ca1dc40-5807-4ca6-af3c-718be3e9615e # Section Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4bdc4b1e-4dbc-47ad-8552-a6459c2c9644 # Section Introduction
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: acd8e61e-e2f0-4b23-900e-44658f2fa636 # Section Call to Action
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Introduction Section'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: d03466b4-3d0a-42cd-b219-2e36c817b6d2 # Section Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 861751dd-1c7f-4d7c-89df-f642306506be # Section Anchor
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Settings
+        sortOrder: 2
+handle: introduction
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Introduction Section'
+sortOrder: 2
+topLevel: true

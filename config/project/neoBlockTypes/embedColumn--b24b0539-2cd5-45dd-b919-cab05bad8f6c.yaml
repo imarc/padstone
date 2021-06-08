@@ -1,0 +1,25 @@
+childBlocks: null
+field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
+fieldLayouts:
+  4a8ab086-6116-46b7-888d-a24f2d1f6f67:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a49945ef-0bec-4fcd-98f8-0e8eb19bbc0a # Embed or Code
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Embed
+        sortOrder: 1
+handle: embedColumn
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Embed
+sortOrder: 9
+topLevel: false
