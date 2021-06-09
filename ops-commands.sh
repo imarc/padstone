@@ -40,6 +40,9 @@ ops-configure() {
 ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
 
+    echo "Installing imarc-boilerplate..."
+    npm install imarc-boilerplate -y
+
     echo "Running $(tput smul)npx imarc-boilerplate$(tput rmul)..."
     npx imarc-boilerplate -y
 
