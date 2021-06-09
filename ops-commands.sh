@@ -88,12 +88,12 @@ ops-install() {
         echo "Skipping generating security key ($(tput smul)ops craft setup/security-key$(tput rmul))  because DB_DATABASE is not set."
     fi
 
-    echo "Calling $(tput smul)ops composer install$(tput rmul)..."
-    ops composer install
-    echo "Calling $(tput smul)ops npm install$(tput rmul)..."
-    ops npm install
-    echo "Calling $(tput smul)ops npm run dev$(tput rmul)..."
-    ops npm run dev
+    echo "Calling $(tput smul)composer install$(tput rmul)..."
+    composer install
+    echo "Calling $(tput smul)npm install$(tput rmul)..."
+    npm install
+    echo "Calling $(tput smul)npm run dev$(tput rmul)..."
+    npm run dev
 
     echo -en "\nVisit your site at https://$(ops project name).imarc.io/\n"
 }
