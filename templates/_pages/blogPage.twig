@@ -3,64 +3,43 @@
 {% set section = 'blogPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with { hero: entry.hero } %}
+    {% include '_partials/hero' with entry %}
 
     <blogs :params="params" v-slot="{ query, blogs, isLoading, meta: { pagination  = {} } = {} }">
-        <section class="layer">
+        <div class="layer results">
             <div class="layer__container container">
+
                 <div class="filters">
-                    <div class="search">
-                        <form action="">
-                            <div class="search__categories">
-                                <label class="search__category">Filter by Category:</label>
-                                <blog-categories v-slot="{ blogCategories }">
-                                    <div>
-                                        <select class="form-control" v-model="params.category">
-                                            <option :value="null" selected>All</option>
-                                            <option v-for="blogCategory in blogCategories" :value="blogCategory.slug" :key="blogCategory.id" v-text="blogCategory.title"></option>
-                                        </select>
-                                    </div>
-                                </blog-categories>
-                            </div>
-                            <div class="search__meta"></div>
-                        </form>
+                    <div class="filters__filter select">
+                        <label for="_type" class="select__label">
+                            Filter by Category:
+                        </label>
+                        <blog-categories v-slot="{ blogCategories }">
+                            <select class="select__select" name="resource_type" v-model="params.type">
+                                <option :value="null" selected>All</option>
+                                <option v-for="blogCategory in blogCategories" :value="blogCategory.slug" :key="blogCategory.id" v-text="blogCategory.title"></option>
+                            </select>
+                        </blog-categories>
                     </div>
                 </div>
-            </div>
-        </section>
-        <div class="container">
 
-            <div class="row row-cols-1 row-cols-md-3">
-                <div v-if="blogs && !blogs.length && !isLoading" class="col mb-4" v-cloak>No blogs found.</div>
-                <div v-else v-for="article in blogs" :key="article.id" class="col mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <img class="card-img-top" :src="article.image" :alt="article.imageAltText">
-                        <div class="card-body">
-                            <h4 class="card-title">
+                <div class="cards">
+                    <div v-if="blogs && !blogs.length && !isLoading" class="" v-cloak>No articles found.</div>
+                    <div v-else v-for="article in blogs" :key="article.id" class="cards__card card">
+                        <div class="card__container">
+                            <img class="card__background" :src="article.image" :alt="article.imageAltText">
+                            <div class="card__tag" v-text="article.date"></div>
+                            <h4 class="card__heading">
                                 <a :href="article.url" v-text="article.title"></a>
                             </h4>
-                            <div class="card-text" v-html="article.description"></div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between align-items-center">
-                            <a :href="article.url" v-text="article.cta" class="btn btn-sm btn-outline-primary"></a>
-                            <small class="text-muted" v-text="article.date"></small>
+                            <div class="card__content" v-html="article.description"></div>
+                            <div class="card__actions -attached">
+                                <a :href="article.url" v-text="article.cta" class="card__action button -primary"></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a
-                        v-if="pagination.current_page < pagination.total_pages"
-                        :href="nextPage"
-                        @click.prevent="params.page += 1"
-                        class="btn btn-outline-primary"
-                    >
-                        More
-                    </a>
                 </div>
             </div>
         </div>
     </blogs>
-
 {% endblock %}

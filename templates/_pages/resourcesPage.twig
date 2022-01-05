@@ -3,71 +3,52 @@
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% include '_partials/hero' with {
-        headline: entry.headline,
-        subheadline: entry.subheadline
-    } %}
+    {% include '_partials/hero' with entry %}
 
     <resources :params="params" v-slot="{ query, resources, isLoading, meta: { pagination  = {} } = {} }">
-        <div class="container">
+        <div class="layer results">
+            <div class="layer__container container">
 
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <h4 class="mb-0">
-                        Filter by Type:
-                    </h4>
-                    <resource-types v-slot="{ resourceTypes }">
-                        <div>
-                            <select class="form-control" v-model="params.type">
+                <div class="filters">
+                    <div class="filters__filter select">
+                        <label for="resource_type" class="select__label">
+                            Filter by Type:
+                        </label>
+                        <resource-types v-slot="{ resourceTypes }">
+                            <select class="select__select" name="resource_type" v-model="params.type">
                                 <option :value="null" selected>All</option>
                                 <option v-for="resourceType in resourceTypes" :value="resourceType.slug" :key="resourceType.id" v-text="resourceType.title"></option>
                             </select>
-                        </div>
-                    </resource-types>
-                </div>
-                <div class="form-group col-md-6">
-                    <h4 class="mb-0">
-                        Filter by Topic:
-                    </h4>
-                    <resource-topics v-slot="{ resourceTopics }">
-                        <div>
-                            <select class="form-control" v-model="params.topic">
+                        </resource-types>
+                    </div>
+                    <div class="filters__filter select">
+                        <label for="resource_topic" class="select__label">
+                            Filter by Topic:
+                        </label>
+                        <resource-topics v-slot="{ resourceTopics }">
+                            <select class="select__select" name="resource_topic" v-model="params.topic">
                                 <option :value="null" selected>All</option>
                                 <option v-for="resourceTopic in resourceTopics" :value="resourceTopic.slug" :key="resourceTopic.id" v-text="resourceTopic.title"></option>
                             </select>
-                        </div>
-                    </resource-topics>
-                </div>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3">
-                <div v-if="resources && !resources.length && !isLoading" class="col mb-4" v-cloak>No resources found.</div>
-                <div v-else v-for="resource in resources" :key="resource.id" class="col mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <img class="card-img-top" :src="resource.image" :alt="resource.imageAltText">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a :href="resource.url" v-text="resource.title"></a>
-                            </h4>
-                            <div class="card-text" v-html="resource.description"></div>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between align-items-center">
-                            <a :href="resource.url" v-text="resource.cta" class="btn btn-sm btn-outline-primary"></a>
-                            <small class="text-muted" v-text="resource.date"></small>
-                        </div>
+                        </resource-topics>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a
-                        v-if="pagination.current_page < pagination.total_pages"
-                        :href="nextPage"
-                        @click.prevent="params.page += 1"
-                        class="btn btn-outline-primary"
-                    >
-                        More
-                    </a>
+
+                <div class="cards">
+                    <div v-if="resources && !resources.length && !isLoading" class="" v-cloak>No resources found.</div>
+                    <div v-else v-for="resource in resources" :key="resource.id" class="cards__card card">
+                        <div class="card__container">
+                            <img class="card__background" :src="resource.image" :alt="resource.imageAltText">
+                            <div class="card__tag -overlay" v-text="resource.type"></div>
+                            <h4 class="card__heading">
+                                <a :href="resource.url" v-text="resource.title"></a>
+                            </h4>
+                            <div class="card__content" v-html="resource.description"></div>
+                            <div class="card__actions -attached">
+                                <a :href="resource.url" v-text="resource.cta" class="card__action button -primary"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

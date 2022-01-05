@@ -1,0 +1,31 @@
+{% set section = 'contactPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with entry %}
+
+    <div class="layer">
+        <div class="layer__container container">
+            <form method="post" action="" accept-charset="UTF-8">
+                {{ csrfInput() }}
+                <input type="hidden" name="action" value="contact-form/send">
+
+                <label for="from-name">Your Name</label>
+                <input type="text" id="from-name" placeholder="Your Name">
+
+                <label for="from-email">Your Email</label>
+                <input type="email" id="from-email" placeholder="name@example.com">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Subject">
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="10"></textarea>
+
+                <button class="button -primary" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <hr class="mt-5">
+    </div>
+
+{% endblock %}

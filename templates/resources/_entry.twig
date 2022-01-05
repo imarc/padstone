@@ -27,18 +27,4 @@
 
     {{ macros.renderAllBlocks(entry.contentDesigner) }}
 
-    {#
-    <div class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-3 text-left">
-                {% set index = craft.entries.section('resourcesPage').one %}
-                <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
-            </div>
-            <div class="col-md-6 text-center">
-                {{ entry.resourceUrl.link({class: 'btn btn-primary btn-lg'}) }}
-            </div>
-        </div>
-    </div>
-    #}
-
 {% endblock %}

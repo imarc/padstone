@@ -1,11 +1,14 @@
 {% import "/_macros" as macros %}
 
-{% if hero is instance of('craft\\elements\\db\\MatrixBlockQuery') and hero|length > 0 %}
-    {% set hero = hero.one %}
+{% if hero is defined and hero is instance of('craft\\elements\\db\\MatrixBlockQuery') %}
+    {% if hero|length > 0 %}
+        {% set hero = hero.one %}
+    {% else %}
+        {% set hero = false %}
+    {% endif %}
 {% endif %}
 
-{% if hero %}
-
+{% if hero is defined and hero %}
     {# set falsy defaults to simplify null checks #}
     {% set hero = {
         backgroundImage: null,
@@ -47,4 +50,12 @@
         </div>
     </section>
 
+{% else %}
+    <section class="layer -dark -hero">
+        <div class="layer__container container">
+            <header class="layer__header">
+                <h1 class="layer__heading">{{ entry.title }}</h1>
+            </header>
+        </div>
+    </section>
 {% endif %}
