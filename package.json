@@ -45,6 +45,7 @@
     ],
     "dependencies": {
         "clockvine-vue": "^0.9.1",
+        "imarc-boilerplate": "^5.1.2",
         "vuex": "^3.6.2"
     },
     "scripts": {
@@ -55,5 +56,9 @@
         "watch-poll": "mix watch -- -- watch-options-poll=1000",
         "hot": "mix watch --hot",
         "build": "npm run prod && npm run fractal build"
+    },
+    "devDependencies": {
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
     }
 }
