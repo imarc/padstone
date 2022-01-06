@@ -1,5 +1,5 @@
 fieldLayouts:
-  65d15089-e051-470c-9ce2-08ae554fc6ae:
+  f63138a4-8e35-4089-9e95-bf35d7b37f91:
     tabs:
       -
         elements:
@@ -32,9 +32,9 @@ handle: resources
 hasUrls: true
 name: Resources
 settings:
-  path: '@webroot/resources'
+  path: '@webroot/assets/resources'
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 type: craft\volumes\Local
-url: /resources
+url: /assets/resources
