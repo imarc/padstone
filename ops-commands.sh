@@ -76,7 +76,7 @@ ops-install() {
 
     elif [[ -e ./padstone.sql ]] && [[ -n "$DB_DATABASE" ]]; then
         echo "Importing padstone.sql into $DB_DATABASE..."
-        ops craft db/restore padstone.sql
+        ops mariadb import $DB_DATABASE < ./padstone.sql
 
         echo "Running craft migrations..."
         ops craft migrate/all --no-backup=1 --interactive=0
