@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: datetime
 fieldGroup: 61009477-6ca8-4122-b871-b3b715eec012 # Events
 handle: eventEndDate
@@ -10,6 +11,7 @@ settings:
   minuteIncrement: '30'
   showDate: true
   showTime: false
+  showTimeZone: false
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Date

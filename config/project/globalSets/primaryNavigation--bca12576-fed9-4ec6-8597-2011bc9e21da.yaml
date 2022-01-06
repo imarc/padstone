@@ -16,3 +16,4 @@ fieldLayouts:
         sortOrder: 1
 handle: primaryNavigation
 name: 'Primary Navigation'
+sortOrder: 1

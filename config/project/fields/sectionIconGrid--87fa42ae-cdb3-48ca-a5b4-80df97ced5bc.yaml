@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: string
 fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
 handle: sectionIconGrid
@@ -8,6 +9,7 @@ settings:
   contentTable: '{{%matrixcontent_sectionicongrid}}'
   maxBlocks: ''
   minBlocks: '1'
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

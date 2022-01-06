@@ -1,3 +1,4 @@
+defaultPlacement: end
 enableVersioning: true
 handle: serviceUnavailablePage
 name: 'Service Unavailable Page'

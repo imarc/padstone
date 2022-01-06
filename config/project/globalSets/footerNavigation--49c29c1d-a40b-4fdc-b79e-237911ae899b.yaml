@@ -16,3 +16,4 @@ fieldLayouts:
         sortOrder: 1
 handle: footerNavigation
 name: 'Footer Navigation'
+sortOrder: 2
