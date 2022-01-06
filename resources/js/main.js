@@ -21,11 +21,14 @@ import BpTabs from '../styles/molecules/tabs/BpTabs'
 
 import Vue from 'vue'
 
+import Filtering from './filtering.js'
+
 Vue.use(PortalVue)
 
 // eslint-disable-next-line
 new Vue({
     el: '#root',
+    mixins: [ Filtering ],
     components: {
         BpAccordion,
         BpCarousel,
