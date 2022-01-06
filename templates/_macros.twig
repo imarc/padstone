@@ -136,8 +136,12 @@
  #     imgClass - class(es) to apply to the <img> tag.
  #}
  {% macro responsiveImage(asset, options = {}) %}{% spaceless %}
-    {% set options = { transform: {}, pictureClass: '', imgClass: ''} |merge(options) %}
-    {% include '/_partials/responsiveImage.twig' with options %}
+    {% if asset %}
+        {% set options = { transform: {}, pictureClass: '', imgClass: ''} |merge(options) %}
+        {% include '/_partials/responsiveImage.twig' with options %}
+    {% else %}
+        <svg viewBox="0 0 9 9"><text y="3" fill="red" font-size="3">✗</text></svg>
+    {% endif %}
 {% endspaceless %}{% endmacro %}
 
 {##
