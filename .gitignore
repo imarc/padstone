@@ -20,7 +20,6 @@ webpack.mix.js
 /package-lock.json
 /fractal.config.js
 /resources/js/main.js
-/resources/js/main.js
 /web/css/main.css
 /web/js/main.js
 /web/js/vendor.js

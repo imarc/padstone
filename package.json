@@ -47,5 +47,13 @@
         "clockvine-vue": "^0.9.1",
         "vuex": "^3.6.2"
     },
-    "scripts": {}
+    "scripts": {
+        "fractal": "fractal",
+        "dev": "mix",
+        "prod": "mix --production",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- -- watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "build": "npm run prod && npm run fractal build"
+    }
 }
