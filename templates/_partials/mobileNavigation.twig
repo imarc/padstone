@@ -6,15 +6,38 @@
                     {% if navItem.type == 'navigationLink' %}
                         <a href="{{ navItem.navigationLink.url }}" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">{{ navItem.navigationLink.text }}</a>
                     {% elseif navItem.type == 'navigationGroup' %}
-                        <a href="" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">{{ navItem.navigationLink.text }}</a>
+                        <a href="" id="primaryNav-{{ navItem.navigationHeading.text|kebab }}">{{ navItem.navigationHeading.text }}</a>
                     {% endif %}
-                    <ul>
-                        {% for subNavItem in navItem.children %}
-                            <li>
-                                {{ subNavItem.navigationLink.getLink() }}
-                            </li>
-                        {% endfor %}
-                    </ul>
+                    {% if navItem.getDescendants(2)|length > navItem.children|length %}
+                        <ul>
+                            {% for subNavItem in navItem.children %}
+                                <li>
+                                    {% if subNavItem.type == 'navigationLink' %}
+                                        {{ subNavItem.navigationLink.getLink() }} 
+                                    {% elseif subNavItem.type == 'navigationGroup' %}
+                                        {{ subNavItem.navigationHeading }}
+                                    {% endif %}
+                                    {% if subNavItem.children|length %}
+                                        <ul>
+                                            {% for subSubNavItem in subNavItem.children %}
+                                                <li>
+                                                    {{ subSubNavItem.navigationLink.getLink() }}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% elseif navItem.children|length %}
+                        <ul>
+                            {% for subNavItem in navItem.children %}
+                                <li>
+                                    {{ subNavItem.navigationLink.getLink() }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
                 {% else %}
                     {{ navItem.navigationLink.getLink() }}
                 {% endif %}
