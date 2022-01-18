@@ -6,7 +6,7 @@
                     {% if navItem.type == 'navigationLink' %}
                         <a href="{{ navItem.navigationLink.url }}" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">{{ navItem.navigationLink.text }}</a>
                     {% elseif navItem.type == 'navigationGroup' %}
-                        <a href="" id="primaryNav-{{ navItem.navigationHeading.text|kebab }}">{{ navItem.navigationHeading.text }}</a>
+                        <a href="" id="primaryNav-{{ navItem.navigationHeading|kebab }}">{{ navItem.navigationHeading }}</a>
                     {% endif %}
                     {% if navItem.getDescendants(2)|length > navItem.children|length %}
                         <ul>
