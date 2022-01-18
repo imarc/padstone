@@ -12,9 +12,9 @@
 /web/js
 /web/media
 mix-manifest.json
-webpack.mix.js
 
 # Remove these Ignores
+/webpack.mix.js
 /resources
 /composer.lock
 /package-lock.json
