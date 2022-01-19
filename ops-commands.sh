@@ -3,6 +3,11 @@ ops-craft() {
     ops shell ./craft "$@"
 }
 
+ops-codecept() {
+    cmd-doc "Run codecept commands within ops."
+    ops shell ./vendor/bin/codecept "$@"
+}
+
 ops-configure() {
     cmd-doc "Interactively configure ops settings in your .env file."
 
