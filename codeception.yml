@@ -1,0 +1,23 @@
+actor: Tester
+paths:
+  tests: tests
+  log: tests/_output
+  data: tests/_data
+  support: tests/_support
+  envs: tests/_envs
+params:
+    - .env
+bootstrap: _bootstrap.php
+modules:
+  config:
+    \craft\test\Craft:
+      configFile: "tests/_craft/config/test.php"
+      entryUrl: "%TEST_URL%/index.php"
+      projectConfig:
+        folder: 'config/project'
+        reset: true
+      migrations: []
+      plugins: []
+      cleanup: true
+      transaction: true
+      dbSetup: { clean: true, setupCraft: true }
