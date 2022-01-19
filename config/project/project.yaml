@@ -1,4 +1,4 @@
-dateModified: 1641504390
+dateModified: 1642004078
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -205,10 +205,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
-  imager:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.0
   mix:
     enabled: '1'
     licenseKey: null
@@ -221,11 +217,6 @@ plugins:
     enabled: true
     licenseKey: EJDC0EFFBVJWC4IDGXKLNLLX
     schemaVersion: 2.11.6
-  position-fieldtype:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 1.0.0
-    settings: null
   redactor:
     enabled: '1'
     licenseKey: null
