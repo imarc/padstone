@@ -4,11 +4,14 @@
 /config/license.key*
 /node_modules
 /storage
+/tests/_craft/config/project
+/tests/_craft/storage
+/tests/config/project
 /vendor
+/web/assets
 /web/cpresources
 /web/css
 /web/fonts
-/web/assets
 /web/js
 /web/media
 mix-manifest.json
