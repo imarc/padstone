@@ -1,0 +1,11 @@
+actor: ApiTester
+modules:
+    enabled:
+        - \craft\test\Craft
+        - \Helper\Api
+        - REST:
+            depends: PhpBrowser
+    config:
+        PhpBrowser:
+            url: "%TEST_URL%"
+step_decorators: ~        
