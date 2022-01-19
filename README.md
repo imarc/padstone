@@ -110,7 +110,6 @@ The following plugins are currently included and installed via [composer](https:
 * [Expanded Singles](https://plugins.craftcms.com/expanded-singles)
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
 * [Mix](https://plugins.craftcms.com/mix)
-* [Position Fieldtype](https://plugins.craftcms.com/position-fieldtype)
 * [Redactor](https://plugins.craftcms.com/redactor)
 * [Redirect Manager](https://plugins.craftcms.com/redirect)
 * [Tags](https://plugins.craftcms.com/tag-manager)
@@ -149,6 +148,17 @@ The **Content Designer** Field (contentDesigner) allows CMS users to use the fol
 * HTML Widget/Embed
 * Call to Action
 * Shared Section
+
+### Tests
+
+There are some example tests included following Craft's guide using [Codeception/module-yii2](https://github.com/Codeception/module-yii2). Make sure to set `TEST_URL` within your .env file or edit codeception.yml appropriately. If you're using ops, you can run these tests by running
+
+```
+ops codecept run
+```
+
+You may want change the application, database, and general config within tests/_craft/config/ for testing as well.
+
 
 ## License
 
