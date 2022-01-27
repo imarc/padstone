@@ -5,6 +5,14 @@ ops-craft() {
 
 ops-codecept() {
     cmd-doc "Run codecept commands within ops."
+
+    # Ensure database exists
+    TEST_DB=${TEST_DB_DATABASE:-"${DB_DATABASE}_ci"}
+
+    if ! ops mariadb ls | grep -cq $TEST_DB; then
+        ops mariadb run <<<"CREATE DATABASE $TEST_DB;"
+    fi
+
     ops shell ./vendor/bin/codecept "$@"
 }
 
