@@ -42,7 +42,7 @@
     "spicyweb/craft-neo": "^2.9",
     "barrelstrength/sprout-fields": "^3.8",
     "nystudio107/craft-seomatic": "^3.3",
-    "fzaninotto/faker": "^1.5"
+    "fakerphp/faker": "^1.18"
   },
   "autoload": {
     "psr-4": {
@@ -69,7 +69,6 @@
     "codeception/module-phpbrowser": "^1.0",
     "codeception/module-rest": "^1.0",
     "codeception/module-yii2": "^1.1",
-    "fzaninotto/faker": "^1.5",
     "roave/security-advisories": "dev-latest"
   }
 }
