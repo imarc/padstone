@@ -1,4 +1,4 @@
-baseUrl: 'http://dev.padstone.imarc.com/'
+baseUrl: 'https://padstone.imarc.io/'
 enabled: true
 handle: default
 hasUrls: true
