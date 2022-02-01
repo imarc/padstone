@@ -20,6 +20,11 @@
 
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 
+        {# you may want to remove this after installing SEOMatic #}
+        {% if title is defined or entry is defined %}
+            <title>{{ entry.title }}</title>
+        {% endif %}
+
         {% if entry is defined and entry.headerCode %}
             {{ entry.headerCode|raw }}
         {% endif %}
