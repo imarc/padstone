@@ -1,16 +1,7 @@
 <?php
 
-use craft\base\Element;
 use craft\elements\Entry;
 use craft\elements\User;
-use yii\base\Event;
-use craft\events\ModelEvent;
-
-function d(...$args) {
-    //$trace = debug_backtrace(false, 1);
-    fwrite(STDERR, print_r($args, true));
-    //fwrite(STDERR, json_encode($trace, JSON_PRETTY_PRINT));
-}
 
 class BasicSectionCest
 {
@@ -30,6 +21,7 @@ class BasicSectionCest
         $faker = Faker\Factory::create();
         $title = $faker->words(5, true);
         $slug = $faker->slug();
+        $sectionHeading = $faker->words(5, true);
 
         $entry = new Entry([
             'sectionId' => $this->section->id,
@@ -53,7 +45,7 @@ class BasicSectionCest
                         'enabled' => true,
                         'collapsed' => false,
                         'fields' => [
-                            'sectionHeading' => 'testing sectionHeading',
+                            'sectionHeading' => $sectionHeading,
                         ],
                     ],
                 ],
@@ -63,26 +55,9 @@ class BasicSectionCest
             ],
         ]);
 
-        /*
-        Event::on(Entry::class, Element::EVENT_BEFORE_SAVE, function(ModelEvent $e) {
-            d('EVENT_BEFORE_SAVE');
-        });
-
-        Event::on(Entry::class, Element::EVENT_AFTER_SAVE, function(ModelEvent $e) {
-            d('EVENT_AFTER_SAVE');
-        });
-
-        Event::on(Entry::class, Element::EVENT_AFTER_PROPAGATE, function(ModelEvent $e) {
-            d('EVENT_AFTER_PROPAGATE');
-        });
-         */
-
         Craft::$app->elements->saveElement($entry);
 
-        d('here');
-        d($entry->getFieldValue('contentDesigner')->count());
-
         $I->amOnPage("/$slug");
-        $I->see('sectionHeading');
+        $I->see($sectionHeading);
     }
 }
