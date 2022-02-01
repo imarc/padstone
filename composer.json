@@ -42,7 +42,8 @@
     "spicyweb/craft-neo": "^2.9",
     "barrelstrength/sprout-fields": "^3.8",
     "nystudio107/craft-seomatic": "^3.3",
-    "fakerphp/faker": "^1.18"
+    "fakerphp/faker": "^1.18",
+    "hoa/console": "^3.17"
   },
   "autoload": {
     "psr-4": {

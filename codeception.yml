@@ -5,6 +5,8 @@ paths:
   data: tests/_data
   support: tests/_support
   envs: tests/_envs
+settings:
+  memory_limit: 8192M
 params:
     - .env
 bootstrap: _bootstrap.php
@@ -15,9 +17,9 @@ modules:
       entryUrl: "%TEST_URL%/index.php"
       projectConfig:
         folder: 'config/project'
-        reset: true
+        reset: false
       migrations: []
       plugins: []
-      cleanup: true
+      cleanup: false
       transaction: true
-      dbSetup: { clean: true, setupCraft: true }
+      dbSetup: { clean: false, setupCraft: false, applyMigrations: true }

@@ -1,20 +1,55 @@
 <?php
 
+use craft\base\Element;
 use craft\elements\Entry;
+use craft\elements\User;
+use yii\base\Event;
+use craft\events\ModelEvent;
 
-class BasicSectionCest {
+function d(...$args) {
+    //$trace = debug_backtrace(false, 1);
+    fwrite(STDERR, print_r($args, true));
+    //fwrite(STDERR, json_encode($trace, JSON_PRETTY_PRINT));
+}
+
+class BasicSectionCest
+{
+    protected $section = null;
+    protected $author = null;
+
+    public function _before()
+    {
+        $this->section = Craft::$app->sections->getSectionByHandle('pages');
+        $this->entryType = current($this->section->getEntryTypes());
+
+        $this->author = User::find()->admin()->one();
+    }
 
     public function canAddSectionToHomepage(FunctionalTester $I)
     {
-        $homepage = Entry::find()->section('homepage')->one();
+        $faker = Faker\Factory::create();
+        $title = $faker->words(5, true);
+        $slug = $faker->slug();
 
-        $homepage->setFieldValues([
+        $entry = new Entry([
+            'sectionId' => $this->section->id,
+            'typeId' => $this->entryType->id,
+            'fieldLayoutId' => $this->entryType->fieldLayoutId,
+            'authorId' => $this->author->id,
+            'title' => $title,
+            'slug' => $slug,
+            'postDate' => new DateTime(),
+        ]);
 
+        Craft::$app->elements->saveElement($entry);
+
+        $entry->setFieldValues([
             'contentDesigner' => [
                 'blocks' => [
                     'new1' => [
+                        'modified' => 1,
                         'type' => 'basic',
-                        'level' => 1,
+                        'level' => 0,
                         'enabled' => true,
                         'collapsed' => false,
                         'fields' => [
@@ -26,119 +61,28 @@ class BasicSectionCest {
                     'new1',
                 ],
             ],
-
-            //'contentDesigner' => [
-            //    'new1' => [
-            //        'enabled' => 1,
-            //        'type' => 1,
-            //        'fields' => [
-            //            'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //        ],
-            //    ],
-            //    'new2' => [
-            //        'enabled' => 1,
-            //        'type' => 1,
-            //    ],
-            //    'new3' => [
-            //        'enabled' => 1,
-            //        'type' => 1,
-            //    ],
-            //],
-
-            //'contentDesigner' => [
-            //    'sortOrder' => ['new1'],
-            //    'blocks' => [
-            //        'new1' => [
-            //            'enabled' => 1,
-            //            'level' => '00',
-            //            'type' => 'basic',
-            //            'fields' => [
-            //                'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //            ],
-            //        ],
-            //    ],
-            //],
-
-            //'contentDesigner' => [
-            //    'sortOrder' => ['new1'],
-            //    'blocks' => [
-            //        'new1' => [
-            //            'enabled' => 1,
-            //            'level' => 0,
-            //            'type' => 'basic',
-            //            'fields' => [
-            //                'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //            ],
-            //        ],
-            //    ],
-            //],
-
-            //'contentDesigner' => [
-            //    'sortOrder' => ['new1'],
-            //    'blocks' => [
-            //        'new1' => [
-            //            'type' => 'basic',
-            //            'fields' => [
-            //                'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //            ],
-            //        ],
-            //    ],
-            //],
-
-            //'contentDesigner' => [
-            //    'sortOrder' => ['new1'],
-            //    'blocks' => [
-            //        'new1' => [
-            //            'type' => 'basic',
-            //            'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //        ],
-            //    ],
-            //],
-
-            //'contentDesigner' => [
-            //    'blocks' => [
-            //        [
-            //            'type' => 'basic',
-            //            'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //        ],
-            //    ]
-            //],
-
-            //'contentDesigner' => [
-            //    'blocks' => [
-            //        [
-            //            'type' => 'basic',
-            //            'fields' => [
-            //                'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //            ],
-            //        ],
-            //    ]
-            //],
-
-            // 'contentDesigner' => [
-            //     'blocks' => [
-            //         'type' => 'basic',
-            //         'fields' => [
-            //             'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //         ],
-            //     ]
-            // ],
-
-            //'contentDesigner' => [
-            //    [
-            //        'type' => 'basic',
-            //        'fields' => [
-            //            'sectionHeading' => 'contentDesigner.*.fields.sectionHeading',
-            //        ],
-            //    ]
-            //],
         ]);
 
-        fwrite(STDERR, print_r($homepage->getDirtyFields(), true));
+        /*
+        Event::on(Entry::class, Element::EVENT_BEFORE_SAVE, function(ModelEvent $e) {
+            d('EVENT_BEFORE_SAVE');
+        });
 
-        Craft::$app->elements->saveElement($homepage);
+        Event::on(Entry::class, Element::EVENT_AFTER_SAVE, function(ModelEvent $e) {
+            d('EVENT_AFTER_SAVE');
+        });
 
-        $I->amOnPage('/');
-        $I->see('contentDesigner');
+        Event::on(Entry::class, Element::EVENT_AFTER_PROPAGATE, function(ModelEvent $e) {
+            d('EVENT_AFTER_PROPAGATE');
+        });
+         */
+
+        Craft::$app->elements->saveElement($entry);
+
+        d('here');
+        d($entry->getFieldValue('contentDesigner')->count());
+
+        $I->amOnPage("/$slug");
+        $I->see('sectionHeading');
     }
 }
