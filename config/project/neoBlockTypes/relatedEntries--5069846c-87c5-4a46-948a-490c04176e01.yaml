@@ -43,6 +43,8 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+          -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
             label: null

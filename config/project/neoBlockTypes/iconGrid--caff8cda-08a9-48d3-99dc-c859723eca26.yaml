@@ -33,9 +33,9 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39ab22fe-4e77-41e6-8c13-442f832d2fc4 # Content
-            instructions: null
-            label: null
+            fieldUid: be750023-509f-45ce-b784-9d099cd2fe28 # Content (No Media)
+            instructions: ''
+            label: Content
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

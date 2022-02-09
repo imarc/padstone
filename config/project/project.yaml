@@ -1,4 +1,4 @@
-dateModified: 1641504390
+dateModified: 1644422412
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -53,7 +53,6 @@ meta:
     80c5c826-227b-4c52-a9c9-e314bb49a079: 'Section Conclusion' # Section Conclusion
     82a2c8bb-e9ac-4ea3-b6a7-9ed9a46b019c: Subheadline # Subheadline
     87fa42ae-cdb3-48ca-a5b4-80df97ced5bc: 'Icon Grid' # Icon Grid
-    92f01f55-77fe-475a-b4c1-9c51e404ced0: 'Introduction Section' # Introduction Section
     93c50f97-bc7e-49e9-8963-7ef0419aed10: 'Resources Page' # Resources Page
     93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1: Resource # Resource
     349bc9d5-448b-4314-a81e-d76e7cca8758: 'News Article' # News Article
@@ -82,7 +81,7 @@ meta:
     13855676-b0ca-477b-b838-6bfaa2d2c4da: Alerts # Alerts
     31726602-42e3-461e-ad79-08d69e6e899a: Resources # Resources
     50143545-7495-4722-9929-a0651b8110dd: 'Navigation Heading' # Navigation Heading
-    54928315-c91e-43dd-9a25-ef7bb9d4a906: 'Basic Section' # Basic Section
+    54928315-c91e-43dd-9a25-ef7bb9d4a906: 'Visual Section' # Visual Section
     57423459-e14e-4a06-af08-3f1c378379ba: Resources # Resources
     61009477-6ca8-4122-b871-b3b715eec012: Events # Events
     76189277-255d-4e96-a6a5-6d393515b059: 'Navigation Links' # Navigation Links
@@ -103,7 +102,9 @@ meta:
     b54bac54-a6a2-4e19-af8b-eead56deed68: Author # Author
     b233c231-ff4b-4157-8c2e-6cc6affca07e: Page # Page
     bbb87adb-e632-4579-b223-79796ba4ff1a: Resources # Resources
+    bc736b97-4ff9-4fc1-a2c6-29b4a07fdba6: 'Rich Text Section' # Rich Text Section
     bca12576-fed9-4ec6-8597-2011bc9e21da: 'Primary Navigation' # Primary Navigation
+    be750023-509f-45ce-b784-9d099cd2fe28: 'Content (No Media)' # Content (No Media)
     bf421a3c-f1ec-450f-9a71-564c29401db5: Video # Video
     c2b63486-bb0e-42d6-9986-12cead0acc47: 'Blog Date' # Blog Date
     c2f6ae57-a58a-4ddb-8776-b3510df685a6: 'Start Date' # Start Date

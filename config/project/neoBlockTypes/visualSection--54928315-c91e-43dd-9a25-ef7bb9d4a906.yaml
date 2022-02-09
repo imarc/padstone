@@ -1,7 +1,14 @@
-childBlocks: null
+childBlocks:
+  - textColumn
+  - callToActionColumn
+  - imageColumn
+  - relatedEntryColumn
+  - testimonialColumn
+  - videoColumn
+  - embedColumn
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
-  8ad463ef-eaef-48e8-9fa2-b3d241d8a0a8:
+  7e5ffe0c-b4b2-46b1-8679-07e4fc0c9f72:
     tabs:
       -
         elements:
@@ -34,9 +41,20 @@ fieldLayouts:
             width: 100
           -
             fieldUid: 4bdc4b1e-4dbc-47ad-8552-a6459c2c9644 # Section Introduction
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+          -
+            fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -50,7 +68,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Introduction Section'
+        name: 'Visual Section'
         sortOrder: 1
       -
         elements:
@@ -74,10 +92,10 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: introduction
+handle: visualSection
 maxBlocks: 0
-maxChildBlocks: 0
+maxChildBlocks: 3
 maxSiblingBlocks: 0
-name: 'Introduction Section'
-sortOrder: 2
+name: 'Visual Section'
+sortOrder: 1
 topLevel: true

@@ -1,14 +1,7 @@
-childBlocks:
-  - textColumn
-  - callToActionColumn
-  - imageColumn
-  - relatedEntryColumn
-  - testimonialColumn
-  - videoColumn
-  - embedColumn
+childBlocks: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
-  7e5ffe0c-b4b2-46b1-8679-07e4fc0c9f72:
+  b49fe5d4-668b-4522-9bd4-8a2e8d5c7701:
     tabs:
       -
         elements:
@@ -49,6 +42,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: 39ab22fe-4e77-41e6-8c13-442f832d2fc4 # Content
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
             label: null
@@ -66,7 +68,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Basic Section'
+        name: 'Rich Text Section'
         sortOrder: 1
       -
         elements:
@@ -90,10 +92,10 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: basic
+handle: richTextSection
 maxBlocks: 0
-maxChildBlocks: 3
+maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: 'Basic Section'
-sortOrder: 1
+name: 'Rich Text Section'
+sortOrder: 2
 topLevel: true
