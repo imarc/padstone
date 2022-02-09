@@ -9,7 +9,7 @@
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
-        {% include ['/_blocks/' ~ block.type, '/_blocks/baseSection'] %}
+        {% include ['/_blocks/' ~ block.type, '/_blocks/visualSection'] %}
     {% endif %}
 {% endspaceless %}{% endmacro %}
 
