@@ -22,4 +22,4 @@ modules:
       plugins: []
       cleanup: false
       transaction: true
-      dbSetup: { clean: false, setupCraft: false, applyMigrations: true }
+      dbSetup: { clean: true, setupCraft: true, applyMigrations: true }

@@ -19,9 +19,9 @@ class BasicSectionCest
     public function canAddSectionToHomepage(FunctionalTester $I)
     {
         $faker = Faker\Factory::create();
-        $title = $faker->words(5, true);
-        $slug = $faker->slug();
-        $sectionHeading = $faker->words(5, true);
+        $title = 'title_' . $faker->words(5, true);
+        $slug = 'slug_' . $faker->slug();
+        $sectionHeading = 'heading_' . $faker->words(5, true);
 
         $entry = new Entry([
             'sectionId' => $this->section->id,
@@ -33,10 +33,11 @@ class BasicSectionCest
             'postDate' => new DateTime(),
         ]);
 
-        Craft::$app->elements->saveElement($entry);
+        //Craft::$app->elements->saveElement($entry);
 
-        $entry->setFieldValues([
-            'contentDesigner' => [
+        $entry->setFieldValue(
+            'contentDesigner',
+            [
                 'blocks' => [
                     'new1' => [
                         'modified' => 1,
@@ -53,11 +54,30 @@ class BasicSectionCest
                     'new1',
                 ],
             ],
-        ]);
+        );
 
-        Craft::$app->elements->saveElement($entry);
+        $sections = $entry->getFieldValue('contentDesigner')->all();
+        fwrite(STDERR, "count: " . count($sections) . "\n\n");
+        if (count($sections) === 0) {
+            throw new Exception("sections count is 0");
+        }
+        /*
+
+        $I->saveElement($entry);
+
+        // After save, this reference to $entry isn't very useful anymore, and it needs to be 'refreshed'
+        //$sections = $entry->getFieldValue('contentDesigner')->all();
+        //fwrite(STDERR, "count: " . count($sections) . "\n\n");
+
+        // This version of entry actually has stuff
+        $entry = Entry::find()->slug($slug)->one();
+        $sections = $entry->getFieldValue('contentDesigner')->all();
+        fwrite(STDERR, "count: " . count($sections) . "\n\n");
+
 
         $I->amOnPage("/$slug");
+        $I->see($title);
         $I->see($sectionHeading);
+        */
     }
 }
