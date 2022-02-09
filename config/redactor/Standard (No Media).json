@@ -1,0 +1,12 @@
+{
+  "buttons": ["html", "formatting", "bold", "italic", "unorderedlist", "orderedlist", "link", "file", "redo", "undo", "alignment"],
+  "plugins": ["alignment"],
+  "replaceTags": {
+    "b": "strong",
+    "i": "em",
+    "strike": "del"
+  },
+  "formattingHide": ["h1"],
+  "structure": true,
+  "toolbarFixed": true
+}
