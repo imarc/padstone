@@ -2,6 +2,7 @@ childBlocks:
   - textColumn
   - callToActionColumn
   - imageColumn
+  - weightedImageColumn
   - relatedEntryColumn
   - testimonialColumn
   - videoColumn
@@ -13,7 +14,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Kicker
+            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Eyebrow
             instructions: null
             label: null
             required: false
@@ -92,10 +93,10 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: visualSection
+handle: designedSection
 maxBlocks: 0
-maxChildBlocks: 3
+maxChildBlocks: 2
 maxSiblingBlocks: 0
-name: 'Visual Section'
+name: 'Designed Section'
 sortOrder: 1
 topLevel: true

@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: text
 fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
-handle: sectionKicker
-instructions: 'Optional kicker for this section.'
-name: 'Section Kicker'
+handle: sectionEyebrow
+instructions: 'Optional eyebrow for this section.'
+name: 'Section Eyebrow'
 searchable: false
 settings:
   byteLimit: null
