@@ -1,12 +1,12 @@
 childBlocks: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
-  66bc46fc-a268-4fc8-8e5e-e31bb04cb456:
+  f6787b4f-a925-40a7-8319-f745c048366c:
     tabs:
       -
         elements:
           -
-            fieldUid: bf421a3c-f1ec-450f-9a71-564c29401db5 # Video
+            fieldUid: 4cf8035e-3fdb-4fee-b44e-7876f8adc134 # Image
             instructions: ''
             label: ''
             required: '1'
@@ -14,12 +14,12 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Video
+        name: Image
         sortOrder: 1
-handle: videoColumn
+handle: weightedImageColumn
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: Video
-sortOrder: 9
+name: 'Weighted Image'
+sortOrder: 6
 topLevel: false

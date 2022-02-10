@@ -1,12 +1,12 @@
 childBlocks: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
-  8ad463ef-eaef-48e8-9fa2-b3d241d8a0a8:
+  b49fe5d4-668b-4522-9bd4-8a2e8d5c7701:
     tabs:
       -
         elements:
           -
-            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Kicker
+            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Eyebrow
             instructions: null
             label: null
             required: false
@@ -34,9 +34,27 @@ fieldLayouts:
             width: 100
           -
             fieldUid: 4bdc4b1e-4dbc-47ad-8552-a6459c2c9644 # Section Introduction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 39ab22fe-4e77-41e6-8c13-442f832d2fc4
             instructions: ''
             label: ''
             required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -50,7 +68,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Introduction Section'
+        name: 'Rich Text Section'
         sortOrder: 1
       -
         elements:
@@ -74,10 +92,10 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: introduction
+handle: richTextSection
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: 'Introduction Section'
+name: 'Rich Text Section'
 sortOrder: 2
 topLevel: true

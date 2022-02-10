@@ -1,4 +1,4 @@
-dateModified: 1641504390
+dateModified: 1644510220
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -11,7 +11,8 @@ meta:
     1cd65752-f86f-48a3-9924-90919c9ca915: Homepage # Homepage
     1ea4259c-e128-4613-8411-7fdff7c0b9a4: 'Standard Hero' # Standard Hero
     1eb9445b-5596-41c4-b25c-ec44e9a4ec0a: 'Team Member' # Team Member
-    1fe0cd4d-bad9-4dc9-93c8-5c42c53b930c: Kicker # Kicker
+    1f72f453-c1cd-4abf-9dda-f57179b39bd5: Content # Content
+    1fe0cd4d-bad9-4dc9-93c8-5c42c53b930c: Eyebrow # Eyebrow
     2b415ab0-c680-4dd1-acfd-0d1edb5452a8: 'Content Designer' # Content Designer
     2bce713c-e1dd-4517-8bf0-60f2c1165bc3: 'Blog Article' # Blog Article
     2ddfd638-9959-4fb7-877b-10b6424503bc: 'Service Unavailable Page' # Service Unavailable Page
@@ -46,14 +47,12 @@ meta:
     26f42a7b-fe45-4cc5-9535-49a9e14a7446: Date # Date
     28bbb761-2bca-4754-ba9e-c0bfe22f4496: People # People
     33b1f8a4-938d-4514-bd23-d7b4e457fb8f: Video # Video
-    39ab22fe-4e77-41e6-8c13-442f832d2fc4: Content # Content
     48df7913-438b-433b-96d3-163d33a83ea7: Photo # Photo
     49c29c1d-a40b-4fdc-b79e-237911ae899b: 'Footer Navigation' # Footer Navigation
     78c81b0b-cb55-4a9e-b5c9-4d4316b19255: Headline # Headline
     80c5c826-227b-4c52-a9c9-e314bb49a079: 'Section Conclusion' # Section Conclusion
     82a2c8bb-e9ac-4ea3-b6a7-9ed9a46b019c: Subheadline # Subheadline
     87fa42ae-cdb3-48ca-a5b4-80df97ced5bc: 'Icon Grid' # Icon Grid
-    92f01f55-77fe-475a-b4c1-9c51e404ced0: 'Introduction Section' # Introduction Section
     93c50f97-bc7e-49e9-8963-7ef0419aed10: 'Resources Page' # Resources Page
     93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1: Resource # Resource
     349bc9d5-448b-4314-a81e-d76e7cca8758: 'News Article' # News Article
@@ -70,7 +69,7 @@ meta:
     8484a0d1-2553-4939-bce7-c6a64087c06a: 'Call to Action Label' # Call to Action Label
     09773b73-a304-4513-84fd-c4d5d4dd953a: Images # Images
     057820ca-40a4-4854-9da1-7e9d88fc255f: 'Call to Action' # Call to Action
-    63130e28-a0f4-4ccd-9398-6605090e3d4e: 'Section Kicker' # Section Kicker
+    63130e28-a0f4-4ccd-9398-6605090e3d4e: 'Section Eyebrow' # Section Eyebrow
     65565a16-00f4-46e1-8520-6975a775133d: 'Shared Section' # Shared Section
     86444c22-bd97-4a40-9136-f5613c95ba48: 'Resource Types' # Resource Types
     437719cf-795d-42cf-8b92-2ea1224939b4: 'Direct Link' # Direct Link
@@ -82,7 +81,7 @@ meta:
     13855676-b0ca-477b-b838-6bfaa2d2c4da: Alerts # Alerts
     31726602-42e3-461e-ad79-08d69e6e899a: Resources # Resources
     50143545-7495-4722-9929-a0651b8110dd: 'Navigation Heading' # Navigation Heading
-    54928315-c91e-43dd-9a25-ef7bb9d4a906: 'Basic Section' # Basic Section
+    54928315-c91e-43dd-9a25-ef7bb9d4a906: 'Designed Section' # Designed Section
     57423459-e14e-4a06-af08-3f1c378379ba: Resources # Resources
     61009477-6ca8-4122-b871-b3b715eec012: Events # Events
     76189277-255d-4e96-a6a5-6d393515b059: 'Navigation Links' # Navigation Links
@@ -103,7 +102,9 @@ meta:
     b54bac54-a6a2-4e19-af8b-eead56deed68: Author # Author
     b233c231-ff4b-4157-8c2e-6cc6affca07e: Page # Page
     bbb87adb-e632-4579-b223-79796ba4ff1a: Resources # Resources
+    bc736b97-4ff9-4fc1-a2c6-29b4a07fdba6: 'Rich Text Section' # Rich Text Section
     bca12576-fed9-4ec6-8597-2011bc9e21da: 'Primary Navigation' # Primary Navigation
+    be750023-509f-45ce-b784-9d099cd2fe28: 'Content (No Media)' # Content (No Media)
     bf421a3c-f1ec-450f-9a71-564c29401db5: Video # Video
     c2b63486-bb0e-42d6-9986-12cead0acc47: 'Blog Date' # Blog Date
     c2f6ae57-a58a-4ddb-8776-b3510df685a6: 'Start Date' # Start Date
@@ -127,6 +128,7 @@ meta:
     d2034a01-128e-4603-bb49-a8367850dc96: Introduction # Introduction
     e3c0ba5c-47fe-4162-b36a-d145f282a972: 'Shared Section' # Shared Section
     e60a84f5-789c-489b-a95e-ae0419f4ae7d: 'Additional Footer Code' # Additional Footer Code
+    e43112ef-9196-4187-9567-345e3181f3b2: 'Weighted Image' # Weighted Image
     e715570c-a506-4c8b-b940-48378d3a8448: Icon # Icon
     e6810524-42e4-4e35-8fe8-edfb548dd138: Description # Description
     eaed0b39-140d-4da6-8c44-9e192f8a76be: 'Blog Page' # Blog Page
