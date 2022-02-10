@@ -71,7 +71,7 @@
     {% endspaceless %}{% endset %}
 
     {% set numChildren = block.children|length %}
-    {% if numChildren > 0 %}
+    {% if numChildren > 1 %}
         {% set type = block.children.one().type|replace('/Column$/', '') %}
 
         {% set repeatedSlug = '' %}
