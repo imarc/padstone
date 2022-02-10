@@ -9,7 +9,7 @@
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
-        {% include ['/_blocks/' ~ block.type, '/_blocks/visualSection'] %}
+        {% include ['/_blocks/' ~ block.type, '/_blocks/designedSection'] %}
     {% endif %}
 {% endspaceless %}{% endmacro %}
 
@@ -32,9 +32,62 @@
 {% endspaceless %}{% endmacro %}
 
 
-{% macro renderColumn(block) %}{% spaceless %}
-    {% set columnName = block.type|replace('/Column$/', '') %}
+{##
+# The renderColumn macor renders a single Column within a contentDesigner
+# section. It looks for the appropriate template in /_columns/ and falls back
+# to baseColumn.twig.
+#}
+{% macro renderColumn(column) %}{% spaceless %}
+    {% set columnName = column.type|replace('/Column$/', '') %}
     {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] %}
+{% endspaceless %}{% endmacro %}
+
+
+{##
+# columnsSlug generates a lowerCamelCase slug based on the columns within this
+# block. The types of each column are alphabetized, concatenated and the whole
+# thing is lower camelized. For example,
+#
+#    relatedEntryText
+#    textVideo
+#    imageTextVideo
+#
+# There is one exception: if all columns are the same type, then the number of
+# columns is put first and the slug is put once. For example,
+#
+# Instead of 'textText', 'twoText'
+# Instead of 'relatedEntryRelatedEntryRelatedEntry, 'threeRelatedEntry'
+#}
+{% macro columnsSlug(block) %}{% spaceless %}
+    {% import _self as macros %}
+
+    {% set concatenatedSlug %}{% spaceless %}
+        {{ block.children.all()
+            |map((b, i) => b.type|replace('/Column$/', ''))
+            |sort
+            |join(' ')
+            |camel
+        }}
+    {% endspaceless %}{% endset %}
+
+    {% set numChildren = block.children|length %}
+    {% if numChildren > 0 %}
+        {% set type = block.children.one().type|replace('/Column$/', '') %}
+
+        {% set repeatedSlug = '' %}
+        {% for i in 1..numChildren %}
+            {% set repeatedSlug = repeatedSlug ~ ' ' ~ type %}
+        {% endfor %}
+
+        {% if concatenatedSlug == (repeatedSlug|camel) %}
+            {{ "#{macros.numberToWord(numChildren)} #{type}"|camel }}
+        {% else %}
+            {{ concatenatedSlug }}
+        {% endif %}
+    {% else %}
+        {{ concatenatedSlug }}
+    {% endif %}
+
 {% endspaceless %}{% endmacro %}
 
 
@@ -160,7 +213,7 @@
 {% endspaceless %}{% endmacro %}
 
 {##
- #
+ # Converts a number betwen zero and 10 to the english version.
  #}
 {% macro numberToWord(number, suffix = '') %}{% spaceless %}
     {% set numbers = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'] %}
