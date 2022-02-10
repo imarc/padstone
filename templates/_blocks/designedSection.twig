@@ -1,14 +1,15 @@
 {% import "/_macros" as macros %}
 
-{% set columnClass = macros.numberToWord(block.children|length) ~ "Column" %}
+{% set numColumnsClass = macros.numberToWord(block.children|length) ~ "Column" %}
+{% set columnSlugsClass = macros.columnsSlug(block) ~ "Layer" %}
 
-<div class="layer -{{ block.type }} -{{ columnClass }}">
+<div class="layer -{{ block.type }} -{{ numColumnsClass }} {{ columnSlugsClass }}">
     <div class="layer__container container">
         {% block header %}
-            {% if block.sectionKicker or block.sectionHeading or block.sectionSubheading %}
+            {% if block.sectionEyebrow or block.sectionHeading or block.sectionSubheading %}
                 <header class="layer__header">
-                    {% if block.sectionKicker %}
-                        <div class="kicker -primary">{{ block.sectionKicker }}</div>
+                    {% if block.sectionEyebrow %}
+                        <div class="eyebrow -primary">{{ block.sectionEyebrow }}</div>
                     {% endif %}
                     {% if block.sectionHeading %}
                         <h2 class="layer__heading">{{ block.sectionHeading }}</h2>

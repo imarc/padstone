@@ -1,12 +1,12 @@
-{% if block.sectionImage|length %}
-    <div class="card__background" style="opacity: .3; background-image: url({{ block.sectionImage.one.url }})"></div>
+{% if column.sectionImage|length %}
+    <div class="card__background" style="opacity: .3; background-image: url({{ column.sectionImage.one.url }})"></div>
 {% endif %}
-<h4 class="card__heading">{{ block.sectionLabel }}</h4>
+<h4 class="card__heading">{{ column.sectionLabel }}</h4>
 <div class="card__content">
-    {{ block.sectionContentNoMedia }}
+    {{ column.sectionContentNoMedia }}
 </div>
 <div class="card__actions">
-    <a href="{{ block.sectionRelatedEntry.one.url }}" class="card__action button -primary">
-        {{ block.sectionCTALabel }}
+    <a href="{{ column.sectionRelatedEntry.one.url }}" class="card__action button -primary">
+        {{ column.sectionCTALabel }}
     </a>
 </div>

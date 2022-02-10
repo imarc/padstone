@@ -12,7 +12,7 @@
     {# set falsy defaults to simplify null checks #}
     {% set hero = {
         backgroundImage: null,
-        kicker: null,
+        eyebrow: null,
         headline: null,
         subheadline: null,
         introduction: null,
@@ -27,8 +27,8 @@
         {% endif %}
         <div class="layer__container container">
             <header class="layer__header">
-                {% if hero.kicker %}
-                    <div class="heading__eyebrow eyebrow">{{ hero.kicker }}</div>
+                {% if hero.eyebrow %}
+                    <div class="heading__eyebrow eyebrow">{{ hero.eyebrow }}</div>
                 {% endif %}
                 {% if hero.headline %}
                     <h1 class="layer__heading">{{ hero.headline }}</h1>

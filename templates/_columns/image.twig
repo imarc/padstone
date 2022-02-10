@@ -1,7 +1,7 @@
 {% import "/_macros" as macros %}
 
-{% if block.sectionImage|length %}
-    {{ macros.responsiveImage(block.sectionImage.one, { pictureClass: 'layer__image' }) }}
+{% if column.sectionImage|length %}
+    {{ macros.responsiveImage(column.sectionImage.one, { pictureClass: 'layer__image' }) }}
 {% else %}
     <svg viewBox="0 0 16 9" style="background: #0002"></svg>
 {% endif %}
