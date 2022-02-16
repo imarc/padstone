@@ -104,28 +104,31 @@ The following plugins are currently included and installed via [composer](https:
 
 * [Admin Bar](https://plugins.craftcms.com/admin-bar)
 * [CodeMirror](https://plugins.craftcms.com/code-mirror)
-* [Contact Form](https://plugins.craftcms.com/contact-form)
 * [Contact Form Honeypot](https://plugins.craftcms.com/contact-form-honeypot)
+* [Contact Form](https://plugins.craftcms.com/contact-form)
 * [Craft Kindling](https://github.com/imarc/craft-kindling)
+* [Element API](https://github.com/craftcms/element-api)
 * [Expanded Singles](https://plugins.craftcms.com/expanded-singles)
+* [Feed Me](https://github.com/craftcms/feed-me)
+* [Field Manager](https://github.com/verbb/field-manager)
 * [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
 * [Mix](https://plugins.craftcms.com/mix)
-* [Position Fieldtype](https://plugins.craftcms.com/position-fieldtype)
+* [Neo](https://github.com/spicywebau/craft-neo)
 * [Redactor](https://plugins.craftcms.com/redactor)
-* [Redirect Manager](https://plugins.craftcms.com/redirect)
+* [Retour](https://plugins.craftcms.com/retour)
+* [Sprout Fields](https://sprout.barrelstrengthdesign.com/docs/fields/)
+* [Super Table](https://github.com/verbb/super-table)
 * [Tags](https://plugins.craftcms.com/tag-manager)
 * [Typed link field](https://plugins.craftcms.com/typedlinkfield)
-* [Field Manager](https://plugins.craftcms.com/field-manager) - this is included, but not installed by default.
 
 
 #### Suggested Additional Plugins
 
 These plugins didn't make the cut for Padstone, but they are plugins we'd recommend people look at if they have specific needs:
 
-* [Element API](https://plugins.craftcms.com/element-api) - easy creation of JSON APIs for your website. Likely to be included in the next version of Padstone. Free.
-* [Feed Me](https://plugins.craftcms.com/feed-me) - import content into craft from XML, CSV, and other kinds of exports. Currently Pro is $99 and $30/year.
 * [Guide](https://plugins.craftcms.com/guide) - add documentation with Craft. Currently $39 and $19/year.
-* [Retour](https://plugins.craftcms.com/retour) - if the included Redirect Manager plugin isn't powerful enough, Retour provides some additional functionality and reporting beyond what Redirect Manager does. Currently $59 and $29/year.
+* [Maps](https://docs.ethercreative.co.uk/maps/) - a Map field type for picking locations that works with Google Maps and other services.
+* [Sprout Forms](https://sprout.barrelstrengthdesign.com/docs/forms/) - a form builder that can track submissions within Craft.
 
 
 ### Macros
