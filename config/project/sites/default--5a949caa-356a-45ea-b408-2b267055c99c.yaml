@@ -1,4 +1,4 @@
-baseUrl: 'http://dev.padstone.imarc.com/'
+baseUrl: $APP_URL
 enabled: true
 handle: default
 hasUrls: true
