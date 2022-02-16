@@ -6,7 +6,6 @@ email:
 meta:
   __names__:
     0bcdc18c-156d-4d49-b4fe-272e7d33ff45: Alert # Alert
-    0dc737ab-2193-4940-8f16-9abace44a363: 'Section Backgrounds' # Section Backgrounds
     0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e: 'Featured Image' # Featured Image
     1cd65752-f86f-48a3-9924-90919c9ca915: Homepage # Homepage
     1ea4259c-e128-4613-8411-7fdff7c0b9a4: 'Standard Hero' # Standard Hero
@@ -223,6 +222,10 @@ plugins:
     enabled: true
     licenseKey: EJDC0EFFBVJWC4IDGXKLNLLX
     schemaVersion: 2.11.6
+  pickture:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   position-fieldtype:
     enabled: '1'
     licenseKey: null
