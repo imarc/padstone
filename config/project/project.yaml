@@ -1,4 +1,4 @@
-dateModified: 1644510220
+dateModified: 1645036480
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -233,11 +233,11 @@ plugins:
     licenseKey: null
     schemaVersion: 2.3.0
     settings: null
-  redirect:
-    enabled: '1'
-    licenseKey: null
-    schemaVersion: 1.0.5
-    settings: null
+  retour:
+    edition: standard
+    enabled: true
+    licenseKey: ZBZ3UQOSANUAPT9YZRRUZAHZ
+    schemaVersion: 3.0.10
   seomatic:
     edition: standard
     enabled: true
