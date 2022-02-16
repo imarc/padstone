@@ -13,11 +13,9 @@ _If you would like to use the older version of Padstone for Craft 2, see the [cr
 ## Features
 
 * Pre-built CMS sections, including ones for the Homepage, a Blog, News, and Resources. (18 in total!)
-* A set of **Bootstrap 4** twig templates for you to replace or customize.
-* A matrix-based **Content Designer** field, built within Craft, for laying out pages beyond simple rich text.
-* A set of (free) plugins selected by Imarc that we recommend for new projects.
-
-<img src="https://user-images.githubusercontent.com/1452/56689796-f0fb0680-66a9-11e9-8b4b-e66690ed9607.jpg">
+* A set of [Imarc Boilerplate](https://github.com/imarc/boilerplate-components) twig templates for you to replace or customize.
+* A neo-based **Content Designer** field, built within Craft, for laying out pages beyond simple rich text.
+* A set of plugins selected by Imarc that we recommend for new projects.
 
 
 ## Getting Started
@@ -28,7 +26,7 @@ Create a new padstone project with the following [composer](https://getcomposer.
 composer create-project imarc/padstone [folder]
 ```
 
-### Using `ops` (the fast way)
+### Using [ops](https://github.com/imarc/ops) (the fast way)
 
 Go into your the new project folder, and run
 
@@ -90,11 +88,11 @@ If you are building to production, run:
 Padstone includes the following sections:
 
 * **Homepage**
-* **Blog Page** and **Blog Articles**
-* **News & Events Page**, **News Articles**, and **Events**
-* **Resources Page** and **Resources**
-* **About Page**, **Leadership Page**, **Contact Page**, **Privacy Page**, **People**
-* Custom **Landing Pages**
+* **Pages** with entry types for **Blog**, **News**, **Resources**, **Team**, and **Contact** pages
+* **Shared Sections** for building shared pieces of of pages
+* **Blog Articles**, **News Articles** and **Authors**
+* **Team**, **Events** and **Resources**
+* **Alerts**
 * **Error Page** and **404 Page**
 
 
@@ -135,23 +133,32 @@ These plugins didn't make the cut for Padstone, but they are plugins we'd recomm
 
 There is a `_macros.twig` file that provides The following macros:
 
-* **renderAllBlocks** and **renderBlock** - these are used to render the contentDesigner field.
+* **renderAllBlocks**, **renderBlock**, and **renderColumn** - these are used to render the contentDesigner field.
+* **responsiveImage** - macro that uses the responsiveImage.twig partial to embed an image with an appropriate picture tag with srcsets for working with lazysizes.
 * **pagination** - used to generate pagination.
 * **commaSeparate** - used to generate a comma separated list of elements based on title.
+* **columnsSlug** - used to generate a classname appropriate slug for for a section.
+* **numberToWord** - used to convert a number from 0 through 10 to an english word.
 
 
-### Blocks
+### Sections
 
-The **Content Designer** Field (contentDesigner) allows CMS users to use the following blocks out of the box:
+The **Content Designer** Field (contentDesigner) allows CMS users to use the following sections out of the box:
 
-* Rich Text
-* Two Columns
-* Image with Text
-* Video with Text
-* Testimonial
-* HTML Widget/Embed
-* Call to Action
-* Shared Section
+* **Designed Section** - the most common section, it allows you to pick a combination of up to two columns to render together out of the following:
+  * Text - a regular rich text column. Within a Text column, you can additionally add a Call to Action.
+  * Call to Action - a call to action, typically styled to look like a button.
+  * Image - an image.
+  * Related Entry - a related entry.
+  * Testimonial - a testimonial.
+  * Video - a video.
+  * Embed - an embed.
+* **Rich Text Section** - a more traditional section of just rich text, relying on redactor for styling or floating images within the content.
+* **Call to Action Section** - A full width section featuring a call to action.
+* **Related Entries Section** - A section of related entries, such as related blog articles or resources.
+* **Testimonial Section** - A section featuring a testimonial.
+* **Icon Grid Section** - An icon grid, typically used to showcase partner, brand or technology logos.
+* **Shared Section** - allows you to include a Shared Section, a separate type of entry in the CMS that itself contains a Content Designer field. This lets you build a block once (within a Shared Section) and include it into multiple pages on the site.
 
 ## License
 
@@ -188,4 +195,4 @@ Set up a padstone project with the ability to contribute back.
 
 <img src="https://user-images.githubusercontent.com/1452/56690112-b04fbd00-66aa-11e9-9e87-049b403cfa26.png" alt="Imarc" width="100">
 
-© 2019-2020 Imarc
+© 2019-2022 Imarc
