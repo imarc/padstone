@@ -42,15 +42,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39ab22fe-4e77-41e6-8c13-442f832d2fc4
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
             label: null
