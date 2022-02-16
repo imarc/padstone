@@ -1,4 +1,4 @@
-dateModified: 1645036690
+dateModified: 1645036805
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -267,7 +267,7 @@ system:
   edition: solo
   live: true
   name: Padstone
-  schemaVersion: 3.7.8
+  schemaVersion: 3.7.33
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

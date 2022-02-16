@@ -27,9 +27,6 @@ return [
         // The secure key Craft will use for hashing and encrypting data
         'securityKey' => $_ENV['SECURITY_KEY'],
 
-        // Base site URL
-        'siteUrl' => $_ENV['APP_URL'],
-
         // Whether the site should be in dev mode
         'devMode' => $_ENV['DEV_MODE'],
 
