@@ -1,4 +1,4 @@
-dateModified: 1645036805
+dateModified: 1645038182
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -145,25 +145,23 @@ plugins:
     licenseKey: null
     schemaVersion: 3.1.0
     settings:
-      bgColor: '#000000'
-      cacheBar: true
-      customLinks:
-        -
-          adminOnly: ''
-          linkLabel: foo
-          linkUrl: fooo
+      customCss: ''
+      customLinks: ''
       displayDashboardLink: true
       displayDefaultEditSection: true
       displayEditAuthor: true
       displayEditDate: true
       displayGreeting: true
+      displayGuideLink: true
       displayLogout: true
       displayRevisionNote: true
       displaySettingsLink: true
       enableMobileMenu: true
-      highlightColor: '#D85B4B'
-      scrollLinks: true
-      textColor: '#FFFFFF'
+      widgets:
+        __assoc__:
+          -
+            - admin-bar_edit-links
+            - ''
   code-mirror:
     enabled: '1'
     licenseKey: null
