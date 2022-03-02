@@ -6,8 +6,8 @@
     {% include '_partials/hero' with entry %}
 
     <resources :params="params" v-slot="{ query, resources, isLoading, meta: { pagination  = {} } = {} }">
-        <div class="layer results">
-            <div class="layer__container container">
+        <div class="section resultsSection">
+            <div class="section__container container">
 
                 <div class="filters">
                     <div class="filters__filter select">

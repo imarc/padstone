@@ -19,42 +19,42 @@
         CTA: null
     }|merge(hero) %}
 
-    <section class="layer {{ hero.backgroundImage|length ? '-dark' : '' }} -hero">
+    <section class="section {{ hero.backgroundImage|length ? '-dark' : '' }} -hero">
         {% if hero.backgroundImage|length %}
-            <div class="layer__background">
-                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'layer__backgroundImg' }) }}
+            <div class="section__background">
+                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'section__backgroundImg' }) }}
             </div>
         {% endif %}
-        <div class="layer__container container">
-            <header class="layer__header">
+        <div class="section__container container">
+            <header class="section__header">
                 {% if hero.eyebrow %}
                     <div class="heading__eyebrow eyebrow">{{ hero.eyebrow }}</div>
                 {% endif %}
                 {% if hero.headline %}
-                    <h1 class="layer__heading">{{ hero.headline }}</h1>
+                    <h1 class="section__heading">{{ hero.headline }}</h1>
                 {% endif %}
                 {% if hero.subheadline %}
-                    <h2 class="layer__subheading">{{ hero.subheadline }}</h2>
+                    <h2 class="section__subheading">{{ hero.subheadline }}</h2>
                 {% endif %}
             </header>
             {% if hero.introduction %}
-                <div class="layer__introduction -emphasized">
+                <div class="section__introduction -emphasized">
                     {{ hero.introduction }}
                 </div>
             {% endif %}
             {% if hero.CTA %}
-                <div class="layer__actions">
-                    {{ hero.CTA.getLink({ class: 'layer__action button -primary' }) }}
+                <div class="section__actions">
+                    {{ hero.CTA.getLink({ class: 'section__action button -primary' }) }}
                 </div>
             {% endif %}
         </div>
     </section>
 
 {% else %}
-    <section class="layer -dark -hero">
-        <div class="layer__container container">
-            <header class="layer__header">
-                <h1 class="layer__heading">{{ entry.title }}</h1>
+    <section class="section -dark -hero">
+        <div class="section__container container">
+            <header class="section__header">
+                <h1 class="section__heading">{{ entry.title }}</h1>
             </header>
         </div>
     </section>
