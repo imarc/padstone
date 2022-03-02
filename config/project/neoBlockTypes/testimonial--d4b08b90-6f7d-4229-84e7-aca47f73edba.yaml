@@ -6,7 +6,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Kicker
+            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Eyebrow
             instructions: null
             label: null
             required: false
@@ -97,5 +97,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Testimonial Section'
-sortOrder: 12
+sortOrder: 13
 topLevel: true

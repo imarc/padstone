@@ -7,5 +7,6 @@
     "strike": "del"
   },
   "formattingHide": ["h1"],
+  "structure": true,
   "toolbarFixed": true
 }

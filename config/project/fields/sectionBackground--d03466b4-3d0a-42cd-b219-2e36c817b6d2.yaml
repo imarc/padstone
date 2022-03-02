@@ -6,19 +6,58 @@ instructions: ''
 name: 'Section Background'
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
-  allowSelfRelations: false
-  branchLimit: '1'
-  limit: null
-  localizeRelations: false
-  selectionLabel: 'Select Background'
-  showSiteMenu: false
-  source: 'group:0dc737ab-2193-4940-8f16-9abace44a363' # Section Backgrounds
-  sources: '*'
-  targetSiteId: null
-  validateRelatedElements: false
-  viewMode: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - template
+          - ''
+        -
+          - background
+          - ''
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - White
+        -
+          - template
+          - '<div style="background: white; width: 100%; aspect-ratio: 2; "></div>'
+        -
+          - background
+          - white
+        -
+          - value
+          - '-white'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Dark
+        -
+          - template
+          - '<div style="background: #191c26; width: 100%; aspect-ratio: 2; "></div>'
+        -
+          - background
+          - '#a2aac3'
+        -
+          - value
+          - '-dark'
+        -
+          - default
+          - ''
 translationKeyFormat: null
-translationMethod: site
-type: craft\fields\Categories
+translationMethod: none
+type: Imarc\Pickture\fields\PicktureField

@@ -7,7 +7,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Kicker
+            fieldUid: 63130e28-a0f4-4ccd-9398-6605090e3d4e # Section Eyebrow
             instructions: null
             label: null
             required: false
@@ -42,6 +42,8 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
           -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
@@ -89,5 +91,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Related Entries Section'
-sortOrder: 11
+sortOrder: 12
 topLevel: true

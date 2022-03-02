@@ -1,1 +1,7 @@
-{{ block.sectionContent }}
+{% import "/_macros" as macros %}
+
+{{ column.sectionContentNoMedia }}
+
+{% for subColumn in column.children.all() %}
+    {{ macros.renderColumn(subColumn) }}
+{% endfor %}

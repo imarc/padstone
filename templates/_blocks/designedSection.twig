@@ -1,0 +1,50 @@
+{% import "/_macros" as macros %}
+
+{% set numColumns = block.children|length %}
+{% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
+{% set columnSlugsClass = macros.columnsSlug(block) %}
+
+<section class="section -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}">
+    <div class="section__container container">
+        {% block header %}
+            {% if block.sectionEyebrow or block.sectionHeading or block.sectionSubheading %}
+                {% include "/_partials/sectionHeader" %}
+            {% endif %}
+        {% endblock %}
+
+        {% block introduction %}
+            {% if block.sectionIntroduction %}
+                <div class="section__introduction">
+                    {{ block.sectionIntroduction }}
+                </div>
+            {% endif %}
+        {% endblock %}
+
+        {% block content %}
+            <div class="section__content">
+                {% for subblock in block.children.all() %}
+                    <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
+                        {{ macros.renderColumn(subblock) }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endblock %}
+
+        {% block conclusion %}
+            {% if block.sectionConclusion|length or block.sectionCTA %}
+                <div class="section__footer">
+                    {% if block.sectionConclusion %}
+                        <div class="section__conclusion">
+                            {{ block.sectionConclusion }}
+                        </div>
+                    {% endif %}
+                    {% if block.sectionCTA %}
+                        <div class="section__actions">
+                            {{ block.sectionCTA.getLink({ class: "section__action button -primary" }) }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        {% endblock %}
+    </div>
+</section>

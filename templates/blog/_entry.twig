@@ -3,7 +3,7 @@
 {% extends "_layouts/main" %}
 {% block content %}
     {% include '_partials/hero' with { hero: {
-        kicker: 'Blog Article',
+        eyebrow: 'Blog Article',
         headline: entry.title,
         introduction: "#{macros.commaSeparate(entry.blogAuthor)} – #{entry.blogDate|date('F jS, Y')}"
     } } %}

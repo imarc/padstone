@@ -1,10 +1,10 @@
-{% extends "/_blocks/baseSection.twig" %}
+{% extends "/_blocks/designedSection.twig" %}
 
 {% block conclusion %}
     {% if block.sectionCTA %}
-        <div class="layer__footer">
-            <div class="layer__actions">
-                {{ block.sectionCTA.getLink({ class: "layer__action button -outline" }) }}
+        <div class="section__footer">
+            <div class="section__actions">
+                {{ block.sectionCTA.getLink({ class: "section__action button -outline" }) }}
             </div>
         </div>
     {% endif %}

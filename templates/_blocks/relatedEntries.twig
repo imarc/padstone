@@ -1,11 +1,11 @@
 {% import "/_macros" as macros %}
 
-{% extends "/_blocks/baseSection.twig" %}
+{% extends "/_blocks/designedSection.twig" %}
 
 {% block content %}
-    <div class="layer__content cards">
+    <div class="section__content cards">
         {% for subblock in block.children.all() %}
-            <div class="layer__item cards__card card">
+            <div class="section__item cards__card card">
                 <div class="card__container">
                     {{ macros.renderColumn(subblock) }}
                 </div>

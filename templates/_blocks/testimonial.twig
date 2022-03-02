@@ -1,5 +1,5 @@
-{% extends "/_blocks/baseSection" %}
+{% extends "/_blocks/designedSection" %}
 
 {% block content %}
-    {% include "/_columns/testimonial" %}
+    {% include "/_columns/testimonial" with { column: block } %}
 {% endblock %}

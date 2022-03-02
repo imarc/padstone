@@ -26,6 +26,8 @@
     </head>
     <body class="{{ bodyClasses|join(' ') }}" >
 
+        {{ adminbar() }}
+
         <div id="root">
             <header class="siteHeader">
                 <div class="siteHeader__content">
@@ -70,5 +72,7 @@
         {% if entry is defined and entry.footerCode %}
             {{ entry.footerCode|raw }}
         {% endif %}
+
+
     </body>
 </html>
