@@ -1,7 +1,8 @@
-childBlocks: null
+childBlocks:
+  - relatedEntryColumn
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
-  9e02893d-9ddb-40ea-899e-9974035f38ef:
+  4865a4c1-f239-43f7-a998-d463d7f51af4:
     tabs:
       -
         elements:
@@ -24,16 +25,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 8e71eaa9-069f-4627-978b-04001165c7f5 # Quote
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 2f7d5293-4e8b-4788-92ac-68f0000f5b97 # Person
+            fieldUid: 7ca1dc40-5807-4ca6-af3c-718be3e9615e # Section Subheading
             instructions: null
             label: null
             required: false
@@ -42,7 +34,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c6b109d5-1fc5-46a4-a61c-ffe6be120888 # Job Title
+            fieldUid: 4bdc4b1e-4dbc-47ad-8552-a6459c2c9644 # Section Introduction
             instructions: null
             label: null
             required: false
@@ -50,6 +42,8 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
           -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
@@ -68,7 +62,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Testimonial Section'
+        name: 'Related Entries Section'
         sortOrder: 1
       -
         elements:
@@ -92,10 +86,10 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: testimonial
+handle: relatedEntriesSection
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: 'Testimonial Section'
-sortOrder: 13
+name: 'Related Entries Section'
+sortOrder: 12
 topLevel: true

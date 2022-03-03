@@ -92,7 +92,7 @@ fieldLayouts:
             width: 100
         name: Settings
         sortOrder: 2
-handle: iconGrid
+handle: iconGridSection
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
