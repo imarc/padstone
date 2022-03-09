@@ -218,7 +218,7 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: EJDC0EFFBVJWC4IDGXKLNLLX
+    licenseKey: null
     schemaVersion: 2.11.6
   pickture:
     edition: standard
@@ -237,12 +237,12 @@ plugins:
   retour:
     edition: standard
     enabled: true
-    licenseKey: ZBZ3UQOSANUAPT9YZRRUZAHZ
+    licenseKey: null
     schemaVersion: 3.0.10
   seomatic:
     edition: standard
     enabled: true
-    licenseKey: IL7KLC0Y2B2BX6DTIO9QTGIM
+    licenseKey: null
     schemaVersion: 3.0.11
   sprout-fields:
     edition: standard
