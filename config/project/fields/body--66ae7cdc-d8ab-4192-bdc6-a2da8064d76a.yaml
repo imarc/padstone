@@ -1,0 +1,27 @@
+columnSuffix: tmojatec
+contentColumnType: text
+fieldGroup: 15577ed2-0349-4fbd-9c53-7fc203f385f4 # Documentation
+handle: body
+instructions: ''
+name: Content
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Standard.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: '1'
+  showUnpermittedFiles: true
+  showUnpermittedVolumes: true
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

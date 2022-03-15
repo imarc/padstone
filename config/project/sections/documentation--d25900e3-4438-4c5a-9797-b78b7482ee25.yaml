@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: documentation
+name: Documentation
+propagationMethod: all
+siteSettings:
+  5a949caa-356a-45ea-b408-2b267055c99c: # Padstone
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'documentation/{slug}'
+structure:
+  maxLevels: null
+  uid: 58034a9f-007f-4986-b85a-054422de8f63
+type: structure

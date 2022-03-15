@@ -91,5 +91,5 @@ maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
 name: 'Related Entries Section'
-sortOrder: 12
+sortOrder: 11
 topLevel: true
