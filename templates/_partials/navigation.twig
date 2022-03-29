@@ -2,7 +2,7 @@
     <div class="container">
         <bp-directional>
             <ul class="primaryNav__list">
-                {% for navItem in primaryNavigation.navigationLinks.level(1) %}
+                {% for navItem in primaryNavigation.navigationLinks.level(1).all %}
                     <li class="primaryNav__item">
                         {% if navItem.children|length %}
                             {% if navItem.type == 'navigationLink' %}
@@ -33,7 +33,7 @@
                                 {% elseif navItem.children|length %}
                                     <div class="container linkGroup">
                                         <ul class="linkGroup__list {{ navItem.navigationColumnSpan }}">
-                                            {% for subNavItem in navItem.children %}
+                                            {% for subNavItem in navItem.children.all %}
                                                 <li class="linkGroup__item">
                                                     {% if subNavItem.type == 'navigationLink' %}
                                                         {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
