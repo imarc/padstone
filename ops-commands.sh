@@ -40,6 +40,9 @@ ops-configure() {
 ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
 
+    echo "Remove ignores from .gitignore..."
+    sed -i '/Remove these Ignores/Q' .gitignore
+
     echo "Installing imarc-boilerplate..."
     npm install imarc-boilerplate -y
 

@@ -2,7 +2,6 @@ childBlocks:
   - textColumn
   - callToActionColumn
   - imageColumn
-  - weightedImageColumn
   - relatedEntryColumn
   - testimonialColumn
   - videoColumn

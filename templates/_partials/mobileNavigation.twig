@@ -1,6 +1,6 @@
 <bp-mobile-navigation title="Example Menu">
     <ul class="mobileNav__list">
-        {% for navItem in primaryNavigation.navigationLinks.level(1) %}
+        {% for navItem in primaryNavigation.navigationLinks.level(1).all %}
             <li class="mobileNav__item">
                 {% if navItem.children|length %}
                     {% if navItem.type == 'navigationLink' %}
@@ -31,7 +31,7 @@
                         </ul>
                     {% elseif navItem.children|length %}
                         <ul>
-                            {% for subNavItem in navItem.children %}
+                            {% for subNavItem in navItem.children.all %}
                                 <li>
                                     {{ subNavItem.navigationLink.getLink() }}
                                 </li>
