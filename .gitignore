@@ -14,12 +14,12 @@
 mix-manifest.json
 
 # Remove these Ignores
-/webpack.mix.js
+# /webpack.mix.js
 # /resources
 /composer.lock
 /package-lock.json
 /fractal.config.js
-/resources/js/main.js
+# /resources/js/main.js
 /web/css/main.css
 /web/js/main.js
 /web/js/vendor.js
