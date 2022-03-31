@@ -1,0 +1,80 @@
+{% render "@site-header" %}
+
+<main>
+    <section class="layer -dark">
+        <div class="layer__background">
+            {% render "@responsive-image" with { imgClass: "layer__backgroundImg" } %}
+        </div>
+        <div class="layer__container -pull-left container">
+            <header class="layer__header">
+                <div class="heading__eyebrow eyebrow">About</div>
+                <h1 class="layer__heading">Contact us</h1>
+            </header>
+            <div class="layer__introduction -emphasized">
+                <p>
+                    We can't wait to hear from you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="layer">
+        <div class="layer__container container">
+            <div class="layer__content">
+                <div class="layer__item -span-8">
+                    <p>Elit adipisicing consectetur ipsa eius nemo Fuga ipsam
+                    illo dolore ducimus consequatur. Quas aspernatur ducimus
+                    quibusdam eligendi alias. Esse nisi nulla dicta minima
+                    reiciendis iure! Repellat illo blanditiis harum dolore.</p>
+
+                    <p>Adipisicing facilis voluptatum dolores odit eaque
+                    voluptatem, maxime Esse labore cupiditate assumenda harum
+                    dolor placeat, tempora Cupiditate temporibus corrupti ut
+                    suscipit recusandae unde Animi quibusdam ea temporibus eius
+                    quasi Enim?</p>
+
+                    <p>Ipsum atque amet ducimus iste aperiam impedit Numquam
+                    animi eaque molestias saepe soluta Eum necessitatibus aut
+                    quibusdam sapiente optio quae sint Minima odit quidem est
+                    quia cum quis qui voluptatibus!</p>
+                </div>
+                <div class="layer__item -span-4 -sidebar">
+                    <div class="field">
+                        <label class="field__label" for="first_name">First Name</label>
+                        <input class="field__input" name="first_name" type="text">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="last_name">Last Name</label>
+                        <input class="field__input" name="last_name" type="text">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="email">Email</label>
+                        <input class="field__input" name="email" type="email">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="comments">Comments</label>
+                        <textarea class="field__input" name="comments"></textarea>
+                    </div>
+
+                    <div class="field -checkbox">
+                        <label class="field__label" for="accept">
+                            Lorem repellendus consequuntur sunt fuga alias
+                            Delectus quos sunt ducimus consectetur excepturi.
+                        </label>
+                        <input class="field__input" type="checkbox" id="accept">
+                    </div>
+
+                    <div class="layer__actions">
+                        <button class="layer__action button -primary">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+{% render "@site-footer" %}

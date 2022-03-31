@@ -1,0 +1,21 @@
+.banner {
+    background-color: $info;
+    color: blackwhite($info);
+    padding: $padding;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__dismiss {
+        border: 0;
+        cursor: pointer;
+        padding: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: transparent;
+    }
+
+}

@@ -1,0 +1,19 @@
+.section.-callToActionSection {
+    background-color: $primary;
+    color: $white;
+    text-align: center;
+
+    .section__eyebrow {
+        color: $secondary;
+    }
+
+    @include color-modifiers((primary, secondary, lightGray $gray-100)) using ($color) {
+        .section__eyebrow {
+            color: blackwhite($color, $primary, $secondary);
+        }
+    }
+    .section__action {
+        @include button($white, $primary);
+        font-weight: bold;
+    }
+}

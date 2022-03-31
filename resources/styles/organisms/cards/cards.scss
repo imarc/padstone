@@ -1,0 +1,23 @@
+
+///
+///
+
+@mixin cards($gutter: $gutter) {
+    @include at(md) {
+        display: flex;
+        flex-wrap: wrap;
+        &__card {
+            @include wrap(1, 2, $gutter);
+        }
+    }
+    @include at(lg) {
+
+        &__card {
+            @include wrap(1, 3, $gutter);
+        }
+    }
+}
+
+.cards {
+    @include cards;
+}

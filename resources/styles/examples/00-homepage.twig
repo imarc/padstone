@@ -1,0 +1,59 @@
+{% render "@site-header" %}
+
+<main>
+    {% render "@dismissable" %}
+
+    <section class="layer -dark">
+        <div class="layer__background">
+            {% render "@responsive-image" with { imgClass: "layer__backgroundImg" } %}
+        </div>
+        <div class="layer__container -pull-left container">
+            <header class="layer__header">
+                <div class="heading__eyebrow eyebrow">I'm a kicker</div>
+                <h1 class="layer__heading">You're reading a headline.</h1>
+            </header>
+            <div class="layer__introduction -emphasized">
+                <p>
+                    Lorem sed molestias possimus impedit accusantium, nostrum?
+                    Delectus adipisci odio impedit.
+                    vitae voluptate molestiae fuga Cumque dolores sunt
+                    voluptatibus neque veniam?
+                </p>
+            </div>
+            <div class="layer__actions">
+                <a class="layer__action button -primary" href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    {% render "@layer--introduction"%}
+
+    {% render "@layer--two-column-image" with { class: "-lightGray" } %}
+
+    {% render "@layer--two-column-video" %}
+
+    <section class="layer -lightGray">
+        <div class="layer__container">
+            <div class="container">
+                <header class="layer__header">
+                    <div class="eyebrow -primary">News &amp; Events</div>
+                    <h2 class="layer__heading">In the News</h2>
+                </header>
+            </div>
+            {% render "@carousel--bleed-right" with { class: "-lightGray" } %}
+        </div>
+    </section>
+
+    <section class="layer -dark">
+        <div class="layer__container container">
+            <header class="layer__header">
+                <h2 class="layer__heading">Our Clients</h2>
+            </header>
+            {% render "@logo-cloud" %}
+        </div>
+    </section>
+
+    {% render "@layer--call-to-action" %}
+</main>
+
+{% render "@site-footer" %}

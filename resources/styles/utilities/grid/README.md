@@ -1,0 +1,1 @@
+The grid utility is just a quicker way to use candlepin to add a column at each breakpoint (md, lg, xl). For example, `@include grid(5)` would start content as two columns, add a third at the md breakpoint, a fourth at lg, and a fifth at xl.

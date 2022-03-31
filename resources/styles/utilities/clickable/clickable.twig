@@ -1,0 +1,32 @@
+<bp-clickable v-slot="{ click }">
+    <div class="{{ class }} card -wide" @click="click($event, $refs.link)">
+        <div class="card__container">
+            <div class="card__background">
+                <picture class="{{ class }}">
+                    <source
+                        type="image/webp"
+                        data-srcset="https://picsum.photos/640/640.webp 640w, https://picsum.photos/1024/1024.webp 1024w, https://picsum.photos/1440/1440.webp 1440w, https://picsum.photos/1920/1920.webp 1920w"
+                        data-sizes="auto"
+                    />
+
+                    <img
+                        src="data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;1920&quot; width=&quot;1920&quot;></svg>"
+                        alt="Placeholder Image"
+                        class="lazyload {{ imgClass }} card__backgroundImg"
+                        data-srcset="https://picsum.photos/640/640 640w, https://picsum.photos/1024/1024 1024w, https://picsum.photos/1440/1440 1440w, https://picsum.photos/1920/1920 1920w"
+                        data-sizes="auto"
+                    />
+                </picture>
+            </div>
+            <h3 class="card__heading">One Great Heading</h3>
+            <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos et voluptatum aliquam neque beatae.
+                <a href="#nope">nope</a>
+            </p>
+            <div class="card__actions -attached">
+                <a ref="link" href="#example" class="card__action button -primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</bp-clickable>

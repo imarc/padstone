@@ -1,0 +1,129 @@
+.section {
+    align-items: center;
+    display: grid;
+    grid-template: "stack";
+
+    &__container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        width: 100%;
+    }
+
+    .section__content {
+        display: flex;
+        flex-direction: column;
+
+        > :first-child:last-child {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__background,
+    &__container {
+        grid-area: stack;
+    }
+
+    &__background {
+        align-self: stretch;
+        position: relative;
+    }
+
+    &__backgroundImg {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &__header {
+        margin-bottom: 2rem;
+    }
+
+    &__heading,
+    &__subheading {
+        margin-bottom: 0;
+    }
+
+    &__introduction {
+
+        &.-emphasized {
+            font-size: 1.125rem;
+        }
+    }
+
+    &__item {
+
+        &.-sidebar {
+            background-color: $blue-200;
+            padding: $padding;
+
+            .field {
+                @extend .field, .-outlined;
+            }
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &.-dark {
+        background-color: $blue-900;
+        color: $white;
+
+        .section__background::before {
+            background: linear-gradient(to right, $blue-900 calc(50% - min(#{divide($container, 2)}, 50vw)), transparent);
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    @include color-modifiers((
+        primary,
+        secondary,
+        lightGray $gray-100,
+    )) using ($color) {
+        background-color: $color;
+        color: blackwhite($color);
+
+        .section__eyebrow {
+            color: blackwhite($color, $primary, $secondary);
+        }
+    }
+
+    @include at(lg) {
+        .section__content.-columns {
+            flex-direction: row;
+        }
+
+        .section__item {
+            flex: 1;
+            margin-right: gutter();
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            /**
+             * This is Candlepin's grid-utilities mixin. It adds the following
+             * modifier classes to .section__item:
+             *
+             *   .-gutter
+             *   .-gutter-1 through .gutter-12 (the configured # of columns)
+             *   .-span-1 through .-span-12
+             *   .-left-1 through .-left-12
+             *   .-right-1 through .-right-12
+             *
+             * These can be used to quickly space out, offset, or define other custom column widths for .section__item elements with .section__content.-columns.
+             *
+             */
+            @include grid-utilities;
+        }
+    }
+}

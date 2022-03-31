@@ -1,0 +1,10 @@
+.carousel {
+
+    &.-bleedRight {
+        overflow: hidden;
+
+        .carousel__carousel {
+            overflow: visible;
+        }
+    }
+}

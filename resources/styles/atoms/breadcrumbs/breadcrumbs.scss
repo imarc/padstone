@@ -1,0 +1,44 @@
+///
+/// Simple breadcrumbs for your breadcrumbing needs.
+///
+/// $color
+///     crumb color
+/// $hover-color
+///     crumb hover color
+///
+@mixin breadcrumbs(
+    $color: $meta-text,
+    $hover-color: $link-hover,
+) {
+    $b: &;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    &__item {
+        margin-bottom: 0;
+    }
+
+    &__link {
+        color: $color;
+        display: block;
+        padding: $thin-v-space #{divide($thin-h-space, 2)};
+        transition: color $fade-easing $fast;
+
+        #{$b}__item:first-child & {
+            margin-left: -#{divide($thin-h-space, 2)};
+        }
+
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}
+
+.breadcrumbs {
+    @include breadcrumbs;
+}

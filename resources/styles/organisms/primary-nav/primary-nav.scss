@@ -1,0 +1,22 @@
+.primaryNav {
+    display: none;
+
+    &__list {
+        @include no-bullets;
+        display: flex;
+    }
+
+    &__item {
+        margin-bottom: 0;
+    }
+
+    &__link {
+        display: block;
+        padding: 1.5rem $h-space;
+        font-weight: bold;
+    }
+
+    @include at(lg) {
+        display: block;
+    }
+}

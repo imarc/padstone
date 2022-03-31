@@ -1,0 +1,47 @@
+///
+/// GRID allows for the creation of a column-based grid
+/// that can wrap or nowrap. It is lighter than FEATURES or TILES
+/// in that it contains no default styling on its contents.
+///
+/// If you want to just change the suffix for $element, you can do this:
+///
+///     @include grid($element: "#{&}__tile");
+///
+/// Or you can override and pass in a completely different class:
+///
+///     @include grid($element: "& .i-will-be-nested");
+///
+///     @include grid($element: ".i-will-be-at-the-root-level");
+///
+/// @param {number}   $columns [3] - number of columns
+/// @param {measure}  $gutter [1rem] - gutter between grid items
+/// @param {measure}  $vertical-gutter [null] - vertical gutter between grid items
+/// @param {string}   $element [&__item] - classname for grid items
+///
+
+@import "candlepin";
+
+@mixin grid($max-columns: 4, $gutter: $gutter, $vertical-gutter: $gutter, $element: "#{&}__item") {
+    display: flex;
+    flex-wrap: wrap;
+
+    @at-root #{$element} {
+        flex-grow: 1;
+        margin-bottom: $vertical-gutter;
+
+        @include at(md) {
+            @include wrap(1, $max-columns - 2, $gutter);
+            flex-grow: 0;
+        }
+        @include at(lg) {
+            @include wrap(1, $max-columns - 1, $gutter);
+        }
+        @include at(xl) {
+            @include wrap(1, $max-columns, $gutter);
+        }
+    }
+}
+
+.grid {
+    @include grid;
+}

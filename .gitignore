@@ -15,7 +15,7 @@ mix-manifest.json
 
 # Remove these Ignores
 /webpack.mix.js
-/resources
+# /resources
 /composer.lock
 /package-lock.json
 /fractal.config.js

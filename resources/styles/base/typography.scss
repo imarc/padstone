@@ -1,0 +1,65 @@
+p {
+    margin: 0 0 2em;
+    padding: 0;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+blockquote {
+    border-left: 1px solid $border;
+    color: $meta-text;
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid $meta-text;
+    display: block;
+    height: 0;
+    margin: 3rem auto;
+    width: 100%;
+}
+
+ol,
+ul,
+dl {
+    margin-bottom: 2rem;
+}
+
+ol,
+ul {
+    padding-left: 2rem;
+    li,
+    dt,
+    dd {
+        margin-bottom: 0.5em;
+    }
+}
+
+dt {
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+pre {
+    background-color: $gray-800;
+    color: $gray-200;
+    padding: $padding;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    font-family: "Consolas", monospace;
+    font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", monospace;
+}

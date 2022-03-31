@@ -1,0 +1,64 @@
+.heading {
+    font-family: $heading-font-stack;
+    font-weight: normal;
+    line-height: $heading-line-height;
+    margin: 0 0 .5em;
+}
+
+h1,
+.h1 {
+    @extend .heading;
+    @include at-each(2rem, md 3rem, lg 3.75rem) using ($size) {
+        font-size: $size;
+    }
+
+    &.-oversize {
+        @include at(lg) {
+            font-size: max(3.75rem, #{divide(divide(100vw * 3.75rem * 16px, 1rem), $container)});
+        }
+    }
+}
+
+h2,
+.h2 {
+    @extend .heading;
+    @include at-each(1.5rem, md 2rem, lg 3rem) using ($size) {
+        font-size: $size;
+    }
+
+    &.-oversize {
+        @include at(lg) {
+            font-size: max(3rem, #{divide(divide(100vw * 3rem * 16px, 1rem), $container)});
+        }
+    }
+}
+
+h3,
+.h3 {
+    @extend .heading;
+    @include at-each(1.25rem, md 1.5rem, lg 2rem) using ($size) {
+        font-size: $size;
+    }
+
+    &.-oversize {
+        @include at(lg) {
+            font-size: max(2rem, #{divide(divide(100vw * 2rem * 16px, 1rem), $container)});
+        }
+    }
+}
+
+h4,
+.h4 {
+    @extend .heading;
+    @include at-each(1.125rem, md 1.25, lg 1.5rem) using ($size) {
+        font-size: $size;
+    }
+}
+
+h5,
+.h5 {
+    @extend .heading;
+    @include at-each(1rem, md 1rem, lg 1rem) using ($size) {
+        font-size: $size;
+    }
+}

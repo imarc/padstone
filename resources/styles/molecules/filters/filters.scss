@@ -1,0 +1,7 @@
+.filters {
+    &__filter {
+        width: 100%;
+    }
+
+    @include grid($element: "#{&}__filter");
+}

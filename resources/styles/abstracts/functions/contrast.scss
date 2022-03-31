@@ -1,0 +1,50 @@
+@use "sass:color";
+@use "sass:math";
+
+///
+/// Private function - returns the relative luminance of a single color
+/// channel where $n goes from 0 to 255.
+///
+@function _relative-lum($n) {
+  @if $n < 0.03928 {
+    @return math.div($n, 12.92);
+  } @else {
+    @return math.pow(math.div($n+0.055, 1.055), 2.4);
+  }
+}
+
+///
+/// Private function - returns the relative luminance of a given color.
+///
+@function _relative-luminance($c) {
+  $r: _relative-lum(math.div(color.red($c), 255));
+  $g: _relative-lum(math.div(color.green($c), 255));
+  $b: _relative-lum(math.div(color.blue($c), 255));
+
+  @return $r*0.2126+$g*0.7152+$b*0.0722;
+}
+
+///
+/// Private function - returns a value for the contrast between the color $c
+/// and white. If $on-black is truthy, will calculate contrast of $c and black
+/// instead.
+///
+@function _contrast($c, $on-black: false) {
+  @if $on-black {
+    @return math.div(_relative-luminance($c) + 0.05, 0.05);
+  } @else {
+    @return math.div(1.05, _relative-luminance($c) + 0.05);
+  }
+}
+
+///
+/// returns either $black or $white, whichever has a the higher contrast value
+/// with $c.
+///
+@function blackwhite($c, $black: $black, $white: $white) {
+    @if _contrast($c) < _contrast($c, true) {
+        @return $black;
+    } @else {
+        @return $white;
+    }
+}

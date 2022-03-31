@@ -1,0 +1,104 @@
+///
+/// PROGRESS provides a basic, pill-style progress nav bar like you
+/// might find as part of an ecommerce or registration process.
+///
+@mixin progress() {
+    &__list {
+        @include no-bullets;
+        position: relative;
+
+        &::before {
+            border-left: .5em solid $blue-300;
+            bottom: 1em;
+            content: '';
+            left: .75em;
+            position: absolute;
+            top: 1em;
+            z-index: -1;
+        }
+    }
+
+    &__item {
+        margin-bottom: 1em;
+    }
+
+    &__link {
+        color: $blue-400;
+
+        &:hover {
+            .progress__icon {
+                transform: scale(1.25);
+            }
+        }
+
+        &.-active {
+            font-weight: bold;
+
+            .progress__icon {
+                transform: scale(1.25);
+            }
+        }
+    }
+
+    &__icon {
+        background-color: $blue-300;
+        border-radius: 2em;
+        color: $white;
+        height: 2em;
+        margin-right: $thin-h-space;
+        padding: .25em;
+        transition: transform $fade-easing $fast;
+        vertical-align: middle;
+        width: 2em;
+    }
+
+    @include at(md) {
+        display: flex;
+        justify-content: center;
+
+        &__list {
+            display: flex;
+            justify-content: center;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        &__link {
+            align-items: center;
+            display: flex;
+            flex-flow: column nowrap;
+            padding: $padding;
+            position: relative;
+
+            &::before {
+                content: '';
+                border-top: .5em solid $blue-300;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: #{$v-space + .75rem};
+                z-index: -1;
+
+                .progress__item:first-child & {
+                    left: 50%;
+                }
+
+                .progress__item:last-child & {
+                    right: 50%;
+                }
+            }
+
+        }
+
+        &__icon {
+            margin-right: 0;
+            margin-bottom: $v-space;
+        }
+    }
+}
+
+.progress {
+    @include progress;
+}

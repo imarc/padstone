@@ -1,0 +1,23 @@
+@import '~mmenu-light/dist/mmenu-light';
+
+:root {
+    --mm-spn-item-height: #{$body-line-height * $body-font-size + 2 * $v-space};
+    --mm-spn-item-indent: #{$h-space};
+    --mm-spn-line-height: #{$body-line-height * $body-font-size};
+}
+
+.mobileNav {
+    &__button {
+        display: flex;
+        padding: $v-space;
+    }
+
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    @include at(lg) {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+@use "sass:math";
+
+///
+/// returns a properly scaled font size based on a given max size, assuming a
+/// minimum size of 1rem.
+///
+@function type-scale($max, $ratio, $accuracy: 1000) {
+    $m: math.div($max, $max * 0 + 1);
+    $u: math.div($max, $m);
+    @return math.div($u * math.round(math.pow($m, $ratio) * $accuracy), $accuracy);
+}
+
+///
+/// This is shim for files that aren't using @use yet but need division.
+///
+@function divide($a, $b) {
+    @return math.div($a, $b);
+}
+
+///
+/// Function returns a copy of $list with $append appended to each item in
+/// $list. If $separator is specified, it's passed to list.append(), otherwise
+/// append-each() tries to use the same separate used in the original list.
+///
+@function append-each($list, $append, $separator: '') {
+    $new-list: ();
+    @if $separator == '' {
+        $separator: list.separator($list);
+    }
+    @each $value in $list {
+        $new-list: list.append($new-list, $value $append, $separator);
+    }
+
+    @return $new-list;
+}

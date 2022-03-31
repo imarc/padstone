@@ -1,0 +1,9 @@
+.select {
+    &__select {
+        appearance: none;
+        background: transparent url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzIgNCAyMCAxNicgZmlsbD0nbm9uZScgc3Ryb2tlPScjMTQxNDE0JyBzdHJva2Utd2lkdGg9JzAuMTI1cmVtJz48cGF0aCBkPSdtNiA5IDYgNiA2LTYnLz48L3N2Zz4=) right #{$h-space - .5rem} center / #{$body-line-height * 1em} no-repeat;
+        border: 2px solid $link;
+        padding: $thin-padding;
+        height: auto;
+    }
+}

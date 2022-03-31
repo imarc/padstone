@@ -1,0 +1,113 @@
+///
+/// TABS allows for the showing and hiding of panels via an associated tab
+/// navigation. By adding an optional data element (data-hash="#myHash") to
+/// the li tags the javascript plugin will add the hash to the URL so users
+/// may bookmark the page and the page can reload open to that tab when the
+/// the url with the hash is loaded in the browser.
+///
+
+@mixin tabs() {
+    $b: &;
+
+    &__list {
+        @include no-bullets;
+        display: flex;
+        overflow: hidden;
+
+        &::before,
+        &::after {
+            content: '';
+            border-bottom: 1px solid $gray-300;
+            box-shadow: 0 -0.5px 1.1px -1.1px rgba(0, 0, 0, 0.057), 0 -1.8px 3.6px -3.6px rgba(0, 0, 0, 0.083), 0 -8px 16px -16px rgba(0, 0, 0, 0.14);
+            flex-grow: 1;
+        }
+    }
+
+    &__tab {
+        margin: 0;
+        border: 1px solid $gray-100;
+        border-bottom-color: $gray-300;
+        border-radius: 4px 4px 0 0;
+
+        & + & {
+            margin-left: -1px;
+        }
+    }
+
+    &__button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding: $thin-v-space $h-space;
+    }
+
+    &__tab.-active {
+        background-color: transparent;
+        border-color: $gray-300;
+        border-bottom: none;
+        box-shadow: 0 0 1.1px rgba(0, 0, 0, 0.57), 0 0 3.6px rgba(0, 0, 0, 0.083), 0 0 16px rgba(0, 0, 0, 0.14);
+        z-index: 1;
+    }
+
+    &__panel {
+        padding-top: .5rem;
+    }
+
+    &.-vertical {
+
+        #{$b}__tab {
+            border-radius: 0;
+            border: 0;
+            box-shadow: 0 -.125rem 0 inset;
+
+            &.-active {
+                box-shadow: 0 -.25rem 0 $primary inset;
+
+                #{$b}__button {
+                    color: $primary;
+                }
+            }
+        }
+
+        @include at(md) {
+            display: flex;
+            justify-content: space-between;
+
+            #{$b}__header {
+                width: span(1, 3);
+            }
+
+            #{$b}__list {
+                flex-direction: column;
+
+                &::before,
+                &::after {
+                    content: none;
+                }
+            }
+
+            #{$b}__tab {
+                box-shadow: .25rem 0 0 inset;
+                margin: 0 0 .5rem;
+
+                &.-active {
+                    box-shadow: .5rem 0 0 $primary inset;
+                }
+            }
+
+            #{$b}__button {
+                text-align: left;
+                width: 100%;
+            }
+
+            #{$b}__panel {
+                padding-top: 0;
+                width: span(2, 3);
+            }
+        }
+    }
+}
+
+.tabs {
+    @include tabs;
+}

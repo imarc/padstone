@@ -1,0 +1,144 @@
+///
+/// A toggle button mixin.
+///
+/// $checked-color
+///     button color when checked
+/// $unchecked-color
+///     button color when unchecked
+/// $disabled-color
+///     button color when disabled
+///
+@mixin toggleButton(
+    $color: $gray-500,
+    $text-color: $white,
+    $hover-color: $link-hover,
+    $checked-color: $gray-600,
+    $disabled-color: $disabled,
+) {
+    $b: &;
+    display: inline-block;
+
+    &__input {
+        display: none;
+    }
+
+    &__label {
+        display: block;
+        user-select: none;
+        padding: $thin-padding;
+    }
+
+    &__checkbox {
+        border-radius: .25em;
+        border: 2px solid;
+        display: inline-block;
+        height: 1.5em;
+        margin-right: .382em;
+        transform: translateY(-.125em);
+        vertical-align: middle;
+        width: 1.5em;
+
+        &.-radio {
+            border-radius: 1.5em;
+        }
+    }
+
+    &__icon {
+        width: 100%;
+        display: none;
+    }
+
+    &:focus {
+        .toggleButton__checkbox {
+            box-shadow: 0 0 0 2px red;
+        }
+    }
+
+    @include color-modifiers(primary secondary) using ($color) {
+        #{$b}__checkbox {
+            border-color: $color;
+        }
+
+        #{$b}.-checked #{$b}__label,
+        #{$b}__input:checked ~ #{$b}__label {
+            #{$b}__checkbox {
+                border-color: $black;
+                background-color: $color;
+                color: blackwhite($color);
+            }
+        }
+    }
+
+    &.-checked &__label,
+    &__input:checked ~ &__label {
+        #{$b}__icon {
+            display: block;
+        }
+    }
+
+    &.-blank {
+        border: 2px solid $color;
+
+        #{$b}.-checked #{$b}__label,
+        #{$b}__input:checked ~ #{$b}__label {
+            background-color: $color;
+            color: blackwhite($color);
+        }
+
+        @include color-modifiers(primary secondary) using ($color) {
+            border-color: $color;
+
+            #{$b}.-checked #{$b}__label,
+            #{$b}__input:checked ~ #{$b}__label {
+                background-color: $color;
+                color: blackwhite($color);
+                #{$b}__checkbox {
+                    border-color: blackwhite($color);
+                }
+            }
+        }
+    }
+
+    &.-disabled {
+        border-color: $disabled-color;
+        color: $disabled-color;
+        cursor: default;
+    }
+
+    &.-outline {
+        border: 2px solid $color;
+
+        #{$b}.-checked #{$b}__label,
+        #{$b}__input:checked ~ #{$b}__label {
+            background-color: $color;
+            color: blackwhite($color);
+        }
+
+        @include color-modifiers(primary secondary) using ($color) {
+            border-color: $color;
+
+            #{$b}__checkbox {
+                border-color: $color;
+            }
+
+            #{$b}.-checked #{$b}__label,
+            #{$b}__input:checked ~ #{$b}__label {
+                background-color: $color;
+                color: blackwhite($color);
+                #{$b}__checkbox {
+                    border-color: blackwhite($color);
+                }
+            }
+        }
+    }
+
+    &.-disabled {
+        border-color: $disabled-color;
+        color: $disabled-color;
+        cursor: default;
+    }
+}
+
+.toggleButton {
+    @include toggleButton;
+}

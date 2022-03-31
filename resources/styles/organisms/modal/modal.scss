@@ -1,0 +1,51 @@
+.modal {
+    &__overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba($black, .5);
+    }
+
+    &__wrapper {
+        position: relative;
+        max-width: 60rem;
+        background-color: $white;
+        padding: $padding;
+        max-height: 100vh;
+    }
+
+    &__loadingSpinner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__closeButton {
+        background: none;
+        border: none;
+        padding: 0;
+        position: absolute;
+        top: 0.2rem;
+        right: 0.5rem;
+        font-size: 0;
+    }
+
+    &__closeButtonIcon {
+        width: 1rem;
+    }
+}
+
+// Scroll Lock
+body.-lock,
+html.-lock {
+    position: relative;
+    overflow: hidden;
+    touch-action: none;
+    -ms-touch-action: none;
+}

@@ -1,0 +1,39 @@
+@mixin avatar {
+    $b: &;
+
+    align-items: center;
+    display: flex;
+    width: 16rem;
+    flex-direction: column;
+    text-align: center;
+
+    &__content {
+        padding: $thin-padding;
+    }
+
+    &__name {
+        margin-bottom: .25rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    &.-horizontal {
+        align-items: center;
+        flex-direction: row;
+        height: 10rem;
+        text-align: left;
+        width: auto;
+
+        #{$b}__photo {
+            max-height: 100%;
+        }
+
+        #{$b}__name {
+            margin-top: 0;
+        }
+    }
+}
+
+.avatar {
+    @include avatar;
+}

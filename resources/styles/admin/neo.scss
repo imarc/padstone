@@ -1,0 +1,29 @@
+$admin-gold: #ffb703;
+$admin-red: #e63946;
+$admin-teal: #219ebc;
+$admin-purple: #7d1dd1;
+$admin-pink: #ee1476;
+$admin-green: #2a9d8f;
+$admin-blue:#0556cf;
+
+$borderOptions:  $admin-gold, $admin-blue, $admin-pink, $admin-purple, $admin-green;
+$borderOptionsLength: length($borderOptions);
+
+@mixin admin-borders() {
+   > .ni_block {
+      border-radius: 4px 0 0 4px;
+   }
+
+   @for $i from 1 through $borderOptionsLength {
+      > .ni_block:nth-child(#{$borderOptionsLength}n + #{$i}) {
+         border-right: 6px solid nth($borderOptions, $i);
+      }
+   }
+}
+
+.neo-input {
+
+   > .ni_blocks {
+      @include admin-borders();
+   }
+}

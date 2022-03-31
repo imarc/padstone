@@ -1,0 +1,25 @@
+.utilityNav {
+    &__list {
+        @include no-bullets;
+        display: flex;
+    }
+
+    &__item {
+
+        &:last-child {
+            .utilityNav__link {
+                padding-right: 0;
+            }
+        }
+
+        & + & {
+            .utilityNav__link {
+                border-left: 1px solid $gray-500;
+            }
+        }
+    }
+
+    .utilityNav__link {
+        padding: 0 $thin-h-space;
+    }
+}

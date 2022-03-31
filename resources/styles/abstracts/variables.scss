@@ -1,0 +1,133 @@
+//
+/// = Variables =
+///
+
+$container: 1288px;
+$gutter: 40px;
+$columns: 12;
+
+///
+/// Default font stack, size, line-height
+///
+$body-font-stack: Arial, sans-serif;
+$body-font-size: 1rem;
+$body-line-height: 1.5;
+
+///
+/// Heading font stack, line-height
+///
+$heading-font-stack: system-ui, sans-serif;
+$heading-line-height: 1;
+
+///
+/// Regular padding. Used for components like buttons, cards, and primary nav items.
+///
+$v-space: 1rem;
+$h-space: 1.5rem;
+$padding: $v-space $h-space;
+
+///
+/// Thin padding. Used for components like breadcrumbs, radios, and within dropdowns.
+///
+$thin-v-space: .5rem;
+$thin-h-space: 1rem;
+$thin-padding: $thin-v-space $thin-h-space;
+
+///
+/// Site Colors
+///
+$primary: $blue-500;
+$secondary: $aqua-200;
+
+
+///
+/// Messaging colors
+///
+$confirm: $green-400;
+$danger: $red-400;
+$disabled: $gray-200;
+$error: $red-500;
+$info: $blue-400;
+$success: $green-300;
+$warning: $yellow-200;
+
+///
+/// Applied colors
+///
+$plain-text: $gray-900;
+$meta-text: $gray-500;
+$link: $primary;
+$link-hover: $blue-400;
+$border: $gray-200;
+
+
+///
+/// Social Network Colors
+///
+$facebook: #3664A2;
+$twitter: #55ACEE;
+$linkedin: #0077B5;
+$youtube: #CD201F;
+
+///
+/// Color Modifiers
+///
+$color-modifiers: (
+    primary: $primary,
+    secondary: $secondary,
+    danger: $danger,
+    confirm: $confirm,
+
+    success: $success,
+    warning: $warning,
+    error: $error,
+
+    info: $info,
+    disabled: $disabled,
+);
+
+
+///
+/// Media Query Breakpoints
+///
+$breakpoints: (
+  md: 616px,
+  lg: 1000px,
+  xl: 1288px,
+);
+
+
+///
+/// Shadows
+///
+$low-shadow: 0 0px 0.5px rgba(0, 0, 0, 0.057), 0 0px 1.8px rgba(0, 0, 0, 0.083), 0 0px 8px rgba(0, 0, 0, 0.14);
+$med-shadow: 0 0.5px 1.1px rgba(0, 0, 0, 0.057), 0 1.8px 3.6px rgba(0, 0, 0, 0.083), 0 8px 16px rgba(0, 0, 0, 0.14);
+$high-shadow: 0 1.1px 2.1px rgba(0, 0, 0, 0.057), 0 3.6px 7.1px rgba(0, 0, 0, 0.083), 0 16px 32px rgba(0, 0, 0, 0.14);
+
+
+///
+/// Easings and Durations
+///
+$ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+$ease-in-quint: cubic-bezier(0.64, 0, 0.78, 0);
+$ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1);
+
+$fade-easing: $ease-out-quint;
+$entrance-easing: $ease-out-quint;
+$exit-easing: $ease-in-quint;
+
+///
+/// Fast is for micro-animations such as fades.
+///
+$fast: 150ms;
+
+///
+/// Moderate is for mid-sized animations, such as mega menus and notifications.
+///
+$moderate: 240ms;
+
+///
+/// Slow is for animations meant for large animations such as page transitions
+/// and background fades.
+///
+$slow: 400ms;

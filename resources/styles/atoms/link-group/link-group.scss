@@ -1,0 +1,34 @@
+.linkGroup {
+    &__heading {
+        font-weight: bold;
+        padding: $thin-v-space 0;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+
+        &.-wide {
+            columns: 2;
+            column-gap: 1.5rem;
+
+            .linkGroup__link {
+                break-inside: avoid;
+            }
+        }
+
+        &.-secondary {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__item {
+        margin-bottom: 0;
+    }
+
+    &__link {
+        display: block;
+        padding: $thin-v-space 0;
+    }
+}

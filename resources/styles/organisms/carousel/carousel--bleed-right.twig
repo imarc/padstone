@@ -1,0 +1,29 @@
+<section class="carousel -bleedRight">
+    <div class="carousel__container container">
+        <bp-carousel class="carousel__carousel" variant="bleedRight">
+            <swiper-slide>
+                {% render "@card--wide" %}
+            </swiper-slide>
+            <swiper-slide>
+                {% render "@card--wide" %}
+            </swiper-slide>
+            <swiper-slide>
+                {% render "@card--wide" %}
+            </swiper-slide>
+            <swiper-slide>
+                {% render "@card--wide" %}
+            </swiper-slide>
+
+            <template #button-prev>
+                <div class="swiper-button-prev"></div>
+            </template>
+            <template #button-next>
+                <div class="swiper-button-next"></div>
+            </template>
+            <template #pagination>
+                <div class="swiper-pagination" slot="pagination"></div>
+            </template>
+        </bp-carousel>
+    </div>
+
+</section>

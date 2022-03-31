@@ -1,0 +1,35 @@
+@mixin testimonial {
+    &__quote {
+        border: 0;
+        font-size: 1.25rem;
+        max-width: 66.67%;
+        margin-left: auto;
+        margin-right: auto;
+
+        &::after,
+        &::before {
+            color: $secondary;
+            content: '”';
+            display: inline-block;
+            font-size: 400%;
+            height: 1rem;
+            line-height: 0;
+            transform: translateY(150%);
+            vertical-align: middle;
+        }
+
+        &::before {
+            content: '“';
+            text-indent: -2.5rem;
+        }
+    }
+
+    &__attribution {
+        justify-content: center;
+        max-height: 8rem;
+    }
+}
+
+.testimonial {
+    @include testimonial;
+}

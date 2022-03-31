@@ -1,0 +1,18 @@
+@mixin stack {
+    display: grid;
+    grid-template-areas: "stack";
+
+    > * {
+        grid-area: stack;
+    }
+
+    &__cover {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.stack {
+    @include stack;
+}

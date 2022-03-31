@@ -1,0 +1,23 @@
+///
+/// TILES helps you create an equal-width column grid layout without the use of row wrappers.
+/// Tiles is similar to the Features component, except that TILES’ items can wrap.
+/// Powered by flexbox, you can pass in a $gutter width and $column amount. Note that the
+/// specified $column amount only is respected at the large breakpoint. Tiles will automatically
+/// two-up your items at the medium breakpoint, and stack them at the small breakpoint.
+///
+/// @param {measure} $gutter  [2rem] - vertical gutter between tiles
+/// @param {number}  $columns [4]    - number of columns while min-width is $large
+///
+
+@mixin tiles($gutter: $gutter) {
+    @include grid(4, $gutter, $gutter, #{&}__tile);
+
+    &__tile {
+        background-color: #EEE;
+        padding: $padding;
+    }
+}
+
+.tiles {
+    @include tiles;
+}

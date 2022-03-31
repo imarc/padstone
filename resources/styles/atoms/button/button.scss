@@ -1,0 +1,105 @@
+///
+/// A basic button mixin.
+///
+/// $color
+///     button color
+/// $text-color
+///     button label color
+/// $hover-color
+///     button hover color
+/// $disabled-color
+///     disabled button color
+///
+@mixin button (
+    $color: $gray-400,
+    $text-color: $white,
+    $hover-color: $link-hover
+) {
+    background-color: $color;
+    border: none;
+    color: $text-color;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    padding: $padding;
+    text-align: center;
+    transition: box-shadow $fast $fade-easing,
+        background-color $fast $fade-easing,
+        color $fast $fade-easing;
+    vertical-align: top;
+
+    &:hover,
+    &:focus {
+        color: $text-color;
+        box-shadow: 0 0 0 2px inset $color, 0 0 0 4px inset $white;
+    }
+
+    &[disabled] {
+        pointer-events: none;
+    }
+
+    @include color-modifiers using ($color) {
+        background-color: $color;
+        color: blackwhite($color);
+        font-weight: bold;
+
+        &:hover,
+        &:focus {
+            box-shadow: 0 0 0 2px inset $color, 0 0 0 4px inset $white;
+        }
+    }
+
+    &.-disabled {
+        color: $white;
+        pointer-events: none;
+    }
+
+
+    &.-outline {
+        box-shadow: 0 0 0 2px inset;
+        color: $color;
+        background-color: transparent;
+
+        &:hover,
+        &:focus {
+            color: $text-color;
+            box-shadow: 0 0 0 2px inset $color;
+            background-color: $color;
+        }
+
+        @include color-modifiers using ($color) {
+            box-shadow: 0 0 0 2px inset $color;
+            color: $color;
+
+            &:hover,
+            &:focus {
+                color: $text-color;
+                background-color: $color;
+            }
+        }
+    }
+
+    &.-ghost {
+        background-color: transparent;
+        color: $color;
+
+        &:hover,
+        &:focus {
+            background-color: rgba($color, .1);
+            box-shadow: none;
+        }
+
+        @include color-modifiers using ($color) {
+            color: $color;
+
+            &:hover,
+            &:focus {
+                background-color: rgba($color, .1);
+            }
+        }
+    }
+}
+
+.button {
+    @include button;
+}

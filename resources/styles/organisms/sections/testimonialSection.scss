@@ -1,0 +1,14 @@
+.section.-testimonialSection {
+    @include color-modifiers((
+        primary,
+        secondary,
+        lightGray $gray-100,
+    )) using ($color) {
+        background-color: $color;
+        color: blackwhite($color);
+
+        .section__eyebrow {
+            color: blackwhite($color, $primary, $secondary);
+        }
+    }
+}

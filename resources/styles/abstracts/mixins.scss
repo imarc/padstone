@@ -1,0 +1,169 @@
+///
+/// Generates modifier classes based on $map and $default-map prefixed with $prefix.
+///
+/// It treats each $key in $map as the name of the modifier, and either uses
+/// the associated $value for that $key in $map or looks up $key in
+/// $default-map. If it's not in $map or $default-map, the $key itself is used
+/// as the $value and @content is not wrapped in a modifier class.
+///
+/// Example:
+///
+///     @include modifiers(
+///         (black, danger, warning, mystery blue),
+///         (danger red, warning orange, notice yellow)
+///     ) using ($color) {
+///         color: $color;
+///     }
+///
+/// generates
+///
+///     color: black;
+///     &.-danger {
+///         color: red;
+///     }
+///     &.-warning {
+///         color: orange;
+///     }
+///     &.-mystery {
+///         color: blue;
+///     }
+///
+@mixin modifiers($map, $default-map: (), $prefix: '.-') {
+    @each $pair in $map {
+        $key: nth($pair, 1);
+        $value: null;
+
+        @if length($pair) > 1 {
+            $value: nth($pair, 2);
+
+        } @else if map-has-key($default-map, $key) {
+            $value: map-get($default-map, $key);
+        }
+
+        @if $value != null {
+            &#{$prefix}#{""+$key} {
+                @content($value);
+            }
+        } @else {
+            @content($key);
+        }
+    }
+}
+
+///
+/// This is a color specific version of modifiers().
+///
+/// * It defaults to using $color-modifiers as the first argument to modifiers().
+/// * It always uses $color-modifiers as the second argument.
+/// * If no @content is specified, it defaults `color: $color`.
+///
+/// Example:
+///
+///     $color-modifiers: (
+///         primary: blue,
+///         secondary: purple,
+///         tertiary: orange
+///     );
+///
+///     .Example {
+///         @include color-modifiers(primary secondary);
+///     }
+///
+/// generates
+///
+///     .Example {
+///         &.-primary {
+///             color: blue;
+///         }
+///         &.-secondary {
+///             color: purple;
+///         }
+///     }
+///
+@mixin color-modifiers($colors: $color-modifiers, $prefix: '.-') {
+    @if content-exists() {
+        @include modifiers($colors, $color-modifiers, $prefix) using ($color) {
+            @content($color);
+        }
+    } @else {
+        @include modifiers($colors, $color-modifiers, $prefix) using ($color) {
+            color: $color;
+        }
+    }
+}
+
+
+///
+/// no-bullets mixin
+///
+@mixin no-bullets {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+    li::before {
+        display: none;
+    }
+}
+
+
+///
+/// Mixin for generating transitions. $properties can be a list of properties,
+/// and it'll append duration and easing to each.
+///
+@mixin transition($properties: all, $duration: $fast, $easing: $ease-out-quint) {
+    transition: append-each($properties, $duration $easing, comma);
+}
+
+
+///
+/// Historical alias for at().
+///
+@mixin breakpoint($bp, $rule: min-width) {
+    @include at($bp, $rule) {
+        @content;
+    }
+}
+
+///
+/// Media query mixin. Includes content when matching the breakpoint $bp as
+/// defined in $breakpoints. You can also just pass in a length to create a
+/// one-off breakpoint. It's discouraged, but you can also override the rule
+/// if you're prefer to use max-width instead of min-width.
+///
+@mixin at($bp, $rule: min-width) {
+    @if map-has-key($breakpoints, $bp) {
+        $bp: map-get($breakpoints, $bp);
+    }
+    @media screen and (#{$rule}: $bp) {
+        @content;
+    }
+}
+
+///
+/// Alias for at-each() for those who prefer breakpoint().
+///
+@mixin each-breakpoint($map...) {
+    @include at-each($map...) using ($v) {
+        @content($v);
+    }
+}
+
+///
+/// Quick way to define a bunch of media queries. Example usage:
+///
+///     @include at-each(10px, md 20px, lg 30px) using ($margin) {
+///         margin-top: $margin;
+///     }
+///
+@mixin at-each($map...) {
+    @each $bp, $arg in $map {
+        @if $arg {
+            @include at($bp) {
+                @content($arg);
+            }
+        } @else {
+            @content($bp);
+        }
+    }
+}

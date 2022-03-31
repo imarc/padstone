@@ -1,0 +1,37 @@
+///
+/// = Base =
+///
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFF;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    color: $plain-text;
+    font-family: $body-font-stack;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+
+    &[data-sizes="auto"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+::selection {
+    background: $border;
+}

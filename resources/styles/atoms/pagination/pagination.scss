@@ -1,0 +1,76 @@
+///
+/// PAGINATION provides a navigational unordered list of pages. Often used
+/// in conjunction of a LISTING component.
+///
+/// $text-color
+///     Text color.
+/// $active-color
+///     Current page background color.
+/// $hover-color
+///     Hover color.
+/// $active-text-color
+///     Current page text color.
+/// $border
+///     Border color; also used for disabled text.
+///
+
+@mixin pagination (
+    $text-color: $link,
+    $active-color: $link,
+    $hover-color: $link-hover,
+    $active-text-color: $white,
+    $border: $border,
+) {
+    display: flex;
+    justify-content: center;
+
+    &__list {
+        @include no-bullets;
+        display: flex;
+    }
+
+    &__item {
+        margin: 0 .25em;
+    }
+
+    &__link {
+        border-radius: .25em;
+        color: $text-color;
+        display: block;
+        font-weight: bold;
+        padding: $thin-padding;
+        position: relative;
+        transition: background-color $fast $fade-easing,
+            color $fast $fade-easing;
+
+        &:focus,
+        &:hover {
+            background-color: $hover-color;
+            color: $active-text-color;
+            transition: color $fade-easing $fast, background-color $fade-easing $fast;
+        }
+    }
+
+    &__item.-disabled &__link {
+        color: $border;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    &__item.-active &__link {
+        background-color: $active-color;
+        color: $active-text-color;
+        cursor: default;
+        pointer-events: none;
+
+        &:focus,
+        &:hover {
+            background-color: $hover-color;
+            color: $active-text-color;
+        }
+    }
+}
+
+.pagination {
+    @include pagination;
+}

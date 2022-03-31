@@ -1,0 +1,40 @@
+.siteHeader {
+    box-shadow: $low-shadow;
+
+    &__container {
+        align-items: center;
+        display: flex;
+        padding-right: 0;
+    }
+
+    &__brand {
+        align-items: center;
+        color: $primary;
+        display: flex;
+        gap: $h-space;
+        margin-right: 2rem;
+    }
+
+    &__logo {
+        margin-right: .5rem;
+    }
+
+    &__siteName {
+        color: $plain-text;
+        font-weight: bold;
+
+        @include at-each(1.5rem, md 1.75rem, lg 2rem) using ($size) {
+            font-size: $size;
+        }
+    }
+
+    &__end {
+        margin-left: auto;
+    }
+
+    @include at(lg) {
+        &__brand {
+            padding: $v-space 0;
+        }
+    }
+}

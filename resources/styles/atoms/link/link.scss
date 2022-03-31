@@ -1,0 +1,42 @@
+@mixin link (
+    $color: $link,
+    $hover-color: $link-hover,
+    $disabled-color: darken(#FFF, 20%)
+) {
+    background-color: transparent;
+    border: 0;
+    color: $color;
+    cursor: pointer;
+    display: inline;
+    line-height: normal;
+    padding: 0;
+    text-decoration: none;
+    transition: color $fade-easing $fast;
+
+    &:hover,
+    &:active {
+        color: $hover-color;
+    }
+
+    &.-disabled,
+    &[disabled] {
+        color: $disabled;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    &__icon {
+        width: 1em; // IE11 needs both width and height on SVGs
+        height: 1em;
+        vertical-align: text-bottom;
+
+        &.-separator {
+            transform: translateX(50%);
+        }
+    }
+}
+
+a,
+.link {
+    @include link;
+}
