@@ -1,4 +1,4 @@
-dateModified: 1645038182
+dateModified: 1646929433
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -145,23 +145,25 @@ plugins:
     licenseKey: null
     schemaVersion: 3.1.0
     settings:
-      customCss: ''
-      customLinks: ''
+      bgColor: '#000000'
+      cacheBar: true
+      customLinks:
+        -
+          adminOnly: ''
+          linkLabel: foo
+          linkUrl: fooo
       displayDashboardLink: true
       displayDefaultEditSection: true
       displayEditAuthor: true
       displayEditDate: true
       displayGreeting: true
-      displayGuideLink: true
       displayLogout: true
       displayRevisionNote: true
       displaySettingsLink: true
       enableMobileMenu: true
-      widgets:
-        __assoc__:
-          -
-            - admin-bar_edit-links
-            - ''
+      highlightColor: '#D85B4B'
+      scrollLinks: true
+      textColor: '#FFFFFF'
   code-mirror:
     enabled: '1'
     licenseKey: null
@@ -177,6 +179,14 @@ plugins:
     licenseKey: null
     schemaVersion: 1.0.0
     settings: null
+  cp-css:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      additionalCss: ''
+      cacheBusting: true
+      cssFile: '@web/css/admin.css, @web/css/admin.css.map'
   craft-kindling:
     edition: standard
     enabled: true
@@ -218,7 +228,7 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: null
+    licenseKey: 7NQ4KP836803CI9KPBT1MNU7
     schemaVersion: 2.11.6
   pickture:
     edition: standard
@@ -237,12 +247,12 @@ plugins:
   retour:
     edition: standard
     enabled: true
-    licenseKey: null
+    licenseKey: 2CB4LQZUTO2XX8F23RUOJGB1
     schemaVersion: 3.0.10
   seomatic:
     edition: standard
     enabled: true
-    licenseKey: null
+    licenseKey: TU80S8W0QGZM6FPTZ1EUGE48
     schemaVersion: 3.0.11
   sprout-fields:
     edition: standard

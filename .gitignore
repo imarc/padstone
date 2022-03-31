@@ -24,3 +24,4 @@ mix-manifest.json
 /web/js/main.js
 /web/js/vendor.js
 /web/mix-manifest.json
+/.env-e

@@ -12,7 +12,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
           -
             fieldUid: f68e9a51-f020-4eaf-8378-33e8197236a8 # Label
             instructions: null
@@ -21,7 +21,7 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 50
         name: Content
         sortOrder: 1
 fields:
@@ -45,7 +45,7 @@ fields:
       previewMode: full
       restrictFiles: '1'
       selectionLabel: 'Select Icon'
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:09773b73-a304-4513-84fd-c4d5d4dd953a' # Images
