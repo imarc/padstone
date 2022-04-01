@@ -12,7 +12,7 @@
 {% endif %}
 
 {% set srcset = asset.getSrcset(sizes) %}
-{% do asset.setTransform(transform|merge({ format: 'webp' })) %}
+{% do asset.setTransform({transform: transform}|merge({ format: 'webp' })) %}
 {% set webpSrcset = asset.getSrcset(sizes) %}
 
 <picture class="{{ pictureClass }}">
