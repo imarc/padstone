@@ -85,31 +85,49 @@ return [
             $resourceType  = Craft::$app->request->getQueryParam('type');
             $resourceTopic = Craft::$app->request->getQueryParam('topic');
 
-
-            if ($resourceType && $resourceTopic) {
-                $relatedTo[] = 'and';
-            }
+            $topicCategories = [];
+            $typeCategories = [];
+            $paramCount = 0;
 
             if ($resourceType) {
-                $category = Category::findOne([
-                    'group' => 'resourceTypes',
-                    'slug' => $resourceType
-                ]);
+                $resourceTypes = explode(',', $resourceType);
+                foreach ($resourceTypes as $type) {
+                    $category = Category::findOne([
+                        'group' => 'resourceTypes',
+                        'slug' => $type
+                    ]);
+                    if ($category) {
+                        $typeCategories[] = $category;
+                    }
+                }
 
-                $relatedTo[] = ["targetElement" => $category];
+                $paramCount++;
             }    
 
             if ($resourceTopic) {
-                $category = Category::findOne([
-                    'group' => 'resourceTopics',
-                    'slug' => $resourceTopic
-                ]);
-
-                $relatedTo[] = ["targetElement" => $category];
+                $resourceTopics = explode(',', $resourceTopic);
+                foreach ($resourceTopics as $topic) {
+                    $category = Category::findOne([
+                        'group' => 'resourceTopics',
+                        'slug' => $topic
+                    ]);
+                    if ($category) {
+                        $topicCategories[] = $category;
+                    }
+                }
+                $paramCount++;
             }
 
-            $criteria['relatedTo'] = $relatedTo;
+            if ($paramCount > 1) {
+                $relatedTo[] = 'and';
+            }
 
+            if ($resourceType || $resourceTopic) {
+                $relatedTo[] = ["targetElement" => $typeCategories];
+                $relatedTo[] = ["targetElement" => $topicCategories];
+                $criteria['relatedTo'] = $relatedTo;
+            }
+        
             return [
                 'criteria' => $criteria,
                 'transformer' => function(Entry $entry) {
