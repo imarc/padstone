@@ -16,11 +16,9 @@
 return [
     'modules' => [
         'site-module' => \modules\Module::class,
-        'volume-permissions' => Imarc\Craft\Modules\VolumePermissions::class,
     ],
     'bootstrap' => [
         'site-module',
-        'volume-permissions',
     ],
     'components' => [
         'session' => [
