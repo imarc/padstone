@@ -2,7 +2,7 @@
 # The renderBlock macro renders a single block from a contentDesigner field.
 # Mostly for use by renderAllBlocks().
 #}
-{% macro renderBlock(block, blockLoop) %}{% spaceless %}
+{% macro renderBlock(block, blockLoop) %}{% apply spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedSection' %}
         {% for subblock in block.sharedSection.all() %}
@@ -11,7 +11,7 @@
     {% else %}
         {% include ['/_blocks/' ~ block.type, '/_blocks/designedSection'] %}
     {% endif %}
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 
 {##
@@ -21,7 +21,7 @@
 # expects is a block designed to allow creating and reusing shared sections within
 # a separate CMS section.
 #}
-{% macro renderAllBlocks(field) %}{% spaceless %}
+{% macro renderAllBlocks(field) %}{% apply spaceless %}
     {% import _self as macros %}
 
     {% if field is not null %}
@@ -29,7 +29,7 @@
             {{ macros.renderBlock(block, loop) }}
         {% endfor %}
     {% endif %}
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 
 {##
@@ -37,10 +37,10 @@
 # section. It looks for the appropriate template in /_columns/ and falls back
 # to baseColumn.twig.
 #}
-{% macro renderColumn(column) %}{% spaceless %}
+{% macro renderColumn(column) %}{% apply spaceless %}
     {% set columnName = column.type|replace('/Column$/', '') %}
     {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] %}
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 
 {##
@@ -58,19 +58,19 @@
 # Instead of 'textText', 'twoText'
 # Instead of 'relatedEntryRelatedEntryRelatedEntry, 'threeRelatedEntry'
 #}
-{% macro columnsSlug(block) %}{% spaceless %}
+{% macro columnsSlug(block) %}{% apply spaceless %}
     {% import _self as macros %}
 
-    {% set concatenatedSlug %}{% spaceless %}
+    {% set concatenatedSlug %}{% apply spaceless %}
         {{ block.children.all()
             |map((b, i) => b.type|replace('/Column$/', ''))
             |sort
             |join(' ')
             |camel
         }}
-    {% endspaceless %}{% endset %}
+    {% endapply %}{% endset %}
 
-    {% set numChildren = block.children|length %}
+    {% set numChildren = block.children.count %}
     {% if numChildren > 1 %}
         {% set type = block.children.one().type|replace('/Column$/', '') %}
 
@@ -88,7 +88,7 @@
         {{ concatenatedSlug }}
     {% endif %}
 
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 
 {##
@@ -188,20 +188,20 @@
  #
  #     imgClass - class(es) to apply to the <img> tag.
  #}
- {% macro responsiveImage(asset, options = {}) %}{% spaceless %}
+ {% macro responsiveImage(asset, options = {}) %}{% apply spaceless %}
     {% if asset %}
         {% set options = { transform: {}, pictureClass: '', imgClass: ''} |merge(options) %}
         {% include '/_partials/responsiveImage.twig' with options %}
     {% else %}
         <svg viewBox="0 0 9 9"><text y="3" fill="red" font-size="3">✗</text></svg>
     {% endif %}
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 {##
 # Returns a comma separate list of the titles of the elements passed in.
 # Useful for things like categories.
 #}
-{% macro commaSeparate(elements) %}{% spaceless %}
+{% macro commaSeparate(elements) %}{% apply spaceless %}
  {% set list = '' %}
  {% for element in elements.all() %}
      {% if not loop.first %}
@@ -210,13 +210,13 @@
      {% set list = list ~ element.title %}
  {% endfor %}
  {{ list }}
-{% endspaceless %}{% endmacro %}
+{% endapply %}{% endmacro %}
 
 {##
  # Converts a number betwen zero and 10 to the english version.
  #}
-{% macro numberToWord(number, suffix = '') %}{% spaceless %}
+{% macro numberToWord(number, suffix = '') %}{% apply spaceless %}
     {% set numbers = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'] %}
-    {{ numbers[ max(number, 0) ] ~ suffix }}
-{% endspaceless %}{% endmacro %}
+    {{ number > 10 ? 'WHAT' : (numbers[ max(number, 0) ] ~ suffix) }}
+{% endapply %}{% endmacro %}
 
