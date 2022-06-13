@@ -1,4 +1,5 @@
 childBlocks: '*'
+description: null
 field: 76189277-255d-4e96-a6a5-6d393515b059 # Navigation Links
 fieldLayouts:
   9096d7ef-07ea-40fa-91e0-fc062462f54e:
@@ -7,11 +8,12 @@ fieldLayouts:
         elements:
           -
             fieldUid: 50143545-7495-4722-9929-a0651b8110dd # Navigation Heading
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9d0e32d5-08ee-4607-b931-264af69e0cc9
             warning: null
             width: 100
           -
@@ -21,10 +23,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 0b570a04-5287-4cfd-b62b-cb88f93f30bb
             warning: null
             width: 100
         name: 'Navigation Heading'
-        sortOrder: 1
+        uid: 2ea6559d-b412-485b-90f4-e9f73815e650
+group: null
 handle: navigationGroup
 maxBlocks: 0
 maxChildBlocks: 0

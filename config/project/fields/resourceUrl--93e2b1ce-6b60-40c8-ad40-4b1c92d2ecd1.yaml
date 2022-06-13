@@ -1,110 +1,62 @@
 columnSuffix: null
-contentColumnType: text
+contentColumnType: string
 fieldGroup: bbb87adb-e632-4579-b223-79796ba4ff1a # Resources
 handle: resourceUrl
 instructions: 'URL for this resource.'
 name: Resource
 searchable: true
 settings:
-  allowCustomText: '1'
-  allowTarget: ''
-  allowedLinkNames:
-    3: entry
-    9: url
-  autoNoReferrer: ''
+  allowCustomText: true
+  allowTarget: false
+  autoNoReferrer: false
+  customTextMaxLength: 0
+  customTextRequired: false
   defaultLinkName: asset
   defaultText: ''
-  enableAriaLabel: ''
-  enableTitle: ''
+  enableAllLinkTypes: false
+  enableAriaLabel: false
+  enableElementCache: false
+  enableTitle: false
   typeSettings:
-    __assoc__:
-      -
-        - asset
-        -
-          __assoc__:
-            -
-              - allowCustomQuery
-              - ''
-            -
-              - sources
-              - '*'
-      -
-        - category
-        -
-          __assoc__:
-            -
-              - allowCustomQuery
-              - ''
-            -
-              - sources
-              - '*'
-      -
-        - custom
-        -
-          __assoc__:
-            -
-              - allowAliases
-              - ''
-            -
-              - disableValidation
-              - ''
-      -
-        - email
-        -
-          __assoc__:
-            -
-              - allowAliases
-              - ''
-            -
-              - disableValidation
-              - ''
-      -
-        - entry
-        -
-          __assoc__:
-            -
-              - allowCustomQuery
-              - ''
-            -
-              - sources
-              - '*'
-      -
-        - site
-        -
-          __assoc__:
-            -
-              - sites
-              - '*'
-      -
-        - tel
-        -
-          __assoc__:
-            -
-              - allowAliases
-              - ''
-            -
-              - disableValidation
-              - ''
-      -
-        - url
-        -
-          __assoc__:
-            -
-              - allowAliases
-              - ''
-            -
-              - disableValidation
-              - ''
-      -
-        - user
-        -
-          __assoc__:
-            -
-              - allowCustomQuery
-              - ''
-            -
-              - sources
-              - '*'
+    asset:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    category:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
+    custom:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    email:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    entry:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: true
+      sources: '*'
+    site:
+      enabled: false
+      sites: '*'
+    tel:
+      allowAliases: false
+      disableValidation: false
+      enabled: false
+    url:
+      allowAliases: false
+      disableValidation: false
+      enabled: true
+    user:
+      allowCrossSiteLink: false
+      allowCustomQuery: false
+      enabled: false
+      sources: '*'
 translationKeyFormat: null
 translationMethod: none
-type: typedlinkfield\fields\LinkField
+type: lenz\linkfield\fields\LinkField

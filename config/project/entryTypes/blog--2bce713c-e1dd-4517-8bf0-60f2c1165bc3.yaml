@@ -23,61 +23,68 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7e97a28a-b415-461a-a20b-7794fff81021
             warning: null
             width: 100
           -
             fieldUid: fe9f15e5-2b68-477e-af16-c6e83c83e642 # Featured Image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a062370f-024b-4275-8a55-e9e137360c7a
             warning: null
             width: 100
           -
             fieldUid: 2575b2df-9c7d-43dc-b00c-7c8b4a389b22 # Abstract
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3b684a13-0260-402d-8449-64dc93780b18
             warning: null
             width: 100
           -
             fieldUid: 2e868be5-415e-4f7c-b96c-160e9091705c # Call to Action
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1bcfe460-2d65-4872-b87b-0b37f7ac5304
             warning: null
             width: 100
           -
             fieldUid: c2b63486-bb0e-42d6-9986-12cead0acc47 # Blog Date
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ff029d08-3848-4afc-bc91-431ba3d36055
             warning: null
             width: 100
           -
             fieldUid: b54bac54-a6a2-4e19-af8b-eead56deed68 # Author
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 362c490e-0a9e-4cdb-a49b-56301dbc5fef
             warning: null
             width: 100
           -
             fieldUid: a889cfc2-e16d-4719-88be-773bf11567f4 # Blog Categories
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: cf19e143-a390-4c52-ba0d-f11dd7566746
             warning: null
             width: 100
           -
@@ -87,10 +94,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c8ac551e-651c-47ce-aa5d-9e1e92537ec1
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 79c1f33f-0c07-4efa-9999-892bf82aba4b
       -
         elements:
           -
@@ -100,28 +108,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3a6f9967-1116-4e8d-83cb-b3db3de746aa
             warning: null
             width: 100
           -
             fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f20929bf-6883-4bc1-9a5c-a3de31056b64
             warning: null
             width: 100
           -
             fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 897687c5-5373-4bc5-bdac-f10426e87419
             warning: null
             width: 100
         name: SEO
-        sortOrder: 2
+        uid: b82fad8a-fad8-45db-99eb-a754c762f43b
 handle: blog
 hasTitleField: true
 name: 'Blog Article'

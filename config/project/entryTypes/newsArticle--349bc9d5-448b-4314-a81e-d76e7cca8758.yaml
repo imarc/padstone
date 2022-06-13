@@ -23,25 +23,28 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e3faf73b-ee86-4798-b4ed-13ba4acf4e14
             warning: null
             width: 100
           -
             fieldUid: 26f42a7b-fe45-4cc5-9535-49a9e14a7446 # Date
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1c33cd0a-d5fc-419d-a2a4-61510a88dfd1
             warning: null
             width: 100
           -
             fieldUid: fcc7f6c3-97c3-4ab3-8555-f630f7deb9cb # Abstract
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a7e00503-5210-4323-adce-2e87b3f2ee78
             warning: null
             width: 100
           -
@@ -51,10 +54,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a3196cbb-6ceb-4c66-99c6-80b72f11460d
             warning: null
             width: 100
         name: News
-        sortOrder: 1
+        uid: fbbf627b-82c7-4e64-ad1a-29fd70655c54
       -
         elements:
           -
@@ -64,28 +68,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bbaa3be9-47da-4c73-b37f-8eb2c91fe44f
             warning: null
             width: 100
           -
             fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5e0d9123-7958-46b7-bd4b-855074f69367
             warning: null
             width: 100
           -
             fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c62926ed-f49f-4b5f-b60b-b28d5795dcb3
             warning: null
             width: 100
         name: SEO
-        sortOrder: 2
+        uid: f0c26469-618c-4888-9404-7274203398e5
 handle: newsArticle
 hasTitleField: true
 name: 'News Article'

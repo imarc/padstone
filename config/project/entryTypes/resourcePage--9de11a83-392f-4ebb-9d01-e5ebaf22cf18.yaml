@@ -23,74 +23,82 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ed678da7-6444-4b5e-b8f1-388b6d5e3bf6
             warning: null
             width: 100
           -
             fieldUid: 0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e # Featured Image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 16041285-4f8a-4928-a780-2b0ed4e53ceb
             warning: null
             width: 100
           -
             fieldUid: e6810524-42e4-4e35-8fe8-edfb548dd138 # Description
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 1b46a149-37b6-4559-b0f7-9b827f669154
             warning: null
             width: 100
           -
             fieldUid: 8db154b4-31aa-4a46-bd7e-e040f96b91a8 # Call to Action
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5af0e840-b7da-4f52-94ce-1f7515ecf34b
             warning: null
             width: 100
           -
             fieldUid: d5e98a9a-c478-4cf5-8c85-1083950e2e9f # Resource Date
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 629dcada-1a7f-4fd1-980d-9b61c83888bf
             warning: null
             width: 100
           -
             fieldUid: 86444c22-bd97-4a40-9136-f5613c95ba48 # Resource Types
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 584ceec1-072c-4fde-9892-295ba25ce5d1
             warning: null
             width: 100
           -
             fieldUid: 6c97b95b-c74a-41d8-be93-7607a191617d # Resource Topics
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 718551a8-0ace-49d3-a8d6-b8ad2ab2c446
             warning: null
             width: 100
           -
             fieldUid: 93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1 # Resource
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b88587bb-ea0a-4714-ad72-fefbc243e622
             warning: null
             width: 100
         name: Resource
-        sortOrder: 1
+        uid: 136255df-8999-4495-8c62-e80c367287b8
       -
         elements:
           -
@@ -100,6 +108,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ddf807c5-b661-4925-9d5d-e1fca94ab683
             warning: null
             width: 100
           -
@@ -109,10 +118,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f4468682-22d4-46d0-87f8-0879c1c90d37
             warning: null
             width: 100
         name: Content
-        sortOrder: 2
+        uid: d24281e5-2f8c-402b-8f03-f373cb1f3ed5
       -
         elements:
           -
@@ -122,28 +132,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d5762e32-9497-4db8-bb26-da075bbd201d
             warning: null
             width: 100
           -
             fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d13b1307-7270-40a8-b781-522521220ec9
             warning: null
             width: 100
           -
             fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f0c6260a-defd-4500-9b51-02a7ddee4420
             warning: null
             width: 100
         name: SEO
-        sortOrder: 3
+        uid: eb719c00-bc97-4a6a-9dd3-89b81b661c8b
 handle: resourcePage
 hasTitleField: true
 name: 'Resource with Detail Page'

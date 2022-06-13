@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   9e02893d-9ddb-40ea-899e-9974035f38ef:
@@ -12,6 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f40bc05e-9b2c-416b-9375-0357d6b40f39
             warning: null
             width: 100
           -
@@ -21,15 +23,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 377868fd-6c14-4be2-9b3c-197b2604d369
             warning: null
             width: 100
           -
             fieldUid: 8e71eaa9-069f-4627-978b-04001165c7f5 # Quote
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7cbc6651-a6ce-4163-bc20-66d9023e65fc
             warning: null
             width: 100
           -
@@ -39,6 +43,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 24fc21aa-89d2-46cf-8cd6-7bad6e67f46a
             warning: null
             width: 100
           -
@@ -48,6 +53,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a0e62986-e4f7-4f69-97ad-d636bc172496
             warning: null
             width: 100
           -
@@ -57,6 +63,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 43ffae73-8714-43fb-8d7e-aa2ad623ebeb
             warning: null
             width: 100
           -
@@ -66,10 +73,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9fa7af1b-f42f-43d8-8578-bb7ccd616e8b
             warning: null
             width: 100
         name: 'Testimonial Section'
-        sortOrder: 1
+        uid: 7d588634-40ed-4693-ba9f-1fe2cde43af1
       -
         elements:
           -
@@ -79,6 +87,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8450d552-7590-431b-927a-1167d2b9ee30
             warning: null
             width: 100
           -
@@ -88,10 +97,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 92bd81ce-9f3c-4de6-9e25-8a85f3535110
             warning: null
             width: 100
         name: Settings
-        sortOrder: 2
+        uid: 227279ab-e62d-4c0e-9a5b-f9805c642caf
+group: null
 handle: testimonialSection
 maxBlocks: 0
 maxChildBlocks: 0

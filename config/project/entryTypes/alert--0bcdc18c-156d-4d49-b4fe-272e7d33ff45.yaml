@@ -11,7 +11,7 @@ fieldLayouts:
             disabled: false
             id: null
             instructions: 'For admin reference only - not shown.'
-            label: ''
+            label: null
             max: null
             min: null
             name: null
@@ -23,20 +23,22 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b37e73ea-b232-4b6c-876e-86cf23bb2c76
             warning: null
             width: 100
           -
             fieldUid: 6978af6e-566d-496d-abfc-884513d509b9 # Alert
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f906c9bf-4c89-4563-8fd5-26b7455d6efc
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 5c982499-f939-4890-8623-22e2d55ccb3d
 handle: alert
 hasTitleField: true
 name: Alert

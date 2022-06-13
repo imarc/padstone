@@ -2,13 +2,13 @@ columnSuffix: null
 contentColumnType: datetime
 fieldGroup: 61009477-6ca8-4122-b871-b3b715eec012 # Events
 handle: eventStartDate
-instructions: ''
+instructions: null
 name: 'Start Date'
 searchable: true
 settings:
   max: null
   min: null
-  minuteIncrement: '30'
+  minuteIncrement: 30
   showDate: true
   showTime: false
   showTimeZone: false

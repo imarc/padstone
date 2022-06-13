@@ -5,15 +5,16 @@ fieldLayouts:
         elements:
           -
             fieldUid: 76189277-255d-4e96-a6a5-6d393515b059 # Navigation Links
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 909b8d2e-619e-4aed-b4b8-04ef943accc9
             warning: null
             width: 100
         name: Navigation
-        sortOrder: 1
+        uid: ef731d90-4614-4efa-be5c-0d049ec6332c
 handle: primaryNavigation
 name: 'Primary Navigation'
 sortOrder: 1

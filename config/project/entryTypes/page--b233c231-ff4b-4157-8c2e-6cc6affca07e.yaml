@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ff5bd715-2098-4a33-94da-2142fc15036a
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 72e258cd-0848-48bc-b5bc-c73628d7bc55
             warning: null
             width: 100
         name: Hero
-        sortOrder: 1
+        uid: 6ea64fb9-9fa4-41f1-9203-db8dd65fe99d
       -
         elements:
           -
@@ -46,10 +48,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 76762f21-c23c-43c2-9bea-15cdc1fda10c
             warning: null
             width: 100
         name: Content
-        sortOrder: 2
+        uid: 4e209829-a6c1-4dbb-945c-bc43ee258abb
       -
         elements:
           -
@@ -59,6 +62,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c45b7475-b515-426e-8bc1-9c7b36199c5e
             warning: null
             width: 100
           -
@@ -68,6 +72,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 58b38c69-e665-40ad-aa00-e336df1b13f2
             warning: null
             width: 100
           -
@@ -77,10 +82,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bd447ad8-5d47-4b13-9c57-f5b572f03078
             warning: null
             width: 100
         name: SEO
-        sortOrder: 3
+        uid: ad499fa8-7127-4a2d-88da-2571a8b73ff5
 handle: page
 hasTitleField: true
 name: Page

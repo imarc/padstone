@@ -10,7 +10,7 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
+            instructions: null
             label: Name
             max: null
             min: null
@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9945534b-4eb0-4c0a-af11-604b9bd8e6a7
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: cf8c5f4a-040e-43ac-ae9a-e7b9cea345ff
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2e68f8d0-1c89-49cf-8bff-4fd414b4590c
 handle: authors
 hasTitleField: true
 name: Authors

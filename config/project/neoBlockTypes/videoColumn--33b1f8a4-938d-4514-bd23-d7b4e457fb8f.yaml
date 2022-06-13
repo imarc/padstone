@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   66bc46fc-a268-4fc8-8e5e-e31bb04cb456:
@@ -7,15 +8,17 @@ fieldLayouts:
         elements:
           -
             fieldUid: bf421a3c-f1ec-450f-9a71-564c29401db5 # Video
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6d02d1ce-3a6e-41a3-8f88-9fcba86243a8
             warning: null
             width: 100
         name: Video
-        sortOrder: 1
+        uid: 7fcc2fd5-f36e-43a8-93cd-86afcdb1cd2c
+group: null
 handle: videoColumn
 maxBlocks: 0
 maxChildBlocks: 0

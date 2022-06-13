@@ -2,17 +2,18 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9 # Blog
 handle: blogCategories
-instructions: ''
+instructions: null
 name: 'Blog Categories'
 searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
   allowSelfRelations: false
-  branchLimit: ''
-  limit: null
+  branchLimit: null
   localizeRelations: false
-  selectionLabel: ''
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
   showSiteMenu: true
   source: 'group:380fab36-d288-4b53-9d1b-d5aad2afc914' # Blog Categories
   sources: '*'

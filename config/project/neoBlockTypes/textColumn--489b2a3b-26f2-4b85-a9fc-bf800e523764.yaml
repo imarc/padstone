@@ -1,5 +1,6 @@
 childBlocks:
   - callToActionColumn
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   11ed3f6f-5a22-4208-a5b1-3ee2095997ee:
@@ -8,15 +9,17 @@ fieldLayouts:
         elements:
           -
             fieldUid: be750023-509f-45ce-b784-9d099cd2fe28 # Content (No Media)
-            instructions: ''
+            instructions: null
             label: Content
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 486ec484-b866-4636-bd16-0a8f44bdd260
             warning: null
             width: 100
         name: Text
-        sortOrder: 1
+        uid: 024781fb-20e3-4755-9d84-ee68ad1d4355
+group: null
 handle: textColumn
 maxBlocks: 0
 maxChildBlocks: 0

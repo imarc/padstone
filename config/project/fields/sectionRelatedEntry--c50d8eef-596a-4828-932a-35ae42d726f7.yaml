@@ -2,13 +2,14 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 568aabd9-1216-4eea-9964-b4797c17d02f # Neo
 handle: sectionRelatedEntry
-instructions: ''
+instructions: null
 name: 'Related Entry'
 searchable: false
 settings:
   allowSelfRelations: false
-  limit: '1'
   localizeRelations: false
+  maxRelations: 1
+  minRelations: null
   selectionLabel: 'Select Entry'
   showSiteMenu: true
   source: null

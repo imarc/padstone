@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   7b28d28d-b66f-492c-bf3e-c280ca469977:
@@ -7,15 +8,17 @@ fieldLayouts:
         elements:
           -
             fieldUid: acd8e61e-e2f0-4b23-900e-44658f2fa636 # Section Call to Action
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a7c8de6a-d72e-4127-a871-4e64bb73fe4c
             warning: null
             width: 100
         name: 'Call to Action'
-        sortOrder: 1
+        uid: c346727f-5971-4122-b05d-a50c7981c688
+group: null
 handle: callToActionColumn
 maxBlocks: 0
 maxChildBlocks: 0

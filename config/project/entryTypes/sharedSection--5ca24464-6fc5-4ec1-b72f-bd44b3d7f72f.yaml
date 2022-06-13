@@ -23,20 +23,22 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 5ae5da38-7c36-408c-8aa9-9fdbf7c571f8
             warning: null
             width: 100
           -
             fieldUid: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: abe31f0c-ce66-4d6d-b3cc-2305a0611c83
             warning: null
             width: 100
         name: 'Shared Block'
-        sortOrder: 1
+        uid: 33e805bc-b85e-4df5-8b9d-f23067e43df7
 handle: sharedSection
 hasTitleField: true
 name: 'Shared Section'

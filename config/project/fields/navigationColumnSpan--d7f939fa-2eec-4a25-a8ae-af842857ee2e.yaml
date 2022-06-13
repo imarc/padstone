@@ -6,7 +6,6 @@ instructions: 'Whether nested navigation links should be displayed spanning more
 name: 'Column Span'
 searchable: false
 settings:
-  optgroups: true
   options:
     -
       __assoc__:

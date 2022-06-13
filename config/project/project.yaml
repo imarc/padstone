@@ -1,8 +1,95 @@
-dateModified: 1647029475
+dateModified: 1655148361
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'single:804ebac0-45d8-49c0-9e1f-418cc9c708e7' # Homepage
+      type: native
+    -
+      key: 'section:9b2e55cd-41cc-43c8-a0e9-17aa24519787' # Pages
+      tableAttributes:
+        - type
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'section:16e6b8c8-fd2d-4fa3-9219-9d81e2ab1e98' # Shared Sections
+      type: native
+    -
+      heading: Blog
+      type: heading
+    -
+      key: 'section:fdc8d709-53c4-4104-ba7b-f424bad5b7fc' # Blog Articles
+      type: native
+    -
+      key: 'section:eea7d11e-037c-44d7-a992-bd1eaf2b3f72' # Authors
+      type: native
+    -
+      heading: 'News & Events'
+      type: heading
+    -
+      key: 'section:550e9481-b606-4b2b-83e1-9a895a224d38' # News Articles
+      type: native
+    -
+      key: 'section:7b352338-e4c1-4527-8c7b-dd3ae5e9d28f' # Events
+      type: native
+    -
+      heading: Resources
+      type: heading
+    -
+      key: 'section:31726602-42e3-461e-ad79-08d69e6e899a' # Resources
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      heading: About
+      type: heading
+    -
+      key: 'section:c87b5acc-afe1-4ddf-b73c-b449c9f29c2d' # Team
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Miscellaneous
+      type: heading
+    -
+      key: 'single:aa4b309e-df7a-47cf-9aa5-25285f46796f' # 404 Page
+      type: native
+    -
+      key: 'single:d44a5a95-fa08-4efd-8496-2ac825c5acd1' # Service Unavailable Page
+      type: native
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: /assets/images
+  resources:
+    hasUrls: true
+    name: Resources
+    settings:
+      path: '@webroot/assets/resources'
+    type: craft\fs\Local
+    url: /assets/resources
 meta:
   __names__:
     0bcdc18c-156d-4d49-b4fe-272e7d33ff45: Alert # Alert
@@ -222,7 +309,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: WWZLFPPNGO3ZWUL83D2QVZM1
-    schemaVersion: 2.11.6
+    schemaVersion: 3.0.4
   pickture:
     edition: standard
     enabled: true
@@ -254,7 +341,7 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 2.2.1
+    schemaVersion: 3.0.0
   tag-manager:
     edition: standard
     enabled: true
@@ -262,7 +349,7 @@ plugins:
   typedlinkfield:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 1.0.0
+    schemaVersion: 2.0.0
     settings: null
   usermanual:
     edition: standard
@@ -273,14 +360,19 @@ plugins:
       pluginNameOverride: Documentation
       section: '24'
       templateOverride: ''
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
   name: Padstone
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: ''
   photoVolumeUid: null

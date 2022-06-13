@@ -6,6 +6,7 @@ childBlocks:
   - testimonialColumn
   - videoColumn
   - embedColumn
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   7e5ffe0c-b4b2-46b1-8679-07e4fc0c9f72:
@@ -19,6 +20,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 98a923a4-c58f-40b9-b7b4-9cd2e262564a
             warning: null
             width: 100
           -
@@ -28,6 +30,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 19078226-c0bc-4f07-8e93-4cda1504518d
             warning: null
             width: 100
           -
@@ -37,6 +40,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 68c82564-f4da-4c7e-a6a5-64d0043b7e0b
             warning: null
             width: 100
           -
@@ -46,10 +50,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 94a0f914-0d08-4f6b-9fd1-f06a49451ab9
             warning: null
             width: 100
           -
             type: benf\neo\fieldlayoutelements\ChildBlocksUiElement
+            uid: 1b8ede7b-e61b-4187-8726-3e1900363056
           -
             fieldUid: 80c5c826-227b-4c52-a9c9-e314bb49a079 # Section Conclusion
             instructions: null
@@ -57,6 +63,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4253b235-f66e-4054-b75d-83e59b0a110b
             warning: null
             width: 100
           -
@@ -66,10 +73,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fd906e09-fc3c-43bc-baf5-0ce200e7a76e
             warning: null
             width: 100
         name: 'Visual Section'
-        sortOrder: 1
+        uid: 9ef19b30-bb90-4240-8944-1d9217a33c7d
       -
         elements:
           -
@@ -79,6 +87,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 831727e3-3b63-406d-ab63-87305c47a5f0
             warning: null
             width: 100
           -
@@ -88,10 +97,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: bea686ed-4ef6-4d9c-beb0-1bb7155d91c4
             warning: null
             width: 100
         name: Settings
-        sortOrder: 2
+        uid: efede378-37d8-4b83-9bd0-af4993853452
+group: null
 handle: designedSection
 maxBlocks: 0
 maxChildBlocks: 2

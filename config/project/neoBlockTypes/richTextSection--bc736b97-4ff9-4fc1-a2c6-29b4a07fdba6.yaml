@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   b49fe5d4-668b-4522-9bd4-8a2e8d5c7701:
@@ -12,6 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 4803ae91-8767-4770-b740-cbe62f00bfca
             warning: null
             width: 100
           -
@@ -21,6 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d14e6544-2e02-4856-8056-529cb76fd1e7
             warning: null
             width: 100
           -
@@ -30,6 +33,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 43d79591-58f5-408e-ab8d-5592eec09428
             warning: null
             width: 100
           -
@@ -39,6 +43,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 071c311c-9ac3-4e3f-9184-de306bafb285
             warning: null
             width: 100
           -
@@ -48,6 +53,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f2864770-a744-4a67-92d5-9feac3c67398
             warning: null
             width: 100
           -
@@ -57,6 +63,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5a61e7c5-8711-4c34-b5fb-a23f617cc62b
             warning: null
             width: 100
           -
@@ -66,10 +73,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: db89daeb-9fd5-498a-9877-35d7ea798a03
             warning: null
             width: 100
         name: 'Rich Text Section'
-        sortOrder: 1
+        uid: db47cb3c-5ee2-4385-a90b-5323520ec249
       -
         elements:
           -
@@ -79,6 +87,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6f84ff0d-c366-4815-a2e5-b3477aceebf6
             warning: null
             width: 100
           -
@@ -88,10 +97,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b15e8f8e-872a-4e16-9249-a61cd460e72d
             warning: null
             width: 100
         name: Settings
-        sortOrder: 2
+        uid: 727eae6c-833f-414d-bb12-283478b82979
+group: null
 handle: richTextSection
 maxBlocks: 0
 maxChildBlocks: 0

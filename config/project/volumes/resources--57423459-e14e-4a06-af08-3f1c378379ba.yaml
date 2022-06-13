@@ -23,18 +23,17 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 605aa087-e39e-4113-aeea-0b645a45c586
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: f3b21d5a-cfe5-4fa2-85f2-05fb8976a2b8
+fs: resources
 handle: resources
-hasUrls: true
 name: Resources
-settings:
-  path: '@webroot/assets/resources'
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\volumes\Local
-url: /assets/resources
+transformFs: null
+transformSubpath: ''
