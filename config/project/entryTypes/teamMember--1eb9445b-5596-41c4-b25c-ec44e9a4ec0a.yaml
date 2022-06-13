@@ -11,7 +11,7 @@ fieldLayouts:
             disabled: false
             id: null
             instructions: null
-            label: Name
+            label: null
             max: null
             min: null
             name: null
@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: e89d4a61-f099-4614-bf6c-9026c0380ac4
+            uid: 119b12b7-0da1-4038-9926-cb91664d2d93
             warning: null
             width: 100
           -
@@ -34,7 +34,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1cc30c6d-78f1-4126-ae4f-ba90369eff7c
+            uid: 5e6afb73-d53d-4705-a491-bd803b184ce2
             warning: null
             width: 100
           -
@@ -44,7 +44,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3d7a2c2b-760f-4f48-ad1e-cade46404a7f
+            uid: e8b04e31-0ff2-4a67-bacb-bc747287ab27
             warning: null
             width: 100
           -
@@ -54,7 +54,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: df6b4468-e641-442a-835b-eefeff42d586
+            uid: c5038b83-12fd-4733-a7c6-93ca098baee2
             warning: null
             width: 100
           -
@@ -64,11 +64,11 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f1ce459a-60f2-4951-9f0e-8d3f25b8af6a
+            uid: fa6f869d-d5fe-4070-bca4-c24608b6c729
             warning: null
             width: 100
         name: 'Team Member'
-        uid: 92140024-eaa0-4604-a742-8a5d1bfb6aa6
+        uid: 8c970a22-50f5-4bf6-8f65-ae336bb8c590
 handle: teamMember
 hasTitleField: true
 name: 'Team Member'

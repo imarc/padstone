@@ -10,7 +10,7 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: 'For admin reference only - not shown.'
+            instructions: null
             label: null
             max: null
             min: null
@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b37e73ea-b232-4b6c-876e-86cf23bb2c76
+            uid: 41c354d0-3d14-4408-889f-c613013c9d46
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f906c9bf-4c89-4563-8fd5-26b7455d6efc
+            uid: 7befb4b7-37f9-4e25-b2b3-946cbc918c25
             warning: null
             width: 100
         name: Content
-        uid: 5c982499-f939-4890-8623-22e2d55ccb3d
+        uid: 155b0727-7c90-4456-bce9-26d865bc9c4d
 handle: alert
 hasTitleField: true
 name: Alert

@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 7e97a28a-b415-461a-a20b-7794fff81021
+            uid: 70dd77fc-b5a6-4c07-b1c3-ac94a3f47dfe
             warning: null
             width: 100
           -
@@ -34,7 +34,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a062370f-024b-4275-8a55-e9e137360c7a
+            uid: 87b927c5-8e1f-4f40-9df1-bea0cef74d14
             warning: null
             width: 100
           -
@@ -44,7 +44,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3b684a13-0260-402d-8449-64dc93780b18
+            uid: ea025335-1500-4329-8ec4-4934b98103e6
             warning: null
             width: 100
           -
@@ -54,7 +54,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1bcfe460-2d65-4872-b87b-0b37f7ac5304
+            uid: e56056f6-b8e0-464a-bb71-48ee00461d78
             warning: null
             width: 100
           -
@@ -64,7 +64,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ff029d08-3848-4afc-bc91-431ba3d36055
+            uid: 3055378d-fc56-49a0-b243-ed01285f12ed
             warning: null
             width: 100
           -
@@ -74,7 +74,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 362c490e-0a9e-4cdb-a49b-56301dbc5fef
+            uid: 448ac33c-065c-4bd8-be25-48d3e951a598
             warning: null
             width: 100
           -
@@ -84,7 +84,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cf19e143-a390-4c52-ba0d-f11dd7566746
+            uid: 35d07391-b46d-4ffa-81d1-91f6ffe8a194
             warning: null
             width: 100
           -
@@ -94,11 +94,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c8ac551e-651c-47ce-aa5d-9e1e92537ec1
+            uid: cd9536a0-343e-476e-917c-e8fdc4334b15
             warning: null
             width: 100
         name: Content
-        uid: 79c1f33f-0c07-4efa-9999-892bf82aba4b
+        uid: dcfa88f5-b345-461c-9c7e-4467667a59dd
       -
         elements:
           -
@@ -108,7 +108,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3a6f9967-1116-4e8d-83cb-b3db3de746aa
+            uid: 57d72012-8aac-49d6-867e-b5dc6f23e80e
             warning: null
             width: 100
           -
@@ -118,7 +118,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f20929bf-6883-4bc1-9a5c-a3de31056b64
+            uid: 64d545d5-e964-4bdf-9569-9f8bbe8e39ae
             warning: null
             width: 100
           -
@@ -128,11 +128,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 897687c5-5373-4bc5-bdac-f10426e87419
+            uid: 192fbec3-afa7-4a06-bdba-7af4feff8bcd
             warning: null
             width: 100
         name: SEO
-        uid: b82fad8a-fad8-45db-99eb-a754c762f43b
+        uid: 8cdb67db-09e4-4755-b730-1c0ad981f9fe
 handle: blog
 hasTitleField: true
 name: 'Blog Article'

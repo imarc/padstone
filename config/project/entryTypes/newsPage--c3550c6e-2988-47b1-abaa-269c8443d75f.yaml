@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 90e0a020-4c0c-4795-817c-64ed39380c35
+            uid: 06d572aa-ef4e-4bbd-9c80-383044f40885
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1b7005f0-575a-4d1f-92d7-2d64dc232466
+            uid: 8dacdf19-0fa1-4f4a-87d2-1e1ab0d764c2
             warning: null
             width: 100
         name: Hero
-        uid: 5adb8797-9284-49cd-ab03-135635fc07f1
+        uid: 16bf5f61-d586-4670-ba9f-3af6e347184b
       -
         elements:
           -
@@ -48,7 +48,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 952457b1-1727-4ade-97af-06f5ba28ba80
+            uid: 931a328a-dae5-467d-8222-7e661a7d824c
             warning: null
             width: 100
           -
@@ -58,7 +58,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 53db7261-080c-4475-b1b4-c83e9786f903
+            uid: 1cbae48c-75c6-4774-9a48-2d079c480244
             warning: null
             width: 100
           -
@@ -68,11 +68,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 62af9c2d-50a6-42cc-a7a3-b1679ca9eb27
+            uid: 65007c60-12a3-4b0e-a968-61ef2c7ed19c
             warning: null
             width: 100
         name: SEO
-        uid: b28fdb30-859e-4d7f-95b6-1b39a0a0718d
+        uid: bb16e377-0733-4e92-a9a8-2eea1cff26cf
 handle: newsPage
 hasTitleField: true
 name: 'News Page'

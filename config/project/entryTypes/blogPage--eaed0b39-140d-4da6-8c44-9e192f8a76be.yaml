@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: f138fffc-ea4a-49f5-baff-2691342c30d9
+            uid: afc7600b-e48b-4f32-904f-408f47bf8fb2
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3a698183-7ebf-460f-b722-725ee6dfc013
+            uid: 7811ebc6-dddf-4ddc-bc63-f99fc7104c86
             warning: null
             width: 100
         name: Hero
-        uid: ad96b348-484f-4237-bfbb-795d096f36f4
+        uid: c29fcfb5-d8e8-4068-9e7d-edccd617176e
       -
         elements:
           -
@@ -48,7 +48,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4aba3777-8bf4-424c-838d-a2c975782042
+            uid: 9e1d2e0d-c001-4970-8870-78b97566d72c
             warning: null
             width: 100
           -
@@ -58,7 +58,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f909a757-61a8-4d91-a00e-4632aa8664f6
+            uid: 3b954afe-facf-4966-8379-70edc1f4e723
             warning: null
             width: 100
           -
@@ -68,11 +68,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d095e91f-ff95-4aa1-8c0a-68755cf4a46c
+            uid: 06f6d036-70b7-4947-8f1f-a0bb125f59b9
             warning: null
             width: 100
         name: SEO
-        uid: 9767c3b6-7a19-47c7-90ba-3ff1b7cda362
+        uid: ebe5bc1b-dc68-4a4c-9f85-3fdb0231b991
 handle: blogPage
 hasTitleField: true
 name: 'Blog Page'

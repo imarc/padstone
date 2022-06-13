@@ -11,7 +11,7 @@ fieldLayouts:
             disabled: false
             id: null
             instructions: null
-            label: Name
+            label: null
             max: null
             min: null
             name: null
@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 9945534b-4eb0-4c0a-af11-604b9bd8e6a7
+            uid: a85681da-ea01-4b62-99f3-3aa8230571aa
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cf8c5f4a-040e-43ac-ae9a-e7b9cea345ff
+            uid: 399417a7-3d95-4849-ae16-4cc58486c836
             warning: null
             width: 100
         name: Content
-        uid: 2e68f8d0-1c89-49cf-8bff-4fd414b4590c
+        uid: 0a9e3e9a-8b9d-4c34-aed8-08bd2f3d9db5
 handle: authors
 hasTitleField: true
 name: Authors

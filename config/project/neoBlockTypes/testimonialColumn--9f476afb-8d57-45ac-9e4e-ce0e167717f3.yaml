@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b1cfeba2-73a5-4bba-af34-78dce404e3db
+            uid: 588a4676-759e-4fff-8fa2-2db37f744426
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2c0f164b-33af-4f5f-9c76-18fcf95ca7c8
+            uid: fd518f87-c166-4c6b-9910-e0cbb1dcac46
             warning: null
             width: 100
           -
@@ -33,7 +33,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 343f41e5-72b8-454b-b56c-20cc950ff55b
+            uid: 85ead070-a34a-4d24-9a1f-22f9a8ae2e75
             warning: null
             width: 100
         name: Testimonial

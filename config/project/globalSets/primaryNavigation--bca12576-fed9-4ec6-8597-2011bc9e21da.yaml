@@ -10,7 +10,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 909b8d2e-619e-4aed-b4b8-04ef943accc9
+            uid: fd372059-d2b8-4bfe-8d37-dd84130f5f3e
             warning: null
             width: 100
         name: Navigation

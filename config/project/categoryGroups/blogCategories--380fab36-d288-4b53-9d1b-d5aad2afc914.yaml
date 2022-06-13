@@ -25,7 +25,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 3c11de6d-a39e-46b7-bbc1-7bd79019e1c8
+            uid: b0e214ac-5da7-4fb4-91cd-79362fb50c1a
             warning: null
             width: 100
         name: Content

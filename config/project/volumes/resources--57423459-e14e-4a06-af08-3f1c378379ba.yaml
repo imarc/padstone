@@ -24,11 +24,11 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: 605aa087-e39e-4113-aeea-0b645a45c586
+            uid: bf16ec65-d998-4fc2-a91d-4e59d8946b16
             warning: null
             width: 100
         name: Content
-        uid: f3b21d5a-cfe5-4fa2-85f2-05fb8976a2b8
+        uid: cc86b6e8-4cca-4b3a-9d13-8f19d9eb1efd
 fs: resources
 handle: resources
 name: Resources

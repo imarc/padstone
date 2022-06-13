@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6d02d1ce-3a6e-41a3-8f88-9fcba86243a8
+            uid: 6c17bd3e-a5ad-4071-b0dd-3397e453fa54
             warning: null
             width: 100
         name: Video

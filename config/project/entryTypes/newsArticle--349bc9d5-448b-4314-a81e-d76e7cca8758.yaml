@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: e3faf73b-ee86-4798-b4ed-13ba4acf4e14
+            uid: b8085e34-b2d1-435d-b3a5-45d83db3d275
             warning: null
             width: 100
           -
@@ -34,7 +34,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1c33cd0a-d5fc-419d-a2a4-61510a88dfd1
+            uid: f51df34f-6306-4bc2-90e5-37d071986abd
             warning: null
             width: 100
           -
@@ -44,7 +44,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a7e00503-5210-4323-adce-2e87b3f2ee78
+            uid: 9a5a5845-60de-4bef-bcc6-5e6a90e1758c
             warning: null
             width: 100
           -
@@ -54,11 +54,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a3196cbb-6ceb-4c66-99c6-80b72f11460d
+            uid: b503b4dd-02a7-4f9c-80de-65d61d5f84c7
             warning: null
             width: 100
         name: News
-        uid: fbbf627b-82c7-4e64-ad1a-29fd70655c54
+        uid: 79ba2cd9-6945-4f5c-8328-b5f9b4f8e640
       -
         elements:
           -
@@ -68,7 +68,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bbaa3be9-47da-4c73-b37f-8eb2c91fe44f
+            uid: eccf4324-746e-41f4-ac47-904460ac8695
             warning: null
             width: 100
           -
@@ -78,7 +78,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5e0d9123-7958-46b7-bd4b-855074f69367
+            uid: ccc8865b-245d-4a24-8c02-1d86b768cf2a
             warning: null
             width: 100
           -
@@ -88,11 +88,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c62926ed-f49f-4b5f-b60b-b28d5795dcb3
+            uid: d2c7b5b9-8c51-47a3-9563-5433abf1ffd1
             warning: null
             width: 100
         name: SEO
-        uid: f0c26469-618c-4888-9404-7274203398e5
+        uid: b6bec74c-7ac0-49ae-aefd-bd6a79ac9012
 handle: newsArticle
 hasTitleField: true
 name: 'News Article'

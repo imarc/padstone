@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: fcc26af9-de6a-401a-9561-f84137ce2f68
+            uid: 01bde6fe-cc18-4bea-9227-1fa632abe4aa
             warning: null
             width: 100
           -
@@ -34,7 +34,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d60a5bf5-ed20-4db1-82ec-34a13dcaa901
+            uid: 630ac1e2-e3b2-434d-9b05-b7b723eab1af
             warning: null
             width: 100
           -
@@ -44,7 +44,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 23ca1c42-7e4b-46f7-84a3-5151b7e84804
+            uid: cec3a40b-fae7-4481-b143-8ecd776024c2
             warning: null
             width: 100
           -
@@ -54,7 +54,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d2c7ef87-4b1d-4a5b-8795-12f146da945f
+            uid: 366201cc-c431-415d-aeae-714661d64271
             warning: null
             width: 100
           -
@@ -64,7 +64,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7c22eb84-4b2f-4748-b6c8-cca76414a2ab
+            uid: b6fd7a46-4c3f-449c-8cb8-5c54bb45490f
             warning: null
             width: 100
           -
@@ -74,7 +74,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6416bd33-2324-43ba-91a3-a712f3924e09
+            uid: 6671134b-5d2f-4184-9f96-b4faa4a8e32c
             warning: null
             width: 100
           -
@@ -84,11 +84,11 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f9b23c9d-3bb5-4868-969d-0f1f6fb3e438
+            uid: 749be3b1-276c-4472-8368-1a9a1b9a9870
             warning: null
             width: 100
         name: Resource
-        uid: 3570dea9-6bca-4262-98e3-c813b4729a8b
+        uid: 6de32b2b-89da-4153-9f24-bab15052007f
 handle: resourceLink
 hasTitleField: true
 name: 'Direct Link'

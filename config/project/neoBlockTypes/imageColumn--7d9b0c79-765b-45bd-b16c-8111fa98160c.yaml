@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 12559511-bc95-46b7-beed-bb918afe5ad4
+            uid: 2070f97a-0062-4c8c-a02f-82087d91567c
             warning: null
             width: 100
         name: Image

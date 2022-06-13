@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f5a2a50c-4bd5-4df7-986f-402717f2e554
+            uid: 8cc35ffb-4a21-4eb2-b32a-8a6e63d04bee
             warning: null
             width: 100
         name: 'Shared Section'

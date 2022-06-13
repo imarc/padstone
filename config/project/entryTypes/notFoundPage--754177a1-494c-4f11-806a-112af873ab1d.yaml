@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 083d8bc2-dc80-48e2-aa56-a74dde026668
+            uid: 8bb89209-b061-4357-8a2d-7b91191ee078
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e20d1262-1ab9-474d-bbd4-8cc9d11de2b7
+            uid: 391f3584-e9c1-4082-9998-d3355e034caf
             warning: null
             width: 100
         name: Hero
-        uid: 9eeacd6c-1d39-4692-9ba5-80eb0e93f481
+        uid: 9c7d6bd4-d31e-4c38-bb92-0e84d57f9474
       -
         elements:
           -
@@ -48,11 +48,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9194d806-68e6-49b7-be3e-b590b99687db
+            uid: 341d6ebc-0407-4bf2-b0db-f4cbc6db12ac
             warning: null
             width: 100
         name: Content
-        uid: 55c68c5b-f498-4642-8900-e94fa1cafe15
+        uid: a2c7d42f-7681-43b1-864e-19af5119589b
       -
         elements:
           -
@@ -62,7 +62,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ec42e63a-23a1-4ea2-9d11-9fa346eac594
+            uid: ede9c071-2557-451e-ae2f-f944d80efceb
             warning: null
             width: 100
           -
@@ -72,7 +72,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 018c5ede-681d-4f9c-9e8c-359dab30eedb
+            uid: 3312fa7a-ab9a-4e96-8607-2cf5f06629f1
             warning: null
             width: 100
           -
@@ -82,11 +82,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ef297408-cb8b-46ce-82f1-4ab8e8b7a8c8
+            uid: 438988a2-11d5-4106-a9c4-671f99faba52
             warning: null
             width: 100
         name: SEO
-        uid: 08896a4e-53aa-4d01-880e-f29ceb76184b
+        uid: f8394e3a-c8df-480d-9f46-a4d15313ef8d
 handle: notFoundPage
 hasTitleField: true
 name: '404 Page'

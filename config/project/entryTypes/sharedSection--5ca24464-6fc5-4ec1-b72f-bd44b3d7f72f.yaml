@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 5ae5da38-7c36-408c-8aa9-9fdbf7c571f8
+            uid: f964639e-0884-41a7-ab79-090e7f23c571
             warning: null
             width: 100
           -
@@ -34,11 +34,11 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: abe31f0c-ce66-4d6d-b3cc-2305a0611c83
+            uid: 4c44a3f4-6890-4de1-b78f-c46d043cc273
             warning: null
             width: 100
         name: 'Shared Block'
-        uid: 33e805bc-b85e-4df5-8b9d-f23067e43df7
+        uid: 74cc1977-9b72-45b7-80b7-8ac896a7bddb
 handle: sharedSection
 hasTitleField: true
 name: 'Shared Section'

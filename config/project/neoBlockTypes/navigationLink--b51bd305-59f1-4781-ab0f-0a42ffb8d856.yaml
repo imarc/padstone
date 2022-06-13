@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c7636665-ddf9-48de-86e2-f3084d91ae38
+            uid: 4bee4960-6105-4df9-b492-27b0781e90a7
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: be91d9c7-e0f0-4d99-960c-c06137479cc6
+            uid: 0637e30c-cba0-4e57-a093-8130ad5ffc6b
             warning: null
             width: 100
         name: 'Navigation Link'

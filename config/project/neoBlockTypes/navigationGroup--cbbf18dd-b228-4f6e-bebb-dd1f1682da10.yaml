@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9d0e32d5-08ee-4607-b931-264af69e0cc9
+            uid: f830c703-1aef-4e0c-a99c-261e088dbcfd
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0b570a04-5287-4cfd-b62b-cb88f93f30bb
+            uid: fdbe7ac7-e3e8-4715-8a8b-07583b0f51ca
             warning: null
             width: 100
         name: 'Navigation Heading'

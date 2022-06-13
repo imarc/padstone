@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ff08e23b-59ee-4302-97b8-f3949dae03a8
+            uid: 66801ae2-e7fe-40bd-ba6f-7ddf0d2b9acc
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 223d661a-de78-423c-953e-817f02fa409a
+            uid: b0e06f62-fb30-4c56-9a65-1d6f75847712
             warning: null
             width: 100
           -
@@ -33,7 +33,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ec961f26-666d-498c-96b9-b72d03f9dbf2
+            uid: d4a439fb-9ba8-42eb-b030-b52a82689fd6
             warning: null
             width: 100
           -
@@ -43,7 +43,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1d14c7da-f4f7-48a0-8068-f267c429db3c
+            uid: dde079e6-56a2-486c-9aca-69cd5cfc6a03
             warning: null
             width: 100
           -
@@ -53,7 +53,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3ecc5d2a-1322-4e8d-bdb6-092c511f93dc
+            uid: ee68e033-e5d6-4e40-9983-677074e1cb49
             warning: null
             width: 100
         name: 'Call to Action Section'
@@ -67,7 +67,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0ce27eb1-54bc-48a2-b8fc-b705a980ef00
+            uid: e440210e-2531-497c-afc8-4a307617619e
             warning: null
             width: 100
           -
@@ -77,7 +77,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cc00c642-76a1-4b7c-aef7-a4cb6d4f5944
+            uid: f6b1a538-fd64-42c4-9ea1-710fe5d350cc
             warning: null
             width: 100
         name: Settings

@@ -13,7 +13,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3cc4cc7d-c524-429a-bcf1-8f37af34fb15
+            uid: a0d8972a-eae5-4660-991d-9cc36159b044
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 68e98b62-08a8-4a3e-9668-b625cb93743a
+            uid: 3f62917a-991e-4c17-89c7-41842bcf50f0
             warning: null
             width: 100
           -
@@ -33,7 +33,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d85a3d2f-19b6-4fdd-aecb-47d84fcb56b2
+            uid: 3318e410-b658-4ad2-b93e-d09e0425a291
             warning: null
             width: 100
           -
@@ -43,7 +43,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 664a22bc-9c69-4283-b3c2-5d92e4dcbe66
+            uid: d471dd73-b96d-40cb-916a-cc8a443225b1
             warning: null
             width: 100
           -
@@ -53,7 +53,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4d73876b-3354-4384-b907-6c74da4a2f2f
+            uid: 036eaa02-d649-464a-9d7a-4db6a1971e52
             warning: null
             width: 100
         name: 'Related Entry'

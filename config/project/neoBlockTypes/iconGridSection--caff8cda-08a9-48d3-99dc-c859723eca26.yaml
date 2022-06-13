@@ -13,7 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 593dc731-f0ea-4ca2-97a7-334c0559d6a2
+            uid: 2c4c9ffa-7777-4262-90cd-de868f6cee52
             warning: null
             width: 100
           -
@@ -23,7 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 29981c01-0d13-4fd4-9811-dda71c2bd37c
+            uid: 0e1e6c6e-d27c-446d-867f-117bc548b257
             warning: null
             width: 100
           -
@@ -33,7 +33,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1d02f04c-d9e2-42b1-8ce2-5257c5000f25
+            uid: d73f8c9f-b5d1-442b-9c5a-8f8b56426a31
             warning: null
             width: 100
           -
@@ -43,7 +43,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a6cc4e06-8115-47a3-b821-47298c06e2e8
+            uid: 42809a34-168a-4c2b-95ca-0f5770a33061
             warning: null
             width: 100
           -
@@ -53,7 +53,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ecedcee3-3ea1-4128-9fe2-5d459d1f8467
+            uid: 93b6d9e5-7c74-4cd1-82f9-0b9487da12b0
             warning: null
             width: 100
           -
@@ -63,7 +63,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3cf80b1a-2946-4488-af6a-2e82f914a49c
+            uid: 9e687840-bdc9-4427-94b1-e5bb97bd9354
             warning: null
             width: 100
           -
@@ -73,7 +73,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e96610e1-46f6-492e-99f4-0c9ce8d9f697
+            uid: bd682860-975b-4fc7-83b2-dd71bf79ccd9
             warning: null
             width: 100
         name: 'Icon Grid Section'
@@ -87,7 +87,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b66a8be6-4521-43fd-809c-a2007b93992f
+            uid: 7fdfa578-8a61-4ccd-bef1-def74bd2f8c0
             warning: null
             width: 100
           -
@@ -97,7 +97,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a0eb38c1-d3f6-402c-94de-c0caa1725f9e
+            uid: fc65e88a-66cb-46a2-b6a1-bcb093dab34b
             warning: null
             width: 100
         name: Settings
