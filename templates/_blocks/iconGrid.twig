@@ -6,7 +6,7 @@
     <div class="section__content">
         {% for icon in block.sectionIconGrid.all() %}
             <div class="section__item">
-                {% if icon.icon|length %}
+                {% if icon.icon.count %}
                     {{ macros.responsiveImage(icon.icon.one, { pictureClass: 'section__icon' }) }}
                 {% else %}
                     <svg viewBox="0 0 1 1" style="background: #0002"></svg>
