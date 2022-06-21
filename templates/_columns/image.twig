@@ -1,6 +1,6 @@
 {% import "/_macros" as macros %}
 
-{% if column.sectionImage|length %}
+{% if column.sectionImage.count %}
     {{ macros.responsiveImage(column.sectionImage.one, { pictureClass: 'section__image' }) }}
 {% else %}
     <svg viewBox="0 0 16 9" style="background: #0002"></svg>

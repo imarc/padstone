@@ -28,11 +28,11 @@
                         <div class="linkGroup__heading">{{ navItem.navigationHeading }}</div>
                     {% endif %}
 
-                    {% if navItem.children|length %}
+                    {% if navItem.children.count %}
                         <ul class="linkGroup__list {{ navItem.navigationColumnSpan }}">
                             {% for subNavItem in navItem.children.all %}
                                 <li class="linkGroup__item">
-                                    {% if subNavItem.children|length %}
+                                    {% if subNavItem.children.count %}
                                         {% if subNavItem.type == 'navigationLink' %}
                                             {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__heading -secondary' }) }}
                                         {% elseif subNavItem.type == 'navigationGroup' %}

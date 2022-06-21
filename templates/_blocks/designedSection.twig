@@ -1,6 +1,6 @@
 {% import "/_macros" as macros %}
 
-{% set numColumns = block.children|length %}
+{% set numColumns = block.children.count %}
 {% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
 {% set columnSlugsClass = macros.columnsSlug(block) %}
 
@@ -31,7 +31,7 @@
         {% endblock %}
 
         {% block conclusion %}
-            {% if block.sectionConclusion|length or block.sectionCTA %}
+            {% if block.sectionConclusion is not empty or block.sectionCTA %}
                 <div class="section__footer">
                     {% if block.sectionConclusion %}
                         <div class="section__conclusion">

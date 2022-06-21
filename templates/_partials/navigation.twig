@@ -1,57 +1,59 @@
 <nav class="primaryNav">
-    <div class="container">
-        <bp-directional>
-            <ul class="primaryNav__list">
-                {% for navItem in primaryNavigation.navigationLinks.level(1).all %}
-                    <li class="primaryNav__item">
-                        {% if navItem.children|length %}
-                            {% if navItem.type == 'navigationLink' %}
-                                <bp-dropdown label-class="primaryNav__link" href="{{ navItem.navigationLink.url }}" label="{{ navItem.navigationLink.text }}" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">
-                            {% elseif navItem.type == 'navigationGroup' %}
-                                <bp-dropdown label-class="primaryNav__link" href="" label="{{ navItem.navigationHeading }}" id="primaryNav-{{ navItem.navigationHeading|kebab }}">
-                            {% endif %}
+    <ul class="primaryNav__list">
+        {% for navItem in primaryNavigation.navigationLinks.level(1).all %}
+            <li class="primaryNav__item">
+                {% if navItem.children.count %}
+                    {% if navItem.type == 'navigationLink' %}
+                        <bp-dropdown-link label-class="primaryNav__link" href="{{ navItem.navigationLink.url }}" label="{{ navItem.navigationLink.text }}" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">
+                    {% elseif navItem.type == 'navigationGroup' %}
+                        <bp-dropdown label-class="primaryNav__link" label="{{ navItem.navigationHeading }}" id="primaryNav-{{ navItem.navigationHeading|kebab }}">
+                    {% endif %}
 
-                                {% if navItem.getDescendants(2)|length > navItem.children|length %}
-                                    <div class="container linkGroups">
-                                        {% for subNavItem in navItem.children %}
-                                            <div class="linkGroup">
-                                                {% if subNavItem.type == 'navigationLink' %}
-                                                    {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__heading' }) }}
-                                                {% elseif subNavItem.type == 'navigationGroup' %}
-                                                    <div class="linkGroup__heading">{{ subNavItem.navigationHeading }}</div>
-                                                {% endif %}
-                                                <ul class="linkGroup__list {{ subNavItem.navigationColumnSpan }}">
-                                                    {% for subSubNavItem in subNavItem.children %}
-                                                        <li class="linkGroup__item">
-                                                            {{ subSubNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
-                                                        </li>
-                                                    {% endfor %}
-                                                </ul>
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                {% elseif navItem.children|length %}
-                                    <div class="container linkGroup">
-                                        <ul class="linkGroup__list {{ navItem.navigationColumnSpan }}">
-                                            {% for subNavItem in navItem.children.all %}
-                                                <li class="linkGroup__item">
-                                                    {% if subNavItem.type == 'navigationLink' %}
-                                                        {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
-                                                    {% elseif subNavItem.type == 'navigationGroup' %}
-                                                        {{ subNavItem.navigationHeading }}
-                                                    {% endif %}
+                        {% if navItem.getDescendants(2).count > navItem.children.count %}
+                            <div class="container linkGroups">
+                                {% for subNavItem in navItem.children %}
+                                    <div class="linkGroups__group">
+                                        {% if subNavItem.type == 'navigationLink' %}
+                                            {{ subNavItem.navigationLink.getLink({ class: 'linkGroups__heading' }) }}
+                                        {% elseif subNavItem.type == 'navigationGroup' %}
+                                            <div class="linkGroups__heading">{{ subNavItem.navigationHeading }}</div>
+                                        {% endif %}
+                                        <ul class="linkGroups__list {{ subNavItem.navigationColumnSpan }}">
+                                            {% for subSubNavItem in subNavItem.children %}
+                                                <li class="linkGroups__item">
+                                                    {{ subSubNavItem.navigationLink.getLink({ class: 'linkGroups__link' }) }}
                                                 </li>
                                             {% endfor %}
                                         </ul>
                                     </div>
-                                {% endif %}
-                            </bp-dropdown>
-                        {% else %}
-                            {{ navItem.navigationLink.getLink({ class: 'primaryNav__link' }) }}
+                                {% endfor %}
+                            </div>
+                        {% elseif navItem.children.count %}
+                            <div class="container linkGroups">
+                                <div class="linkGroups__group">
+                                    <ul class="linkGroups__list {{ navItem.navigationColumnSpan }}">
+                                        {% for subNavItem in navItem.children.all %}
+                                            <li class="linkGroups__item">
+                                                {% if subNavItem.type == 'navigationLink' %}
+                                                    {{ subNavItem.navigationLink.getLink({ class: 'linkGroups__link' }) }}
+                                                {% elseif subNavItem.type == 'navigationGroup' %}
+                                                    {{ subNavItem.navigationHeading }}
+                                                {% endif %}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
                         {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-        </bp-directional>
-    </div>
+                    {% if navItem.type == 'navigationLink' %}
+                        </bp-dropdown-link>
+                    {% elseif navItem.type == 'navigationGroup' %}
+                        </bp-dropdown>
+                    {% endif %}
+                {% else %}
+                    {{ navItem.navigationLink.getLink({ class: 'primaryNav__link' }) }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
 </nav>

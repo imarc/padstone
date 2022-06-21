@@ -1,5 +1,5 @@
-{% if column.sectionImage|length %}
-    <div class="card__background" style="opacity: .3; background-image: url({{ column.sectionImage.one.url }})"></div>
+{% if column.sectionImage.count %}
+    <div class="card__background" style="opacity: .3; background-image: url({{ column.sectionImage.one.url|default(null) }})"></div>
 {% endif %}
 <h4 class="card__heading">{{ column.sectionLabel }}</h4>
 <div class="card__content">
