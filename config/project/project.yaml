@@ -1,4 +1,4 @@
-dateModified: 1646929433
+dateModified: 1648743299
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -48,6 +48,7 @@ meta:
     33b1f8a4-938d-4514-bd23-d7b4e457fb8f: Video # Video
     48df7913-438b-433b-96d3-163d33a83ea7: Photo # Photo
     49c29c1d-a40b-4fdc-b79e-237911ae899b: 'Footer Navigation' # Footer Navigation
+    66ae7cdc-d8ab-4192-bdc6-a2da8064d76a: Content # Content
     78c81b0b-cb55-4a9e-b5c9-4d4316b19255: Headline # Headline
     80c5c826-227b-4c52-a9c9-e314bb49a079: 'Section Conclusion' # Section Conclusion
     82a2c8bb-e9ac-4ea3-b6a7-9ed9a46b019c: Subheadline # Subheadline
@@ -67,6 +68,7 @@ meta:
     08386a69-e42e-4991-b576-378c5250a491: 'Team Page' # Team Page
     8484a0d1-2553-4939-bce7-c6a64087c06a: 'Call to Action Label' # Call to Action Label
     09773b73-a304-4513-84fd-c4d5d4dd953a: Images # Images
+    15577ed2-0349-4fbd-9c53-7fc203f385f4: Documentation # Documentation
     057820ca-40a4-4854-9da1-7e9d88fc255f: 'Call to Action' # Call to Action
     63130e28-a0f4-4ccd-9398-6605090e3d4e: 'Section Eyebrow' # Section Eyebrow
     65565a16-00f4-46e1-8520-6975a775133d: 'Shared Section' # Shared Section
@@ -75,6 +77,7 @@ meta:
     754177a1-494c-4f11-806a-112af873ab1d: '404 Page' # 404 Page
     861751dd-1c7f-4d7c-89df-f642306506be: 'Section Anchor' # Section Anchor
     969995e1-dbd5-42c5-917f-a13e492a5c83: Homepage # Homepage
+    980988a1-0f99-42eb-b246-dd1c3ef3a69f: Documentation # Documentation
     5069846c-87c5-4a46-948a-490c04176e01: 'Related Entries Section' # Related Entries Section
     6533045f-a95c-45a5-a67a-c8da4cec0d5d: News # News
     13855676-b0ca-477b-b838-6bfaa2d2c4da: Alerts # Alerts
@@ -125,9 +128,9 @@ meta:
     d9b26dd3-8815-474a-b2d1-df10d1da9ea4: 'Resource Types' # Resource Types
     d44a5a95-fa08-4efd-8496-2ac825c5acd1: 'Service Unavailable Page' # Service Unavailable Page
     d2034a01-128e-4603-bb49-a8367850dc96: Introduction # Introduction
+    d25900e3-4438-4c5a-9797-b78b7482ee25: Documentation # Documentation
     e3c0ba5c-47fe-4162-b36a-d145f282a972: 'Shared Section' # Shared Section
     e60a84f5-789c-489b-a95e-ae0419f4ae7d: 'Additional Footer Code' # Additional Footer Code
-    e43112ef-9196-4187-9567-345e3181f3b2: 'Weighted Image' # Weighted Image
     e715570c-a506-4c8b-b940-48378d3a8448: Icon # Icon
     e6810524-42e4-4e35-8fe8-edfb548dd138: Description # Description
     eaed0b39-140d-4da6-8c44-9e192f8a76be: 'Blog Page' # Blog Page
