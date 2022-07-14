@@ -6,9 +6,19 @@ instructions: "Adds an anchor to the header so that a link can be added elsewher
 name: 'Section Anchor'
 searchable: false
 settings:
-  customPattern: '^[a-zA-Z0-9_-]*$'
-  customPatternErrorMessage: 'You may only use alphanumeric characters, dashes and underscores.'
-  placeholder: ''
+  errorMessage: 'Unable to find component class ''barrelstrength\sproutfields\fields\RegularExpression''.'
+  expectedType: barrelstrength\sproutfields\fields\RegularExpression
+  settings:
+    __assoc__:
+      -
+        - customPattern
+        - '^[a-zA-Z0-9_-]*$'
+      -
+        - customPatternErrorMessage
+        - 'You may only use alphanumeric characters, dashes and underscores.'
+      -
+        - placeholder
+        - ''
 translationKeyFormat: null
 translationMethod: none
-type: barrelstrength\sproutfields\fields\RegularExpression
+type: craft\fields\MissingField

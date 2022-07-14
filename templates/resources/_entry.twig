@@ -2,9 +2,9 @@
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {% if entry.resourceTopics|length and entry.resourceDate %}
+    {% if entry.resourceTopics.count and entry.resourceDate %}
         {% set introduction = "#{macros.commaSeparate(entry.resourceTopics)} – #{entry.resourceDate|date('F jS, Y')}" %}
-    {% elseif entry.resourceTopics|length %}
+    {% elseif entry.resourceTopics.count %}
         {% set introduction = macros.commaSeparate(entry.resourceTopics) %}
     {% elseif entry.resourceDate %}
         {% set introduction = entry.resourceDate|date('F jS, Y') %}

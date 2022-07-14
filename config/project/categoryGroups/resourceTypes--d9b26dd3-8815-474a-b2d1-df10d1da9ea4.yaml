@@ -25,10 +25,11 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: 1d6ac590-f963-4e59-86ae-43b5caf018d6
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: a359910c-0963-4f11-be22-30665ae39f11
 handle: resourceTypes
 name: 'Resource Types'
 siteSettings:

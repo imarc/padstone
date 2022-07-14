@@ -1,4 +1,4 @@
-dateModified: 1648743299
+dateModified: 1655148820
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -148,25 +148,23 @@ plugins:
     licenseKey: null
     schemaVersion: 3.1.0
     settings:
-      bgColor: '#000000'
-      cacheBar: true
-      customLinks:
-        -
-          adminOnly: ''
-          linkLabel: foo
-          linkUrl: fooo
+      customCss: ''
+      customLinks: ''
       displayDashboardLink: true
       displayDefaultEditSection: true
       displayEditAuthor: true
       displayEditDate: true
       displayGreeting: true
+      displayGuideLink: true
       displayLogout: true
       displayRevisionNote: true
       displaySettingsLink: true
       enableMobileMenu: true
-      highlightColor: '#D85B4B'
-      scrollLinks: true
-      textColor: '#FFFFFF'
+      widgets:
+        __assoc__:
+          -
+            - admin-bar_edit-links
+            - ''
   code-mirror:
     enabled: '1'
     licenseKey: null
@@ -182,14 +180,6 @@ plugins:
     licenseKey: null
     schemaVersion: 1.0.0
     settings: null
-  cp-css:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.0
-    settings:
-      additionalCss: ''
-      cacheBusting: true
-      cssFile: '@web/css/admin.css, @web/css/admin.css.map'
   craft-kindling:
     edition: standard
     enabled: true
@@ -231,8 +221,8 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: 7NQ4KP836803CI9KPBT1MNU7
-    schemaVersion: 2.11.6
+    licenseKey: WWZLFPPNGO3ZWUL83D2QVZM1
+    schemaVersion: 3.0.4
   pickture:
     edition: standard
     enabled: true
@@ -250,12 +240,12 @@ plugins:
   retour:
     edition: standard
     enabled: true
-    licenseKey: 2CB4LQZUTO2XX8F23RUOJGB1
+    licenseKey: NUA52EOGYTVJF0CYN6HHWT7W
     schemaVersion: 3.0.10
   seomatic:
     edition: standard
     enabled: true
-    licenseKey: TU80S8W0QGZM6FPTZ1EUGE48
+    licenseKey: NG3TSSHSJ4JJL9KTD9UB3QYI
     schemaVersion: 3.0.11
   sprout-fields:
     edition: standard
@@ -264,7 +254,7 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 2.2.1
+    schemaVersion: 3.0.0
   tag-manager:
     edition: standard
     enabled: true
@@ -272,13 +262,26 @@ plugins:
   typedlinkfield:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 1.0.0
+    schemaVersion: 2.0.0
     settings: null
+  usermanual:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+    settings:
+      enabledSideBar: true
+      pluginNameOverride: Documentation
+      section: '24'
+      templateOverride: ''
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
   name: Padstone
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: 'For admin reference only - not shown.'
-            label: ''
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,20 +23,22 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 41c354d0-3d14-4408-889f-c613013c9d46
             warning: null
             width: 100
           -
             fieldUid: 6978af6e-566d-496d-abfc-884513d509b9 # Alert
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7befb4b7-37f9-4e25-b2b3-946cbc918c25
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 155b0727-7c90-4456-bce9-26d865bc9c4d
 handle: alert
 hasTitleField: true
 name: Alert

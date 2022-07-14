@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   b6bd5fa4-c0bb-4903-a2bd-8bc0ad8e520d:
@@ -7,20 +8,22 @@ fieldLayouts:
         elements:
           -
             fieldUid: c50d8eef-596a-4828-932a-35ae42d726f7 # Related Entry
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a0d8972a-eae5-4660-991d-9cc36159b044
             warning: null
             width: 100
           -
             fieldUid: 4cf8035e-3fdb-4fee-b44e-7876f8adc134 # Image
             instructions: 'Provide an image for this entry. If not specified, will try to use the default image for this entry.'
-            label: ''
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3f62917a-991e-4c17-89c7-41842bcf50f0
             warning: null
             width: 100
           -
@@ -30,15 +33,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3318e410-b658-4ad2-b93e-d09e0425a291
             warning: null
             width: 100
           -
             fieldUid: be750023-509f-45ce-b784-9d099cd2fe28 # Content (No Media)
-            instructions: ''
+            instructions: null
             label: Content
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d471dd73-b96d-40cb-916a-cc8a443225b1
             warning: null
             width: 100
           -
@@ -48,10 +53,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 036eaa02-d649-464a-9d7a-4db6a1971e52
             warning: null
             width: 100
         name: 'Related Entry'
-        sortOrder: 1
+        uid: 795ab8a4-f5be-4710-a05c-46ab1bb8ff35
+group: null
 handle: relatedEntryColumn
 maxBlocks: 0
 maxChildBlocks: 0

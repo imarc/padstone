@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: afc7600b-e48b-4f32-904f-408f47bf8fb2
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 7811ebc6-dddf-4ddc-bc63-f99fc7104c86
             warning: null
             width: 100
         name: Hero
-        sortOrder: 1
+        uid: c29fcfb5-d8e8-4068-9e7d-edccd617176e
       -
         elements:
           -
@@ -46,6 +48,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9e1d2e0d-c001-4970-8870-78b97566d72c
             warning: null
             width: 100
           -
@@ -55,6 +58,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3b954afe-facf-4966-8379-70edc1f4e723
             warning: null
             width: 100
           -
@@ -64,10 +68,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 06f6d036-70b7-4947-8f1f-a0bb125f59b9
             warning: null
             width: 100
         name: SEO
-        sortOrder: 2
+        uid: ebe5bc1b-dc68-4a4c-9f85-3fdb0231b991
 handle: blogPage
 hasTitleField: true
 name: 'Blog Page'

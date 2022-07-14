@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   033d392a-d11a-4050-bb22-fa634e215aea:
@@ -12,6 +13,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 66801ae2-e7fe-40bd-ba6f-7ddf0d2b9acc
             warning: null
             width: 100
           -
@@ -21,6 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b0e06f62-fb30-4c56-9a65-1d6f75847712
             warning: null
             width: 100
           -
@@ -30,28 +33,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d4a439fb-9ba8-42eb-b030-b52a82689fd6
             warning: null
             width: 100
           -
             fieldUid: be750023-509f-45ce-b784-9d099cd2fe28 # Content (No Media)
-            instructions: ''
+            instructions: null
             label: Content
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: dde079e6-56a2-486c-9aca-69cd5cfc6a03
             warning: null
             width: 100
           -
             fieldUid: acd8e61e-e2f0-4b23-900e-44658f2fa636 # Section Call to Action
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ee68e033-e5d6-4e40-9983-677074e1cb49
             warning: null
             width: 100
         name: 'Call to Action Section'
-        sortOrder: 1
+        uid: ba4176f7-f363-486b-825f-5a009dfffb93
       -
         elements:
           -
@@ -61,6 +67,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e440210e-2531-497c-afc8-4a307617619e
             warning: null
             width: 100
           -
@@ -70,10 +77,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f6b1a538-fd64-42c4-9ea1-710fe5d350cc
             warning: null
             width: 100
         name: Settings
-        sortOrder: 2
+        uid: 17057e89-1fe1-42f3-80bc-c939e4f1823f
+group: null
 handle: callToAction
 maxBlocks: 0
 maxChildBlocks: 0

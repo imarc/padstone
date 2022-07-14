@@ -25,10 +25,11 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
+            uid: b0e214ac-5da7-4fb4-91cd-79362fb50c1a
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 945b2c7b-96d4-497c-9fe5-4260e30103d8
 handle: blogCategories
 name: 'Blog Categories'
 siteSettings:

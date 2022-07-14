@@ -23,27 +23,27 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8f642c4f-98b3-4b2a-8cd3-a2e4443f53fc
             warning: null
             width: 100
           -
             fieldUid: 8fda9d17-0a07-4bc1-a1f4-1fe23066f315 # Alt Text
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9f4dff4c-dde7-47d3-a761-bd7194a00970
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: a96654bb-a373-4a09-a361-02fd91942a18
+fs: images
 handle: images
-hasUrls: true
 name: Images
-settings:
-  path: '@webroot/assets/images'
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-type: craft\volumes\Local
-url: /assets/images
+transformFs: null
+transformSubpath: ''

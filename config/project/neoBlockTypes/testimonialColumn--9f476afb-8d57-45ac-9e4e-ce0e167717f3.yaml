@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   4b70d138-5028-4dc9-be21-ef934d519d3f:
@@ -7,11 +8,12 @@ fieldLayouts:
         elements:
           -
             fieldUid: 8e71eaa9-069f-4627-978b-04001165c7f5 # Quote
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 588a4676-759e-4fff-8fa2-2db37f744426
             warning: null
             width: 100
           -
@@ -21,6 +23,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fd518f87-c166-4c6b-9910-e0cbb1dcac46
             warning: null
             width: 100
           -
@@ -30,10 +33,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 85ead070-a34a-4d24-9a1f-22f9a8ae2e75
             warning: null
             width: 100
         name: Testimonial
-        sortOrder: 1
+        uid: cc04c1aa-56cb-4eb3-97bc-1b0fd24b77b8
+group: null
 handle: testimonialColumn
 maxBlocks: 0
 maxChildBlocks: 0

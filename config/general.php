@@ -29,9 +29,6 @@ return [
 
         // Whether the site should be in dev mode
         'devMode' => $_ENV['DEV_MODE'],
-
-        // Use config/project.yaml as the canonical project config
-        'useProjectConfigFile' => $_ENV['USE_PROJECT_CONFIG'],
     ],
 
     // Dev environment settings

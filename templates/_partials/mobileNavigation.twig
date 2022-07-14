@@ -2,13 +2,13 @@
     <ul class="mobileNav__list">
         {% for navItem in primaryNavigation.navigationLinks.level(1).all %}
             <li class="mobileNav__item">
-                {% if navItem.children|length %}
+                {% if navItem.children.count %}
                     {% if navItem.type == 'navigationLink' %}
                         <a href="{{ navItem.navigationLink.url }}" id="primaryNav-{{ navItem.navigationLink.text|kebab }}">{{ navItem.navigationLink.text }}</a>
                     {% elseif navItem.type == 'navigationGroup' %}
                         <a href="" id="primaryNav-{{ navItem.navigationHeading|kebab }}">{{ navItem.navigationHeading }}</a>
                     {% endif %}
-                    {% if navItem.getDescendants(2)|length > navItem.children|length %}
+                    {% if navItem.getDescendants(2).count > navItem.children.count %}
                         <ul>
                             {% for subNavItem in navItem.children %}
                                 <li>
@@ -17,7 +17,7 @@
                                     {% elseif subNavItem.type == 'navigationGroup' %}
                                         {{ subNavItem.navigationHeading }}
                                     {% endif %}
-                                    {% if subNavItem.children|length %}
+                                    {% if subNavItem.children.count %}
                                         <ul>
                                             {% for subSubNavItem in subNavItem.children %}
                                                 <li>
@@ -29,7 +29,7 @@
                                 </li>
                             {% endfor %}
                         </ul>
-                    {% elseif navItem.children|length %}
+                    {% elseif navItem.children.count %}
                         <ul>
                             {% for subNavItem in navItem.children.all %}
                                 <li>

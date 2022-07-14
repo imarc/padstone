@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: Name
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,47 +23,52 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 119b12b7-0da1-4038-9926-cb91664d2d93
             warning: null
             width: 100
           -
             fieldUid: a3601ba7-e21f-4718-86f2-0c19eae0d32f # Job Title
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5e6afb73-d53d-4705-a491-bd803b184ce2
             warning: null
             width: 100
           -
             fieldUid: 48df7913-438b-433b-96d3-163d33a83ea7 # Photo
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e8b04e31-0ff2-4a67-bacb-bc747287ab27
             warning: null
             width: 100
           -
             fieldUid: c2fc9bf0-5ff5-4af8-ae54-5ca0a7ce5db4 # Abstract
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c5038b83-12fd-4733-a7c6-93ca098baee2
             warning: null
             width: 100
           -
             fieldUid: a3f637cc-edb1-4bae-83f3-a40127804401 # Bio
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: fa6f869d-d5fe-4070-bca4-c24608b6c729
             warning: null
             width: 100
         name: 'Team Member'
-        sortOrder: 1
+        uid: 8c970a22-50f5-4bf6-8f65-ae336bb8c590
 handle: teamMember
 hasTitleField: true
 name: 'Team Member'

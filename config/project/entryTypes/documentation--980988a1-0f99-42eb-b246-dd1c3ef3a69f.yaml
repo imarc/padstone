@@ -23,20 +23,22 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bf2ffb21-175d-4c23-96e7-799c9f67a186
             warning: null
             width: 100
           -
             fieldUid: 66ae7cdc-d8ab-4192-bdc6-a2da8064d76a # Content
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8d7136e7-28e3-4bbe-9d72-6ffa840e2a87
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 1d80621d-c289-49d5-8475-8ff27c52c6b8
 handle: documentation
 hasTitleField: true
 name: Documentation

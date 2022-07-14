@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: ''
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e3623c0e-c855-4e75-b639-9690b7d9e060
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 49142c87-79ae-4b48-b7e7-edccc587eff4
             warning: null
             width: 100
         name: Hero
-        sortOrder: 1
+        uid: efe393fb-af8d-48b9-a708-66019715dbb0
       -
         elements:
           -
@@ -46,10 +48,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 22b953a2-54e4-4c5c-b29a-b714cf53b36e
             warning: null
             width: 100
         name: Content
-        sortOrder: 2
+        uid: 8be7cd25-ed27-44eb-bdf0-119c4e95101f
       -
         elements:
           -
@@ -59,28 +62,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a4865f86-7e5b-4943-9e88-08cc5401a390
             warning: null
             width: 100
           -
             fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b7190620-9468-40e9-80e6-db14caf4b6df
             warning: null
             width: 100
           -
             fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: f6bc27cc-fb4d-4dde-ac8e-f851416f413a
             warning: null
             width: 100
         name: SEO
-        sortOrder: 3
+        uid: d45d1d84-0761-4a2c-a311-813fc956e0bc
 handle: homepage
 hasTitleField: true
 name: Homepage
