@@ -6,6 +6,8 @@
  * list of the available settings in vendor/craftcms/cms/src/config/GeneralConfig.php.
  */
 
+use craft\helpers\App;
+
 return [
     // Global settings
     '*' => [
@@ -22,13 +24,18 @@ return [
         'omitScriptNameInUrls' => true,
 
         // Control Panel trigger word
-        'cpTrigger' => $_ENV['CP_TRIGGER'] ?? 'admin',
+        'cpTrigger' => App::env('CP_TRIGGER') ?? 'admin',
 
         // The secure key Craft will use for hashing and encrypting data
-        'securityKey' => $_ENV['SECURITY_KEY'],
+        'securityKey' => App::env('SECURITY_KEY'),
 
         // Whether the site should be in dev mode
-        'devMode' => $_ENV['DEV_MODE'],
+        'devMode' => App::env('DEV_MODE'),
+
+        'aliases' => [
+            // Environment
+            '@environment' => App::env('ENVIRONMENT'),
+        ],
     ],
 
     // Dev environment settings
@@ -40,6 +47,6 @@ return [
     ],
 
     // Production environment settings
-    'production' => [
+    'prod' => [
     ],
 ];
