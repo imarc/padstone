@@ -2,7 +2,7 @@
 # The renderBlock macro renders a single block from a contentDesigner field.
 # Mostly for use by renderAllBlocks().
 #}
-{% macro renderBlock(block, blockLoop) %}{% apply spaceless %}
+{% macro renderBlock(block) %}{% apply spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedSection' %}
         {% for subblock in block.sharedSection.all() %}

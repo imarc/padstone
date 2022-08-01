@@ -4,8 +4,10 @@
 {% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
 {% set columnSlugsClass = macros.columnsSlug(block) %}
 
-<section class="section -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}">
-    <div class="section__container container">
+<section
+    class="section -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}"
+>
+    <div class="section__container">
         {% block header %}
             {% if block.sectionEyebrow or block.sectionHeading or block.sectionSubheading %}
                 {% include "/_partials/sectionHeader" %}
@@ -21,7 +23,7 @@
         {% endblock %}
 
         {% block content %}
-            <div class="section__content">
+            <div class="section__content section__grid">
                 {% for subblock in block.children.all() %}
                     <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
                         {{ macros.renderColumn(subblock) }}

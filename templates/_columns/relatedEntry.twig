@@ -5,8 +5,10 @@
 <div class="card__content">
     {{ column.sectionContentNoMedia }}
 </div>
-<div class="card__actions">
-    <a href="{{ column.sectionRelatedEntry.one.url }}" class="card__action button -primary">
-        {{ column.sectionCTALabel }}
-    </a>
-</div>
+{% if column.sectionRelatedEntry.count %}
+    <div class="card__actions">
+        <a href="{{ column.sectionRelatedEntry.one.url }}" class="card__action button -primary">
+            {{ column.sectionCTALabel }}
+        </a>
+    </div>
+{% endif %}
