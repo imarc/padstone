@@ -20,11 +20,4 @@ return [
     'bootstrap' => [
         'site-module',
     ],
-    'components' => [
-        'session' => [
-            'class' => yii\web\DbSession::class,
-            'as session' => craft\behaviors\SessionBehavior::class,
-            'sessionTable' => '{{%phpsessions}}'
-        ],
-    ],
 ];
