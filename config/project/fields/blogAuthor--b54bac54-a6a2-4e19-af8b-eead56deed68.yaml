@@ -2,13 +2,14 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: b2e9d0fb-ba4b-4b23-9fcf-459ad68c0ea9 # Blog
 handle: blogAuthor
-instructions: ''
+instructions: null
 name: Author
 searchable: true
 settings:
   allowSelfRelations: false
-  limit: '1'
   localizeRelations: false
+  maxRelations: 1
+  minRelations: null
   selectionLabel: 'Specify the author'
   showSiteMenu: true
   source: null

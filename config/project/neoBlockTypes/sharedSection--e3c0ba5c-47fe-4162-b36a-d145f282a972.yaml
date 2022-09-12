@@ -1,4 +1,5 @@
 childBlocks: null
+description: null
 field: 2b415ab0-c680-4dd1-acfd-0d1edb5452a8 # Content Designer
 fieldLayouts:
   c9ba615c-307e-4854-9d13-79a861c9679a:
@@ -7,15 +8,17 @@ fieldLayouts:
         elements:
           -
             fieldUid: 65565a16-00f4-46e1-8520-6975a775133d # Shared Section
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 8cc35ffb-4a21-4eb2-b32a-8a6e63d04bee
             warning: null
             width: 100
         name: 'Shared Section'
-        sortOrder: 1
+        uid: 90fc1136-a6b8-45ef-97ed-6f3830c3e2f5
+group: null
 handle: sharedSection
 maxBlocks: 0
 maxChildBlocks: 0

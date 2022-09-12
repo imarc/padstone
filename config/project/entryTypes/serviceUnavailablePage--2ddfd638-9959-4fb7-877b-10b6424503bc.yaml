@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dcf324dc-08ee-45af-a586-3087dd199b00
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: c213e47b-6126-4261-b825-bb39f4ff2f94
             warning: null
             width: 100
         name: Hero
-        sortOrder: 1
+        uid: 9a0ecf60-9766-487a-925a-881fccf25ecf
       -
         elements:
           -
@@ -46,10 +48,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b335f72a-9c19-4028-bb26-f246760e22c1
             warning: null
             width: 100
         name: Content
-        sortOrder: 2
+        uid: a3679b90-ed50-43b7-b5f9-77706f8e1acc
       -
         elements:
           -
@@ -59,28 +62,31 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a836b53d-8192-45ec-9c94-f1d4284ed3ee
             warning: null
             width: 100
           -
             fieldUid: d1edff97-994f-4f78-9318-6cdbbdfd446d # Additional Header Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: e902e91f-c2ad-4add-aa7b-7fed69972181
             warning: null
             width: 100
           -
             fieldUid: e60a84f5-789c-489b-a95e-ae0419f4ae7d # Additional Footer Code
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3de85214-6047-4681-81c0-e29c59fc16b4
             warning: null
             width: 100
         name: SEO
-        sortOrder: 3
+        uid: 8ca214c8-b67d-49ad-bc27-a82954e58ca4
 handle: serviceUnavailablePage
 hasTitleField: true
 name: 'Service Unavailable Page'

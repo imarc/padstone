@@ -1,4 +1,4 @@
-dateModified: 1647029475
+dateModified: 1655148820
 email:
   fromEmail: kevin@imarc.com
   fromName: Padstone
@@ -222,7 +222,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: WWZLFPPNGO3ZWUL83D2QVZM1
-    schemaVersion: 2.11.6
+    schemaVersion: 3.0.4
   pickture:
     edition: standard
     enabled: true
@@ -254,7 +254,7 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 2.2.1
+    schemaVersion: 3.0.0
   tag-manager:
     edition: standard
     enabled: true
@@ -262,7 +262,7 @@ plugins:
   typedlinkfield:
     enabled: '1'
     licenseKey: null
-    schemaVersion: 1.0.0
+    schemaVersion: 2.0.0
     settings: null
   usermanual:
     edition: standard
@@ -273,11 +273,15 @@ plugins:
       pluginNameOverride: Documentation
       section: '24'
       templateOverride: ''
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
   name: Padstone
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

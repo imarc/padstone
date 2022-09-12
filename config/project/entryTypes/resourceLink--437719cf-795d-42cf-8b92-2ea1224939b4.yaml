@@ -23,65 +23,72 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 01bde6fe-cc18-4bea-9227-1fa632abe4aa
             warning: null
             width: 100
           -
             fieldUid: 0f8aa3f7-de9e-4beb-a7e9-e98793b3b60e # Featured Image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 630ac1e2-e3b2-434d-9b05-b7b723eab1af
             warning: null
             width: 100
           -
             fieldUid: e6810524-42e4-4e35-8fe8-edfb548dd138 # Description
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: cec3a40b-fae7-4481-b143-8ecd776024c2
             warning: null
             width: 100
           -
             fieldUid: d5e98a9a-c478-4cf5-8c85-1083950e2e9f # Resource Date
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 366201cc-c431-415d-aeae-714661d64271
             warning: null
             width: 100
           -
             fieldUid: 86444c22-bd97-4a40-9136-f5613c95ba48 # Resource Types
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: b6fd7a46-4c3f-449c-8cb8-5c54bb45490f
             warning: null
             width: 100
           -
             fieldUid: 6c97b95b-c74a-41d8-be93-7607a191617d # Resource Topics
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 6671134b-5d2f-4184-9f96-b4faa4a8e32c
             warning: null
             width: 100
           -
             fieldUid: 93e2b1ce-6b60-40c8-ad40-4b1c92d2ecd1 # Resource
             instructions: null
             label: null
-            required: '1'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 749be3b1-276c-4472-8368-1a9a1b9a9870
             warning: null
             width: 100
         name: Resource
-        sortOrder: 1
+        uid: 6de32b2b-89da-4153-9f24-bab15052007f
 handle: resourceLink
 hasTitleField: true
 name: 'Direct Link'

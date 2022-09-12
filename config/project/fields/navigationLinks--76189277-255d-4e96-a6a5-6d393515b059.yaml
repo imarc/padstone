@@ -2,17 +2,16 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 8f7d8f4f-3a1e-4cc7-bae6-46b4406f2188 # Globals
 handle: navigationLinks
-instructions: ''
+instructions: null
 name: 'Navigation Links'
 searchable: false
 settings:
-  maxBlocks: ''
-  maxLevels: '3'
-  maxTopBlocks: '7'
-  minBlocks: ''
+  maxBlocks: null
+  maxLevels: 3
+  maxTopBlocks: 7
+  minBlocks: null
   propagationKeyFormat: null
   propagationMethod: all
-  wasModified: false
 translationKeyFormat: null
 translationMethod: site
 type: benf\neo\Field

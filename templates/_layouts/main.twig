@@ -1,6 +1,5 @@
 {% import "/_macros" as macros %}
-<!doctype html>
-{% spaceless %}
+{% apply spaceless %}
     {% if bodyClasses is not defined %}
         {% set bodyClasses = [] %}
     {% endif %}
@@ -10,15 +9,14 @@
     {% else %}
         {% set section = '' %}
     {% endif %}
-{% endspaceless %}
+{% endapply %}
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="preload" as="style" href="{{ mix('/css/main.css') }}">
-
-        <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
+        {{ craft.vite.script("resources/js/main.js") }}
 
         {% if entry is defined and entry.headerCode %}
             {{ entry.headerCode|raw }}
@@ -35,7 +33,7 @@
                     <div class="container">
                         <a class="siteHeader__brand" href="/">
                             {{ macros.responsiveImage(
-                                craft.assets({ volume: 'images', title: 'Padstone Logo' }).one(),
+                                craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
                                 { transform: { height: 48, width: 96, mode: 'fit' } }
                             ) }}
                             <div class="siteHeader__siteName">{{ siteName }}</div>
@@ -64,15 +62,9 @@
 
         </div>
 
-
-        <script src="{{ mix('/js/manifest.js') }}"></script>
-        <script src="{{ mix('/js/vendor.js') }}"></script>
-        <script src="{{ mix('/js/main.js') }}"></script>
-
         {% if entry is defined and entry.footerCode %}
             {{ entry.footerCode|raw }}
         {% endif %}
-
 
     </body>
 </html>

@@ -23,7 +23,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4cdce7c7-6bf1-4d03-8bf0-47e2a3204be9
             warning: null
             width: 100
           -
@@ -33,10 +34,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 3f99fa5a-ae1c-44b5-a92b-50c9dc7dd265
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 34544492-c463-457a-82dd-92f8221c695c
       -
         elements:
           -
@@ -46,6 +48,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 41466af4-691a-4c10-99af-31b4b78a5ba6
             warning: null
             width: 100
           -
@@ -55,6 +58,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: d9307f9b-7fe6-4caa-8401-8abd0e84b256
             warning: null
             width: 100
           -
@@ -64,10 +68,11 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: ea496e12-19aa-4231-b6fc-7c77fd11cc86
             warning: null
             width: 100
         name: SEO
-        sortOrder: 2
+        uid: 1f8b1e10-1e0b-42b5-a125-7f1692076aab
 handle: teamPage
 hasTitleField: true
 name: 'Team Page'
