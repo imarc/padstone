@@ -43,8 +43,8 @@ ops-padstone-install() {
     echo "Remove ignores from .gitignore..."
     sed -i '/Remove these Ignores/Q' .gitignore
 
-    echo "Installing imarc-boilerplate@next..."
-    npm install imarc-boilerplate@next -y
+    echo "Installing imarc-boilerplate..."
+    npm install imarc-boilerplate -y
 
     echo "Running $(tput smul)npx imarc-boilerplate$(tput rmul)..."
     npx imarc-boilerplate -y

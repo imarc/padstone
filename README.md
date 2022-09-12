@@ -6,9 +6,9 @@
 
 # Padstone for Craft CMS
 
-Padstone is a starter package for Craft 3 built by Imarc. It provides a simple project config as well as example entries and templates.
+Padstone is a starter package for Craft 4 built by Imarc. It provides a simple project config as well as example entries and templates.
 
-_If you would like to use the older version of Padstone for Craft 2, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2)._
+_If you would like to use the older version of Padstone for Craft 2 or 3, see the [craft2 branch](https://github.com/imarc/padstone/tree/craft2) or [4.x](https://github.com/imarc/padstone/tree/4.x)._
 
 ## Features
 
