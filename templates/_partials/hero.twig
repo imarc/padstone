@@ -22,7 +22,7 @@
     <section class="section {{ hero.backgroundImage|length ? '-dark' : '' }} -hero">
         {% if hero.backgroundImage|length %}
             <div class="section__background">
-                {{ macros.responsiveImage(hero.backgroundImage, { pictureClass: 'section__backgroundImg' }) }}
+                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'section__backgroundImg' }) }}
             </div>
         {% endif %}
         <div class="section__container container">
