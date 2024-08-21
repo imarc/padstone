@@ -1,0 +1,73 @@
+@use "/resources/styles/config";
+@use "/resources/styles/common" as *;
+
+.section {
+    $b: &;
+
+    @include grid;
+    align-items: center;
+    color: #{config.$plain-text};
+
+    &__container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        width: 100%;
+    }
+
+    &__background {
+        align-self: stretch;
+        grid-column: main;
+        position: relative;
+    }
+
+    &__backgroundImg {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &__header {
+        margin-bottom: 2rem;
+    }
+
+    &__heading,
+    &__subheading {
+        margin-bottom: 0;
+    }
+
+    &__introduction {
+
+        &.-emphasized {
+            font-size: 1.125rem;
+        }
+    }
+
+    &__item {
+
+        &.-sidebar {
+            background-color: config.$blue-200;
+            padding: config.$padding;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &.-dark {
+        background-color: config.$blue-900;
+        color: config.$white;
+
+        #{$b}__background::before {
+            //background: linear-gradient(to right, config.$blue-900 calc(50% - min(#{divide(config.$container, 2)}, 50vw)), transparent);
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}

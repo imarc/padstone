@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  f103821f-9a9f-4d9b-b5fb-55b7c13ea652:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-15T20:30:58+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7df2d83e-3ed5-4899-99cd-8a7ca0363610
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:32:14+00:00'
+            elementCondition: null
+            fieldUid: 0587c309-76fe-4928-9be3-cb2980b7908c # Content Designer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f26cbd0-0b9b-44d5-b0ac-40f5280e5af2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 43e88bc6-76ab-4557-9a98-3ca039a31e33
+        userCondition: null
+handle: sharedSections
+hasTitleField: true
+icon: ''
+name: 'Shared Sections'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

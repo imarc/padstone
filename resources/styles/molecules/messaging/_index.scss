@@ -1,0 +1,67 @@
+@use "/resources/styles/config";
+@use "/resources/styles/common" as *;
+
+///
+/// For messages to the user.
+///
+.messaging {
+    $b: &;
+
+    --messaging-color: var(--color, #{config.$plain-text});
+    --messaging-color-contrast: var(--color-contrast, #{blackwhite(config.$plain-text)});
+    --messaging-height-icon: var(--height-icon, 1.5rem);
+
+    background-color: config.$gray-100;
+    box-shadow: .25rem 0 0 var(--messaging-color) inset, config.$med-shadow;
+    display: grid;
+    gap: config.$h-space;
+    grid: "icon content" #{config.$line-height * 1em} "_ content" / auto 1fr;
+    margin-bottom: 2rem;
+    padding: config.$padding;
+
+    &__icon {
+        align-self: center;
+        grid-area: icon;
+        height: var(--messaging-height-icon);
+        color: var(--messaging-color);
+    }
+
+    &__content {
+        grid-area: content;
+    }
+
+    &.-filled {
+        box-shadow: config.$med-shadow;
+        background-color: var(--messaging-color);
+        color: var(--messaging-color-contrast);
+
+        #{$b}__icon {
+            color: inherit;
+        }
+
+        a:not([class]) {
+            color: var(--messaging-color-contrast);
+            text-decoration: underline;
+        }
+    }
+
+    &.-success {
+        --messaging-color: var(--color, #{config.$success});
+        --messaging-color-contrast: var(--color-contrast, #{blackwhite(config.$success)});
+    }
+
+    &.-warning {
+        --messaging-color: var(--color, #{config.$warning});
+        --messaging-color-contrast: var(--color-contrast, #{blackwhite(config.$warning)});
+    }
+
+    &.-info {
+        --messaging-color: var(--color, #{config.$info});
+        --messaging-color-contrast: var(--color-contrast, #{blackwhite(config.$info)});
+    }
+
+    &.-error {
+        --messaging-color: var(--color, #{config.$error});
+        --messaging-color-contrast: var(--color-contrast, #{blackwhite(config.$error)});
+    }
+}

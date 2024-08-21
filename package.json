@@ -1,0 +1,110 @@
+{
+    "name": "Padstone",
+    "description": "A starter package for Craft 3 built by Imarc.",
+    "keywords": [
+        "craft",
+        "craft3",
+        "starter",
+        "imarc"
+    ],
+    "homepage": "https://www.imarc.com",
+    "repository": "https://github.com/imarc/padstone.git",
+    "bugs": "https://github.com/imarc/padstone/issues",
+    "license": "Apache-2.0",
+    "version": "2.0.0",
+    "private": true,
+    "author": {
+        "name": "Kevin Hamer",
+        "email": "kevin@imarc.com"
+    },
+    "contributors": [
+        {
+            "name": "Jeff Turcotte",
+            "email": "jeff@imarc.com"
+        },
+        {
+            "name": "Chandler Blum",
+            "email": "chandler@imarc.com"
+        },
+        {
+            "name": "Shawna O'Neal",
+            "email": "shawna@imarc.com"
+        },
+        {
+            "name": "Kerri Cranwell",
+            "email": "kerri@imarc.com"
+        },
+        {
+            "name": "Dan Collins",
+            "email": "dan@imarc.com"
+        },
+        {
+            "name": "Bill Bushee",
+            "email": "bill@imarc.com"
+        }
+    ],
+    "dependencies": {
+        "@vueuse/core": "^11.0.0",
+        "imarc-boilerplate": "^6.0.2"
+    },
+    "scripts": {
+        "lint": "eslint resources",
+        "fractal": "fractal",
+        "dev": "vite",
+        "preview": "vite preview",
+        "prod": "vite build",
+        "build": "vite build && fractal build"
+    },
+    "devDependencies": {
+        "eslint": "^8.17.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-vue": "^9.1.0"
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "es6": true
+        },
+        "extends": [
+            "plugin:vue/vue3-recommended",
+            "standard"
+        ],
+        "globals": {
+            "Atomics": "readonly",
+            "SharedArrayBuffer": "readonly"
+        },
+        "parserOptions": {
+            "ecmaVersion": 2020,
+            "sourceType": "module"
+        },
+        "plugins": [
+            "vue"
+        ],
+        "rules": {
+            "comma-dangle": [
+                "warn",
+                {
+                    "arrays": "always-multiline",
+                    "objects": "always-multiline",
+                    "imports": "never",
+                    "exports": "never",
+                    "functions": "never"
+                }
+            ],
+            "indent": [
+                "warn",
+                4
+            ],
+            "vue/html-indent": [
+                "warn",
+                4
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: navigationLinks
+instructions: null
+name: 'Navigation Links'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 8b3d1977-ab5a-4ca6-94cb-685acdef3921 # Navigation Link
+    - fa15f698-a1ed-4140-9c8d-02eac44b66b4 # Navigation Group
+  includeTableView: false
+  maxEntries: 7
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

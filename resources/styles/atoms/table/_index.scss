@@ -1,0 +1,62 @@
+@use "sass:map";
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+///
+/// = Tables =
+///
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    &__container {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    caption {
+        font-size: 0.9rem;
+        margin-bottom: 0.75em;
+    }
+
+    td,
+    th {
+        padding: config.$padding;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    th {
+        background-color: config.$primary;
+        color: config.$white;
+        white-space: nowrap;
+    }
+
+    tr {
+        border-bottom: 1px solid config.$border;
+        transition: background-color config.$fade-easing var(--duration-fast);
+    }
+
+
+    tr:hover {
+        background-color: config.$blue-100;
+    }
+
+    &.-scrollable {
+        overflow-x: auto;
+        width: calc(100% + 2 * var(--column-gap));
+        display: flex;
+        margin-left: calc(-1 * var(--column-gap));
+        margin-right: calc(-1 * var(--column-gap));
+
+        &::before,
+        &::after {
+            content: '';
+            min-width: var(--column-gap);
+        }
+    }
+}

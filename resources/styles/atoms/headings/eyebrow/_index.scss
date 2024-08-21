@@ -1,0 +1,27 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.eyebrow {
+    $b: &;
+
+    --eyebrow-color: var(--color, #{config.$primary});
+    --eyebrow-color-contrast: var(--color-contrast, #{blackwhite(config.$primary)});
+
+    color: var(--eyebrow-color);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    text-transform: uppercase;
+
+    &.-secondary {
+        --eyebrow-color: var(--color, #{config.$secondary});
+        --eyebrow-color-contrast: var(--color-contrast, #{blackwhite(config.$secondary)});
+    }
+
+    &.-highlighted {
+        background-color: var(--eyebrow-color);
+        color: var(--eyebrow-color-contrast);
+        display: inline-block;
+        padding: 0 .25rem;
+    }
+}

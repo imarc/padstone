@@ -1,0 +1,64 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.dropdown {
+    $b: &;
+
+    --dropdown-color: var(--color, #{config.$white});
+    --dropdown-color-contrast: var(--color-contrast, #{config.$plain-text});
+
+    position: relative;
+
+    &__button,
+    &__link {
+        color: config.$link;
+        display: inline-block;
+        padding: config.$thin-padding;
+        z-index: 2;
+    }
+
+    &__icon {
+        height: 1em;
+        vertical-align: middle;
+        width: 1em;
+    }
+
+    &__content {
+        --color: var(--dropdown-color-contrast);
+        --color-hover: #{config.$secondary};
+        background-color: var(--dropdown-color);
+        box-shadow: config.$low-shadow;
+        color: var(--dropdown-color-contrast);
+        position: absolute;
+        z-index: 1;
+    }
+
+    &.-rightEdge {
+        #{$b}__content {
+            left: auto;
+            right: 0;
+        }
+    }
+
+    &.-fullWidth {
+        position: static;
+
+        #{$b}__content {
+            left: 0;
+            right: 0;
+        }
+    }
+
+    &__transition {
+        &-enter-active {
+            transform-origin: top;
+            transition: opacity var(--duration-moderate), transform var(--duration-moderate);
+            transform: rotateX(0);
+        }
+        &-enter,
+        &-leave-to {
+            opacity: 0;
+            transform: rotateX(90deg);
+        }
+    }
+}

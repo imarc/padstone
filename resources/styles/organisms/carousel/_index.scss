@@ -1,0 +1,23 @@
+@use "/resources/styles/config";
+
+.carousel {
+    $b: &;
+
+    --swiper-pagination-bullet-inactive-color: white;
+    --swiper-pagination-color: #{config.$secondary};
+    --swiper-pagination-bullet-height: .875rem;
+    --swiper-pagination-bullet-width: .875rem;
+    --swiper-navigation-color: #{config.$primary};
+
+    .swiper-pagination.swiper-pagination-horizontal {
+        bottom: 1rem;
+    }
+
+    &.-bleedRight {
+        overflow: hidden;
+
+        #{$b}__carousel {
+            overflow: visible;
+        }
+    }
+}

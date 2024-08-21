@@ -1,0 +1,13 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.team {
+    $b: &;
+
+    &__members {
+        display: grid;
+        gap: config.$v-space;
+        grid-template-columns: repeat(auto-fit, 400px);
+        justify-content: center;
+    }
+}

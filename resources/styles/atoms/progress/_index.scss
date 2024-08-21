@@ -1,0 +1,83 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+///
+/// PROGRESS provides a basic, pill-style progress nav bar like you
+/// might find as part of an ecommerce or registration process.
+///
+.progress {
+    &__list {
+        @include no-bullets;
+        display: flex;
+        position: relative;
+
+        &::before {
+            border-left: 4px solid config.$blue-300;
+            bottom: 1rem;
+            content: '';
+            left: calc(1rem - 2px);
+            position: absolute;
+            top: 1rem;
+            z-index: -1;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: config.$v-space config.$h-space;
+    }
+
+    &__item {
+        margin: 0;
+    }
+
+    &__link {
+        align-items: center;
+        color: config.$blue-400;
+        display: flex;
+        gap: config.$v-space config.$h-space;
+
+        &:hover {
+            color: config.$blue-600;
+
+            .progress__icon {
+                background-color: config.$blue-600;
+            }
+        }
+
+        &.-active {
+            color: config.$blue-600;
+            font-weight: bold;
+
+            .progress__icon {
+                background-color: config.$blue-600;
+            }
+        }
+    }
+
+    &__icon {
+        background-color: config.$blue-300;
+        border-radius: 2rem;
+        color: config.$white;
+        height: 2rem;
+        padding: .25rem;
+        vertical-align: middle;
+    }
+
+    @include at(md) {
+
+        &__list {
+            flex-direction: row;
+            justify-content: center;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        &__link {
+            flex-flow: column;
+        }
+    }
+}

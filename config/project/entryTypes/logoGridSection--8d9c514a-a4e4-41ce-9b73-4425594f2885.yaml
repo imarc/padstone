@@ -1,0 +1,153 @@
+color: orange
+fieldLayouts:
+  ba5da5df-3c24-44b2-a61a-e68b58533467:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-15T20:16:25+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1a64ac65-75e8-46a2-ab89-fc343d121ad0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:21:43+00:00'
+            elementCondition: null
+            fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9930410-5e71-4ae4-8f87-cc564968dc04
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:21:43+00:00'
+            elementCondition: null
+            fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Navigation Heading
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fe215cb-38e5-419d-8038-a1ccebf68878
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:21:43+00:00'
+            elementCondition: null
+            fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e52fc716-31f3-4af2-a7bd-ac01c1782728
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:41:44+00:00'
+            elementCondition: null
+            fieldUid: 5217297d-5931-41b9-a7a4-a797bb339952 # Logos
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30b6394c-97dc-4b5a-807c-b612c4c38fd1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T20:21:43+00:00'
+            elementCondition: null
+            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb1dc596-3a77-48cd-b2c9-cb1ec82fc3d6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d3f9b8a3-d83e-4e75-8e90-1e202868c302
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-08-15T20:21:43+00:00'
+            elementCondition: null
+            fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e32c7188-d89d-484d-9c8d-55e6955ac556
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 41b56885-307a-42c8-a285-d7be4487c4c0
+        userCondition: null
+handle: logoGridSection
+hasTitleField: false
+icon: ''
+name: 'Logo Grid'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,29 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.banner {
+    $b: &;
+
+    @include grid;
+
+    background-color: config.$info;
+    color: blackwhite(config.$info);
+    padding: config.$v-space 0;
+
+    &__container {
+        display: flex;
+    }
+
+    &__message {
+        flex-grow: 1;
+    }
+
+    &__dismiss {
+        border: 0;
+        cursor: pointer;
+        padding: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,70 @@
+@use "sass:list";
+@use "sass:map";
+@use "sass:meta";
+@use "sass:string";
+
+@use "/resources/styles/config";
+
+@forward "grid" with (
+    $-breakpoints: config.$breakpoints,
+    $-columns: config.$columns,
+    $-row-gap: config.$row-gap,
+);
+
+///
+/// no-bullets mixin
+///
+@mixin no-bullets {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+    li::before {
+        display: none;
+    }
+}
+
+
+///
+/// Mixin for generating transitions. $properties can be a list of properties,
+/// and it'll append duration and easing to each.
+///
+@mixin transition($properties: all, $duration: var(--duration-fast), $easing: config.$ease-out-quint) {
+    transition: append-each($properties, $duration $easing, comma);
+}
+
+
+///
+/// Media query mixin. Includes content when matching the breakpoint $bp as
+/// defined in $breakpoints. You can also just pass in a length to create a
+/// one-off breakpoint. It's discouraged, but you can also override the rule
+/// if you're prefer to use max-width instead of min-width.
+///
+@mixin at($bp, $rule: min-width) {
+    @if map.has-key(config.$breakpoints, $bp, width) {
+        $bp: map.get(config.$breakpoints, $bp, width);
+    }
+    @media screen and (#{$rule}: $bp) {
+        @content;
+    }
+}
+
+
+///
+/// Quick way to define a bunch of media queries. Example usage:
+///
+///     @include at-each(10px, md 20px, lg 30px) using ($margin) {
+///         margin-top: $margin;
+///     }
+///
+@mixin at-each($map...) {
+    @each $bp, $arg in $map {
+        @if $arg {
+            @include at($bp) {
+                @content($arg);
+            }
+        } @else {
+            @content($bp);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.utilityNav {
+    $b: &;
+
+    &__list {
+        @include no-bullets;
+        display: flex;
+    }
+
+    &__item {
+
+        &:last-child {
+            #{$b}__link {
+                padding-right: 0;
+            }
+        }
+
+        & + & {
+            #{$b}__link {
+                border-left: 1px solid config.$border;
+            }
+        }
+    }
+
+    &__link {
+        padding: 0 config.$thin-h-space;
+    }
+}

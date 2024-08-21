@@ -1,0 +1,11 @@
+columnSuffix: null
+handle: anchor
+instructions: "Adds an anchor to the header so that a link can be added elsewhere on the page to jump to this section. The anchor must be URL friendly so you may only use alphanumeric characters, dashes and underscores. Reminder that the anchor must be UNIQUE per page, otherwise there will be conflicts. E.g. page-section\r\n\r\nIn the URL field to link to this section, you will enter the URL to the page (can be just the path without the domain) with '#' plus the string you provide. Example: '/page-url#page-section'."
+name: Anchor
+searchable: false
+settings:
+  pattern: '^[a-zA-Z0-9_-]*$'
+  placeholderText: my-anchor
+translationKeyFormat: null
+translationMethod: none
+type: imarc\regexfield\fields\RegexField

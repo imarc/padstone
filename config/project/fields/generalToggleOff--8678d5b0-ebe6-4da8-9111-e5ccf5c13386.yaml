@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: generalToggleOff
+instructions: null
+name: 'General Toggle Off'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Off'
+  onLabel: 'On'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

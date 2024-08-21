@@ -1,0 +1,57 @@
+{% render "@site-header" %}
+
+<main>
+    {% render "@dismissable" %}
+
+    <section class="section -dark">
+        <div class="section__background">
+            {% render "@responsive-image" with { imgClass: "section__backgroundImg" } %}
+        </div>
+        <div class="section__container -pull-left">
+            <header class="section__header">
+                <div class="heading__eyebrow eyebrow">I'm a kicker</div>
+                <h1 class="section__heading">You're reading a headline.</h1>
+            </header>
+            <div class="section__introduction -emphasized">
+                <p>
+                    Lorem sed molestias possimus impedit accusantium, nostrum?
+                    Delectus adipisci odio impedit.
+                    vitae voluptate molestiae fuga Cumque dolores sunt
+                    voluptatibus neque veniam?
+                </p>
+            </div>
+            <div class="section__actions">
+                <a class="section__action button -primary" href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    {% render "@section--introduction" %}
+
+    {% render "@designedsection--image" %}
+
+    {% render "@designedsection--video" with { class: "-lightGray" } %}
+
+    <section class="section">
+        <div class="section__container">
+            <header class="section__header">
+                <div class="eyebrow -primary">News &amp; Events</div>
+                <h2 class="section__heading">In the News</h2>
+            </header>
+            {% render "@carousel--bleed-right" with { class: "-lightGray" } %}
+        </div>
+    </section>
+
+    <section class="section -dark">
+        <div class="section__container">
+            <header class="section__header">
+                <h2 class="section__heading">Our Clients</h2>
+            </header>
+            {% render "@logo-cloud" %}
+        </div>
+    </section>
+
+    {% render "@calltoactionsection" %}
+</main>
+
+{% render "@site-footer" %}

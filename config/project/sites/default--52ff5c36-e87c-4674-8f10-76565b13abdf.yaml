@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Padstone Craft 5'
+primary: true
+siteGroup: d6c3cdc6-9af4-4a8e-9008-56fc71426603 # Padstone Craft 5
+sortOrder: 1

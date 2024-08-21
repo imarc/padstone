@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: subBlocks
+instructions: null
+name: 'Sub Blocks'
+searchable: false
+settings:
+  createButtonLabel: 'New block'
+  entryTypes:
+    - 0df95f6f-3e7a-4765-84de-aa8585234118 # Rich Text
+    - 77f762ab-419d-47e9-8b43-63754dafa72f # Call To Action
+    - 1a4b6ea7-240d-4c7c-86ab-ce16b55afc24 # Image
+    - 6a91581a-a1ff-430b-bbeb-32b131747531 # Video
+    - 4536b6f0-b762-4abc-b6d1-a918619f8b4d # Testimonial
+  includeTableView: false
+  maxEntries: 2
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,68 @@
+{# {% import "/_macros" as macros %} #}
+{% apply spaceless %}
+    {% if bodyClasses is not defined %}
+        {% set bodyClasses = [] %}
+    {% endif %}
+
+    {% if section is defined %}
+        {% set bodyClasses = bodyClasses|merge([section|kebab]) %}
+    {% else %}
+        {% set section = '' %}
+    {% endif %}
+{% endapply %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        {{ craft.vite.script("resources/js/main.js") }}
+
+        {# {% if entry is defined and entry.headerCode %}
+            {{ entry.headerCode|raw }}
+        {% endif %} #}
+    </head>
+    <body class="{{ bodyClasses|join(' ') }}" >
+
+        <div id="root">
+            <header class="siteHeader">
+                <div class="siteHeader__content">
+
+                    <div class="container">
+                        <a class="siteHeader__brand" href="/">
+                            {# {{ macros.responsiveImage(
+                                craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
+                                { transform: { height: 48, width: 96, mode: 'fit' } }
+                            ) }} #}
+                            <div class="siteHeader__siteName">{{ siteName }}</div>
+                        </a>
+                    </div>
+
+                    {% include "/_partials/navigation" %}
+
+                    {# {% include "/_partials/mobileNavigation" %} #}
+
+                </div>
+            </header>
+
+
+            <main role="main">
+
+                {# {% for alert in craft.entries.section('alerts').all() %}
+                    {% include "/_partials/alert" with { alert: alert } %}
+                {% endfor %} #}
+
+                {% block content %}{% endblock %}
+
+            </main>
+
+            {# {% include "/_partials/footer" %} #}
+
+        </div>
+
+        {# {% if entry is defined and entry.footerCode %}
+            {{ entry.footerCode|raw }}
+        {% endif %} #}
+
+    </body>
+</html>

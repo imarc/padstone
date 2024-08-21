@@ -1,0 +1,77 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+/// Checkbox component
+///
+/// --checkbox-color           Accent color.
+/// --checkbox-color-contrast  Used against --checkbox-color.
+///
+.checkbox {
+    $b: &;
+
+    --checkbox-color: var(--color, #{config.$primary});
+    --checkbox-color-contrast: var(--color-contrast, #{blackwhite(config.$primary, config.$plain-text)});
+
+    display: inline-grid;
+    user-select: none;
+    padding: config.$thin-padding;
+    grid-template: "checkbox label";
+    gap: .5em;
+
+    &__input {
+        grid-area: checkbox;
+        appearance: none;
+        height: #{config.$line-height * 1em};
+        width: #{config.$line-height * 1em};
+    }
+
+    &__checkbox {
+        pointer-events: none;
+        grid-area: checkbox;
+        border-radius: .25em;
+        border: 2px solid var(--checkbox-color);
+        display: inline-block;
+        height: #{config.$line-height * 1em};
+        vertical-align: middle;
+        width: #{config.$line-height * 1em};
+    }
+
+    &__label {
+        margin-bottom: 0;
+    }
+
+    &__icon {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    &__input.-checked ~ &__checkbox,
+    &__input:checked ~  &__checkbox {
+        color: var(--checkbox-color-contrast);
+        background-color: var(--checkbox-color);
+
+        #{$b}__icon {
+            display: block;
+        }
+    }
+
+    &.-disabled,
+    &__input[disabled] ~ * {
+        --checkbox-color: #{config.$disabled};
+        --checkbox-color-contrast: #{config.$white};
+        color: #{config.$disabled};
+        cursor: default;
+    }
+
+    &.-secondary {
+        --checkbox-color: #{config.$secondary};
+        --checkbox-color-contrast: #{blackwhite(config.$secondary)};
+    }
+
+
+    &.-radio &__checkbox,
+    &__input[type="radio"] ~ &__checkbox {
+        border-radius: #{config.$line-height * 1em};
+    }
+}

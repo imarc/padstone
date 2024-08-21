@@ -1,0 +1,27 @@
+@use "/resources/styles/config";
+@use "/resources/styles/common" as *;
+
+.section {
+    $b: &;
+
+    #{$b}__item {
+        grid-column: main;
+    }
+
+    &.-twoColumn {
+
+        @include at(md) {
+            #{$b}__item {
+                grid-column: span 6;
+            }
+        }
+    }
+
+    &.-threeColumn {
+        @include at(md) {
+            #{$b}__item {
+                grid-column: span 4;
+            }
+        }
+    }
+}

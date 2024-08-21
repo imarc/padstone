@@ -1,0 +1,67 @@
+@use "/resources/styles/config";
+
+button {
+    border: 0;
+    background-color: transparent;
+    line-height: inherit;
+    padding: 0;
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    .help {
+        color: config.$meta-text;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}
+
+input[type="reset"],
+input[type="search"],
+input[type="text"],
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: config.$gray-400;
+}
+
+::ms-input-placeholder {
+    color: config.$gray-400;
+}
+
+::-placeholder {
+    color: config.$gray-400;
+}
+
+select {
+    border: 1px solid config.$border;
+    height: 2.4rem;
+    width: 100%;
+}
+
+textarea {
+    height: 8em;
+    overflow: auto;
+    resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0;
+}

@@ -1,0 +1,15 @@
+<picture class="{{ class }}">
+    <source
+        type="image/webp"
+        data-srcset="https://picsum.photos/640/160.webp 640w, https://picsum.photos/1024/256.webp 1024w, https://picsum.photos/1440/360.webp 1440w, https://picsum.photos/1920/480.webp 1920w"
+        data-sizes="auto"
+    />
+
+    <img
+        src="data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;480&quot; width=&quot;1920&quot;></svg>"
+        alt="Placeholder Image"
+        class="lazyload {{ imgClass }}"
+        data-srcset="https://picsum.photos/640/160 640w, https://picsum.photos/1024/256 1024w, https://picsum.photos/1440/360 1440w, https://picsum.photos/1920/480 1920w"
+        data-sizes="auto"
+    />
+</picture>

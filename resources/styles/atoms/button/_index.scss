@@ -1,0 +1,89 @@
+@use "sass:list";
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+/// Button component
+///
+///   --color           Accent color.
+///   --color-contrast  Text color.
+///   --color-faded     Usually 10% opacity version of --color
+///   --color-hover     Hover color.
+///
+.button {
+    $b: &;
+
+    --button-color: var(--color, #{config.$primary});
+    --button-color-contrast: var(--color-contrast, #{blackwhite(config.$primary, config.$plain-text)});
+    --button-color-faded: var(--color-faded, #{rgba(config.$primary, .1)});
+    --button-color-hover: var(--color-hover, #{config.$primary-hover});
+
+    background-color: var(--button-color);
+    border: none;
+    color: var(--button-color-contrast);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: config.$padding;
+    transition: background-color var(--duration-fast) config.$fade-easing;
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color-hover);
+    }
+
+
+    &.-disabled,
+    &[disabled] {
+        --button-color: #{config.$disabled};
+
+        pointer-events: none;
+    }
+
+    &.-secondary {
+        --button-color: #{config.$secondary};
+        --button-color-contrast: #{blackwhite(config.$secondary, config.$plain-text)};
+        --button-color-faded: #{rgba(config.$secondary, .1)};
+        --button-color-hover: #{config.$secondary-hover};
+    }
+
+    &.-danger {
+        --button-color: #{config.$danger};
+        --button-color-contrast: #{blackwhite(config.$danger, config.$plain-text)};
+        --button-color-faded: #{rgba(config.$danger, .1)};
+        --button-color-hover: #{config.$danger-hover};
+    }
+
+    &.-confirm {
+        --button-color: #{config.$confirm};
+        --button-color-contrast: #{blackwhite(config.$confirm, config.$plain-text)};
+        --button-color-faded: #{rgba(config.$confirm, .1)};
+        --button-color-hover: #{config.$confirm-hover};
+    }
+
+
+    &.-ghost {
+        background-color: transparent;
+        color: var(--button-color);
+        transition: background-color var(--duration-fast) config.$fade-easing,
+            color var(--duration-fast) config.$fade-easing;
+
+        &:hover,
+        &:focus {
+            background-color: var(--button-color-faded);
+            box-shadow: none;
+        }
+    }
+
+
+    &.-outline {
+        background-color: transparent;
+        box-shadow: 0 0 0 2px inset var(--button-color);
+        color: var(--button-color);
+
+        &:hover,
+        &:focus {
+            background-color: var(--button-color);
+            color: var(--button-color-contrast);
+        }
+    }
+}

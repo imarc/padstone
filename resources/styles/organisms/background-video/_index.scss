@@ -1,0 +1,49 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+///
+/// BACKGROUND VIDEO plays a video (without sound) in the background of an element.
+/// Increasing the parent’s ::before padding results in a larger height.
+///
+/// $background
+///     Backdrop background color.
+///
+
+.backgroundVideo {
+    $b: &;
+
+    --backgroundVideo-background-color: var(--background-color, rgba(0 0 0 / .5));
+    --backgroundVideo-color: var(--color, #{config.$white});
+
+    align-items: center;
+    display: grid;
+    justify-items: center;
+
+    &__container {
+        background: var(--backgroundVideo-background-color);
+        color: var(--backgroundVideo-color);
+        grid-area: 1 / 1;
+        padding: config.$padding;
+    }
+
+    &__video {
+        grid-area: 1 / 1;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    &.-overlay {
+        &::before {
+            background: linear-gradient(to bottom, config.$blue-300, config.$blue-800);
+            content: '';
+            grid-area: 1 / 1;
+            height: 100%;
+            mix-blend-mode: multiply;
+            width: 100%;
+        }
+        #{$b}__container {
+            isolation: isolate;
+        }
+    }
+}

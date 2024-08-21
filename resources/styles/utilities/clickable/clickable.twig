@@ -1,0 +1,53 @@
+<bp-clickable selector=".card__action">
+    <div class="{{ class }} card -wide -clickable">
+        <div class="card__container">
+            <div class="card__background">
+                <picture class="{{ class }}">
+                    <img
+                        src="data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;1920&quot; width=&quot;1920&quot;></svg>"
+                        alt="Placeholder Image"
+                        class="lazyload {{ imgClass }} card__backgroundImg"
+                        data-srcset="https://placeimg.com/640/640 640w, https://placeimg.com/1000/1000 1024w"
+                        data-sizes="auto"
+                    />
+                </picture>
+            </div>
+            <h3 class="card__heading">One Great Heading</h3>
+            <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos et voluptatum aliquam neque beatae.
+                <a href="#nope">nope</a>
+            </p>
+            <div class="card__actions -attached">
+                <a href="#example" class="card__action button -primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</bp-clickable>
+
+<bp-clickable>
+    <div class="{{ class }} card -wide -clickable">
+        <div class="card__container">
+            <div class="card__background">
+                <picture class="{{ class }}">
+                    <img
+                        src="data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;1920&quot; width=&quot;1920&quot;></svg>"
+                        alt="Placeholder Image"
+                        class="lazyload {{ imgClass }} card__backgroundImg"
+                        data-srcset="https://placeimg.com/640/640 640w, https://placeimg.com/1000/1000 1024w"
+                        data-sizes="auto"
+                    />
+                </picture>
+            </div>
+            <h3 class="card__heading">One Great Heading</h3>
+            <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos et voluptatum aliquam neque beatae.
+                <a href="#nope2">nope</a>
+            </p>
+            <div class="card__actions -attached">
+                <a data-clickable href="#example2" class="card__action button -primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</bp-clickable>

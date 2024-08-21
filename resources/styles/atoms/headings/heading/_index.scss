@@ -1,0 +1,40 @@
+@use "sass:map";
+@use "sass:math";
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.heading {
+    font-family: config.$font-family-heading;
+    font-weight: normal;
+    line-height: config.$line-height-heading;
+    margin: 0 0 .5em;
+}
+
+h1,
+.h1 {
+    @extend .heading;
+    font-size: var(--font-size-h1);
+}
+
+h2,
+.h2 {
+    @extend .heading;
+    font-size: var(--font-size-h2);
+}
+
+h3,
+.h3 {
+    @extend .heading;
+    font-size: var(--font-size-h3);
+}
+
+h4,
+.h4 {
+    @extend .heading;
+    font-size: var(--font-size-h4);
+}
+
+h5,
+.h5 {
+    @extend .heading;
+}

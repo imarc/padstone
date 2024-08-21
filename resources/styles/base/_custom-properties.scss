@@ -1,0 +1,43 @@
+@use "sass:map";
+@use "/resources/styles/config";
+@use "/resources/styles/common" as *;
+
+:root {
+    --font-size-h1: 2rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.25rem;
+    --font-size-h4: 1.125rem;
+
+    @include at(md) {
+        --font-size-h1: 3rem;
+        --font-size-h2: 2rem;
+        --font-size-h3: 1.5rem;
+        --font-size-h4: 1.25rem;
+    }
+
+    @include at(lg) {
+        --font-size-h1: 3.75rem;
+        --font-size-h2: 3rem;
+        --font-size-h3: 2rem;
+        --font-size-h4: 1.5rem;
+    }
+
+    --duration-fast: #{config.$fast};
+    --duration-moderate: #{config.$moderate};
+    --duration-slow: #{config.$slow};
+
+    @media (prefers-reduced-motion) {
+        --duration-fast: 0;
+        --duration-moderate: 0;
+        --duration-slow: 0;
+    }
+
+    --column-gap: #{map.get(config.$breakpoints, sm, gap)};
+    @media (min-width: map.get(config.$breakpoints, md, width)) {
+        --column-gap: #{map.get(config.$breakpoints, md, gap)};
+    }
+
+    @media (min-width: map.get(config.$breakpoints, lg, width)) {
+        --column-gap: #{map.get(config.$breakpoints, lg, gap)};
+    }
+}

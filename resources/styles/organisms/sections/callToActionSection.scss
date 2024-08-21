@@ -1,0 +1,11 @@
+@use "/resources/styles/config";
+
+.section.-callToActionSection {
+    background-color: config.$primary;
+    color: config.$white;
+    text-align: center;
+
+    .section__eyebrow {
+        color: config.$secondary;
+    }
+}

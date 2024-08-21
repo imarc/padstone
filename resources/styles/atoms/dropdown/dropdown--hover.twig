@@ -1,0 +1,8 @@
+<bp-dropdown-hoverable
+    label="Our Company"
+    id="js-about"
+    {% if class %}class="{{ class }}"{% endif %}
+    :delay="250"
+>
+    {% render "@menu" with { class: "dropdown__menu" } %}
+</bp-dropdown-hoverable>

@@ -1,0 +1,26 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+:root {
+    --mm-spn-item-height: #{config.$line-height * config.$font-size + 2 * config.$v-space};
+    --mm-spn-item-indent: #{config.$h-space};
+    --mm-spn-line-height: #{config.$line-height * config.$font-size};
+}
+
+.mobileNav {
+    $b: &;
+
+    &__button {
+        display: flex;
+        padding: config.$v-space;
+    }
+
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    @include at(lg) {
+        display: none;
+    }
+}

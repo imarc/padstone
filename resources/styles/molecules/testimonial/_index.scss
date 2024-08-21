@@ -1,0 +1,48 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.testimonial {
+    $b: &;
+
+    --testimonial-color: var(--color, #{config.$plain-text});
+    --testimonial-color-attribution: var(--color-attribution, #{config.$meta-text});
+    --testimonial-color-punctuation: var(--color-punctuation, #{config.$primary});
+
+    display: grid;
+    grid-template: "quote" "attribution";
+
+    &__quote {
+        border: 0;
+        font-size: 1.25rem;
+        max-width: 66.67%;
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--testimonial-color);
+
+        &::after,
+        &::before {
+            color: var(--testimonial-color-punctuation);
+            content: '”';
+            display: inline-block;
+            font-size: 400%;
+            height: 1rem;
+            line-height: 0;
+            transform: translateY(150%);
+            vertical-align: middle;
+        }
+
+        &::before {
+            content: '“';
+            text-indent: -2.5rem;
+        }
+    }
+
+    &__attribution {
+        justify-self: center;
+        color: var(--testimonial-color-attribution);
+
+        @include at(lg) {
+            justify-self: end;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@use "sass:math";
+@use "/resources/styles/config";
+
+///
+/// Simple breadcrumbs for your breadcrumbing needs.
+///
+.breadcrumbs {
+    $b: &;
+
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    &__item {
+        margin-bottom: 0;
+    }
+
+    &__link {
+        display: block;
+        padding: config.$thin-padding;
+        padding: config.$thin-v-space #{math.div(config.$thin-h-space, 2)};
+        transition: color config.$fade-easing var(--duration-fast);
+
+        // This left-aligns the text of the first link without reducing its
+        // target size, by adding an equal negative left margin to the left padding.
+        #{$b}__item:first-child & {
+            margin-left: -#{math.div(config.$thin-h-space, 2)};
+        }
+    }
+
+    &__linkSeparator {
+        transform: translateX(50%);
+    }
+}

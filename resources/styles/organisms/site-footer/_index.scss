@@ -1,0 +1,83 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.siteFooter {
+    $b: &;
+
+    background-color: config.$blue-900;
+    color: config.$white;
+    padding: 2rem 0;
+
+    a {
+        --link-color: #{config.$white};
+    }
+
+    &__container {
+        @include grid;
+        align-items: start;
+    }
+
+
+    &__identity {
+        display: grid;
+        grid-column: main;
+        justify-items: center;
+        row-gap: config.$thin-h-space;
+        text-align: center;
+
+        @include at(md) {
+            grid-column: main / 6;
+            justify-items: start;
+            text-align: left;
+        }
+
+        @include at(lg) {
+            grid-column: main / 5;
+        }
+    }
+
+    &__brand {
+        align-items: center;
+        color: config.$blue-300;
+        display: flex;
+        gap: config.$thin-h-space;
+    }
+
+    &__socialLinks {
+        display: flex;
+        gap: config.$thin-h-space;
+    }
+
+    &__links {
+        column-gap: var(--column-gap);
+        display: grid;
+        grid-column: main;
+        grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+        row-gap: var(--column-gap);
+
+        @include at(md) {
+            grid-column: 6 / main;
+        }
+
+        @include at(lg) {
+            grid-column: 5 / main;
+        }
+    }
+
+    &__heading {
+        font-weight: 600;
+        margin-bottom: 0.75em;
+    }
+
+    &__list {
+        @include no-bullets;
+    }
+
+    &__utility {
+        color: config.$gray-300;
+        display: flex;
+        font-size: .875rem;
+        grid-column: main;
+        justify-content: space-between;
+    }
+}

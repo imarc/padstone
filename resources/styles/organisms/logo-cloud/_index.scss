@@ -1,0 +1,19 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+
+.logoCloud {
+    $b: &;
+
+    @include grid;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+}

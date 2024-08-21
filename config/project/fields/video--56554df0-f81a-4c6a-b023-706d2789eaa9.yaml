@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: video
+instructions: 'Enter Youtube or Vimeo link'
+name: Video
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

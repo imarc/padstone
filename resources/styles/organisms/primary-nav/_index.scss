@@ -1,0 +1,33 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.primaryNav {
+    $b: &;
+
+    display: none;
+    background: config.$white;
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        margin: 0;
+    }
+
+    &__item {
+        margin-bottom: 0;
+
+        --color: #{config.$primary};
+        --color-contrast: #{blackwhite(config.$primary)};
+    }
+
+    &__link {
+        display: block;
+        padding: 1.5rem config.$h-space;
+        font-weight: bold;
+    }
+
+    @include at(lg) {
+        display: block;
+    }
+}

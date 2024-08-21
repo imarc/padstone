@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" style="background: {{ _target.context.background|default('') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ _target.title }} ({{ _target.handle }}) - Pattern Library</title>
+
+    {% if not _config.viteServer %}
+        {% for file in viteManifest('resources/js/main.js', 'css') %}
+            <link rel="stylesheet" href="/dist/{{ file }}">
+        {% endfor %}
+    {% endif %}
+</head>
+<body>
+    <div id="root">
+        <main class="grid">
+            <div class="grid__container">
+                {{ yield }}
+
+                {% if _target.context.controls is defined %}
+                    <hr>
+                    {{ _target.context.controls|default('')|raw }}
+                {% endif %}
+            </div>
+        </main>
+    </div>
+
+    {% if _config.viteServer %}
+        <script type="module" src="/@vite/client"></script>
+        <script type="module" src="/resources/js/main.js"></script>
+    {% else %}
+        {% for file in viteManifest('resources/js/main.js', 'js') %}
+            <script type="module" src="/dist/{{ file }}"></script>
+        {% endfor %}
+    {% endif %}
+
+</body>
+</html>

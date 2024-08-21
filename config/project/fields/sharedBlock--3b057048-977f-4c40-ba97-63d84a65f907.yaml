@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: sharedBlock
+instructions: null
+name: 'Shared Block'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a shared block'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:89839c0a-8c2a-4ef9-900f-709a4c4b77c1' # Shared Blocks
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

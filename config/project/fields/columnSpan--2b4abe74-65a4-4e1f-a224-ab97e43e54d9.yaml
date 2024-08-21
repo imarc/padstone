@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: columnSpan
+instructions: null
+name: 'Column Span'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - One
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Two
+        -
+          - value
+          - '-wide'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

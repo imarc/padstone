@@ -1,0 +1,43 @@
+@use "/resources/styles/config";
+
+.avatar {
+    $b: &;
+
+    display: inline-block;
+
+    &__container {
+        display: grid;
+        grid: "photo name" 1fr "photo title" 1fr;
+        gap: config.$thin-v-space 0;
+    }
+
+    &__name {
+        font-size: 1.25rem;
+        font-weight: bold;
+        grid-area: name;
+        padding: 0 config.$thin-h-space;
+        align-self: end;
+    }
+
+    &__photo {
+        grid-area: photo;
+        border-radius: 100%;
+        align-self: stretch;
+    }
+
+    &__title {
+        grid-area: title;
+        padding: 0 config.$thin-h-space;
+    }
+
+    &.-reversed {
+        #{$b}__container {
+            grid: "name photo" 1fr "title photo" 1fr;
+        }
+
+        #{$b}__name,
+        #{$b}__title {
+            justify-self: end;
+        }
+    }
+}

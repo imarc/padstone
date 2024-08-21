@@ -1,0 +1,56 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.linkGroups {
+    $b: &;
+
+    display: grid;
+    gap: config.$padding;
+    //grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    width: max-content;
+    grid-template-columns: auto;
+
+    .linkGroups__callout {
+        img {
+            height: 100%;
+        }
+    }
+
+    .linkGroups__group {
+        padding: config.$padding;
+
+        #{$b}__heading {
+            font-weight: bold;
+            padding: config.$thin-v-space 0;
+        }
+
+        #{$b}__list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+
+            &.-wide {
+                columns: 2;
+                column-gap: config.$h-space;
+
+                .linkGroup__link {
+                    break-inside: avoid;
+                }
+            }
+
+            &.-secondary {
+                margin-bottom: 2rem;
+            }
+        }
+
+        #{$b}__item {
+            margin-bottom: 0;
+        }
+
+        #{$b}__link {
+            display: block;
+            padding: config.$thin-v-space 0;
+        }
+    }
+}

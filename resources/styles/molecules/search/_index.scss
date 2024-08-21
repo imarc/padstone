@@ -1,0 +1,21 @@
+@use "/resources/styles/config";
+
+.search {
+    $b: &;
+
+    margin-bottom: 3rem;
+
+    &__field {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    &__input,
+    input#{&}__input {
+        margin: 0;
+    }
+
+    &__meta {
+        color: config.$meta-text;
+    }
+}

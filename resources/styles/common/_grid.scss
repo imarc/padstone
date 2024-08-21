@@ -1,0 +1,94 @@
+@use "sass:map";
+@use "sass:math";
+
+$-breakpoints: (
+    sm: (width:      0, gap: 16px),
+    md: (width:  625px, gap: 32px),
+    lg: (width: 1121px, gap: 48px),
+    xl: (width: 1393px, gap: 48px),
+) !default;
+
+$-columns: 12 !default;
+
+$-row-gap: 1.5rem !default;
+
+@mixin grid($columns: $-columns, $row-gap: $-row-gap, $breakpoints: $-breakpoints) {
+    --grid-column-gap: var(--column-gap, #{map.get($breakpoints, sm, gap)});
+    --grid-max-width-main: #{map.get($breakpoints, md, width) - 2 * map.get($breakpoints, md, gap) - 1px};
+    --grid-max-width-column: calc((var(--grid-max-width-main) - #{$columns - 1}*var(--grid-column-gap)) / #{$columns});
+
+    display: grid;
+    row-gap: $row-gap;
+    column-gap: var(--grid-column-gap);
+
+    @if $columns % 2 == 0 {
+        grid-template-columns:
+            [wide-start]
+            minmax(0, 1fr)
+            [main-start]
+            repeat(#{math.div($columns, 2)}, minmax(0, var(--grid-max-width-column)))
+            [center]
+            repeat(#{math.div($columns, 2)}, minmax(0, var(--grid-max-width-column)))
+            [main-end]
+            minmax(0, 1fr)
+            [wide-end];
+    } @else if $columns > 1 {
+        grid-template-columns:
+            [wide-start]
+            minmax(0, 1fr)
+            [main-start]
+            repeat(#{$columns}, minmax(0, var(--grid-max-width-column)))
+            [main-end]
+            minmax(0, 1fr)
+            [wide-end];
+    } @else {
+        grid-template-columns:
+            [wide-start]
+            minmax(0, 1fr)
+            [main-start]
+            minmax(0, var(--grid-max-width-column))
+            [main-end]
+            minmax(0, 1fr)
+            [wide-end];
+    }
+
+    &__container {
+        grid-column: main;
+    }
+
+    &__grid {
+        grid-column: wide;
+        display: grid;
+        row-gap: $row-gap;
+        column-gap: var(--grid-column-gap);
+
+        @if $columns % 2 == 0 {
+            grid-template-columns:
+                [main-start]
+                repeat(#{math.div($columns, 2)}, minmax(0, var(--grid-max-width-column)))
+                [center]
+                repeat(#{math.div($columns, 2)}, minmax(0, var(--grid-max-width-column)))
+                [main-end];
+        } @else if $columns > 1 {
+            grid-template-columns:
+                [main-start]
+                repeat(#{$columns}, minmax(0, var(--grid-max-width-column)))
+                [main-end];
+        } @else {
+            grid-template-columns:
+                [main-start]
+                minmax(0, var(--grid-max-width-column))
+                [main-end];
+        }
+    }
+
+    @media (min-width: map.get($breakpoints, md, width)) {
+        --grid-column-gap: var(--column-gap, #{map.get($breakpoints, md, gap)});
+        --grid-max-width-main: #{map.get($breakpoints, lg, width) - 2 * map.get($breakpoints, lg, gap) - 1px};
+    }
+
+    @media (min-width: map.get($breakpoints, lg, width)) {
+        --grid-column-gap: var(--column-gap, #{map.get($breakpoints, lg, gap)});
+        --grid-max-width-main: #{map.get($breakpoints, xl, width) - 2 * map.get($breakpoints, xl, gap) - 1px};
+    }
+}

@@ -1,0 +1,37 @@
+///
+/// = Base =
+///
+
+@use "/resources/styles/config";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FFF;
+}
+
+body {
+    color: config.$plain-text;
+    font-family: config.$font-family;
+    font-size: config.$font-size;
+    line-height: config.$line-height;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+
+    &[data-sizes="auto"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+::selection {
+    background: config.$border;
+}

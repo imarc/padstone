@@ -1,0 +1,29 @@
+@use "/resources/styles/config";
+
+a,
+.link {
+    --link-color: var(--color, #{config.$link});
+    --link-color-hover: var(--color-hover, #{config.$link-hover});
+
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color config.$fade-easing var(--duration-fast);
+
+    &:hover,
+    &:active {
+        color: var(--link-color-hover);
+    }
+
+    &.-disabled,
+    &[disabled] {
+        --link-color: #{config.$disabled};
+        cursor: default;
+        pointer-events: none;
+    }
+
+    &__icon {
+        height: 1em;
+        vertical-align: text-top;
+    }
+}

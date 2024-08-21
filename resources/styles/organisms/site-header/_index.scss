@@ -1,0 +1,33 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+.siteHeader {
+    $b: &;
+
+    box-shadow: config.$low-shadow;
+
+    &__container {
+        align-items: center;
+        display: grid;
+        gap: config.$h-space;
+        grid-template: auto / auto 1fr;
+    }
+
+    &__brand {
+        align-items: center;
+        color: config.$primary;
+        display: flex;
+        gap: config.$h-space;
+        justify-self: start;
+        padding: config.$v-space 0;
+    }
+
+    &__siteName {
+        color: config.$plain-text;
+        font-weight: bold;
+
+        @include at-each(1.5rem, md 1.75rem, lg 2rem) using ($size) {
+            font-size: $size;
+        }
+    }
+}

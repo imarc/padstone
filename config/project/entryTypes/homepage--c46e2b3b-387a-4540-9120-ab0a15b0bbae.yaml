@@ -1,0 +1,73 @@
+color: null
+fieldLayouts:
+  130d1c84-abbf-4f46-b55f-7f2a597fb49f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-15T17:02:49+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c7bb05e9-6c6f-45c0-ba9e-585faa26a3e3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: e7a9eb2f-85b0-4ded-95f8-4faff8b1a352
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-08-15T17:05:30+00:00'
+            elementCondition: null
+            fieldUid: 0587c309-76fe-4928-9be3-cb2980b7908c # Content Designer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1096fce3-a32a-4f1a-8eee-7b45ca630b2c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 816fedac-4b7f-44c4-bb1a-ff94ee0527e7
+        userCondition: null
+handle: homepage
+hasTitleField: true
+icon: ''
+name: Homepage
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

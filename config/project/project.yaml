@@ -1,0 +1,134 @@
+dateModified: 1724252001
+email:
+  fromEmail: info@imarc.com
+  fromName: 'Padstone Craft 5'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: /images
+  resources:
+    hasUrls: true
+    name: Resources
+    settings:
+      path: '@webroot/resources'
+    type: craft\fs\Local
+    url: /resources
+meta:
+  __names__:
+    0df95f6f-3e7a-4765-84de-aa8585234118: 'Rich Text' # Rich Text
+    1a4b6ea7-240d-4c7c-86ab-ce16b55afc24: Image # Image
+    2b4abe74-65a4-4e1f-a224-ab97e43e54d9: 'Column Span' # Column Span
+    3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Block' # Shared Block
+    5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
+    6a91581a-a1ff-430b-bbeb-32b131747531: Video # Video
+    6eef63ba-f2a8-4833-8b72-8a6a9d931f84: 'Navigation Links' # Navigation Links
+    8b3d1977-ab5a-4ca6-94cb-685acdef3921: 'Navigation Link' # Navigation Link
+    8d9c514a-a4e4-41ce-9b73-4425594f2885: 'Logo Grid' # Logo Grid
+    48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
+    52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
+    77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
+    200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e: 'CTA Text' # CTA Text
+    507a966d-0b69-4f8e-9d31-31b6528b14a0: Images # Images
+    524e948c-591f-4e9e-a275-77e3e0709b86: Person # Person
+    0587c309-76fe-4928-9be3-cb2980b7908c: 'Content Designer' # Content Designer
+    3546d0c2-4446-4f19-beb3-1e460aa375df: Eyebrow # Eyebrow
+    3984cd0f-a133-49ff-94d0-63730cf1bf51: 'Navigation Heading' # Navigation Heading
+    4536b6f0-b762-4abc-b6d1-a918619f8b4d: Testimonial # Testimonial
+    8678d5b0-ebe6-4da8-9111-e5ccf5c13386: 'General Toggle Off' # General Toggle Off
+    56554df0-f81a-4c6a-b023-706d2789eaa9: Video # Video
+    89839c0a-8c2a-4ef9-900f-709a4c4b77c1: 'Shared Blocks' # Shared Blocks
+    115744a1-512d-495b-ba38-959ebed6cec4: 'Job Title' # Job Title
+    307187bf-968f-42da-b579-dbc76b7a9fa6: 'Shared Section' # Shared Section
+    866793e8-8646-486d-95c2-24ad883f46a7: 'Sub Blocks' # Sub Blocks
+    5217297d-5931-41b9-a7a4-a797bb339952: Logos # Logos
+    a4a2b151-58b8-4935-a0ac-f0dc8216e02d: Card # Card
+    a7b59ddf-b06d-4b04-8d73-c52609ae95d3: Anchor # Anchor
+    af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
+    b03ef84f-ced1-471e-80e2-b9679dedfd88: 'CTA Link' # CTA Link
+    b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Basic Section' # Basic Section
+    b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
+    c5febe1f-c523-44a4-894a-81eb0ea96691: 'Primary Navigation' # Primary Navigation
+    c6cce9ed-155f-4196-95bf-f8dde0bff9b1: 'Navigation Groups' # Navigation Groups
+    c46e2b3b-387a-4540-9120-ab0a15b0bbae: Homepage # Homepage
+    c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
+    d6c3cdc6-9af4-4a8e-9008-56fc71426603: 'Padstone Craft 5' # Padstone Craft 5
+    d69400d5-37c7-48ef-b143-e25cccdda2ac: Simple # Simple
+    dab85477-9d74-4135-9cd2-a0e109e07314: Subheadline # Subheadline
+    dc246a2f-01d9-4061-b2a1-bc1e6b6edf94: 'Card Section' # Card Section
+    dd58c3c0-4afc-4b83-a606-73c8bc282d99: Image # Image
+    e6d0b9a2-4248-482d-a0b4-bd27ba89b22a: 'CTA Link' # CTA Link
+    e49eee72-0b33-43a2-81d6-31fb4ab32346: 'Alt Text' # Alt Text
+    ecf119b8-fdf5-4caf-a218-53797218e78a: 'Navigation Link' # Navigation Link
+    eed094b2-cdd9-4163-8ca6-fca978f404ad: 'Shared Sections' # Shared Sections
+    fa15f698-a1ed-4140-9c8d-02eac44b66b4: 'Navigation Group' # Navigation Group
+    fb82e0a6-3ed1-4972-9882-da2431a7788b: Resources # Resources
+    ff11a7ef-4804-4699-9e26-f9d531a7e760: Content # Content
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  entry-toc:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.1
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  regex-field:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  retour:
+    edition: standard
+    enabled: true
+    licenseKey: CBA04ZCERGIMDHG32R27BO9X
+    schemaVersion: 3.0.12
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: ZRUZFKQ48F1MB4CZKMZIIHQU
+    schemaVersion: 3.0.12
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Padstone Craft 5'
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

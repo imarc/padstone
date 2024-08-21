@@ -1,0 +1,59 @@
+@use "/resources/styles/common" as *;
+@use "/resources/styles/config";
+
+///
+/// PAGINATION provides a navigational unordered list of pages. Often used
+/// in conjunction of a LISTING component.
+///
+
+.pagination {
+    --pagination-color: var(--color, #{config.$link});
+    --pagination-color-contrast: var(--color-contrast, #{blackwhite(config.$link)});
+    --pagination-color-hover: var(--color-hover, #{config.$link-hover});
+
+    display: flex;
+    justify-content: center;
+
+    &__list {
+        @include no-bullets;
+        display: flex;
+        gap: .5rem;
+    }
+
+    &__link {
+        border-radius: .25em;
+        color: var(--pagination-color);
+        display: block;
+        font-weight: bold;
+        padding: config.$thin-padding;
+        position: relative;
+        transition: background-color var(--duration-fast) config.$fade-easing,
+            color var(--duration-fast) config.$fade-easing;
+
+        &:focus,
+        &:hover {
+            background-color: var(--pagination-color-hover);
+            color: var(--pagination-color-contrast);
+            transition: color config.$fade-easing var(--duration-fast) background-color config.$fade-easing var(--duration-fast);
+        }
+    }
+
+    &__item.-disabled &__link {
+        color: config.$border;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    &__item.-active &__link {
+        background-color: var(--pagination-color);
+        color: var(--pagination-color-contrast);
+        cursor: default;
+        pointer-events: none;
+
+        &:focus,
+        &:hover {
+            background-color: var(--pagination-color-hover);
+            color: var(--pagination-color-contrast);
+        }
+    }
+}
