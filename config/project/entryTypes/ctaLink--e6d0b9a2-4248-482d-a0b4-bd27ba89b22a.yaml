@@ -34,7 +34,7 @@ fieldLayouts:
             uid: e24e6d06-e485-426f-afa2-a015fb8b925c
             userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
             dateAdded: '2024-08-15T17:10:34+00:00'
             elementCondition: null
@@ -51,22 +51,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 50
-          -
-            dateAdded: '2024-08-15T17:10:34+00:00'
-            elementCondition: null
-            fieldUid: 200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e # CTA Text
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d8808224-6767-4484-8e6e-5b98a694cfc7
-            userCondition: null
-            warning: null
-            width: 25
           -
             dateAdded: '2024-08-16T14:22:31+00:00'
             elementCondition: null
@@ -87,7 +71,7 @@ fieldLayouts:
         uid: 3baa2ba0-099c-4dd9-bd77-ac3ef47246c1
         userCondition: null
 handle: ctaLink
-hasTitleField: false
+hasTitleField: true
 icon: ''
 name: 'CTA Link'
 showSlugField: false

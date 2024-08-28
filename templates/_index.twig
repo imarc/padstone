@@ -2,7 +2,7 @@
 {% set section = 'home' %}
 {% extends "_layouts/main" %}
 {% block content %}
-    {# {% include '_partials/hero' with { hero: entry.hero.one } %} #}
+    {% include '_partials/hero' with { hero: entry.selectHero.one } %}
 
     {# {{ macros.renderAllBlocks(entry.contentDesigner) }} #}
 {% endblock %}

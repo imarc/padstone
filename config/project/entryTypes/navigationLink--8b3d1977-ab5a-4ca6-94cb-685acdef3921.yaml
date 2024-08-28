@@ -36,25 +36,9 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-16T14:22:38+00:00'
+            dateAdded: '2024-08-22T13:29:28+00:00'
             elementCondition: null
-            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: 'Navigation Link'
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 17c94820-e3e2-44f1-8bba-05b9e0de04cc
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-16T15:24:10+00:00'
-            elementCondition: null
-            fieldUid: c6cce9ed-155f-4196-95bf-f8dde0bff9b1 # Navigation Groups
+            fieldUid: c0144003-4e0b-4e16-8a3e-85fab98c9798 # Nav Link
             handle: null
             includeInCards: false
             instructions: null
@@ -63,7 +47,23 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e4258edd-f406-4ce7-8d3f-cd092f96dc10
+            uid: 7b092a74-e320-4b59-93d4-d85decd827d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-21T17:20:35+00:00'
+            elementCondition: null
+            fieldUid: 6eef63ba-f2a8-4833-8b72-8a6a9d931f84 # Navigation Links
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Sub Links'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6d75dd77-bb92-41b0-a2a9-b5c335b2bcc8
             userCondition: null
             warning: null
             width: 100

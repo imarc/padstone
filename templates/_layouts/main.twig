@@ -18,9 +18,9 @@
 
         {{ craft.vite.script("resources/js/main.js") }}
 
-        {# {% if entry is defined and entry.headerCode %}
+        {% if entry is defined and entry.headerCode %}
             {{ entry.headerCode|raw }}
-        {% endif %} #}
+        {% endif %}
     </head>
     <body class="{{ bodyClasses|join(' ') }}" >
 

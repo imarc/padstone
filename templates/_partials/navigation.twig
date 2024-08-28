@@ -1,63 +1,51 @@
 <nav class="primaryNav">
     <ul class="primaryNav__list">
         {% for navItem in primaryNavigation.navigationLinks.all %}
-            {% set navLink = navItem.ctaLinkBlock and navItem.ctaLinkBlock.one ? navItem.ctaLinkBlock.one : null %}
+            {% set navLink = navItem.navLink and navItem.navLink.one ? navItem.navLink.one : null %}
             <li class="primaryNav__item">
-                {{ navItem.type }}
-                {% if navItem.navigationGroups and navItem.navigationGroups.count() %}
-                    {% if navLink and navItem.type == 'navigationLink' %}
-                        <bp-dropdown-link label-class="primaryNav__link" href="{{ navLink.ctaLink }}" label="{{ navLink.ctaText }}" id="primaryNav-{{ navLink.ctaText|kebab }}">
-                    {% elseif navItem.type == 'navigationGroup' %}
-                        <bp-dropdown label-class="primaryNav__link" label="{{ navItem.navigationHeading }}" id="primaryNav-{{ navItem.navigationHeading|kebab }}">
-                    {% endif %}
-                    {% if navItem.navigationGroups.one.navigationGroups.count() > navItem.navigationGroups.count()%}
-                        <div class="container linkGroups">
-                            {% for subNavItem in navItem.navigationGroups.all %}
-                                {% set subNavLink = subNavItem.ctaLinkBlock and subNavItem.ctaLinkBlock.one ? subNavItem.ctaLinkBlock.one : null %}
-                                <div class="linkGroups__group">
-                                    {% if subNavItem.type == 'navigationLink' %}
-                                        <a href="{{ subNavLink.ctaLink }}" class="linkGroups__heading" {{ subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.ctaText }}</a>
-                                    {% elseif subNavItem.type == 'navigationGroup' %}
-                                        <div class="linkGroups__heading">{{ subNavItem.navigationHeading }}</div>
-                                    {% endif %}
-                                    <ul class="linkGroups__list {{ subNavItem.columnSpan }}">
-                                        {% for subSubNavItem in navigationGroups.all() %}
-                                            {% set subSubNavLink = subSubNavItem.ctaLinkBlock and subSubNavItem.ctaLinkBlock.one ? subSubNavItem.ctaLinkBlock.one : null %}
-                                            {% if subSubNavLink %}
-                                                <li class="linkGroups__item">
-                                                    <a href="{{ subNavLink.ctaLink }}" class="linkGroups__link" {{ subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.ctaText }}</a>
-                                                </li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                            {% endfor %}
-                        </div>
+                {% if navItem.navigationLinks and navItem.navigationLinks.count() %}
+                    {% if navLink.ctaLink and navLink.ctaLink.value %}
+                        <bp-dropdown-link label-class="primaryNav__link" href="{{ navLink.ctaLink.value }}" label="{{ navLink.title }}" id="primaryNav-{{ navLink.title|kebab }}">
                     {% else %}
-                        <div class="container linkGroups">
-                            <div class="linkGroups__group">
-                                <ul class="linkGroups__list {{ navItem.columnSpan }}">
-                                    {% for subNavItem in navItem.navigationGroups.all %}
-                                        {% set subNavLink = subNavItem.ctaLinkBlock and subNavItem.ctaLinkBlock.one ? subNavItem.ctaLinkBlock.one : null %}
-                                        <li class="linkGroups__item">
-                                            {% if subNavLink and subNavItem.type == 'navigationLink' %}
-                                                <a href="{{ subNavLink.ctaLink }}" class="linkGroups__link" {{ subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.ctaText }}</a>
-                                            {% elseif subNavItem.type == 'navigationGroup' %}
-                                                {{ subNavItem.navigationHeading }}
-                                            {% endif %}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
+                        <bp-dropdown label-class="primaryNav__link" label="{{ navLink.title }}" id="primaryNav-{{ navLink.title|kebab }}">
                     {% endif %}
+                    <div class="container linkGroups">
+                        <div class="linkGroups__group">
+                            <ul class="linkGroups__list {{ navItem.columnSpan }}">
+                                {% for subNavItem in navItem.navigationLinks.all %}
+                                    {% set subNavLink = subNavItem.navLink and subNavItem.navLink.one ? subNavItem.navLink.one : null %}
+                                    <li class="linkGroups__item">
+                                        {% if subNavLink.ctaLink and subNavLink.ctaLink.value %}
+                                            <a href="{{ subNavLink.ctaLink.value }}" class="linkGroups__link" {{ subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.title }}</a>
+                                        {% elseif subNavItem.navigationLinks and subNavItem.navigationlinks.count() %}
+                                            <div class="linkGroups__heading">{{ subNavItem.title }}</div>
+                                        {% else  %}
+                                            {{ subNavItem.title }}
+                                        {% endif %}
+                                    </li>
+                                    {% if subNavItem.navigationLinks and subNavItem.navigationLinks.count() %}
+                                            <ul class="linkGroups__list {{ subNavItem.columnSpan }}">
+                                            {% for subSubNavItem in subNavItem.navigationLinks.all() %}
+                                                {% set subSubNavLink = subSubNavItem.navLink and subSubNavItem.navLink.one ? subSubNavItem.navLink.one : null %}
+                                                {% if subSubNavLink.ctaLink and subSubNavLink.ctaLink.value %}
+                                                    <li class="linkGroups__item">
+                                                        <a href="{{ subSubNavLink.ctaLink.value }}" class="linkGroups__link" {{ subSubNavLink.generalToggleOff ? 'target="_new"' }}>{{ subSubNavLink.title }}</a>
+                                                    </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
                     {% if navItem.type == 'navigationLink' %}
                         </bp-dropdown-link>
                     {% elseif navItem.type == 'navigationGroup' %}
                         </bp-dropdown>
                     {% endif %}
                 {% elseif navLink %}
-                    <a href="{{ navLink.ctaLink }}" class="primaryNav__link" {{ navLink.generalToggleOff ? 'target="_new"' }}>{{ navLink.ctaText }}</a>
+                    <a href="{{ navLink.ctaLink }}" class="primaryNav__link" {{ navLink.generalToggleOff ? 'target="_new"' }}>{{ navLink.title }}</a>
                 {% endif %} 
             </li>
         {% endfor %}
