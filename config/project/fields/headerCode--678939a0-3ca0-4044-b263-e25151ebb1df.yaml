@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: headerCode
+instructions: null
+name: 'Additional Header Code'
+searchable: false
+settings:
+  availableLanguages:
+    - css
+    - graphql
+    - html
+    - javascript
+    - json
+    - markdown
+    - mysql
+    - php
+    - shell
+    - twig
+    - typescript
+    - yaml
+  codeFolding: false
+  defaultValue: ''
+  fontSize: 14
+  language: html
+  lineNumbers: false
+  monacoEditorOptions: ''
+  placeholder: ''
+  showLanguageDropdown: false
+  singleLineEditor: false
+  theme: auto
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\codefield\fields\Code

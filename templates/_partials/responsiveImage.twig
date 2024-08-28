@@ -1,0 +1,24 @@
+{% set defaultSizes = [ 640, 768, 1024, 1366, 1600, 1920 ] %}
+{% if asset.width %}
+    {% set sizes = [] %}
+    {% for size in defaultSizes|filter(s => s < asset.width) %}
+        {% set sizes = sizes|merge([ "#{size}w" ]) %}
+    {% endfor %}
+    {% set sizes = sizes|merge([ "#{asset.width}w" ]) %}
+{% else %}
+    {% set sizes = defaultSizes|map(size => "#{size}w") %}
+{% endif %}
+
+{% set srcset = asset.getSrcset(sizes) %}
+{% do asset.setTransform(transform|merge({ format: 'webp' })) %}
+{% set webpSrcset = asset.getSrcset(sizes) %}
+
+<picture class="{{ pictureClass }}">
+    <source data-sizes="auto" data-srcset="{{ webpSrcset }}" type="image/webp" />
+    <img
+        src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="{{ asset.height }}" width="{{ asset.width }}"></svg>'
+        class="lazyload {{ imgClass }}"
+        data-sizes="auto"
+        data-srcset="{{ srcset }}" alt="{{ asset.alt }}"
+    />
+</picture>

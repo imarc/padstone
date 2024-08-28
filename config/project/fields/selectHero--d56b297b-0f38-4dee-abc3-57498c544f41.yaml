@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: selectHero
+instructions: null
+name: 'Select Hero'
+searchable: false
+settings:
+  createButtonLabel: 'New Hero'
+  entryTypes:
+    - d4966cae-3474-4ee8-92bd-7d511f1758d4 # Standard Hero
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

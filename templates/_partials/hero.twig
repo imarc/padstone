@@ -1,0 +1,63 @@
+{% import "/_macros" as macros %}
+
+{% if hero is defined and hero is instance of('craft\\elements\\db\\MatrixBlockQuery') %}
+    {% if hero.count > 0 %}
+        {% set hero = hero.one %}
+    {% else %}
+        {% set hero = false %}
+    {% endif %}
+{% endif %}
+
+{% if hero is defined and hero %}
+    {# set falsy defaults to simplify null checks #}
+    {% set hero = {
+        backgroundImage: null,
+        heroEyebrow: null,
+        heroHeadline: null,
+        heroSubheadline: null,
+        heroIntroduction: null,
+        CTA: null
+    }|merge(hero) %}
+
+    <section class="section {{ hero.backgroundImage|length ? '-dark' : '' }} -hero">
+        {% if hero.backgroundImage|length %}
+            <div class="section__background">
+                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'section__backgroundImg' }) }}
+            </div>
+        {% endif %}
+        <div class="section__container container">
+            <header class="section__header">
+                {% if hero.heroEyebrow %}
+                    <div class="heading__eyebrow eyebrow">{{ hero.heroEyebrow }}</div>
+                {% endif %}
+                {% if hero.heroHeadline %}
+                    <h1 class="section__heading">{{ hero.heroHeadline }}</h1>
+                {% endif %}
+                {% if hero.heroSubheadline %}
+                    <h2 class="section__subheading">{{ hero.heroSubheadline }}</h2>
+                {% endif %}
+            </header>
+            {% if hero.heroIntroduction %}
+                <div class="section__introduction -emphasized">
+                    {{ hero.heroIntroduction }}
+                </div>
+            {% endif %}
+            {% if hero.ctaLinkBlock|length %}
+                <div class="section__actions">
+                    {{ macros.renderLink (hero.ctaLinkBlock.one, { class: 'section__action button -primary' })}}
+                    {# <a href="{{ navLink.ctaLink }}" class="primaryNav__link" {{ navLink.generalToggleOff ? 'target="_new"' }}>{{ navLink.title }}</a>
+                    {{ hero.CTA.getLink({ class: 'section__action button -primary' }) }} #}
+                </div>
+            {% endif %}
+        </div>
+    </section>
+
+{% else %}
+    <section class="section -dark -hero">
+        <div class="section__container container">
+            <header class="section__header">
+                <h1 class="section__heading">{{ entry.title }}</h1>
+            </header>
+        </div>
+    </section>
+{% endif %}
