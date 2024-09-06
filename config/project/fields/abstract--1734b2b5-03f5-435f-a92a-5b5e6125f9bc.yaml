@@ -1,17 +1,15 @@
 columnSuffix: null
-handle: blockContent
+handle: abstract
 instructions: null
-name: Content
+name: Abstract
 searchable: false
 settings:
   availableTransforms: ''
-  availableVolumes: ''
+  availableVolumes: '*'
   ckeConfig: d69400d5-37c7-48ef-b143-e25cccdda2ac # Simple
   createButtonLabel: null
   defaultTransform: null
-  enableSourceEditingForNonAdmins: true
-  entryTypes:
-    - 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
+  enableSourceEditingForNonAdmins: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false

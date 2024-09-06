@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - c59ecd1c-c856-4983-96da-bbbac954eab0 # Basic Page
+handle: serviceUnavailablePage
+maxAuthors: 1
+name: 'Service Unavailable Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    enabledByDefault: true
+    hasUrls: true
+    template: '503'
+    uriFormat: '503'
+type: single

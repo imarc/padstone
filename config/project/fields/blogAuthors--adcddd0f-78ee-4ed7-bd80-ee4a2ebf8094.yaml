@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: blogAuthors
+instructions: null
+name: 'Blog Authors'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add an author'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Authors
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

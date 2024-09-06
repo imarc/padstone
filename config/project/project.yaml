@@ -1,4 +1,4 @@
-dateModified: 1724856427
+dateModified: 1724960473
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -32,10 +32,12 @@ meta:
     6eef63ba-f2a8-4833-8b72-8a6a9d931f84: 'Navigation Links' # Navigation Links
     8b3d1977-ab5a-4ca6-94cb-685acdef3921: 'Navigation Link' # Navigation Link
     8d9c514a-a4e4-41ce-9b73-4425594f2885: 'Logo Grid' # Logo Grid
+    9c45b436-5b6e-489c-b3cd-4c442876d973: 'Blog Categories' # Blog Categories
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
     52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
     82fc6643-49ce-461f-b55b-af4e57933421: Code # Code
+    95bdff49-0896-47d2-86bc-9fd95e4ab8c5: 'Blog Categories' # Blog Categories
     101d77f8-2e5b-44d4-9689-c44463856e1b: 'Hero Subheadline' # Hero Subheadline
     200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e: 'CTA Text' # CTA Text
     377e43f5-bfc9-462f-a0db-51f020707423: 'Background Image' # Background Image
@@ -43,10 +45,14 @@ meta:
     507a966d-0b69-4f8e-9d31-31b6528b14a0: Images # Images
     524e948c-591f-4e9e-a275-77e3e0709b86: Person # Person
     0587c309-76fe-4928-9be3-cb2980b7908c: 'Content Designer' # Content Designer
+    880ea67a-2b41-468b-b4af-0e2799aee9b3: 'Blog Date' # Blog Date
+    976d4ccf-4988-4c36-968c-53f396dce7f2: 'Blog Article' # Blog Article
+    1734b2b5-03f5-435f-a92a-5b5e6125f9bc: Abstract # Abstract
     3546d0c2-4446-4f19-beb3-1e460aa375df: Eyebrow # Eyebrow
     3984cd0f-a133-49ff-94d0-63730cf1bf51: 'Navigation Heading' # Navigation Heading
     4536b6f0-b762-4abc-b6d1-a918619f8b4d: Testimonial # Testimonial
     8678d5b0-ebe6-4da8-9111-e5ccf5c13386: 'General Toggle Off' # General Toggle Off
+    8943bafd-8aa6-4449-8d82-21f319461410: 'Service Unavailable Page' # Service Unavailable Page
     56554df0-f81a-4c6a-b023-706d2789eaa9: Video # Video
     89839c0a-8c2a-4ef9-900f-709a4c4b77c1: 'Shared Blocks' # Shared Blocks
     115744a1-512d-495b-ba38-959ebed6cec4: 'Job Title' # Job Title
@@ -56,10 +62,12 @@ meta:
     5217297d-5931-41b9-a7a4-a797bb339952: Logos # Logos
     a4a2b151-58b8-4935-a0ac-f0dc8216e02d: Card # Card
     a7b59ddf-b06d-4b04-8d73-c52609ae95d3: Anchor # Anchor
+    adcddd0f-78ee-4ed7-bd80-ee4a2ebf8094: 'Blog Authors' # Blog Authors
     af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
     b03ef84f-ced1-471e-80e2-b9679dedfd88: 'CTA Link' # CTA Link
     b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Basic Section' # Basic Section
     b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
+    bd4fb97b-3b89-49bc-9fdb-c20917cb6776: 'Featured Image' # Featured Image
     bda4be51-a390-429b-856f-8ebd7905b00a: 'Hero Eyebrow' # Hero Eyebrow
     c0144003-4e0b-4e16-8a3e-85fab98c9798: 'Nav Link' # Nav Link
     c5febe1f-c523-44a4-894a-81eb0ea96691: 'Primary Navigation' # Primary Navigation
@@ -68,7 +76,9 @@ meta:
     c46e2b3b-387a-4540-9120-ab0a15b0bbae: Homepage # Homepage
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Basic Page' # Basic Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
+    c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
     d6c3cdc6-9af4-4a8e-9008-56fc71426603: 'Padstone Craft 5' # Padstone Craft 5
+    d41feaed-9c5d-41dc-9629-8e9af1b89cbf: Authors # Authors
     d56b297b-0f38-4dee-abc3-57498c544f41: 'Select Hero' # Select Hero
     d4966cae-3474-4ee8-92bd-7d511f1758d4: 'Standard Hero' # Standard Hero
     d69400d5-37c7-48ef-b143-e25cccdda2ac: Simple # Simple

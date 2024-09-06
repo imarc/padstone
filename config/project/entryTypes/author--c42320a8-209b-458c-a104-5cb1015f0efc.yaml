@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  53237f31-5112-4577-a36c-06cd404f300f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-08-28T15:17:06+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 450bdc84-b627-4bdd-9826-047ac9fd7eea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-28T15:19:07+00:00'
+            elementCondition: null
+            fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c650d49f-5464-42e7-b347-67b93c633e82
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3ec9fa96-8a45-412e-b39e-54a0bc2d7c90
+        userCondition: null
+handle: author
+hasTitleField: true
+icon: ''
+name: Author
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
