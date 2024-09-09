@@ -44,7 +44,7 @@
     }
   ],
   "dependencies": {
-    "imarc-boilerplate": "^6.0"
+    "imarc-boilerplate": "^6.0.0-alpha.2"
   },
   "scripts": {
     "lint": "eslint resources",
