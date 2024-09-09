@@ -38,7 +38,6 @@
     "verbb/super-table": "^3.0.0-beta.4",
     "vlucas/phpdotenv": "^5.3",
     "wbrowar/adminbar": "^3.1",
-    "imarc/craft-kindling": "^2.1",
     "nystudio107/craft-vite": "^4.0"
   },
   "repositories": [
