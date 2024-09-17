@@ -5,22 +5,19 @@ name: 'Content Designer'
 searchable: true
 settings:
   createButtonLabel: 'New block'
-  defaultTableColumns:
-    - status
-    - type
   entryTypes:
     - b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a # Basic Section
     - 8d9c514a-a4e4-41ce-9b73-4425594f2885 # Logo Grid
     - dc246a2f-01d9-4061-b2a1-bc1e6b6edf94 # Card Section
     - 307187bf-968f-42da-b579-dbc76b7a9fa6 # Shared Section
-  includeTableView: true
+  includeTableView: false
   maxEntries: null
   minEntries: null
-  pageSize: 50
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: cards
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

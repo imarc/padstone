@@ -70,22 +70,6 @@ fieldLayouts:
           -
             dateAdded: '2024-08-28T15:11:10+00:00'
             elementCondition: null
-            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 5536aa98-e34d-4b2d-9729-b2742f080f10
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-28T15:11:10+00:00'
-            elementCondition: null
             fieldUid: 880ea67a-2b41-468b-b4af-0e2799aee9b3 # Blog Date
             handle: null
             includeInCards: false

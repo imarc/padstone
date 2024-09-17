@@ -54,7 +54,7 @@ fieldLayouts:
         name: Content
         uid: 348db75c-74e1-427a-8a20-a5d0ef4ffa91
         userCondition: null
-handle: video
+handle: videoSection
 hasTitleField: false
 icon: ''
 name: Video

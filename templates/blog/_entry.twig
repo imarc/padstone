@@ -1,0 +1,15 @@
+{% import "/_macros" as macros %}
+{% set section = 'blogPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with { hero: {
+        heroEyebrow: 'Blog Article',
+        heroHeadline: entry.title,
+        heroIntroduction: "#{macros.commaSeparate(entry.blogAuthors)} – #{entry.blogDate|date('F jS, Y')}"
+    } } %}
+
+
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
+
+
+{% endblock %}

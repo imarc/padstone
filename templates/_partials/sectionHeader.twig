@@ -1,0 +1,11 @@
+<header class="section__header">
+    {% if block.eyebrow %}
+        <div class="eyebrow -primary">{{ block.eyebrow }}</div>
+    {% endif %}
+    {% if block.headline %}
+        <h2 class="section__heading">{{ block.headline }}</h2>
+    {% endif %}
+    {% if block.subheadline %}
+        <h3 class="section__subheading">{{ block.subheadline }}</h3>
+    {% endif %}
+</header>

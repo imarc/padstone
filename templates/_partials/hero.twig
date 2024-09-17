@@ -1,6 +1,7 @@
 {% import "/_macros" as macros %}
 
 {% if hero is defined and hero is instance of('craft\\elements\\db\\MatrixBlockQuery') %}
+    <h1>Hero is matrix</h1>
     {% if hero.count > 0 %}
         {% set hero = hero.one %}
     {% else %}
@@ -42,7 +43,7 @@
                     {{ hero.heroIntroduction }}
                 </div>
             {% endif %}
-            {% if hero.ctaLinkBlock|length %}
+            {% if hero.ctaLinkBlock is defined and hero.ctaLinkBlock|length %}
                 <div class="section__actions">
                     {{ macros.renderLink (hero.ctaLinkBlock.one, { class: 'section__action button -primary' })}}
                     {# <a href="{{ navLink.ctaLink }}" class="primaryNav__link" {{ navLink.generalToggleOff ? 'target="_new"' }}>{{ navLink.title }}</a>

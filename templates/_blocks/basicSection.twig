@@ -1,0 +1,62 @@
+{% import "/_macros" as macros %}
+
+{% if block is defined and block %}
+
+    {% set numColumns = block.children.count %}
+    {% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
+    {% set columnSlugsClass = macros.columnsSlug(block) %}
+
+    <section
+        class="section -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}" 
+        {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}
+    >
+        <div class="section__container">
+            {% block header %}
+                {% if block.eyebrow or block.headline or block.subheadline %}
+                    {% include "/_partials/sectionHeader" %}
+                {% endif %}
+            {% endblock %}
+
+            {# {% block introduction %}
+                {% if block.sectionIntroduction %}
+                    <div class="section__introduction">
+                        {{ block.sectionIntroduction }}
+                    </div>
+                {% endif %}
+            {% endblock %} #}
+
+            {% block content %}
+                <div class="section__content section__grid">
+                    {% for subblock in block.subBlocks.all() %}
+                        <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
+                            {{ macros.renderColumn(subblock) }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endblock %}
+
+            {% block conclusion %}
+                {# {% if block.sectionConclusion is not empty or block.sectionCTA %} #}
+                {% if block.ctaLinkBlock and block.ctaLinkBlock|length %}
+                    <div class="section__footer">
+                        {# {% if block.sectionConclusion %}
+                            <div class="section__conclusion">
+                                {{ block.sectionConclusion }}
+                            </div>
+                        {% endif %} #}
+                        {% if block.ctaLinkBlock[0] %}
+                            <div class="section__actions">
+                                <a href="{{ block.ctaLinkBlock[0].ctaLink }}" 
+                                    {{ block.ctaLinkBlock[0].generalToggleOff ? 'target="_new"' : '' }}
+                                    class="section__action button -primary"
+                                >
+                                    {{ block.ctaLinkBlock[0].title }}
+                                </a>
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endblock %}
+        </div>
+    </section>
+{% endif %}

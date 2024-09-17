@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  31197cc2-c34c-4f8f-9b2d-286da8c09158:
+  315f8c9a-657d-4d28-9e41-97235cc27c25:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-08-15T18:06:57+00:00'
+            dateAdded: '2024-08-15T19:04:47+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 8364e8ad-25c7-4683-a97f-a8363b9c3843
+            uid: a037e77d-ecca-4a3f-9a8d-bae8e1f34eb6
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-15T18:09:44+00:00'
+            dateAdded: '2024-08-15T19:07:05+00:00'
             elementCondition: null
-            fieldUid: ff11a7ef-4804-4699-9e26-f9d531a7e760 # Content
+            fieldUid: c76d791f-6a12-4609-94f8-66f12eb848fd # Quote
             handle: null
             includeInCards: false
             instructions: null
@@ -47,17 +47,49 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 499d05b1-7311-4f55-8cc3-aaf42eeaa022
+            uid: 586bf2ea-92b7-434b-ba21-8eaea6ce43bc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T19:07:05+00:00'
+            elementCondition: null
+            fieldUid: 524e948c-591f-4e9e-a275-77e3e0709b86 # Person
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71a62207-d38c-4ec7-9c75-7ccdab3fd216
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T19:07:05+00:00'
+            elementCondition: null
+            fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b34609ff-0402-481e-ac56-4f45f1a1205d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: a4520faf-8263-4829-9646-14afc1d4b62c
+        uid: b799eb00-3272-4622-b8d3-7cbaba099107
         userCondition: null
-handle: richText
+handle: testimonialSection
 hasTitleField: false
 icon: ''
-name: 'Rich Text'
+name: Testimonial
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null

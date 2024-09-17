@@ -54,7 +54,7 @@ fieldLayouts:
           -
             dateAdded: '2024-08-15T20:21:43+00:00'
             elementCondition: null
-            fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Navigation Heading
+            fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             includeInCards: false
             instructions: null

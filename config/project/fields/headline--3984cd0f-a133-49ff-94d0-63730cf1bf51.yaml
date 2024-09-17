@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: headline
 instructions: null
-name: 'Navigation Heading'
+name: Headline
 searchable: true
 settings:
   byteLimit: null

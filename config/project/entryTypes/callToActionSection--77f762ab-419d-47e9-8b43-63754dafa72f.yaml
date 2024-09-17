@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  dbf6d4f8-51c7-4924-9747-da8670c51e61:
+  25e832d4-be1c-41d4-836b-00f72ac16c5f:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-08-15T18:09:47+00:00'
+            dateAdded: '2024-08-15T18:09:08+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: eeb6f3c7-109f-440e-8aea-fefae98f43df
+            uid: 1d60a696-8784-48df-bff4-bb8b52b5f56d
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-15T18:11:22+00:00'
+            dateAdded: '2024-08-15T18:10:35+00:00'
             elementCondition: null
-            fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
+            fieldUid: ff11a7ef-4804-4699-9e26-f9d531a7e760 # Content
             handle: null
             includeInCards: false
             instructions: null
@@ -47,17 +47,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4d08175f-0237-45a4-b7a7-8441a7b3a2be
+            uid: f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-08-15T18:10:35+00:00'
+            elementCondition: null
+            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cf2bea8-6cdd-455f-91b6-1598948ef670
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 4d2894de-76d5-4df2-980f-3f72f7e7dbc3
+        uid: be2b67a6-33b2-46a1-846f-e1ffc52adbba
         userCondition: null
-handle: image
+handle: callToActionSection
 hasTitleField: false
 icon: ''
-name: Image
+name: 'Call To Action'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null

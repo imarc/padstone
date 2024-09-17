@@ -17,7 +17,7 @@ fieldLayouts:
             includeInCards: false
             inputType: null
             instructions: null
-            label: null
+            label: 'Link Text'
             max: null
             min: null
             name: null

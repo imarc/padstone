@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
+handle: blogArticle
+maxAuthors: 1
+name: 'Blog Article'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    enabledByDefault: true
+    hasUrls: true
+    template: blog/_entry.twig
+    uriFormat: 'blog/{slug}'
+type: channel

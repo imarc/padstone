@@ -9,7 +9,8 @@
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
-        {% include ['/_blocks/' ~ block.type, '/_blocks/designedSection'] %}
+        <h3>{{ block.type }}</a>
+        {% include ['/_blocks/' ~ block.type, '/_blocks/basicSection'] with {block: block} %}
     {% endif %}
 {% endapply %}{% endmacro %}
 
@@ -23,9 +24,8 @@
 #}
 {% macro renderAllBlocks(field) %}{% apply spaceless %}
     {% import _self as macros %}
-
     {% if field is not null %}
-        {% for block in field.level(1).all() %}
+        {% for block in field.all() %}
             {{ macros.renderBlock(block, loop) }}
         {% endfor %}
     {% endif %}
@@ -39,7 +39,7 @@
 #}
 {% macro renderColumn(column) %}{% apply spaceless %}
     {% set columnName = column.type|replace('/Column$/', '') %}
-    {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] %}
+    {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] with {block: column} %}
 {% endapply %}{% endmacro %}
 
 

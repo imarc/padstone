@@ -1,4 +1,4 @@
-dateModified: 1724960473
+dateModified: 1726581280
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -37,6 +37,7 @@ meta:
     52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
     82fc6643-49ce-461f-b55b-af4e57933421: Code # Code
+    091ba845-021e-4b45-af8f-923cd0b13154: 'Blog Article' # Blog Article
     95bdff49-0896-47d2-86bc-9fd95e4ab8c5: 'Blog Categories' # Blog Categories
     101d77f8-2e5b-44d4-9689-c44463856e1b: 'Hero Subheadline' # Hero Subheadline
     200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e: 'CTA Text' # CTA Text
@@ -49,7 +50,7 @@ meta:
     976d4ccf-4988-4c36-968c-53f396dce7f2: 'Blog Article' # Blog Article
     1734b2b5-03f5-435f-a92a-5b5e6125f9bc: Abstract # Abstract
     3546d0c2-4446-4f19-beb3-1e460aa375df: Eyebrow # Eyebrow
-    3984cd0f-a133-49ff-94d0-63730cf1bf51: 'Navigation Heading' # Navigation Heading
+    3984cd0f-a133-49ff-94d0-63730cf1bf51: Headline # Headline
     4536b6f0-b762-4abc-b6d1-a918619f8b4d: Testimonial # Testimonial
     8678d5b0-ebe6-4da8-9111-e5ccf5c13386: 'General Toggle Off' # General Toggle Off
     8943bafd-8aa6-4449-8d82-21f319461410: 'Service Unavailable Page' # Service Unavailable Page
