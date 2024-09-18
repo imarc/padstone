@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
-handle: blogArticle
+  - 0526dbf2-583a-4dc9-83f5-f5888101378b # Event
+handle: events
 maxAuthors: 1
-name: 'Blog Articles'
+name: Events
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
     enabledByDefault: true
     hasUrls: true
-    template: blog/_entry.twig
-    uriFormat: 'blog/{slug}'
+    template: events/_entry.twig
+    uriFormat: 'events/{slug}'
 type: channel

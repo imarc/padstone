@@ -1,14 +1,14 @@
 columnSuffix: null
-handle: blogDate
+handle: eventEndDate
 instructions: null
-name: 'Blog Date'
+name: 'Event End Date'
 searchable: false
 settings:
   max: null
   min: null
   minuteIncrement: 30
   showDate: true
-  showTime: false
+  showTime: true
   showTimeZone: false
 translationKeyFormat: null
 translationMethod: none

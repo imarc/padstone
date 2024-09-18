@@ -1,4 +1,4 @@
-{# {% import "/_macros" as macros %} #}
+{% import "/_macros" as macros %}
 {% apply spaceless %}
     {% if bodyClasses is not defined %}
         {% set bodyClasses = [] %}
@@ -29,13 +29,13 @@
                 <div class="siteHeader__content">
 
                     <div class="container">
-                        <a class="siteHeader__brand" href="/">
-                            {# {{ macros.responsiveImage(
+                        {# <a class="siteHeader__brand" href="/">
+                            {{ macros.responsiveImage(
                                 craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
                                 { transform: { height: 48, width: 96, mode: 'fit' } }
-                            ) }} #}
+                            ) }}
                             <div class="siteHeader__siteName">{{ siteName }}</div>
-                        </a>
+                        </a> #}
                     </div>
 
                     {% include "/_partials/navigation" %}
@@ -48,9 +48,9 @@
 
             <main role="main">
 
-                {# {% for alert in craft.entries.section('alerts').all() %}
+                {% for alert in craft.entries.section('alerts').all() %}
                     {% include "/_partials/alert" with { alert: alert } %}
-                {% endfor %} #}
+                {% endfor %}
 
                 {% block content %}{% endblock %}
 
@@ -60,9 +60,9 @@
 
         </div>
 
-        {# {% if entry is defined and entry.footerCode %}
+        {% if entry is defined and entry.footerCode %}
             {{ entry.footerCode|raw }}
-        {% endif %} #}
+        {% endif %}
 
     </body>
 </html>

@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
-handle: blogArticle
+  - 07ed78bd-f9e2-4563-a544-52dfa027178e # Alert
+handle: alerts
 maxAuthors: 1
-name: 'Blog Articles'
+name: Alerts
 previewTargets:
   -
     __assoc__:
@@ -21,7 +21,7 @@ propagationMethod: all
 siteSettings:
   52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
     enabledByDefault: true
-    hasUrls: true
-    template: blog/_entry.twig
-    uriFormat: 'blog/{slug}'
+    hasUrls: false
+    template: null
+    uriFormat: null
 type: channel

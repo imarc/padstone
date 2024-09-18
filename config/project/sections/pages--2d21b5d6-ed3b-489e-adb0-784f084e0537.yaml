@@ -1,0 +1,35 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - c59ecd1c-c856-4983-96da-bbbac954eab0 # Basic Page
+  - ca4795d4-4ac1-46d8-8a30-dea2b3369723 # News Page
+  - e737c446-0085-4bd6-b343-2d4c9e9f312e # Resources Page
+  - a5dace26-0a0c-4f88-a4ad-63c74c424a5e # Blog Page
+  - 521b80c9-0597-4ac3-b521-5e25290be644 # Team Page
+  - 117e786c-b219-4920-ac84-48665d61a724 # Contact Page
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/entry.twig
+    uriFormat: '{% if object.level == 1 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
+structure:
+  maxLevels: null
+  uid: 2e693f05-ab86-4d08-ba05-fca26ac22cb3
+type: structure

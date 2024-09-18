@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  40d44b5f-abdf-4896-b9bf-c7f559ef07e7:
+  6e8b7625-f295-457b-a541-e459049f138a:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-08-23T13:46:34+00:00'
+            dateAdded: '2024-09-18T19:01:59+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,12 +31,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: bf6d6ccb-bfb4-4b78-8e64-fdcb5ecdc8f8
+            uid: a09d07ea-30e5-44fc-936a-1ccf06c16b7f
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T19:03:26+00:00'
             elementCondition: null
             fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Select Hero
             handle: null
@@ -47,40 +47,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d9a17e8f-17d2-4dde-97a0-0c057d005c6c
-            userCondition: null
-            warning: null
-            width: 100
-        name: Hero
-        uid: 3ef4ab5f-8457-49d9-8bbb-c992bc58d5e4
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2024-08-23T14:12:50+00:00'
-            elementCondition: null
-            fieldUid: 0587c309-76fe-4928-9be3-cb2980b7908c # Content Designer
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d8690656-029f-4c66-a8c5-33f3f5c084fd
+            uid: bd7e9c80-98fa-435f-b7b8-dcce6d7069e1
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ea3807d2-7d9c-4648-9fe8-dd0a8e27122b
+        uid: 8757fe2d-7763-48e0-a556-3a66cfeba19f
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T19:03:26+00:00'
             elementCondition: null
             fieldUid: 1d7fd420-3fd4-4dc0-afca-1833e0d9a05c # SEOMatic Fields
             handle: null
@@ -91,12 +69,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f13e53ee-02dd-4383-9d97-24d326d31d4a
+            uid: 76de9c3c-1373-407a-b1d2-d51f84590b46
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T19:03:26+00:00'
             elementCondition: null
             fieldUid: 678939a0-3ca0-4044-b263-e25151ebb1df # Additional Header Code
             handle: null
@@ -107,17 +85,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 36659011-5201-424f-9acc-ea27307608a6
+            uid: ece0be33-0e59-44cd-a40e-ef70c47da6d0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T19:03:26+00:00'
+            elementCondition: null
+            fieldUid: 3e4455cb-a3c6-4a1f-aece-f5b32088a23e # Additional Footer Code
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b7054eb-daf1-4588-adc6-48c9d6fb7e07
             userCondition: null
             warning: null
             width: 100
         name: SEO
-        uid: ef1d85f0-b141-4098-a244-99988ebba7e9
+        uid: a681ecf9-eecf-4936-8233-c55a5885c08c
         userCondition: null
-handle: basicPage
+handle: resourcesPage
 hasTitleField: true
 icon: ''
-name: 'Basic Page'
+name: 'Resources Page'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -5,7 +5,7 @@
     {% include '_partials/hero' with { hero: {
         heroEyebrow: 'Blog Article',
         heroHeadline: entry.title,
-        heroIntroduction: "#{macros.commaSeparate(entry.blogAuthors)} – #{entry.blogDate|date('F jS, Y')}"
+        heroIntroduction: "#{macros.commaSeparate(entry.blogAuthors)} – #{entry.publicDate|date('F jS, Y')}"
     } } %}
 
 

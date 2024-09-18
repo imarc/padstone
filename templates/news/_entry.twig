@@ -1,0 +1,5 @@
+{% if entry.type.handle == "press" %}
+    {% redirect entry.pressMentionUrl %}
+{% else %}
+    {% include "/news/_default.twig" %}
+{% endif %}

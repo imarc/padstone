@@ -1,0 +1,15 @@
+columnSuffix: null
+handle: publicDate
+instructions: null
+name: 'Public/Sorting Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

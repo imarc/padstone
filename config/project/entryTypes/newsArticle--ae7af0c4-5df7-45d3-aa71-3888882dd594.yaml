@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  40d44b5f-abdf-4896-b9bf-c7f559ef07e7:
+  c2823c43-96cc-44b6-a469-77ffd312ec47:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-08-23T13:46:34+00:00'
+            dateAdded: '2024-09-18T16:43:12+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: bf6d6ccb-bfb4-4b78-8e64-fdcb5ecdc8f8
+            uid: 57d4713c-66d6-4c9c-af83-d40cdf6ccdfb
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:45:57+00:00'
             elementCondition: null
-            fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Select Hero
+            fieldUid: 880ea67a-2b41-468b-b4af-0e2799aee9b3 # Public/Sorting Date
             handle: null
             includeInCards: false
             instructions: null
@@ -47,18 +47,28 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d9a17e8f-17d2-4dde-97a0-0c057d005c6c
+            uid: ef00a8f6-5d22-4353-b6ea-d5df8f4d667a
             userCondition: null
             warning: null
             width: 100
-        name: Hero
-        uid: 3ef4ab5f-8457-49d9-8bbb-c992bc58d5e4
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:45:57+00:00'
+            elementCondition: null
+            fieldUid: 1734b2b5-03f5-435f-a92a-5b5e6125f9bc # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb739ee8-cb36-4f76-996a-c5de5e2889a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T16:45:57+00:00'
             elementCondition: null
             fieldUid: 0587c309-76fe-4928-9be3-cb2980b7908c # Content Designer
             handle: null
@@ -69,18 +79,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d8690656-029f-4c66-a8c5-33f3f5c084fd
+            uid: 5fcaabba-da72-41b2-82f1-65ab26b56638
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ea3807d2-7d9c-4648-9fe8-dd0a8e27122b
+        uid: aacb3770-d0cf-46aa-9a94-060d8317becb
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:45:57+00:00'
             elementCondition: null
             fieldUid: 1d7fd420-3fd4-4dc0-afca-1833e0d9a05c # SEOMatic Fields
             handle: null
@@ -91,12 +101,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f13e53ee-02dd-4383-9d97-24d326d31d4a
+            uid: d335cc1d-87af-40d0-a6f7-7952be9316ab
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:45:57+00:00'
             elementCondition: null
             fieldUid: 678939a0-3ca0-4044-b263-e25151ebb1df # Additional Header Code
             handle: null
@@ -107,17 +117,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 36659011-5201-424f-9acc-ea27307608a6
+            uid: 16572d10-f1a9-42a4-9508-2c546fa8f923
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T16:45:57+00:00'
+            elementCondition: null
+            fieldUid: 3e4455cb-a3c6-4a1f-aece-f5b32088a23e # Additional Footer Code
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 104e0782-6b26-4346-afcf-593f1752f5c2
             userCondition: null
             warning: null
             width: 100
         name: SEO
-        uid: ef1d85f0-b141-4098-a244-99988ebba7e9
+        uid: 8094a802-d552-450d-a5dc-7541ae3fcbb0
         userCondition: null
-handle: basicPage
+handle: newsArticle
 hasTitleField: true
 icon: ''
-name: 'Basic Page'
+name: 'News Article'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

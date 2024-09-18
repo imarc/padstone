@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: pressMentionUrl
+instructions: null
+name: 'Press Mention URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

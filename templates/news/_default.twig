@@ -1,0 +1,21 @@
+{% import "/_macros" as macros %}
+{% set section = 'newsEventsPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with { hero: {
+        heroEyebrow: 'News',
+        heroHeadline: entry.title,
+        heroIntroduction: entry.publicDate|date('F jS, Y'),
+    } } %}
+
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
+
+    {#
+    <div class="text-center my-5">
+        {% set index = craft.entries.section('newsEventsPage').one %}
+        <a class="btn btn-outline-secondary" href="{{ index.url }}">Return to {{ index.title }}</a>
+    </div>
+    #}
+
+
+{% endblock %}

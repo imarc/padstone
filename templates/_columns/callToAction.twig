@@ -1,0 +1,6 @@
+
+{% import "/_macros" as macros %}
+<div class="section__content">
+    {{ block.blockContent }}
+</div>
+{{ macros.renderLink (block.ctaLinkBlock.one, { class: 'section__action button -primary' })}}

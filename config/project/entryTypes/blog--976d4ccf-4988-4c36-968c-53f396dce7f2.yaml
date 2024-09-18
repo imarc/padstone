@@ -70,7 +70,7 @@ fieldLayouts:
           -
             dateAdded: '2024-08-28T15:11:10+00:00'
             elementCondition: null
-            fieldUid: 880ea67a-2b41-468b-b4af-0e2799aee9b3 # Blog Date
+            fieldUid: 880ea67a-2b41-468b-b4af-0e2799aee9b3 # Public/Sorting Date
             handle: null
             includeInCards: false
             instructions: null

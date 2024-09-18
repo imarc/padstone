@@ -1,7 +1,7 @@
-{# {% import "/_macros" as macros %} #}
+{% import "/_macros" as macros %}
 {% extends "_layouts/main" %}
 {% block content %}
     {% include '_partials/hero' with { hero: entry.selectHero.one } %}
 
-    {# {{ macros.renderAllBlocks(entry.contentDesigner) }} #}
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
 {% endblock %}

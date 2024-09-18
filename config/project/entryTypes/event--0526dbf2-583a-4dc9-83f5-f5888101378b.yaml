@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  40d44b5f-abdf-4896-b9bf-c7f559ef07e7:
+  ea84b4b7-06a8-4f02-9933-f73ae4a40608:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-08-23T13:46:34+00:00'
+            dateAdded: '2024-09-18T16:33:32+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,30 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: bf6d6ccb-bfb4-4b78-8e64-fdcb5ecdc8f8
+            uid: 68903edd-a7a4-408d-b513-d8bb24749f31
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:38:42+00:00'
             elementCondition: null
-            fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Select Hero
+            fieldUid: 341a7fb3-3ede-4a66-8e32-25c38b986f8a # Event Start Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6083a0fb-b0d3-4550-a855-e1c0ee66fb3f
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-18T16:38:42+00:00'
+            elementCondition: null
+            fieldUid: 6695f59b-2131-411b-9ed2-35f957256c1a # Event End Date
             handle: null
             includeInCards: false
             instructions: null
@@ -47,18 +63,50 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d9a17e8f-17d2-4dde-97a0-0c057d005c6c
+            uid: 6e824743-c02d-4b2c-b22a-8d37b42baa41
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-18T16:38:42+00:00'
+            elementCondition: null
+            fieldUid: f155fe39-4c36-418a-829b-8e9bfcd3fa1d # Event Location
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3880b582-6778-46de-b9e5-3c501cee7c5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T16:38:42+00:00'
+            elementCondition: null
+            fieldUid: 1734b2b5-03f5-435f-a92a-5b5e6125f9bc # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 487d91f8-d92c-42b6-a8f7-5c26b643b20f
             userCondition: null
             warning: null
             width: 100
         name: Hero
-        uid: 3ef4ab5f-8457-49d9-8bbb-c992bc58d5e4
+        uid: 06a0af26-9155-4550-96d8-d319faabf257
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:38:42+00:00'
             elementCondition: null
             fieldUid: 0587c309-76fe-4928-9be3-cb2980b7908c # Content Designer
             handle: null
@@ -69,18 +117,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d8690656-029f-4c66-a8c5-33f3f5c084fd
+            uid: 8eaf4301-724f-40e7-b096-7613b289ca3e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ea3807d2-7d9c-4648-9fe8-dd0a8e27122b
+        uid: da24b561-9e70-4886-a47c-98dd4dd23072
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:38:42+00:00'
             elementCondition: null
             fieldUid: 1d7fd420-3fd4-4dc0-afca-1833e0d9a05c # SEOMatic Fields
             handle: null
@@ -91,12 +139,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f13e53ee-02dd-4383-9d97-24d326d31d4a
+            uid: 1f47aa22-6a8e-478e-b1fd-f5fa751a37cf
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T14:12:50+00:00'
+            dateAdded: '2024-09-18T16:38:42+00:00'
             elementCondition: null
             fieldUid: 678939a0-3ca0-4044-b263-e25151ebb1df # Additional Header Code
             handle: null
@@ -107,17 +155,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 36659011-5201-424f-9acc-ea27307608a6
+            uid: 55463759-56db-4cd5-ae6f-52b3c4cbfeeb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T16:38:42+00:00'
+            elementCondition: null
+            fieldUid: 3e4455cb-a3c6-4a1f-aece-f5b32088a23e # Additional Footer Code
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2d8843c-eb60-437e-85c2-ad7a0bd47dfb
             userCondition: null
             warning: null
             width: 100
         name: SEO
-        uid: ef1d85f0-b141-4098-a244-99988ebba7e9
+        uid: c8a5850b-437e-416e-b047-6912e81d20d0
         userCondition: null
-handle: basicPage
+handle: event
 hasTitleField: true
 icon: ''
-name: 'Basic Page'
+name: Event
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
