@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: cards
+instructions: 'If you leave any of the fields empty, the cards will try to pull the information from the link.'
+name: Cards
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 37bd2e2c-ad20-4890-921c-d205d7db4424 # Image Card
+  includeTableView: false
+  maxEntries: null
+  minEntries: 1
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

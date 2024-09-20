@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: sharedBlock
+handle: sharedBlocks
 instructions: null
-name: 'Shared Block'
+name: 'Shared Blocks'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -11,7 +11,7 @@ settings:
   minRelations: null
   selectionLabel: 'Add a shared block'
   showCardsInGrid: false
-  showSiteMenu: false
+  showSiteMenu: true
   sources:
     - 'section:89839c0a-8c2a-4ef9-900f-709a4c4b77c1' # Shared Blocks
   targetSiteId: null

@@ -1,4 +1,4 @@
-dateModified: 1726690287
+dateModified: 1726759033
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -25,7 +25,7 @@ meta:
     1d7fd420-3fd4-4dc0-afca-1833e0d9a05c: 'SEOMatic Fields' # SEOMatic Fields
     2b4abe74-65a4-4e1f-a224-ab97e43e54d9: 'Column Span' # Column Span
     2d21b5d6-ed3b-489e-adb0-784f084e0537: Pages # Pages
-    3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Block' # Shared Block
+    3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Blocks' # Shared Blocks
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
     6a005e55-a63c-448a-824a-d719b3f55f46: Events # Events
@@ -37,6 +37,7 @@ meta:
     8b3d1977-ab5a-4ca6-94cb-685acdef3921: 'Navigation Link' # Navigation Link
     8d9c514a-a4e4-41ce-9b73-4425594f2885: 'Logo Grid' # Logo Grid
     9c45b436-5b6e-489c-b3cd-4c442876d973: 'Blog Categories' # Blog Categories
+    37bd2e2c-ad20-4890-921c-d205d7db4424: 'Image Card' # Image Card
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
     52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
@@ -84,6 +85,7 @@ meta:
     b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
     bd4fb97b-3b89-49bc-9fdb-c20917cb6776: 'Featured Image' # Featured Image
     bda4be51-a390-429b-856f-8ebd7905b00a: 'Hero Eyebrow' # Hero Eyebrow
+    bda481fe-9876-436b-80ba-07294176972e: Cards # Cards
     c0144003-4e0b-4e16-8a3e-85fab98c9798: 'Nav Link' # Nav Link
     c5febe1f-c523-44a4-894a-81eb0ea96691: 'Primary Navigation' # Primary Navigation
     c6cce9ed-155f-4196-95bf-f8dde0bff9b1: 'Navigation Groups' # Navigation Groups

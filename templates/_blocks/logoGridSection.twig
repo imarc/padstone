@@ -1,0 +1,19 @@
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/basicSection" %}
+
+{% block content %}
+    <div class="section__content">
+        {% for icon in block.logos.all() %}
+            <div class="section__item">
+                {# {% if icon.icon.count %}
+                    {{ macros.responsiveImage(icon.icon.one, { pictureClass: 'section__icon' }) }}
+                {% else %}
+                    <svg viewBox="0 0 1 1" style="background: #0002"></svg>
+                {% endif %}
+                {{ icon.label }} #}
+                {{ macros.responsiveImage(icon, { pictureClass: 'section__icon' }) }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

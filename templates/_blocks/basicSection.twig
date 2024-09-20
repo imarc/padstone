@@ -27,11 +27,13 @@
 
             {% block content %}
                 <div class="section__content section__grid">
-                    {% for subblock in block.subBlocks.all() %}
-                        <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
-                            {{ macros.renderColumn(subblock) }}
-                        </div>
-                    {% endfor %}
+                    {% if block.subBlocks %}
+                        {% for subblock in block.subBlocks.all() %}
+                            <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
+                                {{ macros.renderColumn(subblock) }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
                 </div>
             {% endblock %}
 
@@ -46,12 +48,7 @@
                         {% endif %} #}
                         {% if block.ctaLinkBlock[0] %}
                             <div class="section__actions">
-                                <a href="{{ block.ctaLinkBlock[0].ctaLink }}" 
-                                    {{ block.ctaLinkBlock[0].generalToggleOff ? 'target="_new"' : '' }}
-                                    class="section__action button -primary"
-                                >
-                                    {{ block.ctaLinkBlock[0].title }}
-                                </a>
+                                {{ macros.renderLink (block.ctaLinkBlock.one, { class: 'section__action button -primary' })}}
                             </div>
                         {% endif %}
                     </div>

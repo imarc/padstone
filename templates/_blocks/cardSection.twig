@@ -1,0 +1,40 @@
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/basicSection" %}
+
+{% block content %}
+    <div class="section__content">
+        {% for card in block.cards.all() %}
+            {% set cardData = {
+                headline: card.headline,
+                image: card.image.one,
+                content: card.blockContent
+            } %}
+            {% if card.ctaLinkBlock|length %}
+                {% set ctaLink = card.ctaLinkBlock.one %}
+                {% if ctaLink.ctaLink.type == "entry" %}
+                    {% set element = ctaLink.ctaLink.element %}
+                    {% if element.type == "blogArticle" or element.type == "resource" %}
+                        {% set cardData = {
+                            headline: element.title,
+                            image: element.featuredImage,
+                            content: element.abstract
+                        }|merge(cardData) %}
+                    {% endif %}
+                {% endif %}
+                <a href="{{ ctaLink.ctaLink.value }}" 
+                    class="section__action button -primary" {{ ctaLink.generalToggleOff ? 'target="_new"' }}>
+            {% endif %}
+            <div class="section__item">
+                {% if card.image|length %}
+                    {{ macros.responsiveImage(card.image.one, { pictureClass: 'section__icon' }) }}
+                {% endif %}
+                <h3>{{ cardData.headline }}</h3>
+                <p>{{ cardData.content }}</p>
+            </div>
+            {% if card.ctaLinkBlock|length %}
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}

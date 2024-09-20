@@ -5,11 +5,10 @@
 {% macro renderBlock(block) %}{% apply spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedSection' %}
-        {% for subblock in block.sharedSection.all() %}
+        {% for subblock in block.sharedBlocks.all() %}
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
-        <h3>{{ block.type }}</a>
         {% include ['/_blocks/' ~ block.type, '/_blocks/basicSection'] with {block: block} %}
     {% endif %}
 {% endapply %}{% endmacro %}
@@ -91,7 +90,10 @@
 {% endapply %}{% endmacro %}
 
 {% macro renderLink(ctaLink, options) %}{% apply spaceless %}
-    <a href="{{ ctaLink.ctaLink.value }}" class="{{ options.class }}" {{ ctaLink.generalToggleOff ? 'target="_new"' }}>{{ ctaLink.linkText ?: ctaLink.ctaLink.type == 'entry' ? ctaLink.ctaLink.label }}</a>
+    <a href="{{ ctaLink.ctaLink.value }}" 
+        class="{{ options.class }}" {{ ctaLink.generalToggleOff ? 'target="_new"' }}>
+            {{ ctaLink.linkText ?: ctaLink.ctaLink.type == 'entry' ? ctaLink.ctaLink.label }}
+    </a>
 {% endapply %}{% endmacro %}
 
 
