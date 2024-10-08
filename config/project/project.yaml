@@ -1,4 +1,4 @@
-dateModified: 1726759033
+dateModified: 1728322061
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -21,15 +21,18 @@ fs:
 meta:
   __names__:
     0df95f6f-3e7a-4765-84de-aa8585234118: 'Rich Text' # Rich Text
+    0e078940-3caa-4bc2-84d3-c91c225cb26d: 'Full Bio' # Full Bio
     1a4b6ea7-240d-4c7c-86ab-ce16b55afc24: Image # Image
     1d7fd420-3fd4-4dc0-afca-1833e0d9a05c: 'SEOMatic Fields' # SEOMatic Fields
     2b4abe74-65a4-4e1f-a224-ab97e43e54d9: 'Column Span' # Column Span
     2d21b5d6-ed3b-489e-adb0-784f084e0537: Pages # Pages
     3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Blocks' # Shared Blocks
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
+    4d061e2c-2f20-41b2-9e12-d11cb1fded64: 'Resource Topics' # Resource Topics
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
     6a005e55-a63c-448a-824a-d719b3f55f46: Events # Events
     6a91581a-a1ff-430b-bbeb-32b131747531: Video # Video
+    6bbbf1c9-7abf-470b-aefc-dd2290683a72: 'Fake Tag Group' # Fake Tag Group
     6d180003-5ba0-4422-bebb-53f81069962e: '404 Page' # 404 Page
     6eef63ba-f2a8-4833-8b72-8a6a9d931f84: 'Navigation Links' # Navigation Links
     07ed78bd-f9e2-4563-a544-52dfa027178e: Alert # Alert
@@ -55,6 +58,7 @@ meta:
     524e948c-591f-4e9e-a275-77e3e0709b86: Person # Person
     0526dbf2-583a-4dc9-83f5-f5888101378b: Event # Event
     0587c309-76fe-4928-9be3-cb2980b7908c: 'Content Designer' # Content Designer
+    656e0885-03be-47ab-8531-be346ddbfc62: 'Resource with Detail Page' # Resource with Detail Page
     880ea67a-2b41-468b-b4af-0e2799aee9b3: 'Public/Sorting Date' # Public/Sorting Date
     976d4ccf-4988-4c36-968c-53f396dce7f2: 'Blog Article' # Blog Article
     1734b2b5-03f5-435f-a92a-5b5e6125f9bc: Abstract # Abstract
@@ -73,9 +77,12 @@ meta:
     678939a0-3ca0-4044-b263-e25151ebb1df: 'Additional Header Code' # Additional Header Code
     866793e8-8646-486d-95c2-24ad883f46a7: 'Sub Blocks' # Sub Blocks
     5217297d-5931-41b9-a7a4-a797bb339952: Logos # Logos
+    69705774-001e-4d43-b76b-77eef5713301: 'Resource Types' # Resource Types
+    75857680-696a-4d59-a666-5a8b8091a36c: 'Direct Link' # Direct Link
     a4a2b151-58b8-4935-a0ac-f0dc8216e02d: Card # Card
     a5dace26-0a0c-4f88-a4ad-63c74c424a5e: 'Blog Page' # Blog Page
     a7b59ddf-b06d-4b04-8d73-c52609ae95d3: Anchor # Anchor
+    ab4da4c8-eed9-4c18-9a65-6cad926fcd59: Resources # Resources
     adcddd0f-78ee-4ed7-bd80-ee4a2ebf8094: 'Blog Authors' # Blog Authors
     ae7af0c4-5df7-45d3-aa71-3888882dd594: 'News Article' # News Article
     af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
@@ -87,14 +94,17 @@ meta:
     bda4be51-a390-429b-856f-8ebd7905b00a: 'Hero Eyebrow' # Hero Eyebrow
     bda481fe-9876-436b-80ba-07294176972e: Cards # Cards
     c0144003-4e0b-4e16-8a3e-85fab98c9798: 'Nav Link' # Nav Link
+    c2f04b66-544d-449f-a4de-c5605f121afd: 'Team Member' # Team Member
     c5febe1f-c523-44a4-894a-81eb0ea96691: 'Primary Navigation' # Primary Navigation
     c6cce9ed-155f-4196-95bf-f8dde0bff9b1: 'Navigation Groups' # Navigation Groups
     c7e04c91-15c1-4081-8d31-44ae7bf6eae9: 'Nav Link' # Nav Link
     c46e2b3b-387a-4540-9120-ab0a15b0bbae: Homepage # Homepage
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Basic Page' # Basic Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
+    c98b12f3-a5c4-4329-b13c-d59e97981978: Team # Team
     c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
+    cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
     d6c3cdc6-9af4-4a8e-9008-56fc71426603: 'Padstone Craft 5' # Padstone Craft 5
     d41feaed-9c5d-41dc-9629-8e9af1b89cbf: Authors # Authors
     d56b297b-0f38-4dee-abc3-57498c544f41: 'Select Hero' # Select Hero
@@ -103,6 +113,7 @@ meta:
     dab85477-9d74-4135-9cd2-a0e109e07314: Subheadline # Subheadline
     dc246a2f-01d9-4061-b2a1-bc1e6b6edf94: 'Card Section' # Card Section
     dd58c3c0-4afc-4b83-a606-73c8bc282d99: Image # Image
+    de18a008-1675-459b-bc1e-5f684096b0c2: 'Resource Topics' # Resource Topics
     e6d0b9a2-4248-482d-a0b4-bd27ba89b22a: 'CTA Link' # CTA Link
     e49eee72-0b33-43a2-81d6-31fb4ab32346: 'Alt Text' # Alt Text
     e737c446-0085-4bd6-b343-2d4c9e9f312e: 'Resources Page' # Resources Page

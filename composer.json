@@ -5,14 +5,18 @@
     {
         "type": "vcs",
         "url": "https://github.com/imarc/craft-regex-field.git"
-    }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/sfsmfc/element-api.git"
+  }
   ],
   "require": {
     "craftcms/ckeditor": "^4.1.0",
     "craftcms/cms": "^5.0.0",
     "craftcms/contact-form": "^3.1.0",
     "craftcms/contact-form-honeypot": "^2.1.0",
-    "craftcms/element-api": "^4.1.0",
+    "craftcms/element-api": "dev-patch-1",
     "craftcms/feed-me": "^6.3.0",
     "imarc/craft-entry-toc": "^1.0",
     "imarc/craft-regex-field": "dev-master",

@@ -8,7 +8,7 @@ settings:
   entryTypes:
     - e6d0b9a2-4248-482d-a0b4-bd27ba89b22a # CTA Link
   includeTableView: false
-  maxEntries: null
+  maxEntries: 1
   minEntries: null
   pageSize: null
   propagationKeyFormat: null

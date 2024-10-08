@@ -1,0 +1,58 @@
+{% import "/_macros" as macros %}
+{% set section = 'resourcesPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with entry %}
+
+    <url-params v-slot="{ params, setParam }">
+        <element-collection :params="params" url="/resources.json" v-slot="{ isFetching, elements: resources, meta: { pagination = {} } = {} }">
+            <div class="section resultsSection">
+                <div class="section__container container">
+
+                    <div class="filters">
+                        <div class="filters__filter select">
+                            <label for="resource_type" class="select__label">
+                                Filter by Type:
+                            </label>
+                            <select class="select__select" name="resource_type" v-model="params.type">
+                                <option :value="null" selected>All</option>
+                                {% for type in craft.categories.group('resourceTypes').all %}
+                                    <option value="{{ type.slug }}">{{ type.title }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="filters__filter select">
+                            <label for="resource_topic" class="select__label">
+                                Filter by Topic:
+                            </label>
+                            <select class="select__select" name="resource_topic" v-model="params.topic">
+                                <option :value="null" selected>All</option>
+                                {% for topic in craft.categories.group('resourceTopics').all %}
+                                    <option value="{{ topic.slug }}">{{ topic.title }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div v-if="resources && !resources.length && !isFetching" class="" v-cloak>No resources found.</div>
+                        <div v-else v-for="resource in resources" :key="resource.id" class="cards__card card">
+                            <div class="card__container">
+                                <img class="card__background" :src="resource.image" :alt="resource.imageAltText">
+                                <div class="card__tag -overlay" v-text="resource.type"></div>
+                                <h4 class="card__heading">
+                                    <a :href="resource.url" v-text="resource.title"></a>
+                                </h4>
+                                <div class="card__content" v-html="resource.description"></div>
+                                <div class="card__actions -attached">
+                                    <a :href="resource.url" v-text="resource.cta" class="card__action button -primary"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </resources>
+    </url-params>
+
+{% endblock %}

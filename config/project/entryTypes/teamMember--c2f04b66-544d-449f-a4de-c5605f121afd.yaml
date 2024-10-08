@@ -1,0 +1,115 @@
+color: null
+fieldLayouts:
+  8f92a08a-5b9e-4fbb-b1e3-7869d88f25ca:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-27T14:45:11+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Person Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 5dab2279-0010-4581-91a2-d1f34dc7886b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T14:48:09+00:00'
+            elementCondition: null
+            fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22c8db41-9ee0-4512-9c18-55652364c430
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T14:48:09+00:00'
+            elementCondition: null
+            fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb88ece6-3058-45b2-8a1e-9d18e7aa6b52
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T14:48:09+00:00'
+            elementCondition: null
+            fieldUid: 1734b2b5-03f5-435f-a92a-5b5e6125f9bc # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Abstract/Short Bio'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a4a9f83-6e17-4a1d-9199-1cb8f12e4d0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T14:48:09+00:00'
+            elementCondition: null
+            fieldUid: 0e078940-3caa-4bc2-84d3-c91c225cb26d # Full Bio
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc8b235c-c1ec-45a3-9311-b7080ae3fff5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 24a41b41-b2d4-443a-8842-a25b852b20f1
+        userCondition: null
+handle: teamMember
+hasTitleField: true
+icon: ''
+name: 'Team Member'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

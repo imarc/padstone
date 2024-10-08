@@ -1,0 +1,51 @@
+{% import "/_macros" as macros %}
+{% set section = 'blogPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% include '_partials/hero' with entry %}
+
+    <url-params v-slot="{ params, setParam }">
+        <element-collection :params="params" url="/blogs.json" v-slot="{ isFetching, elements: blogs, meta: { pagination = {} } = {} }">
+            <div class="section resultsSection">
+                <div class="section__container container">
+
+                    <div class="filters">
+                        <div class="filters__filter select">
+                            <label for="_type" class="select__label">
+                                Filter by Category:
+                            </label>
+
+                            <select class="select__select" name="resource_type" v-model="params.category">
+                                <option :value="null" selected>All</option>
+                                {% for category in craft.categories.group('blogCategories').all %}
+                                    <option value="{{ category.slug }}">{{ category.title }}</option>
+                                {% endfor %}
+                            </select>
+                            {#
+                            <blog-categories v-slot="{ blogCategories }">
+                            </blog-categories>
+                            #}
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div v-if="blogs && !blogs.length && !isFetching" class="" v-cloak>No articles found.</div>
+                        <div v-else v-for="article in blogs" :key="article.id" class="cards__card card">
+                            <div class="card__container">
+                                <img class="card__background" :src="article.image" :alt="article.imageAltText">
+                                <div class="card__tag" v-text="article.date"></div>
+                                <h4 class="card__heading">
+                                    <a :href="article.url" v-text="article.title"></a>
+                                </h4>
+                                <div class="card__content" v-html="article.description"></div>
+                                <div class="card__actions -attached">
+                                    <a :href="article.url" v-text="article.cta" class="card__action button -primary"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </element-collection>
+    </url-params>
+{% endblock %}

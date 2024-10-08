@@ -1,0 +1,30 @@
+{% import "/_macros" as macros %}
+{% set section = 'resourcesPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+    {% if entry.resourceTopics.count and entry.publicDate %}
+        {% set introduction = "#{macros.commaSeparate(entry.resourceTopics)} – #{entry.publicDate|date('F jS, Y')}" %}
+    {% elseif entry.resourceTopics.count %}
+        {% set introduction = macros.commaSeparate(entry.resourceTopics) %}
+    {% elseif entry.publicDate %}
+        {% set introduction = entry.publicDate|date('F jS, Y') %}
+    {% endif %}
+
+    {% include '_partials/hero' with { hero: {
+        eyebrow: macros.commaSeparate(entry.resourceTypes),
+        headline: entry.title,
+        introduction: introduction,
+        backgroundImage: entry.featuredImage.one
+    } } %}
+
+    <div class="section">
+        <div class="section__container container">
+            <div class="section__introduction -emphasized">
+                {{ entry.abstract }}
+            </div>
+        </div>
+    </div>
+
+    {{ macros.renderAllBlocks(entry.contentDesigner) }}
+
+{% endblock %}

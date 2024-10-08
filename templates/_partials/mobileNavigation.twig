@@ -1,0 +1,42 @@
+<bp-mobile-navigation title="Example Menu">
+    <ul class="mobileNav__list">
+        {% for navItem in primaryNavigation.navigationLinks.all %}
+            {% set navLink = navItem.navLink and navItem.navLink.one ? navItem.navLink.one : null %}
+            <li class="mobileNav__item">
+                {% if navItem.navigationLinks and navItem.navigationLinks.count() %}
+                    {% if navLink.ctaLink and navLink.ctaLink.value %}
+                        <a href="{{ navLink.ctaLink.value }}" id="primaryNav-{{ navLink.title|kebab }}">{{ navLink.title }}</a>
+                    {% else %}
+                        <a href="" id="primaryNav-{{ navLink.title|kebab }}">{{ navLink.title }}</a>
+                    {% endif %}
+                    {% if navItem.navigationLinks.count() %}
+                        <ul>
+                            {% for subNavItem in navItem.navigationLinks.all %}
+                                {% set subNavLink = subNavItem.navLink and subNavItem.navLink.one ? subNavItem.navLink.one : null %}
+                                <li>
+                                    {% if subNavLink.ctaLink and subNavLink.ctaLink.value %}
+                                        <a href="{{ subNavLink.ctaLink.value }}" {{ not subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.title }}</a>
+                                    {% else %}
+                                        {{ subNavItem.title }}
+                                    {% endif %}
+                                    {% if subNavItem.navigationLinks and subNavItem.navigationLinks.count() %}
+                                        <ul>
+                                            {% for subSubNavItem in subNavItem.navigationLinks.all() %}
+                                                {% set subSubNavLink = subSubNavItem.navLink and subSubNavItem.navLink.one ? subSubNavItem.navLink.one : null %}
+                                                {% if subSubNavLink.ctaLink and subSubNavLink.ctaLink.value %}
+                                                    <li>
+                                                        <a href="{{ subSubNavLink.ctaLink.value }}" {{ not subSubNavLink.generalToggleOff ? 'target="_new"' }}>{{ subSubNavLink.title }}</a>
+                                                    </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</bp-mobile-navigation>

@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 656e0885-03be-47ab-8531-be346ddbfc62 # Resource with Detail Page
+  - 75857680-696a-4d59-a666-5a8b8091a36c # Direct Link
+handle: resources
+maxAuthors: 1
+name: Resources
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    enabledByDefault: true
+    hasUrls: true
+    template: resources/_entry.twig
+    uriFormat: 'resources/{slug}'
+type: channel

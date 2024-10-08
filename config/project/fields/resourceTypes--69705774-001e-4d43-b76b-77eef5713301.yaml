@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: resourceTypes
+instructions: null
+name: 'Resource Types'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a Type'
+  showCardsInGrid: false
+  showSiteMenu: true
+  source: 'group:cb8e727f-8cfd-4234-a8aa-3e11420418cb' # Resource Types
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Categories

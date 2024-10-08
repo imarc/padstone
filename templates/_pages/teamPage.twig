@@ -1,0 +1,23 @@
+{% set section = 'teamPage' %}
+{% extends "_layouts/main" %}
+{% block content %}
+     {% include '_partials/hero' with { hero: entry.selectHero.one } %}
+
+    <div class="container">
+        <div class="tiles">
+            {% for person in craft.entries.section('team').all() %}
+                <div class="tiles__tile card">
+                    <div class="card__container">
+                        <div class="card__heading">
+                            {{ person.title }},
+                            {{ person.jobTitle }}
+                        </div>
+                        <div class="card__content">
+                            {{ person.abstract }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

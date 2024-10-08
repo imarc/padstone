@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  acf83cbc-7ab8-4a36-b66f-75cdb3c28402:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-10-07T17:15:39+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 8c3430fa-b6e0-4c53-a517-73e4ff309059
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fc1bbc7d-4b30-4685-b720-c15094340887
+        userCondition: null
+handle: resourceTypes
+name: 'Resource Types'
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    hasUrls: true
+    template: null
+    uriFormat: 'resource-types/{slug}'
+structure:
+  maxLevels: 1
+  uid: 7f7f7c8f-da11-4d31-bfea-2308ad9bd304
