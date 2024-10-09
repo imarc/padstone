@@ -76,7 +76,7 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ac362b64-3c7b-4615-9fc7-863b713b1835
@@ -118,7 +118,7 @@ fieldLayouts:
           -
             dateAdded: '2024-10-07T17:27:41+00:00'
             elementCondition: null
-            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
+            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # Resource Link
             handle: null
             includeInCards: false
             instructions: null

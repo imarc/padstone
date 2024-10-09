@@ -86,7 +86,7 @@ fieldLayouts:
           -
             dateAdded: '2024-09-19T15:09:24+00:00'
             elementCondition: null
-            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
+            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # Resource Link
             handle: null
             includeInCards: false
             instructions: null

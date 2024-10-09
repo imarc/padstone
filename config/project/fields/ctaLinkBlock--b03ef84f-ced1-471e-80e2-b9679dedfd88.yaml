@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: ctaLinkBlock
 instructions: null
-name: 'CTA Link'
+name: 'Resource Link'
 searchable: false
 settings:
   createButtonLabel: 'New CTA'

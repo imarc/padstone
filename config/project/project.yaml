@@ -1,4 +1,4 @@
-dateModified: 1728322061
+dateModified: 1728502683
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -87,7 +87,7 @@ meta:
     ae7af0c4-5df7-45d3-aa71-3888882dd594: 'News Article' # News Article
     af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
     b017369d-2ebc-4b60-8af4-d1777deb0450: 'Press Mention URL' # Press Mention URL
-    b03ef84f-ced1-471e-80e2-b9679dedfd88: 'CTA Link' # CTA Link
+    b03ef84f-ced1-471e-80e2-b9679dedfd88: 'Resource Link' # Resource Link
     b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Basic Section' # Basic Section
     b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
     bd4fb97b-3b89-49bc-9fdb-c20917cb6776: 'Featured Image' # Featured Image
