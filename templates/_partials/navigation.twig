@@ -16,7 +16,7 @@
                                     {% set subNavLink = subNavItem.navLink and subNavItem.navLink.one ? subNavItem.navLink.one : null %}
                                     <li class="linkGroups__item">
                                         {% if subNavLink.ctaLink and subNavLink.ctaLink.value %}
-                                            <a href="{{ subNavLink.ctaLink.value }}" class="linkGroups__link" {{ subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.title }}</a>
+                                            <a href="{{ subNavLink.ctaLink.value }}" class="linkGroups__link" {{ not subNavLink.generalToggleOff ? 'target="_new"' }}>{{ subNavLink.title }}</a>
                                         {% elseif subNavItem.navigationLinks and subNavItem.navigationlinks.count() %}
                                             <div class="linkGroups__heading">{{ subNavItem.title }}</div>
                                         {% else  %}
