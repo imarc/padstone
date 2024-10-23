@@ -55,13 +55,22 @@ class Module extends \yii\base\Module
             if ($devMode) {
                 Craft::$app->view->twig->setCache(false);
             }
-            // Instantiate + register our local twig extensions
+            // Instantiate + register our local twig extension
             Craft::$app->view->registerTwigExtension(new ArrayExtension());
             Craft::$app->view->registerTwigExtension(new CookieExtension());
             Craft::$app->view->registerTwigExtension(new InflectionExtension());
             Craft::$app->view->registerTwigExtension(new LinkingExtension());
             Craft::$app->view->registerTwigExtension(new PathingVariablesExtension());
             Craft::$app->view->registerTwigExtension(new WrapEmbedsExtension());
+            Event::on(
+                CraftVariable::class,
+                CraftVariable::EVENT_INIT,
+                function (Event $event) {
+                    /** @var CraftVariable $variable */
+                    $variable = $event->sender;
+                    $variable->set('kindling', ::class);
+                }
+            );
         }
     }
 }
