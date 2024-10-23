@@ -1,0 +1,14 @@
+.DS_Store
+/.env
+/.idea
+/config/license.key*
+/node_modules
+/storage
+/vendor
+/web/cpresources
+/web/css
+/web/fonts
+/web/assets
+/web/js
+/web/media
+mix-manifest.json
