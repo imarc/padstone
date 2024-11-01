@@ -7,7 +7,7 @@ class LinkingExtension extends \Twig\Extension\AbstractExtension
      */
     public function getName()
     {
-        return 'Kindling Linking Extension';
+        return 'Twig Linking Extension';
     }
     /**
      * @return array

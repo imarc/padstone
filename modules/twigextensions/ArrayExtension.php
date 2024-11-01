@@ -7,7 +7,7 @@ class ArrayExtension extends \Twig\Extension\AbstractExtension
      */
     public function getName()
     {
-        return 'Kindling Array Extension';
+        return 'Twig Array Extension';
     }
     /**
      * @return array

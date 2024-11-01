@@ -102,7 +102,7 @@ class InflectionExtension extends \Twig\Extension\AbstractExtension
      */
     public function getName()
     {
-        return 'Kindling Inflection Extension';
+        return 'Twig Inflection Extension';
     }
     /**
      * Returns filters defined by this extension.

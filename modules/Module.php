@@ -10,6 +10,7 @@ use modules\twigextensions\InflectionExtension;
 use modules\twigextensions\LinkingExtension;
 use modules\twigextensions\PathingVariablesExtension;
 use modules\twigextensions\WrapEmbedsExtension;
+use modules\variables\UtilityVariable;
 
 /**
  * Custom module class.
@@ -68,7 +69,7 @@ class Module extends \yii\base\Module
                 function (Event $event) {
                     /** @var CraftVariable $variable */
                     $variable = $event->sender;
-                    $variable->set('kindling', ::class);
+                    $variable->set('utility', UtilityVariable::class);
                 }
             );
         }

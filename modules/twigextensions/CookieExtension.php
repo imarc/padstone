@@ -11,7 +11,7 @@ class CookieExtension extends \Twig\Extension\AbstractExtension
      */
     public function getName()
     {
-        return 'Kindling Cookie Manipulation';
+        return 'Twig Cookie Manipulation';
     }
     /**
      * @return array

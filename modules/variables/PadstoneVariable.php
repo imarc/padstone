@@ -1,12 +1,12 @@
 <?php
 namespace modules\variables;
 
-class PadstoneVariable
+class UtilityVariable
 {
     /**
      * Debuging helper method returns a text string stating the microtime required to execute the script 
      *
-     *     {{ craft.kindling.executionTime }}
+     *     {{ craft.utility.executionTime }}
      */
     public function executionTime()
     {

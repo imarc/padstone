@@ -62,7 +62,7 @@ class PathingVariablesExtension extends \Twig\Extension\AbstractExtension implem
     }
     public function getName()
     {
-        return 'Kindling Path Generated Variables';
+        return 'Twig Path Generated Variables';
     }
     /**
      * Global Twig variables defined by this extension.
