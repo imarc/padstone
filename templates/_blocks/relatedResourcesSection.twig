@@ -1,0 +1,63 @@
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/basicSection" %}
+
+{% set cardDataArray = [] %}
+    {% for card in block.cards.limit(3) %}
+        {% set cardData = [{
+            headline: card.headline,
+            image: card.image.one,
+            content: card.blockContent,
+            ctaLink: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.ctaLink.value : null,
+            newWindow: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.generalToggleOff : false
+        }] %}
+        {% if card.ctaLinkBlock|length %}
+            {% set ctaLink = card.ctaLinkBlock.one %}
+            {% if ctaLink.ctaLink.type == "entry" %}
+                {% set element = ctaLink.ctaLink.element %}
+                {% set cardData = [{
+                    headline: card.headline ?: element.title,
+                    image: card.image.one ?: element.featuredImage|length ? element.featuredImage.one : null,
+                    content: card.blockContent ?: element.abstract,
+                    ctaLink: element.url,
+                    newWindow: false
+                }] %}
+            {% endif %}
+        {% endif %}
+        {% set cardDataArray = cardDataArray|merge(cardData) %}
+    {% endfor %}
+    {% if cardDataArray|length < 3 and block.resourceTypes|length %}
+        {% set resources = craft.entries.relatedTo(block.resourceTypes).orderBy('postDate DESC').limit(3 - cardDataArray|length) %}
+        {% for resource in resources %}
+            {% set cardDataArray = cardDataArray|merge([{
+                headline: resource.title,
+                image: resource.featuredImage|length ? resource.featuredImage.one : null,
+                content: resource.abstract,
+                ctaLink: resource.url,
+                newWindow: false
+            }]) %}
+        {% endfor %}
+    {% endif %}
+
+
+{% block content %}
+    <div class="section__content">
+        {% for card in cardDataArray %}
+
+            {% if card.ctaLink %}
+                <a href="{{ card.ctaLink }}" 
+                    class="section__action button -primary" {{ card.newWindow ? 'target="_new"' }}>
+            {% endif %}
+            <div class="section__item">
+                {% if card.image %}
+                    {{ macros.responsiveImage(card.image, { pictureClass: 'section__icon' }) }}
+                {% endif %}
+                <h3>{{ card.headline }}</h3>
+                <p>{{ card.content }}</p>
+            </div>
+            {% if card.ctaLink|length %}
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}

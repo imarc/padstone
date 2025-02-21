@@ -15,11 +15,11 @@
                 {% if ctaLink.ctaLink.type == "entry" %}
                     {% set element = ctaLink.ctaLink.element %}
                     {% if element.type == "blogArticle" or element.type == "resource" %}
-                        {% set cardData = {
+                        {% set cardData = cardData|merge({
                             headline: element.title,
                             image: element.featuredImage,
                             content: element.abstract
-                        }|merge(cardData) %}
+                        }) %}
                     {% endif %}
                 {% endif %}
                 <a href="{{ ctaLink.ctaLink.value }}" 

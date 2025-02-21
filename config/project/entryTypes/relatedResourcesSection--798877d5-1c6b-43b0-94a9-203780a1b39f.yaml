@@ -70,7 +70,7 @@ fieldLayouts:
         name: Content
         uid: 1e0f9fb0-1248-4845-b07d-4425ff5f2033
         userCondition: null
-handle: relatedResources
+handle: relatedResourcesSection
 hasTitleField: true
 icon: ''
 name: 'Related Resources'
