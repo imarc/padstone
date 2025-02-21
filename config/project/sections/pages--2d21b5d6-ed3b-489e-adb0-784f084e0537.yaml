@@ -28,7 +28,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _pages/entry.twig
-    uriFormat: '{% if object.level == 1 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
+    uriFormat: '{% if object.level == 0 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
 structure:
   maxLevels: null
   uid: 2e693f05-ab86-4d08-ba05-fca26ac22cb3

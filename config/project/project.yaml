@@ -1,4 +1,4 @@
-dateModified: 1728502683
+dateModified: 1740083886
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -75,6 +75,7 @@ meta:
     115744a1-512d-495b-ba38-959ebed6cec4: 'Job Title' # Job Title
     307187bf-968f-42da-b579-dbc76b7a9fa6: 'Shared Section' # Shared Section
     678939a0-3ca0-4044-b263-e25151ebb1df: 'Additional Header Code' # Additional Header Code
+    798877d5-1c6b-43b0-94a9-203780a1b39f: 'Related Resources' # Related Resources
     866793e8-8646-486d-95c2-24ad883f46a7: 'Sub Blocks' # Sub Blocks
     5217297d-5931-41b9-a7a4-a797bb339952: Logos # Logos
     69705774-001e-4d43-b76b-77eef5713301: 'Resource Types' # Resource Types
@@ -87,7 +88,7 @@ meta:
     ae7af0c4-5df7-45d3-aa71-3888882dd594: 'News Article' # News Article
     af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
     b017369d-2ebc-4b60-8af4-d1777deb0450: 'Press Mention URL' # Press Mention URL
-    b03ef84f-ced1-471e-80e2-b9679dedfd88: 'Resource Link' # Resource Link
+    b03ef84f-ced1-471e-80e2-b9679dedfd88: 'CTA Link' # CTA Link
     b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Basic Section' # Basic Section
     b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
     bd4fb97b-3b89-49bc-9fdb-c20917cb6776: 'Featured Image' # Featured Image
@@ -102,6 +103,7 @@ meta:
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Basic Page' # Basic Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
     c98b12f3-a5c4-4329-b13c-d59e97981978: Team # Team
+    c164bcf4-0226-4e9f-bfe0-ca08ad8056b5: Full # Full
     c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
     cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
