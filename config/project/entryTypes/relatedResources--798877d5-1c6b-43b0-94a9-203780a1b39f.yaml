@@ -1,0 +1,83 @@
+color: pink
+fieldLayouts:
+  518d3f01-9f6b-4d25-b977-7b1dab3ffca4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-20T20:34:51+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ec5128dd-6ec0-45b1-914b-29e7d839538b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-20T20:37:39+00:00'
+            elementCondition: null
+            fieldUid: bda481fe-9876-436b-80ba-07294176972e # Cards
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Resources
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c04bdc7-64fc-4900-9898-9a289bcc11ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-20T20:37:39+00:00'
+            elementCondition: null
+            fieldUid: 69705774-001e-4d43-b76b-77eef5713301 # Resource Types
+            handle: null
+            includeInCards: false
+            instructions: 'Resource types to pull from if 3 resources aren''t selected above.'
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a593664b-656c-48b7-a1da-c61ae55e3ec6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1e0f9fb0-1248-4845-b07d-4425ff5f2033
+        userCondition: null
+handle: relatedResources
+hasTitleField: true
+icon: ''
+name: 'Related Resources'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
