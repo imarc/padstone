@@ -1,4 +1,4 @@
-dateModified: 1740167915
+dateModified: 1744727580
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -186,7 +186,7 @@ system:
   edition: solo
   live: true
   name: 'Padstone Craft 5'
-  schemaVersion: 5.3.0.2
+  schemaVersion: 5.6.0.2
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
