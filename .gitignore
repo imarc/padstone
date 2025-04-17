@@ -1,0 +1,6 @@
+config/license.key*
+storage
+vendor
+web/cpresources
+.aider*
+.env
