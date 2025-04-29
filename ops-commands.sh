@@ -3,26 +3,8 @@ ops-craft() {
     ops shell php ./craft "$@"
 }
 
-ops-configure() {
-    cmd-doc "Interactively configure ops settings in your .env file."
-
-    PROJECT=$(ops project name)
-
-    DEFAULT=${DB_SERVER:-postgres16}
-    read -p "Database Server [$DEFAULT]: " INPUT
-    ops env CRAFT_DB_SERVER ${INPUT:-$DEFAULT}
-
-    DEFAULT=${PROJECT//[^a-zA-Z0-9]/_}
-    DEFAULT=${DB_DATABASE:-$DEFAULT}
-    read -p "Database Name [$DEFAULT]: " INPUT
-    ops env CRAFT_DB_DATABASE ${INPUT:-$DEFAULT}
-}
-
 ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
-
-    echo "Remove ignores from .gitignore..."
-    sed -i '/Remove these Ignores/Q' .gitignore
 
     ops install
 }
@@ -35,19 +17,22 @@ ops-install() {
         cp .env.example .env
     fi
 
+    PROJECT=$(ops project name)
+
+    DEFAULT=${DB_SERVER:-postgres16}
+    read -p "Database Server [$DEFAULT]: " INPUT
+    ops env CRAFT_DB_SERVER ${INPUT:-$DEFAULT}
+
+    DEFAULT=${PROJECT//[^a-zA-Z0-9]/_}
+    DEFAULT=${DB_DATABASE:-$DEFAULT}
+    read -p "Database Name [$DEFAULT]: " INPUT
+    ops env CRAFT_DB_DATABASE ${INPUT:-$DEFAULT}
+
     echo "Calling $(tput smul)composer install$(tput rmul)..."
     composer install
 
     echo "Calling $(tput smul)npm install$(tput rmul)..."
     npm install
-
-    if [ -t 1 ]; then
-        echo "Calling $(tput smul)ops configure$(tput rmul)..."
-        ops configure
-    else
-        echo You may wish to run $(tput smul)ops configure$(tput rmul) after this.
-    fi
-
 
     # get updated settings; unusual syntax for bash 3.2.57
     source /dev/stdin <<<"$(ops env)"
