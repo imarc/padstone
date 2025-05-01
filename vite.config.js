@@ -28,7 +28,6 @@ export default defineConfig({
          * These are the entry points to include. These will also need to get
          * included into your project.
          */
-        '/resources/styles/index.scss',
         '/resources/js/index.js',
       ],
     }),
