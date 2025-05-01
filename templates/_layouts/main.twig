@@ -24,18 +24,25 @@
     </head>
     <body class="{{ bodyClasses|join(' ') }}" >
 
-        <div id="root">
-            <header class="siteHeader">
+        <div id="app">
+            <header class="siteHeader container">
                 <div class="siteHeader__content">
 
                     <div class="container">
-                        {# <a class="siteHeader__brand" href="/">
-                            {{ macros.responsiveImage(
-                                craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
-                                { transform: { height: 48, width: 96, mode: 'fit' } }
-                            ) }}
+                        <a class="siteHeader__brand" href="/">
+                            {#
+                                {{ macros.responsiveImage(
+                                        craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
+                                        { transform: { height: 48, width: 96, mode: 'fit' } }
+                                        ) }}
+                            #}
+                            <svg viewBox="0 0 300 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="133" fill="#8000FF"/>
+                            </svg>
+
+
                             <div class="siteHeader__siteName">{{ siteName }}</div>
-                        </a> #}
+                            </a>
                     </div>
 
                     {% include "/_partials/navigation" %}
