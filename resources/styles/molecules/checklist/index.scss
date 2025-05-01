@@ -1,0 +1,24 @@
+.checklist {
+  align-items: start;
+  display: grid;
+  gap: 1em;
+  grid: auto / 1fr auto;
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    display: contents;
+  }
+
+  &__input {
+    aspect-ratio: 1;
+    cursor: pointer;
+    grid-column: 1;
+    height: 1.5em;
+  }
+
+  &__label {
+    cursor: pointer;
+    grid-column: 2;
+  }
+}

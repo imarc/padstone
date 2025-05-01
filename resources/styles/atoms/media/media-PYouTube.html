@@ -1,0 +1,35 @@
+<div class="media">
+  <p-you-tube>
+    <template #placeholder="{ playPause, modifier }">
+      <picture class="media__mask" :class="modifier">
+        <source srcset="https://unsplash.it/300/150?random&gravity=center" media="(min-width: 768px)">
+        <source srcset="https://unsplash.it/267/150?random&gravity=center" media="(min-width: 480px)">
+        <img class="lazyload" srcset="https://unsplash.it/267/150?random&gravity=center" alt="">
+      </picture>
+      <button class="media__trigger" :class="modifier" @click="playPause">
+        <span class="srOnly">play</span>
+        <svg class="media__icon icon -circle" viewBox="0 0 96 96"><use href="/main-icons-sprite.svg#play" /></svg>
+      </button>
+    </template>
+    <iframe src="//www.youtube.com/embed/FKWwdQu6_ok?enablejsapi=1&html5=1" frameborder="0" allowfullscreen tabindex="-1"></iframe>
+  </p-you-tube>
+</div>
+
+<h5>media__trigger -keepVisible</h5>
+
+<div class="media">
+  <p-you-tube>
+    <template #placeholder="{ playPause, modifier }">
+      <picture class="media__mask" :class="modifier">
+        <source srcset="https://unsplash.it/300/150?random&gravity=center" media="(min-width: 768px)">
+        <source srcset="https://unsplash.it/267/150?random&gravity=center" media="(min-width: 480px)">
+        <img class="lazyload" srcset="https://unsplash.it/267/150?random&gravity=center" alt="">
+      </picture>
+      <button class="media__trigger -keepVisible" :class="modifier" @click="playPause">
+        <span class="srOnly">play</span>
+        <svg class="media__icon icon -circle" viewBox="0 0 96 96"><use href="/main-icons-sprite.svg#play" /></svg>
+      </button>
+    </template>
+    <iframe src="//www.youtube.com/embed/FKWwdQu6_ok?enablejsapi=1&html5=1" frameborder="0" allowfullscreen tabindex="-1"></iframe>
+  </p-you-tube>
+</div>

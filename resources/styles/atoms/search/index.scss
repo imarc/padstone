@@ -1,0 +1,26 @@
+@use "../input";
+
+.search {
+  @extend .input;
+  border-radius: 3em;
+  padding: 0;
+  display: inline grid;
+  grid: auto / auto auto;
+  align-items: center;
+  justify-content: start;
+
+  &__icon {
+    color: var(--color-gray-400);
+    margin-left: 1em;
+
+  }
+
+  &:focus-within &__icon {
+    color: inherit;
+  }
+
+  &__input {
+    padding-left: .5em;
+    border: 0;
+  }
+}

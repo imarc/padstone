@@ -1,0 +1,26 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.featuredTestimonials {
+    &__title {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-size: fluid-rems(2, 3);
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    &__titleIcon {
+        width: fluid-rems(2, 4);
+        height: fluid-rems(2, 4);
+    }
+
+    &__wrapper {
+        display: grid;
+        gap: 2rem;
+
+        @include at(md) {
+          grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+        }
+    }
+}

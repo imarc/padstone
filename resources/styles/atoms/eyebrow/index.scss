@@ -1,0 +1,16 @@
+.eyebrow {
+  color: var(--accent-color);
+  display: inline flow-root;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &.-fill {
+    background: var(--accent-color);
+    border-radius: .25em;
+    color: var(--accent-color-text);
+    font-size: .75rem;
+    padding: .25em 1.5em;
+  }
+}

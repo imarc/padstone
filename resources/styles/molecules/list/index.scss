@@ -1,0 +1,70 @@
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  --list-line-height: 1.125;
+  line-height: var(--list-line-height);
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+
+  > li {
+    margin-bottom: 1em;
+  }
+
+  &:where(ul) {
+    > li::before {
+      position: absolute;
+      background: var(--accent-color);
+      border-radius: 1em;
+      content: '';
+      display: inline grid;
+      height: .5em;
+      width: 1em;
+      translate: -1.5em calc(.5em * (var(--list-line-height) - .5));
+    }
+
+  }
+
+  ul, ol {
+    margin-top: 1rem;
+    padding-left: 3rem;
+  }
+
+  &:where(ul ul) {
+    & > li::before {
+      height: .25em;
+      translate: -1.5em calc(.5em * (var(--list-line-height) - .25));
+      background: var(--accent-color-200);
+    }
+  }
+
+  &:where(ol) {
+    list-style: decimal;
+
+    > li::marker {
+      font-weight: bold;
+      color: var(--accent-color);
+    }
+  }
+
+  &:where(ol ol) {
+    list-style: lower-alpha;
+  }
+
+  dt {
+    margin-left: -1.5em;
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+
+  dd {
+    margin: 0 0 1em;
+  }
+}

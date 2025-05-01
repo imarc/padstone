@@ -1,0 +1,46 @@
+.field {
+  $b: &;
+
+  display: grid;
+  gap: .5em;
+  line-height: 1.5;
+  margin-bottom: 1.25em;
+  user-select: none;
+  vertical-align: top;
+  width: max-content;
+
+  &__help {
+    font-size: max(.75em, .75rem);
+    color: var(--color-gray-600);
+  }
+
+  &:has(input:not(:disabled)) {
+    cursor: pointer;
+  }
+
+  &.-inline {
+    grid: auto / auto auto;
+    align-items: center;
+
+    #{$b}__help {
+      grid-column: 2;
+    }
+  }
+
+  &.-wide {
+    width: 100%;
+  }
+
+  &.-stacked {
+    grid-auto-flow: column;
+  }
+
+  &.-reversed {
+    grid-auto-flow: row dense;
+
+    input,
+    #{$b}__input {
+      grid-column: 2;
+    }
+  }
+}

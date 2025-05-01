@@ -1,0 +1,146 @@
+<nav class="navigation" v-directionals>
+  <ul class="navigation__list">
+    <li class="navigation__item" v-directionals>
+      <p-openable class="navigation__button" label="Default Dropdown" :close-on-blur="false">
+        <div class="navigation__dropdown dropdown grid -columns-7">
+          <div class="cell -span-2">
+            <span class="h5">Heading</span>
+            <ul class="dropdown__list">
+              <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+              <li class="dropdown__item">
+                <p-openable class="dropdown__button link" label="Nested Dropdown" :close-on-blur="false" name="subdropdown">
+                  <template #toggle>
+                    Dropdown
+                    <svg viewBox="0 0 18 12"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+                  </template>
+                  <div class="dropdown -toRight">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+                    </ul>
+                  </div>
+                </p-openable>
+              </li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+            </ul>
+          </div>
+          <div class="cell -span-2">
+            <span class="h5">Heading</span>
+            <ul class="dropdown__list">
+              <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+              <li class="dropdown__item">
+                <p-openable class="dropdown__button link" label="Nested Dropdown" :close-on-blur="false" name="subdropdown">
+                  <template #toggle>
+                    Dropdown
+                    <svg viewBox="0 0 18 12"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+                  </template>
+                  <div class="dropdown -toRight">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+                      <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+                    </ul>
+                  </div>
+                </p-openable>
+              </li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+              <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+            </ul>
+          </div>
+          <div class="cell -span-3">
+            <div class="card" style="max-width: 300px">
+                <div class="card__content">
+                    <span class="card__title h3">
+                        Title of card
+                    </span>
+                    <a href="#" class="card__cta link -wide">
+                        Standard Text Link
+                        <svg class="card__ctaIcon link__icon">
+                            <use href="/main-icons-sprite.svg#arrow-right" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="card__imageWrapper">
+                    <img src="https://panoramicireland.com/media/k2/items/cache/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg" alt="" class="card__image">
+                </div>
+            </div>
+          </div>
+        </div>
+      </p-openable>
+    </li>
+    <li class="navigation__item" v-directionals>
+      <p-openable class="navigation__button" label="Centered Dropdown" :close-on-blur="false">
+        <div class="navigation__dropdown -center dropdown">
+          <ul class="dropdown__list">
+            <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+          </ul>
+        </div>
+      </p-openable>
+    </li>
+    <li class="navigation__item -wide" v-directionals>
+      <p-openable class="navigation__button" label="Full-width Dropdown" :close-on-blur="false">
+        <div class="navigation__dropdown dropdown container">
+          <div class="grid -columns-3">
+            <div class="cell">
+              <h3>Heading</h3>
+              <p>
+                Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+              </p>
+              <ul class="dropdown__list">
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+              </ul>
+            </div>
+            <div class="cell">
+              <h3>Heading</h3>
+              <p>
+                Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+              </p>
+              <ul class="dropdown__list">
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+              </ul>
+            </div>
+            <div class="cell">
+              <h3>Heading</h3>
+              <p>
+                Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+              </p>
+              <ul class="dropdown__list">
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+                <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </p-openable>
+    </li>
+    <li class="navigation__item" v-directionals>
+      <p-openable class="navigation__button" label="Right Aligned Dropdown" :close-on-blur="false">
+        <div class="navigation__dropdown -rightAligned dropdown">
+          <ul class="dropdown__list">
+            <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Consectetur asperiores</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Amet porro.</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__link">Ipsum dolorem</a><li>
+          </ul>
+        </div>
+      </p-openable>
+    </li>
+  </ul>
+</nav>

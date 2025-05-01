@@ -44,6 +44,8 @@
         }
     ],
     "dependencies": {
+        "@imarc/pronto": "^2.0.0-rc.6",
+        "@vitejs/plugin-vue": "^5.2.3",
         "@vueuse/core": "^11.0.0",
         "imarc-boilerplate": "^6.0.2"
     },
@@ -56,6 +58,7 @@
         "build": "vite build && fractal build"
     },
     "devDependencies": {
+        "@imarc/vitrine": "^1.0.4",
         "eslint": "^8.17.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.25.4",

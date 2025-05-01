@@ -1,0 +1,56 @@
+@forward 'multiselect';
+
+select {
+  background: var(--color-gray-50);
+  border-radius: 5px;
+  border: 2px solid var(--color-gray-500);
+  color: var(--color-gray-800);
+  display: inline grid;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  outline-offset: 2px;
+  padding: .5em 2em .5em 1em;
+}
+
+
+.select {
+  $b: &;
+
+  align-items: center;
+  display: inline grid;
+  justify-items: end;
+  margin-bottom: 1em;
+
+  &::after {
+    background: var(--accent-color);
+    content: '';
+    height: 1em;
+    margin-right: .75em;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 21'%3E%3Cpath d='M34 2L18 18L2 2' fill='none' stroke='black' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") center no-repeat;
+    position: absolute;
+    width: 1em;
+  }
+
+  &__input {
+    appearance: none;
+    margin: 0;
+    padding-right: 2.5em;
+
+    &:has(#{$b}__placeholder:checked) {
+      color: var(--color-gray-400);
+
+      option {
+        color: var(--color-gray-800);
+      }
+    }
+  }
+
+  option {
+    font-style: normal;
+  }
+
+  &__placeholder {
+    color: var(--color-gray-500);
+  }
+
+}

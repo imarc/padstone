@@ -1,0 +1,16 @@
+.dialog,
+dialog {
+  border-radius: 1rem;
+  border: 0;
+  box-shadow: var(--root-box-shadow-med);
+  color: var(--root-color);
+  padding: 1.5rem 2rem;
+  max-width: 36rem;
+  inset: 0;
+
+  &__close {
+    position: absolute;
+    right: .75rem;
+    top: .75rem;
+  }
+}

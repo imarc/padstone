@@ -1,0 +1,17 @@
+.sitemap {
+  &__list {
+    display: grid;
+    gap: var(--root-gap);
+    grid: auto / repeat(auto-fit, minmax(11rem, 1fr));
+  }
+
+  &__heading {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__sublist {
+    display: grid;
+    gap: 1rem;
+  }
+}

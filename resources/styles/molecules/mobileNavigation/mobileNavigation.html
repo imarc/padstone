@@ -1,0 +1,112 @@
+<nav class="mobileNavigation">
+  <p-openable class="mobileNavigation__menu button -circle -ghost" label="menu">
+    <template #toggle>
+        <svg class="button__icon icon"><use href="/main-icons-sprite.svg#bars" /></svg>
+    </template>
+    <template v-slot="{ click }">
+      <div class="mobileNavigation__pane" v-scrolllock>
+        <div class="mobileNavigation__title">
+          Menu
+        </div>
+        <ul class="mobileNavigation__list" v-directionals>
+          <li>
+            <p-openable class="mobileNavigation__button" name="submenu">
+              <template #toggle>
+                Submenu
+                <svg class="icon"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+              </template>
+              <template v-slot="{ click }">
+                <div class="mobileNavigation__pane">
+                  <div class="mobileNavigation__title">
+                    <div class="mobileNavigation__actions">
+                      <button class="button -circle -ghost" @click.stopPropagation="click" tabindex="-1">
+                        <svg class="icon"><use href="/main-icons-sprite.svg#chevron-left" /></svg>
+                      </button>
+                    </div>
+                    Menu
+                  </div>
+                  <ul class="mobileNavigation__list" v-directionals>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+                  </ul>
+                </div>
+              </template>
+            </p-openable>
+          </li>
+          <li>
+            <p-openable class="mobileNavigation__button" name="submenu">
+              <template #toggle>
+                STUFF
+                <svg class="icon"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+              </template>
+              <template v-slot="{ click }">
+                <div class="mobileNavigation__pane">
+                  <div class="mobileNavigation__title">
+                    <div class="mobileNavigation__actions">
+                      <button class="button -circle -ghost" @click.stopPropagation="click" tabindex="-1">
+                        <svg class="icon"><use href="/main-icons-sprite.svg#chevron-left" /></svg>
+                      </button>
+                    </div>
+                    Menu
+                  </div>
+                  <ul class="mobileNavigation__list" v-directionals>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+                    <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+                  </ul>
+                </div>
+              </template>
+            </p-openable>
+          </li>
+          <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+          <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+          <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Amet impedit cumque</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Consectetur vitae temporibus!</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Consectetur doloremque reiciendis</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Dolor pariatur rerum.</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Ipsum a officiis.</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Dolor unde debitis.</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Adipisicing delectus velit</a>
+          </li>
+          <li class="mobileNavigation__item">
+            <a class="mobileNavigation__link" href="">Amet aliquam voluptates</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobileNavigation__closeButton">
+        <button class="button -circle -ghost" @click="click">
+          <svg class="button__icon icon"><use href="/main-icons-sprite.svg#close" /></svg>
+        </button>
+      </div>
+    </template>
+  </p-openable>
+</nav>
+
+<p>Elit nesciunt repellat aut exercitationem minus Ea doloribus asperiores quos aliquam repellat Et dolor minima eaque nostrum dolore animi. Debitis expedita assumenda dolores tenetur recusandae Ea nesciunt totam tenetur excepturi</p>
+<p>Lorem nisi eveniet asperiores itaque fugit nam Iusto culpa enim aspernatur dolore error Doloribus eligendi ab id consequatur ratione Maxime quae et esse corrupti magni. Totam exercitationem dolor voluptate soluta.</p>
+<p>Adipisicing lorem beatae recusandae nisi id Facere distinctio laboriosam similique est quas. Laboriosam quam veniam impedit nostrum rem. Reiciendis praesentium totam nobis tenetur adipisci. Fuga odit corporis ducimus ipsam alias.</p>
+<p>Consectetur dolor labore modi eaque delectus Accusamus eligendi in sequi sapiente enim Corporis laudantium inventore odit minima culpa Eum ducimus molestiae sapiente assumenda facere ex. Quaerat itaque aliquam aspernatur quo</p>
+<p>Adipisicing nesciunt similique illum sint iure, aliquam? Ipsam fugiat labore explicabo itaque error? Nulla sequi alias ab provident vitae Commodi quasi iste omnis provident saepe Exercitationem dolorum quod magni inventore</p>
+<p>Sit fugit a distinctio ipsa fugiat. Totam in tempore tempora laboriosam rem Facilis fugit excepturi iure eius doloribus, expedita numquam? Suscipit commodi iusto cum assumenda voluptatum, unde nihil Ab molestiae?</p>
+<p>Elit voluptate quos velit nostrum tempora minima. Perspiciatis odit voluptatibus placeat laudantium at Corporis illo saepe ducimus explicabo alias. Quia tenetur corporis odit dicta esse laboriosam Placeat dolore velit necessitatibus?</p>
+<p>Elit ipsam alias maxime pariatur tenetur. Culpa a aspernatur quas blanditiis culpa. Laudantium exercitationem accusantium corrupti vero rerum! Eligendi corporis eveniet eos dignissimos facilis Tempora ab cum sapiente vero placeat.</p>
+<p>Consectetur distinctio temporibus error voluptate nisi recusandae odio quis Enim quam officia ipsam vel consequatur beatae laudantium pariatur est? Distinctio id quos ea repellendus quo Impedit nulla necessitatibus in quisquam.</p>
+<p>Lorem optio eligendi quis architecto laboriosam Similique possimus fugit dolorum sequi atque dolores. Obcaecati corporis labore accusamus fuga voluptatem inventore laboriosam quod perspiciatis. Magni sapiente accusamus veniam harum obcaecati. Quo</p>
+

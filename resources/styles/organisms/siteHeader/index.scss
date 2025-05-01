@@ -1,0 +1,69 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.siteHeader {
+  padding: var(--gap) 0;
+
+  &__content {
+    display: grid;
+    grid: "logo search mobile-nav" auto / auto 1fr auto;
+    align-items: center;
+    gap: 0 var(--gap);
+  }
+
+  &__logo {
+    grid-area: logo;
+    display: grid;
+    padding: .5rem 0;
+    align-self: stretch;
+
+    svg {
+      height: 100%;
+    }
+  }
+
+  &__utilityNav {
+    display: none;
+    grid-area: utility-nav;
+    font-size: .75rem;
+    justify-self: end;
+    gap: 1.5rem;
+  }
+
+  &__primaryNav {
+    display: none;
+    grid-area: primary-nav;
+    justify-self: end;
+  }
+
+  &__search {
+    justify-self: end;
+    width: #{fluid-rems(8, 8, 16)};
+  }
+
+  @include at(md) {
+    &__content {
+      grid: "logo utility-nav search" auto
+            "primary-nav primary-nav primary-nav" auto
+            / auto 1fr auto;
+    }
+
+    &__primaryNav,
+    &__utilityNav {
+      display: grid;
+      justify-self: end;
+    }
+
+    &__mobileNav {
+      display: none;
+    }
+  }
+
+  @include at(lg) {
+    &__content {
+      grid: "logo utility-nav search" auto
+            "logo spacer spacer" auto
+            "logo primary-nav primary-nav" auto
+            / auto 1fr auto;
+    }
+  }
+}

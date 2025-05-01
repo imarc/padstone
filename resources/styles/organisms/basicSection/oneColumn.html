@@ -1,0 +1,62 @@
+<section class="section container basicSection">
+  <header class="section__header">
+    <h2 class="h6 accent-primary">Heading Placeholder</h2>
+    <h3>
+      Ipsum nihil earum blanditiis dolore mollitia Adipisci voluptate.
+    </h3>
+    <p>
+      Elit numquam corrupti magni sapiente non? Tenetur corporis ipsa voluptatibus vitae numquam Exercitationem distinctio vero nesciunt fuga molestiae Repellat dignissimos cumque est quisquam veniam Repellat nobis earum quo distinctio repellendus!
+    </p>
+  </header>
+  <div class="basicSection__content">
+    <div class="basicSection__media media accent-primary" style="--aspect-ratio: 634 / 368">
+      <p-lazy>
+        <video class="media__content" inert controls autoplay playsinline>
+          <source data-src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <template #placeholder="{ load, modifier }">
+          <picture class="media__mask" :class="modifier">
+            <img class="media__maskImg" srcset="https://unsplash.it/634/368?random&gravity=center" alt="">
+          </picture>
+          <button class="media__trigger" @click="load" :class="modifier">
+            <svg class="media__icon icon" viewBox="0 0 96 96"><use href="/main-icons-sprite.svg#play" /></svg>
+          </button>
+        </template>
+      </p-lazy>
+    </div>
+  </div>
+  <footer class="section__footer">
+    <p>
+      Amet omnis eos omnis error beatae deleniti. Veritatis tempore vero!
+    </p>
+    <div class="actions">
+      <a class="button" href="#">Learn More</a>
+    </div>
+  </footer>
+</section>
+
+<section class="section container basicSection accent-primary">
+  <header class="section__header">
+    <h2 class="h6">Heading Placeholder</h2>
+    <h3>
+      Ipsum nihil earum blanditiis dolore mollitia Adipisci voluptate.
+    </h3>
+  </header>
+  <div class="basicSection__content">
+    <div class="basicSection__image">
+      <div class="placeholder" style="aspect-ratio: 634 / 368"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section container basicSection accent-secondary">
+  <div class="basicSection__content">
+    <div class="basicSection__text">
+      <h2 class="h6">Heading Placeholder</h2>
+      <h3>Adipisicing tempora culpa a unde molestiae. Tenetur ducimus facilis.</h3>
+      <p>Mauris euismod sit amet dolor vel vehicula. Nulla lacinia augue sem, accumsan luctus nunc facilisis Duis ex libero, auctor a semper in, condimentum sit amet enim. Vestibulum et consectetur arcu. <a href="#">Nam nunc justo,</a> varius id metus eu praesent dictum sit amet quam efficitur placerat. </p>
+    </div>
+  </div>
+</section>

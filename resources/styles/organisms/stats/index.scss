@@ -1,0 +1,75 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.stats {
+  $b: &;
+
+  background-color: var(--color-gray-50);
+
+  @include at(md) {
+    --columns: 2;
+  }
+
+  @include at(lg) {
+    --columns: 3;
+  }
+
+  &__content {
+    display: grid;
+    grid: auto / subgrid;
+    gap: var(--gap);
+  }
+
+  &__stat {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #fff;
+  }
+
+  &__icon {
+    width: 5rem;
+  }
+
+  &__value {
+    font-size: fluid-rems(2, 3, 4);
+    font-weight: 700;
+    line-height: 1.125;
+  }
+
+  &.-tiles {
+    @include at(md) {
+      --columns: 2;
+    }
+
+    @include at(lg) {
+      --columns: 4;
+    }
+  }
+
+  &.-withCallout {
+    align-items: center;
+    display: grid;
+
+    #{$b}__callout {
+      justify-items: center;
+      text-align: center;
+
+      @include at(lg) {
+        justify-items: start;
+        text-align: left;
+      }
+    }
+
+    @include at(lg) {
+      #{$b}__callout {
+        grid-column: main / span 1;
+      }
+
+      #{$b}__content {
+        grid-column: 3 / span 2;
+      }
+    }
+  }
+}

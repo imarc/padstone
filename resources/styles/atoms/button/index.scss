@@ -1,0 +1,84 @@
+.button {
+  $b: &;
+
+  align-items: center;
+  background-color: var(--accent-color);
+  border-radius: 3em;
+  border: var(--root-border-width) solid var(--accent-color);
+  color: var(--accent-color-text);
+  cursor: pointer;
+  display: inline flex;
+  font-weight: 700;
+  gap: 1em;
+  line-height: 1;
+  padding: calc(1em - var(--root-border-width)) calc(2em - var(--root-border-width));
+  text-decoration: none;
+  transition: background var(--root-ease-out-fast), border-color var(--root-ease-out-fast);
+
+  &__icon {
+    width: 1em;
+    height: 1em;
+    margin: -.25em 0;
+
+    &.-large {
+      width: 2em;
+      height: 2em;
+    }
+  }
+
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: var(--accent-color-700);
+    border-color: var(--accent-color-700);
+  }
+
+  &[aria-disabled="true"],
+  &[disabled],
+  &.-disabled {
+    --accent-color: var(--root-color-inactive);
+    cursor: initial;
+    pointer-events: none;
+  }
+
+  &.-outline {
+    background: #0000;
+    color: var(--accent-color);
+
+    &:hover {
+      color: var(--accent-color-700);
+    }
+  }
+
+  &.-outline-fill {
+    @extend .-outline;
+    &:hover {
+      background-color: var(--accent-color);
+      border-color: var(--accent-color);
+      color: var(--accent-color-text);
+    }
+  }
+
+  &.-ghost {
+    background: #0000;
+    border-color: #0000;
+    color: var(--accent-color);
+
+    &:hover {
+      background-color: var(--accent-color-50);
+    }
+  }
+
+  &.-square,
+  &.-circle {
+    display: inline grid;
+    height: 3em;
+    padding: 0;
+    place-content: center;
+    width: 3em;
+  }
+
+  &.-square {
+    border-radius: 0;
+  }
+}

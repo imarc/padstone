@@ -1,0 +1,83 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.hero {
+  $b: &;
+
+  background: var(--accent-color);
+  color: var(--accent-color-contrast);
+
+  &__content {
+    display: grid;
+    grid: auto / subgrid;
+    gap: 1rem var(--root-gap);
+    align-items: center;
+
+    > :first-child:last-child {
+      grid-column: 1 / -1;
+    }
+  }
+
+
+  // Natural content order for mobile
+  &__image {
+    order: 1;
+  }
+  &__testimonial {
+    order: 2;
+  }
+  &__media {
+    order: 3;
+  }
+  &__text {
+    order: 4;
+    padding: 2rem 0;
+  }
+  &__cta {
+    order: 5;
+  }
+
+  &__text,
+  &__image,
+  &__media,
+  &__cta,
+  &__testimonial {
+    @include at(md) {
+      order: unset;
+      grid-column: span var(--span, 1);
+    }
+  }
+
+  @include at(md) {
+    --columns: 2;
+  }
+
+  &.-padded {
+    padding: 5rem 0;
+
+    #{$b}__text {
+      padding: 0;
+    }
+  }
+
+  &.-bleed {
+    #{$b}__content {
+      grid-column: main / wide;
+
+      > :nth-child(2) {
+        grid-column: span 2;
+      }
+    }
+  }
+
+  &.-center {
+    #{$b}__content {
+      justify-items: center;
+      text-align: center;
+    }
+    #{$b}__text {
+      padding: 4rem 0;
+      max-width: fluid-rems(40, 50);
+      justify-items: center;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/**
+ * this is a component specific property for animating.
+ */
+@property --tab__button-box-shadow {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+/**
+ * @uses PTabs
+ */
+.tabs {
+  $b: &;
+
+  &__tablist {
+    display: flex;
+    gap: 3rem;
+    border: solid var(--color-gray-300);
+    border-width: 0 0 2px;
+  }
+
+  &__button {
+    background: #0000;
+    border: 0;
+    box-shadow: 0 var(--tab__button-box-shadow) var(--accent-color) inset;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.5rem;
+    outline-offset: 2px;
+    padding: 0 0 8px;
+    transition:
+      color var(--root-duration-fast) var(--root-ease-out),
+      --tab__button-box-shadow var(--root-duration-fast) var(--root-ease-out);
+
+    &:hover {
+      --tab__button-box-shadow: -2px;
+      box-shadow: 0 var(--tab__button-box-shadow) var(--accent-color-400) inset;
+      color: var(--color-gray-900);
+    }
+
+    &.-selected {
+      --tab__button-box-shadow: -8px;
+      color: var(--color-gray-900);
+    }
+  }
+
+  &.-vertical {
+    display: grid;
+    grid: auto / auto 1fr;
+
+    #{$b}__tablist {
+      flex-direction: column;
+      border-width: 0 2px 0 0;
+      gap: 2rem;
+    }
+
+    #{$b}__button {
+      padding: 0 1rem 0 0;
+      text-align: right;
+      box-shadow: var(--tab__button-box-shadow) 0 var(--accent-color) inset;
+    }
+  }
+
+  &.-solid {
+    #{$b}__tablist {
+      border: 0;
+      gap: .5rem;
+    }
+    #{$b}__button {
+      white-space: nowrap;
+      background: var(--color-gray-100);
+      border-radius: .5rem;
+      box-shadow: 0px 1px 1px 0px var(--color-gray-200);
+      padding: .5rem 1rem;
+      margin-bottom: .5rem;
+
+      &:hover {
+        background: #fff;
+        box-shadow: var(--root-box-shadow-low);
+      }
+
+      &.-selected {
+        background: #fff;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 .5rem 0 #fff;
+      }
+    }
+
+    #{$b}__panel {
+      background: #fff;
+    }
+  }
+}

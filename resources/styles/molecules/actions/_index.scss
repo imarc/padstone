@@ -1,0 +1,15 @@
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  &__action {
+    margin-bottom: 0;
+  }
+
+  &.-spaceBetween {
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,27 @@
+.icon {
+  --icon-color: var(--accent-color);
+  aspect-ratio: 1;
+  height: 1.5em;
+
+  &.-square,
+  &.-circle {
+    background: var(--accent-color);
+    --icon-color: var(--icon-stroke-color);
+    display: inline grid;
+    padding: .3125em;
+  }
+
+  &.-square {
+    border-radius: .25em;
+  }
+
+  &.-circle {
+    /* Using mask-image to avoid clipping the icons. */
+    mask: radial-gradient(closest-side, #fff calc(100% - 1px), #0000);
+  }
+
+  &.-light {
+    --icon-color: var(--accent-color-700);
+    background: var(--accent-color-300);
+  }
+}

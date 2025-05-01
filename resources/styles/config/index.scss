@@ -1,0 +1,173 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+/**
+ * @imports
+ */
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@100..900&display=swap");
+
+:root {
+  /**
+   * Typography
+   */
+
+  --root-font-family: initial;
+  --root-font-family-heading: initial;
+
+  --root-font-size-h1: #{fluid-rems(    2,   2.5,    3)};
+  --root-font-size-h2: #{fluid-rems(  1.5,     2,  2.5)};
+  --root-font-size-h3: #{fluid-rems( 1.25,   1.5,    2)};
+  --root-font-size-h4: #{fluid-rems(1.125,  1.25,  1.5)};
+  --root-font-size-h5: #{fluid-rems(    1, 1.125, 1.25)};
+
+  --root-font-size-sm: .75rem;
+  --root-font-size-lg: 1.5rem;
+
+
+  /**
+   * Colors
+   */
+
+  /**
+   * a default neutral color scale.
+   */
+  --color-gray-50:  #f2f2f2;
+  --color-gray-100: #e5e5e5;
+  --color-gray-200: #cccccc;
+  --color-gray-300: #b3b3b3;
+  --color-gray-400: #999999;
+  --color-gray-500: #808080;
+  --color-gray-600: #666666;
+  --color-gray-700: #4c4c4c;
+  --color-gray-800: #333333;
+  --color-gray-900: #1a1a1a;
+  --color-gray-950: #0d0d0d;
+
+  /**
+   * Site/brand colors. Add more as needed.
+   */
+  --color-purple: #9933ff;
+  --color-blue: #0066FF;
+  --color-blue-700: #003D99;
+  --color-aqua: #00CCCC;
+  --color-aqua-700: #009999;
+
+  /**
+   * Default accent color.
+   */
+  --accent-color: var(--color-purple);
+
+  /**
+   * Primary text color.
+   */
+  --root-color: #666666;
+
+  /**
+   * Text color to use when placed on a light color. See --accent-color-text.
+   */
+  --accent-color-dark: #222222;
+
+  /**
+   * Default heading text color.
+   */
+  --root-color-headings: #222222;
+
+  /**
+   * Default border color.
+   */
+  --root-border-color: #b3b3b3;
+
+  /**
+   * default background color.
+   */
+  --root-background-color: #ffffff;
+
+  /**
+   * default colors for inactive elements.
+   */
+  --root-color-inactive: #999999;
+  --root-background-color-inactive: #cccccc;
+
+  /**
+   * Icon defaults.
+   */
+  --icon-fill-color: var(--root-icon-fill-color);
+  --icon-stroke-color: var(--root-icon-stroke-color);
+
+  /**
+   * default accent colors for errors and destructive (danger) buttons.
+   */
+  --root-color-error-50: #fff3f1;
+  --root-color-error: #e53411;
+  --root-color-error-900: #320800;
+
+  /**
+   * default accent colors for warnings.
+   */
+  --root-color-warning-50: #fff8ea;
+  --root-color-warning: #f2a60f;
+  --root-color-warning-900: #322100;
+
+  /**
+   * default accent colors for success messages.
+   */
+  --root-color-success-50: #ebffee;
+  --root-color-success: #28c642;
+  --root-color-success-900: #003208;
+
+  /**
+   * default accent colors for notices and info messages.
+   */
+  --root-color-info-50: #ebf8ff;
+  --root-color-info: #1ba9f0;
+  --root-color-info-900: #002233;
+
+
+  /**
+   * Easings
+   */
+  --root-ease-in-fast: var(--root-duration-fast) var(--root-ease-in);
+  --root-ease-in-moderate: var(--root-duration-moderate) var(--root-ease-in);
+  --root-ease-in-slow: var(--root-duration-slow) var(--root-ease-in);
+  --root-ease-out-fast: var(--root-duration-fast) var(--root-ease-out);
+  --root-ease-out-moderate: var(--root-duration-moderate) var(--root-ease-out);
+  --root-ease-out-slow: var(--root-duration-slow) var(--root-ease-out);
+  --root-ease-in-out-fast: var(--root-duration-fast) var(--root-ease-in-out);
+  --root-ease-in-out-moderate: var(--root-duration-moderate) var(--root-ease-in-out);
+  --root-ease-in-out-slow: var(--root-duration-slow) var(--root-ease-in-out);
+
+
+  /**
+   * Breakpoints
+   */
+
+  @include setBreakpoints((
+    sm: 320px,
+    md: 744px,
+    lg: 1300px
+  ));
+
+  --root-gap: 16px;
+
+  /* should be max mobile width + tablet outer gutters */
+  @media (min-width: 368px) {
+    --root-gap: 24px;
+  }
+
+  /* should be max tablet width + desktop outer gutters */
+  @media (min-width: 808px) {
+    --root-gap: 32px;
+  }
+
+  /**
+   * Prefers Reduced Motion
+   */
+  @media (prefers-reduced-motion: reduce) {
+    --root-duration-fast: 0;
+    --root-duration-moderate: 0;
+    --root-duration-slow: 0;
+  }
+
+  //
+  // Configure other --root- properties here.
+  //
+}

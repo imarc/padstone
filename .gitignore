@@ -1,4 +1,5 @@
 config/license.key*
+node_modules
 storage
 vendor
 web/cpresources

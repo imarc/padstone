@@ -1,0 +1,75 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.siteFooter {
+  $b: &;
+
+  &__content {
+    display: grid;
+    gap: var(--gap);
+    grid: "info" "social" "nav" "utility";
+
+    @include at(md) {
+      grid: "logo address" auto
+            "social contact"
+            "nav nav"
+            "utility utility"
+            / auto 1fr;
+    }
+    @include at(lg) {
+      grid: "info nav     nav   " auto
+            "info social  social" auto
+            "info utility utility" auto
+            / 1fr 1fr 1fr;
+    }
+  }
+
+  &__logo {
+    svg {
+      width: min(100%, 301px);
+      height: auto;
+    }
+  }
+
+  &__info {
+    grid-area: info;
+    display: grid;
+    gap: var(--root-gap);
+    justify-items: start;
+
+    @include at(md) {
+      display: contents;
+    }
+
+    @include at(lg) {
+      align-content: start;
+      justify-items: start;
+      display: grid;
+      grid: auto / 1fr 1fr 1fr;
+
+       > * {
+         grid-column: span 2;
+       }
+    }
+  }
+
+  &__navigation {
+    grid-area: nav;
+  }
+
+
+  &__social {
+    grid-area: social;
+    justify-content: space-between;
+
+    @include at(lg) {
+      justify-self: start;
+    }
+  }
+
+  &__utility {
+    grid-area: utility;
+    display: flex;
+    flex-flow: row wrap;
+    gap: .5rem 2rem;
+  }
+}

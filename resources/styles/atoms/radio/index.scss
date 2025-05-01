@@ -1,0 +1,57 @@
+:where(input[type=radio]) {
+  --radio-size: 1.5rem;
+  --radio-knob-size: calc(var(--radio-size) * 0.5);
+
+  appearance: none;
+  background: var(--color-gray-50);
+  border: 2px solid var(--color-gray-500);
+  border-radius: var(--radio-size);
+  display: inline grid;
+  height: var(--radio-size);
+  place-items: center;
+  width: var(--radio-size);
+  outline-offset: .25em;
+  transition: background var(--root-ease-out-fast), border-color var(--root-ease-out-fast);
+
+  &:hover {
+    &:where(:not(:disabled)) {
+      background: white;
+      border-color: var(--color-gray-700);
+    }
+  }
+
+  &::after {
+    background: var(--color-gray-100);
+    width: var(--radio-knob-size);
+    height: var(--radio-knob-size);
+    border-radius: 50%;
+    content: '';
+    display: block;
+    place-items: center;
+    grid-area: 1 / 1;
+    opacity: 0;
+    scale: 0;
+    transition:
+    background 1000ms var(--root-ease-out),
+    opacity 1000ms var(--root-ease-out),
+    scale 1000ms var(--root-ease-out);
+  }
+
+  &.-checked,
+  &:checked {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+
+    &.-disabled,
+    &:disabled {
+      background: var(--color-gray-50);
+      border-color: var(--color-gray-200);
+    }
+
+    &::after {
+      opacity: 1;
+      scale: 1;
+      background: var(--accent-color-contrast);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.input {
+  --accent-color: var(--color-gray-500);
+
+  background-color: var(--color-gray-50);
+  border-radius: var(--root-border-radius);
+  border: 2px solid var(--accent-color);
+  color: var(--color-gray-800);
+  display: inline-block;
+  padding: .5em 1em;
+  width: 100%;
+
+  &:focus {
+    --accent-color: inherit;
+    outline: none;
+  }
+
+  &::placeholder {
+    color: var(--color-gray-400);
+  }
+
+  &[aria-disabled="true"],
+  &[disabled],
+  &.-disabled {
+    border-color: var(--color-gray-200);
+    color: var(--color-gray-200);
+    cursor: initial;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &:is(textarea) {
+    display: block;
+    resize: vertical;
+  }
+
+  /* Normalize date input padding to match others. */
+  &[type=date] {
+    padding: calc(.5em - 1px) 1em;
+  }
+
+
+  /* Normalize file input padding to match others. */
+  &[type=file] {
+    padding: calc(.5em - 3px) 1em;
+  }
+}

@@ -1,0 +1,39 @@
+.breadcrumbs {
+  $b: &;
+  --accent-color: var(--link-color, var(--color-blue));
+
+  font-size: .75rem;
+
+  &__list {
+    list-style: none;
+    display: inline flex;
+    gap: 1em;
+  }
+
+  &__item:nth-child(n+2) {
+    &::before {
+      display: inline grid;
+      content: '';
+      background: var(--color-gray-300);
+      aspect-ratio: 1;
+      height: .75em;
+      mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 36'%3E%3Cpath d='M2 2L18 18L2 34' fill='none' stroke='black' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") center no-repeat;
+    }
+  }
+
+  &__link {
+    --accent-color: inherit;
+    align-items: normal;
+    gap: .5rem;
+  }
+
+  &__item {
+    display: inline flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  &__icon {
+    height: .875rem;
+  }
+}

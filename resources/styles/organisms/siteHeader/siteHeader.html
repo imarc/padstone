@@ -1,0 +1,226 @@
+<header class="siteHeader container">
+  <div class="siteHeader__content">
+    <a class="siteHeader__logo" href="">
+      <svg viewBox="0 0 300 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="133" fill="#8000FF"/>
+      </svg>
+    </a>
+    <nav class="siteHeader__utilityNav navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <p-openable class="navigation__button" label="Utility Dropdown" :close-on-blur="false">
+            <div class="navigation__dropdown">
+              <ul>
+                <li>
+                  <a href=""><span>Elit?</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Dolor.</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Adipisicing!</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Amet</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Adipisicing</span></a>
+                </li>
+              </ul>
+            </div>
+          </p-openable>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="siteHeader__search search">
+      <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"></path></svg>
+      <input class="search__input input" type="search" placeholder="Search">
+    </div>
+    <nav class="siteHeader__mobileNav mobileNavigation">
+      <p-openable class="mobileNavigation__menu button -circle -ghost" label="menu">
+        <template #toggle>
+            <svg class="button__icon icon"><use href="/main-icons-sprite.svg#bars" /></svg>
+        </template>
+        <template v-slot="{ click }">
+          <div class="mobileNavigation__pane" v-scrolllock>
+            <div class="mobileNavigation__title">
+              Menu
+            </div>
+            <ul class="mobileNavigation__list" v-directionals>
+              <li>
+                <p-openable class="mobileNavigation__button" name="submenu">
+                  <template #toggle>
+                    Submenu
+                    <svg class="icon"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+                  </template>
+                  <template v-slot="{ click }">
+                    <div class="mobileNavigation__pane">
+                      <div class="mobileNavigation__title">
+                        <div class="mobileNavigation__actions">
+                          <button class="button -circle -ghost" @click.stopPropagation="click" tabindex="-1">
+                            <svg class="icon"><use href="/main-icons-sprite.svg#chevron-left" /></svg>
+                          </button>
+                        </div>
+                        Menu
+                      </div>
+                      <ul class="mobileNavigation__list" v-directionals>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+                      </ul>
+                    </div>
+                  </template>
+                </p-openable>
+              </li>
+              <li>
+                <p-openable class="mobileNavigation__button" name="submenu">
+                  <template #toggle>
+                    STUFF
+                    <svg class="icon"><use href="/main-icons-sprite.svg#chevron-right" /></svg>
+                  </template>
+                  <template v-slot="{ click }">
+                    <div class="mobileNavigation__pane">
+                      <div class="mobileNavigation__title">
+                        <div class="mobileNavigation__actions">
+                          <button class="button -circle -ghost" @click.stopPropagation="click" tabindex="-1">
+                            <svg class="icon"><use href="/main-icons-sprite.svg#chevron-left" /></svg>
+                          </button>
+                        </div>
+                        Menu
+                      </div>
+                      <ul class="mobileNavigation__list" v-directionals>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+                        <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+                      </ul>
+                    </div>
+                  </template>
+                </p-openable>
+              </li>
+              <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Consectetur asperiores</a></li>
+              <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Amet porro.</a></li>
+              <li class="mobileNavigation__item"><a href="" class="mobileNavigation__link">Ipsum dolorem</a></li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Amet impedit cumque</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Consectetur vitae temporibus!</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Consectetur doloremque reiciendis</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Dolor pariatur rerum.</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Ipsum a officiis.</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Dolor unde debitis.</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Adipisicing delectus velit</a>
+              </li>
+              <li class="mobileNavigation__item">
+                <a class="mobileNavigation__link" href="">Amet aliquam voluptates</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mobileNavigation__closeButton">
+            <button class="button -circle -ghost" @click="click">
+              <svg class="icon"><use href="/main-icons-sprite.svg#close" /></svg>
+            </button>
+          </div>
+        </template>
+      </p-openable>
+    </nav>
+
+    <nav class="siteHeader__primaryNav navigation" v-directionals>
+      <ul class="navigation__list">
+        <li class="navigation__item" v-directionals>
+          <p-openable class="navigation__button" label="Default Dropdown" :close-on-blur="false">
+            <div class="navigation__dropdown">
+              <ul>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Amet porro.</span></a></li>
+                <li><a href=""><span>Ipsum dolorem</span></a><li>
+              </ul>
+            </div>
+          </p-openable>
+        </li>
+        <li class="navigation__item" v-directionals>
+          <p-openable class="navigation__button" label="Centered Dropdown" :close-on-blur="false">
+            <div class="navigation__dropdown -center">
+              <ul>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Amet porro.</span></a></li>
+                <li><a href=""><span>Ipsum dolorem</span></a><li>
+              </ul>
+            </div>
+          </p-openable>
+        </li>
+        <li class="navigation__item -wide" v-directionals>
+          <p-openable class="navigation__button" label="Full-width Dropdown" :close-on-blur="false">
+            <div class="navigation__dropdown grid -columns-3">
+              <div class="cell">
+                <h3>Heading</h3>
+                <p>
+                  Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+                </p>
+                <ul>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Amet porro.</span></a></li>
+                  <li><a href=""><span>Ipsum dolorem</span></a><li>
+                </ul>
+              </div>
+              <div class="cell">
+                <h3>Heading</h3>
+                <p>
+                  Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+                </p>
+                <ul>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Amet porro.</span></a></li>
+                  <li><a href=""><span>Ipsum dolorem</span></a><li>
+                </ul>
+              </div>
+              <div class="cell">
+                <h3>Heading</h3>
+                <p>
+                  Adipisicing obcaecati tempora qui ullam voluptates beatae? Assumenda soluta quae
+                </p>
+                <ul>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Consectetur asperiores</span></a></li>
+                  <li><a href=""><span>Amet porro.</span></a></li>
+                  <li><a href=""><span>Ipsum dolorem</span></a><li>
+                </ul>
+              </div>
+            </div>
+          </p-openable>
+        </li>
+        <li class="navigation__item" v-directionals>
+          <p-openable class="navigation__button" label="Right Aligned Dropdown" :close-on-blur="false">
+            <div class="navigation__dropdown -rightAligned">
+              <ul>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Consectetur asperiores</span></a></li>
+                <li><a href=""><span>Amet porro.</span></a></li>
+                <li><a href=""><span>Ipsum dolorem</span></a><li>
+              </ul>
+            </div>
+          </p-openable>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

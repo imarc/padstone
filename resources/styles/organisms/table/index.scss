@@ -1,0 +1,120 @@
+.table,
+.table table {
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+
+  thead {
+    background: var(--color-gray-50);
+
+    th {
+      background: var(--color-gray-100);
+    }
+  }
+
+  tr,
+  th {
+    transition: background-color var(--root-ease-out-fast);
+  }
+
+  td, th {
+    padding: 1em 1.5em;
+  }
+
+  th {
+    text-align: left;
+    background: var(--color-gray-50);
+  }
+
+  tbody tr:not(:last-child) {
+    border-top: 1px solid var(--color-gray-200);
+  }
+
+  tr:hover {
+    background: var(--accent-color-50);
+
+    th {
+      background: var(--accent-color-100);
+    }
+  }
+
+  &.-scrollable {
+    --max-table-fade: 3rem;
+
+    animation-duration: 1ms;
+    animation-name: table-fade;
+    animation-timeline: --table;
+    max-height: clamp(50vh, 640px, 100vh - 2rem);
+    max-width: 100%;
+    overflow: scroll;
+    position: relative;
+    scroll-timeline: --table x;
+
+    &.-fadeRight {
+      mask-image: linear-gradient(90deg, #fff calc(100% - var(--table-fade)), #0000 100%);
+    }
+
+    &.-fadeBoth {
+      mask-image: linear-gradient(90deg, #0000, #fff var(--table-starting-fade) calc(100% - var(--table-fade)), #0000 100%);
+    }
+
+    &.-stickHead {
+      thead {
+        background: var(--color-gray-50);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+    }
+
+    &.-stickFirstColumn {
+      tbody tr th:first-child {
+        left: 0;
+        position: sticky;
+      }
+    }
+
+    &.-stickHead.-stickFirstColumn {
+      thead tr th:first-child,
+      thead tr td:first-child {
+        left: 0;
+        position: sticky;
+        background: var(--color-gray-50);
+      }
+    }
+  }
+}
+
+/**
+ * --table-fade and --table-starting-fade are used to add fades to the left and
+ * right edges of the table when part of the table is scrolled out of view.
+ * 
+ * They are closely related to --max-table-fade, that sets the fade size.
+ */
+@property --table-fade {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --table-starting-fade {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes table-fade {
+  0% {
+    --table-starting-fade: 0;
+    --table-fade: var(--max-table-fade);
+  }
+  10% {
+    --table-starting-fade: var(--max-table-fade);
+  }
+  90% {
+    --table-fade: var(--max-table-fade);
+  }
+  100% {
+    --table-starting-fade: var(--max-table-fade);
+    --table-fade: 0;
+  }
+}

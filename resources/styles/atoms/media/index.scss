@@ -1,0 +1,89 @@
+.media {
+  $b: &;
+
+  aspect-ratio: var(--aspect-ratio);
+  background-color: rgb(from currentColor r g b / .25);
+  display: inline grid;
+  margin-bottom: 2rem;
+
+  > * {
+    grid-area: 1 / 1;
+    position: relative;
+  }
+
+  &__mask {
+    margin: 0;
+    display: grid;
+    transition: opacity var(--root-ease-out-moderate);
+
+    &.-loaded {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  &__maskImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__trigger {
+    appearance: none;
+    background: #0000;
+    border: 0;
+    border-radius: max(50cqmin, 6rem);
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+    color: var(--accent-color-200);
+    container-type: size;
+    position: relative;
+    transition: color var(-root-ease-out-fast),
+      opacity var(--root-ease-out-moderate);
+    width: min(50cqmin, 6rem);
+    height: min(50cqmin, 6rem);
+
+    &:hover {
+      color: var(--accent-color-300);
+    }
+
+    &.-loaded {
+      align-self: start;
+      height: min(25cqmin, 3rem);
+      justify-self: end;
+      margin: .5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--root-ease-out-fast);
+      width: min(25cqmin, 3rem);
+
+      &.-keepVisible {
+        opacity: .25;
+        pointer-events: auto;
+      }
+
+      &.-keepVisible:hover,
+      &:focus-visible {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__icon {
+    --icon-stroke-color: var(--accent-color-200);
+    filter: drop-shadow(var(--root-box-shadow-med));
+    width: auto;
+    height: auto;
+
+    &.-circle {
+      padding: min(6cqmin, .75rem);
+      transition: padding var(--root-ease-out-fast);
+
+      &:hover {
+        padding: min(4cqmin, .5rem);
+      }
+    }
+
+  }
+}

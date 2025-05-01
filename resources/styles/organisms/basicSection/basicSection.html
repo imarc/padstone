@@ -1,0 +1,69 @@
+<section class="section container basicSection">
+  <header class="section__header">
+    <h2 class="h6 accent-primary">Heading Placeholder</h2>
+    <h3>
+      The default section includes a header, footer, and padding.
+    </h3>
+  </header>
+  <div class="basicSection__content -center">
+    <div class="basicSection__text">
+      <p>
+        It will stack on mobile, putting elements in natural content order. <a href="#">Links</a> and other components will use their default colors.
+      </p>
+    </div>
+    <div class="basicSection__media media accent-primary" style="--aspect-ratio: 634 / 368">
+      <p-lazy>
+        <video class="media__content" inert controls autoplay playsinline>
+          <source data-src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <template #placeholder="{ load, modifier }">
+          <picture class="media__mask" :class="modifier">
+            <img srcset="https://unsplash.it/634/368?random&gravity=center" alt="">
+          </picture>
+          <button class="media__trigger" @click="load" :class="modifier">
+            <svg class="media__icon icon" viewBox="0 0 96 96"><use href="/main-icons-sprite.svg#play" /></svg>
+          </button>
+        </template>
+      </p-lazy>
+    </div>
+  </div>
+</section>
+
+<section class="section container basicSection accent-primary">
+  <div class="basicSection__content">
+    <div class="basicSection__image">
+      <div class="placeholder" style="aspect-ratio: 634 / 368"></div>
+    </div>
+    <div class="basicSection__text">
+      <h3>This is section is using .accent-primary.</h3>
+      <p>Mauris euismod sit amet dolor vel vehicula. Nulla lacinia augue sem, accumsan luctus nunc facilisis Duis ex libero, auctor a semper in, condimentum sit amet enim. Vestibulum et consectetur arcu. <a href="#">Nam nunc justo,</a> varius id metus eu praesent dictum sit amet quam efficitur placerat. </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section container basicSection -wide accent-secondary">
+  <div class="basicSection__content -center">
+    <div class="basicSection__text -wide">
+      <h3>This is using .accent-secondary and shows how to do two-thirds content.</h3>
+      <p>Nulla lacinia augue sem, accumsan luctus nunc facilisis Duis ex libero, auctor a semper in, condimentum sit amet enim. <a href="#">Nam nunc justo,</a> varius id metus eu praesent dictum sit amet quam efficitur placerat. </p>
+    </div>
+    <div class="basicSection__image">
+      <div class="placeholder" style="aspect-ratio: 634 / 368"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section container basicSection accent-tertiary">
+  <div class="basicSection__content">
+    <div class="basicSection__text">
+      <h3>This is using .accent-tertiary.</h3>
+      <p>Mauris euismod sit amet dolor vel vehicula. Nulla lacinia augue sem, accumsan luctus nunc facilisis Duis ex libero, auctor a semper in, condimentum sit amet enim. Vestibulum et consectetur arcu. <a href="#">Nam nunc justo,</a> varius id metus eu praesent dictum sit amet quam efficitur placerat. </p>
+      <div class="actions">
+        <a class="button -outline" href="#">Learn More</a>
+        <a class="button -accent-primary" href="#">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</section>

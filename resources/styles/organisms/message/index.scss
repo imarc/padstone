@@ -1,0 +1,44 @@
+.message {
+  position: static;
+  display: grid;
+  grid: auto / 2rem 1fr 3rem;
+  align-items: start;
+  gap: 1em;
+  padding: 1em;
+  background: var(--accent-color-50);
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 1px 0 rgba(from var(--accent-color-900) r g b / .2),
+    0 .5rem 1.5rem 0 rgba(from var(--accent-color) r g b / .1);
+
+  &__icon {
+    --icon-stroke-color: #fff;
+    --icon-fill-color: var(--accent-color);
+  }
+
+  &__content {
+    padding: .25em 0;
+  }
+
+  &__close {
+    appearance: none;
+    border: 0;
+    background: #0000;
+    color: inherit;
+    height: 2rem;
+    border-left: 1px solid rgba(from var(--accent-color) r g b / .5);
+    display: grid;
+    place-content: center;
+    --icon-stroke-width: 1;
+    grid: 1rem / 1rem;
+  }
+
+  &:is(dialog:not(:open)) {
+    display: none;
+  }
+
+  &.-dark {
+    background: var(--accent-color-900);
+    color: #fff;
+  }
+}

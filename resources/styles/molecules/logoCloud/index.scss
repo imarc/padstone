@@ -1,0 +1,35 @@
+@use "@imarc/pronto/resources/styles/imported" as *;
+
+.logoCloud {
+    $b: &;
+    
+    &.-reduced {
+        #{$b}__logo {
+            height: fluid-rems(2, 3);
+        }
+    }
+
+    &__logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: fluid-rems(2, 3);
+        justify-content: center;
+    }
+
+    &__logo {
+        height: fluid-rems(5, 7.5);
+        width: auto;
+        position: relative;
+    }
+
+    &__img {
+        height: 100%;
+        width: auto;
+        min-inline-size: 100%;
+    }
+
+    &__link {
+        @include pseudo-link();
+    }
+}

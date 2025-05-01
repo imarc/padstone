@@ -1,0 +1,18 @@
+@use "../../molecules/list";
+@use "../../organisms/table";
+
+.richText {
+
+  /**
+   * Automatically use list component styles even without the class.
+   */
+  dl,
+  ol,
+  ul {
+    @extend .list;
+  }
+  
+  table {
+    @extend .table;
+  }
+}

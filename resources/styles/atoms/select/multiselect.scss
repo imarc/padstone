@@ -1,0 +1,18 @@
+.multiselect {
+  --ms-bg: var(--color-gray-50);
+  --ms-border-color: var(--color-gray-500);
+  --ms-border-width: 2px;
+  --ms-caret-color: var(--accent-color);
+  --ms-option-bg-selected: var(--accent-color);
+  --ms-option-color-selected: var(--accent-color-contrast);
+  --ms-placeholder-color: var(--color-gray-400);
+  --ms-py: .4375rem;
+
+  margin-bottom: 1em;
+  vertical-align: top;
+
+  &-caret {
+    width: 1em;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 21'%3E%3Cpath d='M34 2L18 18L2 2' fill='none' stroke='black' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") center no-repeat;
+  }
+}

@@ -1,0 +1,17 @@
+.callout {
+  background: var(--color-gray-100);
+  padding: 5rem 0;
+
+  &__title {
+    justify-self: center;
+    text-align: center;
+  }
+
+  &__actions {
+    justify-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
