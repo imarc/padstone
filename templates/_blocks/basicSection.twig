@@ -10,7 +10,7 @@
         class="section -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}" 
         {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}
     >
-        <div class="section__container">
+        <div class="container section__container">
             {% block header %}
                 {% if block.eyebrow or block.headline or block.subheadline %}
                     {% include "/_partials/sectionHeader" %}
