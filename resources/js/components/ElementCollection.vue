@@ -1,32 +1,52 @@
-<template>
-    <slot
-        v-bind="{
-            elements: result?.data,
-            meta: result?.meta,
-            isFetching: response?.isFetching,
-            isFinished: response?.isFinished,
-        }"
-    />
-</template>
 <script setup>
-import { computed, useSlots, useAttrs } from 'vue'
-import { useFetch } from '@vueuse/core'
+import { computed, toValue, reactive } from 'vue'
+import { useFetch, useUrlSearchParams } from '@vueuse/core'
 
 const props = defineProps({
     url: {
         type: String,
         required: true,
     },
-    params: {
+    querySync: {
+        default: true,
+    },
+    initialValue: {
         type: Object,
         default: () => ({}),
     },
+    only: {
+        type: [Array, Boolean],
+        default: false,
+    },
+    except: {
+        type: Array,
+        default: [],
+    },
 })
 
+const params = props.querySync ? useUrlSearchParams('history') : reactive(props.initialValue)
+
 const url = computed(() => {
-    const nonNull = Object.fromEntries(Object.entries(props.params).filter(([_, v]) => v != null))
-    return `${props.url}?${(new URLSearchParams(nonNull)).toString()}`
+    const nonNull = Object.fromEntries(Object.entries(toValue(params))
+        .filter(([key, value]) => {
+            return value != null
+                && !props.except.includes(key)
+                && (!props.only || props.only.includes(key))
+        }))
+    return `${props.url}?${new URLSearchParams(nonNull)}`
 })
+
 const response = useFetch(url, { refetch: true })
-const result = computed(() => response.data?.value ? JSON.parse(response.data.value) : null)
+const result = computed(() => JSON.parse(response.data?.value ?? null))
 </script>
+
+<template>
+    <slot
+        v-bind="{
+            ...result,
+            params,
+            isFetching: response?.isFetching,
+            isFinished: response?.isFinished,
+        }"
+    />
+</template>
