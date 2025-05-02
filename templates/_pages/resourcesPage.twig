@@ -4,8 +4,10 @@
 {% block content %}
     {% include '_partials/hero' with entry %}
 
-    <url-params v-slot="{ params, setParam }">
-        <element-collection :params="params" url="/resources.json" v-slot="{ isFetching, elements: resources, meta: { pagination = {} } = {} }">
+        <element-collection
+            url="/resources.json"
+            v-slot="{ params, isFetching, data: resources, meta: { pagination = {} } = {} }"
+        >
             <div class="section resultsSection">
                 <div class="section__container container">
 
@@ -15,7 +17,7 @@
                                 Filter by Type:
                             </label>
                             <select class="select__select" name="resource_type" v-model="params.type">
-                                <option :value="null" selected>All</option>
+                                <option :value="undefined" selected>All</option>
                                 {% for type in craft.categories.group('resourceTypes').all %}
                                     <option value="{{ type.slug }}">{{ type.title }}</option>
                                 {% endfor %}
@@ -26,7 +28,7 @@
                                 Filter by Topic:
                             </label>
                             <select class="select__select" name="resource_topic" v-model="params.topic">
-                                <option :value="null" selected>All</option>
+                                <option :value="undefined" selected>All</option>
                                 {% for topic in craft.categories.group('resourceTopics').all %}
                                     <option value="{{ topic.slug }}">{{ topic.title }}</option>
                                 {% endfor %}
@@ -52,7 +54,6 @@
                     </div>
                 </div>
             </div>
-    </resources>
-    </url-params>
+    </element-collection>
 
 {% endblock %}
