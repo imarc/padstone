@@ -1,3 +1,11 @@
+{% if entry.type == "resourceLink" %}
+    {% if entry.ctaLinkBlock and entry.ctaLinkBlock|length and entry.ctaLinkBlock.one.ctaLink and entry.ctaLinkBlock.one.ctaLink.url %}
+        {% redirect entry.ctaLinkBlock.one.ctaLink.url %}
+    {% else %}
+        {% redirect "/resources" %}
+    {% endif %}
+{% endif %}
+
 {% import "/_macros" as macros %}
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
