@@ -15,18 +15,27 @@
         flex-wrap: wrap;
         gap: fluid-rems(2, 3);
         justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     &__logo {
         height: fluid-rems(5, 7.5);
-        width: auto;
+        max-width: 230px;
+        width: 100%;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    &__img {
+    &__img,
+    img {
         height: 100%;
-        width: auto;
-        min-inline-size: 100%;
+        width: 100%;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 0;
     }
 
     &__link {

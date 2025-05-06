@@ -5,14 +5,12 @@
 {% block content %}
 
 <div class="logoCloud">
-    <div class="section__content">
-        <div class="logoCloud__logos">
-            {% for icon in block.logos.all() %}
-                <div class="logoCloud__logo">
-                    {{ macros.responsiveImage(icon, { pictureClass: 'logoCloud__img' }) }}
-                </div>
-            {% endfor %}
-        </div>
+    <div class="logoCloud__logos">
+        {% for icon in block.logos.all() %}
+            <div class="logoCloud__logo">
+                {{ macros.responsiveImage(icon, { pictureClass: 'logoCloud__img' }) }}
+            </div>
+        {% endfor %}
     </div>
 </div>
 
