@@ -4,37 +4,50 @@
 
 {% block content %}
     <div class="section__content">
-        {% for card in block.cards.all() %}
-            {% set cardData = {
-                headline: card.headline,
-                image: card.image.one,
-                content: card.blockContent
-            } %}
-            {% if card.ctaLinkBlock|length %}
-                {% set ctaLink = card.ctaLinkBlock.one %}
-                {% if ctaLink.ctaLink.type == "entry" %}
-                    {% set element = ctaLink.ctaLink.element %}
-                    {% if element.type == "blogArticle" or element.type == "resource" %}
-                        {% set cardData = cardData|merge({
-                            headline: element.title,
-                            image: element.featuredImage,
-                            content: element.abstract
-                        }) %}
-                    {% endif %}
-                {% endif %}
-                <a href="{{ ctaLink.ctaLink.value }}" 
-                    class="section__action button -primary" {{ ctaLink.generalToggleOff ? 'target="_new"' }}>
-            {% endif %}
-            <div class="section__item">
-                {% if card.image|length %}
-                    {{ macros.responsiveImage(card.image.one, { pictureClass: 'section__icon' }) }}
-                {% endif %}
-                <h3>{{ cardData.headline }}</h3>
-                <p>{{ cardData.content }}</p>
-            </div>
-            {% if card.ctaLinkBlock|length %}
-                </a>
-            {% endif %}
-        {% endfor %}
+        <div class="grid -columns-3">
+            {% for card in block.cards.all() %}
+                {% set cardData = {
+                    headline: card.headline,
+                    image: card.image.one,
+                    content: card.blockContent
+                } %}
+                <div class="cell">
+                    <div class="card" style="max-width: 25.75rem;">
+                        <div class="card__content">
+                            <span class="card__title h3">
+                                {{ cardData.headline }}
+                            </span>
+                            <p class="card__description">
+                                {{ cardData.content }}
+                            </p>
+                            {% if card.ctaLinkBlock|length %}
+                                {% set ctaLink = card.ctaLinkBlock.one %}
+                                {% if ctaLink.ctaLink.type == "entry" %}
+                                    {% set element = ctaLink.ctaLink.element %}
+                                    {% if element.type == "blogArticle" or element.type == "resource" %}
+                                        {% set cardData = cardData|merge({
+                                            headline: element.title,
+                                            image: element.featuredImage,
+                                            content: element.abstract
+                                        }) %}
+                                    {% endif %}
+                                {% endif %}
+                                <a href="{{ ctaLink.ctaLink.value }}" class="card__cta link -wide">
+                                    Standard Text Link
+                                    <svg class="card__ctaIcon link__icon">
+                                        <use href="/main-icons-sprite.svg#arrow-right" />
+                                    </svg>
+                                </a>
+                            {% endif %}
+                        </div>
+                        {% if card.image|length %}
+                            <div class="card__imageWrapper">
+                                {{ macros.responsiveImage(card.image.one, { pictureClass: 'section__icon' }) }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
