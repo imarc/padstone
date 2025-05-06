@@ -1,0 +1,33 @@
+columnSuffix: null
+handle: navType
+instructions: null
+name: 'Nav Type'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Simple
+        -
+          - value
+          - simple
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Full width With CTA'
+        -
+          - value
+          - fullWidthWithCta
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

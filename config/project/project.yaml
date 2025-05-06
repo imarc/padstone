@@ -1,4 +1,4 @@
-dateModified: 1744727580
+dateModified: 1746555926
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -21,6 +21,7 @@ fs:
 meta:
   __names__:
     0df95f6f-3e7a-4765-84de-aa8585234118: 'Rich Text' # Rich Text
+    0e0a0c15-2d54-4a63-b4ae-29b75916437e: Navigation # Navigation
     0e078940-3caa-4bc2-84d3-c91c225cb26d: 'Full Bio' # Full Bio
     1a4b6ea7-240d-4c7c-86ab-ce16b55afc24: Image # Image
     1d7fd420-3fd4-4dc0-afca-1833e0d9a05c: 'SEOMatic Fields' # SEOMatic Fields
@@ -30,6 +31,7 @@ meta:
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
     4d061e2c-2f20-41b2-9e12-d11cb1fded64: 'Resource Topics' # Resource Topics
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
+    5c34e4ac-c379-4915-ae75-4016817fe223: 'CTA Card' # CTA Card
     6a005e55-a63c-448a-824a-d719b3f55f46: Events # Events
     6a91581a-a1ff-430b-bbeb-32b131747531: Video # Video
     6bbbf1c9-7abf-470b-aefc-dd2290683a72: 'Fake Tag Group' # Fake Tag Group
@@ -39,7 +41,10 @@ meta:
     8a9cd262-8604-45fd-a48d-b11f4d398ba7: 'Press Mention' # Press Mention
     8b3d1977-ab5a-4ca6-94cb-685acdef3921: 'Navigation Link' # Navigation Link
     8d9c514a-a4e4-41ce-9b73-4425594f2885: 'Logo Grid' # Logo Grid
+    9a6122b0-6a00-4c79-958a-465d2e6549bd: 'Nav Type' # Nav Type
+    9affc2aa-55c3-4990-97df-9e714b7bf551: 'Top Nav Entry' # Top Nav Entry
     9c45b436-5b6e-489c-b3cd-4c442876d973: 'Blog Categories' # Blog Categories
+    21a3840e-e64f-472b-93e4-69935cee15e0: 'CTA Card' # CTA Card
     37bd2e2c-ad20-4890-921c-d205d7db4424: 'Image Card' # Image Card
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
     52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
@@ -51,6 +56,7 @@ meta:
     117e786c-b219-4920-ac84-48665d61a724: 'Contact Page' # Contact Page
     200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e: 'CTA Text' # CTA Text
     341a7fb3-3ede-4a66-8e32-25c38b986f8a: 'Event Start Date' # Event Start Date
+    352d2732-3ef7-46b2-9f97-a9ca5d1d41c0: 'Top Navigation Item' # Top Navigation Item
     377e43f5-bfc9-462f-a0db-51f020707423: 'Background Image' # Background Image
     458fef22-7128-4c44-80db-51f83af8dc3e: 'Hero Introduction' # Hero Introduction
     507a966d-0b69-4f8e-9d31-31b6528b14a0: Images # Images
@@ -72,6 +78,7 @@ meta:
     35753bc4-1fe5-4dab-9b39-969e168d2c68: 'Alert Content' # Alert Content
     56554df0-f81a-4c6a-b023-706d2789eaa9: Video # Video
     89839c0a-8c2a-4ef9-900f-709a4c4b77c1: 'Shared Blocks' # Shared Blocks
+    99552cc7-97e5-47f7-8587-b78478eed6fc: 'Top Navigation Items' # Top Navigation Items
     115744a1-512d-495b-ba38-959ebed6cec4: 'Job Title' # Job Title
     307187bf-968f-42da-b579-dbc76b7a9fa6: 'Shared Section' # Shared Section
     678939a0-3ca0-4044-b263-e25151ebb1df: 'Additional Header Code' # Additional Header Code
@@ -98,7 +105,7 @@ meta:
     c2f04b66-544d-449f-a4de-c5605f121afd: 'Team Member' # Team Member
     c5febe1f-c523-44a4-894a-81eb0ea96691: 'Primary Navigation' # Primary Navigation
     c6cce9ed-155f-4196-95bf-f8dde0bff9b1: 'Navigation Groups' # Navigation Groups
-    c7e04c91-15c1-4081-8d31-44ae7bf6eae9: 'Nav Link' # Nav Link
+    c7e04c91-15c1-4081-8d31-44ae7bf6eae9: 'Navigation Item' # Navigation Item
     c46e2b3b-387a-4540-9120-ab0a15b0bbae: Homepage # Homepage
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Basic Page' # Basic Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
@@ -108,6 +115,7 @@ meta:
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
     cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
     d6c3cdc6-9af4-4a8e-9008-56fc71426603: 'Padstone Craft 5' # Padstone Craft 5
+    d26a5c7a-435f-4562-91fe-d168201e7bed: 'Footer Navigation Items' # Footer Navigation Items
     d41feaed-9c5d-41dc-9629-8e9af1b89cbf: Authors # Authors
     d56b297b-0f38-4dee-abc3-57498c544f41: 'Select Hero' # Select Hero
     d4966cae-3474-4ee8-92bd-7d511f1758d4: 'Standard Hero' # Standard Hero

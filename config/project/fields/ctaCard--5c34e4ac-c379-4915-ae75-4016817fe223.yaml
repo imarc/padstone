@@ -1,25 +1,25 @@
 columnSuffix: null
-handle: navLink
+handle: ctaCard
 instructions: null
-name: 'Nav Link'
+name: 'CTA Card'
 searchable: false
 settings:
-  createButtonLabel: null
+  createButtonLabel: 'New CTA card'
   defaultIndexViewMode: cards
   entryTypes:
     -
       __assoc__:
         -
           - uid
-          - c7e04c91-15c1-4081-8d31-44ae7bf6eae9 # Navigation Item
+          - 21a3840e-e64f-472b-93e4-69935cee15e0 # CTA Card
   includeTableView: false
-  maxEntries: 1
+  maxEntries: null
   minEntries: null
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: blocks
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: c7e04c91-15c1-4081-8d31-44ae7bf6eae9 # Navigation Item
+handle: navigation
+maxAuthors: 1
+name: Navigation
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 3
+  uid: 3c442fbc-8129-46c7-ae7e-480ba9ef6ab7
+type: structure

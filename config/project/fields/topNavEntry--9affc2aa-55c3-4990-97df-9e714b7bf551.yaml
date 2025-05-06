@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: topNavEntry
+instructions: null
+name: 'Top Nav Entry'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: 'Add item'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:0e0a0c15-2d54-4a63-b4ae-29b75916437e' # Navigation
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

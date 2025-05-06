@@ -5,9 +5,9 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-16T15:22:28+00:00'
+            dateAdded: '2025-05-06T18:25:26+00:00'
             elementCondition: null
-            fieldUid: 6eef63ba-f2a8-4833-8b72-8a6a9d931f84 # Navigation Links
+            fieldUid: d26a5c7a-435f-4562-91fe-d168201e7bed # Footer Navigation Items
             handle: null
             includeInCards: false
             instructions: null
@@ -16,7 +16,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9eea0144-ae97-4f1a-871e-c425ee312296
+            uid: 47dc35ef-69cb-443a-83e8-8413188eee9c
             userCondition: null
             warning: null
             width: 100

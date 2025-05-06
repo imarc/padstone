@@ -1,0 +1,81 @@
+color: null
+fieldLayouts:
+  57a2012a-3ced-4df3-bb73-8bb4d6a65752:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-06T17:17:45+00:00'
+            elementCondition: null
+            fieldUid: 9affc2aa-55c3-4990-97df-9e714b7bf551 # Top Nav Entry
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 897e331e-b217-45e1-89dd-c8ff3c851278
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-06T17:17:45+00:00'
+            elementCondition: null
+            fieldUid: 9a6122b0-6a00-4c79-958a-465d2e6549bd # Nav Type
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c07f9dad-7d72-4992-9b92-e17db238f9ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-06T17:17:45+00:00'
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 9a6122b0-6a00-4c79-958a-465d2e6549bd # Nav Type
+                  layoutElementUid: c07f9dad-7d72-4992-9b92-e17db238f9ea
+                  operator: in
+                  uid: c9a61dab-cc57-4e80-875d-0785119d09ed
+                  values:
+                    - fullWidthWithCta
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 5c34e4ac-c379-4915-ae75-4016817fe223 # CTA Card
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 582aa496-a663-4427-8fe0-ca655640ae88
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ba3f7d72-0002-4629-9507-860649211f44
+        userCondition: null
+handle: topNavItem
+hasTitleField: false
+icon: null
+name: 'Top Navigation Item'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,19 +1,19 @@
 columnSuffix: null
-handle: navLink
+handle: topNavItems
 instructions: null
-name: 'Nav Link'
+name: 'Top Navigation Items'
 searchable: false
 settings:
-  createButtonLabel: null
+  createButtonLabel: 'New item'
   defaultIndexViewMode: cards
   entryTypes:
     -
       __assoc__:
         -
           - uid
-          - c7e04c91-15c1-4081-8d31-44ae7bf6eae9 # Navigation Item
+          - 352d2732-3ef7-46b2-9f97-a9ca5d1d41c0 # Top Navigation Item
   includeTableView: false
-  maxEntries: 1
+  maxEntries: null
   minEntries: null
   pageSize: null
   propagationKeyFormat: null

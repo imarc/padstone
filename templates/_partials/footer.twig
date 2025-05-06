@@ -25,45 +25,38 @@
 
         <nav class="siteFooter__navigation sitemap">
             <ul class="sitemap__list">
-                {% for navItem in footerNavigation.navigationLinks.all %}
-                    {% set navLink = navItem.navLink and navItem.navLink.one ? navItem.navLink.one : null %}
+                {% for navItem in footerNavigation.footerNavItems.all %}
                     <div class="sitemap__item">
-                        {% if navLink.ctaLink and navLink.ctaLink.value %}
-                            {{ macros.renderLink(navLink, { class: 'sitemap__heading' }) }}
+                        {% if navItem.ctaLink and navItem.ctaLink.value %}
+                            {{ macros.renderLink(navItem, { class: 'sitemap__heading' }) }}
                         {% else %}
-                            <div class="sitemap__heading">{{ navLink.title }}</div>
+                            <div class="sitemap__heading">{{ navItem.title }}</div>
                         {% endif %}
                         
                         {% if navItem.children.count %}
-                            <ul class="sitemap__sublist {{ navItem.navigationColumnSpan }}">
-                                 {% for subNavItem in navItem.navigationLinks.all %}
-                                    {% set subNavLink = subNavItem.navLink and subNavItem.navLink.one ? subNavItem.navLink.one : null %}
+                            <ul class="sitemap__sublist">
+                                 {% for subNavItem in navItem.children.level(2) %}
                                     <li>
-                                        {% if subNavItem.children.count %}
-                                            {% if subNavLink.ctaLink and subNavLink.ctaLink.value %}
-                                                {{ macros.renderLink(subNavLink, { class: 'sitemap__heading' }) }}
-                                            {% elseif subNavItem.navigationLinks and subNavItem.navigationlinks.count() %}
+                                        {% if subNavItem.children.count() %}
+                                            {% if subNavItem.ctaLink and subNavItem.ctaLink.value %}
+                                                {{ macros.renderLink(subNavItem, { class: 'sitemap__heading' }) }}
+                                            {% else %}
                                                 <div class="sitemap__heading">{{ subNavItem.title }}</div>
-                                            {% else  %}
-                                                {{ subNavItem.title }}
                                             {% endif %}
-                                            {% if subNavItem.navigationLinks and subNavItem.navigationLinks.count() %}
-                                                <ul class="sitemap__subsublist">
-                                                    {% for subSubNavItem in subNavItem.navigationLinks.all() %}
-                                                        {% set subSubNavLink = subSubNavItem.navLink and subSubNavItem.navLink.one ? subSubNavItem.navLink.one : null %}
-                                                        {% if subSubNavLink.ctaLink and subSubNavLink.ctaLink.value %}
-                                                            <li>
-                                                                <a href="{{ subSubNavLink.ctaLink.value }}">{{ subSubNavLink.title }}</a>
-                                                            </li>
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                </ul>
-                                            {% endif %}
+                                            <ul class="sitemap__subsublist">
+                                                {% for subSubNavItem in subNavItem.children.level(3) %}
+                                                    {% if subSubNavItem.ctaLink and subSubNavItem.ctaLink.value %}
+                                                        <li>
+                                                            <a href="{{ subSubNavItem.ctaLink.value }}">{{ subSubNavItem.title }}</a>
+                                                        </li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
                                         {% else %}
-                                            {% if subNavItem.type == 'navigationLink' %}
-                                                {{ subNavItem.navigationLink.getLink({ class: 'linkGroup__link' }) }}
-                                            {% elseif subNavItem.type == 'navigationGroup' %}
-                                                {{ subNavItem.navigationHeading }}
+                                            {% if subNavItem.ctaLink and subNavItem.ctaLink.value %}
+                                                {{ macros.renderLink(subNavItem, { class: 'sitemap__heading' }) }}
+                                            {% else %}
+                                                {{ subNavItem.title }}
                                             {% endif %}
                                         {% endif %}
                                     </li>

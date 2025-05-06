@@ -1,14 +1,107 @@
-<nav class="siteHeader__primaryNav navigation">
+{% import "/_macros" as macros %}
+
+<nav class="siteHeader__primaryNav navigation" v-directionals>
     <ul class="navigation__list">
-        {% for navItem in primaryNavigation.navigationLinks.all %}
-            {% set navLink = navItem.navLink and navItem.navLink.one ? navItem.navLink.one : null %}
-            <li class="navigation__item" v-directionals>
+        {% for navItem in primaryNavigation.topNavItems.all %}
+            {% set navEntry = navItem.topNavEntry.one ?? null %}
+            {% if navEntry %}
+                <li class="navigation__item" v-directionals>
+                    <p-openable class="navigation__button" label="{{ navEntry.title }}" :close-on-blur="false">
+                        {% if navItem.navType == "simple" %}
+                            <div class="navigation__dropdown -center dropdown">
+                                <ul class="dropdown__list">
+                                    {% for item in navEntry.children.level(2) %}
+                                        <li class="dropdown__item">
+                                            {% if item.ctaLink and item.ctaLink.url|length %}
+                                                <a href="{{ item.ctaLink.url }}"
+                                                    {{ item.generalToggleOff ? ' target="_new"' }} 
+                                                    class="dropdown__link">
+                                                    {{ item.title }}
+                                                </a>
+                                            {% else %}
+                                                {{ item.title }}
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% else %} {# full width #}
+                            <div class="navigation__dropdown dropdown container">
+                                <div class="grid -columns-{{ navEntry.children.level(2).count() + navItem.ctaCard.count() }}">
+                                    {% for heading in navEntry.children.level(2) %}
+                                        <div class="cell">
+                                            <h3>{{ heading.title }}</h3>
+                                            {{ heading.blockContent }}
+                                            {% if heading.children.count() %}
+                                                <ul class="dropdown__list">
+                                                    {% for item in heading.children.level(3) %}
+                                                        <li class="dropdown__item">
+                                                            {% if item.ctaLink and item.ctaLink.url|length %}
+                                                                <a href="{{ item.ctaLink.url }}"
+                                                                    {{ item.generalToggleOff ? ' target="_new"' }} 
+                                                                    class="dropdown__link">
+                                                                    {{ item.title }}
+                                                                </a>
+                                                            {% else %}
+                                                                {{ item.title }}
+                                                            {% endif %}
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                {% if navItem.ctaCard.count() %}
+                                    {% set ctaCard = navItem.ctaCard.one %}
+                                    <div class="cell -span-{{ navEntry.children.level(2).count() + 1 }}">
+                                        <div class="card" style="max-width: 300px">
+                                            <div class="card__content">
+                                                <span class="card__title h3">
+                                                    {{ ctaCard.title }}
+                                                </span>
+                                                {% if ctaCard.ctaLinkBlock.count() %}
+                                                    {% if ctaCard.ctaLinkBlock.one.ctaLink.url %}
+                                                        <a href="{{ ctaCard.ctaLinkBlock.one.ctaLink.url }}" 
+                                                            {{ ctaCard.ctaLinkBlock.one.generalToggleOff ? ' target="_new"' }}  
+                                                            class="card__cta link -wide">
+                                                            {{ ctaCard.ctaLinkBlock.one.linkText|default("Read more") }}
+                                                            <svg class="card__ctaIcon link__icon">
+                                                                <use href="/main-icons-sprite.svg#arrow-right" />
+                                                            </svg>
+                                                        </a>
+                                                    {% elseif ctaCard.ctaLinkBlock.one.linkText %}
+                                                        {{ ctaCard.ctaLinkBlock.one.linkText|default("") }}
+                                                    {% endif %}
+                                                {% endif %}
+                                            </div>
+                                            {% if ctaCard.image.count() %}
+                                                <div class="card__imageWrapper">
+                                                    {{ macros.responsiveImage(ctaCard.image.one, { imgClass: 'card__image' }) }}
+                                                </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </div>                                                
+                        {% endif %}
+                    </p-opentable>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+
+
+
+            {# {% set navLink = navItem.navLink and navItem.navLink.one ? navItem.navLink.one : null %}
+            
                 {% if navItem.navigationLinks and navItem.navigationLinks.count() %}
                     {# TODO navLink.ctaLink is ignored #}
-                    <p-openable class="navigation__button" label="{{ navLink.title }}" :close-on-blur="false">
+                    {# <p-openable class="navigation__button" label="{{ navLink.title }}" :close-on-blur="false"> #}
 
                         {# TODO column count #}
-                        {% set columns = min(3, navItem.navigationLinks.count()) %}
+                        {#{% set columns = min(3, navItem.navigationLinks.count()) %}
                         {% set classes = columns > 1 ? "grid -columns-#{columns}" : "" %}
 
                         <div class="navigation__dropdown dropdown -rightAligned {{ classes }}">
@@ -43,4 +136,4 @@
             </li>
         {% endfor %}
     </ul>
-</nav>
+</nav> #}
