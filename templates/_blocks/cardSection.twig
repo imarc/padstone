@@ -33,7 +33,7 @@
                                     {% endif %}
                                 {% endif %}
                                 <a href="{{ ctaLink.ctaLink.value }}" class="card__cta link -wide">
-                                    Standard Text Link
+                                    {{ ctaLink.linkText ?: ctaLink.ctaLink.type == 'entry' ? ctaLink.ctaLink.label }}
                                     <svg class="card__ctaIcon link__icon">
                                         <use href="/main-icons-sprite.svg#arrow-right" />
                                     </svg>
@@ -42,7 +42,7 @@
                         </div>
                         {% if card.image|length %}
                             <div class="card__imageWrapper">
-                                {{ macros.responsiveImage(card.image.one, { pictureClass: 'section__icon' }) }}
+                                {{ macros.responsiveImage(card.image.one, { pictureClass: 'card__image' }) }}
                             </div>
                         {% endif %}
                     </div>

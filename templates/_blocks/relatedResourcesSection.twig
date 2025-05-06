@@ -9,6 +9,7 @@
             image: card.image.one,
             content: card.blockContent,
             ctaLink: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.ctaLink.value : null,
+            linkText: card.ctaLinkBlock.one ? (card.ctaLinkBlock.one.linkText ?: (card.ctaLinkBlock.one.ctaLink.type == 'entry' ? card.ctaLinkBlock.one.ctaLink.label : null)) : null,
             newWindow: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.generalToggleOff : false
         }] %}
         {% if card.ctaLinkBlock|length %}
@@ -20,6 +21,7 @@
                     image: card.image.one ?: element.featuredImage|length ? element.featuredImage.one : null,
                     content: card.blockContent ?: element.abstract,
                     ctaLink: element.url,
+                    linkText: ctaLink.linkText ?: element.title,
                     newWindow: false
                 }] %}
             {% endif %}
@@ -33,8 +35,9 @@
                 headline: resource.title,
                 image: resource.featuredImage|length ? resource.featuredImage.one : null,
                 content: resource.abstract,
-                ctaLink: resource.url,
-                newWindow: false
+                ctaLink: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.ctaLink.value : resource.url,
+                linkText: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.linkText : (resource.ctaText ?: 'Read More'),
+                newWindow: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.generalToggleOff : false
             }]) %}
         {% endfor %}
     {% endif %}
@@ -42,22 +45,31 @@
 
 {% block content %}
     <div class="section__content">
-        {% for card in cardDataArray %}
-
-            {% if card.ctaLink %}
-                <a href="{{ card.ctaLink }}" 
-                    class="section__action button -primary" {{ card.newWindow ? 'target="_new"' }}>
-            {% endif %}
-            <div class="section__item">
-                {% if card.image %}
-                    {{ macros.responsiveImage(card.image, { pictureClass: 'section__icon' }) }}
-                {% endif %}
-                <h3>{{ card.headline }}</h3>
-                <p>{{ card.content }}</p>
-            </div>
-            {% if card.ctaLink|length %}
-                </a>
-            {% endif %}
-        {% endfor %}
+        <div class="grid -columns-3">
+            {% for card in cardDataArray %}
+                <div class="cell">
+                    <div class="card" style="max-width: 25.75rem;">
+                        <div class="card__content">
+                            <span class="card__title h3">{{ card.headline }}</span>
+                            <p>{{ card.content }}</p>
+                            
+                            {% if card.ctaLink|length %}
+                                <a href="{{ card.ctaLink }}" class="card__cta link -wide" {{ card.newWindow ? 'target="_new"' }}>
+                                    {{ card.linkText }}
+                                    <svg class="card__ctaIcon link__icon">
+                                        <use href="/main-icons-sprite.svg#arrow-right" />
+                                    </svg>
+                                </a>
+                            {% endif %}
+                        </div>
+                        {% if card.image %}
+                            <div class="card__imageWrapper">
+                                {{ macros.responsiveImage(card.image, { pictureClass: 'card__image' }) }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
