@@ -1,4 +1,4 @@
-dateModified: 1746555926
+dateModified: 1746637354
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -30,6 +30,7 @@ meta:
     3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Blocks' # Shared Blocks
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
     4d061e2c-2f20-41b2-9e12-d11cb1fded64: 'Resource Topics' # Resource Topics
+    4f264f7a-a063-4e9a-824d-4ba8018a6c27: 'Utility Nav Entry' # Utility Nav Entry
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
     5c34e4ac-c379-4915-ae75-4016817fe223: 'CTA Card' # CTA Card
     6a005e55-a63c-448a-824a-d719b3f55f46: Events # Events
@@ -126,6 +127,7 @@ meta:
     de18a008-1675-459b-bc1e-5f684096b0c2: 'Resource Topics' # Resource Topics
     e6d0b9a2-4248-482d-a0b4-bd27ba89b22a: 'CTA Link' # CTA Link
     e49eee72-0b33-43a2-81d6-31fb4ab32346: 'Alt Text' # Alt Text
+    e70de5ea-2588-4113-a125-ccc9a4d5a9d2: 'Utility Nav' # Utility Nav
     e737c446-0085-4bd6-b343-2d4c9e9f312e: 'Resources Page' # Resources Page
     eed094b2-cdd9-4163-8ca6-fca978f404ad: 'Shared Sections' # Shared Sections
     eeef2caa-117b-428d-9f03-adb34907baec: 'Link Text' # Link Text
