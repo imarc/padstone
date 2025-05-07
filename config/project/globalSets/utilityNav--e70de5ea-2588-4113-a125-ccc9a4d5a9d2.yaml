@@ -1,0 +1,28 @@
+fieldLayouts:
+  c473ba4c-9da6-4173-a843-b1092de9d779:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-07T17:02:34+00:00'
+            elementCondition: null
+            fieldUid: 4f264f7a-a063-4e9a-824d-4ba8018a6c27 # Utility Nav Entry
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bcc02c8a-77f3-474e-8377-77b183dce0aa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 60b57368-f394-4a34-814d-39a2aa497e48
+        userCondition: null
+handle: utilityNav
+name: 'Utility Nav'
+sortOrder: 3
