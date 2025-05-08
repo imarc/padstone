@@ -11,6 +11,7 @@
     "repository": "https://github.com/imarc/padstone.git",
     "bugs": "https://github.com/imarc/padstone/issues",
     "license": "Apache-2.0",
+    "type": "module",
     "version": "2.0.0",
     "private": true,
     "author": {
@@ -44,8 +45,8 @@
         }
     ],
     "engines": {
-      "npm": "^10",
-      "node": "^22"
+        "npm": "^10",
+        "node": "^22"
     },
     "dependencies": {
         "@imarc/pronto": "^2.0.0-rc.6",
@@ -55,11 +56,10 @@
     },
     "scripts": {
         "lint": "eslint resources",
-        "fractal": "fractal",
         "dev": "vite",
         "preview": "vite preview",
         "prod": "vite build",
-        "build": "vite build && fractal build"
+        "build": "vite build"
     },
     "devDependencies": {
         "@imarc/vitrine": "^1.0.4",
