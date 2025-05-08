@@ -1,5 +1,5 @@
 <script setup>
-import { computed, toValue, reactive } from 'vue'
+import { computed, toValue, reactive, isRef, isReactive } from 'vue'
 import { useFetch, useUrlSearchParams } from '@vueuse/core'
 
 const props = defineProps({
@@ -36,17 +36,15 @@ const url = computed(() => {
     return `${props.url}?${new URLSearchParams(nonNull)}`
 })
 
-const response = useFetch(url, { refetch: true })
-const result = computed(() => JSON.parse(response.data?.value ?? null))
+const response = useFetch(url, { refetch: true }).get().json()
+
+const slotProps = computed(() => ({
+  response,
+  noResults: response.isFinished.value && (!response.data.value?.data || response.data.value.data.length == 0),
+  data: response.data.value?.data || [],
+  meta: response.data.value?.meta,
+  params,
+}))
 </script>
 
-<template>
-    <slot
-        v-bind="{
-            ...result,
-            params,
-            isFetching: response?.isFetching,
-            isFinished: response?.isFinished,
-        }"
-    />
-</template>
+<template><slot v-bind="slotProps" /></template>

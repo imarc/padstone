@@ -22,7 +22,7 @@
 
         <element-collection
             url="/resources.json"
-            v-slot="{ params, isFetching, data: resources, meta: { pagination = {} } = {} }"
+            v-slot="{ params, noResults, data: resources }"
         >
             <div class="section resultsSection">
                 <div class="section__container container">
@@ -54,9 +54,11 @@
                         </div>
                     </div>
 
-                    <div class="">
-                        <div v-if="resources && !resources.length && !isFetching" class="" v-cloak>No resources found.</div>
-                        <div v-else v-for="resource in resources" :key="resource.id" class="card">
+                    <div class="grid -columns-3">
+                        <div v-if="noResults" class="">
+                          No resources found.
+                        </div>
+                        <div v-else v-for="resource of resources" class="card">
                             <div class="card__content">
                                 <div class="card__tag -overlay" v-text="resource.type"></div>
                                 <div class="card__title h3">
@@ -65,9 +67,11 @@
                                 <div class="card__description" v-html="resource.description"></div>
                                 <a class="card__cta link -wide" :href="resource.url" v-text="resource.cta"></a>
                             </div>
+                            {#
                             <div class="card__imageWrapper">
                                 <img class="card__background" :src="resource.image" :alt="resource.imageAltText">
                             </div>
+                            #}
                         </div>
                     </div>
                 </div>
