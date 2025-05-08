@@ -35,7 +35,7 @@ ops-install() {
     npm install
 
     echo "Calling $(tput smul)npx @imarc/pronto@latest$(tput rmul)..."
-    npx @imarc/pronto@latest --non-interactive y ./resources y y ./web
+    npx @imarc/pronto@latest --non-interactive y ./resources y y y ./public
 
     # get updated settings; unusual syntax for bash 3.2.57
     source /dev/stdin <<<"$(ops env)"
