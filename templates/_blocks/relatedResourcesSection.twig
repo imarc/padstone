@@ -9,7 +9,7 @@
             image: card.image.one,
             content: card.blockContent,
             ctaLink: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.ctaLink.value : null,
-            linkText: card.ctaLinkBlock.one ? (card.ctaLinkBlock.one.linkText ?: (card.ctaLinkBlock.one.ctaLink.type == 'entry' ? card.ctaLinkBlock.one.ctaLink.label : null)) : null,
+            linkText: card.ctaLinkBlock.one ? (card.ctaLinkBlock.one.linkText ?? (card.ctaLinkBlock.one.ctaLink.type == 'entry' ? card.ctaLinkBlock.one.ctaLink.label : null)) : null,
             newWindow: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.generalToggleOff : false
         }] %}
         {% if card.ctaLinkBlock|length %}
