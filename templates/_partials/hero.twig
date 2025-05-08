@@ -20,33 +20,31 @@
     }|merge(hero) %}
 
     <section class="section container hero {{ hero.backgroundImage|length ? 'accent-primary' : '' }}">
-        {% if hero.backgroundImage|length %}
-            <div class="section__background">
-                {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'section__backgroundImg' }) }}
-            </div>
-        {% endif %}
         <div class="hero__content">
-            <header class="section__header">
+            <div class="hero__text">
                 {% if hero.heroEyebrow %}
                     <div class="eyebrow accent-primary">{{ hero.heroEyebrow }}</div>
                 {% endif %}
                 {% if hero.heroHeadline %}
-                    <h1 class="section__heading">{{ hero.heroHeadline }}</h1>
+                    <h1 class="hero__heading">{{ hero.heroHeadline }}</h1>
                   {% else %} 
-                    <h1 class="section__heading">{{ entry.title }}</h1>
+                    <h1 class="hero__heading">{{ entry.title }}</h1>
                 {% endif %}
-                {% if hero.heroSubheadline %}
-                    <h2 class="section__subheading">{{ hero.heroSubheadline }}</h2>
+                {% if hero.heroIntroduction %}
+                    <p class="hero__introduction">
+                        {{ hero.heroIntroduction }}
+                    </p>
                 {% endif %}
-            </header>
-            {% if hero.heroIntroduction %}
-                <div class="section__introduction -emphasized">
-                    {{ hero.heroIntroduction }}
-                </div>
-            {% endif %}
-            {% if hero.ctaLinkBlock is defined and hero.ctaLinkBlock|length %}
-                <div class="actions">
-                    {{ macros.renderLink (hero.ctaLinkBlock.one, { class: 'button -primary' })}}
+                {% if hero.ctaLinkBlock is defined and hero.ctaLinkBlock|length %}
+                    <div class="actions">
+                        {{ macros.renderLink (hero.ctaLinkBlock.one, { class: 'button' })}}
+                    </div>
+                {% endif %}
+            </div>
+            {# FOR KERRI - IMAGE FIELD UPDATE #}
+            {% if hero.backgroundImage|length %}
+                <div class="hero__image">
+                    {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'hero__asset' }) }}
                 </div>
             {% endif %}
         </div>
