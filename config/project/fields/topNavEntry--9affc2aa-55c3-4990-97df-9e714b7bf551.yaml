@@ -6,12 +6,49 @@ searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
+  defaultPlacement: end
   maintainHierarchy: false
   maxRelations: 1
   minRelations: 1
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\LevelConditionRule
+              -
+                - uid
+                - 76977c62-a63b-427c-8212-4d972acbbfee
+              -
+                - operator
+                - '='
+              -
+                - value
+                - '1'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
   selectionLabel: 'Add item'
   showCardsInGrid: false
-  showSiteMenu: false
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
   sources:
     - 'section:0e0a0c15-2d54-4a63-b4ae-29b75916437e' # Navigation
   targetSiteId: null
