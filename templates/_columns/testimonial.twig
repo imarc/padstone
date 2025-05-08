@@ -1,13 +1,19 @@
-<figure class="testimonial">
-    <blockquote class="testimonial__quote">
+<blockquote class="testimonial">
+    <svg class="testimonial__icon icon accent-primary" role="presentation">
+        <use href="/main-icons-sprite.svg#quote" />
+    </svg>
+    <div class="testimonial__content">
         {{ block.quote }}
-    </blockquote>
-    <figcaption class="testimonial__caption">
-        <div class="avatar -horizontal testimonial__attribution">
-            <div class="avatar__info">
-                <h2 class="avatar__name">{{ block.person }}</h2>
-                <div class="avatar__title">{{ block.jobTitle }}</div>
-            </div>
+    </div>
+    <footer class="testimonial__footer">
+        <div class="testimonial__citationPhotoWrapper">
+            <img src="https://picsum.photos/400" alt="Placeholder photo" class="testimonial__citationPhoto">
         </div>
-    </figcaption>
-</figure>
+        <cite class="testimonial__citation">
+            {{ block.person }}
+            <span class="testimonial__citationTitle">
+                {{ block.jobTitle }}
+            </span>
+        </cite>
+    </footer>
+</blockquote>

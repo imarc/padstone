@@ -1,4 +1,4 @@
-dateModified: 1746637354
+dateModified: 1746715121
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -187,7 +187,7 @@ plugins:
     edition: standard
     enabled: true
     licenseKey: ZRUZFKQ48F1MB4CZKMZIIHQU
-    schemaVersion: 3.0.12
+    schemaVersion: 3.0.13
   vite:
     edition: standard
     enabled: true
@@ -196,7 +196,7 @@ system:
   edition: solo
   live: true
   name: 'Padstone Craft 5'
-  schemaVersion: 5.6.0.2
+  schemaVersion: 5.7.0.3
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
