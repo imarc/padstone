@@ -90,10 +90,10 @@
 {% endapply %}{% endmacro %}
 
 {% macro renderLink(ctaLink, options) %}{% apply spaceless %}
-    {% if ctaLink and ctaLink.ctaLink %}
-        <a href="{{ ctaLink.ctaLink.value }}" 
-            class="{{ options.class }}" {{ ctaLink.generalToggleOff ? 'target="_new"' }}>
-                {{ ctaLink.linkText ?: ctaLink.ctaLink.type == 'entry' ? ctaLink.ctaLink.label }}
+    {% if ctaLink %}
+        <a href="{{ ctaLink }}" 
+            class="{{ options.class }}" {{ ctaLink.target ? 'target="' ~ ctaLink.target ~ '"' }}>
+                {{ ctaLink.label }}
         </a>
     {% endif %}
 {% endapply %}{% endmacro %}

@@ -2,9 +2,13 @@ columnSuffix: null
 handle: ctaLink
 instructions: 'Leave blank to create a heading with no link'
 name: Link
-searchable: false
+searchable: true
 settings:
+  advancedFields:
+    - target
+  fullGraphqlData: false
   maxLength: 255
+  showLabelField: true
   typeSettings:
     __assoc__:
       -
@@ -30,10 +34,30 @@ settings:
             -
               - sources
               - '*'
+            -
+              - showUnpermittedSections
+              - '1'
+            -
+              - showUnpermittedEntries
+              - '1'
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - '1'
+            -
+              - allowAnchors
+              - '1'
+            -
+              - allowCustomSchemes
+              - ''
   types:
+    - entry
     - url
     - asset
-    - entry
+    - email
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Link

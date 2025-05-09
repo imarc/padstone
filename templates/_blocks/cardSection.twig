@@ -20,10 +20,9 @@
                             <p class="card__description">
                                 {{ cardData.content }}
                             </p>
-                            {% if card.ctaLinkBlock|length %}
-                                {% set ctaLink = card.ctaLinkBlock.one %}
-                                {% if ctaLink.ctaLink.type == "entry" %}
-                                    {% set element = ctaLink.ctaLink.element %}
+                            {% if card.ctaLink %}
+                                {% if ctaLink.type == "entry" %}
+                                    {% set element = ctaLink.element %}
                                     {% if element.type == "blogArticle" or element.type == "resource" %}
                                         {% set cardData = cardData|merge({
                                             headline: element.title,
@@ -32,8 +31,8 @@
                                         }) %}
                                     {% endif %}
                                 {% endif %}
-                                <a href="{{ ctaLink.ctaLink.value }}" class="card__cta link -wide">
-                                    {{ ctaLink.linkText ?: ctaLink.ctaLink.type == 'entry' ? ctaLink.ctaLink.label }}
+                                <a href="{{ ctaLink }}" class="card__cta link -wide">
+                                    {{ ctaLink.label }}
                                     <svg class="card__ctaIcon link__icon">
                                         <use href="/main-icons-sprite.svg#arrow-right" />
                                     </svg>

@@ -60,18 +60,18 @@
                                                 <span class="card__title h3">
                                                     {{ ctaCard.title }}
                                                 </span>
-                                                {% if ctaCard.ctaLinkBlock.count() %}
-                                                    {% if ctaCard.ctaLinkBlock.one.ctaLink.url %}
-                                                        <a href="{{ ctaCard.ctaLinkBlock.one.ctaLink.url }}" 
-                                                            {{ ctaCard.ctaLinkBlock.one.generalToggleOff ? ' target="_new"' }}  
+                                                {% if ctaCard.ctaLink %}
+                                                    {% if ctaCard.ctaLink.value|length %}
+                                                        <a href="{{ ctaCard.ctaLink.value }}" 
+                                                            {{ ctaLink.target ? 'target="' ~ ctaLink.target ~ '"' }}
                                                             class="card__cta link -wide">
-                                                            {{ ctaCard.ctaLinkBlock.one.linkText|default("Read more") }}
+                                                            {{ ctaCard.ctaLink.text|default("Read more") }}
                                                             <svg class="card__ctaIcon link__icon">
                                                                 <use href="/main-icons-sprite.svg#arrow-right" />
                                                             </svg>
                                                         </a>
-                                                    {% elseif ctaCard.ctaLinkBlock.one.linkText %}
-                                                        {{ ctaCard.ctaLinkBlock.one.linkText|default("") }}
+                                                    {% elseif ctaCard.ctaLink.text|length %}
+                                                        {{ ctaCard.ctaLink.text|default("") }}
                                                     {% endif %}
                                                 {% endif %}
                                             </div>

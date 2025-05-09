@@ -29,16 +29,16 @@
 
         {% block conclusion %}
             {# {% if block.sectionConclusion is not empty or block.sectionCTA %} #}
-            {% if block.ctaLinkBlock and block.ctaLinkBlock|length %}
+            {% if block.ctaLink and block.ctaLink.value|length %}
                 <div class="section__footer">
                     {# {% if block.sectionConclusion %}
                         <div class="section__conclusion">
                             {{ block.sectionConclusion }}
                         </div>
                     {% endif %} #}
-                    {% if block.ctaLinkBlock[0] %}
+                    {% if block.ctaLink %}
                         <div class="section__actions">
-                            {{ macros.renderLink (block.ctaLinkBlock.one, { class: 'section__action button -primary' })}}
+                            {{ macros.renderLink (block.ctaLink, { class: 'section__action button -primary' })}}
                         </div>
                     {% endif %}
                 </div>

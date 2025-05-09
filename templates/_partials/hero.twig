@@ -35,9 +35,9 @@
                         {{ hero.heroIntroduction }}
                     </p>
                 {% endif %}
-                {% if hero.ctaLinkBlock is defined and hero.ctaLinkBlock|length %}
+                {% if hero.ctaLink is defined and hero.ctaLink|length %}
                     <div class="actions">
-                        {{ macros.renderLink (hero.ctaLinkBlock.one, { class: 'button' })}}
+                        {{ macros.renderLink (hero.ctaLink, { class: 'button' })}}
                     </div>
                 {% endif %}
             </div>

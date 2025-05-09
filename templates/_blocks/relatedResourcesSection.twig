@@ -8,20 +8,19 @@
             headline: card.headline,
             image: card.image.one,
             content: card.blockContent,
-            ctaLink: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.ctaLink.value : null,
-            linkText: card.ctaLinkBlock.one ? (card.ctaLinkBlock.one.linkText ?? (card.ctaLinkBlock.one.ctaLink.type == 'entry' ? card.ctaLinkBlock.one.ctaLink.label : null)) : null,
-            newWindow: card.ctaLinkBlock.one ? card.ctaLinkBlock.one.generalToggleOff : false
+            ctaLink: card.ctaLink,
+            linkText: card.ctaLink ? card.ctaLink.label : "",
+            newWindow: card.ctaLink ? card.ctaLink.target : ""
         }] %}
-        {% if card.ctaLinkBlock|length %}
-            {% set ctaLink = card.ctaLinkBlock.one %}
-            {% if ctaLink.ctaLink.type == "entry" %}
-                {% set element = ctaLink.ctaLink.element %}
+        {% if card.ctaLink %}
+            {% if ctaLink.type == "entry" %}
+                {% set element = ctaLink.element %}
                 {% set cardData = [{
                     headline: card.headline ?: element.title,
                     image: card.image.one ?: element.featuredImage|length ? element.featuredImage.one : null,
                     content: card.blockContent ?: element.abstract,
                     ctaLink: element.url,
-                    linkText: ctaLink.linkText ?: element.title,
+                    linkText: card.ctaLink ? card.ctaLink.label : element.title,
                     newWindow: false
                 }] %}
             {% endif %}
@@ -35,9 +34,9 @@
                 headline: resource.title,
                 image: resource.featuredImage|length ? resource.featuredImage.one : null,
                 content: resource.abstract,
-                ctaLink: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.ctaLink.value : resource.url,
-                linkText: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.linkText : (resource.ctaText ?: 'Read More'),
-                newWindow: resource.ctaLinkBlock|length ? resource.ctaLinkBlock.one.generalToggleOff : false
+                ctaLink: resource.ctaLink,
+                linkText: resource.ctaLink ? resource.ctaLink.label : 'Read More',
+                newWindow: resource.ctaLink ? resource.ctaLink.target
             }]) %}
         {% endfor %}
     {% endif %}

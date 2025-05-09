@@ -6,37 +6,8 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2024-08-23T13:47:38+00:00'
-            disabled: false
-            elementCondition: null
-            id: null
-            includeInCards: false
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 5b9c97e7-a439-492d-9afd-0415dc9a392d
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2024-08-23T13:56:00+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: bda4be51-a390-429b-856f-8ebd7905b00a # Hero Eyebrow
             handle: null
@@ -53,6 +24,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-08-23T13:56:00+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: fcee80e9-4667-40be-9381-e2994ff56dc0 # Hero Headline
             handle: null
@@ -69,6 +41,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-08-23T13:56:00+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 101d77f8-2e5b-44d4-9689-c44463856e1b # Hero Subheadline
             handle: null
@@ -85,6 +58,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-08-23T13:56:00+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 458fef22-7128-4c44-80db-51f83af8dc3e # Hero Introduction
             handle: null
@@ -100,23 +74,25 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T13:56:00+00:00'
+            dateAdded: '2025-05-09T15:36:13+00:00'
+            editCondition: null
             elementCondition: null
-            fieldUid: b03ef84f-ced1-471e-80e2-b9679dedfd88 # CTA Link
+            fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Fill in link to create a CTA'
+            label: 'CTA Link'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 84d0c186-2a08-4f8c-a160-4c4cfee8ac78
+            uid: d3594f6f-d77f-4fc4-bdc3-9b49a6f549cf
             userCondition: null
             warning: null
             width: 100
           -
             dateAdded: '2024-08-23T13:56:00+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 377e43f5-bfc9-462f-a0db-51f020707423 # Background Image
             handle: null
@@ -136,12 +112,12 @@ fieldLayouts:
         userCondition: null
 handle: standardHero
 hasTitleField: false
-icon: ''
+icon: null
 name: 'Standard Hero'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

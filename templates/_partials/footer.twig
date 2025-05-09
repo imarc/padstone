@@ -28,7 +28,7 @@
                 {% for navItem in footerNavigation.footerNavItems.all %}
                     <div class="sitemap__item">
                         {% if navItem.ctaLink and navItem.ctaLink.value %}
-                            {{ macros.renderLink(navItem, { class: 'sitemap__heading' }) }}
+                            {{ macros.renderLink(navItem.ctaLink, { class: 'sitemap__heading' }) }}
                         {% else %}
                             <div class="sitemap__heading">{{ navItem.title }}</div>
                         {% endif %}
@@ -39,7 +39,7 @@
                                     <li>
                                         {% if subNavItem.children.count() %}
                                             {% if subNavItem.ctaLink and subNavItem.ctaLink.value %}
-                                                {{ macros.renderLink(subNavItem, { class: 'sitemap__heading' }) }}
+                                                {{ macros.renderLink(subNavItem.ctaLink, { class: 'sitemap__heading' }) }}
                                             {% else %}
                                                 <div class="sitemap__heading">{{ subNavItem.title }}</div>
                                             {% endif %}
@@ -54,7 +54,7 @@
                                             </ul>
                                         {% else %}
                                             {% if subNavItem.ctaLink and subNavItem.ctaLink.value %}
-                                                {{ macros.renderLink(subNavItem, { class: 'sitemap__heading' }) }}
+                                                {{ macros.renderLink(subNavItem.ctaLink, { class: 'sitemap__heading' }) }}
                                             {% else %}
                                                 {{ subNavItem.title }}
                                             {% endif %}

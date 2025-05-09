@@ -1,6 +1,6 @@
 {% if entry.type == "resourceLink" %}
-    {% if entry.ctaLinkBlock and entry.ctaLinkBlock|length and entry.ctaLinkBlock.one.ctaLink and entry.ctaLinkBlock.one.ctaLink.url %}
-        {% redirect entry.ctaLinkBlock.one.ctaLink.url %}
+    {% if entry.ctaLink %}
+        {% redirect entry.ctaLink %}
     {% else %}
         {% redirect "/resources" %}
     {% endif %}
