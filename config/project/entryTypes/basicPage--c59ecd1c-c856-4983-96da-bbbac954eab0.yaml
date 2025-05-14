@@ -38,7 +38,7 @@ fieldLayouts:
           -
             dateAdded: '2024-08-23T14:12:50+00:00'
             elementCondition: null
-            fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Select Hero
+            fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Hero
             handle: null
             includeInCards: false
             instructions: null

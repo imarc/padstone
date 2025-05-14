@@ -1,12 +1,18 @@
 columnSuffix: null
-handle: selectHero
+handle: hero
 instructions: null
-name: 'Select Hero'
+name: Hero
 searchable: false
 settings:
   createButtonLabel: 'New Hero'
+  defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
-    - d4966cae-3474-4ee8-92bd-7d511f1758d4 # Standard Hero
+    -
+      __assoc__:
+        -
+          - uid
+          - d4966cae-3474-4ee8-92bd-7d511f1758d4 # Standard Hero
   includeTableView: false
   maxEntries: 1
   minEntries: 1
