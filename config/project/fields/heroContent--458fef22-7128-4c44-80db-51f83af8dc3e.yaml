@@ -1,20 +1,23 @@
 columnSuffix: null
-handle: heroIntroduction
+handle: heroContent
 instructions: null
-name: 'Hero Introduction'
+name: 'Hero Content'
 searchable: false
 settings:
   availableTransforms: ''
   availableVolumes: '*'
-  ckeConfig: d69400d5-37c7-48ef-b143-e25cccdda2ac # Simple
+  characterLimit: null
+  ckeConfig: dccf2895-2f61-4bbe-8ac6-bf389ab04527 # Simple (No Links)
   createButtonLabel: null
   defaultTransform: null
-  enableSourceEditingForNonAdmins: false
+  fullGraphqlData: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  showWordCount: false
+  showWordCount: true
+  sourceEditingGroups:
+    - __ADMINS__
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

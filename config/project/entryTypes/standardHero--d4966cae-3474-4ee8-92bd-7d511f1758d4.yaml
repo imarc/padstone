@@ -1,6 +1,9 @@
 color: null
 fieldLayouts:
   243db469-6f40-4517-a75d-a7e8f81039f2:
+    cardView:
+      - 'layoutElement:c24927ca-b97d-4582-af30-a791db8e082a'
+      - 'layoutElement:8f9e4214-c090-4867-91a9-9d08c9656f7c'
     tabs:
       -
         elementCondition: null
@@ -28,7 +31,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: fcee80e9-4667-40be-9381-e2994ff56dc0 # Hero Headline
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -43,26 +46,9 @@ fieldLayouts:
             dateAdded: '2024-08-23T13:56:00+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 101d77f8-2e5b-44d4-9689-c44463856e1b # Hero Subheadline
+            fieldUid: 458fef22-7128-4c44-80db-51f83af8dc3e # Hero Content
             handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 40571ea4-98a2-4ebb-aeb9-7f1afc99d17e
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-23T13:56:00+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 458fef22-7128-4c44-80db-51f83af8dc3e # Hero Introduction
-            handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -91,10 +77,10 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-23T13:56:00+00:00'
+            dateAdded: '2025-05-14T19:39:33+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 377e43f5-bfc9-462f-a0db-51f020707423 # Background Image
+            fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
             includeInCards: false
             instructions: null
@@ -103,12 +89,35 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 64ac8c09-b226-4c83-9605-50ec906cb97e
+            uid: 1a2c220b-9fdf-4f85-b3dd-9d45274f0747
             userCondition: null
             warning: null
             width: 100
         name: Content
         uid: 7eee4f6f-eb67-482e-8631-ffe2d2015b13
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-14T21:04:43+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06ed7e7c-4df8-432c-8798-f9503097f2a4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 6f3799d0-97ad-46e0-b02a-862da48a1cbb
         userCondition: null
 handle: standardHero
 hasTitleField: false

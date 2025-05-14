@@ -92,8 +92,12 @@
 {% macro renderLink(ctaLink, options) %}{% apply spaceless %}
     {% if ctaLink %}
         <a href="{{ ctaLink }}" 
-            class="{{ options.class }}" {{ ctaLink.target ? 'target="' ~ ctaLink.target ~ '"' }}>
-                {{ ctaLink.label }}
+            class="{{ options.class }}" {{ ctaLink.target ? 'target="' ~ ctaLink.target ~ '"' }}
+            {% if ctaLink.target == '_blank' %}
+                rel="noopener noreferrer"
+            {% endif %}
+        >
+            {{ ctaLink.label }}
         </a>
     {% endif %}
 {% endapply %}{% endmacro %}

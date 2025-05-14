@@ -1,4 +1,4 @@
-dateModified: 1747234163
+dateModified: 1747256683
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -59,7 +59,7 @@ meta:
     341a7fb3-3ede-4a66-8e32-25c38b986f8a: 'Event Start Date' # Event Start Date
     352d2732-3ef7-46b2-9f97-a9ca5d1d41c0: 'Top Navigation Item' # Top Navigation Item
     377e43f5-bfc9-462f-a0db-51f020707423: 'Background Image' # Background Image
-    458fef22-7128-4c44-80db-51f83af8dc3e: 'Hero Introduction' # Hero Introduction
+    458fef22-7128-4c44-80db-51f83af8dc3e: 'Hero Content' # Hero Content
     507a966d-0b69-4f8e-9d31-31b6528b14a0: Images # Images
     521b80c9-0597-4ac3-b521-5e25290be644: 'Team Page' # Team Page
     524e948c-591f-4e9e-a275-77e3e0709b86: Person # Person
@@ -121,6 +121,7 @@ meta:
     d69400d5-37c7-48ef-b143-e25cccdda2ac: Simple # Simple
     dab85477-9d74-4135-9cd2-a0e109e07314: Subheadline # Subheadline
     dc246a2f-01d9-4061-b2a1-bc1e6b6edf94: 'Card Section' # Card Section
+    dccf2895-2f61-4bbe-8ac6-bf389ab04527: 'Simple (No Links)' # Simple (No Links)
     dd58c3c0-4afc-4b83-a606-73c8bc282d99: Image # Image
     de18a008-1675-459b-bc1e-5f684096b0c2: 'Resource Topics' # Resource Topics
     e49eee72-0b33-43a2-81d6-31fb4ab32346: 'Alt Text' # Alt Text

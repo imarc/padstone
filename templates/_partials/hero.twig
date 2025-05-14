@@ -11,7 +11,7 @@
 {% if hero is defined and hero %}
     {# set falsy defaults to simplify null checks #}
     {% set hero = {
-        backgroundImage: null,
+        image: null,
         heroEyebrow: null,
         heroHeadline: null,
         heroSubheadline: null,
@@ -19,20 +19,23 @@
         CTA: null
     }|merge(hero) %}
 
-    <section class="section container hero {{ hero.backgroundImage|length ? 'accent-primary' : '' }}">
+    {% set background = null %}
+    {% if hero['background'] is defined and hero.background|length %}
+        {% set background = hero.background.value %}
+    {% endif %}
+
+    <section class="section container hero {{ background }}">
         <div class="hero__content">
             <div class="hero__text">
                 {% if hero.heroEyebrow %}
-                    <div class="eyebrow accent-primary">{{ hero.heroEyebrow }}</div>
+                    <div class="eyebrow {{ (not background) ? 'accent-primary' : '' }}">{{ hero.heroEyebrow }}</div>
                 {% endif %}
-                {% if hero.heroHeadline %}
-                    <h1 class="hero__heading">{{ hero.heroHeadline }}</h1>
-                  {% else %} 
-                    <h1 class="hero__heading">{{ entry.title }}</h1>
-                {% endif %}
-                {% if hero.heroIntroduction %}
+
+                <h1 class="hero__heading">{{ hero.heroHeadline|default(entry.title) }}</h1>
+                 
+                {% if hero.heroContent %}
                     <p class="hero__introduction">
-                        {{ hero.heroIntroduction }}
+                        {{ hero.heroContent|striptags('<br><strong><b><em><i><del><span>')|raw }}
                     </p>
                 {% endif %}
                 {% if hero.ctaLink is defined and hero.ctaLink|length %}
@@ -41,10 +44,9 @@
                     </div>
                 {% endif %}
             </div>
-            {# FOR KERRI - IMAGE FIELD UPDATE #}
-            {% if hero.backgroundImage|length %}
+            {% if hero.image|length %}
                 <div class="hero__image">
-                    {{ macros.responsiveImage(hero.backgroundImage.one, { pictureClass: 'hero__asset' }) }}
+                    {{ macros.responsiveImage(hero.image.one, { pictureClass: 'hero__asset' }) }}
                 </div>
             {% endif %}
         </div>
