@@ -97,6 +97,22 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2025-05-08T20:45:29+00:00'
+            elementCondition: null
+            fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38385629-a661-417f-9bb7-0d4dbef8b9fa
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-08-15T17:02:36+00:00'
             editCondition: null
             elementCondition: null

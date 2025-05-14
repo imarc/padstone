@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: background
+instructions: null
+name: Background
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - template
+          - '<div style="background: #fff; border-bottom: solid 1px #eee; width: 100%; aspect-ratio: 2/1"></div>'
+        -
+          - background
+          - ''
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Accent
+        -
+          - template
+          - '<div style="background: url(data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20150%2075%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctext%20x%3D%2275%22%20y%3D%2240%22%20font-family%3D%22Arial%22%20text-anchor%3D%22middle%22%3EBrand%20Color%3C%2Ftext%3E%3C%2Fsvg%3E), radial-gradient(#fff, #fff0), conic-gradient(in hsl longer hue, red, red); width: 100%; aspect-ratio: 2/1"></div>'
+        -
+          - background
+          - ''
+        -
+          - value
+          - accent-primary
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: Imarc\Pickture\fields\PicktureField

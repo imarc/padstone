@@ -19,6 +19,7 @@
     "craftcms/element-api": "dev-patch-1",
     "craftcms/feed-me": "^6.3.0",
     "imarc/craft-entry-toc": "^1.0",
+    "imarc/craft-pickture": "^1.1",
     "imarc/craft-regex-field": "dev-master",
     "nystudio107/craft-code-field": "^5.0.0",
     "nystudio107/craft-retour": "^5.0.2",

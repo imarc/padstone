@@ -6,7 +6,12 @@
     {% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
     {% set columnSlugsClass = macros.columnsSlug(block) %}
 
-    <section class="section container basicSection -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }}" 
+    {% set background = null %}
+    {% if block['background'] is defined and block.background|length %}
+        {% set background = block.background.value %}
+    {% endif %}
+
+    <section class="section container basicSection -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }} {{ background }}"
         {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}
     >
         {% block header %}

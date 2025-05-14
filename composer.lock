@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eda4b454bccda66328eb9a56d5aa5243",
+    "content-hash": "e318518450e1727d1361216d5e7297ec",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2405,6 +2405,55 @@
                 "source": "https://github.com/imarc/entry-toc/tree/1.0.0"
             },
             "time": "2024-05-08T14:11:38+00:00"
+        },
+        {
+            "name": "imarc/craft-pickture",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imarc/craft-pickture.git",
+                "reference": "74c513de47ed8ec41ea037c11b6f04bc18b67108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imarc/craft-pickture/zipball/74c513de47ed8ec41ea037c11b6f04bc18b67108",
+                "reference": "74c513de47ed8ec41ea037c11b6f04bc18b67108",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0 || ^5.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "craftcms/rector": "dev-main"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Pickture",
+                "handle": "pickture"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imarc\\Pickture\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Imarc",
+                    "homepage": "https://www.imarc.com"
+                }
+            ],
+            "description": "A custom field type to let users pick between thumbnails instead of just text labels.",
+            "support": {
+                "docs": "https://github.com/imarc/craft-pickture/blob/main/README.md",
+                "issues": "https://github.com/imarc/craft-pickture/issues",
+                "source": "https://github.com/imarc/craft-pickture"
+            },
+            "time": "2024-09-03T14:28:49+00:00"
         },
         {
             "name": "imarc/craft-regex-field",
@@ -10662,5 +10711,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
