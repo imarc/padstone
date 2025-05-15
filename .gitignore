@@ -5,3 +5,7 @@ vendor
 web/cpresources
 .aider*
 .env
+
+resources/styles
+resources/js
+web/dist
