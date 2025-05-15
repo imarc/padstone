@@ -10,6 +10,20 @@
 {% set section = 'resourcesPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
+    {% set breadcrumbs = [] %}
+
+    {% set index = craft.entries.section('pages').type('resourcesPage').one %}
+    {% if index %}
+        {% set breadcrumbs = breadcrumbs|merge([
+            {
+                title: index.breadcrumbTitle ?? index.title,
+                url: index.url,
+            }
+        ]) %}
+    {% endif %}
+
+    {% include '_partials/breadcrumbs' with { breadcrumbs: breadcrumbs } %}
+
     {% if entry.resourceTopics.count and entry.publicDate %}
         {% set introduction = "#{macros.commaSeparate(entry.resourceTopics)} – #{entry.publicDate|date('F jS, Y')}" %}
     {% elseif entry.resourceTopics.count %}

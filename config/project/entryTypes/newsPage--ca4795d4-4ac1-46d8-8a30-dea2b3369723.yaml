@@ -25,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -37,6 +37,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-09-18T19:01:44+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: d56b297b-0f38-4dee-abc3-57498c544f41 # Hero
             handle: null
@@ -51,6 +52,40 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-05-15T13:29:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3644b740-3500-418e-a08f-7e66e4a2b99e # Show Breadcrumbs
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01a65a3f-7661-426d-be82-ad55b4ba7983
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-15T13:29:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 89dec5ed-967b-4adc-96f4-990fe7f52da5 # Breadcrumb Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fe79604-3c52-4093-9f7a-1a41a03251ea
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: eb7088c6-6660-4f5d-9740-bf882f1d8273
         userCondition: null
@@ -59,6 +94,7 @@ fieldLayouts:
         elements:
           -
             dateAdded: '2024-09-18T19:01:44+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 1d7fd420-3fd4-4dc0-afca-1833e0d9a05c # SEOMatic Fields
             handle: null
@@ -75,6 +111,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-09-18T19:01:44+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 678939a0-3ca0-4044-b263-e25151ebb1df # Additional Header Code
             handle: null
@@ -91,6 +128,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-09-18T19:01:44+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 3e4455cb-a3c6-4a1f-aece-f5b32088a23e # Additional Footer Code
             handle: null
@@ -110,12 +148,12 @@ fieldLayouts:
         userCondition: null
 handle: newsPage
 hasTitleField: true
-icon: ''
+icon: null
 name: 'News Page'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: showBreadcrumbs
+instructions: null
+name: 'Show Breadcrumbs'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

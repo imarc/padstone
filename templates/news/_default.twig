@@ -2,10 +2,24 @@
 {% set section = 'newsEventsPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
+    {% set breadcrumbs = [] %}
+
+    {% set index = craft.entries.section('pages').type('newsPage').one %}
+    {% if index %}
+        {% set breadcrumbs = breadcrumbs|merge([
+            {
+                title: index.breadcrumbTitle ?? index.title,
+                url: index.url,
+            }
+        ]) %}
+    {% endif %}
+
+    {% include '_partials/breadcrumbs' with { breadcrumbs: breadcrumbs } %}
+
     {% include '_partials/hero' with { hero: {
         heroEyebrow: 'News',
         heroHeadline: entry.title,
-        heroIntroduction: entry.publicDate|date('F jS, Y'),
+        heroContent: entry.publicDate|date('F jS, Y'),
     } } %}
 
     {{ macros.renderAllBlocks(entry.contentDesigner) }}

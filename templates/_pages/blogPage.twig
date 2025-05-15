@@ -2,6 +2,8 @@
 {% set section = 'blogPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
+    {% include '_partials/breadcrumbs' %}
+    
     {% include '_partials/hero' with entry %}
 
     <url-params v-slot="{ params, setParam }">

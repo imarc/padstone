@@ -1,0 +1,31 @@
+{% if showBreadcrumbs is not defined %}
+    {% set showBreadcrumbs = true %}
+{% endif %}
+
+{% if entry is defined and showBreadcrumbs and (entry.getAncestors()|length or (breadcrumbs is defined and breadcrumbs|length)) %}
+    <section class="container">
+        <nav aria-label="Breadcrumb" class="breadcrumbs">
+            <ol class="breadcrumbs__list">
+                {% if entry.getAncestors()|length %}
+                    {% for crumb in entry.getAncestors().all() %}
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link" href="{{ crumb.url }}">
+                                {{ crumb.breadcrumbTitle ?? crumb.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    <li class="breadcrumbs__item">{{ entry.breadcrumbTitle ?? entry.title }}</li>
+                {% elseif breadcrumbs is defined and breadcrumbs|length %}
+                    {% for crumb in breadcrumbs %}
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link" href="{{ crumb['url'] }}">
+                                {{ crumb['title'] }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    <li class="breadcrumbs__item">{{ entry.breadcrumbTitle ?? entry.title }}</li>
+                {% endif %}
+            </ol>
+        </nav>
+    </section>
+{% endif %}

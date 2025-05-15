@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: breadcrumbTitle
+instructions: 'You can optionally override the title of this page in the breadcrumbs the show in the hero. If nothing is provided here, the entry''s title will be used.'
+name: 'Breadcrumb Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

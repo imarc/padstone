@@ -2,10 +2,24 @@
 {% set section = 'blogPage' %}
 {% extends "_layouts/main" %}
 {% block content %}
+    {% set breadcrumbs = [] %}
+
+    {% set index = craft.entries.section('pages').type('blogPage').one %}
+    {% if index %}
+        {% set breadcrumbs = breadcrumbs|merge([
+            {
+                title: index.breadcrumbTitle ?? index.title,
+                url: index.url,
+            }
+        ]) %}
+    {% endif %}
+
+    {% include '_partials/breadcrumbs' with { breadcrumbs: breadcrumbs } %}
+
     {% include '_partials/hero' with { hero: {
         heroEyebrow: 'Blog Article',
         heroHeadline: entry.title,
-        heroIntroduction: "#{macros.commaSeparate(entry.blogAuthors)} – #{entry.publicDate|date('F jS, Y')}"
+        heroContent: "#{macros.commaSeparate(entry.blogAuthors)} – #{entry.publicDate|date('F jS, Y')}"
     } } %}
 
 
