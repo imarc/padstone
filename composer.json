@@ -26,7 +26,7 @@
     "nystudio107/craft-seomatic": "^5.1.1",
     "nystudio107/craft-vite": "^5.0.1",
     "verbb/expanded-singles": "^3.0.0",
-    "verbb/field-manager": "4.0.2",
+    "verbb/field-manager": "^4.0.2",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
