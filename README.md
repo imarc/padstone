@@ -17,7 +17,7 @@ Padstone is a starter package for Craft 5 built by Imarc. It provides a simple p
 Create a new padstone project with the following [composer](https://getcomposer.org/) command:
 
 ```sh
-composer create-project -s dev imarc/padstone:dev-next [folder]
+composer create-project imarc/padstone [folder] --ignore-platform-reqs
 ```
 
 ### Using [ops](https://github.com/imarc/ops) (the fast way)
