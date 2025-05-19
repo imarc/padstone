@@ -1,15 +1,10 @@
-<bp-dismissable storage-key="example-alert-{{ alert.id }}" v-slot="{ dismiss }">
-    <div class="banner">
-        <div class="banner__container container">
-            <div class="banner__messsage">
-                {{ alert.alertContent }}
-            </div>
-            <button class="banner__dismiss" @click="dismiss">
-                <svg xmlns="http://www.w3.org/2000/svg" class="banner__dismissIcon" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="18" y1="6" x2="6" y2="18" />
-                    <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
+<div class="container">
+    <p-dismissable class="banner" name="banner{{ alert.id }}" v-slot="{ close }">
+        <div class="banner__content">
+            {{ alert.alertContent }}
+            <button class="banner__close" @click="close">
+                <svg class="icon accent-white -heavy" viewBox="0 0 18 18"><use href="/main-icons-sprite.svg#close" /></svg>
             </button>
         </div>
-    </div>
-</bp-dismissable>
+    </p-dismissable>
+</div>
