@@ -28,7 +28,7 @@
         <div class="hero__content">
             <div class="hero__text">
                 {% if hero.heroEyebrow %}
-                    <div class="eyebrow {{ (not background) ? 'accent-primary' : '' }}">{{ hero.heroEyebrow }}</div>
+                    <div class="eyebrow {{ (not background) ? 'accent-primary' : 'accent-white' }}">{{ hero.heroEyebrow }}</div>
                 {% endif %}
 
                 <h1 class="hero__heading">{{ hero.heroHeadline|default(entry.title) }}</h1>
