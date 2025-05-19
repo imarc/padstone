@@ -6,55 +6,62 @@
 
     {% include '_partials/hero' with entry %}
 
-    <url-params v-slot="{ params, setParam }">
-        <element-collection :params="params" url="/resources.json" v-slot="{ isFetching, elements: resources, meta: { pagination = {} } = {} }">
+        <element-collection
+            url="/resources.json"
+            v-slot="{ params, noResults, data: resources }"
+        >
             <div class="section resultsSection">
                 <div class="section__container container">
 
-                    <div class="filters">
-                        <div class="filters__filter select">
-                            <label for="resource_type" class="select__label">
+                    <div class="filters grid -columns-4">
+                        <div class="cell">
+                            <label class="filters__filter field -wide">
                                 Filter by Type:
+                                <p-select
+                                    class="accent-primary"
+                                    :options="{{ craft.categories.group('resourceTypes').all()|json_encode }}"
+                                    label="title"
+                                    value-prop="slug"
+                                    v-model="params.type"
+                                ></p-select>
                             </label>
-                            <select class="select__select" name="resource_type" v-model="params.type">
-                                <option :value="null" selected>All</option>
-                                {% for type in craft.categories.group('resourceTypes').all %}
-                                    <option value="{{ type.slug }}">{{ type.title }}</option>
-                                {% endfor %}
-                            </select>
                         </div>
-                        <div class="filters__filter select">
-                            <label for="resource_topic" class="select__label">
+                        <div class="cell">
+                            <label class="filters__filter field -wide">
                                 Filter by Topic:
+                                <p-select
+                                    class="accent-primary"
+                                    :options="{{ craft.categories.group('resourceTopics').all()|json_encode }}"
+                                    label="title"
+                                    value-prop="slug"
+                                    v-model="params.type"
+                                ></p-select>
                             </label>
-                            <select class="select__select" name="resource_topic" v-model="params.topic">
-                                <option :value="null" selected>All</option>
-                                {% for topic in craft.categories.group('resourceTopics').all %}
-                                    <option value="{{ topic.slug }}">{{ topic.title }}</option>
-                                {% endfor %}
-                            </select>
                         </div>
                     </div>
 
-                    <div class="cards">
-                        <div v-if="resources && !resources.length && !isFetching" class="" v-cloak>No resources found.</div>
-                        <div v-else v-for="resource in resources" :key="resource.id" class="cards__card card">
-                            <div class="card__container">
-                                <img class="card__background" :src="resource.image" :alt="resource.imageAltText">
+                    <div class="grid -columns-3">
+                        <div v-if="noResults" class="">
+                          No resources found.
+                        </div>
+                        <div v-else v-for="resource of resources" class="card">
+                            <div class="card__content">
                                 <div class="card__tag -overlay" v-text="resource.type"></div>
-                                <h4 class="card__heading">
+                                <div class="card__title h3">
                                     <a :href="resource.url" v-text="resource.title"></a>
-                                </h4>
-                                <div class="card__content" v-html="resource.description"></div>
-                                <div class="card__actions -attached">
-                                    <a :href="resource.url" v-text="resource.cta" class="card__action button -primary"></a>
                                 </div>
+                                <div class="card__description" v-html="resource.description"></div>
+                                <a class="card__cta link -wide" :href="resource.url" v-text="resource.cta"></a>
                             </div>
+                            {#
+                            <div class="card__imageWrapper">
+                                <img class="card__background" :src="resource.image" :alt="resource.imageAltText">
+                            </div>
+                            #}
                         </div>
                     </div>
                 </div>
             </div>
-    </resources>
-    </url-params>
+    </element-collection>
 
 {% endblock %}
