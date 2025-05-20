@@ -29,7 +29,7 @@ ops-install() {
     ops env CRAFT_DB_DATABASE ${INPUT:-$DEFAULT}
 
     echo "Calling $(tput smul)composer install$(tput rmul)..."
-    composer install
+    composer install --ignore-platform-reqs
 
     echo "Calling $(tput smul)npm install$(tput rmul)..."
     npm install
@@ -46,7 +46,7 @@ ops-install() {
     fi
 
     if [[ -z "$CRAFT_SECURITY_KEY" ]] && [[ -n "$CRAFT_DB_DATABASE" ]]; then
-        echo "Running $(tput smul)ops craft setup/security-key$(tput rmul)..."
+        echo "Running $(tput smul)ops craft setup/keys$(tput rmul)..."
         ops craft setup/keys
     fi
 
