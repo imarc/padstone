@@ -5,7 +5,7 @@
         {% for navItem in primaryNavigation.topNavItems.all %}
             {% set navEntry = navItem.topNavEntry.one ?? null %}
             {% if navEntry %}
-                <li class="navigation__item" v-directionals>
+                <li class="navigation__item {{ navItem.navType != 'simple' ? '-wide' : '' }}" v-directionals>
                     <p-openable class="navigation__button" label="{{ navEntry.title }}" :close-on-blur="false">
                         {% if navItem.navType == "simple" %}
                             <div class="navigation__dropdown -center dropdown">

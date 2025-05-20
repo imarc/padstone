@@ -27,22 +27,30 @@
         <div id="app">
             <header class="siteHeader container">
                 <div class="siteHeader__content">
+                    <a class="siteHeader__logo" href="/">
+                        {#
+                            {{ macros.responsiveImage(
+                                    craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
+                                    { transform: { height: 48, width: 96, mode: 'fit' } }
+                                    ) }}
+                        #}
+                        <svg viewBox="0 0 300 133" xmlns="http://www.w3.org/2000/svg" fill="#8000ff">
+                            <rect width="300" height="133"/>
+                            <text x="150" y="80" text-anchor="middle" font-size="32px" fill="white">{{ siteName }}</text>
+                        </svg>
+                    </a>
 
-                    <div class="container">
-                        <a class="siteHeader__brand" href="/">
-                            {#
-                                {{ macros.responsiveImage(
-                                        craft.assets({ volume: 'images', title: 'Padstone Logo' }).one,
-                                        { transform: { height: 48, width: 96, mode: 'fit' } }
-                                        ) }}
-                            #}
-                            <svg viewBox="0 0 300 133" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="300" height="133" fill="#8000FF"/>
-                            </svg>
+                    <nav class="siteHeader__utilityNav navigation">
+                        <ul class="navigation__list">
+                            {% for navItem in utilityNav.utilityNavEntry.all %}
+                                <li class="navigation__item"><a class="navigation__link" href="{{ navItem.ctaLink.url }}">{{ navItem.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
 
-
-                            <div class="siteHeader__siteName">{{ siteName }}</div>
-                            </a>
+                    <div class="siteHeader__search search">
+                          <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"></path></svg>
+                          <input class="search__input input" type="search" placeholder="Search">
                     </div>
 
                     {% include "/_partials/navigation" %}
