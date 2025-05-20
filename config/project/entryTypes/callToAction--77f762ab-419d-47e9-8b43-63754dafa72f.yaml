@@ -6,19 +6,19 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-15T18:10:35+00:00'
+            dateAdded: '2025-05-19T14:20:09+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: ff11a7ef-4804-4699-9e26-f9d531a7e760 # Content
+            fieldUid: 37581c39-ebd0-4472-aa61-c2f51a891535 # Content (No Media)
             handle: null
             includeInCards: false
             instructions: null
-            label: null
+            label: Content
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28
+            uid: f204a9b4-3e4b-4e3e-8174-3cd2a188635c
             userCondition: null
             warning: null
             width: 100
@@ -32,7 +32,7 @@ fieldLayouts:
             instructions: 'Fill in link to create a CTA'
             label: 'CTA Link'
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 76f5a0da-a193-46ec-ace9-cce0fdc990f3

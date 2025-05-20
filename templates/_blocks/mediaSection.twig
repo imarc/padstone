@@ -1,0 +1,15 @@
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/baseSection" %}
+
+{% block content %}
+    <div class="basicSection__content">
+        {% if block.mediaSubBlocks|length %}
+            {% for subblock in block.mediaSubBlocks.all() %}
+                <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
+                    {{ macros.renderColumn(subblock) }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}

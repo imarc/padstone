@@ -21,15 +21,7 @@
         {% endblock %}
 
         {% block content %}
-            <div class="basicSection__content">
-                {% if block.subBlocks %}
-                    {% for subblock in block.subBlocks.all() %}
-                        <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
-                            {{ macros.renderColumn(subblock) }}
-                        </div>
-                    {% endfor %}
-                {% endif %}
-            </div>
+        
         {% endblock %}
 
         {% block conclusion %}

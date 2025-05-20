@@ -1,12 +1,12 @@
-color: red
+color: rose
 fieldLayouts:
-  0a5eb646-9689-4454-8f84-a9815142c0ce:
+  6f4fac81-ff10-4e1b-8c25-b4b48dde7724:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-15T17:02:36+00:00'
+            dateAdded: '2025-05-19T15:20:02+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
@@ -18,12 +18,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 74f3a028-f488-444d-9f5e-c5cf5a97ce3b
+            uid: 618dd074-50f7-43f2-a5f2-5422fd74bcd9
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-15T17:02:36+00:00'
+            dateAdded: '2025-05-19T15:20:02+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
@@ -35,15 +35,32 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6f430633-62a8-44bb-93cb-4da3c4036f48
+            uid: f7095f63-5852-478e-9f4b-f1bfeb3df616
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-15T17:02:36+00:00'
+            dateAdded: '2025-05-19T15:20:02+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
+            fieldUid: 37581c39-ebd0-4472-aa61-c2f51a891535 # Content (No Media)
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Content
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3ae000e9-a411-46fe-8ca0-7a80cba9eb7f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-19T17:35:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0f24b2a8-d45a-4614-b908-6c6ed9230147 # CTA Links
             handle: null
             includeInCards: false
             instructions: null
@@ -52,52 +69,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eac65eca-e16a-4cef-98df-9353df2bdbc4
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-15T19:03:32+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 866793e8-8646-486d-95c2-24ad883f46a7 # Sub Blocks
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e2e0c206-e683-4581-8b92-0297f407c99d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-05-09T15:32:19+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
-            handle: null
-            includeInCards: false
-            instructions: 'Fill in link to create a CTA'
-            label: 'CTA Link'
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: df5ef9c8-7e41-4dc8-bdc9-22db4d36788f
+            uid: c0df7d8a-9398-4c1e-b561-2778b018846b
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 0355b2e8-6e94-44c3-85e7-15230078b004
+        uid: a2ede2c5-94a3-4eef-9154-ac1fd5b39457
         userCondition: null
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2025-05-08T20:45:29+00:00'
+            dateAdded: '2025-05-19T15:20:02+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
@@ -108,12 +92,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 38385629-a661-417f-9bb7-0d4dbef8b9fa
+            uid: da7109d9-c296-4e89-b9e2-c88bddcf70d3
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-08-15T17:02:36+00:00'
+            dateAdded: '2025-05-19T15:20:02+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
@@ -125,17 +109,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9f9770ea-fe09-4147-b7c4-de5b18682064
+            uid: 84f9b09a-aa1a-4a13-a8d2-aa8d49dd270e
             userCondition: null
             warning: null
             width: 100
         name: Settings
-        uid: f736d5ff-5c94-4017-b4d9-d33cf1ea3003
+        uid: c0f6c0d1-000f-4c56-ba05-d2d642d083f5
         userCondition: null
-handle: basicSection
+handle: calloutSection
 hasTitleField: false
 icon: null
-name: 'Basic Section'
+name: 'Callout Section'
 showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null

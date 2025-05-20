@@ -6,9 +6,11 @@
         {{ block.quote }}
     </div>
     <footer class="testimonial__footer">
-        <div class="testimonial__citationPhotoWrapper">
-            <img src="https://picsum.photos/400" alt="Placeholder photo" class="testimonial__citationPhoto">
-        </div>
+        {% if block.image|length %}
+            <div class="testimonial__citationPhotoWrapper">
+                {{ macros.responsiveImage(block.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+            </div>
+        {% endif %}
         <cite class="testimonial__citation">
             {{ block.person }}
             <span class="testimonial__citationTitle">

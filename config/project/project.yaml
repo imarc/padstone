@@ -1,4 +1,4 @@
-dateModified: 1747315808
+dateModified: 1747705230
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -23,6 +23,7 @@ meta:
     0df95f6f-3e7a-4765-84de-aa8585234118: 'Rich Text' # Rich Text
     0e0a0c15-2d54-4a63-b4ae-29b75916437e: Navigation # Navigation
     0e078940-3caa-4bc2-84d3-c91c225cb26d: 'Full Bio' # Full Bio
+    0f24b2a8-d45a-4614-b908-6c6ed9230147: 'CTA Links' # CTA Links
     1a4b6ea7-240d-4c7c-86ab-ce16b55afc24: Image # Image
     1d7fd420-3fd4-4dc0-afca-1833e0d9a05c: 'SEOMatic Fields' # SEOMatic Fields
     2b4abe74-65a4-4e1f-a224-ab97e43e54d9: 'Column Span' # Column Span
@@ -30,6 +31,7 @@ meta:
     3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Blocks' # Shared Blocks
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
     3f694951-45bb-48bb-8b85-e0d8634e227c: Background # Background
+    4a38a2c5-4173-4e7c-9c4d-de781a64d071: 'No Media' # No Media
     4d061e2c-2f20-41b2-9e12-d11cb1fded64: 'Resource Topics' # Resource Topics
     4f264f7a-a063-4e9a-824d-4ba8018a6c27: 'Utility Nav Entry' # Utility Nav Entry
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
@@ -46,7 +48,10 @@ meta:
     9affc2aa-55c3-4990-97df-9e714b7bf551: 'Top Nav Entry' # Top Nav Entry
     9c45b436-5b6e-489c-b3cd-4c442876d973: 'Blog Categories' # Blog Categories
     21a3840e-e64f-472b-93e4-69935cee15e0: 'CTA Card' # CTA Card
+    22dea229-207d-41ba-8a31-13eea8c38a5c: 'Media Section' # Media Section
+    24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3: 'Callout Section' # Callout Section
     37bd2e2c-ad20-4890-921c-d205d7db4424: 'Image Card' # Image Card
+    45adbb6c-4095-4a69-b61a-fc7bcc0a73cc: 'CTA Link' # CTA Link
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
     52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
@@ -67,6 +72,7 @@ meta:
     0526dbf2-583a-4dc9-83f5-f5888101378b: Event # Event
     0587c309-76fe-4928-9be3-cb2980b7908c: 'Content Designer' # Content Designer
     656e0885-03be-47ab-8531-be346ddbfc62: 'Resource with Detail Page' # Resource with Detail Page
+    850e8e38-809a-494d-b643-efd7ff7c48e6: 'Media Sub Blocks' # Media Sub Blocks
     880ea67a-2b41-468b-b4af-0e2799aee9b3: 'Public/Sorting Date' # Public/Sorting Date
     976d4ccf-4988-4c36-968c-53f396dce7f2: 'Blog Article' # Blog Article
     1734b2b5-03f5-435f-a92a-5b5e6125f9bc: Abstract # Abstract
@@ -79,6 +85,7 @@ meta:
     8678d5b0-ebe6-4da8-9111-e5ccf5c13386: 'General Toggle Off' # General Toggle Off
     8943bafd-8aa6-4449-8d82-21f319461410: 'Service Unavailable Page' # Service Unavailable Page
     35753bc4-1fe5-4dab-9b39-969e168d2c68: 'Alert Content' # Alert Content
+    37581c39-ebd0-4472-aa61-c2f51a891535: 'Content (No Media)' # Content (No Media)
     56554df0-f81a-4c6a-b023-706d2789eaa9: Video # Video
     89839c0a-8c2a-4ef9-900f-709a4c4b77c1: 'Shared Blocks' # Shared Blocks
     99552cc7-97e5-47f7-8587-b78478eed6fc: 'Top Navigation Items' # Top Navigation Items
@@ -93,12 +100,14 @@ meta:
     a4a2b151-58b8-4935-a0ac-f0dc8216e02d: Card # Card
     a5dace26-0a0c-4f88-a4ad-63c74c424a5e: 'Blog Page' # Blog Page
     a7b59ddf-b06d-4b04-8d73-c52609ae95d3: Anchor # Anchor
+    a63c9e01-02f0-422a-b717-1a8c254b0231: 'Testimonial Slider' # Testimonial Slider
     ab4da4c8-eed9-4c18-9a65-6cad926fcd59: Resources # Resources
     adcddd0f-78ee-4ed7-bd80-ee4a2ebf8094: 'Blog Authors' # Blog Authors
     ae7af0c4-5df7-45d3-aa71-3888882dd594: 'News Article' # News Article
     af012389-66c1-47b3-ac35-1880759c37c5: Homepage # Homepage
     b017369d-2ebc-4b60-8af4-d1777deb0450: 'Press Mention URL' # Press Mention URL
-    b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Basic Section' # Basic Section
+    b4fd5d6c-8267-43f3-bfed-8defac06c057: 'Testimonial Slides' # Testimonial Slides
+    b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a: 'Two Column Section' # Two Column Section
     b96a3c34-e3b4-46ee-9bfe-c53406033bf0: Card # Card
     bd4fb97b-3b89-49bc-9fdb-c20917cb6776: 'Featured Image' # Featured Image
     bda4be51-a390-429b-856f-8ebd7905b00a: 'Hero Eyebrow' # Hero Eyebrow
@@ -126,6 +135,7 @@ meta:
     dccf2895-2f61-4bbe-8ac6-bf389ab04527: 'Simple (No Links)' # Simple (No Links)
     dd58c3c0-4afc-4b83-a606-73c8bc282d99: Image # Image
     de18a008-1675-459b-bc1e-5f684096b0c2: 'Resource Topics' # Resource Topics
+    e9b06cc2-e638-47af-98b9-de75baf00165: 'Rich Text' # Rich Text
     e49eee72-0b33-43a2-81d6-31fb4ab32346: 'Alt Text' # Alt Text
     e70de5ea-2588-4113-a125-ccc9a4d5a9d2: 'Utility Nav' # Utility Nav
     e737c446-0085-4bd6-b343-2d4c9e9f312e: 'Resources Page' # Resources Page

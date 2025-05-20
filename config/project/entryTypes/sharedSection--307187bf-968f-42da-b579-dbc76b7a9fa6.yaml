@@ -1,4 +1,4 @@
-color: sky
+color: cyan
 fieldLayouts:
   841f2f33-5104-4bd0-be00-17061f90eb1b:
     tabs:
@@ -6,37 +6,8 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2024-08-15T20:31:39+00:00'
-            disabled: false
-            elementCondition: null
-            id: null
-            includeInCards: false
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 54001396-1d6b-40ae-93e3-d346ca67b3ab
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2024-08-15T20:33:56+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 3b057048-977f-4c40-ba97-63d84a65f907 # Shared Blocks
             handle: null
@@ -56,12 +27,12 @@ fieldLayouts:
         userCondition: null
 handle: sharedSection
 hasTitleField: false
-icon: ''
+icon: null
 name: 'Shared Section'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

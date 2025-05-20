@@ -1,23 +1,13 @@
 columnSuffix: null
-handle: subBlocks
+handle: mediaSubBlocks
 instructions: null
-name: 'Sub Blocks'
+name: 'Media Sub Blocks'
 searchable: false
 settings:
-  createButtonLabel: 'New block'
+  createButtonLabel: 'New Media'
   defaultIndexViewMode: cards
   enableVersioning: false
   entryTypes:
-    -
-      __assoc__:
-        -
-          - uid
-          - e9b06cc2-e638-47af-98b9-de75baf00165 # Rich Text
-    -
-      __assoc__:
-        -
-          - uid
-          - 77f762ab-419d-47e9-8b43-63754dafa72f # Call To Action
     -
       __assoc__:
         -
@@ -28,14 +18,9 @@ settings:
         -
           - uid
           - 6a91581a-a1ff-430b-bbeb-32b131747531 # Video
-    -
-      __assoc__:
-        -
-          - uid
-          - 4536b6f0-b762-4abc-b6d1-a918619f8b4d # Testimonial
   includeTableView: false
-  maxEntries: 2
-  minEntries: 2
+  maxEntries: 1
+  minEntries: 1
   pageSize: null
   propagationKeyFormat: null
   propagationMethod: all

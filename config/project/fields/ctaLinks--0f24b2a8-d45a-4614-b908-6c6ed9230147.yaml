@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: ctaLinks
+instructions: null
+name: 'CTA Links'
+searchable: false
+settings:
+  createButtonLabel: 'New CTA Link'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 45adbb6c-4095-4a69-b61a-fc7bcc0a73cc # CTA Link
+  includeTableView: false
+  maxEntries: 2
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,4 +1,4 @@
-color: null
+color: amber
 fieldLayouts:
   adb58e3b-a1c7-48d3-a0ea-9285a000fbd7:
     tabs:
@@ -6,37 +6,25 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2024-08-15T18:59:30+00:00'
-            disabled: false
+            dateAdded: '2025-05-20T01:40:30+00:00'
+            editCondition: null
             elementCondition: null
-            id: null
+            fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
+            handle: null
             includeInCards: false
-            inputType: null
             instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
+            label: 'Thumbnail Image'
             providesThumbs: false
-            readonly: false
-            requirable: false
-            size: null
-            step: null
+            required: true
             tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 8a74de99-2481-40ce-8838-1e8aa8322c77
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3fe7f3bd-8d51-437a-94f1-7e0de56e58af
             userCondition: null
             warning: null
             width: 100
           -
             dateAdded: '2024-08-15T19:02:41+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: 56554df0-f81a-4c6a-b023-706d2789eaa9 # Video
             handle: null
@@ -44,7 +32,7 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 0e66c4c1-1d62-4659-9ba7-294fbd16236c
@@ -56,12 +44,12 @@ fieldLayouts:
         userCondition: null
 handle: video
 hasTitleField: false
-icon: ''
+icon: null
 name: Video
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

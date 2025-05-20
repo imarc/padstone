@@ -4,12 +4,8 @@ headingLevels:
   - 4
   - 5
   - 6
-name: Full
+name: 'No Media'
 options:
-  image:
-    toolbar:
-      - imageTextAlternative
-      - imageEditor
   link:
     decorators:
       isExternal:
@@ -26,7 +22,6 @@ toolbar:
   - bold
   - italic
   - link
-  - insertImage
   - undo
   - redo
   - htmlEmbed

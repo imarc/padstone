@@ -1,5 +1,11 @@
-{% extends "/_blocks/basicSection" %}
+{% import "/_macros" as macros %}
+
+{% extends "/_blocks/baseSection" %}
 
 {% block content %}
-   {% include "/_columns/richText.twig" %}
+    <div class="basicSection__content">
+        <div class="basicSection__text richText">
+            {{ block.blockContent }}
+        </div>
+    </div>
 {% endblock %}

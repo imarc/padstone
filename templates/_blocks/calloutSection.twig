@@ -1,0 +1,29 @@
+{% import "/_macros" as macros %}
+
+{% set background = null %}
+{% if block['background'] is defined and block.background|length %}
+    {% set background = block.background.value %}
+{% endif %}
+
+ <div class="callout container {{ background }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+    <div class="grid -columns-12">
+        {% if block.eyebrow %}
+            <h2 class="h6 accent-primary cell -span-6 -center">{{ block.eyebrow }}</h2>
+        {% endif %}
+        <h3 class="callout__title cell -span-6 -center">{{ block.headline }}</h3>
+        {% if block.blockContentNoMedia|length %}
+            <div class="callout__content cell -span-6 -center">
+                {{ block.blockContentNoMedia }}
+            </div>
+        {% endif %}
+        <div class="callout__actions cell -span-6 -center">
+            {% for ctaLink in block.ctaLinks.all() %}
+                {% set ctaClass = 'button' %}
+                {% if not loop.first %}
+                    {% set ctaClass = ctaClass ~ ' -outline' %}
+                {% endif %}
+                {{ macros.renderLink (ctaLink.ctaLink, { class: ctaClass })}}
+            {% endfor %}
+        </div>
+    </div>
+</div>

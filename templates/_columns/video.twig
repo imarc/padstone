@@ -1,8 +1,11 @@
+{% import "/_macros" as macros %}
+
 <div class="basicSection__media media accent-primary">
     <p-you-tube>
         <template #placeholder="{ playPause, modifier }">
         <picture class="media__mask" :class="modifier">
-            {# TO DO - ADD VIDEO PLACEHOLDER IMAGE FIELD #}
+            {# {{ macros.responsiveImage(block.image.one) }} #}
+            
             <source srcset="https://unsplash.it/300/150?random&gravity=center" media="(min-width: 768px)">
             <source srcset="https://unsplash.it/267/150?random&gravity=center" media="(min-width: 480px)">
             <img class="lazyload" srcset="https://unsplash.it/267/150?random&gravity=center" alt="">

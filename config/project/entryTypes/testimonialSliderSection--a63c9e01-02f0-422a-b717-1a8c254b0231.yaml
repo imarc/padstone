@@ -1,15 +1,32 @@
-color: teal
+color: blue
 fieldLayouts:
-  315f8c9a-657d-4d28-9e41-97235cc27c25:
+  adcccf35-575b-4fe9-a234-0fb72923e7d1:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-08-15T19:07:05+00:00'
+            dateAdded: '2025-05-19T15:09:44+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: c76d791f-6a12-4609-94f8-66f12eb848fd # Quote
+            fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1699a34c-9986-441c-a06f-a25c96247db3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-19T15:09:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b4fd5d6c-8267-43f3-bfed-8defac06c057 # Testimonial Slides
             handle: null
             includeInCards: false
             instructions: null
@@ -18,49 +35,21 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 586bf2ea-92b7-434b-ba21-8eaea6ce43bc
+            uid: 9def8205-92bf-4d29-8359-eae67adcb497
             userCondition: null
             warning: null
             width: 100
+        name: Content
+        uid: 8bb431b0-1a0a-46f1-b0f0-67666181d012
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
-            dateAdded: '2025-05-20T01:24:03+00:00'
+            dateAdded: '2025-05-19T15:09:44+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: 'Person Photo'
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-15T19:07:05+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 524e948c-591f-4e9e-a275-77e3e0709b86 # Person
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: 'Person Name'
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 71a62207-d38c-4ec7-9c75-7ccdab3fd216
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-08-15T19:07:05+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
+            fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             includeInCards: false
             instructions: null
@@ -69,19 +58,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b34609ff-0402-481e-ac56-4f45f1a1205d
+            uid: 6751c6cc-a7b5-4ae3-a07e-c7039b534a70
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: b799eb00-3272-4622-b8d3-7cbaba099107
+        name: Settings
+        uid: 37a5cc06-1d8e-4c4f-a398-d94b7a0f933e
         userCondition: null
-handle: testimonial
+handle: testimonialSliderSection
 hasTitleField: false
 icon: null
-name: Testimonial
-showSlugField: false
-showStatusField: false
+name: 'Testimonial Slider'
+showSlugField: true
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: null

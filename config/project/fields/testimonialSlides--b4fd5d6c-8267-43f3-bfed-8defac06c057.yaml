@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: testimonialSlides
+instructions: null
+name: 'Testimonial Slides'
+searchable: false
+settings:
+  createButtonLabel: 'New Testimonial'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 4536b6f0-b762-4abc-b6d1-a918619f8b4d # Testimonial
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

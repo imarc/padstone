@@ -3270,7 +3270,6 @@ COPY public.changedattributes ("elementId", "siteId", attribute, "dateUpdated", 
 171	1	title	2025-02-20 20:17:04	f	13
 172	1	slug	2025-02-20 20:17:27	f	13
 172	1	uri	2025-02-20 20:17:27	f	13
-72	1	slug	2025-02-20 20:30:28	f	13
 145	1	postDate	2025-02-20 19:49:16	f	13
 144	1	slug	2025-02-20 19:49:18	f	13
 144	1	uri	2025-02-20 19:49:18	f	13
@@ -3349,19 +3348,12 @@ COPY public.changedattributes ("elementId", "siteId", attribute, "dateUpdated", 
 318	1	slug	2025-05-06 17:23:48	f	13
 317	1	title	2025-05-06 17:52:28	f	13
 318	1	title	2025-05-06 17:52:28	f	13
-33	1	title	2025-05-15 19:19:35	f	13
-37	1	title	2025-05-15 19:19:35	f	13
-42	1	title	2025-05-15 19:19:35	f	13
-66	1	title	2025-05-15 19:19:35	f	13
-81	1	title	2025-05-15 19:19:35	f	13
-255	1	title	2025-05-15 19:19:35	f	13
-84	1	title	2025-05-15 19:19:35	f	13
-87	1	title	2025-05-15 19:19:35	f	13
-91	1	title	2025-05-15 19:19:35	f	13
-93	1	title	2025-05-15 19:19:35	f	13
-126	1	title	2025-05-15 19:19:35	f	13
-127	1	title	2025-05-15 19:19:35	f	13
-176	1	title	2025-05-15 19:19:35	f	13
+80	1	title	2025-05-19 15:33:42	f	13
+84	1	title	2025-05-19 15:33:42	f	13
+83	1	title	2025-05-19 15:33:42	f	13
+86	1	title	2025-05-19 15:33:42	f	13
+90	1	title	2025-05-19 15:33:42	f	13
+92	1	title	2025-05-19 15:33:42	f	13
 130	1	title	2025-05-15 19:19:36	f	13
 131	1	title	2025-05-15 19:19:36	f	13
 132	1	title	2025-05-15 19:19:36	f	13
@@ -3371,18 +3363,27 @@ COPY public.changedattributes ("elementId", "siteId", attribute, "dateUpdated", 
 27	1	title	2025-05-15 19:20:02	f	13
 77	1	title	2025-05-15 19:20:03	f	13
 79	1	title	2025-05-15 19:20:03	f	13
-80	1	title	2025-05-15 19:20:03	f	13
-83	1	title	2025-05-15 19:20:03	f	13
-86	1	title	2025-05-15 19:20:03	f	13
-90	1	title	2025-05-15 19:20:03	f	13
-92	1	title	2025-05-15 19:20:03	f	13
 125	1	title	2025-05-15 19:20:03	f	13
 128	1	title	2025-05-15 19:20:03	f	13
 129	1	title	2025-05-15 19:20:03	f	13
-196	1	title	2025-05-15 19:20:03	f	13
 157	1	title	2025-05-15 19:20:03	f	13
 149	1	title	2025-05-15 19:20:03	f	13
 73	1	title	2025-05-15 19:20:03	f	13
+72	1	slug	2025-05-15 19:32:14	f	13
+33	1	title	2025-05-15 19:47:32	f	13
+37	1	title	2025-05-15 19:47:32	f	13
+42	1	title	2025-05-15 19:47:32	f	13
+66	1	title	2025-05-15 19:47:33	f	13
+81	1	title	2025-05-15 19:47:33	f	13
+255	1	title	2025-05-15 19:47:33	f	13
+87	1	title	2025-05-15 19:47:34	f	13
+91	1	title	2025-05-15 19:47:34	f	13
+93	1	title	2025-05-15 19:47:34	f	13
+126	1	title	2025-05-15 19:47:34	f	13
+127	1	title	2025-05-15 19:47:34	f	13
+176	1	title	2025-05-15 19:47:34	f	13
+383	1	title	2025-05-19 17:35:52	f	13
+196	1	title	2025-05-20 01:38:56	f	13
 \.
 
 
@@ -3396,7 +3397,7 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 78	1	39	749a8663-8773-47df-8cdd-a50c128a6173	2025-02-20 19:42:03	f	13
 63	1	30	c650d49f-5464-42e7-b347-67b93c633e82	2025-02-20 19:13:00	f	13
 80	1	43	74f3a028-f488-444d-9f5e-c5cf5a97ce3b	2025-02-20 19:42:04	f	13
-80	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-02-20 19:42:04	f	13
+196	1	56	456aad9a-5401-4892-8d76-d330913314cc	2025-05-20 01:38:56	f	13
 80	1	15	eac65eca-e16a-4cef-98df-9353df2bdbc4	2025-02-20 19:42:04	f	13
 80	1	19	81da6944-c24a-4ac5-8b21-0112cad7d2df	2025-02-20 19:42:04	f	13
 80	1	12	9f9770ea-fe09-4147-b7c4-de5b18682064	2025-02-20 19:42:04	f	13
@@ -3406,7 +3407,6 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 86	1	43	74f3a028-f488-444d-9f5e-c5cf5a97ce3b	2025-02-20 19:42:04	f	13
 58	1	46	0de9d9a8-c3c2-4062-9dd2-21c7c913162f	2025-02-20 19:17:08	f	13
 58	1	28	fca011df-c729-4107-b485-c8cecc25ea1e	2025-02-20 19:17:08	f	13
-86	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-02-20 19:42:04	f	13
 181	1	24	828976bc-ffad-45d7-a799-845ad6f9d086	2025-02-20 20:19:51	f	13
 70	1	24	ef00a8f6-5d22-4353-b6ea-d5df8f4d667a	2025-02-20 19:20:42	f	13
 181	1	40	0792b95b-e250-4e7d-872e-0bc3dd855531	2025-02-20 20:19:51	f	13
@@ -3470,8 +3470,9 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 77	1	45	c24927ca-b97d-4582-af30-a791db8e082a	2025-02-20 19:42:03	f	13
 77	1	44	40571ea4-98a2-4ebb-aeb9-7f1afc99d17e	2025-02-20 19:42:03	f	13
 7	1	40	d9a17e8f-17d2-4dde-97a0-0c057d005c6c	2025-05-06 15:54:41	f	13
-80	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-06 16:00:04	f	13
 77	1	21	8f9e4214-c090-4867-91a9-9d08c9656f7c	2025-02-20 19:42:03	f	13
+80	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-05-19 15:33:42	f	13
+86	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-05-19 15:33:42	f	13
 77	1	19	84d0c186-2a08-4f8c-a160-4c4cfee8ac78	2025-02-20 19:42:03	f	13
 77	1	18	64ac8c09-b226-4c83-9605-50ec906cb97e	2025-02-20 19:42:03	f	13
 79	1	47	99e90eb1-c242-4f2b-9841-60d7030aa800	2025-02-20 19:42:03	f	13
@@ -3480,9 +3481,7 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 85	1	1	c4f0aab9-b1bd-4b58-9804-8f8e838dc230	2025-02-20 19:42:04	f	13
 85	1	39	749a8663-8773-47df-8cdd-a50c128a6173	2025-02-20 19:42:04	f	13
 83	1	43	74f3a028-f488-444d-9f5e-c5cf5a97ce3b	2025-02-20 19:42:04	f	13
-83	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-02-20 19:42:04	f	13
 83	1	15	eac65eca-e16a-4cef-98df-9353df2bdbc4	2025-02-20 19:42:04	f	13
-83	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-02-20 19:42:04	f	13
 83	1	19	81da6944-c24a-4ac5-8b21-0112cad7d2df	2025-02-20 19:42:04	f	13
 83	1	12	9f9770ea-fe09-4147-b7c4-de5b18682064	2025-02-20 19:42:04	f	13
 89	1	32	9d7a1bda-d856-4132-a06e-35d2ab1c2148	2025-02-20 19:42:04	f	13
@@ -3544,17 +3543,18 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 166	1	21	8f9e4214-c090-4867-91a9-9d08c9656f7c	2025-02-20 20:18:57	f	13
 91	1	16	0e66c4c1-1d62-4659-9ba7-294fbd16236c	2025-02-20 19:42:04	f	13
 90	1	43	74f3a028-f488-444d-9f5e-c5cf5a97ce3b	2025-02-20 19:42:04	f	13
-90	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-02-20 19:42:04	f	13
 90	1	15	eac65eca-e16a-4cef-98df-9353df2bdbc4	2025-02-20 19:42:04	f	13
-90	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-02-20 19:42:04	f	13
 93	1	8	71a62207-d38c-4ec7-9c75-7ccdab3fd216	2025-02-20 19:42:04	f	13
 93	1	30	b34609ff-0402-481e-ac56-4f45f1a1205d	2025-02-20 19:42:04	f	13
 87	1	26	4d08175f-0237-45a4-b7a7-8441a7b3a2be	2025-05-06 16:00:04	f	13
-86	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-06 16:00:04	f	13
 92	1	43	74f3a028-f488-444d-9f5e-c5cf5a97ce3b	2025-02-20 19:42:05	f	13
-92	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-02-20 19:42:05	f	13
+83	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-19 15:33:42	f	13
+86	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-19 15:33:42	f	13
+90	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-05-19 15:33:42	f	13
+90	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-19 15:33:42	f	13
+92	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-05-19 15:33:42	f	13
 92	1	15	eac65eca-e16a-4cef-98df-9353df2bdbc4	2025-02-20 19:42:05	f	13
-92	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-02-20 19:42:05	f	13
+76	1	28	d8690656-029f-4c66-a8c5-33f3f5c084fd	2025-05-20 01:38:57	f	13
 92	1	19	81da6944-c24a-4ac5-8b21-0112cad7d2df	2025-02-20 19:42:05	f	13
 92	1	12	9f9770ea-fe09-4147-b7c4-de5b18682064	2025-02-20 19:42:05	f	13
 76	1	40	d9a17e8f-17d2-4dde-97a0-0c057d005c6c	2025-02-20 19:42:05	f	13
@@ -3608,7 +3608,6 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 128	1	9	30b6394c-97dc-4b5a-807c-b612c4c38fd1	2025-05-06 16:00:03	f	13
 130	1	26	d94a187a-a522-4c4c-b477-7c9d0ef1ebf9	2025-05-06 16:00:03	f	13
 129	1	25	e18d14b3-7e48-4f10-9887-c9d9c7cd6789	2025-05-06 16:00:03	f	13
-76	1	28	d8690656-029f-4c66-a8c5-33f3f5c084fd	2025-05-06 16:00:04	f	13
 268	1	1	cfef99ee-464a-452e-b731-e56f774b997a	2025-05-06 17:00:35	f	13
 268	1	39	877c89b0-1fe2-4fcf-9e5e-f6fd67006bfa	2025-05-06 17:00:35	f	13
 268	1	22	1ae008b8-20c9-49f2-ac0d-18dcb4babf85	2025-05-06 17:00:35	f	13
@@ -3626,6 +3625,20 @@ COPY public.changedfields ("elementId", "siteId", "fieldId", "layoutElementUid",
 318	1	50	897e331e-b217-45e1-89dd-c8ff3c851278	2025-05-06 17:52:28	f	13
 318	1	51	c07f9dad-7d72-4992-9b92-e17db238f9ea	2025-05-06 17:52:28	f	13
 319	1	19	8fdb57db-ea7b-4994-87cc-d51dc1ab24bb	2025-05-06 17:23:39	f	13
+80	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-19 15:33:42	f	13
+92	1	31	e2e0c206-e683-4581-8b92-0297f407c99d	2025-05-19 15:33:42	f	13
+378	1	26	2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00	2025-05-20 01:24:30	f	13
+377	1	61	9def8205-92bf-4d29-8359-eae67adcb497	2025-05-20 01:24:30	f	13
+373	1	56	fd9eba28-273f-4a36-969c-fbbba1453e3e	2025-05-19 17:23:22	f	13
+383	1	62	c0df7d8a-9398-4c1e-b561-2778b018846b	2025-05-19 17:35:52	f	13
+196	1	22	499d05b1-7311-4f55-8cc3-aaf42eeaa022	2025-05-20 01:24:31	f	13
+196	1	1	98f7fbae-d98c-431b-9f17-f6707eec24ea	2025-05-20 01:37:32	f	13
+381	1	26	2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00	2025-05-20 01:37:33	f	13
+379	1	61	9def8205-92bf-4d29-8359-eae67adcb497	2025-05-20 01:37:33	f	13
+84	1	1	76f5a0da-a193-46ec-ace9-cce0fdc990f3	2025-05-19 15:33:41	f	13
+84	1	59	f204a9b4-3e4b-4e3e-8174-3cd2a188635c	2025-05-19 15:33:41	f	13
+83	1	41	6f430633-62a8-44bb-93cb-4da3c4036f48	2025-05-19 15:33:42	f	13
+196	1	41	3bdf6645-aaa4-4ae3-b9a9-f33753d80099	2025-05-19 15:33:41	f	13
 \.
 
 
@@ -3668,9 +3681,7 @@ COPY public.drafts (id, "canonicalId", "creatorId", provisional, name, notes, "t
 
 COPY public.elementactivity ("elementId", "userId", "siteId", "draftId", type, "timestamp") FROM stdin;
 63	13	1	\N	save	2025-02-20 19:13:00
-72	13	1	\N	edit	2025-02-20 20:30:27
 148	13	1	\N	save	2025-02-20 19:50:06
-72	13	1	\N	save	2025-02-20 20:30:28
 152	13	1	\N	save	2025-02-20 19:57:13
 58	13	1	\N	save	2025-02-20 19:17:09
 70	13	1	\N	save	2025-02-20 19:20:43
@@ -3704,8 +3715,6 @@ COPY public.elementactivity ("elementId", "userId", "siteId", "draftId", type, "
 7	13	1	\N	save	2025-05-06 15:54:41
 31	13	1	\N	save	2025-05-06 15:55:07
 130	13	1	\N	edit	2025-05-06 15:59:54
-76	13	1	\N	edit	2025-05-06 15:59:55
-76	13	1	\N	save	2025-05-06 16:00:04
 268	13	1	\N	save	2025-05-06 17:00:36
 271	13	1	\N	save	2025-05-06 17:04:02
 273	13	1	\N	save	2025-05-06 17:04:33
@@ -3722,6 +3731,10 @@ COPY public.elementactivity ("elementId", "userId", "siteId", "draftId", type, "
 319	13	1	\N	edit	2025-05-06 17:23:37
 319	13	1	\N	save	2025-05-06 17:23:39
 318	13	1	\N	save	2025-05-06 17:23:48
+72	13	1	\N	edit	2025-05-15 19:32:12
+72	13	1	\N	save	2025-05-15 19:32:14
+76	13	1	\N	edit	2025-05-20 01:37:28
+76	13	1	\N	save	2025-05-20 01:38:57
 \.
 
 
@@ -3755,10 +3768,10 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 28	7	\N	8	31	craft\\elements\\Entry	t	f	2025-02-20 19:02:33	2025-02-20 19:02:33	\N	\N	\N	4c72784c-9979-4729-a35b-a75c36ae88e1
 35	\N	19	\N	30	craft\\elements\\Entry	t	f	2025-02-20 19:07:49	2025-02-20 19:07:58	\N	\N	\N	65c3c6b0-6116-4e96-8119-060ca55570ef
 29	27	\N	9	22	craft\\elements\\Entry	t	f	2025-02-20 19:02:33	2025-02-20 19:02:33	\N	\N	\N	ecf1da24-579b-465a-a25d-498c58f92161
+424	76	\N	172	31	craft\\elements\\Entry	t	f	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	\N	\N	41b502ec-1f41-4d04-816a-27a989c6df9a
 46	42	\N	12	20	craft\\elements\\Entry	t	f	2025-02-20 19:10:18	2025-02-20 19:10:19	\N	\N	\N	7603c165-df41-4c25-b54b-474e0c9f730f
 47	43	\N	13	24	craft\\elements\\Entry	t	f	2025-02-20 19:10:18	2025-02-20 19:10:19	\N	\N	\N	fdb3fefe-9a0c-4fa8-a297-8c925a7e7b62
 59	\N	\N	\N	3	craft\\elements\\Category	t	f	2025-02-20 19:11:58	2025-02-20 19:12:03	\N	\N	\N	1387b8cb-2620-46c7-96c8-9d2a8e61dbbf
-49	\N	\N	\N	14	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-02-20 19:10:28	\N	\N	\N	080d2760-d184-4552-973f-12fac9085abe
 50	3	\N	14	29	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-02-20 19:10:28	\N	\N	\N	26be76e5-1772-4265-b6fd-c529ea72afa2
 40	\N	\N	\N	30	craft\\elements\\Entry	t	f	2025-02-20 19:09:28	2025-02-20 19:10:19	\N	\N	\N	f1ca66fe-315f-459c-9433-668f8e858213
 51	48	\N	15	22	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-02-20 19:10:29	\N	\N	\N	aa06bd34-83b6-44d0-be71-cf6ce769580a
@@ -3780,21 +3793,23 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 107	91	\N	39	26	craft\\elements\\Entry	t	f	2025-02-20 19:42:04	2025-02-20 19:42:08	\N	\N	\N	a379de05-698a-447f-9339-95f35f6e45a4
 109	93	\N	41	37	craft\\elements\\Entry	t	f	2025-02-20 19:42:04	2025-02-20 19:42:08	\N	\N	\N	e90d2ca7-e604-41f1-95f5-2bc71b6dd5b2
 164	162	\N	61	24	craft\\elements\\Entry	t	f	2025-02-20 20:14:00	2025-02-20 20:14:00	\N	\N	\N	e2e4bb3e-a21c-4c6f-b20f-03a8f9e40781
-41	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:09:35	2025-02-20 19:10:18	\N	\N	\N	ae84ecaa-1534-431b-8d4a-8d44040fffaa
 65	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:13:14	2025-02-20 19:17:08	\N	\N	\N	3adbc75f-446c-4597-9f6d-4c1e1f200366
-32	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:03:59	2025-02-20 19:04:31	\N	\N	\N	5c09ab71-1efa-4939-8d73-9f5dd1737ad1
+81	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:35:15	2025-05-19 15:33:41	\N	2025-05-19 15:33:41	\N	5bc6634a-368f-416a-9fd9-d7b716969071
 36	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:07:52	2025-02-20 19:07:58	\N	\N	\N	1000636d-94ef-4319-880d-8171f83c82bd
-42	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:10:00	2025-05-15 19:19:35	\N	\N	\N	2bcc11bf-3ee8-4493-82b1-5c56d2af03a7
-81	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:35:15	2025-05-15 19:19:35	\N	\N	\N	5bc6634a-368f-416a-9fd9-d7b716969071
+41	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:09:35	2025-02-20 19:10:18	\N	\N	\N	ae84ecaa-1534-431b-8d4a-8d44040fffaa
+49	\N	\N	\N	14	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-02-20 19:10:28	\N	\N	\N	080d2760-d184-4552-973f-12fac9085abe
+32	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:03:59	2025-02-20 19:04:31	\N	\N	\N	5c09ab71-1efa-4939-8d73-9f5dd1737ad1
 48	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-05-06 15:54:06	\N	\N	\N	a6c269c4-7767-49b6-b567-ce824f260b32
 152	\N	\N	\N	17	craft\\elements\\Entry	t	f	2025-02-20 19:56:58	2025-02-20 19:57:13	\N	\N	\N	52ec4a9a-2920-48c1-ab31-a09a4f965210
 7	\N	\N	\N	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:41	2025-05-06 15:54:40	\N	\N	\N	a21d2673-6b2f-4e91-81bd-f751ca96db75
 27	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:02:33	2025-05-15 19:20:02	\N	\N	\N	c4aae27f-e878-4bac-8523-0c31580605f3
+42	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:10:00	2025-05-15 19:47:32	\N	\N	\N	2bcc11bf-3ee8-4493-82b1-5c56d2af03a7
 163	160	\N	60	38	craft\\elements\\Entry	t	f	2025-02-20 20:14:00	2025-02-20 20:14:00	\N	\N	\N	1519d11e-2957-4b50-afe6-dad85b92da67
 168	\N	\N	\N	1	craft\\elements\\Category	t	f	2025-02-20 20:16:36	2025-02-20 20:16:42	\N	\N	\N	fc361490-21c6-4994-81c7-4b8ccdcb97b7
 94	76	\N	26	31	craft\\elements\\Entry	t	f	2025-02-20 19:42:05	2025-02-20 19:42:05	\N	\N	\N	4d7a69ad-af67-4263-8044-3be07d010378
 170	\N	\N	\N	1	craft\\elements\\Category	t	f	2025-02-20 20:16:50	2025-02-20 20:16:56	\N	\N	\N	faeaceb8-9425-4e15-98a8-e528ca834e1a
 177	165	\N	62	34	craft\\elements\\Entry	t	f	2025-02-20 20:18:58	2025-02-20 20:18:58	\N	\N	\N	9b393bf3-b782-4538-8343-c9960163e141
+425	196	\N	173	12	craft\\elements\\Entry	t	f	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	\N	\N	1dd347fb-1deb-48f6-9196-42c513229f29
 159	157	\N	59	22	craft\\elements\\Entry	t	f	2025-02-20 20:12:46	2025-02-20 20:28:13	\N	\N	\N	ba12a7bd-c588-4f74-9ad6-e4209ea6ea53
 172	\N	\N	\N	2	craft\\elements\\Category	t	f	2025-02-20 20:17:20	2025-02-20 20:17:27	\N	\N	\N	11f3d14e-077f-4626-994c-caf1fe2917fa
 174	\N	\N	\N	2	craft\\elements\\Category	t	f	2025-02-20 20:17:37	2025-02-20 20:17:41	\N	\N	\N	daed8829-9d35-44df-9e91-cf3dc7e37663
@@ -3808,16 +3823,15 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 82	\N	\N	\N	8	craft\\elements\\Entry	t	f	2025-02-20 19:35:37	2025-02-20 19:35:51	\N	2025-02-20 19:35:51	\N	80512db5-c98f-4cf9-9f1a-7f9f28598e19
 97	79	\N	29	14	craft\\elements\\Entry	t	f	2025-02-20 19:42:03	2025-02-20 20:28:12	\N	\N	\N	b6dd8d1c-a5ad-4324-a363-b6df2941c498
 98	80	\N	30	19	craft\\elements\\Entry	t	f	2025-02-20 19:42:03	2025-02-20 20:28:12	\N	\N	\N	17fc7456-290a-4219-abb9-fe7cf7c79ff7
-135	125	\N	43	19	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 20:28:12	\N	\N	\N	746ad81d-1012-4802-856e-dd6bf3094ab2
+426	373	\N	174	48	craft\\elements\\Entry	t	f	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	\N	\N	ececf8ee-8387-4c11-bfc4-f0c031f555da
 96	78	\N	28	24	craft\\elements\\Entry	t	f	2025-02-20 19:42:03	2025-02-20 19:42:05	\N	\N	\N	d1f418a0-1093-4d46-b567-fb2d82620c48
-99	81	\N	31	12	craft\\elements\\Entry	t	f	2025-02-20 19:42:03	2025-02-20 19:42:06	\N	\N	\N	6bb9858b-332c-42d4-a83a-7433d9334e17
-136	126	\N	44	12	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 19:48:26	\N	\N	\N	f113c2cf-4523-4b51-b3df-ab12a9307c44
-137	127	\N	45	10	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 19:48:26	\N	\N	\N	511c58ba-dea8-4943-9767-10e1ed81376b
+453	76	\N	187	31	craft\\elements\\Entry	t	f	2025-05-20 01:38:56	2025-05-20 01:38:56	\N	\N	\N	baf1dd06-a83a-4dd7-ab84-2191203e1f07
 140	130	\N	48	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-02-20 19:48:26	\N	\N	\N	20df1165-4089-4c24-8055-9005bbe1f09f
 141	131	\N	49	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-02-20 19:48:27	\N	\N	\N	52bcbaa7-1229-4b89-8a6e-cd0b7968bdb4
 142	132	\N	50	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-02-20 19:48:27	\N	\N	\N	42474e05-910c-48d2-8a73-64069e24cd55
 143	133	\N	51	24	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-02-20 19:48:27	\N	\N	\N	770fa4de-17fb-4507-ab6e-81bab476d389
 171	\N	\N	\N	1	craft\\elements\\Category	t	f	2025-02-20 20:16:59	2025-02-20 20:17:05	\N	\N	\N	1123bd63-9e34-473e-ab9c-79cc254f6b14
+454	196	\N	188	12	craft\\elements\\Entry	t	f	2025-05-20 01:38:56	2025-05-20 01:38:56	\N	\N	\N	e7cee6ed-4cb4-45b2-85f9-37d6e095671c
 173	\N	\N	\N	2	craft\\elements\\Category	t	f	2025-02-20 20:17:30	2025-02-20 20:17:35	\N	\N	\N	bf268151-774f-4c35-883c-c029f15dfd53
 184	181	\N	66	38	craft\\elements\\Entry	t	f	2025-02-20 20:20:17	2025-02-20 20:20:17	\N	\N	\N	3dbaf11c-9fe0-46eb-9f84-2bfce34ca56b
 88	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-02-20 19:37:38	2025-05-06 16:02:42	\N	2025-05-06 16:02:42	\N	39feec61-f9a6-4980-8461-d0696be24b4e
@@ -3838,17 +3852,18 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 153	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:57:02	2025-05-15 19:20:02	\N	\N	\N	72c02388-73ad-4729-b578-3b625caacf03
 198	\N	\N	\N	15	craft\\elements\\Entry	t	f	2025-02-20 20:41:54	2025-02-21 20:17:52	\N	\N	\N	e44686eb-1010-410e-a8f6-2e30b5486329
 156	\N	\N	\N	31	craft\\elements\\Entry	t	f	2025-02-20 19:57:31	2025-02-20 20:12:47	\N	\N	\N	ad925b7c-9051-47e2-b6f1-4b4b1a9b1af3
-84	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:36:23	2025-05-15 19:19:35	\N	\N	\N	c4db1fe0-a302-4d93-b152-165b5085338a
 149	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:49:48	2025-05-15 19:20:03	\N	\N	\N	408b5df0-43ea-4b5d-9ef9-40aa895e209a
-93	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-02-20 19:40:31	2025-05-15 19:19:35	\N	\N	\N	cd52c293-cfc9-4f41-8f5e-cd16b5418769
-126	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-15 19:19:35	\N	\N	\N	50b2c71c-ebf6-4b88-b728-a39869d06358
+93	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-02-20 19:40:31	2025-05-15 19:47:34	\N	\N	\N	cd52c293-cfc9-4f41-8f5e-cd16b5418769
 175	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 20:18:32	2025-02-20 20:18:57	\N	\N	\N	ed21a5a6-c356-41ee-a0ff-74bd6e9fbea5
-86	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:37:04	2025-05-15 19:20:03	\N	\N	\N	3ea34472-5146-4e0a-be26-54dea4dc87bb
+99	81	\N	31	12	craft\\elements\\Entry	t	f	2025-02-20 19:42:03	2025-02-20 19:42:06	\N	2025-05-19 15:33:41	\N	6bb9858b-332c-42d4-a83a-7433d9334e17
 161	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 20:13:27	2025-02-20 20:13:37	\N	\N	\N	c5aa2c79-7283-49dd-840a-7c001b3a8007
 166	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 20:14:14	2025-02-20 20:18:56	\N	\N	\N	de801fb9-fe77-41c1-aebe-874bffad7a37
 132	\N	\N	\N	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-05-15 19:19:36	\N	\N	\N	15a082ea-0dfe-448c-b96a-1a8715a602a1
-90	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:38:12	2025-05-15 19:20:03	\N	\N	\N	ac8ad2ad-a0ad-4b20-af38-46224c49ba1f
+84	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:36:23	2025-05-19 15:33:41	\N	\N	\N	c4db1fe0-a302-4d93-b152-165b5085338a
+86	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:37:04	2025-05-19 15:33:41	\N	\N	\N	3ea34472-5146-4e0a-be26-54dea4dc87bb
+90	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:38:12	2025-05-19 15:33:41	\N	\N	\N	ac8ad2ad-a0ad-4b20-af38-46224c49ba1f
 187	186	\N	68	39	craft\\elements\\Entry	t	f	2025-02-20 20:25:40	2025-02-20 20:25:40	\N	\N	\N	5c82d3e4-1079-47df-9e36-b107a7351fcf
+76	\N	\N	\N	31	craft\\elements\\Entry	t	f	2025-02-20 19:26:53	2025-05-20 01:38:56	\N	\N	\N	3cd155e6-6ed6-418b-8b03-8827d31cde76
 146	144	\N	52	27	craft\\elements\\Entry	t	f	2025-02-20 19:49:32	2025-02-20 19:49:32	\N	\N	\N	1b2502a6-3149-4c53-af96-f5556711a87c
 147	145	\N	53	22	craft\\elements\\Entry	t	f	2025-02-20 19:49:32	2025-02-20 20:28:12	\N	\N	\N	927782e2-06f5-48b3-84eb-9e9913892860
 150	148	\N	54	21	craft\\elements\\Entry	t	f	2025-02-20 19:50:06	2025-02-20 19:50:06	\N	\N	\N	e7a2a845-8e6b-4330-82ea-53c49df00f2c
@@ -3865,7 +3880,7 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 205	86	\N	76	19	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:55	\N	\N	\N	ddc4ee0f-0aa2-42b3-9607-3a80064ee2bc
 206	90	\N	77	19	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:55	\N	\N	\N	249ae03b-af67-476b-be6b-402ad3d94aaf
 207	92	\N	78	19	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:56	\N	\N	\N	6d8a6009-3d78-4229-b6ee-2c5dc70475be
-208	125	\N	79	19	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:56	\N	\N	\N	887744a8-3c60-44a6-a0c2-a36de99884eb
+378	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-20 01:24:30	\N	\N	\N	c98c3145-47b1-4be5-a451-3923b6714c46
 209	128	\N	80	8	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:56	\N	\N	\N	9208f536-ba77-4d12-a9d0-9f13366fb2ae
 210	129	\N	81	25	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:56	\N	\N	\N	4048c85a-7467-40bf-bcf7-46dab6a21080
 211	196	\N	82	12	craft\\elements\\Entry	t	f	2025-02-20 20:41:54	2025-02-20 20:41:56	\N	\N	\N	97a90eab-c710-4f54-9648-bfb9155e5722
@@ -3878,6 +3893,7 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 222	181	\N	88	38	craft\\elements\\Entry	t	f	2025-05-06 15:30:53	2025-05-06 15:30:53	\N	\N	\N	aec61059-7b78-40b6-8c2b-a7ad020365bc
 223	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:42:01	2025-05-06 15:42:01	\N	\N	\N	9aaac9cb-4f67-4f9b-ad75-d525944e47f9
 275	\N	\N	\N	23	craft\\elements\\Entry	t	f	2025-05-06 17:04:51	2025-05-06 17:05:11	\N	\N	\N	67f3d090-1bf1-4915-a4a3-fa1ad684f635
+441	76	\N	179	31	craft\\elements\\Entry	t	f	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	\N	\N	3d555e31-dfe7-4100-b504-26d3ea00ea1f
 226	5	\N	89	31	craft\\elements\\Entry	t	f	2025-05-06 15:42:07	2025-05-06 15:42:07	\N	\N	\N	9f36ddea-e5e6-40f7-815b-8423c770b0db
 227	55	\N	90	22	craft\\elements\\Entry	t	f	2025-05-06 15:42:07	2025-05-06 15:42:07	\N	\N	\N	a300b705-603d-427b-8af8-2d62b18654fc
 228	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:53:49	2025-05-06 15:53:49	\N	\N	\N	8188f2e6-ffa9-4d74-806f-148ceb7304a6
@@ -3895,15 +3911,18 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 247	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:57:07	2025-05-06 15:57:07	\N	\N	\N	a36c8183-53d5-42c1-94ed-34b80a7528aa
 270	\N	122	\N	43	craft\\elements\\Entry	t	f	2025-05-06 17:00:46	2025-05-06 17:00:46	\N	2025-05-06 17:02:09	\N	c85e614a-17c6-44ea-9e7c-aa6e71660ecd
 268	\N	\N	\N	23	craft\\elements\\Entry	t	f	2025-05-06 16:59:49	2025-05-06 17:00:35	\N	\N	\N	f179aace-44a8-4c87-ae87-a92f2fe763ce
+442	196	\N	180	12	craft\\elements\\Entry	t	f	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	\N	\N	66d4ac19-945a-4090-8c5c-58641f44b7ad
 157	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:57:34	2025-05-15 19:20:03	\N	\N	\N	2d1923bf-f965-40d3-a46a-cfbd61f0cb7a
 148	\N	\N	\N	21	craft\\elements\\Entry	t	f	2025-02-20 19:49:44	2025-02-20 19:50:06	\N	\N	\N	3f0d7634-4972-4f49-9a56-453a9d6bb537
-176	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 20:18:38	2025-05-15 19:19:35	\N	\N	\N	c2d8b740-0577-4abf-b381-d504597d07f5
-76	\N	\N	\N	31	craft\\elements\\Entry	t	f	2025-02-20 19:26:53	2025-05-06 16:00:02	\N	\N	\N	3cd155e6-6ed6-418b-8b03-8827d31cde76
-72	\N	\N	\N	28	craft\\elements\\Entry	t	f	2025-02-20 19:25:24	2025-02-20 20:30:28	\N	\N	\N	947d1044-ec3a-4b27-a371-fcd7ed907012
+176	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 20:18:38	2025-05-15 19:47:34	\N	\N	\N	c2d8b740-0577-4abf-b381-d504597d07f5
+443	377	\N	181	49	craft\\elements\\Entry	t	f	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	\N	\N	c9ed7c91-784e-4dd2-907f-ae7a49e7f2c0
+72	\N	\N	\N	28	craft\\elements\\Entry	t	f	2025-02-20 19:25:24	2025-05-15 19:32:14	\N	\N	\N	947d1044-ec3a-4b27-a371-fcd7ed907012
+444	378	\N	182	37	craft\\elements\\Entry	t	f	2025-05-20 01:24:30	2025-05-20 01:24:31	\N	\N	\N	ef5d3be6-4374-489d-96b5-33fcdfe87ab0
 5	\N	\N	\N	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:41	2025-05-06 15:42:07	\N	\N	\N	bd41cb8e-723f-47e4-84bf-55ebc52f7891
 73	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:25:29	2025-05-15 19:20:03	\N	\N	\N	d627fa80-d5cb-457e-aee7-613d0d38d9d3
 144	\N	\N	\N	27	craft\\elements\\Entry	t	f	2025-02-20 19:49:10	2025-02-20 19:49:32	\N	\N	\N	c3f5fe87-ce60-4c3c-8eff-19eed6b0ab24
 77	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:26:57	2025-05-15 19:20:03	\N	\N	\N	97327d50-958f-40aa-836d-12a60e65d990
+208	125	\N	79	19	craft\\elements\\Entry	t	f	2025-02-20 20:28:11	2025-02-20 20:41:56	\N	2025-05-19 15:33:41	\N	887744a8-3c60-44a6-a0c2-a36de99884eb
 249	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:59:00	2025-05-06 15:59:00	\N	\N	\N	424409de-1acc-4e2f-bcb3-7b1af94644b6
 250	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:59:01	2025-05-06 15:59:01	\N	\N	\N	72ea6f49-9ad5-4939-bd39-82e3f1c581b5
 251	\N	\N	\N	5	craft\\elements\\Asset	t	f	2025-05-06 15:59:04	2025-05-06 15:59:04	\N	\N	\N	2460498c-833d-46c6-8c52-1fef2324a766
@@ -3911,11 +3930,8 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 276	275	\N	112	23	craft\\elements\\Entry	t	f	2025-05-06 17:05:11	2025-05-06 17:05:11	\N	\N	\N	4d3d1d8b-55f7-48a2-b8c3-5d823feeea43
 256	76	\N	99	31	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-06 16:00:03	\N	\N	\N	71b37641-db31-46a6-93dd-0f9d75e4a4b1
 257	80	\N	100	19	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-06 16:00:03	\N	\N	\N	fd1ad9d8-7bbd-45f3-a825-4f501381e03d
-258	255	\N	101	20	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-06 16:00:03	\N	\N	\N	21b3b0bc-a058-47dc-b2ba-5f35597b064b
 259	86	\N	102	19	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-06 16:00:03	\N	\N	\N	f95c7bcf-a3bf-4242-8f19-feb0b56b6506
 260	87	\N	103	10	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:03	\N	\N	\N	9444e4ed-b50d-4a4a-abf6-531d6a7c7cf6
-261	125	\N	104	19	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	\N	\N	f487e131-f783-47b8-bfde-a5b85588efbe
-262	127	\N	105	10	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	\N	\N	ce4e637a-8d9a-46f0-81cf-ba1bcc2d653e
 263	128	\N	106	8	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	\N	\N	e42c3a2a-089c-4726-b6fc-4b0f64cb002f
 264	129	\N	107	25	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	\N	\N	b6f53d4e-c6e5-47f3-b5a3-f22915d74103
 265	130	\N	108	15	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	\N	\N	43ece35f-f25d-4925-9c5e-77a96bd885eb
@@ -3960,9 +3976,9 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 312	311	\N	130	23	craft\\elements\\Entry	t	f	2025-05-06 17:09:16	2025-05-06 17:09:16	\N	\N	\N	82d4cea4-a76e-4838-9c42-b43ff3898f3c
 313	\N	\N	\N	23	craft\\elements\\Entry	t	f	2025-05-06 17:09:16	2025-05-06 17:09:16	\N	\N	\N	f581c20c-7cf8-4103-a26f-3bfebd07ac95
 314	313	\N	131	23	craft\\elements\\Entry	t	f	2025-05-06 17:09:16	2025-05-06 17:09:17	\N	\N	\N	2ad25757-bbb0-4130-baf0-14fe1dfddd42
-125	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-15 19:20:03	\N	\N	\N	d03f2e47-a0d6-4539-8289-aef2ddfc7fd4
-87	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-02-20 19:37:11	2025-05-15 19:19:35	\N	\N	\N	c3094eaa-c565-4380-92f1-f9bb487dafed
-255	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-15 19:19:35	\N	\N	\N	bf05a183-7281-47a1-8042-005353a344ba
+87	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-02-20 19:37:11	2025-05-15 19:47:34	\N	\N	\N	c3094eaa-c565-4380-92f1-f9bb487dafed
+255	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-19 15:33:41	\N	2025-05-19 15:33:41	\N	bf05a183-7281-47a1-8042-005353a344ba
+258	255	\N	101	20	craft\\elements\\Entry	t	f	2025-05-06 16:00:02	2025-05-06 16:00:03	\N	2025-05-19 15:33:41	\N	21b3b0bc-a058-47dc-b2ba-5f35597b064b
 130	\N	\N	\N	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-05-15 19:19:36	\N	\N	\N	679ab69b-183a-4ffe-9a46-443fd366d020
 129	\N	\N	\N	25	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-05-15 19:20:03	\N	\N	\N	5509c97a-e51a-4c57-81ba-a35ed7badc0a
 305	\N	\N	\N	23	craft\\elements\\Entry	t	f	2025-05-06 17:09:16	2025-05-06 17:09:44	\N	\N	\N	055caeb2-639e-4f53-b021-85e2b163bcc2
@@ -3986,21 +4002,93 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 323	\N	\N	\N	24	craft\\elements\\Entry	t	f	2025-05-06 17:23:39	2025-05-06 17:23:39	\N	2025-05-15 17:33:36	\N	33acf431-3f20-4b0f-b2bf-515c106dfe5d
 160	\N	\N	\N	38	craft\\elements\\Entry	t	f	2025-02-20 20:13:19	2025-02-20 20:14:00	\N	\N	\N	24ec2543-eaf3-4a6b-871d-d8d8c03b9db6
 181	\N	\N	\N	38	craft\\elements\\Entry	t	f	2025-02-20 20:19:47	2025-05-06 15:30:53	\N	\N	\N	3913eaa0-fb22-4a30-9730-ee7a8cabfa99
-33	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:04:24	2025-05-15 19:19:35	\N	\N	\N	8adcd0a3-c5cb-4ea4-aed1-74e3e30d894c
-37	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:07:57	2025-05-15 19:19:35	\N	\N	\N	c7dcabf7-cc1a-4938-946e-9a7e2c91950c
-66	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:13:24	2025-05-15 19:19:35	\N	\N	\N	102e2f4b-a9e1-40dc-a9ea-c57a3e5f5bb9
-91	\N	\N	\N	26	craft\\elements\\Entry	t	f	2025-02-20 19:38:21	2025-05-15 19:19:35	\N	\N	\N	6835d670-c775-4411-9686-be099fa4fb14
-127	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-15 19:19:35	\N	\N	\N	d77bbbc3-d5f8-451c-8c12-771c9a5fa59c
 131	\N	\N	\N	15	craft\\elements\\Entry	t	f	2025-02-20 19:48:25	2025-05-15 19:19:36	\N	\N	\N	ed15b310-0c4b-49bd-afaa-236a1063e950
 145	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:49:14	2025-05-15 19:20:02	\N	\N	\N	f0fe5953-b913-4208-b8bb-4007840f4df4
 55	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:11:10	2025-05-15 19:20:02	\N	\N	\N	fe412ecd-eaef-43e1-bc9a-27560463bd06
-79	\N	\N	\N	14	craft\\elements\\Entry	t	f	2025-02-20 19:28:16	2025-05-15 19:20:03	\N	\N	\N	a34c672d-9764-444e-bf60-3c3752b9292e
-80	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:34:56	2025-05-15 19:20:03	\N	\N	\N	db2119b6-ec74-4fda-a5d7-b7804d2cb82b
-83	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:35:53	2025-05-15 19:20:03	\N	\N	\N	7aa54507-d4d7-4c8f-b930-8d3a045ccf00
-92	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:40:24	2025-05-15 19:20:03	\N	\N	\N	dde01ab5-994c-465d-a40a-166297bbd143
 128	\N	\N	\N	8	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-15 19:20:03	\N	\N	\N	794daa45-e065-4d71-991b-1834f5b0db61
-196	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 20:41:54	2025-05-15 19:20:03	\N	\N	\N	c4c82954-81a2-4cad-adc8-599a6534e7ba
 197	\N	\N	\N	42	craft\\elements\\Entry	t	f	2025-02-20 20:41:54	2025-05-15 19:20:03	\N	\N	\N	93be69f7-1452-4f79-8588-4edd851779c7
+66	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:13:24	2025-05-15 19:47:33	\N	\N	\N	102e2f4b-a9e1-40dc-a9ea-c57a3e5f5bb9
+329	72	\N	133	28	craft\\elements\\Entry	t	f	2025-05-15 19:32:14	2025-05-15 19:32:14	\N	\N	\N	42c06ced-dafc-4584-98ef-6b3d4c5d71a4
+330	73	\N	134	22	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-15 19:32:14	\N	\N	\N	d45d7d31-ef63-49e4-9507-d0a85612b562
+33	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:04:24	2025-05-15 19:47:32	\N	\N	\N	8adcd0a3-c5cb-4ea4-aed1-74e3e30d894c
+37	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:07:57	2025-05-15 19:47:32	\N	\N	\N	c7dcabf7-cc1a-4938-946e-9a7e2c91950c
+79	\N	\N	\N	14	craft\\elements\\Entry	t	f	2025-02-20 19:28:16	2025-05-15 19:20:03	\N	\N	\N	a34c672d-9764-444e-bf60-3c3752b9292e
+91	\N	\N	\N	26	craft\\elements\\Entry	t	f	2025-02-20 19:38:21	2025-05-15 19:47:34	\N	\N	\N	6835d670-c775-4411-9686-be099fa4fb14
+80	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:34:56	2025-05-19 15:33:41	\N	\N	\N	db2119b6-ec74-4fda-a5d7-b7804d2cb82b
+83	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:35:53	2025-05-19 15:33:41	\N	\N	\N	7aa54507-d4d7-4c8f-b930-8d3a045ccf00
+386	79	\N	137	14	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-19 15:33:41	\N	\N	\N	9e267d17-92fc-4d98-bfb5-4652c9b473eb
+387	80	\N	138	19	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	c88a8928-8c3e-4ff7-83a6-a09bd896b6d7
+388	367	\N	139	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	01e32062-108a-43f1-80bc-23f1d28a5855
+373	\N	\N	\N	48	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 17:23:22	\N	\N	\N	05df89f0-3c55-4998-9d6a-33a76472f356
+389	368	\N	140	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	2bb5fdbf-c601-4150-b5a1-407723d618fb
+383	\N	\N	\N	50	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 17:35:52	\N	\N	\N	9daa096e-5db1-4172-b37a-98b329299a3c
+390	83	\N	141	19	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	c96e1f43-36da-46c3-94bb-5aa7f2e40d77
+391	84	\N	142	20	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	7f9e675f-bc63-4e98-aba2-f01c8e97b468
+431	\N	\N	\N	51	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	bcf492ef-071a-4f48-a0f4-916f0ee33d2d
+392	369	\N	143	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	6e90c064-255f-41fe-b473-2cbe87cfe540
+432	\N	\N	\N	51	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	c8586cb3-d2e0-4cfb-af4b-00a73189a58e
+433	76	\N	175	31	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	f197dc2b-ca23-449e-8665-2452ba337726
+434	383	\N	176	50	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	36bcf1f9-1beb-4c30-a408-de6dea60041e
+435	431	\N	177	51	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	13a7c457-9a6b-4d70-9817-81b043284dc9
+436	432	\N	178	51	craft\\elements\\Entry	t	f	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	\N	\N	00f0d6c6-b1b0-438f-824b-8e1d286ab689
+196	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 20:41:54	2025-05-20 01:38:56	\N	\N	\N	c4c82954-81a2-4cad-adc8-599a6534e7ba
+377	\N	\N	\N	49	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-20 01:24:30	\N	\N	\N	97a602bb-e5da-4a7f-b90e-afdba70731d8
+379	\N	\N	\N	49	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-20 01:37:33	\N	\N	\N	235dca0d-591a-4c09-a95d-07a9518d5f5d
+381	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-20 01:37:33	\N	\N	\N	190a523b-86c1-4a51-aa2f-4e0b4994d4bb
+367	\N	\N	\N	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	1bde3b48-b7d9-400d-8571-5390429756e7
+368	\N	\N	\N	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	11527627-28cb-415b-b400-33197917c72f
+369	\N	\N	\N	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	bb763e54-7b56-471c-b2f9-cf4a90dc2bbf
+370	\N	\N	\N	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	ab9dd0a4-7623-4e31-a248-9cfa1614e145
+371	\N	\N	\N	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	ad5df2a7-4aec-4e84-a882-bfbe9fd30e9b
+92	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:40:24	2025-05-19 15:33:41	\N	\N	\N	dde01ab5-994c-465d-a40a-166297bbd143
+372	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	ea12590f-ab61-484c-9f6e-2deb67de9c62
+374	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	e15b355a-da06-4d82-b3c9-138c2bddf58a
+375	\N	\N	\N	48	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	52c89fef-def8-4c13-93d2-ca4b459fae22
+376	\N	\N	\N	26	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	7082807f-3610-429f-a292-5aab4827265d
+380	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	cd3d3425-21af-4e74-957f-d54f1e04ddee
+382	\N	\N	\N	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	f67ad947-4e30-4e9f-9b9c-4c2bb180814f
+126	\N	\N	\N	12	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-19 15:33:41	\N	2025-05-19 15:33:41	t	50b2c71c-ebf6-4b88-b728-a39869d06358
+136	126	\N	44	12	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 19:48:26	\N	2025-05-19 15:33:41	\N	f113c2cf-4523-4b51-b3df-ab12a9307c44
+393	86	\N	144	19	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	26c0b9e8-9e7f-4dfd-9d23-7dcea9d43910
+127	\N	\N	\N	10	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-19 15:33:41	\N	2025-05-19 15:33:41	t	d77bbbc3-d5f8-451c-8c12-771c9a5fa59c
+137	127	\N	45	10	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 19:48:26	\N	2025-05-19 15:33:41	\N	511c58ba-dea8-4943-9767-10e1ed81376b
+262	127	\N	105	10	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	2025-05-19 15:33:41	\N	ce4e637a-8d9a-46f0-81cf-ba1bcc2d653e
+125	\N	\N	\N	19	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-05-19 15:33:41	\N	2025-05-19 15:33:41	\N	d03f2e47-a0d6-4539-8289-aef2ddfc7fd4
+135	125	\N	43	19	craft\\elements\\Entry	t	f	2025-02-20 19:48:24	2025-02-20 20:28:12	\N	2025-05-19 15:33:41	\N	746ad81d-1012-4802-856e-dd6bf3094ab2
+261	125	\N	104	19	craft\\elements\\Entry	t	f	2025-05-06 16:00:03	2025-05-06 16:00:04	\N	2025-05-19 15:33:41	\N	f487e131-f783-47b8-bfde-a5b85588efbe
+384	76	\N	135	31	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	4c2b44ea-bcaa-4ff2-8a54-791498f30c43
+394	370	\N	145	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	a8a0d531-c001-400f-9293-7c67ab46fc04
+395	87	\N	146	10	craft\\elements\\Entry	t	f	2025-05-15 19:47:34	2025-05-19 15:33:41	\N	\N	\N	df6208f6-15cf-4585-af6d-199b9edb2592
+396	90	\N	147	19	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	a5b60da2-9174-4cf5-b284-55a30021980d
+397	91	\N	148	26	craft\\elements\\Entry	t	f	2025-05-15 19:47:34	2025-05-19 15:33:41	\N	\N	\N	019cd825-41cf-4169-bfaf-cde7acfd1d40
+398	371	\N	149	47	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	62debf1d-0439-4181-9437-e95857ae66f2
+399	92	\N	150	19	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	1093330c-0590-43d8-ae99-4df30d09b629
+400	93	\N	151	37	craft\\elements\\Entry	t	f	2025-05-15 19:47:34	2025-05-19 15:33:41	\N	\N	\N	765cbe2c-14d4-45ff-bee5-498620d49006
+401	372	\N	152	10	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	\N	\N	55e018a0-072d-4878-b805-1579d13ef527
+402	128	\N	153	8	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-19 15:33:41	\N	\N	\N	cb4a9b46-d861-4e14-801f-81649ba5394a
+403	129	\N	154	25	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-19 15:33:42	\N	\N	\N	799aebc1-617f-4577-8bf3-2411ca357337
+404	130	\N	155	15	craft\\elements\\Entry	t	f	2025-05-15 19:19:36	2025-05-19 15:33:42	\N	\N	\N	134f7c47-ead3-46e1-96a5-1a1b726b542b
+405	131	\N	156	15	craft\\elements\\Entry	t	f	2025-05-15 19:19:36	2025-05-19 15:33:42	\N	\N	\N	b69e80e0-bd46-4171-b01b-b7e05830ff4e
+406	132	\N	157	15	craft\\elements\\Entry	t	f	2025-05-15 19:19:36	2025-05-19 15:33:42	\N	\N	\N	40d9510b-1155-4828-82d5-7ac45642767a
+385	77	\N	136	22	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-19 15:33:41	\N	\N	\N	84fe971e-66ba-42f6-8e0d-d5de92f0648f
+407	196	\N	158	12	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	5191bc5c-3b8f-406c-9e33-02f1fd536dea
+408	197	\N	159	42	craft\\elements\\Entry	t	f	2025-05-15 19:20:03	2025-05-19 15:33:42	\N	\N	\N	368d51f7-fe54-4fe1-b072-316fb755fa44
+409	198	\N	160	15	craft\\elements\\Entry	t	f	2025-02-21 20:17:52	2025-05-19 15:33:42	\N	\N	\N	f8155472-8200-4c80-8043-ab840ae3ab4b
+410	373	\N	161	48	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	2a85c5f7-daa7-4f55-8597-a13d8402c8af
+411	374	\N	162	10	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	4b0ea539-8f7e-4958-a0c5-eeb18e9a7e33
+412	375	\N	163	48	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	afca4462-4ee5-4676-8a41-b27878d210a4
+413	376	\N	164	26	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	b285ed89-4e2d-40e9-920c-9582cac09d89
+414	377	\N	165	49	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	9552979d-95fa-4222-bfe3-7d4fa4f5c8f8
+415	378	\N	166	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	2cc38e6e-cf24-426a-85d5-f3ca5eebc837
+416	379	\N	167	49	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	b90baf65-5845-4632-a9ae-bb41e56a1dc8
+417	380	\N	168	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	7fc30c24-7784-4c2a-a9dc-a87cfd8ddfa6
+418	381	\N	169	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	bf1db1b9-27ee-42b1-ba70-c4cd1cfd2baf
+419	382	\N	170	37	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	a1dd9507-7653-4448-8452-5301ed66826c
+420	383	\N	171	50	craft\\elements\\Entry	t	f	2025-05-19 15:33:41	2025-05-19 15:33:42	\N	\N	\N	8b578864-d71c-47d2-928b-a49ae77b9fa9
+449	76	\N	183	31	craft\\elements\\Entry	t	f	2025-05-20 01:37:32	2025-05-20 01:37:33	\N	\N	\N	6bb68b03-f4f9-408c-b5c8-168dbb2d6602
+450	196	\N	184	12	craft\\elements\\Entry	t	f	2025-05-20 01:37:32	2025-05-20 01:37:33	\N	\N	\N	44357d87-1600-4289-85a4-91964970f1ee
+451	379	\N	185	49	craft\\elements\\Entry	t	f	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	\N	\N	41c90879-edb9-4dc2-99cd-14752048c944
+452	381	\N	186	37	craft\\elements\\Entry	t	f	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	\N	\N	2393c5db-97d9-4017-a5c6-5d4854a1de06
 \.
 
 
@@ -4017,6 +4105,7 @@ COPY public.elements_bulkops ("elementId", key, "timestamp") FROM stdin;
 --
 
 COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
+49	3	1
 266	2	1
 69	68	1
 68	67	1
@@ -4027,8 +4116,12 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 29	28	1
 85	84	1
 100	94	3
+66	65	1
 103	94	4
+81	80	1
 96	95	1
+126	125	1
+176	175	1
 99	98	1
 43	42	1
 102	101	1
@@ -4134,7 +4227,7 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 183	181	1
 185	222	1
 227	226	1
-49	3	1
+91	90	1
 232	231	1
 52	231	1
 237	236	1
@@ -4146,6 +4239,8 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 324	318	2
 317	2	1
 318	2	2
+79	76	1
+373	76	11
 201	256	1
 99	257	1
 258	257	2
@@ -4158,6 +4253,16 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 142	264	3
 202	256	1
 257	256	2
+385	424	1
+411	426	1
+386	424	1
+387	424	2
+390	424	3
+393	424	4
+396	424	5
+399	424	6
+402	424	7
+403	424	8
 204	256	3
 259	256	4
 206	256	5
@@ -4167,26 +4272,19 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 264	256	9
 211	256	10
 212	256	11
-198	197	1
-32	31	1
-33	32	1
-36	35	1
-37	36	1
-41	40	1
-42	41	1
-65	58	1
-66	65	1
-81	80	1
-255	80	2
-84	83	1
-87	86	1
-91	90	1
-93	92	1
-126	125	1
 127	125	2
-175	165	1
-176	175	1
+198	197	1
+367	80	1
+368	80	2
+84	83	1
+369	83	2
+370	86	1
+87	86	2
+371	90	2
+93	92	1
+372	92	2
 48	3	1
+376	375	1
 161	160	1
 166	165	1
 130	129	1
@@ -4196,21 +4294,154 @@ COPY public.elements_owners ("elementId", "ownerId", "sortOrder") FROM stdin;
 153	152	1
 55	5	1
 27	7	1
+385	384	1
+388	387	1
+389	387	2
+391	390	1
+157	156	1
+149	148	1
+73	72	1
+330	329	1
+32	31	1
+33	32	1
+36	35	1
+37	36	1
+41	40	1
+42	41	1
+65	58	1
+392	390	2
+394	393	1
+255	80	2
+431	383	1
+395	393	2
+432	383	2
+397	396	1
+398	396	2
+125	76	7
+400	399	1
+401	399	2
+175	165	1
+404	403	1
+385	433	1
+435	434	1
+405	403	2
+436	434	2
+386	433	1
+406	403	3
+409	408	1
+411	410	1
+387	433	2
+390	433	3
+413	412	1
+415	414	1
+393	433	4
+417	416	1
+418	416	2
+419	416	3
+396	433	5
+386	384	1
+387	384	2
+390	384	3
+393	384	4
+396	384	5
+399	384	6
+402	384	7
+403	384	8
+407	384	9
+408	384	10
+410	384	11
+412	384	12
+414	384	13
+416	384	14
+420	384	15
+399	433	6
+402	433	7
+403	433	8
+425	433	9
+408	433	10
+426	433	11
+412	433	12
+414	433	13
+416	433	14
+434	433	15
+374	373	1
+425	424	9
+408	424	10
+426	424	11
+412	424	12
+414	424	13
+416	424	14
+420	424	15
+378	377	1
+385	441	1
+444	443	1
+386	441	1
+387	441	2
+390	441	3
+393	441	4
+396	441	5
+399	441	6
+402	441	7
+403	441	8
+442	441	9
+408	441	10
+426	441	11
+412	441	12
+443	441	13
+416	441	14
+434	441	15
 77	76	1
-79	76	1
 80	76	2
 83	76	3
 86	76	4
 90	76	5
 92	76	6
-125	76	7
-128	76	8
-129	76	9
-196	76	10
-197	76	11
-157	156	1
-149	148	1
-73	72	1
+128	76	7
+129	76	8
+197	76	10
+375	76	12
+377	76	13
+380	379	1
+381	379	2
+382	379	3
+379	76	14
+383	76	15
+385	449	1
+417	451	1
+452	451	2
+419	451	3
+386	449	1
+387	449	2
+390	449	3
+393	449	4
+396	449	5
+399	449	6
+402	449	7
+403	449	8
+450	449	9
+408	449	10
+426	449	11
+412	449	12
+443	449	13
+451	449	14
+434	449	15
+196	76	9
+385	453	1
+386	453	1
+387	453	2
+390	453	3
+393	453	4
+396	453	5
+399	453	6
+402	453	7
+403	453	8
+454	453	9
+408	453	10
+426	453	11
+412	453	12
+443	453	13
+451	453	14
+434	453	15
 \.
 
 
@@ -4292,29 +4523,25 @@ COPY public.elements_sites (id, "elementId", "siteId", title, slug, uri, content
 85	85	1	\N	__temp_mddegelolqyilhkzglodpyiwjssphqtfxmih	\N	{"749a8663-8773-47df-8cdd-a50c128a6173": false, "9d7a1bda-d856-4132-a06e-35d2ab1c2148": "Learn more", "c4f0aab9-b1bd-4b58-9804-8f8e838dc230": "{entry:58@1:url}"}	t	2025-02-20 19:36:40	2025-02-20 19:37:01	1240369b-f0e4-4cc2-86cb-2f5c68d23b11
 302	302	1	Ipsum dolorem	ipsum-dolorem	\N	{"877c89b0-1fe2-4fcf-9e5e-f6fd67006bfa": false, "cfef99ee-464a-452e-b731-e56f774b997a": {"type": "url", "value": "https://www.imarc.com"}}	t	2025-05-06 17:06:43	2025-05-06 17:06:43	5d852a29-3fe3-4150-9540-f66f7314510f
 73	73	1	\N	__temp_wechhhlculgszzrhohdgzfjrkpforgpaikij	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": [], "c24927ca-b97d-4582-af30-a791db8e082a": "Resources"}	t	2025-02-20 19:25:29	2025-05-15 19:19:35	9ac33267-af1b-41e2-b15f-85b3d5c33c92
-72	72	1	Resources	resource-home	resource-home	{"76de9c3c-1373-407a-b1d2-d51f84590b46": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "{{ seomatic.meta.seoImage }}", "ogTitle": "{{ seomatic.meta.seoTitle }}", "language": null, "seoImage": "", "seoTitle": "", "inherited": {"robots": true, "ogImage": true, "ogTitle": true, "seoImage": true, "seoTitle": true, "canonicalUrl": true, "twitterImage": true, "twitterTitle": true, "ogDescription": true, "seoDescription": true, "siteNamePosition": true, "ogImageDescription": true, "twitterDescription": true, "seoImageDescription": true, "twitterImageDescription": true}, "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "{{ seomatic.meta.seoImageWidth }}", "twitterImage": "{{ seomatic.meta.seoImage }}", "twitterTitle": "{{ seomatic.meta.seoTitle }}", "ogDescription": "{{ seomatic.meta.seoDescription }}", "ogImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "before", "twitterImageWidth": "{{ seomatic.meta.seoImageWidth }}", "ogImageDescription": "{{ seomatic.meta.seoImageDescription }}", "ogSiteNamePosition": "", "twitterDescription": "{{ seomatic.meta.seoDescription }}", "twitterImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageDescription": "", "twitterImageDescription": "{{ seomatic.meta.seoImageDescription }}", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": {"sitemapUrls": true, "sitemapFiles": true, "sitemapLimit": true, "sitemapAssets": true, "sitemapAltLinks": true, "sitemapPriority": true, "sitemapChangeFreq": true}, "overrides": [], "newsSitemap": null, "sitemapUrls": false, "sitemapFiles": false, "sitemapLimit": "", "sitemapAssets": false, "structureDepth": null, "sitemapAltLinks": false, "sitemapPageSize": 500, "sitemapPriority": "1.0", "sitemapChangeFreq": "always", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:25:47+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": "", "seoImageIds": "", "siteSubType": "", "ogImageField": "", "ogTitleField": "title", "ogImageSource": "sameAsSeo", "ogTitleSource": "sameAsSeo", "seoImageField": "", "seoTitleField": "title", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": "", "ogImageTransform": "", "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": "1", "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "title", "ogDescriptionField": "title", "twitterImageSource": "sameAsSeo", "twitterTitleSource": "sameAsSeo", "ogDescriptionSource": "sameAsSeo", "seoDescriptionField": "title", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": "", "siteNamePositionSource": "fromCustom", "ogImageDescriptionField": "title", "twitterDescriptionField": "title", "ogImageDescriptionSource": "sameAsSeo", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "title", "twitterDescriptionSource": "sameAsSeo", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "title", "twitterImageDescriptionSource": "sameAsSeo", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}, "7b7054eb-daf1-4588-adc6-48c9d6fb7e07": {"value": "", "language": "html"}, "c24bec29-1fd4-4668-8c97-86a8fca94f57": true, "ece0be33-0e59-44cd-a40e-ef70c47da6d0": {"value": "", "language": "html"}}	t	2025-02-20 19:25:24	2025-05-15 19:20:03	431f85f2-f20e-48f8-a727-b5c0eb3c1855
+72	72	1	Resources	resources	resources	{"76de9c3c-1373-407a-b1d2-d51f84590b46": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "{{ seomatic.meta.seoImage }}", "ogTitle": "{{ seomatic.meta.seoTitle }}", "language": null, "seoImage": "", "seoTitle": "", "inherited": {"robots": true, "ogImage": true, "ogTitle": true, "seoImage": true, "seoTitle": true, "canonicalUrl": true, "twitterImage": true, "twitterTitle": true, "ogDescription": true, "seoDescription": true, "siteNamePosition": true, "ogImageDescription": true, "twitterDescription": true, "seoImageDescription": true, "twitterImageDescription": true}, "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "{{ seomatic.meta.seoImageWidth }}", "twitterImage": "{{ seomatic.meta.seoImage }}", "twitterTitle": "{{ seomatic.meta.seoTitle }}", "ogDescription": "{{ seomatic.meta.seoDescription }}", "ogImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "before", "twitterImageWidth": "{{ seomatic.meta.seoImageWidth }}", "ogImageDescription": "{{ seomatic.meta.seoImageDescription }}", "ogSiteNamePosition": "", "twitterDescription": "{{ seomatic.meta.seoDescription }}", "twitterImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageDescription": "", "twitterImageDescription": "{{ seomatic.meta.seoImageDescription }}", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": {"sitemapUrls": true, "sitemapFiles": true, "sitemapLimit": true, "sitemapAssets": true, "sitemapAltLinks": true, "sitemapPriority": true, "sitemapChangeFreq": true}, "overrides": [], "newsSitemap": null, "sitemapUrls": false, "sitemapFiles": false, "sitemapLimit": "", "sitemapAssets": false, "structureDepth": null, "sitemapAltLinks": false, "sitemapPageSize": 500, "sitemapPriority": "1.0", "sitemapChangeFreq": "always", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:25:47+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": "", "seoImageIds": "", "siteSubType": "", "ogImageField": "", "ogTitleField": "title", "ogImageSource": "sameAsSeo", "ogTitleSource": "sameAsSeo", "seoImageField": "", "seoTitleField": "title", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": "", "ogImageTransform": "", "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": "1", "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "title", "ogDescriptionField": "title", "twitterImageSource": "sameAsSeo", "twitterTitleSource": "sameAsSeo", "ogDescriptionSource": "sameAsSeo", "seoDescriptionField": "title", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": "", "siteNamePositionSource": "fromCustom", "ogImageDescriptionField": "title", "twitterDescriptionField": "title", "ogImageDescriptionSource": "sameAsSeo", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "title", "twitterDescriptionSource": "sameAsSeo", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "title", "twitterImageDescriptionSource": "sameAsSeo", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}, "7b7054eb-daf1-4588-adc6-48c9d6fb7e07": {"value": "", "language": "html"}, "c24bec29-1fd4-4668-8c97-86a8fca94f57": true, "ece0be33-0e59-44cd-a40e-ef70c47da6d0": {"value": "", "language": "html"}}	t	2025-02-20 19:25:24	2025-05-15 19:32:14	431f85f2-f20e-48f8-a727-b5c0eb3c1855
 78	78	1	\N	__temp_frrjlefkzyhfurylbfqzebmnzvgdgafprtsx	\N	{"749a8663-8773-47df-8cdd-a50c128a6173": false, "9d7a1bda-d856-4132-a06e-35d2ab1c2148": "Learn More", "c4f0aab9-b1bd-4b58-9804-8f8e838dc230": "{entry:3@1:url}"}	t	2025-02-20 19:27:44	2025-02-20 19:28:04	645a7c07-9a92-4307-b5f9-93c3571a8daa
 79	79	1	\N	__temp_pppmwnipgcxctepzpskdhhcphkswosnlyize	\N	{"99e90eb1-c242-4f2b-9841-60d7030aa800": [40]}	t	2025-02-20 19:28:16	2025-02-20 19:28:24	1b7d82dd-7b31-4ef3-b6b9-36fb7db006a9
 93	93	1	\N	__temp_philsnogelygfuupwlvkwnlslagnpsoiyynn	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Cras laoreet faucibus nibh, vel facilisis enim laoreet vel. Cras felis nunc, fringilla sit amet facilisis finibus, blandit ut quam. Nulla elit enim, porttitor vel porttitor sed, congue sit amet justo.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Julius Caesar", "b34609ff-0402-481e-ac56-4f45f1a1205d": "Would Be Emperor"}	t	2025-02-20 19:40:31	2025-02-20 19:41:40	7db54a99-0791-4bf9-a1bd-0966922c2275
 88	88	1	Dovah	\N	\N	\N	t	2025-02-20 19:37:38	2025-02-20 19:37:38	586957b4-0111-4b0f-868f-425dfde3902a
 81	81	1	\N	__temp_jqqpkotbizwbdzzubfuxaqggilnqwwfdolrt	\N	{"499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p>Pellentesque euismod iaculis nibh. Duis a ante quis dolor blandit pulvinar. Integer sollicitudin leo non vulputate elementum. Pellentesque eu diam euismod, vehicula justo at, egestas neque. Duis et fermentum mi, non sodales quam. Phasellus erat dolor, venenatis ac ultrices vel, elementum in nisi. Vivamus sit amet neque a tortor pellentesque tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a neque egestas, porta orci vitae, porttitor quam. Sed in risus sit amet dolor faucibus elementum ac at sapien. Proin fermentum, orci ut finibus faucibus, leo arcu sodales eros, a varius nisi ante ut mi. Pellentesque gravida luctus pretium. Sed tellus sem, interdum non vulputate at, tempus sed lorem. Vestibulum sagittis, nunc a dignissim sodales, neque risus lacinia erat, id rutrum ipsum felis ut felis. Etiam in venenatis nunc. Integer in justo sollicitudin, malesuada orci sit amet, tristique nisi.</p>"}	t	2025-02-20 19:35:15	2025-02-20 19:35:33	c02c5c6c-6901-4397-ad23-139b30adbbd2
 82	82	1	\N	__temp_hfgidaxpgsjysjtonfwcosortckjfmhpyzdd	\N	{"30b6394c-97dc-4b5a-807c-b612c4c38fd1": [], "e32c7188-d89d-484d-9c8d-55e6955ac556": ""}	t	2025-02-20 19:35:38	2025-02-20 19:35:40	e8194f12-dca2-4b07-8ef7-cb93b221aeee
-80	80	1	\N	__temp_krixqgaepzdxexvbmmnpjwdifuojikzctmgw	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Rich Text One Column", "74f3a028-f488-444d-9f5e-c5cf5a97ce3b": "Eyebrow", "9f9770ea-fe09-4147-b7c4-de5b18682064": "", "eac65eca-e16a-4cef-98df-9353df2bdbc4": "Section Subheading"}	t	2025-02-20 19:34:56	2025-02-20 19:36:15	cc1cf032-be2a-4461-a01e-1cff39859356
-83	83	1	\N	__temp_ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Call To Action One Column", "9f9770ea-fe09-4147-b7c4-de5b18682064": ""}	t	2025-02-20 19:35:53	2025-02-20 19:36:32	1f0b967c-0002-41c1-8fd1-131479499e6f
-84	84	1	\N	__temp_btdvrkdrjukpovczwdvqkioozuogxhpgmccd	\N	{"f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28": "<p>You should click here.</p>"}	t	2025-02-20 19:36:23	2025-02-20 19:36:37	d22bd0a3-2a0a-4c4c-b5bc-caa9d339dad2
-92	92	1	\N	__temp_qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Single Column Testimonial", "9f9770ea-fe09-4147-b7c4-de5b18682064": ""}	t	2025-02-20 19:40:24	2025-02-20 19:40:42	f9998766-a7aa-4fee-9610-02f0c5b91068
 89	89	1	\N	__temp_bbgzhfgjueqdwpnrvjynwskncvkwcryoejcc	\N	{"749a8663-8773-47df-8cdd-a50c128a6173": false, "9d7a1bda-d856-4132-a06e-35d2ab1c2148": "Read More", "c4f0aab9-b1bd-4b58-9804-8f8e838dc230": "https://www.imarc.com"}	t	2025-02-20 19:37:52	2025-02-20 19:38:11	0bebe207-1c80-4d01-98e9-454444f26535
 94	94	1	Kitchen Sink	kitchen-sink	resources/kitchen-sink	{"36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-02-20 19:42:05	2025-02-20 19:42:05	4c719178-964f-4fef-a84a-c1686a7cc551
-90	90	1	\N	__temp_oznvkldnljllujsxhykvppymeviajukpgktm	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Single Column Video", "9f9770ea-fe09-4147-b7c4-de5b18682064": ""}	t	2025-02-20 19:38:12	2025-02-20 19:38:29	8cb6d956-3835-4153-aead-5dcd67c785a0
-91	91	1	\N	__temp_gcdjbowvigefdkypsnkazrfemleslxvdizng	\N	{"0e66c4c1-1d62-4659-9ba7-294fbd16236c": "https://www.youtube.com/watch?v=vgs8DB17iPE"}	t	2025-02-20 19:38:21	2025-02-20 19:40:01	4a224405-5e63-4df5-bee4-8d899b117393
 95	95	1	\N	__temp_wikferbykzlfhyvykbilorkvjkfnspvefpzk	\N	{"40571ea4-98a2-4ebb-aeb9-7f1afc99d17e": "Euismod ponderum intellegam ea ius, no cum movet detracto.", "4b849859-e619-4c53-a923-33a7745ac886": "Standard Hero", "64ac8c09-b226-4c83-9605-50ec906cb97e": [], "8f9e4214-c090-4867-91a9-9d08c9656f7c": "<p>At duo soluta populo, mea in vidisse similique adipiscing. Eu vel porro efficiendi, purto nibh saperet pri at. Vim stet duis dicam et.</p>", "c24927ca-b97d-4582-af30-a791db8e082a": "Lorem ipsum dolor sit amet"}	t	2025-02-20 19:42:05	2025-02-20 19:42:05	6e35608d-a95e-494c-803f-8a04ca65e2b9
 96	96	1	\N	__temp_frrjlefkzyhfurylbfqzebmnzvgdgafprtsx	\N	{"749a8663-8773-47df-8cdd-a50c128a6173": false, "9d7a1bda-d856-4132-a06e-35d2ab1c2148": "Learn More", "c4f0aab9-b1bd-4b58-9804-8f8e838dc230": "{entry:3@1:url}"}	t	2025-02-20 19:42:05	2025-02-20 19:42:05	30057436-ea50-483b-aec9-01067f72fa81
 97	97	1	\N	__temp_pppmwnipgcxctepzpskdhhcphkswosnlyize	\N	{"99e90eb1-c242-4f2b-9841-60d7030aa800": [40]}	t	2025-02-20 19:42:06	2025-02-20 19:42:06	96ee8e6f-d9ea-4676-8fa5-16038dc47b98
 98	98	1	\N	__temp_krixqgaepzdxexvbmmnpjwdifuojikzctmgw	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Rich Text One Column", "74f3a028-f488-444d-9f5e-c5cf5a97ce3b": "Eyebrow", "9f9770ea-fe09-4147-b7c4-de5b18682064": "", "eac65eca-e16a-4cef-98df-9353df2bdbc4": "Section Subheading"}	t	2025-02-20 19:42:06	2025-02-20 19:42:06	7716f7c1-20db-4181-9ad3-e7602454505d
-86	86	1	\N	__temp_cbcccayiwczuqqhqwddpqkucudqvhsqwumey	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Image One Column"}	t	2025-02-20 19:37:04	2025-05-06 16:00:02	084fdd97-af8a-414b-a7bb-5e565f59a198
 87	87	1	\N	__temp_rmqystbwdmyzencrtxcqsdqtmjyskmztidak	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [244]}	t	2025-02-20 19:37:11	2025-05-06 16:00:03	f9994e1e-c19c-4019-ad82-d59002c51281
 301	301	1	Ipsum dolorem	ipsum-dolorem	\N	{"877c89b0-1fe2-4fcf-9e5e-f6fd67006bfa": false, "cfef99ee-464a-452e-b731-e56f774b997a": {"type": "url", "value": "https://www.imarc.com"}}	t	2025-05-06 17:06:43	2025-05-06 17:06:53	2e572f88-9f9c-440e-972e-e1efa903375c
 145	145	1	\N	__temp_yfjhvztvjvjflsoqhbrjznzizvmcswbnduen	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": [], "4b849859-e619-4c53-a923-33a7745ac886": "About Us", "c24927ca-b97d-4582-af30-a791db8e082a": "Our team is here to help."}	t	2025-02-20 19:49:14	2025-05-15 19:19:36	a2743943-8d08-4c42-9a21-914b5f586a4a
+91	91	1	\N	__temp_gcdjbowvigefdkypsnkazrfemleslxvdizng	\N	{"0e66c4c1-1d62-4659-9ba7-294fbd16236c": {"type": "url", "value": "https://www.youtube.com/watch?v=vgs8DB17iPE"}}	t	2025-02-20 19:38:21	2025-05-19 14:24:09	4a224405-5e63-4df5-bee4-8d899b117393
+80	80	1	\N	__temp_krixqgaepzdxexvbmmnpjwdifuojikzctmgw	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text", "74f3a028-f488-444d-9f5e-c5cf5a97ce3b": "Eyebrow", "eac65eca-e16a-4cef-98df-9353df2bdbc4": "Section Subheading"}	t	2025-02-20 19:34:56	2025-05-19 15:33:41	cc1cf032-be2a-4461-a01e-1cff39859356
+86	86	1	\N	__temp_cbcccayiwczuqqhqwddpqkucudqvhsqwumey	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Image"}	t	2025-02-20 19:37:04	2025-05-19 15:33:41	084fdd97-af8a-414b-a7bb-5e565f59a198
 99	99	1	\N	__temp_jqqpkotbizwbdzzubfuxaqggilnqwwfdolrt	\N	{"499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p>Pellentesque euismod iaculis nibh. Duis a ante quis dolor blandit pulvinar. Integer sollicitudin leo non vulputate elementum. Pellentesque eu diam euismod, vehicula justo at, egestas neque. Duis et fermentum mi, non sodales quam. Phasellus erat dolor, venenatis ac ultrices vel, elementum in nisi. Vivamus sit amet neque a tortor pellentesque tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a neque egestas, porta orci vitae, porttitor quam. Sed in risus sit amet dolor faucibus elementum ac at sapien. Proin fermentum, orci ut finibus faucibus, leo arcu sodales eros, a varius nisi ante ut mi. Pellentesque gravida luctus pretium. Sed tellus sem, interdum non vulputate at, tempus sed lorem. Vestibulum sagittis, nunc a dignissim sodales, neque risus lacinia erat, id rutrum ipsum felis ut felis. Etiam in venenatis nunc. Integer in justo sollicitudin, malesuada orci sit amet, tristique nisi.</p>"}	t	2025-02-20 19:42:06	2025-02-20 19:42:06	bc797e69-578a-4464-8252-ef578458f35f
 100	100	1	\N	__temp_ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Call To Action One Column", "9f9770ea-fe09-4147-b7c4-de5b18682064": ""}	t	2025-02-20 19:42:06	2025-02-20 19:42:06	d245f63d-8a8d-4084-b645-d1fe7606c0f7
 101	101	1	\N	__temp_btdvrkdrjukpovczwdvqkioozuogxhpgmccd	\N	{"f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28": "<p>You should click here.</p>"}	t	2025-02-20 19:42:06	2025-02-20 19:42:06	1a731e79-5105-4634-b4ab-ac85d5e30f68
@@ -4375,7 +4602,6 @@ COPY public.elements_sites (id, "elementId", "siteId", title, slug, uri, content
 189	189	1	Resources	resource-home	resource-home	{"76de9c3c-1373-407a-b1d2-d51f84590b46": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "{{ seomatic.meta.seoImage }}", "ogTitle": "{{ seomatic.meta.seoTitle }}", "language": null, "seoImage": "", "seoTitle": "", "inherited": {"robots": true, "ogImage": true, "ogTitle": true, "seoImage": true, "seoTitle": true, "canonicalUrl": true, "twitterImage": true, "twitterTitle": true, "ogDescription": true, "seoDescription": true, "siteNamePosition": true, "ogImageDescription": true, "twitterDescription": true, "seoImageDescription": true, "twitterImageDescription": true}, "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "{{ seomatic.meta.seoImageWidth }}", "twitterImage": "{{ seomatic.meta.seoImage }}", "twitterTitle": "{{ seomatic.meta.seoTitle }}", "ogDescription": "{{ seomatic.meta.seoDescription }}", "ogImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "before", "twitterImageWidth": "{{ seomatic.meta.seoImageWidth }}", "ogImageDescription": "{{ seomatic.meta.seoImageDescription }}", "ogSiteNamePosition": "", "twitterDescription": "{{ seomatic.meta.seoDescription }}", "twitterImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageDescription": "", "twitterImageDescription": "{{ seomatic.meta.seoImageDescription }}", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": {"sitemapUrls": true, "sitemapFiles": true, "sitemapLimit": true, "sitemapAssets": true, "sitemapAltLinks": true, "sitemapPriority": true, "sitemapChangeFreq": true}, "overrides": [], "newsSitemap": null, "sitemapUrls": false, "sitemapFiles": false, "sitemapLimit": "", "sitemapAssets": false, "structureDepth": null, "sitemapAltLinks": false, "sitemapPageSize": 500, "sitemapPriority": "1.0", "sitemapChangeFreq": "always", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:25:47+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": "", "seoImageIds": "", "siteSubType": "", "ogImageField": "", "ogTitleField": "title", "ogImageSource": "sameAsSeo", "ogTitleSource": "sameAsSeo", "seoImageField": "", "seoTitleField": "title", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": "", "ogImageTransform": "", "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": "1", "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "title", "ogDescriptionField": "title", "twitterImageSource": "sameAsSeo", "twitterTitleSource": "sameAsSeo", "ogDescriptionSource": "sameAsSeo", "seoDescriptionField": "title", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": "", "siteNamePositionSource": "fromCustom", "ogImageDescriptionField": "title", "twitterDescriptionField": "title", "ogImageDescriptionSource": "sameAsSeo", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "title", "twitterDescriptionSource": "sameAsSeo", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "title", "twitterImageDescriptionSource": "sameAsSeo", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}, "7b7054eb-daf1-4588-adc6-48c9d6fb7e07": {"value": "", "language": "html"}, "ece0be33-0e59-44cd-a40e-ef70c47da6d0": {"value": "", "language": "html"}}	t	2025-02-20 20:30:28	2025-02-20 20:30:28	3be999f0-f1db-4922-a72a-97e08ea085f0
 190	190	1	\N	__temp_wechhhlculgszzrhohdgzfjrkpforgpaikij	\N	{"64ac8c09-b226-4c83-9605-50ec906cb97e": [], "c24927ca-b97d-4582-af30-a791db8e082a": "Resources"}	t	2025-02-20 20:30:28	2025-02-20 20:30:28	6208c36f-d8c8-4d8c-934d-40eb650bdd76
 197	197	1	Related Resources	related-resources	\N	{"a593664b-656c-48b7-a1da-c61ae55e3ec6": [168]}	t	2025-02-20 20:41:54	2025-02-20 20:41:54	312e5337-e22a-433d-8adb-f7ce7bd3da0a
-196	196	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<h1>Lorem Ipsum</h1><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p>"}	t	2025-02-20 20:41:54	2025-02-20 20:41:54	b2d9694b-78a6-4db9-96a8-e9c0035e677b
 199	199	1	\N	__temp_jqgkwdqebztcivrnabfdgfkbtvbnssvgkrpt	\N	{"749a8663-8773-47df-8cdd-a50c128a6173": false, "c4f0aab9-b1bd-4b58-9804-8f8e838dc230": "{entry:181@1:url}"}	t	2025-02-20 20:41:55	2025-02-20 20:41:55	614fdf2a-512d-4770-8761-1dcf2ce45c51
 200	200	1	Kitchen Sink	kitchen-sink	resource-home/kitchen-sink	{"36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-02-20 20:41:55	2025-02-20 20:41:55	cd258816-5b05-4461-8054-bb8965b27259
 201	201	1	\N	__temp_wikferbykzlfhyvykbilorkvjkfnspvefpzk	\N	{"40571ea4-98a2-4ebb-aeb9-7f1afc99d17e": "Euismod ponderum intellegam ea ius, no cum movet detracto.", "4b849859-e619-4c53-a923-33a7745ac886": "Standard Hero", "64ac8c09-b226-4c83-9605-50ec906cb97e": [], "8f9e4214-c090-4867-91a9-9d08c9656f7c": "<p>At duo soluta populo, mea in vidisse similique adipiscing. Eu vel porro efficiendi, purto nibh saperet pri at. Vim stet duis dicam et.</p>", "c24927ca-b97d-4582-af30-a791db8e082a": "Lorem ipsum dolor sit amet"}	t	2025-02-20 20:41:55	2025-02-20 20:41:55	f0dcc2d4-4282-4f24-8ef4-8b64ced0b65f
@@ -4423,7 +4649,7 @@ COPY public.elements_sites (id, "elementId", "siteId", title, slug, uri, content
 257	257	1	\N	__temp_krixqgaepzdxexvbmmnpjwdifuojikzctmgw	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Rich Text One Column", "74f3a028-f488-444d-9f5e-c5cf5a97ce3b": "Eyebrow", "eac65eca-e16a-4cef-98df-9353df2bdbc4": "Section Subheading"}	t	2025-05-06 16:00:03	2025-05-06 16:00:03	476f52ec-72ed-43ed-8aea-898ce56c0666
 258	258	1	\N	__temp_remsxpcwggnpulsathelkbnmxpvcbeyeuwdf	\N	\N	t	2025-05-06 16:00:03	2025-05-06 16:00:03	7275306a-91d1-404a-9690-6dc9ab132913
 55	55	1	\N	__temp_wvtpdhhathzajrlimlvimnlfuipzzqyyinuf	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": [], "4b849859-e619-4c53-a923-33a7745ac886": "503", "c24927ca-b97d-4582-af30-a791db8e082a": "Something's gone wrong."}	t	2025-02-20 19:11:10	2025-05-15 19:19:35	24255389-6658-4f7e-8a3f-497836362891
-76	76	1	Kitchen Sink	kitchen-sink	resource-home/kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-02-20 19:26:53	2025-05-15 19:20:03	98e3060a-97b8-46ca-9cb6-c73c03d03e02
+76	76	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-02-20 19:26:53	2025-05-15 19:32:19	98e3060a-97b8-46ca-9cb6-c73c03d03e02
 259	259	1	\N	__temp_cbcccayiwczuqqhqwddpqkucudqvhsqwumey	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Image One Column"}	t	2025-05-06 16:00:03	2025-05-06 16:00:03	7b1ac357-af88-4018-bf64-c6448964f352
 260	260	1	\N	__temp_rmqystbwdmyzencrtxcqsdqtmjyskmztidak	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [244]}	t	2025-05-06 16:00:03	2025-05-06 16:00:03	4774ef98-adf6-4f97-9ca9-0314e58d423e
 261	261	1	\N	__temp_wiphjjyxkrnelxfwsytcdgqetufqcnkaidob	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column Rich Text and Image"}	t	2025-05-06 16:00:04	2025-05-06 16:00:04	4418b9dc-f5c2-4ba6-997d-53360fd97327
@@ -4490,6 +4716,86 @@ COPY public.elements_sites (id, "elementId", "siteId", title, slug, uri, content
 48	48	1	\N	__temp_lbcedfketwihayxsukajklfciqwhayplvoha	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": [], "8f9e4214-c090-4867-91a9-9d08c9656f7c": "<p>You've successfully got a new site up and running using Padstone, a starter package built by Imarc.</p>", "c24927ca-b97d-4582-af30-a791db8e082a": "Congratulations."}	t	2025-02-20 19:10:28	2025-05-15 19:19:35	ec6c6a7f-57d0-4adf-b9cd-af73efe2f7bd
 77	77	1	\N	__temp_wikferbykzlfhyvykbilorkvjkfnspvefpzk	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": [], "4b849859-e619-4c53-a923-33a7745ac886": "Standard Hero", "8f9e4214-c090-4867-91a9-9d08c9656f7c": "<p>At duo soluta populo, mea in vidisse similique adipiscing. Eu vel porro efficiendi, purto nibh saperet pri at. Vim stet duis dicam et.</p>", "c24927ca-b97d-4582-af30-a791db8e082a": "Lorem ipsum dolor sit amet"}	t	2025-02-20 19:26:57	2025-05-15 19:19:35	41df7c74-20c4-497a-bccf-c2bce9c78655
 149	149	1	\N	__temp_cqowcvrwknhyeuvwmwhrxdntrbazkjpddpyh	\N	{"1a2c220b-9fdf-4f85-b3dd-9d45274f0747": []}	t	2025-02-20 19:49:48	2025-05-15 19:19:36	c22e9f62-cb21-4487-9c65-5dd8825dd097
+401	401	1	\N	__temp_coxmsqxdvefhoquflttkkzhboqgltrqtjxdn	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [228]}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	d2247098-492c-4483-94e2-eb63526ceddd
+402	402	1	\N	__temp_gbgmitwrbaxhebxiuybwhddocpjjiynkxauq	\N	{"30b6394c-97dc-4b5a-807c-b612c4c38fd1": [249, 250, 251], "8fe215cb-38e5-419d-8038-a1ccebf68878": "Some Logos"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	c354e3bc-3286-4b9f-9336-509c8eb6b459
+403	403	1	\N	__temp_xxwlhokpkoaeefoangvzwpydcpokbahmedep	\N	{"e70a52cd-7803-4b4f-b4af-7f13df1bb13c": "Some Cards"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	f871e889-e80b-402c-b32f-0f5261f74ed1
+400	400	1	\N	__temp_philsnogelygfuupwlvkwnlslagnpsoiyynn	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Cras laoreet faucibus nibh, vel facilisis enim laoreet vel. Cras felis nunc, fringilla sit amet facilisis finibus, blandit ut quam. Nulla elit enim, porttitor vel porttitor sed, congue sit amet justo.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Julius Caesar", "b34609ff-0402-481e-ac56-4f45f1a1205d": "Would Be Emperor"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	ffba8d4a-7006-4af8-a0bd-377f6228c476
+404	404	1	\N	__temp_nljyornhrvakbwlhyfyonwywhnslfnzyysjt	\N	{"131fb942-4184-4c34-bb2d-722a8619f59a": "Card 1", "a57189cc-9676-417a-862c-b71b73d7eddf": "<p>Uglydolls are your friends</p>", "d94a187a-a522-4c4c-b477-7c9d0ef1ebf9": [253]}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	06da75b8-b37a-42c5-b32b-23ebc8f50b92
+405	405	1	\N	__temp_swbiiegvaqtpqsxemconhxoyjbezopbipnot	\N	{"131fb942-4184-4c34-bb2d-722a8619f59a": "Card with no image", "a57189cc-9676-417a-862c-b71b73d7eddf": "<p>This card doesn't have an image</p>"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	2b2e8b12-82d1-4f70-ac14-cb40959bd733
+406	406	1	\N	__temp_khzvfensnxjjnfnjhtlpuasjqsdoaphnqdvi	\N	{"131fb942-4184-4c34-bb2d-722a8619f59a": "Card 3", "a57189cc-9676-417a-862c-b71b73d7eddf": "<p>This card has no image but it does have a link</p>"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	e496b3da-2f2f-41fd-9745-f3116957f7f8
+407	407	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p>Lorem Ipsum</p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" width=\\"900\\" height=\\"600\\" alt=\\"\\" /></figure><p>Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><figure class=\\"media\\"><oembed url=\\"https://www.youtube.com/watch?v=vgs8DB17iPE\\"></oembed></figure>"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	64a3d233-74fb-4905-ad03-1e814d2d4ee5
+408	408	1	Related Resources	related-resources	\N	{"a593664b-656c-48b7-a1da-c61ae55e3ec6": [168]}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	ae817646-eef3-400b-9aec-209b74ad9f59
+409	409	1	\N	\N	\N	{"131fb942-4184-4c34-bb2d-722a8619f59a": "Headline override", "a57189cc-9676-417a-862c-b71b73d7eddf": "<p>Content override</p>"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	3e008422-3210-4c76-bb14-85d6542325d4
+410	410	1	\N	__temp_undityaamjswiqodglczabdajccpibgriexi	\N	{"4903969a-2b49-4984-979e-6f0ab4c238c2": "Single Column - Image"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	28d9b636-9af8-420c-8e1b-d60ba407c19e
+411	411	1	\N	__temp_aripljkqlgguuwkblcylzlqiusxzliyeotre	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [247]}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	3b1de18b-fbda-4982-bf39-02242c62cbd4
+412	412	1	\N	__temp_fuvcollyrtqkgvyhzsgkjmharnmucsozhxur	\N	{"4903969a-2b49-4984-979e-6f0ab4c238c2": "Single Column - Video"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	2b396ac6-993b-4af4-8fd6-aba08cdb9237
+418	418	1	\N	__temp_sbequxfdefjuckmusfdnhgxpzrghcsgrrfoq	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Joe Shmoe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "Marketing VP"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	4541efbf-66dd-4bde-bde6-b886c489a4f7
+419	419	1	\N	__temp_bsdtowvzlxkexvkqqfqxgtnrlazzvwhuffoa	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Jane Smith", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CFO"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	ba086c58-7425-4c1e-ba91-f94be9b6149c
+413	413	1	\N	__temp_gwmzptudmltcwjeqwphlsftdwvmrnglrwzhh	\N	{"0e66c4c1-1d62-4659-9ba7-294fbd16236c": {"type": "url", "value": "https://www.youtube.com/watch?v=vgs8DB17iPE"}}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	41886869-6f91-45b3-be2f-f71b95c528ca
+414	414	1	\N	__temp_cdtocympxjalbimvtgkxnfrfnbdqbdovrukz	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial - Single"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	939a2bb8-d222-4c7e-b09c-4d91d1731309
+415	415	1	\N	__temp_grwwagdxoinlyrwhikeygzliirszkbvstfeq	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "John Doe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CEO"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	453f893c-ab67-4373-b950-4cf291cf67ec
+416	416	1	\N	__temp_aqtnbcsqmnuhcpcafkpbuzcffenhriffjzqv	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial Slider"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	86d259c9-2aeb-4de3-bed7-476490af55f5
+417	417	1	\N	__temp_tvsmzmvnlvwlgurokojjyvjvgsomzbhxxlyl	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Jane Doe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CEO"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	3645fa72-3c8c-43f6-a8c2-865a026e1a5e
+329	329	1	Resources	resources	resources	{"76de9c3c-1373-407a-b1d2-d51f84590b46": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "{{ seomatic.meta.seoImage }}", "ogTitle": "{{ seomatic.meta.seoTitle }}", "language": null, "seoImage": "", "seoTitle": "", "inherited": {"robots": true, "ogImage": true, "ogTitle": true, "seoImage": true, "seoTitle": true, "canonicalUrl": true, "twitterImage": true, "twitterTitle": true, "ogDescription": true, "seoDescription": true, "siteNamePosition": true, "ogImageDescription": true, "twitterDescription": true, "seoImageDescription": true, "twitterImageDescription": true}, "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "{{ seomatic.meta.seoImageWidth }}", "twitterImage": "{{ seomatic.meta.seoImage }}", "twitterTitle": "{{ seomatic.meta.seoTitle }}", "ogDescription": "{{ seomatic.meta.seoDescription }}", "ogImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "before", "twitterImageWidth": "{{ seomatic.meta.seoImageWidth }}", "ogImageDescription": "{{ seomatic.meta.seoImageDescription }}", "ogSiteNamePosition": "", "twitterDescription": "{{ seomatic.meta.seoDescription }}", "twitterImageHeight": "{{ seomatic.meta.seoImageHeight }}", "seoImageDescription": "", "twitterImageDescription": "{{ seomatic.meta.seoImageDescription }}", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": {"sitemapUrls": true, "sitemapFiles": true, "sitemapLimit": true, "sitemapAssets": true, "sitemapAltLinks": true, "sitemapPriority": true, "sitemapChangeFreq": true}, "overrides": [], "newsSitemap": null, "sitemapUrls": false, "sitemapFiles": false, "sitemapLimit": "", "sitemapAssets": false, "structureDepth": null, "sitemapAltLinks": false, "sitemapPageSize": 500, "sitemapPriority": "1.0", "sitemapChangeFreq": "always", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:25:47+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": "", "seoImageIds": "", "siteSubType": "", "ogImageField": "", "ogTitleField": "title", "ogImageSource": "sameAsSeo", "ogTitleSource": "sameAsSeo", "seoImageField": "", "seoTitleField": "title", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": "", "ogImageTransform": "", "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": "1", "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "title", "ogDescriptionField": "title", "twitterImageSource": "sameAsSeo", "twitterTitleSource": "sameAsSeo", "ogDescriptionSource": "sameAsSeo", "seoDescriptionField": "title", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": "", "siteNamePositionSource": "fromCustom", "ogImageDescriptionField": "title", "twitterDescriptionField": "title", "ogImageDescriptionSource": "sameAsSeo", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "title", "twitterDescriptionSource": "sameAsSeo", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "title", "twitterImageDescriptionSource": "sameAsSeo", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}, "7b7054eb-daf1-4588-adc6-48c9d6fb7e07": {"value": "", "language": "html"}, "c24bec29-1fd4-4668-8c97-86a8fca94f57": true, "ece0be33-0e59-44cd-a40e-ef70c47da6d0": {"value": "", "language": "html"}}	t	2025-05-15 19:32:14	2025-05-15 19:32:14	3f75f8eb-d196-47db-8ab2-b2656c1139ff
+330	330	1	\N	__temp_wechhhlculgszzrhohdgzfjrkpforgpaikij	\N	{"c24927ca-b97d-4582-af30-a791db8e082a": "Resources"}	t	2025-05-15 19:32:14	2025-05-15 19:32:14	09cc766f-5c0b-442f-bcd2-891193a956af
+90	90	1	\N	__temp_oznvkldnljllujsxhykvppymeviajukpgktm	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Video"}	t	2025-02-20 19:38:12	2025-05-19 15:33:41	8cb6d956-3835-4153-aead-5dcd67c785a0
+371	371	1	\N	__temp_lsbrqqomgwhehpwlenqjguxwynhwxvtuubas	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	1e79b5e8-4533-482f-b6f7-6a2fa93ff315
+431	431	1	\N	__temp_hshdiybfqkdkmhyqettuziscabtxawrsybal	\N	{"12b95d16-8c6b-4d97-909d-74808a25636c": {"type": "entry", "value": "{entry:3@1:url}"}}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	3aa5d1bb-6a46-431d-8a01-7104f7dfac47
+92	92	1	\N	__temp_qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Image & Testimonial"}	t	2025-02-20 19:40:24	2025-05-19 15:33:41	f9998766-a7aa-4fee-9610-02f0c5b91068
+432	432	1	\N	__temp_dbizusfbzalxhkzqctfbowrzjilkyhbwpznm	\N	{"12b95d16-8c6b-4d97-909d-74808a25636c": {"type": "entry", "value": "{entry:144@1:url}"}}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	3154811f-f04b-4e46-92d7-100c4189dd1b
+433	433	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	6c4b64a3-95c6-44dd-a0d1-7ccd03bdc598
+372	372	1	\N	__temp_coxmsqxdvefhoquflttkkzhboqgltrqtjxdn	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [228]}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	d6b29411-5ec8-4f58-99ec-110ac185012e
+434	434	1	\N	__temp_aeascbnmfregdisrmtlsrwlqohnfvhtijdgg	\N	{"3ae000e9-a411-46fe-8ca0-7a80cba9eb7f": "<p>Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>", "618dd074-50f7-43f2-a5f2-5422fd74bcd9": "Eyebrow", "f7095f63-5852-478e-9f4b-f1bfeb3df616": "Callout Section"}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	fb000b28-218a-43ff-870d-750b4fd69fb8
+367	367	1	\N	__temp_cyxpqzopszwfdjvgsciumbsroxujvsmusrrq	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Pellentesque euismod iaculis nibh. Duis a ante quis dolor blandit pulvinar. Integer sollicitudin leo non vulputate elementum. Pellentesque eu diam euismod, vehicula justo at, egestas neque. Duis et fermentum mi, non sodales quam. Phasellus erat dolor, venenatis ac ultrices vel, elementum in nisi. Vivamus sit amet neque a tortor pellentesque tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a neque egestas, porta orci vitae, porttitor quam. Sed in risus sit amet dolor faucibus elementum ac at sapien. Proin fermentum, orci ut finibus faucibus, leo arcu sodales eros, a varius nisi ante ut mi. Pellentesque gravida luctus pretium. Sed tellus sem, interdum non vulputate at, tempus sed lorem. Vestibulum sagittis, nunc a dignissim sodales, neque risus lacinia erat, id rutrum ipsum felis ut felis. Etiam in venenatis nunc. Integer in justo sollicitudin, malesuada orci sit amet, tristique nisi.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	48c9e5a6-0b88-4b82-a84b-9df11df4af5d
+368	368	1	\N	__temp_uxzrtbqpkabxslucndppcfxmzctcebdguusw	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui.  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	cdbfa493-4954-4792-9fb6-15cb3c8cda7a
+83	83	1	\N	__temp_ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Call to Action"}	t	2025-02-20 19:35:53	2025-05-19 15:33:41	1f0b967c-0002-41c1-8fd1-131479499e6f
+84	84	1	\N	__temp_btdvrkdrjukpovczwdvqkioozuogxhpgmccd	\N	{"76f5a0da-a193-46ec-ace9-cce0fdc990f3": {"type": "entry", "value": "{entry:3@1:url}"}, "f204a9b4-3e4b-4e3e-8174-3cd2a188635c": "<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>"}	t	2025-02-20 19:36:23	2025-05-19 15:33:41	d22bd0a3-2a0a-4c4c-b5bc-caa9d339dad2
+369	369	1	\N	__temp_clgshuvahjolclgoexfhzgauypujjxelttzv	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	8a93d019-6df8-433f-844b-d90c1a9fc028
+370	370	1	\N	__temp_catafvqdellqmzpcpbsxiwqtliewabtfeffy	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.  Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	68c0f44e-490d-4067-84bc-a8bc995b058b
+435	435	1	\N	__temp_hshdiybfqkdkmhyqettuziscabtxawrsybal	\N	{"12b95d16-8c6b-4d97-909d-74808a25636c": {"type": "entry", "value": "{entry:3@1:url}"}}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	be7a0ad3-18b0-4594-a752-2ff3cca4497e
+436	436	1	\N	__temp_dbizusfbzalxhkzqctfbowrzjilkyhbwpznm	\N	{"12b95d16-8c6b-4d97-909d-74808a25636c": {"type": "entry", "value": "{entry:144@1:url}"}}	t	2025-05-19 17:35:52	2025-05-19 17:35:52	05b99916-cfa5-45e8-96f2-4199bf992d3d
+373	373	1	\N	__temp_undityaamjswiqodglczabdajccpibgriexi	\N	{"4903969a-2b49-4984-979e-6f0ab4c238c2": "Single Column - Image", "fd9eba28-273f-4a36-969c-fbbba1453e3e": "accent-primary"}	t	2025-05-19 15:33:41	2025-05-19 17:23:22	35f6020b-c752-4285-9b47-d0055613fa26
+196	196	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "456aad9a-5401-4892-8d76-d330913314cc": "accent-primary", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p><a href=\\"{entry:3@1:url||https://padstone.imarc.io/}\\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" alt=\\"\\" width=\\"900\\" height=\\"600\\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum.</li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Etiam porta sem malesuada magna mollis euismod.</li><li>Donec ullamcorper nulla non metus auctor fringilla.</li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>", "98f7fbae-d98c-431b-9f17-f6707eec24ea": {"type": "entry", "label": "Learn more", "value": "{entry:3@1:url}"}}	t	2025-02-20 20:41:54	2025-05-20 01:38:56	b2d9694b-78a6-4db9-96a8-e9c0035e677b
+380	380	1	\N	__temp_tvsmzmvnlvwlgurokojjyvjvgsomzbhxxlyl	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Jane Doe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CEO"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	e2b8f56a-ea4b-4b10-ae76-3ce5e1b113e4
+382	382	1	\N	__temp_bsdtowvzlxkexvkqqfqxgtnrlazzvwhuffoa	\N	{"586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Jane Smith", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CFO"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	9c83ae7e-4e5f-4d79-906b-00b3b23adc5a
+378	378	1	\N	__temp_grwwagdxoinlyrwhikeygzliirszkbvstfeq	\N	{"2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00": [220], "586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "John Doe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CEO"}	t	2025-05-19 15:33:41	2025-05-20 01:24:30	20f9b753-81e0-4305-91d9-01d59076e734
+374	374	1	\N	__temp_aripljkqlgguuwkblcylzlqiusxzliyeotre	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [247]}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	7b3a1f24-f173-4e58-a753-2f2000914b1b
+375	375	1	\N	__temp_fuvcollyrtqkgvyhzsgkjmharnmucsozhxur	\N	{"4903969a-2b49-4984-979e-6f0ab4c238c2": "Single Column - Video"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	fe1a10f6-e4b9-4981-a523-f5708e8fab3b
+376	376	1	\N	__temp_gwmzptudmltcwjeqwphlsftdwvmrnglrwzhh	\N	{"0e66c4c1-1d62-4659-9ba7-294fbd16236c": {"type": "url", "value": "https://www.youtube.com/watch?v=vgs8DB17iPE"}}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	6699e5df-b5bb-4f08-aac1-9bd95c6113a1
+377	377	1	\N	__temp_cdtocympxjalbimvtgkxnfrfnbdqbdovrukz	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial - Single"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	c66b5355-0355-4f5b-b276-9f9b29ddb21a
+379	379	1	\N	__temp_aqtnbcsqmnuhcpcafkpbuzcffenhriffjzqv	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial Slider"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	898fc906-4c88-41ae-8f14-324b6ef0de24
+381	381	1	\N	__temp_sbequxfdefjuckmusfdnhgxpzrghcsgrrfoq	\N	{"2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00": [233], "586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Joe Shmoe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "Marketing VP"}	t	2025-05-19 15:33:41	2025-05-20 01:37:33	b0c021fd-21cd-4d41-bc0d-cd05ab0b38de
+383	383	1	\N	__temp_aeascbnmfregdisrmtlsrwlqohnfvhtijdgg	\N	{"3ae000e9-a411-46fe-8ca0-7a80cba9eb7f": "<p>Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>", "618dd074-50f7-43f2-a5f2-5422fd74bcd9": "Eyebrow", "f7095f63-5852-478e-9f4b-f1bfeb3df616": "Callout Section"}	t	2025-05-19 15:33:41	2025-05-19 17:35:52	99833bef-367a-40c6-b568-28357fbadcc8
+384	384	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	956bc750-f608-4a49-a5c2-0ab4425fd2d6
+385	385	1	\N	__temp_wikferbykzlfhyvykbilorkvjkfnspvefpzk	\N	{"4b849859-e619-4c53-a923-33a7745ac886": "Standard Hero", "8f9e4214-c090-4867-91a9-9d08c9656f7c": "<p>At duo soluta populo, mea in vidisse similique adipiscing. Eu vel porro efficiendi, purto nibh saperet pri at. Vim stet duis dicam et.</p>", "c24927ca-b97d-4582-af30-a791db8e082a": "Lorem ipsum dolor sit amet"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	2c962db5-aeb3-4137-9395-8d7c39403544
+386	386	1	\N	__temp_pppmwnipgcxctepzpskdhhcphkswosnlyize	\N	{"99e90eb1-c242-4f2b-9841-60d7030aa800": [40]}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	d0b51986-bc0b-40ed-be57-ac51d241b033
+387	387	1	\N	__temp_krixqgaepzdxexvbmmnpjwdifuojikzctmgw	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text", "74f3a028-f488-444d-9f5e-c5cf5a97ce3b": "Eyebrow", "eac65eca-e16a-4cef-98df-9353df2bdbc4": "Section Subheading"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	7d2c7ab4-2b2d-4cbd-8ab4-94144d00425b
+388	388	1	\N	__temp_cyxpqzopszwfdjvgsciumbsroxujvsmusrrq	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Pellentesque euismod iaculis nibh. Duis a ante quis dolor blandit pulvinar. Integer sollicitudin leo non vulputate elementum. Pellentesque eu diam euismod, vehicula justo at, egestas neque. Duis et fermentum mi, non sodales quam. Phasellus erat dolor, venenatis ac ultrices vel, elementum in nisi. Vivamus sit amet neque a tortor pellentesque tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a neque egestas, porta orci vitae, porttitor quam. Sed in risus sit amet dolor faucibus elementum ac at sapien. Proin fermentum, orci ut finibus faucibus, leo arcu sodales eros, a varius nisi ante ut mi. Pellentesque gravida luctus pretium. Sed tellus sem, interdum non vulputate at, tempus sed lorem. Vestibulum sagittis, nunc a dignissim sodales, neque risus lacinia erat, id rutrum ipsum felis ut felis. Etiam in venenatis nunc. Integer in justo sollicitudin, malesuada orci sit amet, tristique nisi.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	4b3a53e7-a386-4ab7-829c-9413501598e1
+420	420	1	\N	__temp_aeascbnmfregdisrmtlsrwlqohnfvhtijdgg	\N	{"073ae350-7aaf-4fbf-bfac-1c60de59227c": {"type": "entry", "value": "{entry:3@1:url}"}, "3ae000e9-a411-46fe-8ca0-7a80cba9eb7f": "<p>Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>", "618dd074-50f7-43f2-a5f2-5422fd74bcd9": "Eyebrow", "f7095f63-5852-478e-9f4b-f1bfeb3df616": "Callout Section"}	t	2025-05-19 15:33:42	2025-05-19 15:33:42	8a37f026-d88a-4c39-bad0-16a2852390e9
+393	393	1	\N	__temp_cbcccayiwczuqqhqwddpqkucudqvhsqwumey	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Image"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	4aa274eb-90dd-4f84-9d0f-c42eab2dcaaa
+394	394	1	\N	__temp_catafvqdellqmzpcpbsxiwqtliewabtfeffy	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.  Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	75483d78-9be4-42a9-9b13-b1a8259da746
+389	389	1	\N	__temp_uxzrtbqpkabxslucndppcfxmzctcebdguusw	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui.  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	bdca3c6e-9d9c-4f17-867d-bb888cbef023
+390	390	1	\N	__temp_ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Call to Action"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	0c011875-3b58-441f-b9a9-1d8ae318cf93
+391	391	1	\N	__temp_btdvrkdrjukpovczwdvqkioozuogxhpgmccd	\N	{"76f5a0da-a193-46ec-ace9-cce0fdc990f3": {"type": "entry", "value": "{entry:3@1:url}"}, "f204a9b4-3e4b-4e3e-8174-3cd2a188635c": "<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	925511fc-ac69-4dff-8a89-025e7ef5332c
+392	392	1	\N	__temp_clgshuvahjolclgoexfhzgauypujjxelttzv	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	32839c19-7ac0-4631-b889-a5ccc8d10dbb
+395	395	1	\N	__temp_rmqystbwdmyzencrtxcqsdqtmjyskmztidak	\N	{"4d08175f-0237-45a4-b7a7-8441a7b3a2be": [244]}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	f02da8ad-b787-4c58-973c-5492303d3d45
+396	396	1	\N	__temp_oznvkldnljllujsxhykvppymeviajukpgktm	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Rich Text & Video"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	45a7c9ab-be3a-44ed-92c3-af9f5cd4356c
+397	397	1	\N	__temp_gcdjbowvigefdkypsnkazrfemleslxvdizng	\N	{"0e66c4c1-1d62-4659-9ba7-294fbd16236c": {"type": "url", "value": "https://www.youtube.com/watch?v=vgs8DB17iPE"}}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	1484e8a0-0ded-4bf7-8ac7-2fd6c104b728
+398	398	1	\N	__temp_lsbrqqomgwhehpwlenqjguxwynhwxvtuubas	\N	{"5a0b3f4d-cec5-4550-8b64-a91492cec592": "<p>Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	8639bb4c-5341-4106-9600-1172b1d0c403
+399	399	1	\N	__temp_qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk	\N	{"6f430633-62a8-44bb-93cb-4da3c4036f48": "Two Column - Image & Testimonial"}	t	2025-05-19 15:33:41	2025-05-19 15:33:41	b0c820ef-d802-40a5-ae23-a31f7e4dd4b7
+424	424	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-19 17:23:22	2025-05-19 17:23:22	0ab3165a-2a35-478c-bf9a-e81aa7dac53d
+425	425	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p><a href=\\"{entry:3@1:url||https://padstone.imarc.io/}\\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" alt=\\"\\" width=\\"900\\" height=\\"600\\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><figure class=\\"media\\"><oembed url=\\"https://www.youtube.com/watch?v=vgs8DB17iPE\\"></oembed></figure><p> </p><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum. </li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </li><li>Etiam porta sem malesuada magna mollis euismod. </li><li>Donec ullamcorper nulla non metus auctor fringilla. </li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>"}	t	2025-05-19 17:23:22	2025-05-19 17:23:22	a751f2e0-330b-442c-88ff-be2ce016696d
+426	426	1	\N	__temp_undityaamjswiqodglczabdajccpibgriexi	\N	{"4903969a-2b49-4984-979e-6f0ab4c238c2": "Single Column - Image", "fd9eba28-273f-4a36-969c-fbbba1453e3e": "accent-primary"}	t	2025-05-19 17:23:22	2025-05-19 17:23:22	5da5b6b6-d721-41ef-a65d-a7539975a75f
+441	441	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-20 01:24:30	2025-05-20 01:24:30	b7336d2c-8db2-45ab-bb80-b511f5e8da67
+442	442	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p><a href=\\"{entry:3@1:url||https://padstone.imarc.io/}\\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" alt=\\"\\" width=\\"900\\" height=\\"600\\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum.</li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Etiam porta sem malesuada magna mollis euismod.</li><li>Donec ullamcorper nulla non metus auctor fringilla.</li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>"}	t	2025-05-20 01:24:30	2025-05-20 01:24:30	dfbdf791-4028-4f4e-88aa-5c1d3848b0f0
+443	443	1	\N	__temp_cdtocympxjalbimvtgkxnfrfnbdqbdovrukz	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial - Single"}	t	2025-05-20 01:24:30	2025-05-20 01:24:30	3f6122eb-2160-4545-b3e0-c7b2c441734e
+444	444	1	\N	__temp_grwwagdxoinlyrwhikeygzliirszkbvstfeq	\N	{"2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00": [220], "586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "John Doe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "CEO"}	t	2025-05-20 01:24:31	2025-05-20 01:24:31	09da3dc3-f90b-4353-8376-167b04e96937
+449	449	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-20 01:37:33	2025-05-20 01:37:33	521ceefd-c23c-47b6-98fe-418f6cad4e2c
+450	450	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p><a href=\\"{entry:3@1:url||https://padstone.imarc.io/}\\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" alt=\\"\\" width=\\"900\\" height=\\"600\\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum.</li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Etiam porta sem malesuada magna mollis euismod.</li><li>Donec ullamcorper nulla non metus auctor fringilla.</li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>", "98f7fbae-d98c-431b-9f17-f6707eec24ea": {"type": "entry", "label": "Learn more", "value": "{entry:3@1:url}"}}	t	2025-05-20 01:37:33	2025-05-20 01:37:33	47d7078b-7e0d-4278-aeaa-4010b33bff98
+451	451	1	\N	__temp_aqtnbcsqmnuhcpcafkpbuzcffenhriffjzqv	\N	{"1699a34c-9986-441c-a06f-a25c96247db3": "Testimonial Slider"}	t	2025-05-20 01:37:33	2025-05-20 01:37:33	07d94128-3c09-4a81-ad9b-e8f3a6d09c01
+452	452	1	\N	__temp_sbequxfdefjuckmusfdnhgxpzrghcsgrrfoq	\N	{"2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00": [233], "586bf2ea-92b7-434b-ba21-8eaea6ce43bc": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>", "71a62207-d38c-4ec7-9c75-7ccdab3fd216": "Joe Shmoe", "b34609ff-0402-481e-ac56-4f45f1a1205d": "Marketing VP"}	t	2025-05-20 01:37:33	2025-05-20 01:37:33	812fd224-1d91-46bb-a344-88a60346f47f
+453	453	1	Kitchen Sink	kitchen-sink	kitchen-sink	{"184732fa-28c4-4ccf-8f83-f6ffe459a8f9": true, "36659011-5201-424f-9acc-ea27307608a6": {"value": "", "language": "html"}, "f13e53ee-02dd-4383-9d97-24d326d31d4a": {"typeId": null, "sourceId": null, "sourceName": null, "sourceType": "field", "metaSiteVars": {"creator": null, "identity": null, "referrer": "no-referrer-when-downgrade", "siteName": "Padstone Craft 5", "sameAsLinks": [], "facebookAppId": "", "twitterHandle": "", "facebookProfileId": "", "siteAlternateName": "", "additionalSitemaps": [], "siteLinksQueryInput": "", "bingSiteVerification": "", "additionalSitemapUrls": [], "siteLinksSearchTarget": "", "googleSiteVerification": "", "facebookSiteVerification": "", "pinterestSiteVerification": "", "additionalSitemapUrlsDateUpdated": null}, "sourceHandle": null, "sourceSiteId": null, "bundleVersion": "1.0.23", "metaContainers": {"MetaTagContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "general", "include": true, "clearCache": false, "description": "General Meta Tags", "dependencies": []}, "MetaTagContainertwitter": {"data": [], "name": "Twitter", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "twitter", "include": true, "clearCache": false, "description": "Twitter Card Meta Tags", "dependencies": []}, "MetaLinkContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer", "handle": "general", "include": true, "clearCache": false, "description": "Link Tags", "dependencies": []}, "MetaTagContaineropengraph": {"data": [], "name": "Facebook", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "opengraph", "include": true, "clearCache": false, "description": "Facebook OpenGraph Meta Tags", "dependencies": []}, "MetaTitleContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer", "handle": "general", "include": true, "clearCache": false, "description": "Meta Title Tag", "dependencies": []}, "MetaJsonLdContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer", "handle": "general", "include": true, "clearCache": false, "description": "JsonLd Tags", "dependencies": []}, "MetaScriptContainergeneral": {"data": [], "name": "General", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer", "handle": "general", "include": true, "position": 1, "clearCache": false, "description": "Script Tags", "dependencies": []}, "MetaTagContainermiscellaneous": {"data": [], "name": "Miscellaneous", "class": "nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer", "handle": "miscellaneous", "include": true, "clearCache": false, "description": "Miscellaneous Meta Tags", "dependencies": []}}, "metaGlobalVars": {"ogType": "", "robots": "", "ogImage": "", "ogTitle": "", "language": null, "seoImage": "", "seoTitle": "", "inherited": [], "overrides": [], "seoKeywords": "", "twitterCard": "", "canonicalUrl": "", "ogImageWidth": "", "twitterImage": "", "twitterTitle": "", "ogDescription": "", "ogImageHeight": "", "seoImageWidth": "", "seoDescription": "", "seoImageHeight": "", "twitterCreator": "", "mainEntityOfPage": "", "siteNamePosition": "", "twitterImageWidth": "", "ogImageDescription": "", "ogSiteNamePosition": "", "twitterDescription": "", "twitterImageHeight": "", "seoImageDescription": "", "twitterImageDescription": "", "twitterSiteNamePosition": ""}, "sourceTemplate": "", "metaSitemapVars": {"inherited": [], "overrides": [], "newsSitemap": null, "sitemapUrls": null, "sitemapFiles": null, "sitemapLimit": null, "sitemapAssets": null, "structureDepth": null, "sitemapAltLinks": null, "sitemapPageSize": 500, "sitemapPriority": "", "sitemapChangeFreq": "", "newsPublicationName": "", "sitemapImageFieldMap": [], "sitemapVideoFieldMap": [], "sitemapAssetTransform": null}, "sourceBundleType": "field", "sourceDateUpdated": "2025-02-20T19:26:53+00:00", "metaBundleSettings": {"siteType": "", "ogImageIds": [], "seoImageIds": [], "siteSubType": "", "ogImageField": "", "ogTitleField": "", "ogImageSource": "", "ogTitleSource": "", "seoImageField": "", "seoTitleField": "", "seoImageSource": "fromAsset", "seoTitleSource": "fromCustom", "twitterImageIds": [], "ogImageTransform": false, "seoKeywordsField": "", "siteSpecificType": "", "seoImageTransform": true, "seoKeywordsSource": "fromCustom", "twitterImageField": "", "twitterTitleField": "", "ogDescriptionField": "", "twitterImageSource": "", "twitterTitleSource": "", "ogDescriptionSource": "", "seoDescriptionField": "", "twitterCreatorField": "", "ogImageTransformMode": "crop", "seoDescriptionSource": "fromCustom", "twitterCreatorSource": "", "seoImageTransformMode": "crop", "twitterImageTransform": false, "siteNamePositionSource": "", "ogImageDescriptionField": "", "twitterDescriptionField": "", "ogImageDescriptionSource": "", "ogSiteNamePositionSource": "", "seoImageDescriptionField": "", "twitterDescriptionSource": "", "seoImageDescriptionSource": "fromCustom", "twitterImageTransformMode": "crop", "twitterImageDescriptionField": "", "twitterImageDescriptionSource": "", "twitterSiteNamePositionSource": ""}, "redirectsContainer": [], "sourceAltSiteSettings": [], "frontendTemplatesContainer": {"data": [], "name": null, "class": "nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer", "handle": null, "include": true, "clearCache": false, "description": null, "dependencies": null}}}	t	2025-05-20 01:38:56	2025-05-20 01:38:56	7bd31779-647a-4349-9e6f-24c6cc2b3e7e
+454	454	1	\N	__temp_ssfusisbrwfzzdevczzazemjbcopowdqqvhu	\N	{"3bdf6645-aaa4-4ae3-b9a9-f33753d80099": "Single Column Rich Text", "456aad9a-5401-4892-8d76-d330913314cc": "accent-primary", "499d05b1-7311-4f55-8cc3-aaf42eeaa022": "<p><a href=\\"{entry:3@1:url||https://padstone.imarc.io/}\\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\\"image\\"><img style=\\"aspect-ratio:900/600;\\" src=\\"{asset:320:url||/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\\" alt=\\"\\" width=\\"900\\" height=\\"600\\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum.</li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Etiam porta sem malesuada magna mollis euismod.</li><li>Donec ullamcorper nulla non metus auctor fringilla.</li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>", "98f7fbae-d98c-431b-9f17-f6707eec24ea": {"type": "entry", "label": "Learn more", "value": "{entry:3@1:url}"}}	t	2025-05-20 01:38:57	2025-05-20 01:38:57	12a5060f-fb3b-4f6c-bb1e-588d53895df9
 \.
 
 
@@ -4573,12 +4879,9 @@ COPY public.entries (id, "sectionId", "parentId", "primaryOwnerId", "fieldId", "
 77	\N	\N	76	40	16	2025-02-20 19:26:00	\N	\N	2025-02-20 19:26:57	2025-02-20 19:26:58	\N	live
 79	\N	\N	76	28	8	2025-02-20 19:28:00	\N	\N	2025-02-20 19:28:16	2025-02-20 19:28:17	\N	live
 80	\N	\N	76	28	13	2025-02-20 19:34:00	\N	\N	2025-02-20 19:34:56	2025-02-20 19:34:58	\N	live
-81	\N	\N	80	31	6	2025-02-20 19:35:00	\N	\N	2025-02-20 19:35:15	2025-02-20 19:35:17	\N	live
 82	\N	\N	76	28	2	2025-02-20 19:35:00	\N	f	2025-02-20 19:35:38	2025-02-20 19:35:40	\N	live
 83	\N	\N	76	28	13	2025-02-20 19:35:00	\N	\N	2025-02-20 19:35:53	2025-02-20 19:35:56	\N	live
-125	\N	\N	76	28	13	2025-02-20 19:44:00	\N	\N	2025-02-20 19:48:24	2025-02-20 19:48:24	\N	live
-126	\N	\N	125	31	6	2025-02-20 19:44:00	\N	\N	2025-02-20 19:48:24	2025-02-20 19:48:24	\N	live
-127	\N	\N	125	31	4	2025-02-20 19:44:00	\N	\N	2025-02-20 19:48:24	2025-02-20 19:48:24	\N	live
+453	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-20 01:38:56	2025-05-20 01:38:56	\N	live
 128	\N	\N	76	28	2	2025-02-20 19:45:00	\N	\N	2025-02-20 19:48:24	2025-02-20 19:48:24	\N	live
 129	\N	\N	76	28	19	2025-02-20 19:46:00	\N	\N	2025-02-20 19:48:25	2025-02-20 19:48:25	\N	live
 130	\N	\N	129	25	9	2025-02-20 19:47:00	\N	\N	2025-02-20 19:48:25	2025-02-20 19:48:25	\N	live
@@ -4595,6 +4898,7 @@ COPY public.entries (id, "sectionId", "parentId", "primaryOwnerId", "fieldId", "
 142	\N	\N	139	25	9	2025-02-20 19:48:00	\N	\N	2025-02-20 19:48:27	2025-02-20 19:48:27	\N	live
 143	\N	\N	142	19	18	2025-02-20 19:47:00	\N	\N	2025-02-20 19:48:27	2025-02-20 19:48:27	\N	live
 216	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-02-21 20:17:54	2025-02-21 20:17:54	\N	live
+454	\N	\N	453	28	6	2025-02-20 20:40:00	\N	\N	2025-05-20 01:38:57	2025-05-20 01:38:57	\N	live
 145	\N	\N	144	40	16	2025-02-20 19:49:00	\N	\N	2025-02-20 19:49:14	2025-02-20 19:49:16	\N	live
 144	11	\N	\N	\N	21	2025-02-20 19:49:00	\N	\N	2025-02-20 19:49:10	2025-02-20 19:49:32	\N	live
 146	11	\N	\N	\N	21	2025-02-20 19:49:00	\N	\N	2025-02-20 19:49:32	2025-02-20 19:49:32	\N	live
@@ -4666,7 +4970,6 @@ COPY public.entries (id, "sectionId", "parentId", "primaryOwnerId", "fieldId", "
 239	\N	\N	238	28	13	2025-02-20 19:04:00	\N	\N	2025-05-06 15:55:07	2025-05-06 15:55:07	\N	live
 240	\N	\N	239	31	14	2025-02-20 19:04:00	\N	\N	2025-05-06 15:55:07	2025-05-06 15:55:07	\N	live
 241	\N	\N	240	19	18	2025-02-20 19:04:00	\N	\N	2025-05-06 15:55:07	2025-05-06 15:55:07	\N	live
-255	\N	\N	80	31	14	2025-04-04 17:22:00	\N	\N	2025-05-06 16:00:02	2025-05-06 16:00:02	\N	live
 256	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-06 16:00:03	2025-05-06 16:00:03	\N	live
 257	\N	\N	256	28	13	2025-02-20 19:34:00	\N	\N	2025-05-06 16:00:03	2025-05-06 16:00:03	\N	live
 258	\N	\N	257	31	14	2025-04-04 17:22:00	\N	\N	2025-05-06 16:00:03	2025-05-06 16:00:03	\N	live
@@ -4735,6 +5038,84 @@ COPY public.entries (id, "sectionId", "parentId", "primaryOwnerId", "fieldId", "
 133	\N	\N	132	19	18	2025-02-20 19:47:00	\N	t	2025-02-20 19:48:25	2025-02-20 19:48:25	\N	live
 199	\N	\N	198	19	18	2025-02-20 20:41:00	\N	t	2025-02-20 20:41:55	2025-02-20 20:41:55	\N	live
 323	\N	\N	319	19	18	2025-05-06 17:23:00	\N	t	2025-05-06 17:23:39	2025-05-06 17:23:39	\N	live
+329	11	\N	\N	\N	22	2025-02-20 19:25:00	\N	\N	2025-05-15 19:32:14	2025-05-15 19:32:14	\N	live
+330	\N	\N	329	40	16	2025-02-20 19:25:00	\N	\N	2025-05-15 19:32:14	2025-05-15 19:32:14	\N	live
+367	\N	\N	80	31	38	2025-05-19 14:02:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+368	\N	\N	80	31	38	2025-05-19 15:23:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+81	\N	\N	80	31	6	2025-02-20 19:35:00	\N	f	2025-02-20 19:35:15	2025-02-20 19:35:17	f	live
+255	\N	\N	80	31	14	2025-04-04 17:22:00	\N	f	2025-05-06 16:00:02	2025-05-06 16:00:02	f	live
+369	\N	\N	83	31	38	2025-05-19 15:24:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+370	\N	\N	86	31	38	2025-05-19 15:25:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+371	\N	\N	90	31	38	2025-05-19 15:25:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+372	\N	\N	92	31	4	2025-05-19 15:26:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+373	\N	\N	76	28	39	2025-05-19 15:16:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+374	\N	\N	373	60	4	2025-05-19 15:16:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+375	\N	\N	76	28	39	2025-05-19 15:27:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+376	\N	\N	375	60	20	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+377	\N	\N	76	28	40	2025-05-19 15:17:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+378	\N	\N	377	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+379	\N	\N	76	28	40	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+380	\N	\N	379	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+381	\N	\N	379	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+382	\N	\N	379	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+383	\N	\N	76	28	41	2025-05-19 15:33:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+126	\N	\N	125	31	6	2025-02-20 19:44:00	\N	f	2025-02-20 19:48:24	2025-02-20 19:48:24	f	live
+127	\N	\N	125	31	4	2025-02-20 19:44:00	\N	f	2025-02-20 19:48:24	2025-02-20 19:48:24	f	live
+125	\N	\N	76	28	13	2025-02-20 19:44:00	\N	f	2025-02-20 19:48:24	2025-02-20 19:48:24	f	live
+384	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+385	\N	\N	384	40	16	2025-02-20 19:26:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+386	\N	\N	384	28	8	2025-02-20 19:28:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+387	\N	\N	384	28	13	2025-02-20 19:34:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+388	\N	\N	387	31	38	2025-05-19 14:02:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+389	\N	\N	387	31	38	2025-05-19 15:23:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+390	\N	\N	384	28	13	2025-02-20 19:35:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+391	\N	\N	390	31	14	2025-02-20 19:36:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+392	\N	\N	390	31	38	2025-05-19 15:24:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+393	\N	\N	384	28	13	2025-02-20 19:37:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+394	\N	\N	393	31	38	2025-05-19 15:25:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+395	\N	\N	393	31	4	2025-02-20 19:37:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+396	\N	\N	384	28	13	2025-02-20 19:38:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+397	\N	\N	396	31	20	2025-02-20 19:38:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+398	\N	\N	396	31	38	2025-05-19 15:25:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+399	\N	\N	384	28	13	2025-02-20 19:40:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+400	\N	\N	399	31	31	2025-02-20 19:40:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+401	\N	\N	399	31	4	2025-05-19 15:26:00	\N	\N	2025-05-19 15:33:41	2025-05-19 15:33:41	\N	live
+402	\N	\N	384	28	2	2025-02-20 19:45:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+403	\N	\N	384	28	19	2025-02-20 19:46:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+404	\N	\N	403	25	9	2025-02-20 19:47:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+405	\N	\N	403	25	9	2025-02-20 19:47:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+406	\N	\N	403	25	9	2025-02-20 19:48:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+407	\N	\N	384	28	6	2025-02-20 20:40:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+408	\N	\N	384	28	34	2025-02-20 20:40:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+409	\N	\N	408	25	9	2025-02-20 20:41:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+410	\N	\N	384	28	39	2025-05-19 15:16:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+411	\N	\N	410	60	4	2025-05-19 15:16:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+412	\N	\N	384	28	39	2025-05-19 15:27:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+413	\N	\N	412	60	20	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+414	\N	\N	384	28	40	2025-05-19 15:17:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+415	\N	\N	414	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+416	\N	\N	384	28	40	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+417	\N	\N	416	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+418	\N	\N	416	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+419	\N	\N	416	61	31	2025-05-19 15:28:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+420	\N	\N	384	28	41	2025-05-19 15:33:00	\N	\N	2025-05-19 15:33:42	2025-05-19 15:33:42	\N	live
+449	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	live
+450	\N	\N	449	28	6	2025-02-20 20:40:00	\N	\N	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	live
+451	\N	\N	449	28	40	2025-05-19 15:28:00	\N	\N	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	live
+452	\N	\N	451	61	31	2025-05-19 15:28:00	\N	\N	2025-05-20 01:37:33	2025-05-20 01:37:33	\N	live
+424	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	live
+425	\N	\N	424	28	6	2025-02-20 20:40:00	\N	\N	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	live
+426	\N	\N	424	28	39	2025-05-19 15:16:00	\N	\N	2025-05-19 17:23:22	2025-05-19 17:23:22	\N	live
+433	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+434	\N	\N	433	28	41	2025-05-19 15:33:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+435	\N	\N	434	62	42	2025-05-19 17:35:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+431	\N	\N	383	62	42	2025-05-19 17:35:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+432	\N	\N	383	62	42	2025-05-19 17:35:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+436	\N	\N	434	62	42	2025-05-19 17:35:00	\N	\N	2025-05-19 17:35:52	2025-05-19 17:35:52	\N	live
+441	11	\N	\N	\N	25	2025-02-20 19:42:00	\N	\N	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	live
+442	\N	\N	441	28	6	2025-02-20 20:40:00	\N	\N	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	live
+443	\N	\N	441	28	40	2025-05-19 15:17:00	\N	\N	2025-05-20 01:24:30	2025-05-20 01:24:30	\N	live
+444	\N	\N	443	61	31	2025-05-19 15:28:00	\N	\N	2025-05-20 01:24:31	2025-05-20 01:24:31	\N	live
 \.
 
 
@@ -4823,10 +5204,17 @@ COPY public.entries_authors ("entryId", "authorId", "sortOrder") FROM stdin;
 181	13	1
 144	13	1
 152	13	1
-76	13	1
 156	13	1
 148	13	1
 72	13	1
+329	13	1
+424	13	1
+433	13	1
+441	13	1
+449	13	1
+76	13	1
+453	13	1
+384	13	1
 \.
 
 
@@ -4837,11 +5225,8 @@ COPY public.entries_authors ("entryId", "authorId", "sortOrder") FROM stdin;
 COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitleField", "titleTranslationMethod", "titleTranslationKeyFormat", "titleFormat", "showSlugField", "slugTranslationMethod", "slugTranslationKeyFormat", "showStatusField", "dateCreated", "dateUpdated", "dateDeleted", uid) FROM stdin;
 1	7	News Article	newsArticle		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	ae7af0c4-5df7-45d3-aa71-3888882dd594
 3	9	Blog Article	blog		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	976d4ccf-4988-4c36-968c-53f396dce7f2
-4	10	Image	image		\N	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	1a4b6ea7-240d-4c7c-86ab-ce16b55afc24
 7	13	Navigation Group	navigationGroup		\N	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	fa15f698-a1ed-4140-9c8d-02eac44b66b4
-8	14	Shared Section	sharedSection		sky	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	307187bf-968f-42da-b579-dbc76b7a9fa6
 10	16	Alert	alert		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	07ed78bd-f9e2-4563-a544-52dfa027178e
-20	26	Video	video		\N	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	6a91581a-a1ff-430b-bbeb-32b131747531
 23	29	Homepage	homepage		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	c46e2b3b-387a-4540-9120-ab0a15b0bbae
 24	30	Shared Sections	sharedSections		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	eed094b2-cdd9-4163-8ca6-fca978f404ad
 26	32	Author	author		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	c42320a8-209b-458c-a104-5cb1015f0efc
@@ -4849,10 +5234,8 @@ COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitl
 28	34	Resource with Detail Page	resourcePage		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	656e0885-03be-47ab-8531-be346ddbfc62
 29	35	Press Mention	press		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	8a9cd262-8604-45fd-a48d-b11f4d398ba7
 30	36	Navigation Link	navigationLink		red	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	8b3d1977-ab5a-4ca6-94cb-685acdef3921
-31	37	Testimonial	testimonial		\N	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	4536b6f0-b762-4abc-b6d1-a918619f8b4d
 33	39	Team Member	teamMember		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	c2f04b66-544d-449f-a4de-c5605f121afd
 34	42	Related Resources	relatedResourcesSection		pink	t	site	\N		t	site	\N	t	2025-02-20 20:37:39	2025-02-21 19:46:36	\N	798877d5-1c6b-43b0-94a9-203780a1b39f
-6	12	Rich Text	richText		purple	f	site	\N		f	site	\N	f	2025-02-11 20:13:40	2025-02-21 19:56:45	\N	0df95f6f-3e7a-4765-84de-aa8585234118
 35	43	Nav Item	navItem	\N	\N	f	site	\N	\N	t	site	\N	t	2025-05-06 16:58:31	2025-05-06 16:58:31	2025-05-06 17:02:09	4029a1d1-0aac-40d4-a3b9-1977046af097
 17	23	Navigation Item	navItem	\N	blue	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-06 17:03:33	\N	c7e04c91-15c1-4081-8d31-44ae7bf6eae9
 36	44	CTA Card	ctaCardBlock	\N	\N	t	site	\N	\N	t	site	\N	t	2025-05-06 17:17:36	2025-05-06 17:17:36	\N	21a3840e-e64f-472b-93e4-69935cee15e0
@@ -4861,7 +5244,6 @@ COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitl
 9	15	Image Card	imageCard	\N	\N	f	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	37bd2e2c-ad20-4890-921c-d205d7db4424
 14	20	Call To Action	callToAction	\N	\N	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	77f762ab-419d-47e9-8b43-63754dafa72f
 32	38	Direct Link	resourceLink	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	75857680-696a-4d59-a666-5a8b8091a36c
-13	19	Basic Section	basicSection	\N	red	f	site	\N	\N	f	site	\N	t	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a
 5	11	Card	card	\N	\N	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	b96a3c34-e3b4-46ee-9bfe-c53406033bf0
 16	22	Standard Hero	standardHero	\N	\N	f	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	d4966cae-3474-4ee8-92bd-7d511f1758d4
 19	25	Card Section	cardSection	\N	green	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	dc246a2f-01d9-4061-b2a1-bc1e6b6edf94
@@ -4872,6 +5254,17 @@ COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitl
 25	31	Basic Page	basicPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	c59ecd1c-c856-4983-96da-bbbac954eab0
 15	21	News Page	newsPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	ca4795d4-4ac1-46d8-8a30-dea2b3369723
 22	28	Resources Page	resourcesPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	e737c446-0085-4bd6-b343-2d4c9e9f312e
+4	10	Image	image	\N	lime	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:24:26	\N	1a4b6ea7-240d-4c7c-86ab-ce16b55afc24
+20	26	Video	video	\N	amber	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:24:38	\N	6a91581a-a1ff-430b-bbeb-32b131747531
+31	37	Testimonial	testimonial	\N	teal	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:31:18	\N	4536b6f0-b762-4abc-b6d1-a918619f8b4d
+13	19	Two Column Section	twoColumnSection	\N	sky	f	site	\N	\N	f	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:56:01	\N	b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a
+8	14	Shared Section	sharedSection	\N	cyan	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-15 19:56:25	\N	307187bf-968f-42da-b579-dbc76b7a9fa6
+38	47	Rich Text	richTextNoMedia	\N	purple	f	site	\N	\N	f	site	\N	f	2025-05-16 14:25:51	2025-05-16 14:25:51	\N	e9b06cc2-e638-47af-98b9-de75baf00165
+6	12	Rich Text	richText	\N	purple	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:22:46	\N	0df95f6f-3e7a-4765-84de-aa8585234118
+39	48	Media Section	mediaSection	\N	indigo	f	site	\N	\N	f	site	\N	t	2025-05-19 14:56:23	2025-05-19 15:21:01	\N	22dea229-207d-41ba-8a31-13eea8c38a5c
+40	49	Testimonial Slider	testimonialSliderSection	\N	blue	f	site	\N	\N	t	site	\N	t	2025-05-19 15:09:44	2025-05-19 15:42:55	\N	a63c9e01-02f0-422a-b717-1a8c254b0231
+41	50	Callout Section	calloutSection	\N	rose	f	site	\N	\N	f	site	\N	t	2025-05-19 15:20:02	2025-05-19 15:43:08	\N	24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3
+42	51	CTA Link	ctaLink	\N	\N	f	site	\N	\N	f	site	\N	t	2025-05-19 17:34:32	2025-05-19 17:34:32	\N	45adbb6c-4095-4a69-b61a-fc7bcc0a73cc
 \.
 
 
@@ -4904,44 +5297,49 @@ COPY public.fieldlayouts (id, type, config, "dateCreated", "dateUpdated", "dateD
 6	craft\\elements\\Asset	{"tabs": [{"uid": "e2ca820f-393f-47f6-bd0c-6e2f4402fa0b", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "9f67fb6a-048b-4d41-a001-9f8f237cfa10", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\assets\\\\AssetTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T18:16:06+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	4586306d-79d1-4846-9307-b289cf6ec402
 7	craft\\elements\\Entry	{"tabs": [{"uid": "aacb3770-d0cf-46aa-9a94-060d8317becb", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "57d4713c-66d6-4c9c-af83-d40cdf6ccdfb", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-18T16:43:12+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "ef00a8f6-5d22-4353-b6ea-d5df8f4d667a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "880ea67a-2b41-468b-b4af-0e2799aee9b3", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "fb739ee8-cb36-4f76-996a-c5de5e2889a2", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "5fcaabba-da72-41b2-82f1-65ab26b56638", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "8094a802-d552-450d-a5dc-7541ae3fcbb0", "name": "SEO", "elements": [{"tip": null, "uid": "d335cc1d-87af-40d0-a6f7-7952be9316ab", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "16572d10-f1a9-42a4-9508-2c546fa8f923", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "104e0782-6b26-4346-afcf-593f1752f5c2", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T16:45:57+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	c2823c43-96cc-44b6-a469-77ffd312ec47
 9	craft\\elements\\Entry	{"tabs": [{"uid": "61e81b1c-2e53-4464-97a9-79065a3c90c4", "name": "Blog Data", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "06018f4d-13b3-4f2e-8ab4-574904da8173", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-28T15:06:02+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "422ec84b-0cf8-4ba1-9f3f-d157ec3ef4f9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bd4fb97b-3b89-49bc-9fdb-c20917cb6776", "required": false, "dateAdded": "2024-08-28T15:11:10+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "0de9d9a8-c3c2-4062-9dd2-21c7c913162f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-08-28T15:11:10+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ece1acaa-8d7b-4b70-b18d-d684b55051ec", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "880ea67a-2b41-468b-b4af-0e2799aee9b3", "required": true, "dateAdded": "2024-08-28T15:11:10+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "0a87afe1-68c6-41d2-9cf2-003a70b1c1b8", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "95bdff49-0896-47d2-86bc-9fd95e4ab8c5", "required": false, "dateAdded": "2024-08-28T15:16:40+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6b0bf464-89e6-46a0-ab3d-dd6ed76bf66a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "adcddd0f-78ee-4ed7-bd80-ee4a2ebf8094", "required": false, "dateAdded": "2024-08-28T16:47:29+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "da274932-a5e3-425c-8651-3bbd59e948ff", "name": "Content", "elements": [{"tip": null, "uid": "fca011df-c729-4107-b485-c8cecc25ea1e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-08-28T16:47:29+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "6da3dca0-b531-4600-9292-aa445ae6e9eb", "name": "SEO", "elements": [{"tip": null, "uid": "2fa479ee-5a72-4da5-9a5d-2e8376241b65", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-08-28T16:47:29+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "da36795b-597b-4fc8-9da1-409a3d008a0b", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-08-28T16:47:29+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "55ddecfe-6fa3-4fe6-aeab-097104418484", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-08-28T16:47:29+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	03ad562c-afd8-4650-a7bf-37d27beda551
-10	craft\\elements\\Entry	{"tabs": [{"uid": "4d2894de-76d5-4df2-980f-3f72f7e7dbc3", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "eeb6f3c7-109f-440e-8aea-fefae98f43df", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T18:09:47+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "4d08175f-0237-45a4-b7a7-8441a7b3a2be", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2024-08-15T18:11:22+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	dbf6d4f8-51c7-4924-9747-da8670c51e61
-12	craft\\elements\\Entry	{"tabs": [{"uid": "a4520faf-8263-4829-9646-14afc1d4b62c", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "8364e8ad-25c7-4683-a97f-a8363b9c3843", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T18:06:57+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "499d05b1-7311-4f55-8cc3-aaf42eeaa022", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": false, "dateAdded": "2024-08-15T18:09:44+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	31197cc2-c34c-4f8f-9b2d-286da8c09158
 41	craft\\elements\\GlobalSet	{"tabs": [{"uid": "25a2aebb-4c5f-456e-b22c-beeb4aab3a9f", "name": "Content", "elements": [{"tip": null, "uid": "ccbb84cc-429a-4953-8522-fd55b952efff", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "99552cc7-97e5-47f7-8587-b78478eed6fc", "required": false, "dateAdded": "2025-05-06T17:17:58+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-06 17:17:58	\N	014ddd99-77a7-4955-91d9-ce04f130e3a7
 11	craft\\elements\\Entry	{"tabs": [{"uid": "172492ab-8bdc-4ac1-af46-9af06c239a16", "name": "Content", "elements": [{"tip": null, "uid": "339ea7bc-89dd-455a-adfb-7c59465452f5", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Card Image", "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2024-08-15T20:28:03+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "26923d59-6866-49a2-b24f-def3487936ce", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Card Headline", "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T20:28:03+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d543d4a3-ed4a-4e33-9036-bd66aa29d018", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Card Content", "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": false, "dateAdded": "2024-08-15T20:28:03+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "2392575c-a294-4e54-8910-cfa6f72b253d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:34:16+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	123eea2e-7bd9-4581-a8a5-3854d9f5f314
 13	craft\\elements\\Entry	{"tabs": [{"uid": "27c31dbc-bb3a-42ff-916b-1267aa417e26", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "f62d6adf-97da-43d7-b89e-6ce184a30efc", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-16T14:24:34+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "d8511cce-68dd-463a-a2ea-5b7601fa7ea3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-16T14:26:51+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "f218eaf7-ee80-4ea7-b4d9-8e4f06349771", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "6eef63ba-f2a8-4833-8b72-8a6a9d931f84", "required": false, "dateAdded": "2024-08-16T15:26:37+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "493b7bc1-243f-4fd1-afcd-787da440a5fe", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "2b4abe74-65a4-4e1f-a224-ab97e43e54d9", "required": false, "dateAdded": "2024-08-16T14:26:51+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	e9c13e8c-26bc-4d3d-ba67-85e721133652
-14	craft\\elements\\Entry	{"tabs": [{"uid": "f68e3551-5eba-4824-a3d4-9d67fb6dfd4e", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "54001396-1d6b-40ae-93e3-d346ca67b3ab", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T20:31:39+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "99e90eb1-c242-4f2b-9841-60d7030aa800", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3b057048-977f-4c40-ba97-63d84a65f907", "required": false, "dateAdded": "2024-08-15T20:33:56+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	841f2f33-5104-4bd0-be00-17061f90eb1b
+10	craft\\elements\\Entry	{"tabs": [{"uid": "4d2894de-76d5-4df2-980f-3f72f7e7dbc3", "name": "Content", "elements": [{"tip": null, "uid": "4d08175f-0237-45a4-b7a7-8441a7b3a2be", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": true, "dateAdded": "2024-08-15T18:11:22+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-19 14:23:56	\N	dbf6d4f8-51c7-4924-9747-da8670c51e61
+51	craft\\elements\\Entry	{"tabs": [{"uid": "f6e6d993-4d60-44d4-addb-619afecb3c3e", "name": "Content", "elements": [{"tip": null, "uid": "12b95d16-8c6b-4d97-909d-74808a25636c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": true, "dateAdded": "2025-05-19T17:34:32+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 17:34:32	2025-05-19 17:34:32	\N	376ba6eb-1e4d-4507-b3bd-7fa32fc871db
 16	craft\\elements\\Entry	{"tabs": [{"uid": "49ca639b-187c-4450-8529-39671e57b49e", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "e0812476-5dff-4a82-9423-c7f6048cd543", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-18T18:53:22+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "fc9eaa8e-618f-4263-80d5-9c7b4862aa79", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "35753bc4-1fe5-4dab-9b39-969e168d2c68", "required": false, "dateAdded": "2024-09-18T18:55:18+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	5768a3ce-947b-41ab-a5bc-e31f9dbd0585
 46	craft\\elements\\GlobalSet	{"tabs": [{"uid": "60b57368-f394-4a34-814d-39a2aa497e48", "name": "Content", "elements": [{"tip": null, "uid": "bcc02c8a-77f3-474e-8377-77b183dce0aa", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "4f264f7a-a063-4e9a-824d-4ba8018a6c27", "required": false, "dateAdded": "2025-05-07T17:02:34+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-07 20:34:05	2025-05-07 20:34:05	\N	c473ba4c-9da6-4173-a843-b1092de9d779
 17	craft\\elements\\Entry	{"tabs": [{"uid": "1b2b723b-2fe2-481e-9143-ffee8758507b", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "67a9f4fd-1542-4c69-a51d-2e52fe7cf8a8", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:02:40+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "3b79a264-961a-4f5e-9afb-aa7254ddd6cd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:04:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "69a43a14-36b6-4093-a1db-1b59f845952f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:28:22+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "b21fdd5e-b6a0-4941-a799-3a833b04a0db", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:28:22+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "71ca8fd0-d210-40e9-ba9a-eeae261d1813", "name": "SEO", "elements": [{"tip": null, "uid": "01620449-cd9d-4b84-a9f0-459ea5d2eedc", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:04:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "65589034-43f3-4049-87f7-d4208dc4d6f3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:04:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "dc52e60d-1b3f-4027-bc4a-8eb1584f7fef", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:04:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	4289b4b7-03ee-407f-8d0c-4bee41322dd9
 21	craft\\elements\\Entry	{"tabs": [{"uid": "eb7088c6-6660-4f5d-9740-bf882f1d8273", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "1460880d-9e4d-4b51-9e46-a5f895c315df", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:00:06+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "a23ece3d-eb23-44f5-94c7-4c5d25f46ae9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:01:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "01a65a3f-7661-426d-be82-ad55b4ba7983", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:29:34+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9fe79604-3c52-4093-9f7a-1a41a03251ea", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:29:34+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "8baf20f8-1b01-4771-80be-45c2c8e29dee", "name": "SEO", "elements": [{"tip": null, "uid": "ae596ff2-9d7a-4491-9d10-1fdae9897249", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:01:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "dd412549-b841-446f-811b-8364c2c369eb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:01:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e869a3f0-29f8-4f10-8ed3-af03ff212233", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:01:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	bfa1f8d8-43d5-464f-b53e-9d21a97dbd21
+14	craft\\elements\\Entry	{"tabs": [{"uid": "f68e3551-5eba-4824-a3d4-9d67fb6dfd4e", "name": "Content", "elements": [{"tip": null, "uid": "99e90eb1-c242-4f2b-9841-60d7030aa800", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3b057048-977f-4c40-ba97-63d84a65f907", "required": false, "dateAdded": "2024-08-15T20:33:56+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:56:25	\N	841f2f33-5104-4bd0-be00-17061f90eb1b
 22	craft\\elements\\Entry	{"tabs": [{"uid": "7eee4f6f-eb67-482e-8631-ffe2d2015b13", "name": "Content", "elements": [{"tip": null, "uid": "4b849859-e619-4c53-a923-33a7745ac886", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bda4be51-a390-429b-856f-8ebd7905b00a", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c24927ca-b97d-4582-af30-a791db8e082a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "fcee80e9-4667-40be-9381-e2994ff56dc0", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": true, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "8f9e4214-c090-4867-91a9-9d08c9656f7c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "458fef22-7128-4c44-80db-51f83af8dc3e", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": true, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d3594f6f-d77f-4fc4-bdc3-9b49a6f549cf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:36:13+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "1a2c220b-9fdf-4f85-b3dd-9d45274f0747", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2025-05-14T19:39:33+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "6f3799d0-97ad-46e0-b02a-862da48a1cbb", "name": "Settings", "elements": [{"tip": null, "uid": "06ed7e7c-4df8-432c-8798-f9503097f2a4", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-14T21:04:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": ["layoutElement:c24927ca-b97d-4582-af30-a791db8e082a", "layoutElement:8f9e4214-c090-4867-91a9-9d08c9656f7c"]}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	243db469-6f40-4517-a75d-a7e8f81039f2
 24	craft\\elements\\Entry	{"tabs": [{"uid": "3baa2ba0-099c-4dd9-bd77-ac3ef47246c1", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "e24e6d06-e485-426f-afa2-a015fb8b925c", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": "Title", "title": null, "width": 25, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T17:08:42+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "9d7a1bda-d856-4132-a06e-35d2ab1c2148", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 25, "handle": null, "warning": null, "fieldUid": "eeef2caa-117b-428d-9f03-adb34907baec", "required": false, "dateAdded": "2024-09-18T19:42:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c4f0aab9-b1bd-4b58-9804-8f8e838dc230", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2024-08-15T17:10:34+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "749a8663-8773-47df-8cdd-a50c128a6173", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Open Link In New Window", "width": 25, "handle": null, "warning": null, "fieldUid": "8678d5b0-ebe6-4da8-9111-e5ccf5c13386", "required": false, "dateAdded": "2024-08-16T14:22:31+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	2025-05-15 17:33:36	5b9055a0-0c41-4e8e-920b-696471f89b3d
-26	craft\\elements\\Entry	{"tabs": [{"uid": "348db75c-74e1-427a-8a20-a5d0ef4ffa91", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "8a74de99-2481-40ce-8838-1e8aa8322c77", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T18:59:30+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "0e66c4c1-1d62-4659-9ba7-294fbd16236c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "56554df0-f81a-4c6a-b023-706d2789eaa9", "required": false, "dateAdded": "2024-08-15T19:02:41+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	adb58e3b-a1c7-48d3-a0ea-9285a000fbd7
 29	craft\\elements\\Entry	{"tabs": [{"uid": "e7a9eb2f-85b0-4ded-95f8-4faff8b1a352", "name": "Hero", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "c7bb05e9-6c6f-45c0-ba9e-585faa26a3e3", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T17:02:49+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "8f638d45-a8d1-4a81-b3b2-50d558df1886", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-08-27T19:35:07+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "816fedac-4b7f-44c4-bb1a-ff94ee0527e7", "name": "Content", "elements": [{"tip": null, "uid": "1096fce3-a32a-4f1a-8eee-7b45ca630b2c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-08-15T17:05:30+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "332f1511-53f3-4221-aee6-a51907302bd6", "name": "SEO", "elements": [{"tip": null, "uid": "78b063c9-0b19-4155-814f-60b990cdfd09", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-08-27T19:35:07+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c1777812-dbdd-4eca-8271-8262ea404b68", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-08-27T19:35:07+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "8bf03698-cf81-4521-8aa0-34d76609d295", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-08-27T19:35:07+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	130d1c84-abbf-4f46-b55f-7f2a597fb49f
 28	craft\\elements\\Entry	{"tabs": [{"uid": "8757fe2d-7763-48e0-a556-3a66cfeba19f", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "a09d07ea-30e5-44fc-936a-1ccf06c16b7f", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:01:59+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "bd7e9c80-98fa-435f-b7b8-dcce6d7069e1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c24bec29-1fd4-4668-8c97-86a8fca94f57", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:30:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ae2220d3-6ace-4d4c-814b-4cafd0da637a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:30:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "a681ecf9-eecf-4936-8233-c55a5885c08c", "name": "SEO", "elements": [{"tip": null, "uid": "76de9c3c-1373-407a-b1d2-d51f84590b46", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ece0be33-0e59-44cd-a40e-ef70c47da6d0", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "7b7054eb-daf1-4588-adc6-48c9d6fb7e07", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	6e8b7625-f295-457b-a541-e459049f138a
+26	craft\\elements\\Entry	{"tabs": [{"uid": "348db75c-74e1-427a-8a20-a5d0ef4ffa91", "name": "Content", "elements": [{"tip": null, "uid": "3fe7f3bd-8d51-437a-94f1-7e0de56e58af", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Thumbnail Image", "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": true, "dateAdded": "2025-05-20T01:40:30+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "0e66c4c1-1d62-4659-9ba7-294fbd16236c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "56554df0-f81a-4c6a-b023-706d2789eaa9", "required": true, "dateAdded": "2024-08-15T19:02:41+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-20 01:40:30	\N	adb58e3b-a1c7-48d3-a0ea-9285a000fbd7
 30	craft\\elements\\Entry	{"tabs": [{"uid": "43e88bc6-76ab-4557-9a98-3ca039a31e33", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "7df2d83e-3ed5-4899-99cd-8a7ca0363610", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T20:30:58+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "6f26cbd0-0b9b-44d5-b0ac-40f5280e5af2", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-08-15T20:32:14+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	f103821f-9a9f-4d9b-b5fb-55b7c13ea652
 32	craft\\elements\\Entry	{"tabs": [{"uid": "3ec9fa96-8a45-412e-b39e-54a0bc2d7c90", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "450bdc84-b627-4bdd-9826-047ac9fd7eea", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-28T15:17:06+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "c650d49f-5464-42e7-b347-67b93c633e82", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-08-28T15:19:07+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	53237f31-5112-4577-a36c-06cd404f300f
 33	craft\\elements\\Entry	{"tabs": [{"uid": "06a0af26-9155-4550-96d8-d319faabf257", "name": "Hero", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "68903edd-a7a4-408d-b513-d8bb24749f31", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-18T16:33:32+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "6083a0fb-b0d3-4550-a855-e1c0ee66fb3f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "341a7fb3-3ede-4a66-8e32-25c38b986f8a", "required": true, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6e824743-c02d-4b2c-b22a-8d37b42baa41", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "6695f59b-2131-411b-9ed2-35f957256c1a", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "3880b582-6778-46de-b9e5-3c501cee7c5c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "f155fe39-4c36-418a-829b-8e9bfcd3fa1d", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "487d91f8-d92c-42b6-a8f7-5c26b643b20f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "da24b561-9e70-4886-a47c-98dd4dd23072", "name": "Content", "elements": [{"tip": null, "uid": "8eaf4301-724f-40e7-b096-7613b289ca3e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "c8a5850b-437e-416e-b047-6912e81d20d0", "name": "SEO", "elements": [{"tip": null, "uid": "1f47aa22-6a8e-478e-b1fd-f5fa751a37cf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "55463759-56db-4cd5-ae6f-52b3c4cbfeeb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d2d8843c-eb60-437e-85c2-ad7a0bd47dfb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	ea84b4b7-06a8-4f02-9933-f73ae4a40608
 34	craft\\elements\\Entry	{"tabs": [{"uid": "1da6f715-5dbe-48bd-a3f3-172c1d58776e", "name": "Resource", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "5a3af9a0-5998-4054-b583-8200d8e97aac", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-10-07T17:16:48+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "cbf7a960-b2ef-4fc7-ba6e-46ae6c4a7690", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bd4fb97b-3b89-49bc-9fdb-c20917cb6776", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "447d0fa4-8719-44d4-8e92-4c46e37a64f1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "b22ec0a1-3672-4607-af17-891e3d37aa7e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "828976bc-ffad-45d7-a799-845ad6f9d086", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "880ea67a-2b41-468b-b4af-0e2799aee9b3", "required": true, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "0c774007-1b7d-448e-904b-772e67d3d673", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "69705774-001e-4d43-b76b-77eef5713301", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "5a94a4fd-16fd-458f-b471-301539066648", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "4d061e2c-2f20-41b2-9e12-d11cb1fded64", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "f51d3c11-6c73-47c5-abd6-7d917b61b454", "name": "Content", "elements": [{"tip": null, "uid": "0792b95b-e250-4e7d-872e-0bc3dd855531", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "8141a078-d665-4b0c-bd49-d0a37a50bd5c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ca90f539-aa6f-483e-8503-d1a8410b2af5", "name": "SEO", "elements": [{"tip": null, "uid": "af715735-dd1d-4d14-936c-e50a40cb6b97", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e262e6b7-6c0d-4c18-a4c7-23bad5640fbe", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "5e8d96ba-1ca5-4d20-86b8-d85fd78c7f29", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	81954e3c-f364-429f-8462-287e4ce6b80e
 35	craft\\elements\\Entry	{"tabs": [{"uid": "744a98ce-0722-4f2a-b839-fc28f47e1bbc", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "7745f6d3-21b9-4298-83ed-61d7f49dd712", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": "Display Title", "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-18T16:47:36+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "32dc615f-2bfc-47ea-9fd0-c0d791928363", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "b017369d-2ebc-4b60-8af4-d1777deb0450", "required": true, "dateAdded": "2024-09-18T16:50:22+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	f33fe528-065f-4208-8223-4ba35673d068
 36	craft\\elements\\Entry	{"tabs": [{"uid": "f1d06a92-df49-47a6-b3dc-fcc4dceccbd9", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "2e1f3bc2-4270-4b43-8b34-d1bedb9360c5", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-16T14:16:55+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "7b092a74-e320-4b59-93d4-d85decd827d9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "c0144003-4e0b-4e16-8a3e-85fab98c9798", "required": false, "dateAdded": "2024-08-22T13:29:28+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6d75dd77-bb92-41b0-a2a9-b5c335b2bcc8", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Sub Links", "width": 100, "handle": null, "warning": null, "fieldUid": "6eef63ba-f2a8-4833-8b72-8a6a9d931f84", "required": false, "dateAdded": "2024-08-21T17:20:35+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "2125fe2f-dcd5-408a-b398-7bb02a4955f5", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "2b4abe74-65a4-4e1f-a224-ab97e43e54d9", "required": false, "dateAdded": "2024-08-16T14:22:38+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	4383c1fb-e88c-4b39-ad25-fff4334ad240
-37	craft\\elements\\Entry	{"tabs": [{"uid": "b799eb00-3272-4622-b8d3-7cbaba099107", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "a037e77d-ecca-4a3f-9a8d-bae8e1f34eb6", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-15T19:04:47+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "586bf2ea-92b7-434b-ba21-8eaea6ce43bc", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "c76d791f-6a12-4609-94f8-66f12eb848fd", "required": false, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "71a62207-d38c-4ec7-9c75-7ccdab3fd216", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "524e948c-591f-4e9e-a275-77e3e0709b86", "required": false, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "b34609ff-0402-481e-ac56-4f45f1a1205d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	315f8c9a-657d-4d28-9e41-97235cc27c25
 39	craft\\elements\\Entry	{"tabs": [{"uid": "24a41b41-b2d4-443a-8842-a25b852b20f1", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "5dab2279-0010-4581-91a2-d1f34dc7886b", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": "Person Name", "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-27T14:45:11+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "22c8db41-9ee0-4512-9c18-55652364c430", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-09-27T14:48:09+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "bb88ece6-3058-45b2-8a1e-9d18e7aa6b52", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2024-09-27T14:48:09+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9a4a9f83-6e17-4a1d-9199-1cb8f12e4d0b", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Abstract/Short Bio", "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-09-27T14:48:09+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "fc8b235c-c1ec-45a3-9311-b7080ae3fff5", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0e078940-3caa-4bc2-84d3-c91c225cb26d", "required": false, "dateAdded": "2024-09-27T14:48:09+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	8f92a08a-5b9e-4fbb-b1e3-7869d88f25ca
 40	craft\\elements\\GlobalSet	{"tabs": [{"uid": "08ec1209-3049-4e39-9d53-da610da5d938", "name": "Content", "elements": [{"tip": null, "uid": "47dc35ef-69cb-443a-83e8-8413188eee9c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d26a5c7a-435f-4562-91fe-d168201e7bed", "required": false, "dateAdded": "2025-05-06T18:25:26+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-06 18:25:26	\N	3029a860-09a3-4562-9ce4-2e8580d699ef
 42	craft\\elements\\Entry	{"tabs": [{"uid": "1e0f9fb0-1248-4845-b07d-4425ff5f2033", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "ec5128dd-6ec0-45b1-914b-29e7d839538b", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2025-02-20T20:34:51+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "2c04bdc7-64fc-4900-9898-9a289bcc11ae", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Resources", "width": 100, "handle": null, "warning": null, "fieldUid": "bda481fe-9876-436b-80ba-07294176972e", "required": false, "dateAdded": "2025-02-20T20:37:39+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "a593664b-656c-48b7-a1da-c61ae55e3ec6", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "69705774-001e-4d43-b76b-77eef5713301", "required": false, "dateAdded": "2025-02-20T20:37:39+00:00", "instructions": "Resource types to pull from if 3 resources aren't selected above.", "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}]}	2025-02-20 20:37:39	2025-02-20 20:37:39	\N	518d3f01-9f6b-4d25-b977-7b1dab3ffca4
-19	craft\\elements\\Entry	{"tabs": [{"uid": "0355b2e8-6e94-44c3-85e7-15230078b004", "name": "Content", "elements": [{"tip": null, "uid": "74f3a028-f488-444d-9f5e-c5cf5a97ce3b", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6f430633-62a8-44bb-93cb-4da3c4036f48", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "eac65eca-e16a-4cef-98df-9353df2bdbc4", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e2e0c206-e683-4581-8b92-0297f407c99d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "866793e8-8646-486d-95c2-24ad883f46a7", "required": false, "dateAdded": "2024-08-15T19:03:32+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "df5ef9c8-7e41-4dc8-bdc9-22db4d36788f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:32:19+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "f736d5ff-5c94-4017-b4d9-d33cf1ea3003", "name": "Settings", "elements": [{"tip": null, "uid": "38385629-a661-417f-9bb7-0d4dbef8b9fa", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-08T20:45:29+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9f9770ea-fe09-4147-b7c4-de5b18682064", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	0a5eb646-9689-4454-8f84-a9815142c0ce
 43	craft\\elements\\Entry	{"tabs": [{"uid": "dbbd3232-c707-4f78-a23d-219e6a2c31bf", "name": "Content", "elements": [{"tip": null, "uid": "3e1c99c4-f07a-469b-80b8-74590adaaaa9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "c0144003-4e0b-4e16-8a3e-85fab98c9798", "required": false, "dateAdded": "2025-05-06T16:58:31+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-06 16:58:31	2025-05-06 16:58:31	2025-05-06 17:02:09	276f1d1a-7ba2-4c7a-ac90-c0d5653f9731
 23	craft\\elements\\Entry	{"tabs": [{"uid": "e3f62f13-f5a3-46c5-8041-e3bf098500ab", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "c5e7895d-2c5b-40eb-99a7-57702d91133d", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": "Text", "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-08-22T13:23:26+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "cfef99ee-464a-452e-b731-e56f774b997a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 75, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2024-08-22T13:25:56+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "877c89b0-1fe2-4fcf-9e5e-f6fd67006bfa", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Open In New Window", "width": 25, "handle": null, "warning": null, "fieldUid": "8678d5b0-ebe6-4da8-9111-e5ccf5c13386", "required": false, "dateAdded": "2024-08-22T13:25:56+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "1ae008b8-20c9-49f2-ac0d-18dcb4babf85", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Description", "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": false, "dateAdded": "2025-05-06T16:57:44+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-06 17:03:33	\N	1d2aa3ee-b9ed-408a-9c86-15f732695675
 45	craft\\elements\\Entry	{"tabs": [{"uid": "ba3f7d72-0002-4629-9507-860649211f44", "name": "Content", "elements": [{"tip": null, "uid": "897e331e-b217-45e1-89dd-c8ff3c851278", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "9affc2aa-55c3-4990-97df-9e714b7bf551", "required": true, "dateAdded": "2025-05-06T17:17:45+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c07f9dad-7d72-4992-9b92-e17db238f9ea", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "9a6122b0-6a00-4c79-958a-465d2e6549bd", "required": false, "dateAdded": "2025-05-06T17:17:45+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "582aa496-a663-4427-8fe0-ca655640ae88", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "5c34e4ac-c379-4915-ae75-4016817fe223", "required": false, "dateAdded": "2025-05-06T17:17:45+00:00", "instructions": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": {"class": "craft\\\\elements\\\\conditions\\\\entries\\\\EntryCondition", "elementType": "craft\\\\elements\\\\Entry", "fieldContext": "global", "conditionRules": [{"uid": "c9a61dab-cc57-4e80-875d-0785119d09ed", "class": "craft\\\\fields\\\\conditions\\\\OptionsFieldConditionRule", "values": ["fullWidthWithCta"], "fieldUid": "9a6122b0-6a00-4c79-958a-465d2e6549bd", "operator": "in", "layoutElementUid": "c07f9dad-7d72-4992-9b92-e17db238f9ea"}]}}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-06 17:17:45	2025-05-06 17:29:59	\N	57a2012a-3ced-4df3-bb73-8bb4d6a65752
 44	craft\\elements\\Entry	{"tabs": [{"uid": "0a52980a-eea8-4dd2-9f22-f4b41e9b3812", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "0a717abd-3ba5-4579-9018-38b7dec1e21c", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2025-05-06T17:15:56+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "002ecd79-2d83-439f-83a3-17b43ba8f35a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2025-05-06T17:17:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "1c9e7fd7-6795-4977-8600-fb2900439a51", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:33:00+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-06 17:17:36	2025-05-15 17:33:36	\N	51d6435e-382a-4933-b348-820e0d0b0de5
-8	craft\\elements\\Entry	{"tabs": [{"uid": "d3f9b8a3-d83e-4e75-8e90-1e202868c302", "name": "Content", "elements": [{"tip": null, "uid": "a9930410-5e71-4ae4-8f87-cc564968dc04", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "8fe215cb-38e5-419d-8038-a1ccebf68878", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e52fc716-31f3-4af2-a7bd-ac01c1782728", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "30b6394c-97dc-4b5a-807c-b612c4c38fd1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "5217297d-5931-41b9-a7a4-a797bb339952", "required": false, "dateAdded": "2024-08-15T20:41:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6345697c-5860-4cf9-ae7e-e3c595661c78", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:35:52+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "41b56885-307a-42c8-a285-d7be4487c4c0", "name": "Settings", "elements": [{"tip": null, "uid": "e32c7188-d89d-484d-9c8d-55e6955ac556", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	ba5da5df-3c24-44b2-a61a-e68b58533467
 15	craft\\elements\\Entry	{"tabs": [{"uid": "a22b222b-3e6a-4f05-85cd-0916741299b0", "name": "Content", "elements": [{"tip": null, "uid": "131fb942-4184-4c34-bb2d-722a8619f59a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-09-19T15:13:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": true, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d94a187a-a522-4c4c-b477-7c9d0ef1ebf9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2024-09-19T15:09:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": true, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "a57189cc-9676-417a-862c-b71b73d7eddf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": false, "dateAdded": "2024-09-19T15:09:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "3514ac5b-f290-4824-bddc-107ca2234187", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:35:33+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": ["layoutElement:131fb942-4184-4c34-bb2d-722a8619f59a", "layoutElement:d94a187a-a522-4c4c-b477-7c9d0ef1ebf9"]}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	6e6b0216-5d3f-4f54-9de4-cac73ac59725
-20	craft\\elements\\Entry	{"tabs": [{"uid": "be2b67a6-33b2-46a1-846f-e1ffc52adbba", "name": "Content", "elements": [{"tip": null, "uid": "f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": false, "dateAdded": "2024-08-15T18:10:35+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "76f5a0da-a193-46ec-ace9-cce0fdc990f3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:33:50+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	25e832d4-be1c-41d4-836b-00f72ac16c5f
 38	craft\\elements\\Entry	{"tabs": [{"uid": "290c7125-7cc5-48dc-822d-84efacfd94bb", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "c78810a6-b5d3-4fc2-8fc4-f0b1724e767f", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-10-07T17:20:43+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "c1faff01-f847-4b8f-b4a5-e069c74bc78d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bd4fb97b-3b89-49bc-9fdb-c20917cb6776", "required": false, "dateAdded": "2024-10-07T17:23:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d6212fe3-5ca4-4dc5-b14c-a43b1a7e5caf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-10-07T17:23:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ac362b64-3c7b-4615-9fc7-863b713b1835", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "880ea67a-2b41-468b-b4af-0e2799aee9b3", "required": true, "dateAdded": "2024-10-07T17:23:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "89b519a6-f4d9-46a4-ae9a-f35c25314d26", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "69705774-001e-4d43-b76b-77eef5713301", "required": false, "dateAdded": "2024-10-07T17:23:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "b1507377-06cf-4e07-90c5-b53e7d938776", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "4d061e2c-2f20-41b2-9e12-d11cb1fded64", "required": false, "dateAdded": "2024-10-07T17:23:24+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "4b56f241-df09-439b-9ff3-b8bbd7901274", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:35:14+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	396963b4-704a-43c3-ba9b-61c30a8de2ae
 25	craft\\elements\\Entry	{"tabs": [{"uid": "191e64a3-78ab-4a2c-8e2f-809e76522640", "name": "Content", "elements": [{"tip": null, "uid": "e4ba1160-dadb-4fb9-97cc-41245a3264cb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2024-08-15T20:28:10+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e70a52cd-7803-4b4f-b4af-7f13df1bb13c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T20:28:10+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "bdce4434-1f23-4d39-bd11-b67b26934875", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2024-08-15T20:28:10+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e18d14b3-7e48-4f10-9887-c9d9c7cd6789", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bda481fe-9876-436b-80ba-07294176972e", "required": false, "dateAdded": "2024-09-19T15:11:31+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "298d0e17-1c2d-412d-9507-ec2077a0bc3f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:34:39+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "09e22737-5860-487f-bebf-69df0a4b8bdc", "name": "Settings", "elements": [{"tip": null, "uid": "a9fa8ee1-8a3d-4668-8a76-af99b65f0334", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2024-08-15T20:28:10+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 17:33:36	\N	57a2f56d-7b41-430b-87fd-5fda627c0b8b
+20	craft\\elements\\Entry	{"tabs": [{"uid": "be2b67a6-33b2-46a1-846f-e1ffc52adbba", "name": "Content", "elements": [{"tip": null, "uid": "f204a9b4-3e4b-4e3e-8174-3cd2a188635c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Content", "width": 100, "handle": null, "warning": null, "fieldUid": "37581c39-ebd0-4472-aa61-c2f51a891535", "required": false, "dateAdded": "2025-05-19T14:20:09+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "76f5a0da-a193-46ec-ace9-cce0fdc990f3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": true, "dateAdded": "2025-05-09T15:33:50+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-19 14:20:09	\N	25e832d4-be1c-41d4-836b-00f72ac16c5f
+8	craft\\elements\\Entry	{"tabs": [{"uid": "d3f9b8a3-d83e-4e75-8e90-1e202868c302", "name": "Content", "elements": [{"tip": null, "uid": "a9930410-5e71-4ae4-8f87-cc564968dc04", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "8fe215cb-38e5-419d-8038-a1ccebf68878", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e52fc716-31f3-4af2-a7bd-ac01c1782728", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "30b6394c-97dc-4b5a-807c-b612c4c38fd1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "5217297d-5931-41b9-a7a4-a797bb339952", "required": true, "dateAdded": "2024-08-15T20:41:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6345697c-5860-4cf9-ae7e-e3c595661c78", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:35:52+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "41b56885-307a-42c8-a285-d7be4487c4c0", "name": "Settings", "elements": [{"tip": null, "uid": "e32c7188-d89d-484d-9c8d-55e6955ac556", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2024-08-15T20:21:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-19 14:32:17	\N	ba5da5df-3c24-44b2-a61a-e68b58533467
 18	craft\\elements\\Entry	{"tabs": [{"uid": "9496b43c-5c13-464b-be1b-e19d58800a18", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "1f33c60e-5296-4b79-89a6-27e17879753c", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:04:32+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "62141048-f413-450e-a6f2-d75268866ef8", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:06:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "10fc868a-b205-463b-9edd-6f960a30e64d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:28:40+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "3fcead36-284d-467d-a5a1-c1555d3fb101", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:28:40+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "7bce169d-dd8b-4403-b5cb-df3c2600bcf0", "name": "SEO", "elements": [{"tip": null, "uid": "98d63b2e-ded1-49dc-b7f3-20f9a1e7cfbd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:06:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ee07500a-1ed6-4da5-9a3d-6f841adffc52", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:06:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "d675d3b9-153f-4007-9678-ebc27f8a8986", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:06:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	515e0519-13d1-4342-b699-992300b32a05
 27	craft\\elements\\Entry	{"tabs": [{"uid": "394a5a27-e0d3-45a0-b416-00930c6a3c5c", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "2103b858-9465-450d-85ce-7cce22005592", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:03:59+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "9c8e02e8-397d-4cb4-b489-050ac0ead364", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:05:28+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "0eb591ac-c2fc-4db9-a9ac-70eed095f814", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:25:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9da16ee3-f6f1-48db-baa3-1569ab250a6d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:25:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "d3506e03-f69f-4dc0-9e0c-b576a613729d", "name": "SEO", "elements": [{"tip": null, "uid": "bdbb16b2-8424-4a29-8d27-90ad9ecb1a6a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:05:28+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "1f1d424c-f889-43ca-b473-41f9c177c0e9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:05:28+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "248b0045-f3fa-4d9d-8bbc-6a0f66c9fe6c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:05:28+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	c55236ad-7020-4efe-9e83-a1c2111803a6
 31	craft\\elements\\Entry	{"tabs": [{"uid": "3ef4ab5f-8457-49d9-8bbb-c992bc58d5e4", "name": "Hero", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "bf6d6ccb-bfb4-4b78-8e64-fdcb5ecdc8f8", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-08-23T13:46:34+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "includeInCards": false, "providesThumbs": false, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "d9a17e8f-17d2-4dde-97a0-0c057d005c6c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "184732fa-28c4-4ccf-8f83-f6ffe459a8f9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:26:12+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "ae276ea6-22f4-4e3a-b676-4bd453920754", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:26:12+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ea3807d2-7d9c-4648-9fe8-dd0a8e27122b", "name": "Content", "elements": [{"tip": null, "uid": "d8690656-029f-4c66-a8c5-33f3f5c084fd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ef1d85f0-b141-4098-a244-99988ebba7e9", "name": "SEO", "elements": [{"tip": null, "uid": "f13e53ee-02dd-4383-9d97-24d326d31d4a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "36659011-5201-424f-9acc-ea27307608a6", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	40d44b5f-abdf-4896-b9bf-c7f559ef07e7
+12	craft\\elements\\Entry	{"tabs": [{"uid": "a4520faf-8263-4829-9646-14afc1d4b62c", "name": "Content", "elements": [{"tip": null, "uid": "6a23d15f-8ec4-42fc-b4b9-5157b56a70e8", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "3bdf6645-aaa4-4ae3-b9a9-f33753d80099", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "4092a8ba-286b-4e41-af69-58e58f57b251", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "499d05b1-7311-4f55-8cc3-aaf42eeaa022", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "ff11a7ef-4804-4699-9e26-f9d531a7e760", "required": true, "dateAdded": "2024-08-15T18:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "98f7fbae-d98c-431b-9f17-f6707eec24ea", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "0771c72e-e5d9-4d7c-af04-a0e733ad4a72", "name": "Settings", "elements": [{"tip": null, "uid": "456aad9a-5401-4892-8d76-d330913314cc", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "5f22eeef-8a82-4efc-b92f-ef3e784fcb37", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T14:22:46+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-19 14:22:54	\N	31197cc2-c34c-4f8f-9b2d-286da8c09158
+47	craft\\elements\\Entry	{"tabs": [{"uid": "15a0ef65-45ad-4409-9c8e-dd86be7683ae", "name": "Content", "elements": [{"tip": null, "uid": "5a0b3f4d-cec5-4550-8b64-a91492cec592", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Content", "width": 100, "handle": null, "warning": null, "fieldUid": "37581c39-ebd0-4472-aa61-c2f51a891535", "required": true, "dateAdded": "2025-05-16T14:25:51+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-16 14:25:51	2025-05-16 14:25:51	\N	a41a8bf7-9596-483f-ba98-110deb562d53
+19	craft\\elements\\Entry	{"tabs": [{"uid": "0355b2e8-6e94-44c3-85e7-15230078b004", "name": "Content", "elements": [{"tip": null, "uid": "74f3a028-f488-444d-9f5e-c5cf5a97ce3b", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "6f430633-62a8-44bb-93cb-4da3c4036f48", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "eac65eca-e16a-4cef-98df-9353df2bdbc4", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "e2e0c206-e683-4581-8b92-0297f407c99d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "866793e8-8646-486d-95c2-24ad883f46a7", "required": true, "dateAdded": "2024-08-15T19:03:32+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "df5ef9c8-7e41-4dc8-bdc9-22db4d36788f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:32:19+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "f736d5ff-5c94-4017-b4d9-d33cf1ea3003", "name": "Settings", "elements": [{"tip": null, "uid": "38385629-a661-417f-9bb7-0d4dbef8b9fa", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-08T20:45:29+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9f9770ea-fe09-4147-b7c4-de5b18682064", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2024-08-15T17:02:36+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-19 14:32:43	\N	0a5eb646-9689-4454-8f84-a9815142c0ce
+48	craft\\elements\\Entry	{"tabs": [{"uid": "eb4e437b-df66-45d6-851e-38a858af1f56", "name": "Content", "elements": [{"tip": null, "uid": "df8b6e6f-f6ba-497d-a35c-1afbe2096017", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "4903969a-2b49-4984-979e-6f0ab4c238c2", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "239636d6-2511-4e4b-9ecc-52761402f8dd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "04f6a9aa-cc09-4745-8012-926262ab1481", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "850e8e38-809a-494d-b643-efd7ff7c48e6", "required": true, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "cd295e4e-7d7a-44b4-9f10-0f61a4ad8b46", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "171c531a-728b-4417-b178-c7f60f05e056", "name": "Settings", "elements": [{"tip": null, "uid": "fd9eba28-273f-4a36-969c-fbbba1453e3e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-19T14:56:23+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "98b84bfa-5af9-4977-991c-f51e17838b61", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T14:56:23+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 14:56:23	2025-05-19 14:57:58	\N	10a76dce-118a-42ab-ae61-06ddbc0dadd1
+49	craft\\elements\\Entry	{"tabs": [{"uid": "8bb431b0-1a0a-46f1-b0f0-67666181d012", "name": "Content", "elements": [{"tip": null, "uid": "1699a34c-9986-441c-a06f-a25c96247db3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "9def8205-92bf-4d29-8359-eae67adcb497", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "b4fd5d6c-8267-43f3-bfed-8defac06c057", "required": true, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "37a5cc06-1d8e-4c4f-a398-d94b7a0f933e", "name": "Settings", "elements": [{"tip": null, "uid": "6751c6cc-a7b5-4ae3-a07e-c7039b534a70", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 15:09:44	2025-05-19 17:18:23	\N	adcccf35-575b-4fe9-a234-0fb72923e7d1
+50	craft\\elements\\Entry	{"tabs": [{"uid": "a2ede2c5-94a3-4eef-9154-ac1fd5b39457", "name": "Content", "elements": [{"tip": null, "uid": "618dd074-50f7-43f2-a5f2-5422fd74bcd9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2025-05-19T15:20:02+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "f7095f63-5852-478e-9f4b-f1bfeb3df616", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T15:20:02+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "3ae000e9-a411-46fe-8ca0-7a80cba9eb7f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Content", "width": 100, "handle": null, "warning": null, "fieldUid": "37581c39-ebd0-4472-aa61-c2f51a891535", "required": false, "dateAdded": "2025-05-19T15:20:02+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "c0df7d8a-9398-4c1e-b561-2778b018846b", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0f24b2a8-d45a-4614-b908-6c6ed9230147", "required": false, "dateAdded": "2025-05-19T17:35:16+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "c0f6c0d1-000f-4c56-ba05-d2d642d083f5", "name": "Settings", "elements": [{"tip": null, "uid": "da7109d9-c296-4e89-b9e2-c88bddcf70d3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-19T15:20:02+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "84f9b09a-aa1a-4a13-a8d2-aa8d49dd270e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T15:20:02+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 15:20:02	2025-05-19 17:35:16	\N	6f4fac81-ff10-4e1b-8c25-b4b48dde7724
+37	craft\\elements\\Entry	{"tabs": [{"uid": "b799eb00-3272-4622-b8d3-7cbaba099107", "name": "Content", "elements": [{"tip": null, "uid": "586bf2ea-92b7-434b-ba21-8eaea6ce43bc", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "c76d791f-6a12-4609-94f8-66f12eb848fd", "required": true, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Person Photo", "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2025-05-20T01:24:03+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "71a62207-d38c-4ec7-9c75-7ccdab3fd216", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Person Name", "width": 100, "handle": null, "warning": null, "fieldUid": "524e948c-591f-4e9e-a275-77e3e0709b86", "required": false, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}, {"tip": null, "uid": "b34609ff-0402-481e-ac56-4f45f1a1205d", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-08-15T19:07:05+00:00", "instructions": null, "editCondition": null, "userCondition": null, "includeInCards": false, "providesThumbs": false, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2025-05-20 01:24:03	\N	315f8c9a-657d-4d28-9e41-97235cc27c25
 \.
 
 
@@ -4975,7 +5373,6 @@ COPY public.fields (id, name, handle, context, "columnSuffix", instructions, sea
 30	Job Title	jobTitle	global	\N	\N	f	none	\N	craft\\fields\\PlainText	{"byteLimit":null,"charLimit":null,"code":false,"initialRows":4,"multiline":false,"placeholder":null,"uiMode":"normal"}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	115744a1-512d-495b-ba38-959ebed6cec4
 32	Link Text	linkText	global	\N	\N	f	none	\N	craft\\fields\\PlainText	{"byteLimit":null,"charLimit":null,"code":false,"initialRows":4,"multiline":false,"placeholder":null,"uiMode":"normal"}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	eeef2caa-117b-428d-9f03-adb34907baec
 33	Quote	quote	global	\N	\N	f	none	\N	craft\\ckeditor\\Field	{"availableTransforms":"","availableVolumes":"*","ckeConfig":"d69400d5-37c7-48ef-b143-e25cccdda2ac","createButtonLabel":null,"defaultTransform":null,"enableSourceEditingForNonAdmins":false,"purifierConfig":null,"purifyHtml":true,"showUnpermittedFiles":false,"showUnpermittedVolumes":false,"showWordCount":false,"wordLimit":null}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	c76d791f-6a12-4609-94f8-66f12eb848fd
-22	Content	blockContent	global	\N	\N	f	none	\N	craft\\ckeditor\\Field	{"availableTransforms":"","availableVolumes":"","ckeConfig":"c164bcf4-0226-4e9f-bfe0-ca08ad8056b5","createButtonLabel":null,"defaultTransform":null,"enableSourceEditingForNonAdmins":true,"entryTypes":["976d4ccf-4988-4c36-968c-53f396dce7f2"],"purifierConfig":null,"purifyHtml":true,"showUnpermittedFiles":false,"showUnpermittedVolumes":false,"showWordCount":false,"wordLimit":null}	2025-02-11 20:13:39	2025-02-20 20:34:46	\N	ff11a7ef-4804-4699-9e26-f9d531a7e760
 35	Press Mention URL	pressMentionUrl	global	\N	\N	f	none	\N	craft\\fields\\Link	{"maxLength":255,"types":["url"]}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	b017369d-2ebc-4b60-8af4-d1777deb0450
 36	Column Span	columnSpan	global	\N	\N	f	none	\N	craft\\fields\\Dropdown	{"options":[{"label":"One","value":"","default":"1"},{"label":"Two","value":"-wide","default":""}]}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	2b4abe74-65a4-4e1f-a224-ab97e43e54d9
 37	Resource Types	resourceTypes	global	\N	\N	f	none	\N	craft\\fields\\Categories	{"allowSelfRelations":false,"branchLimit":null,"maintainHierarchy":false,"maxRelations":null,"minRelations":null,"selectionLabel":"Add a Type","showCardsInGrid":false,"showSiteMenu":true,"source":"group:cb8e727f-8cfd-4234-a8aa-3e11420418cb","targetSiteId":null,"validateRelatedElements":false,"viewMode":"list"}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	69705774-001e-4d43-b76b-77eef5713301
@@ -4993,8 +5390,6 @@ COPY public.fields (id, name, handle, context, "columnSuffix", instructions, sea
 47	Shared Blocks	sharedBlocks	global	\N	\N	f	none	\N	craft\\fields\\Entries	{"allowSelfRelations":false,"branchLimit":null,"maintainHierarchy":false,"maxRelations":null,"minRelations":null,"selectionLabel":"Add a shared block","showCardsInGrid":false,"showSiteMenu":true,"sources":["section:89839c0a-8c2a-4ef9-900f-709a4c4b77c1"],"targetSiteId":null,"validateRelatedElements":false,"viewMode":"list"}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	3b057048-977f-4c40-ba97-63d84a65f907
 48	Full Bio	bio	global	\N	\N	f	none	\N	craft\\ckeditor\\Field	{"availableTransforms":"","availableVolumes":"*","ckeConfig":"d69400d5-37c7-48ef-b143-e25cccdda2ac","createButtonLabel":null,"defaultTransform":null,"enableSourceEditingForNonAdmins":false,"purifierConfig":null,"purifyHtml":true,"showUnpermittedFiles":false,"showUnpermittedVolumes":false,"showWordCount":false,"wordLimit":null}	2025-02-11 20:13:39	2025-02-11 20:13:39	\N	0e078940-3caa-4bc2-84d3-c91c225cb26d
 49	CTA Link	ctaResourceLink	global	\N	\N	f	none	\N	craft\\fields\\Link	{"maxLength":255,"typeSettings":{"url":{"allowRootRelativeUrls":"1","allowAnchors":"1"},"entry":{"sources":"*"}},"types":["url","entry"]}	2025-02-20 19:06:35	2025-02-20 19:06:35	2025-02-20 19:09:10	032b301b-2441-4459-8236-eafa47222ad4
-31	Sub Blocks	subBlocks	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"minEntries":null,"maxEntries":2,"viewMode":"blocks","showCardsInGrid":false,"includeTableView":false,"defaultTableColumns":[],"pageSize":null,"createButtonLabel":"New block","propagationMethod":"all","propagationKeyFormat":null,"siteSettings":{"52ff5c36-e87c-4674-8f10-76565b13abdf":[]},"entryTypes":["0df95f6f-3e7a-4765-84de-aa8585234118","77f762ab-419d-47e9-8b43-63754dafa72f","1a4b6ea7-240d-4c7c-86ab-ce16b55afc24","6a91581a-a1ff-430b-bbeb-32b131747531","4536b6f0-b762-4abc-b6d1-a918619f8b4d"]}	2025-02-11 20:13:39	2025-02-20 20:34:51	\N	866793e8-8646-486d-95c2-24ad883f46a7
-28	Content Designer	contentDesigner	global	\N	\N	t	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New block","entryTypes":["b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a","dc246a2f-01d9-4061-b2a1-bc1e6b6edf94","8d9c514a-a4e4-41ce-9b73-4425594f2885","798877d5-1c6b-43b0-94a9-203780a1b39f","0df95f6f-3e7a-4765-84de-aa8585234118","307187bf-968f-42da-b579-dbc76b7a9fa6"],"includeTableView":false,"maxEntries":null,"minEntries":null,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-02-11 20:13:39	2025-02-21 19:58:35	\N	0587c309-76fe-4928-9be3-cb2980b7908c
 14	Nav Link	navLink	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"createButtonLabel":null,"defaultIndexViewMode":"cards","entryTypes":[{"uid":"c7e04c91-15c1-4081-8d31-44ae7bf6eae9"}],"includeTableView":false,"maxEntries":1,"minEntries":null,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-02-11 20:13:38	2025-05-06 16:57:49	\N	c0144003-4e0b-4e16-8a3e-85fab98c9798
 51	Nav Type	navType	global	\N	\N	f	none	\N	craft\\fields\\Dropdown	{"customOptions":false,"options":[{"label":"Simple","value":"simple","default":"1"},{"label":"Full width With CTA","value":"fullWidthWithCta","default":""}]}	2025-05-06 17:16:17	2025-05-06 17:20:34	\N	9a6122b0-6a00-4c79-958a-465d2e6549bd
 52	CTA Card	ctaCard	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New CTA card","defaultIndexViewMode":"cards","entryTypes":[{"uid":"21a3840e-e64f-472b-93e4-69935cee15e0"}],"includeTableView":false,"maxEntries":null,"minEntries":null,"pageSize":50,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"cards"}	2025-05-06 17:17:41	2025-05-06 17:29:53	\N	5c34e4ac-c379-4915-ae75-4016817fe223
@@ -5008,6 +5403,13 @@ COPY public.fields (id, name, handle, context, "columnSuffix", instructions, sea
 54	Footer Navigation Items	footerNavItems	global	\N	\N	f	none	\N	craft\\fields\\Entries	{"allowSelfRelations":false,"branchLimit":null,"defaultPlacement":"end","maintainHierarchy":false,"maxRelations":null,"minRelations":null,"selectionCondition":{"elementType":"craft\\\\elements\\\\Entry","fieldContext":"global","class":"craft\\\\elements\\\\conditions\\\\entries\\\\EntryCondition","conditionRules":[{"class":"craft\\\\elements\\\\conditions\\\\LevelConditionRule","uid":"7b9f25b9-7af8-40e2-b4a1-a7d23089cda8","operator":"=","value":"1","maxValue":"","step":1}]},"selectionLabel":null,"showCardsInGrid":false,"showSiteMenu":true,"showUnpermittedEntries":true,"showUnpermittedSections":true,"sources":["section:0e0a0c15-2d54-4a63-b4ae-29b75916437e"],"targetSiteId":null,"validateRelatedElements":false,"viewMode":"list"}	2025-05-06 18:25:21	2025-05-15 17:33:36	\N	d26a5c7a-435f-4562-91fe-d168201e7bed
 57	Breadcrumb Title	breadcrumbTitle	global	\N	You can optionally override the title of this page in the breadcrumbs the show in the hero. If nothing is provided here, the entry's title will be used.	f	none	\N	craft\\fields\\PlainText	{"byteLimit":null,"charLimit":null,"code":false,"initialRows":4,"multiline":false,"placeholder":null,"uiMode":"normal"}	2025-05-15 19:19:54	2025-05-15 19:19:54	\N	89dec5ed-967b-4adc-96f4-990fe7f52da5
 58	Show Breadcrumbs	showBreadcrumbs	global	\N	\N	f	none	\N	craft\\fields\\Lightswitch	{"default":true,"offLabel":null,"onLabel":null}	2025-05-15 19:19:54	2025-05-15 19:19:54	\N	3644b740-3500-418e-a08f-7e66e4a2b99e
+59	Content (No Media)	blockContentNoMedia	global	\N	\N	t	none	\N	craft\\ckeditor\\Field	{"availableTransforms":"","availableVolumes":"*","characterLimit":null,"ckeConfig":"4a38a2c5-4173-4e7c-9c4d-de781a64d071","createButtonLabel":null,"defaultTransform":null,"fullGraphqlData":true,"purifierConfig":null,"purifyHtml":true,"showUnpermittedFiles":false,"showUnpermittedVolumes":false,"showWordCount":false,"sourceEditingGroups":["__ADMINS__"],"wordLimit":null}	2025-05-16 14:17:37	2025-05-16 14:17:37	\N	37581c39-ebd0-4472-aa61-c2f51a891535
+61	Testimonial Slides	testimonialSlides	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New Testimonial","defaultIndexViewMode":"cards","enableVersioning":false,"entryTypes":[{"uid":"4536b6f0-b762-4abc-b6d1-a918619f8b4d"}],"includeTableView":false,"maxEntries":null,"minEntries":null,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-05-19 15:03:45	2025-05-19 15:09:19	\N	b4fd5d6c-8267-43f3-bfed-8defac06c057
+31	Sub Blocks	subBlocks	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"minEntries":2,"maxEntries":2,"enableVersioning":false,"viewMode":"blocks","showCardsInGrid":false,"includeTableView":false,"defaultTableColumns":[],"defaultIndexViewMode":"cards","pageSize":null,"createButtonLabel":"New block","propagationMethod":"all","propagationKeyFormat":null,"siteSettings":{"52ff5c36-e87c-4674-8f10-76565b13abdf":[]},"entryTypes":[{"uid":"e9b06cc2-e638-47af-98b9-de75baf00165"},{"uid":"77f762ab-419d-47e9-8b43-63754dafa72f"},{"uid":"1a4b6ea7-240d-4c7c-86ab-ce16b55afc24"},{"uid":"6a91581a-a1ff-430b-bbeb-32b131747531"},{"uid":"4536b6f0-b762-4abc-b6d1-a918619f8b4d"}]}	2025-02-11 20:13:39	2025-05-19 14:01:52	\N	866793e8-8646-486d-95c2-24ad883f46a7
+22	Content	blockContent	global	\N	\N	f	none	\N	craft\\ckeditor\\Field	{"availableTransforms":"","availableVolumes":["507a966d-0b69-4f8e-9d31-31b6528b14a0"],"characterLimit":null,"ckeConfig":"c164bcf4-0226-4e9f-bfe0-ca08ad8056b5","createButtonLabel":null,"defaultTransform":null,"entryTypes":[{"uid":"976d4ccf-4988-4c36-968c-53f396dce7f2"}],"fullGraphqlData":false,"purifierConfig":null,"purifyHtml":true,"showUnpermittedFiles":false,"showUnpermittedVolumes":false,"showWordCount":false,"sourceEditingGroups":"*","wordLimit":null}	2025-02-11 20:13:39	2025-05-19 14:13:18	\N	ff11a7ef-4804-4699-9e26-f9d531a7e760
+60	Media Sub Blocks	mediaSubBlocks	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New Media","defaultIndexViewMode":"cards","enableVersioning":false,"entryTypes":[{"uid":"1a4b6ea7-240d-4c7c-86ab-ce16b55afc24"},{"uid":"6a91581a-a1ff-430b-bbeb-32b131747531"}],"includeTableView":false,"maxEntries":1,"minEntries":1,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-05-19 14:55:58	2025-05-19 14:55:58	\N	850e8e38-809a-494d-b643-efd7ff7c48e6
+28	Content Designer	contentDesigner	global	\N	\N	t	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New block","defaultIndexViewMode":"cards","enableVersioning":false,"entryTypes":[{"uid":"b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a"},{"uid":"0df95f6f-3e7a-4765-84de-aa8585234118"},{"uid":"22dea229-207d-41ba-8a31-13eea8c38a5c"},{"uid":"24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3"},{"uid":"dc246a2f-01d9-4061-b2a1-bc1e6b6edf94"},{"uid":"8d9c514a-a4e4-41ce-9b73-4425594f2885"},{"uid":"798877d5-1c6b-43b0-94a9-203780a1b39f"},{"uid":"a63c9e01-02f0-422a-b717-1a8c254b0231"},{"uid":"307187bf-968f-42da-b579-dbc76b7a9fa6"}],"includeTableView":false,"maxEntries":null,"minEntries":null,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-02-11 20:13:39	2025-05-19 15:20:15	\N	0587c309-76fe-4928-9be3-cb2980b7908c
+62	CTA Links	ctaLinks	global	\N	\N	f	site	\N	craft\\fields\\Matrix	{"createButtonLabel":"New CTA Link","defaultIndexViewMode":"cards","enableVersioning":false,"entryTypes":[{"uid":"45adbb6c-4095-4a69-b61a-fc7bcc0a73cc"}],"includeTableView":false,"maxEntries":2,"minEntries":null,"pageSize":null,"propagationKeyFormat":null,"propagationMethod":"all","showCardsInGrid":false,"viewMode":"blocks"}	2025-05-19 17:34:57	2025-05-19 17:34:57	\N	0f24b2a8-d45a-4614-b908-6c6ed9230147
 \.
 
 
@@ -5151,10 +5553,14 @@ COPY public.imagetransformindex (id, "assetId", transformer, filename, format, "
 160	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_640xAUTO_crop_center-center_none	t	f	f	2025-05-06 18:09:18	2025-05-06 18:09:18	2025-05-06 18:09:21	5cb7dbee-c4b8-4343-8d85-092cd13c21ed
 161	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_768xAUTO_crop_center-center_none	t	f	f	2025-05-06 18:09:18	2025-05-06 18:09:18	2025-05-06 18:09:21	2ec94d47-22ac-4bd4-bf14-eec0f33eb946
 162	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_900xAUTO_crop_center-center_none	t	f	f	2025-05-06 18:09:18	2025-05-06 18:09:18	2025-05-06 18:09:21	2d1564c4-9a23-47f1-a337-d2b00f43d08a
-163	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:19:36	f85fc990-fc3a-4b57-b2a8-5c16b312922e
-164	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:19:36	57171b9e-f063-4151-a4dc-4d4780f2305d
-165	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:19:36	166e7007-92c5-4e9f-bf7f-a7368b466e0a
-166	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:19:36	cbd72764-eb4c-4230-bde4-c25ef79f8716
+163	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:32:23	f85fc990-fc3a-4b57-b2a8-5c16b312922e
+164	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:32:23	57171b9e-f063-4151-a4dc-4d4780f2305d
+165	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:32:23	166e7007-92c5-4e9f-bf7f-a7368b466e0a
+166	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-15 19:19:33	2025-05-15 19:19:33	2025-05-15 19:32:23	cbd72764-eb4c-4230-bde4-c25ef79f8716
+167	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-19 15:24:47	2025-05-19 15:24:47	2025-05-19 15:24:48	1e3ba978-334b-4432-b065-2d27e9b556e5
+168	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-19 15:24:47	2025-05-19 15:24:47	2025-05-19 15:32:04	6aea23fa-b670-42da-886b-27454034befa
+170	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	f	2025-05-19 15:26:16	2025-05-19 15:26:16	2025-05-19 15:32:04	2f3f75d7-e7c8-483a-b42c-25bdc2813d87
+169	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	f	2025-05-19 15:26:16	2025-05-19 15:26:16	2025-05-19 15:26:16	116b9f19-9d4b-4e20-8fb0-3ba39a55b331
 \.
 
 
@@ -5171,7 +5577,7 @@ COPY public.imagetransforms (id, name, handle, mode, "position", width, height, 
 --
 
 COPY public.info (id, version, "schemaVersion", maintenance, "configVersion", "fieldVersion", "dateCreated", "dateUpdated", uid) FROM stdin;
-1	5.7.5	5.7.0.3	f	entcauahlsmp	3@dfftxjcjme	2025-02-11 20:13:37	2025-05-15 19:19:55	5586c0cf-e296-42a7-8bd0-821be5440a99
+1	5.7.5	5.7.0.3	f	gnkczleaavhg	3@zozumylsfh	2025-02-11 20:13:37	2025-05-20 01:40:30	5586c0cf-e296-42a7-8bd0-821be5440a99
 \.
 
 
@@ -5310,46 +5716,6 @@ sections.2d21b5d6-ed3b-489e-adb0-784f084e0537.siteSettings.52ff5c36-e87c-4674-8f
 sections.2d21b5d6-ed3b-489e-adb0-784f084e0537.structure.maxLevels	null
 sections.2d21b5d6-ed3b-489e-adb0-784f084e0537.structure.uid	"2e693f05-ab86-4d08-ba05-fca26ac22cb3"
 sections.2d21b5d6-ed3b-489e-adb0-784f084e0537.type	"structure"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.0	1
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.1	2
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.2	3
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.3	4
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.4	5
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.5	6
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.name	"Full"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.0	"heading"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.1	"|"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.2	"numberedList"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.3	"bulletedList"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.4	"bold"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.5	"italic"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.6	"link"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.7	"insertImage"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.8	"mediaEmbed"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.9	"undo"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.10	"redo"
-ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.11	"htmlEmbed"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.columnSuffix	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.handle	"blockContent"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.instructions	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.name	"Content"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.searchable	false
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.availableTransforms	""
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.availableVolumes	""
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.ckeConfig	"c164bcf4-0226-4e9f-bfe0-ca08ad8056b5"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.createButtonLabel	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.defaultTransform	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.enableSourceEditingForNonAdmins	true
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.entryTypes.0	"976d4ccf-4988-4c36-968c-53f396dce7f2"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.purifierConfig	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.purifyHtml	true
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showUnpermittedFiles	false
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showUnpermittedVolumes	false
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showWordCount	false
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.wordLimit	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.translationKeyFormat	null
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.translationMethod	"none"
-fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.type	"craft\\\\ckeditor\\\\Field"
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.color	"pink"
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.fieldLayouts.518d3f01-9f6b-4d25-b977-7b1dab3ffca4.tabs.0.elementCondition	null
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.fieldLayouts.518d3f01-9f6b-4d25-b977-7b1dab3ffca4.tabs.0.elements.0.autocapitalize	true
@@ -5425,89 +5791,6 @@ entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.slugTranslationMethod	"site"
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.titleFormat	""
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.titleTranslationKeyFormat	null
 entryTypes.798877d5-1c6b-43b0-94a9-203780a1b39f.titleTranslationMethod	"site"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.color	"purple"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elementCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.autocapitalize	true
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.autocomplete	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.autocorrect	true
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.class	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.dateAdded	"2024-08-15T18:06:57+00:00"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.disabled	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.elementCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.id	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.includeInCards	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.inputType	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.instructions	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.label	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.max	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.min	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.name	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.orientation	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.placeholder	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.providesThumbs	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.readonly	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.requirable	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.size	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.step	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.tip	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.title	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.uid	"8364e8ad-25c7-4683-a97f-a8363b9c3843"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.userCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.warning	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.width	100
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.dateAdded	"2024-08-15T18:09:44+00:00"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.elementCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.fieldUid	"ff11a7ef-4804-4699-9e26-f9d531a7e760"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.handle	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.includeInCards	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.instructions	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.label	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.providesThumbs	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.required	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.tip	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.uid	"499d05b1-7311-4f55-8cc3-aaf42eeaa022"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.userCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.warning	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.width	100
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.name	"Content"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.uid	"a4520faf-8263-4829-9646-14afc1d4b62c"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.userCondition	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.handle	"richText"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.hasTitleField	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.icon	""
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.name	"Rich Text"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.showSlugField	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.showStatusField	false
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.slugTranslationKeyFormat	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.slugTranslationMethod	"site"
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleFormat	""
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleTranslationKeyFormat	null
-entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleTranslationMethod	"site"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.columnSuffix	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.handle	"contentDesigner"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.instructions	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.name	"Content Designer"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.searchable	true
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.createButtonLabel	"New block"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.0	"b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.1	"dc246a2f-01d9-4061-b2a1-bc1e6b6edf94"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.2	"8d9c514a-a4e4-41ce-9b73-4425594f2885"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.3	"798877d5-1c6b-43b0-94a9-203780a1b39f"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.4	"0df95f6f-3e7a-4765-84de-aa8585234118"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.5	"307187bf-968f-42da-b579-dbc76b7a9fa6"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.includeTableView	false
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.maxEntries	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.minEntries	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.pageSize	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.propagationKeyFormat	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.propagationMethod	"all"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.showCardsInGrid	false
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.viewMode	"blocks"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.translationKeyFormat	null
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.translationMethod	"site"
-fields.0587c309-76fe-4928-9be3-cb2980b7908c.type	"craft\\\\fields\\\\Matrix"
 fs.images.hasUrls	true
 fs.images.name	"Images"
 fs.images.settings.path	"@webroot/images"
@@ -5938,28 +6221,6 @@ fields.115744a1-512d-495b-ba38-959ebed6cec4.settings.uiMode	"normal"
 fields.115744a1-512d-495b-ba38-959ebed6cec4.translationKeyFormat	null
 fields.115744a1-512d-495b-ba38-959ebed6cec4.translationMethod	"none"
 fields.115744a1-512d-495b-ba38-959ebed6cec4.type	"craft\\\\fields\\\\PlainText"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.columnSuffix	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.handle	"subBlocks"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.instructions	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.name	"Sub Blocks"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.searchable	false
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.createButtonLabel	"New block"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.0	"0df95f6f-3e7a-4765-84de-aa8585234118"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.1	"77f762ab-419d-47e9-8b43-63754dafa72f"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.2	"1a4b6ea7-240d-4c7c-86ab-ce16b55afc24"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.3	"6a91581a-a1ff-430b-bbeb-32b131747531"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.4	"4536b6f0-b762-4abc-b6d1-a918619f8b4d"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.includeTableView	false
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.maxEntries	2
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.minEntries	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.pageSize	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.propagationKeyFormat	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.propagationMethod	"all"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.showCardsInGrid	false
-fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.viewMode	"blocks"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.translationKeyFormat	null
-fields.866793e8-8646-486d-95c2-24ad883f46a7.translationMethod	"site"
-fields.866793e8-8646-486d-95c2-24ad883f46a7.type	"craft\\\\fields\\\\Matrix"
 fields.eeef2caa-117b-428d-9f03-adb34907baec.columnSuffix	null
 fields.eeef2caa-117b-428d-9f03-adb34907baec.handle	"linkText"
 fields.eeef2caa-117b-428d-9f03-adb34907baec.instructions	null
@@ -6577,7 +6838,6 @@ entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.1.userCondition	null
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.1.warning	null
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.1.width	100
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.color	null
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.2.dateAdded	"2024-09-18T16:45:57+00:00"
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.2.elementCondition	null
 entryTypes.ae7af0c4-5df7-45d3-aa71-3888882dd594.fieldLayouts.c2823c43-96cc-44b6-a469-77ffd312ec47.tabs.1.elements.2.fieldUid	"3e4455cb-a3c6-4a1f-aece-f5b32088a23e"
@@ -6680,10 +6940,10 @@ entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.label	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.providesThumbs	false
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.required	true
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.hasTitleField	false
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.tip	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.uid	"ece1acaa-8d7b-4b70-b18d-d684b55051ec"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.color	"lime"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.userCondition	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.warning	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.3.width	100
@@ -6729,9 +6989,9 @@ entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.includeInCards	false
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.instructions	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.label	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.icon	""
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.providesThumbs	false
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.required	false
+meta.__names__.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a	"Two Column Section"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.tip	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.1.elements.0.uid	"fca011df-c729-4107-b485-c8cecc25ea1e"
@@ -6778,7 +7038,6 @@ entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.fieldUid	"3e4455cb-a3c6-4a1f-aece-f5b32088a23e"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.handle	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.includeInCards	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.name	"Image"
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.instructions	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.label	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.2.elements.2.providesThumbs	false
@@ -6832,68 +7091,13 @@ entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.0.userCondition	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.0.warning	null
 entryTypes.976d4ccf-4988-4c36-968c-53f396dce7f2.fieldLayouts.03ad562c-afd8-4650-a7bf-37d27beda551.tabs.0.elements.0.width	100
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elementCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.dateAdded	"2024-08-15T18:11:22+00:00"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.elementCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.fieldUid	"dd58c3c0-4afc-4b83-a606-73c8bc282d99"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.handle	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.includeInCards	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.instructions	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.label	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.providesThumbs	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.required	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.tip	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.uid	"4d08175f-0237-45a4-b7a7-8441a7b3a2be"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.userCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.warning	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.1.width	100
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.name	"Content"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.uid	"4d2894de-76d5-4df2-980f-3f72f7e7dbc3"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.userCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.handle	"image"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.showSlugField	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.showStatusField	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.slugTranslationKeyFormat	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.slugTranslationMethod	"site"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleFormat	""
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleTranslationKeyFormat	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleTranslationMethod	"site"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.autocapitalize	true
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.autocomplete	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.autocorrect	true
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.class	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.dateAdded	"2024-08-15T18:09:47+00:00"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.disabled	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.elementCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.id	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.includeInCards	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.inputType	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.instructions	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.label	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.max	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.min	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.name	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.orientation	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.placeholder	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.providesThumbs	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.readonly	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.requirable	false
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.size	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.step	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.tip	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.title	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.uid	"eeb6f3c7-109f-440e-8aea-fefae98f43df"
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.userCondition	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.warning	null
-entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.width	100
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.hasTitleField	true
 sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.__assoc__.0.0	"label"
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.icon	""
 sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.__assoc__.0.1	"Primary entry page"
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.color	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elementCondition	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elementCondition	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.dateAdded	"2024-08-16T14:26:51+00:00"
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.elementCondition	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
@@ -6901,6 +7105,7 @@ entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.includeInCards	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.instructions	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.label	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.dateAdded	"2024-08-15T18:11:22+00:00"
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.providesThumbs	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.required	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.1.tip	null
@@ -6932,6 +7137,9 @@ entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.includeInCards	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.instructions	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.label	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.editCondition	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.elementCondition	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.fieldUid	"dd58c3c0-4afc-4b83-a606-73c8bc282d99"
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.providesThumbs	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.required	false
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.3.tip	null
@@ -6983,68 +7191,34 @@ entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.0.userCondition	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.0.warning	null
 entryTypes.fa15f698-a1ed-4140-9c8d-02eac44b66b4.fieldLayouts.e9c13e8c-26bc-4d3d-ba67-85e721133652.tabs.0.elements.0.width	100
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.color	"sky"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elementCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.dateAdded	"2024-08-15T20:33:56+00:00"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.elementCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.fieldUid	"3b057048-977f-4c40-ba97-63d84a65f907"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.handle	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.includeInCards	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.instructions	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.label	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.providesThumbs	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.required	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.tip	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.handle	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.includeInCards	false
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.instructions	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.label	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.providesThumbs	false
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.required	true
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.tip	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.uid	"4d08175f-0237-45a4-b7a7-8441a7b3a2be"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.userCondition	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.warning	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.elements.0.width	100
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.defaultPlacement	"end"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.uid	"99e90eb1-c242-4f2b-9841-60d7030aa800"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.userCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.warning	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.1.width	100
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.name	"Content"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.uid	"f68e3551-5eba-4824-a3d4-9d67fb6dfd4e"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.userCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.handle	"sharedSection"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.hasTitleField	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.icon	""
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.name	"Shared Section"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.showSlugField	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.showStatusField	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.slugTranslationKeyFormat	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.slugTranslationMethod	"site"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleFormat	""
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleTranslationKeyFormat	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleTranslationMethod	"site"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.autocapitalize	true
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.autocomplete	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.autocorrect	true
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.class	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.dateAdded	"2024-08-15T20:31:39+00:00"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.disabled	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.elementCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.id	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.includeInCards	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.inputType	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.instructions	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.label	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.max	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.min	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.name	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.orientation	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.placeholder	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.providesThumbs	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.readonly	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.requirable	false
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.size	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.step	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.name	"Content"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.uid	"4d2894de-76d5-4df2-980f-3f72f7e7dbc3"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.fieldLayouts.dbf6d4f8-51c7-4924-9747-da8670c51e61.tabs.0.userCondition	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.handle	"image"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.hasTitleField	false
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.icon	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.name	"Image"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.showSlugField	false
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.showStatusField	false
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.slugTranslationKeyFormat	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.slugTranslationMethod	"site"
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleFormat	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleTranslationKeyFormat	null
+entryTypes.1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.titleTranslationMethod	"site"
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.settings.placeholder	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.tip	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.title	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.uid	"54001396-1d6b-40ae-93e3-d346ca67b3ab"
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.userCondition	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.warning	null
-entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.width	100
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.showSlugField	true
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.color	null
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.fieldLayouts.5768a3ce-947b-41ab-a5bc-e31f9dbd0585.tabs.0.elementCondition	null
@@ -7104,85 +7278,297 @@ entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.fieldLayouts.5768a3ce-947b-41ab-
 entryTypes.07ed78bd-f9e2-4563-a544-52dfa027178e.fieldLayouts.5768a3ce-947b-41ab-a5bc-e31f9dbd0585.tabs.0.elements.0.width	100
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.settings.uiMode	"normal"
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.enableVersioning	true
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.color	"orange"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.dateAdded	"2024-08-15T20:21:43+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.elementCondition	null
 fields.c0144003-4e0b-4e16-8a3e-85fab98c9798.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.label	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.providesThumbs	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.required	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.uid	"a9930410-5e71-4ae4-8f87-cc564968dc04"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.dateAdded	"2024-08-15T20:21:43+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.label	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.providesThumbs	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.required	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.uid	"8fe215cb-38e5-419d-8038-a1ccebf68878"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.dateAdded	"2024-08-15T20:21:43+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.label	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.providesThumbs	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.required	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.translationKeyFormat	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.uid	"e52fc716-31f3-4af2-a7bd-ac01c1782728"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.dateAdded	"2024-08-15T20:41:44+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.fieldUid	"5217297d-5931-41b9-a7a4-a797bb339952"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.label	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.providesThumbs	false
 sections.8943bafd-8aa6-4449-8d82-21f319461410.entryTypes.0	"c59ecd1c-c856-4983-96da-bbbac954eab0"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.required	true
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.uid	"30b6394c-97dc-4b5a-807c-b612c4c38fd1"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.dateAdded	"2025-05-09T15:35:52+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.label	"CTA Link"
 sections.8943bafd-8aa6-4449-8d82-21f319461410.handle	"serviceUnavailablePage"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.providesThumbs	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.required	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.uid	"6345697c-5860-4cf9-ae7e-e3c595661c78"
 fields.c0144003-4e0b-4e16-8a3e-85fab98c9798.name	"Nav Link"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.name	"Content"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.uid	"d3f9b8a3-d83e-4e75-8e90-1e202868c302"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.dateAdded	"2024-08-15T20:21:43+00:00"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.editCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.elementCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.handle	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.includeInCards	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.instructions	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.label	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.providesThumbs	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.required	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.tip	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.uid	"e32c7188-d89d-484d-9c8d-55e6955ac556"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.warning	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.width	100
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.name	"Settings"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.uid	"41b56885-307a-42c8-a285-d7be4487c4c0"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.userCondition	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.handle	"logoGridSection"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.hasTitleField	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.icon	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.name	"Logo Grid"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.showSlugField	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.showStatusField	false
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.slugTranslationKeyFormat	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.slugTranslationMethod	"site"
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleFormat	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleTranslationKeyFormat	null
+entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleTranslationMethod	"site"
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.entryTypes.0	"07ed78bd-f9e2-4563-a544-52dfa027178e"
 sections.8943bafd-8aa6-4449-8d82-21f319461410.maxAuthors	1
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.color	"sky"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.dateAdded	"2024-08-15T17:02:36+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.uid	"74f3a028-f488-444d-9f5e-c5cf5a97ce3b"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.dateAdded	"2024-08-15T17:02:36+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.uid	"6f430633-62a8-44bb-93cb-4da3c4036f48"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.dateAdded	"2024-08-15T17:02:36+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
 sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.hasUrls	false
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.handle	"alerts"
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.maxAuthors	1
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.name	"Alerts"
 fields.c0144003-4e0b-4e16-8a3e-85fab98c9798.searchable	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.color	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elementCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.dateAdded	"2024-08-15T19:02:41+00:00"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.elementCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.fieldUid	"56554df0-f81a-4c6a-b023-706d2789eaa9"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.handle	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.includeInCards	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.instructions	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.label	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.providesThumbs	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.required	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.tip	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.uid	"0e66c4c1-1d62-4659-9ba7-294fbd16236c"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.userCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.warning	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.width	100
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.name	"Content"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.uid	"348db75c-74e1-427a-8a20-a5d0ef4ffa91"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.userCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.handle	"video"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.hasTitleField	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.icon	""
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.name	"Video"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.showSlugField	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.showStatusField	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.slugTranslationKeyFormat	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.slugTranslationMethod	"site"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleFormat	""
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleTranslationKeyFormat	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleTranslationMethod	"site"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.autocapitalize	true
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.autocomplete	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.autocorrect	true
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.class	null
 sections.8943bafd-8aa6-4449-8d82-21f319461410.name	"Service Unavailable Page"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.dateAdded	"2024-08-15T18:59:30+00:00"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.disabled	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.elementCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.id	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.includeInCards	false
 entryTypes.0526dbf2-583a-4dc9-83f5-f5888101378b.slugTranslationKeyFormat	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.inputType	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.instructions	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.label	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.max	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.min	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.name	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.orientation	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.placeholder	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.providesThumbs	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.readonly	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.requirable	false
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.size	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.step	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.tip	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.title	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.uid	"8a74de99-2481-40ce-8838-1e8aa8322c77"
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.previewTargets.0.__assoc__.1.0	"urlFormat"
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.userCondition	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.warning	null
-entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.uid	"eac65eca-e16a-4cef-98df-9353df2bdbc4"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.dateAdded	"2024-08-15T19:03:32+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.fieldUid	"866793e8-8646-486d-95c2-24ad883f46a7"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.required	true
 sections.8943bafd-8aa6-4449-8d82-21f319461410.previewTargets.0.__assoc__.1.0	"urlFormat"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.uid	"e2e0c206-e683-4581-8b92-0297f407c99d"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.dateAdded	"2025-05-09T15:32:19+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.label	"CTA Link"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.uid	"df5ef9c8-7e41-4dc8-bdc9-22db4d36788f"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.warning	null
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.translationMethod	"none"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.name	"Content"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.uid	"0355b2e8-6e94-44c3-85e7-15230078b004"
 entryTypes.0526dbf2-583a-4dc9-83f5-f5888101378b.slugTranslationMethod	"site"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.dateAdded	"2025-05-08T20:45:29+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.fieldUid	"3f694951-45bb-48bb-8b85-e0d8634e227c"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.uid	"38385629-a661-417f-9bb7-0d4dbef8b9fa"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.dateAdded	"2024-08-15T17:02:36+00:00"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.editCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.elementCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.handle	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.includeInCards	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.instructions	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.label	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.providesThumbs	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.required	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.tip	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.uid	"9f9770ea-fe09-4147-b7c4-de5b18682064"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.warning	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.width	100
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.name	"Settings"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.uid	"f736d5ff-5c94-4017-b4d9-d33cf1ea3003"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.userCondition	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.handle	"twoColumnSection"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.hasTitleField	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.icon	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.name	"Two Column Section"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.showSlugField	false
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.showStatusField	true
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.slugTranslationKeyFormat	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.slugTranslationMethod	"site"
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleFormat	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleTranslationKeyFormat	null
+entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleTranslationMethod	"site"
+meta.__names__.850e8e38-809a-494d-b643-efd7ff7c48e6	"Media Sub Blocks"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.columnSuffix	null
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.handle	"mediaSubBlocks"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.instructions	null
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.name	"Media Sub Blocks"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.searchable	false
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.createButtonLabel	"New Media"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.defaultIndexViewMode	"cards"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.enableVersioning	false
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.entryTypes.0.__assoc__.0.1	"1a4b6ea7-240d-4c7c-86ab-ce16b55afc24"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.entryTypes.1.__assoc__.0.0	"uid"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.entryTypes.1.__assoc__.0.1	"6a91581a-a1ff-430b-bbeb-32b131747531"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.includeTableView	false
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.maxEntries	1
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.minEntries	1
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.pageSize	null
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.propagationKeyFormat	null
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.propagationMethod	"all"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.showCardsInGrid	false
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.settings.viewMode	"blocks"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.translationKeyFormat	null
 entryTypes.0526dbf2-583a-4dc9-83f5-f5888101378b.titleFormat	""
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.translationMethod	"site"
+fields.850e8e38-809a-494d-b643-efd7ff7c48e6.type	"craft\\\\fields\\\\Matrix"
 entryTypes.656e0885-03be-47ab-8531-be346ddbfc62.showSlugField	true
 entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.color	null
 entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.fieldLayouts.130d1c84-abbf-4f46-b55f-7f2a597fb49f.tabs.0.elementCondition	null
@@ -7982,99 +8368,9 @@ entryTypes.8b3d1977-ab5a-4ca6-94cb-685acdef3921.fieldLayouts.4383c1fb-e88c-4b39-
 entryTypes.8b3d1977-ab5a-4ca6-94cb-685acdef3921.fieldLayouts.4383c1fb-e88c-4b39-ad25-fff4334ad240.tabs.0.elements.0.userCondition	null
 entryTypes.8b3d1977-ab5a-4ca6-94cb-685acdef3921.fieldLayouts.4383c1fb-e88c-4b39-ad25-fff4334ad240.tabs.0.elements.0.warning	null
 entryTypes.8b3d1977-ab5a-4ca6-94cb-685acdef3921.fieldLayouts.4383c1fb-e88c-4b39-ad25-fff4334ad240.tabs.0.elements.0.width	100
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.color	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elementCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.dateAdded	"2024-08-15T19:07:05+00:00"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.elementCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.fieldUid	"c76d791f-6a12-4609-94f8-66f12eb848fd"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.handle	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.includeInCards	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.instructions	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.label	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.providesThumbs	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.required	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.tip	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.uid	"586bf2ea-92b7-434b-ba21-8eaea6ce43bc"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.userCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.warning	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.width	100
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.dateAdded	"2024-08-15T19:07:05+00:00"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.elementCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.fieldUid	"524e948c-591f-4e9e-a275-77e3e0709b86"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.handle	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.includeInCards	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.instructions	null
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.propagationMethod	"all"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.label	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.providesThumbs	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.required	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.tip	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.uid	"71a62207-d38c-4ec7-9c75-7ccdab3fd216"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.userCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.warning	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.width	100
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.dateAdded	"2024-08-15T19:07:05+00:00"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.elementCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.fieldUid	"115744a1-512d-495b-ba38-959ebed6cec4"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.handle	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.includeInCards	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.instructions	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.label	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.providesThumbs	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.required	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.tip	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.uid	"b34609ff-0402-481e-ac56-4f45f1a1205d"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.userCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.warning	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.width	100
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.name	"Content"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.uid	"b799eb00-3272-4622-b8d3-7cbaba099107"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.userCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.handle	"testimonial"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.hasTitleField	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.icon	""
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.name	"Testimonial"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.showSlugField	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.showStatusField	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.slugTranslationKeyFormat	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.slugTranslationMethod	"site"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleFormat	""
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleTranslationKeyFormat	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleTranslationMethod	"site"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.autocapitalize	true
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.autocomplete	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.autocorrect	true
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.class	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.dateAdded	"2024-08-15T19:04:47+00:00"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.disabled	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.elementCondition	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.showSlugField	true
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.id	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.includeInCards	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.inputType	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.instructions	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.label	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.max	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.min	null
 fields.c0144003-4e0b-4e16-8a3e-85fab98c9798.settings.createButtonLabel	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.name	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.orientation	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.placeholder	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.providesThumbs	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.readonly	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.requirable	false
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.size	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.step	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.tip	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.title	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.uid	"a037e77d-ecca-4a3f-9a8d-bae8e1f34eb6"
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.userCondition	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.warning	null
-entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.width	100
 sections.6d180003-5ba0-4422-bebb-53f81069962e.defaultPlacement	"end"
 sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.uriFormat	null
 entryTypes.c2f04b66-544d-449f-a4de-c5605f121afd.color	null
@@ -9007,122 +9303,6 @@ fields.458fef22-7128-4c44-80db-51f83af8dc3e.settings.wordLimit	null
 fields.458fef22-7128-4c44-80db-51f83af8dc3e.translationKeyFormat	null
 fields.458fef22-7128-4c44-80db-51f83af8dc3e.translationMethod	"none"
 fields.458fef22-7128-4c44-80db-51f83af8dc3e.type	"craft\\\\ckeditor\\\\Field"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.color	"orange"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.dateAdded	"2024-08-15T20:21:43+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.instructions	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.label	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.uid	"8fe215cb-38e5-419d-8038-a1ccebf68878"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.1.width	100
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.dateAdded	"2024-08-15T20:21:43+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.instructions	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.label	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.uid	"e52fc716-31f3-4af2-a7bd-ac01c1782728"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.2.width	100
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.dateAdded	"2024-08-15T20:41:44+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.fieldUid	"5217297d-5931-41b9-a7a4-a797bb339952"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.instructions	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.label	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.uid	"30b6394c-97dc-4b5a-807c-b612c4c38fd1"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.3.width	100
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.dateAdded	"2025-05-09T15:35:52+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.label	"CTA Link"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.uid	"6345697c-5860-4cf9-ae7e-e3c595661c78"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.4.width	100
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.name	"Content"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.uid	"d3f9b8a3-d83e-4e75-8e90-1e202868c302"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.dateAdded	"2024-08-15T20:21:43+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.instructions	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.label	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.uid	"e32c7188-d89d-484d-9c8d-55e6955ac556"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.width	100
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.name	"Settings"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.uid	"41b56885-307a-42c8-a285-d7be4487c4c0"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.handle	"logoGridSection"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.hasTitleField	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.icon	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.name	"Logo Grid"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.showSlugField	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.showStatusField	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.slugTranslationKeyFormat	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.slugTranslationMethod	"site"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleFormat	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleTranslationKeyFormat	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.titleTranslationMethod	"site"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.dateAdded	"2024-08-15T20:21:43+00:00"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.editCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.elementCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.handle	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.includeInCards	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.instructions	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.label	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.providesThumbs	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.required	false
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.tip	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.uid	"a9930410-5e71-4ae4-8f87-cc564968dc04"
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.userCondition	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.warning	null
-entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.0.elements.0.width	100
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.color	null
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-9de4-cac73ac59725.cardView.0	"layoutElement:131fb942-4184-4c34-bb2d-722a8619f59a"
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-9de4-cac73ac59725.cardView.1	"layoutElement:d94a187a-a522-4c4c-b477-7c9d0ef1ebf9"
@@ -9205,55 +9385,7 @@ entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-9de4-cac73ac59725.tabs.0.elements.0.userCondition	null
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-9de4-cac73ac59725.tabs.0.elements.0.warning	null
 entryTypes.37bd2e2c-ad20-4890-921c-d205d7db4424.fieldLayouts.6e6b0216-5d3f-4f54-9de4-cac73ac59725.tabs.0.elements.0.width	100
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.color	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elementCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.dateAdded	"2025-05-09T15:33:50+00:00"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.editCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.elementCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.handle	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.includeInCards	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.instructions	"Fill in link to create a CTA"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.label	"CTA Link"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.providesThumbs	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.required	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.tip	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.uid	"76f5a0da-a193-46ec-ace9-cce0fdc990f3"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.userCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.warning	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.width	100
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.name	"Content"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.uid	"be2b67a6-33b2-46a1-846f-e1ffc52adbba"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.userCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.handle	"callToAction"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.hasTitleField	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.icon	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.name	"Call To Action"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.showSlugField	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.showStatusField	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.slugTranslationKeyFormat	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.slugTranslationMethod	"site"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleFormat	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleTranslationKeyFormat	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleTranslationMethod	"site"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.dateAdded	"2024-08-15T18:10:35+00:00"
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.0.size	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.editCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.elementCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.fieldUid	"ff11a7ef-4804-4699-9e26-f9d531a7e760"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.handle	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.includeInCards	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.instructions	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.label	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.providesThumbs	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.required	false
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.tip	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.uid	"f78a48e6-0909-4cd0-bd7a-17f0bb8e1c28"
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.userCondition	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.warning	null
-entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.width	100
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.color	null
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-ba9b-61c30a8de2ae.tabs.0.elementCondition	null
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-ba9b-61c30a8de2ae.tabs.0.elements.1.dateAdded	"2024-10-07T17:23:24+00:00"
@@ -9396,139 +9528,8 @@ entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-ba9b-61c30a8de2ae.tabs.0.elements.0.userCondition	null
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-ba9b-61c30a8de2ae.tabs.0.elements.0.warning	null
 entryTypes.75857680-696a-4d59-a666-5a8b8091a36c.fieldLayouts.396963b4-704a-43c3-ba9b-61c30a8de2ae.tabs.0.elements.0.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.color	"red"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.dateAdded	"2024-08-15T17:02:36+00:00"
 entryTypes.b96a3c34-e3b4-46ee-9bfe-c53406033bf0.fieldLayouts.123eea2e-7bd9-4581-a8a5-3854d9f5f314.tabs.0.elements.3.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.uid	"6f430633-62a8-44bb-93cb-4da3c4036f48"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.1.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.dateAdded	"2024-08-15T17:02:36+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.uid	"eac65eca-e16a-4cef-98df-9353df2bdbc4"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.2.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.dateAdded	"2024-08-15T19:03:32+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.fieldUid	"866793e8-8646-486d-95c2-24ad883f46a7"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.uid	"e2e0c206-e683-4581-8b92-0297f407c99d"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.3.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.dateAdded	"2025-05-09T15:32:19+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.label	"CTA Link"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.uid	"df5ef9c8-7e41-4dc8-bdc9-22db4d36788f"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.4.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.name	"Content"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.uid	"0355b2e8-6e94-44c3-85e7-15230078b004"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.dateAdded	"2025-05-08T20:45:29+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.fieldUid	"3f694951-45bb-48bb-8b85-e0d8634e227c"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.uid	"38385629-a661-417f-9bb7-0d4dbef8b9fa"
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.0.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.0.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.dateAdded	"2024-08-15T17:02:36+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.uid	"9f9770ea-fe09-4147-b7c4-de5b18682064"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.elements.1.width	100
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.name	"Settings"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.uid	"f736d5ff-5c94-4017-b4d9-d33cf1ea3003"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.1.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.handle	"basicSection"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.hasTitleField	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.icon	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.name	"Basic Section"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.showSlugField	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.showStatusField	true
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.slugTranslationKeyFormat	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.slugTranslationMethod	"site"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleFormat	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleTranslationKeyFormat	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.titleTranslationMethod	"site"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.dateAdded	"2024-08-15T17:02:36+00:00"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.editCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.elementCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.handle	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.includeInCards	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.instructions	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.label	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.providesThumbs	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.required	false
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.tip	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.uid	"74f3a028-f488-444d-9f5e-c5cf5a97ce3b"
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.userCondition	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.warning	null
-entryTypes.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.fieldLayouts.0a5eb646-9689-4454-8f84-a9815142c0ce.tabs.0.elements.0.width	100
 entryTypes.b96a3c34-e3b4-46ee-9bfe-c53406033bf0.color	null
 entryTypes.b96a3c34-e3b4-46ee-9bfe-c53406033bf0.fieldLayouts.123eea2e-7bd9-4581-a8a5-3854d9f5f314.tabs.0.elementCondition	null
 entryTypes.b96a3c34-e3b4-46ee-9bfe-c53406033bf0.fieldLayouts.123eea2e-7bd9-4581-a8a5-3854d9f5f314.tabs.0.elements.1.dateAdded	"2024-08-15T20:28:03+00:00"
@@ -9843,6 +9844,42 @@ entryTypes.dc246a2f-01d9-4061-b2a1-bc1e6b6edf94.fieldLayouts.57a2f56d-7b41-430b-
 entryTypes.dc246a2f-01d9-4061-b2a1-bc1e6b6edf94.fieldLayouts.57a2f56d-7b41-430b-87fd-5fda627c0b8b.tabs.0.elements.0.userCondition	null
 entryTypes.dc246a2f-01d9-4061-b2a1-bc1e6b6edf94.fieldLayouts.57a2f56d-7b41-430b-87fd-5fda627c0b8b.tabs.0.elements.0.warning	null
 entryTypes.dc246a2f-01d9-4061-b2a1-bc1e6b6edf94.fieldLayouts.57a2f56d-7b41-430b-87fd-5fda627c0b8b.tabs.0.elements.0.width	100
+meta.__names__.b4fd5d6c-8267-43f3-bfed-8defac06c057	"Testimonial Slides"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.columnSuffix	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.handle	"testimonialSlides"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.instructions	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.name	"Testimonial Slides"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.searchable	false
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.createButtonLabel	"New Testimonial"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.defaultIndexViewMode	"cards"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.enableVersioning	false
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.entryTypes.0.__assoc__.0.1	"4536b6f0-b762-4abc-b6d1-a918619f8b4d"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.includeTableView	false
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.maxEntries	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.minEntries	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.pageSize	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.propagationKeyFormat	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.propagationMethod	"all"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.showCardsInGrid	false
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.settings.viewMode	"blocks"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.translationKeyFormat	null
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.translationMethod	"site"
+fields.b4fd5d6c-8267-43f3-bfed-8defac06c057.type	"craft\\\\fields\\\\Matrix"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.color	"blue"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elementCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.dateAdded	"2025-05-19T15:09:44+00:00"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.editCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.elementCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.handle	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.includeInCards	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.instructions	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.label	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.providesThumbs	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.required	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.tip	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.color	null
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elementCondition	null
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.0.autocapitalize	true
@@ -9916,6 +9953,7 @@ entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.2.userCondition	null
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.2.warning	null
 entryTypes.21a3840e-e64f-472b-93e4-69935cee15e0.fieldLayouts.51d6435e-382a-4933-b348-820e0d0b0de5.tabs.0.elements.2.width	100
+meta.__names__.a63c9e01-02f0-422a-b717-1a8c254b0231	"Testimonial Slider"
 ckeditor.configs.dccf2895-2f61-4bbe-8ac6-bf389ab04527.headingLevels.0	1
 ckeditor.configs.dccf2895-2f61-4bbe-8ac6-bf389ab04527.headingLevels.1	2
 ckeditor.configs.dccf2895-2f61-4bbe-8ac6-bf389ab04527.headingLevels.2	3
@@ -9928,6 +9966,763 @@ ckeditor.configs.dccf2895-2f61-4bbe-8ac6-bf389ab04527.toolbar.1	"italic"
 plugins.pickture.edition	"standard"
 plugins.pickture.enabled	true
 plugins.pickture.schemaVersion	"1.0.0"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.uid	"1699a34c-9986-441c-a06f-a25c96247db3"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.userCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.warning	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.0.width	100
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.dateAdded	"2025-05-19T15:09:44+00:00"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.editCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.elementCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.fieldUid	"b4fd5d6c-8267-43f3-bfed-8defac06c057"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.handle	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.includeInCards	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.instructions	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.label	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.providesThumbs	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.required	true
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.tip	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.uid	"9def8205-92bf-4d29-8359-eae67adcb497"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.userCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.warning	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.elements.1.width	100
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.name	"Content"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.uid	"8bb431b0-1a0a-46f1-b0f0-67666181d012"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.0.userCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elementCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.dateAdded	"2025-05-19T15:09:44+00:00"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.editCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.elementCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.handle	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.includeInCards	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.instructions	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.label	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.providesThumbs	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.required	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.tip	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.uid	"6751c6cc-a7b5-4ae3-a07e-c7039b534a70"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.userCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.warning	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.elements.0.width	100
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.name	"Settings"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.uid	"37a5cc06-1d8e-4c4f-a398-d94b7a0f933e"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.fieldLayouts.adcccf35-575b-4fe9-a234-0fb72923e7d1.tabs.1.userCondition	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.handle	"testimonialSliderSection"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.hasTitleField	false
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.icon	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.name	"Testimonial Slider"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.showSlugField	true
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.showStatusField	true
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.slugTranslationKeyFormat	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.slugTranslationMethod	"site"
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.titleFormat	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.titleTranslationKeyFormat	null
+entryTypes.a63c9e01-02f0-422a-b717-1a8c254b0231.titleTranslationMethod	"site"
+meta.__names__.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc	"CTA Link"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.color	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elementCondition	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.dateAdded	"2025-05-19T17:34:32+00:00"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.editCondition	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.elementCondition	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.handle	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.includeInCards	false
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.instructions	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.label	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.providesThumbs	false
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.required	true
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.tip	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.uid	"12b95d16-8c6b-4d97-909d-74808a25636c"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.userCondition	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.warning	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.elements.0.width	100
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.name	"Content"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.uid	"f6e6d993-4d60-44d4-addb-619afecb3c3e"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.fieldLayouts.376ba6eb-1e4d-4507-b3bd-7fa32fc871db.tabs.0.userCondition	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.handle	"ctaLink"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.hasTitleField	false
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.icon	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.name	"CTA Link"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.showSlugField	false
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.showStatusField	true
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.slugTranslationKeyFormat	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.slugTranslationMethod	"site"
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.titleFormat	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.titleTranslationKeyFormat	null
+entryTypes.45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.titleTranslationMethod	"site"
+meta.__names__.0f24b2a8-d45a-4614-b908-6c6ed9230147	"CTA Links"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.columnSuffix	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.handle	"ctaLinks"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.instructions	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.name	"CTA Links"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.searchable	false
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.createButtonLabel	"New CTA Link"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.defaultIndexViewMode	"cards"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.enableVersioning	false
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.entryTypes.0.__assoc__.0.1	"45adbb6c-4095-4a69-b61a-fc7bcc0a73cc"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.includeTableView	false
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.maxEntries	2
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.minEntries	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.pageSize	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.propagationKeyFormat	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.propagationMethod	"all"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.showCardsInGrid	false
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.settings.viewMode	"blocks"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.translationKeyFormat	null
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.translationMethod	"site"
+fields.0f24b2a8-d45a-4614-b908-6c6ed9230147.type	"craft\\\\fields\\\\Matrix"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.color	"rose"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.dateAdded	"2025-05-19T15:20:02+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.label	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.uid	"618dd074-50f7-43f2-a5f2-5422fd74bcd9"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.0.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.dateAdded	"2025-05-19T15:20:02+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.label	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.uid	"f7095f63-5852-478e-9f4b-f1bfeb3df616"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.1.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.dateAdded	"2025-05-19T15:20:02+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.fieldUid	"37581c39-ebd0-4472-aa61-c2f51a891535"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.label	"Content"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.uid	"3ae000e9-a411-46fe-8ca0-7a80cba9eb7f"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.userCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.color	"cyan"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elementCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.dateAdded	"2024-08-15T20:33:56+00:00"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.editCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.elementCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.fieldUid	"3b057048-977f-4c40-ba97-63d84a65f907"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.handle	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.includeInCards	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.instructions	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.label	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.providesThumbs	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.required	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.tip	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.uid	"99e90eb1-c242-4f2b-9841-60d7030aa800"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.userCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.warning	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.elements.0.width	100
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.name	"Content"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.uid	"f68e3551-5eba-4824-a3d4-9d67fb6dfd4e"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.fieldLayouts.841f2f33-5104-4bd0-be00-17061f90eb1b.tabs.0.userCondition	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.handle	"sharedSection"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.hasTitleField	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.icon	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.name	"Shared Section"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.showSlugField	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.showStatusField	false
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.slugTranslationKeyFormat	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.slugTranslationMethod	"site"
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleFormat	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleTranslationKeyFormat	null
+entryTypes.307187bf-968f-42da-b579-dbc76b7a9fa6.titleTranslationMethod	"site"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.dateAdded	"2025-05-19T17:35:16+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.fieldUid	"0f24b2a8-d45a-4614-b908-6c6ed9230147"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.label	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.uid	"c0df7d8a-9398-4c1e-b561-2778b018846b"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.3.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.name	"Content"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.uid	"a2ede2c5-94a3-4eef-9154-ac1fd5b39457"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.dateAdded	"2025-05-19T15:20:02+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.fieldUid	"3f694951-45bb-48bb-8b85-e0d8634e227c"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.label	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.uid	"da7109d9-c296-4e89-b9e2-c88bddcf70d3"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.0.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.dateAdded	"2025-05-19T15:20:02+00:00"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.editCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.elementCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.handle	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.includeInCards	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.instructions	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.label	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.providesThumbs	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.required	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.tip	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.uid	"84f9b09a-aa1a-4a13-a8d2-aa8d49dd270e"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.warning	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.elements.1.width	100
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.name	"Settings"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.uid	"c0f6c0d1-000f-4c56-ba05-d2d642d083f5"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.1.userCondition	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.handle	"calloutSection"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.hasTitleField	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.icon	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.name	"Callout Section"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.showSlugField	false
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.showStatusField	true
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.slugTranslationKeyFormat	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.slugTranslationMethod	"site"
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.titleFormat	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.titleTranslationKeyFormat	null
+entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.titleTranslationMethod	"site"
+meta.__names__.37581c39-ebd0-4472-aa61-c2f51a891535	"Content (No Media)"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.columnSuffix	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.handle	"blockContentNoMedia"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.instructions	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.name	"Content (No Media)"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.searchable	true
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.availableTransforms	""
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.availableVolumes	"*"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.characterLimit	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.ckeConfig	"4a38a2c5-4173-4e7c-9c4d-de781a64d071"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.createButtonLabel	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.defaultTransform	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.fullGraphqlData	true
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.purifierConfig	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.purifyHtml	true
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.showUnpermittedFiles	false
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.showUnpermittedVolumes	false
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.showWordCount	false
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.sourceEditingGroups.0	"__ADMINS__"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.settings.wordLimit	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.translationKeyFormat	null
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.translationMethod	"none"
+fields.37581c39-ebd0-4472-aa61-c2f51a891535.type	"craft\\\\ckeditor\\\\Field"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.0	2
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.1	3
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.2	4
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.3	5
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.headingLevels.4	6
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.name	"Full"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.image.toolbar.0	"imageTextAlternative"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.image.toolbar.1	"imageEditor"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.link.decorators.isExternal.attributes.rel	"noopener noreferrer"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.link.decorators.isExternal.attributes.target	"_blank"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.link.decorators.isExternal.label	"Open in a new tab"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.options.link.decorators.isExternal.mode	"manual"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.0	"heading"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.1	"|"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.2	"numberedList"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.3	"bulletedList"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.4	"bold"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.5	"italic"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.6	"link"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.7	"insertImage"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.8	"undo"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.9	"redo"
+ckeditor.configs.c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.toolbar.10	"htmlEmbed"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.color	"teal"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elementCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.dateAdded	"2024-08-15T19:07:05+00:00"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.editCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.elementCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.fieldUid	"c76d791f-6a12-4609-94f8-66f12eb848fd"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.handle	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.includeInCards	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.instructions	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.label	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.providesThumbs	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.required	true
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.tip	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.uid	"586bf2ea-92b7-434b-ba21-8eaea6ce43bc"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.userCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.warning	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.0.width	100
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.dateAdded	"2025-05-20T01:24:03+00:00"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.editCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.elementCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.fieldUid	"dd58c3c0-4afc-4b83-a606-73c8bc282d99"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.handle	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.includeInCards	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.instructions	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.label	"Person Photo"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.providesThumbs	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.required	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.tip	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.uid	"2f5a0c9f-1145-49b0-9d0d-2c9a116e2d00"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.userCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.warning	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.1.width	100
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.dateAdded	"2024-08-15T19:07:05+00:00"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.editCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.elementCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.fieldUid	"524e948c-591f-4e9e-a275-77e3e0709b86"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.handle	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.includeInCards	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.instructions	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.label	"Person Name"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.providesThumbs	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.required	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.tip	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+meta.__names__.e9b06cc2-e638-47af-98b9-de75baf00165	"Rich Text"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.color	"purple"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elementCondition	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.dateAdded	"2025-05-16T14:25:51+00:00"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.editCondition	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.elementCondition	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.fieldUid	"37581c39-ebd0-4472-aa61-c2f51a891535"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.handle	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.includeInCards	false
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.instructions	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.label	"Content"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.providesThumbs	false
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.required	true
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.tip	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.uid	"5a0b3f4d-cec5-4550-8b64-a91492cec592"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.userCondition	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.warning	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.elements.0.width	100
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.name	"Content"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.uid	"15a0ef65-45ad-4409-9c8e-dd86be7683ae"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.fieldLayouts.a41a8bf7-9596-483f-ba98-110deb562d53.tabs.0.userCondition	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.handle	"richTextNoMedia"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.hasTitleField	false
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.icon	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.name	"Rich Text"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.showSlugField	false
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.showStatusField	false
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.slugTranslationKeyFormat	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.slugTranslationMethod	"site"
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.titleFormat	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.titleTranslationKeyFormat	null
+entryTypes.e9b06cc2-e638-47af-98b9-de75baf00165.titleTranslationMethod	"site"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.columnSuffix	null
+fields.866793e8-8646-486d-95c2-24ad883f46a7.handle	"subBlocks"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.instructions	null
+fields.866793e8-8646-486d-95c2-24ad883f46a7.name	"Sub Blocks"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.searchable	false
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.createButtonLabel	"New block"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.defaultIndexViewMode	"cards"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.enableVersioning	false
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.0.__assoc__.0.1	"e9b06cc2-e638-47af-98b9-de75baf00165"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.1.__assoc__.0.0	"uid"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.1.__assoc__.0.1	"77f762ab-419d-47e9-8b43-63754dafa72f"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.2.__assoc__.0.0	"uid"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.2.__assoc__.0.1	"1a4b6ea7-240d-4c7c-86ab-ce16b55afc24"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.3.__assoc__.0.0	"uid"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.3.__assoc__.0.1	"6a91581a-a1ff-430b-bbeb-32b131747531"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.4.__assoc__.0.0	"uid"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.entryTypes.4.__assoc__.0.1	"4536b6f0-b762-4abc-b6d1-a918619f8b4d"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.includeTableView	false
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.maxEntries	2
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.minEntries	2
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.pageSize	null
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.propagationKeyFormat	null
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.propagationMethod	"all"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.showCardsInGrid	false
+fields.866793e8-8646-486d-95c2-24ad883f46a7.settings.viewMode	"blocks"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.translationKeyFormat	null
+fields.866793e8-8646-486d-95c2-24ad883f46a7.translationMethod	"site"
+fields.866793e8-8646-486d-95c2-24ad883f46a7.type	"craft\\\\fields\\\\Matrix"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.uid	"71a62207-d38c-4ec7-9c75-7ccdab3fd216"
+meta.__names__.4a38a2c5-4173-4e7c-9c4d-de781a64d071	"No Media"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.headingLevels.0	2
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.headingLevels.1	3
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.headingLevels.2	4
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.headingLevels.3	5
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.headingLevels.4	6
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.name	"No Media"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.options.link.decorators.isExternal.attributes.rel	"noopener noreferrer"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.options.link.decorators.isExternal.attributes.target	"_blank"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.options.link.decorators.isExternal.label	"Open in a new tab"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.options.link.decorators.isExternal.mode	"manual"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.0	"heading"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.1	"|"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.2	"numberedList"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.3	"bulletedList"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.4	"bold"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.5	"italic"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.6	"link"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.7	"undo"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.8	"redo"
+ckeditor.configs.4a38a2c5-4173-4e7c-9c4d-de781a64d071.toolbar.9	"htmlEmbed"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.userCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.warning	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.2.width	100
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.dateAdded	"2024-08-15T19:07:05+00:00"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.editCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.elementCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.fieldUid	"115744a1-512d-495b-ba38-959ebed6cec4"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.handle	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.includeInCards	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.instructions	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.label	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.providesThumbs	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.required	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.tip	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.uid	"b34609ff-0402-481e-ac56-4f45f1a1205d"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.userCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.warning	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.elements.3.width	100
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.name	"Content"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.uid	"b799eb00-3272-4622-b8d3-7cbaba099107"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.fieldLayouts.315f8c9a-657d-4d28-9e41-97235cc27c25.tabs.0.userCondition	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.handle	"testimonial"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.hasTitleField	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.icon	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.name	"Testimonial"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.showSlugField	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.showStatusField	false
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.slugTranslationKeyFormat	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.slugTranslationMethod	"site"
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleFormat	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleTranslationKeyFormat	null
+entryTypes.4536b6f0-b762-4abc-b6d1-a918619f8b4d.titleTranslationMethod	"site"
+dateModified	1747705230
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.color	"amber"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elementCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.dateAdded	"2025-05-20T01:40:30+00:00"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.editCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.elementCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.fieldUid	"dd58c3c0-4afc-4b83-a606-73c8bc282d99"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.handle	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.includeInCards	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.instructions	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.label	"Thumbnail Image"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.providesThumbs	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.required	true
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.tip	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.uid	"3fe7f3bd-8d51-437a-94f1-7e0de56e58af"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.userCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.warning	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.0.width	100
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.dateAdded	"2024-08-15T19:02:41+00:00"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.editCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.elementCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.fieldUid	"56554df0-f81a-4c6a-b023-706d2789eaa9"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.handle	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.includeInCards	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.instructions	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.label	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.providesThumbs	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.required	true
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.tip	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.uid	"0e66c4c1-1d62-4659-9ba7-294fbd16236c"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.userCondition	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.columnSuffix	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.handle	"blockContent"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.instructions	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.name	"Content"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.searchable	false
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.availableTransforms	""
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.availableVolumes.0	"507a966d-0b69-4f8e-9d31-31b6528b14a0"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.characterLimit	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.ckeConfig	"c164bcf4-0226-4e9f-bfe0-ca08ad8056b5"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.createButtonLabel	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.defaultTransform	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.entryTypes.0.__assoc__.0.1	"976d4ccf-4988-4c36-968c-53f396dce7f2"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.fullGraphqlData	false
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.purifierConfig	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.purifyHtml	true
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showUnpermittedFiles	false
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showUnpermittedVolumes	false
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.showWordCount	false
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.sourceEditingGroups	"*"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.settings.wordLimit	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.translationKeyFormat	null
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.translationMethod	"none"
+fields.ff11a7ef-4804-4699-9e26-f9d531a7e760.type	"craft\\\\ckeditor\\\\Field"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.warning	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.elements.1.width	100
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.name	"Content"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.uid	"348db75c-74e1-427a-8a20-a5d0ef4ffa91"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.fieldLayouts.adb58e3b-a1c7-48d3-a0ea-9285a000fbd7.tabs.0.userCondition	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.handle	"video"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.hasTitleField	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.icon	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.name	"Video"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.showSlugField	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.showStatusField	false
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.slugTranslationKeyFormat	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.slugTranslationMethod	"site"
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleFormat	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleTranslationKeyFormat	null
+entryTypes.6a91581a-a1ff-430b-bbeb-32b131747531.titleTranslationMethod	"site"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.color	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elementCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.dateAdded	"2025-05-19T14:20:09+00:00"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.editCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.elementCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.fieldUid	"37581c39-ebd0-4472-aa61-c2f51a891535"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.handle	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.includeInCards	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.instructions	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.label	"Content"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.providesThumbs	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.required	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.tip	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.uid	"f204a9b4-3e4b-4e3e-8174-3cd2a188635c"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.userCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.warning	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.0.width	100
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.dateAdded	"2025-05-09T15:33:50+00:00"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.editCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.elementCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.handle	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.includeInCards	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.instructions	"Fill in link to create a CTA"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.label	"CTA Link"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.providesThumbs	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.required	true
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.tip	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.uid	"76f5a0da-a193-46ec-ace9-cce0fdc990f3"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.userCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.warning	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.elements.1.width	100
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.name	"Content"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.uid	"be2b67a6-33b2-46a1-846f-e1ffc52adbba"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.fieldLayouts.25e832d4-be1c-41d4-836b-00f72ac16c5f.tabs.0.userCondition	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.handle	"callToAction"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.hasTitleField	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.icon	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.name	"Call To Action"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.showSlugField	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.showStatusField	false
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.slugTranslationKeyFormat	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.slugTranslationMethod	"site"
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleFormat	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleTranslationKeyFormat	null
+entryTypes.77f762ab-419d-47e9-8b43-63754dafa72f.titleTranslationMethod	"site"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.columnSuffix	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.handle	"contentDesigner"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.instructions	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.name	"Content Designer"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.searchable	true
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.createButtonLabel	"New block"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.defaultIndexViewMode	"cards"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.enableVersioning	false
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.0.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.0.__assoc__.0.1	"b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.1.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.1.__assoc__.0.1	"0df95f6f-3e7a-4765-84de-aa8585234118"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.2.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.2.__assoc__.0.1	"22dea229-207d-41ba-8a31-13eea8c38a5c"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.3.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.3.__assoc__.0.1	"24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.4.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.4.__assoc__.0.1	"dc246a2f-01d9-4061-b2a1-bc1e6b6edf94"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.5.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.5.__assoc__.0.1	"8d9c514a-a4e4-41ce-9b73-4425594f2885"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.6.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.6.__assoc__.0.1	"798877d5-1c6b-43b0-94a9-203780a1b39f"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.7.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.7.__assoc__.0.1	"a63c9e01-02f0-422a-b717-1a8c254b0231"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.8.__assoc__.0.0	"uid"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.entryTypes.8.__assoc__.0.1	"307187bf-968f-42da-b579-dbc76b7a9fa6"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.includeTableView	false
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.maxEntries	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.minEntries	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.pageSize	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.propagationKeyFormat	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.propagationMethod	"all"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.showCardsInGrid	false
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.settings.viewMode	"blocks"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.translationKeyFormat	null
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.translationMethod	"site"
+fields.0587c309-76fe-4928-9be3-cb2980b7908c.type	"craft\\\\fields\\\\Matrix"
+meta.__names__.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3	"Callout Section"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.color	"purple"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.uid	"6a23d15f-8ec4-42fc-b4b9-5157b56a70e8"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.0.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.uid	"3bdf6645-aaa4-4ae3-b9a9-f33753d80099"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.1.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.uid	"4092a8ba-286b-4e41-af69-58e58f57b251"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.2.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.dateAdded	"2024-08-15T18:09:44+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.fieldUid	"ff11a7ef-4804-4699-9e26-f9d531a7e760"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.required	true
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.uid	"499d05b1-7311-4f55-8cc3-aaf42eeaa022"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.3.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.label	"CTA Link"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.uid	"98f7fbae-d98c-431b-9f17-f6707eec24ea"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.elements.4.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.name	"Content"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.uid	"a4520faf-8263-4829-9646-14afc1d4b62c"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.0.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.fieldUid	"3f694951-45bb-48bb-8b85-e0d8634e227c"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.uid	"456aad9a-5401-4892-8d76-d330913314cc"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.0.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.dateAdded	"2025-05-19T14:22:46+00:00"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.editCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.elementCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.handle	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.includeInCards	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.instructions	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.label	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.providesThumbs	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.required	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.tip	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.uid	"5f22eeef-8a82-4efc-b92f-ef3e784fcb37"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.warning	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.elements.1.width	100
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.name	"Settings"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.uid	"0771c72e-e5d9-4d7c-af04-a0e733ad4a72"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.fieldLayouts.31197cc2-c34c-4f8f-9b2d-286da8c09158.tabs.1.userCondition	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.handle	"richText"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.hasTitleField	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.icon	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.name	"Rich Text"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.showSlugField	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.showStatusField	false
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.slugTranslationKeyFormat	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.slugTranslationMethod	"site"
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleFormat	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleTranslationKeyFormat	null
+entryTypes.0df95f6f-3e7a-4765-84de-aa8585234118.titleTranslationMethod	"site"
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.columnSuffix	null
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.handle	"breadcrumbTitle"
 fields.89dec5ed-967b-4adc-96f4-990fe7f52da5.instructions	"You can optionally override the title of this page in the breadcrumbs the show in the hero. If nothing is provided here, the entry's title will be used."
@@ -9952,6 +10747,35 @@ fields.3644b740-3500-418e-a08f-7e66e4a2b99e.translationMethod	"none"
 fields.3644b740-3500-418e-a08f-7e66e4a2b99e.type	"craft\\\\fields\\\\Lightswitch"
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.color	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elementCondition	null
+meta.__names__.22dea229-207d-41ba-8a31-13eea8c38a5c	"Media Section"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.color	"indigo"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.dateAdded	"2025-05-19T14:57:58+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.fieldUid	"3546d0c2-4446-4f19-beb3-1e460aa375df"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.label	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.required	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.uid	"df8b6e6f-f6ba-497d-a35c-1afbe2096017"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.dateAdded	"2025-05-19T14:57:58+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.fieldUid	"3984cd0f-a133-49ff-94d0-63730cf1bf51"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.label	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.required	false
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.1.dateAdded	"2024-09-18T19:06:08+00:00"
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.1.editCondition	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.1.elementCondition	null
@@ -10095,7 +10919,34 @@ entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.0.width	100
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.color	null
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-9e83-a1c2111803a6.tabs.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.uid	"4903969a-2b49-4984-979e-6f0ab4c238c2"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.1.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.dateAdded	"2025-05-19T14:57:58+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.fieldUid	"dab85477-9d74-4135-9cd2-a0e109e07314"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.label	null
 meta.__names__.6695f59b-2131-411b-9ed2-35f957256c1a	"Event End Date"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.required	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.uid	"239636d6-2511-4e4b-9ecc-52761402f8dd"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.2.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.dateAdded	"2025-05-19T14:57:58+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.fieldUid	"850e8e38-809a-494d-b643-efd7ff7c48e6"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.handle	null
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-9e83-a1c2111803a6.tabs.0.elements.1.dateAdded	"2024-09-18T19:05:28+00:00"
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-9e83-a1c2111803a6.tabs.0.elements.1.editCondition	null
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-9e83-a1c2111803a6.tabs.0.elements.1.elementCondition	null
@@ -10244,6 +11095,34 @@ entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-
 entryTypes.521b80c9-0597-4ac3-b521-5e25290be644.fieldLayouts.c55236ad-7020-4efe-9e83-a1c2111803a6.tabs.0.elements.0.width	100
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.color	null
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-8d0c-4bee41322dd9.tabs.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.label	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.required	true
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.uid	"04f6a9aa-cc09-4745-8012-926262ab1481"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.3.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.dateAdded	"2025-05-19T14:57:58+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.fieldUid	"5a53a4fd-6824-4729-9a20-006558d3e221"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.instructions	"Fill in link to create a CTA"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.label	"CTA Link"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.required	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.uid	"cd295e4e-7d7a-44b4-9f10-0f61a4ad8b46"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.4.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.name	"Content"
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-8d0c-4bee41322dd9.tabs.0.elements.1.dateAdded	"2024-09-18T19:04:09+00:00"
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-8d0c-4bee41322dd9.tabs.0.elements.1.editCondition	null
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-8d0c-4bee41322dd9.tabs.0.elements.1.elementCondition	null
@@ -10391,7 +11270,35 @@ entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-
 entryTypes.a5dace26-0a0c-4f88-a4ad-63c74c424a5e.fieldLayouts.4289b4b7-03ee-407f-8d0c-4bee41322dd9.tabs.0.elements.0.width	100
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.color	null
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-b9bf-c7f559ef07e7.tabs.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.uid	"eb4e437b-df66-45d6-851e-38a858af1f56"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.dateAdded	"2025-05-19T14:56:23+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.fieldUid	"3f694951-45bb-48bb-8b85-e0d8634e227c"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.includeInCards	false
 meta.__names__.3984cd0f-a133-49ff-94d0-63730cf1bf51	"Headline"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.label	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.providesThumbs	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.required	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.uid	"fd9eba28-273f-4a36-969c-fbbba1453e3e"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.0.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.dateAdded	"2025-05-19T14:56:23+00:00"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.editCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.fieldUid	"a7b59ddf-b06d-4b04-8d73-c52609ae95d3"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.handle	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.includeInCards	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.instructions	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.label	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.providesThumbs	false
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-b9bf-c7f559ef07e7.tabs.0.elements.1.dateAdded	"2024-08-23T14:12:50+00:00"
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-b9bf-c7f559ef07e7.tabs.0.elements.1.editCondition	null
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-b9bf-c7f559ef07e7.tabs.0.elements.1.elementCondition	null
@@ -10541,6 +11448,27 @@ entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.fieldLayouts.40d44b5f-abdf-4896-b9bf-c7f559ef07e7.tabs.0.elements.0.width	100
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.color	null
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elementCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.required	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.tip	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.uid	"98b84bfa-5af9-4977-991c-f51e17838b61"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.warning	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.elements.1.width	100
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.name	"Settings"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.uid	"171c531a-728b-4417-b178-c7f60f05e056"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.1.userCondition	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.handle	"mediaSection"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.hasTitleField	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.icon	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.name	"Media Section"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.showSlugField	false
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.showStatusField	true
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.slugTranslationKeyFormat	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.slugTranslationMethod	"site"
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.titleFormat	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.titleTranslationKeyFormat	null
+entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.titleTranslationMethod	"site"
 meta.__names__.0526dbf2-583a-4dc9-83f5-f5888101378b	"Event"
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elements.1.dateAdded	"2024-09-18T19:01:44+00:00"
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elements.1.editCondition	null
@@ -10832,7 +11760,6 @@ entryTypes.e737c446-0085-4bd6-b343-2d4c9e9f312e.fieldLayouts.6e8b7625-f295-457b-
 entryTypes.e737c446-0085-4bd6-b343-2d4c9e9f312e.fieldLayouts.6e8b7625-f295-457b-a541-e459049f138a.tabs.0.elements.0.userCondition	null
 entryTypes.e737c446-0085-4bd6-b343-2d4c9e9f312e.fieldLayouts.6e8b7625-f295-457b-a541-e459049f138a.tabs.0.elements.0.warning	null
 entryTypes.e737c446-0085-4bd6-b343-2d4c9e9f312e.fieldLayouts.6e8b7625-f295-457b-a541-e459049f138a.tabs.0.elements.0.width	100
-dateModified	1747315808
 meta.__names__.0df95f6f-3e7a-4765-84de-aa8585234118	"Rich Text"
 meta.__names__.0e0a0c15-2d54-4a63-b4ae-29b75916437e	"Navigation"
 meta.__names__.0e078940-3caa-4bc2-84d3-c91c225cb26d	"Full Bio"
@@ -10900,7 +11827,6 @@ meta.__names__.adcddd0f-78ee-4ed7-bd80-ee4a2ebf8094	"Blog Authors"
 meta.__names__.ae7af0c4-5df7-45d3-aa71-3888882dd594	"News Article"
 meta.__names__.af012389-66c1-47b3-ac35-1880759c37c5	"Homepage"
 meta.__names__.b017369d-2ebc-4b60-8af4-d1777deb0450	"Press Mention URL"
-meta.__names__.b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a	"Basic Section"
 meta.__names__.b96a3c34-e3b4-46ee-9bfe-c53406033bf0	"Card"
 meta.__names__.bd4fb97b-3b89-49bc-9fdb-c20917cb6776	"Featured Image"
 meta.__names__.bda4be51-a390-429b-856f-8ebd7905b00a	"Hero Eyebrow"
@@ -11015,6 +11941,31 @@ COPY public.relations (id, "fieldId", "sourceId", "sourceSiteId", "targetId", "s
 83	50	318	\N	271	1	2025-05-06 17:22:09	2025-05-06 17:22:09	7cb7c817-3e80-484e-8c23-29e769e54477
 85	54	1	\N	271	1	2025-05-06 18:26:05	2025-05-06 18:26:05	70039287-2c0c-4c73-a231-b0c99f9be2bd
 86	54	1	\N	305	2	2025-05-06 18:26:05	2025-05-06 18:26:05	e0df9ee9-babc-44fc-b87d-42bb032cb17e
+92	1	84	1	3	1	2025-05-19 15:33:41	2025-05-19 15:33:41	24a7a81c-3675-474c-88f6-84202d6e80f0
+93	26	372	\N	228	1	2025-05-19 15:33:41	2025-05-19 15:33:41	d25df178-c0d9-433d-85b1-cb7168268e2e
+94	26	374	\N	247	1	2025-05-19 15:33:41	2025-05-19 15:33:41	a9352cae-7912-4740-9d62-1fbf1bcad044
+96	47	386	\N	40	1	2025-05-19 15:33:41	2025-05-19 15:33:41	164024ec-0e3b-4d21-a845-fc05e2fb06b8
+97	1	391	1	3	1	2025-05-19 15:33:41	2025-05-19 15:33:41	860a9350-83eb-40ff-b584-cd45328773be
+98	26	395	\N	244	1	2025-05-19 15:33:41	2025-05-19 15:33:41	3e96925d-063b-4dc2-b5d7-c193a3b93a4d
+99	26	401	\N	228	1	2025-05-19 15:33:41	2025-05-19 15:33:41	5db382b8-1cfc-41f7-b4ac-ae3ddbf67fd5
+100	9	402	\N	249	1	2025-05-19 15:33:42	2025-05-19 15:33:42	3d512601-aede-475d-a983-da37729877ef
+101	9	402	\N	250	2	2025-05-19 15:33:42	2025-05-19 15:33:42	f0e7b207-2a7c-4b80-a967-03faeb210f8d
+102	9	402	\N	251	3	2025-05-19 15:33:42	2025-05-19 15:33:42	b67041e1-e4b2-45b8-b958-f1e4b486ee51
+103	26	404	\N	253	1	2025-05-19 15:33:42	2025-05-19 15:33:42	59455d37-44f4-4b95-af35-fd2ed157e999
+104	37	408	\N	168	1	2025-05-19 15:33:42	2025-05-19 15:33:42	ac459396-78ee-4830-b6d9-5c0a1788040c
+105	26	411	\N	247	1	2025-05-19 15:33:42	2025-05-19 15:33:42	dbf931a5-461b-48fb-9a38-c19548a8b128
+106	1	420	1	3	1	2025-05-19 15:33:42	2025-05-19 15:33:42	796e98db-7535-4015-a724-866b01140426
+109	1	431	1	3	1	2025-05-19 17:35:52	2025-05-19 17:35:52	88e11f81-f191-402f-ad8c-585ea888b14a
+110	1	432	1	144	1	2025-05-19 17:35:52	2025-05-19 17:35:52	4fc0542e-59c0-45bc-99b7-dd504f545b96
+111	1	435	1	3	1	2025-05-19 17:35:52	2025-05-19 17:35:52	3169880d-c6b6-4c6a-862a-6049f7ccd8dc
+112	1	436	1	144	1	2025-05-19 17:35:52	2025-05-19 17:35:52	a0b7a1c3-de5a-41f8-b079-41d65a7cf6be
+114	26	378	\N	220	1	2025-05-20 01:24:30	2025-05-20 01:24:30	85eeab22-1022-4132-a665-752d152ff305
+115	26	444	\N	220	1	2025-05-20 01:24:31	2025-05-20 01:24:31	2568bca6-f85e-491e-9951-20e8f9fb099e
+118	1	196	1	3	1	2025-05-20 01:37:33	2025-05-20 01:37:33	afa98c41-db4c-43c8-90e3-d3f7d53e884d
+119	26	381	\N	233	1	2025-05-20 01:37:33	2025-05-20 01:37:33	cc79db82-10f4-4b7e-a687-503b5d743b09
+120	1	450	1	3	1	2025-05-20 01:37:33	2025-05-20 01:37:33	82b90a3f-a965-4fbc-a732-ea5e845ceb24
+121	26	452	\N	233	1	2025-05-20 01:37:33	2025-05-20 01:37:33	b1fe0f8a-557a-453c-a1f3-2d09eeb0eddf
+122	1	454	1	3	1	2025-05-20 01:38:57	2025-05-20 01:38:57	1ca58873-0536-4188-a947-730497bda232
 \.
 
 
@@ -11095,14 +12046,29 @@ bc57ce2a	@craft/web/assets/feed/dist
 c514e8e1	@craft/web/assets/dashboard/dist
 e9ca177	@nystudio107/retour/web/assets/dist
 91f8e1f7	@nystudio107/seomatic/web/assets/dist
-c320b752	@craft/web/assets/matrix/dist
-c18e5680	@nystudio107/seomatic/web/assets/dist
+91095be1	@craft/web/assets/cp/dist
+50e60a7f	@craft/web/assets/prismjs/dist
+5ca35fc9	@Imarc/Pickture/resources
 9a54438b	@craft/web/assets/tailwindreset/dist
+83ff21ad	@craft/web/assets/theme/dist
+c320b752	@craft/web/assets/matrix/dist
+c14ebb7f	@nystudio107/retour/web/assets/dist
+8eb1e8f	@craft/web/assets/vue/dist
+e2ed81fd	@craft/web/assets/admintable/dist
+9e69599b	@imarc/regexfield/assetbundles/regexfield/dist
+c18e5680	@nystudio107/seomatic/web/assets/dist
+b64aa84a	@craft/web/assets/conditionbuilder/dist
+7e5bed79	@craft/web/assets/htmx/dist
+b0b7fab4	@craft/ckeditor/web/assets/ckeconfig/dist
+857802f3	@craft/ckeditor/web/assets/ckeditor/dist
+aae65dea	@nystudio107/codeeditor/web/assets/dist
+2a75ee01	@craft/web/assets/timepicker/dist
+ee0e5b00	@imarc/craftentrytoc/assetbundles/dist
+4ff26fab	@bower/jquery/dist
 70cba4ab	@craft/web/assets/animationblocker/dist
 ad385547	@craft/web/assets/axios/dist
 8b3c7da8	@craft/web/assets/d3/dist
 f363c202	@craft/web/assets/garnish/dist
-4ff26fab	@bower/jquery/dist
 190f1b01	@craft/web/assets/jquerytouchevents/dist
 1ccbc6d4	@craft/web/assets/velocity/dist
 4515ffbd	@craft/web/assets/jqueryui/dist
@@ -11113,17 +12079,7 @@ f363c202	@craft/web/assets/garnish/dist
 2ebfa3bd	@craft/web/assets/xregexp/dist
 dbd1f515	@craft/web/assets/fabric/dist
 805d741f	@craft/web/assets/iframeresizer/dist
-83ff21ad	@craft/web/assets/theme/dist
-857802f3	@craft/ckeditor/web/assets/ckeditor/dist
-8eb1e8f	@craft/web/assets/vue/dist
-2a75ee01	@craft/web/assets/timepicker/dist
-c14ebb7f	@nystudio107/retour/web/assets/dist
-91095be1	@craft/web/assets/cp/dist
-50e60a7f	@craft/web/assets/prismjs/dist
-5ca35fc9	@Imarc/Pickture/resources
-9e69599b	@imarc/regexfield/assetbundles/regexfield/dist
-aae65dea	@nystudio107/codeeditor/web/assets/dist
-ee0e5b00	@imarc/craftentrytoc/assetbundles/dist
+8634a129	@craft/web/assets/fieldsettings/dist
 \.
 
 
@@ -11147,6 +12103,8 @@ COPY public.retour_static_redirects (id, "dateCreated", "dateUpdated", uid, "sit
 5	2025-02-20 20:20:17	2025-02-20 20:20:17	fa345cb8-e6d7-42ac-96e2-10b3f91582a1	\N	0	t	/resources/__temp_zoorvpsifgfamddnjtpovejecnizleezbcop	/resources/__temp_zoorvpsifgfamddnjtpovejecnizleezbcop	pathonly	exactmatch	/resources/imarc-website	301	5	0	\N
 6	2025-02-20 20:30:28	2025-02-20 20:30:28	627e42fb-c685-464e-a8e2-1c24dd97ffa1	\N	0	t	/resources	/resources	pathonly	exactmatch	/resource-home	301	5	0	\N
 7	2025-02-20 20:30:31	2025-02-20 20:30:31	960966e0-3e25-42b5-9495-b531145d338c	\N	0	t	/resources/kitchen-sink	/resources/kitchen-sink	pathonly	exactmatch	/resource-home/kitchen-sink	301	5	0	\N
+8	2025-05-15 19:32:14	2025-05-15 19:32:14	9ddf4d16-f6b5-4ec8-9ce7-0412c34f143e	\N	0	t	/resource-home	/resource-home	pathonly	exactmatch	/resources	301	5	0	\N
+9	2025-05-15 19:32:19	2025-05-15 20:26:43	9e1aa1bf-a21f-4ed2-bca8-324f7e102666	\N	0	t	/resource-home/kitchen-sink	/resource-home/kitchen-sink	pathonly	exactmatch	/kitchen-sink	301	5	2	2025-05-15 20:26:43
 \.
 
 
@@ -11155,7 +12113,8 @@ COPY public.retour_static_redirects (id, "dateCreated", "dateUpdated", uid, "sit
 --
 
 COPY public.retour_stats (id, "dateCreated", "dateUpdated", uid, "siteId", "redirectSrcUrl", "referrerUrl", "remoteIp", "userAgent", "exceptionMessage", "exceptionFilePath", "exceptionFileLine", "hitCount", "hitLastTime", "handledByRetour") FROM stdin;
-1	2025-05-05 18:09:33	2025-05-08 15:32:11	bdea9305-383e-4092-8cc2-1bb911369493	1	/main-icons-sprite.svg	https://padstone-next.imarc.io/	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone-next/vendor/craftcms/cms/src/web/Request.php	1409	56	2025-05-08 15:32:11	f
+2	2025-05-15 19:43:27	2025-05-15 20:26:43	c5200c62-d9f4-4499-b456-7283a5123a2d	1	/resource-home/kitchen-sink	https://padstone.imarc.io/resource-home/kitchen-sink	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1409	2	2025-05-15 20:26:43	t
+1	2025-05-05 18:09:33	2025-05-20 01:44:55	bdea9305-383e-4092-8cc2-1bb911369493	1	/main-icons-sprite.svg	https://padstone.imarc.io/kitchen-sink	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1409	116	2025-05-20 01:44:55	f
 \.
 
 
@@ -11296,6 +12255,62 @@ COPY public.revisions (id, "canonicalId", "creatorId", num, notes) FROM stdin;
 130	311	13	1	\N
 131	313	13	1	\N
 132	305	13	2	Applied “Draft 1”
+133	72	13	3	Applied “Draft 1”
+134	73	13	3	\N
+135	76	13	7	Applied “Draft 1”
+136	77	13	3	\N
+137	79	13	3	\N
+138	80	13	4	\N
+139	367	13	1	\N
+140	368	13	1	\N
+141	83	13	3	\N
+142	84	13	2	\N
+143	369	13	1	\N
+144	86	13	4	\N
+145	370	13	1	\N
+146	87	13	3	\N
+147	90	13	3	\N
+148	91	13	2	\N
+149	371	13	1	\N
+150	92	13	3	\N
+151	93	13	2	\N
+152	372	13	1	\N
+153	128	13	4	\N
+154	129	13	4	\N
+155	130	13	3	\N
+156	131	13	2	\N
+157	132	13	2	\N
+158	196	13	2	\N
+159	197	13	2	\N
+160	198	13	2	\N
+161	373	13	1	\N
+162	374	13	1	\N
+163	375	13	1	\N
+164	376	13	1	\N
+165	377	13	1	\N
+166	378	13	1	\N
+167	379	13	1	\N
+168	380	13	1	\N
+169	381	13	1	\N
+170	382	13	1	\N
+171	383	13	1	\N
+172	76	13	8	Applied “Draft 1”
+173	196	13	3	\N
+174	373	13	2	\N
+175	76	13	9	Applied “Draft 1”
+176	383	13	2	\N
+177	431	13	1	\N
+178	432	13	1	\N
+179	76	13	10	Applied “Draft 1”
+180	196	13	4	\N
+181	377	13	2	\N
+182	378	13	2	\N
+183	76	13	11	Applied “Draft 1”
+184	196	13	5	\N
+185	379	13	2	\N
+186	381	13	2	\N
+187	76	13	12	
+188	196	13	6	\N
 \.
 
 
@@ -11454,8 +12469,6 @@ COPY public.searchindex ("elementId", attribute, "fieldId", "siteId", keywords, 
 156	title	0	1	 contact us 	'contact' 'us'
 157	slug	0	1	 temp ouwreekxrbbaseckdpkylohqecvsmnquelrh 	'ouwreekxrbbaseckdpkylohqecvsmnquelrh' 'temp'
 157	title	0	1		
-84	slug	0	1	 temp btdvrkdrjukpovczwdvqkioozuogxhpgmccd 	'btdvrkdrjukpovczwdvqkioozuogxhpgmccd' 'temp'
-84	title	0	1		
 157	field	2	1	 get in touch 	'get' 'in' 'touch'
 149	slug	0	1	 temp cqowcvrwknhyeuvwmwhrxdntrbazkjpddpyh 	'cqowcvrwknhyeuvwmwhrxdntrbazkjpddpyh' 'temp'
 149	title	0	1		
@@ -11509,23 +12522,12 @@ COPY public.searchindex ("elementId", attribute, "fieldId", "siteId", keywords, 
 77	field	44	1	 euismod ponderum intellegam ea ius no cum movet detracto 	'cum' 'detracto' 'ea' 'euismod' 'intellegam' 'ius' 'movet' 'no' 'ponderum'
 277	slug	0	1	 amet porro 	'amet' 'porro'
 277	title	0	1	 amet porro 	'amet' 'porro'
-80	field	41	1	 rich text one column 	'column' 'one' 'rich' 'text'
 80	field	15	1	 section subheading 	'section' 'subheading'
-83	slug	0	1	 temp ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs 	'ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs' 'temp'
-83	title	0	1		
-83	field	41	1	 call to action one column 	'action' 'call' 'column' 'one' 'to'
 83	field	15	1		
 281	slug	0	1	 heading 1 	'1' 'heading'
 281	title	0	1	 heading 2 	'2' 'heading'
-86	field	41	1	 image one column 	'column' 'image' 'one'
 86	field	15	1		
-90	slug	0	1	 temp oznvkldnljllujsxhykvppymeviajukpgktm 	'oznvkldnljllujsxhykvppymeviajukpgktm' 'temp'
-90	title	0	1		
-90	field	41	1	 single column video 	'column' 'single' 'video'
 90	field	15	1		
-92	slug	0	1	 temp qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk 	'qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk' 'temp'
-92	title	0	1		
-92	field	41	1	 single column testimonial 	'column' 'single' 'testimonial'
 92	field	15	1		
 183	slug	0	1	 temp cjuupugavrcoorwmjtubjhmhbbsuslielktr 	'cjuupugavrcoorwmjtubjhmhbbsuslielktr' 'temp'
 183	title	0	1		
@@ -11536,13 +12538,9 @@ COPY public.searchindex ("elementId", attribute, "fieldId", "siteId", keywords, 
 198	slug	0	1		
 198	title	0	1		
 198	field	41	1	 headline override 	'headline' 'override'
-72	slug	0	1	 resource home 	'home' 'resource'
-72	title	0	1	 resources 	'resources'
 311	slug	0	1	 amet porro 	'amet' 'porro'
 311	title	0	1	 amet porro 	'amet' 'porro'
 313	slug	0	1	 ipsum dolorem 	'dolorem' 'ipsum'
-196	slug	0	1	 temp ssfusisbrwfzzdevczzazemjbcopowdqqvhu 	'ssfusisbrwfzzdevczzazemjbcopowdqqvhu' 'temp'
-196	title	0	1		
 197	slug	0	1	 related resources 	'related' 'resources'
 197	title	0	1	 related resources 	'related' 'resources'
 199	slug	0	1	 temp jqgkwdqebztcivrnabfdgfkbtvbnssvgkrpt 	'jqgkwdqebztcivrnabfdgfkbtvbnssvgkrpt' 'temp'
@@ -11685,15 +12683,9 @@ COPY public.searchindex ("elementId", attribute, "fieldId", "siteId", keywords, 
 253	alt	0	1		
 253	slug	0	1		
 253	title	0	1	 74 1500x1000 	'1500x1000' '74'
-76	slug	0	1	 kitchen sink 	'kitchen' 'sink'
-76	title	0	1	 kitchen sink 	'kitchen' 'sink'
-76	field	28	1	 rich text one column section subheading call to action one column image one column single column video single column testimonial two column rich text and image some logos some cards related resources 	'action' 'and' 'call' 'cards' 'column' 'image' 'logos' 'one' 'related' 'resources' 'rich' 'section' 'single' 'some' 'subheading' 'testimonial' 'text' 'to' 'two' 'video'
-80	slug	0	1	 temp krixqgaepzdxexvbmmnpjwdifuojikzctmgw 	'krixqgaepzdxexvbmmnpjwdifuojikzctmgw' 'temp'
-80	title	0	1		
 255	slug	0	1	 temp remsxpcwggnpulsathelkbnmxpvcbeyeuwdf 	'remsxpcwggnpulsathelkbnmxpvcbeyeuwdf' 'temp'
 255	title	0	1		
-86	slug	0	1	 temp cbcccayiwczuqqhqwddpqkucudqvhsqwumey 	'cbcccayiwczuqqhqwddpqkucudqvhsqwumey' 'temp'
-86	title	0	1		
+373	slug	0	1	 temp undityaamjswiqodglczabdajccpibgriexi 	'temp' 'undityaamjswiqodglczabdajccpibgriexi'
 87	slug	0	1	 temp rmqystbwdmyzencrtxcqsdqtmjyskmztidak 	'rmqystbwdmyzencrtxcqsdqtmjyskmztidak' 'temp'
 87	title	0	1		
 125	slug	0	1	 temp wiphjjyxkrnelxfwsytcdgqetufqcnkaidob 	'temp' 'wiphjjyxkrnelxfwsytcdgqetufqcnkaidob'
@@ -11715,6 +12707,88 @@ COPY public.searchindex ("elementId", attribute, "fieldId", "siteId", keywords, 
 270	slug	0	1	 temp ntbtgjfeppynfvwxujcayhnewuxlgwmzkgdq 	'ntbtgjfeppynfvwxujcayhnewuxlgwmzkgdq' 'temp'
 270	title	0	1		
 327	slug	0	1		
+72	slug	0	1	 resources 	'resources'
+72	title	0	1	 resources 	'resources'
+80	slug	0	1	 temp krixqgaepzdxexvbmmnpjwdifuojikzctmgw 	'krixqgaepzdxexvbmmnpjwdifuojikzctmgw' 'temp'
+80	title	0	1		
+80	field	41	1	 two column rich text 	'column' 'rich' 'text' 'two'
+367	slug	0	1	 temp cyxpqzopszwfdjvgsciumbsroxujvsmusrrq 	'cyxpqzopszwfdjvgsciumbsroxujvsmusrrq' 'temp'
+367	title	0	1		
+367	field	59	1	 pellentesque euismod iaculis nibh duis a ante quis dolor blandit pulvinar integer sollicitudin leo non vulputate elementum pellentesque eu diam euismod vehicula justo at egestas neque duis et fermentum mi non sodales quam phasellus erat dolor venenatis ac ultrices vel elementum in nisi vivamus sit amet neque a tortor pellentesque tempus vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae sed a neque egestas porta orci vitae porttitor quam sed in risus sit amet dolor faucibus elementum ac at sapien proin fermentum orci ut finibus faucibus leo arcu sodales eros a varius nisi ante ut mi pellentesque gravida luctus pretium sed tellus sem interdum non vulputate at tempus sed lorem vestibulum sagittis nunc a dignissim sodales neque risus lacinia erat id rutrum ipsum felis ut felis etiam in venenatis nunc integer in justo sollicitudin malesuada orci sit amet tristique nisi 	'a' 'ac' 'amet' 'ante' 'arcu' 'at' 'blandit' 'cubilia' 'curae' 'diam' 'dignissim' 'dolor' 'duis' 'egestas' 'elementum' 'erat' 'eros' 'et' 'etiam' 'eu' 'euismod' 'faucibus' 'felis' 'fermentum' 'finibus' 'gravida' 'iaculis' 'id' 'in' 'integer' 'interdum' 'ipsum' 'justo' 'lacinia' 'leo' 'lorem' 'luctus' 'malesuada' 'mi' 'neque' 'nibh' 'nisi' 'non' 'nunc' 'orci' 'pellentesque' 'phasellus' 'porta' 'porttitor' 'posuere' 'pretium' 'primis' 'proin' 'pulvinar' 'quam' 'quis' 'risus' 'rutrum' 'sagittis' 'sapien' 'sed' 'sem' 'sit' 'sodales' 'sollicitudin' 'tellus' 'tempus' 'tortor' 'tristique' 'ultrices' 'ut' 'varius' 'vehicula' 'vel' 'venenatis' 'vestibulum' 'vitae' 'vivamus' 'vulputate'
+373	title	0	1		
+377	slug	0	1	 temp cdtocympxjalbimvtgkxnfrfnbdqbdovrukz 	'cdtocympxjalbimvtgkxnfrfnbdqbdovrukz' 'temp'
+377	title	0	1		
+378	slug	0	1	 temp grwwagdxoinlyrwhikeygzliirszkbvstfeq 	'grwwagdxoinlyrwhikeygzliirszkbvstfeq' 'temp'
+378	title	0	1		
+383	slug	0	1	 temp aeascbnmfregdisrmtlsrwlqohnfvhtijdgg 	'aeascbnmfregdisrmtlsrwlqohnfvhtijdgg' 'temp'
+383	title	0	1		
+431	slug	0	1	 temp hshdiybfqkdkmhyqettuziscabtxawrsybal 	'hshdiybfqkdkmhyqettuziscabtxawrsybal' 'temp'
+431	title	0	1		
+431	field	1	1	 https padstone imarc io 	'https' 'imarc' 'io' 'padstone'
+432	slug	0	1	 temp dbizusfbzalxhkzqctfbowrzjilkyhbwpznm 	'dbizusfbzalxhkzqctfbowrzjilkyhbwpznm' 'temp'
+432	title	0	1		
+432	field	1	1	 https padstone imarc io about 	'about' 'https' 'imarc' 'io' 'padstone'
+196	field	1	1	 https padstone imarc io 	'https' 'imarc' 'io' 'padstone'
+379	slug	0	1	 temp aqtnbcsqmnuhcpcafkpbuzcffenhriffjzqv 	'aqtnbcsqmnuhcpcafkpbuzcffenhriffjzqv' 'temp'
+379	title	0	1		
+381	slug	0	1	 temp sbequxfdefjuckmusfdnhgxpzrghcsgrrfoq 	'sbequxfdefjuckmusfdnhgxpzrghcsgrrfoq' 'temp'
+381	title	0	1		
+368	slug	0	1	 temp uxzrtbqpkabxslucndppcfxmzctcebdguusw 	'temp' 'uxzrtbqpkabxslucndppcfxmzctcebdguusw'
+368	title	0	1		
+368	field	59	1	 cras justo odio dapibus ac facilisis in egestas eget quam cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus aenean lacinia bibendum nulla sed consectetur etiam porta sem malesuada magna mollis euismod donec ullamcorper nulla non metus auctor fringilla vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor nullam quis risus eget urna mollis ornare vel eu leo cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus maecenas sed diam eget risus varius blandit sit amet non magna donec sed odio dui nulla vitae elit libero a pharetra augue donec id elit non mi porta gravida at eget metus lorem ipsum dolor sit amet consectetur adipiscing elit cras mattis consectetur purus sit amet fermentum etiam porta sem malesuada magna mollis euismod 	'a' 'ac' 'adipiscing' 'aenean' 'amet' 'at' 'auctor' 'augue' 'bibendum' 'blandit' 'consectetur' 'cras' 'cum' 'dapibus' 'diam' 'dis' 'dolor' 'donec' 'dui' 'egestas' 'eget' 'elit' 'et' 'etiam' 'eu' 'euismod' 'facilisis' 'faucibus' 'fermentum' 'fringilla' 'gravida' 'id' 'in' 'ipsum' 'justo' 'lacinia' 'lacus' 'laoreet' 'leo' 'libero' 'lorem' 'maecenas' 'magna' 'magnis' 'malesuada' 'mattis' 'metus' 'mi' 'mollis' 'montes' 'mus' 'nascetur' 'natoque' 'non' 'nulla' 'nullam' 'odio' 'ornare' 'parturient' 'penatibus' 'pharetra' 'porta' 'purus' 'quam' 'quis' 'ridiculus' 'risus' 'rutrum' 'sagittis' 'sed' 'sem' 'sit' 'sociis' 'ullamcorper' 'urna' 'varius' 'vel' 'vitae' 'vivamus'
+83	slug	0	1	 temp ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs 	'ptsfhtzwyqhhmezyyqnvjmlkiuyxljdrwccs' 'temp'
+83	title	0	1		
+83	field	41	1	 two column rich text call to action 	'action' 'call' 'column' 'rich' 'text' 'to' 'two'
+84	slug	0	1	 temp btdvrkdrjukpovczwdvqkioozuogxhpgmccd 	'btdvrkdrjukpovczwdvqkioozuogxhpgmccd' 'temp'
+84	title	0	1		
+84	field	59	1	 integer posuere erat a ante venenatis dapibus posuere velit aliquet 	'a' 'aliquet' 'ante' 'dapibus' 'erat' 'integer' 'posuere' 'velit' 'venenatis'
+84	field	1	1	 https padstone imarc io 	'https' 'imarc' 'io' 'padstone'
+369	slug	0	1	 temp clgshuvahjolclgoexfhzgauypujjxelttzv 	'clgshuvahjolclgoexfhzgauypujjxelttzv' 'temp'
+369	title	0	1		
+369	field	59	1	 nulla vitae elit libero a pharetra augue donec id elit non mi porta gravida at eget metus cras justo odio dapibus ac facilisis in egestas eget quam lorem ipsum dolor sit amet consectetur adipiscing elit cras mattis consectetur purus sit amet fermentum donec ullamcorper nulla non metus auctor fringilla aenean lacinia bibendum nulla sed consectetur nulla vitae elit libero a pharetra augue donec ullamcorper nulla non metus auctor fringilla donec id elit non mi porta gravida at eget metus aenean eu leo quam pellentesque ornare sem lacinia quam venenatis vestibulum donec id elit non mi porta gravida at eget metus aenean eu leo quam pellentesque ornare sem lacinia quam venenatis vestibulum duis mollis est non commodo luctus nisi erat porttitor ligula eget lacinia odio sem nec elit 	'a' 'ac' 'adipiscing' 'aenean' 'amet' 'at' 'auctor' 'augue' 'bibendum' 'commodo' 'consectetur' 'cras' 'dapibus' 'dolor' 'donec' 'duis' 'egestas' 'eget' 'elit' 'erat' 'est' 'eu' 'facilisis' 'fermentum' 'fringilla' 'gravida' 'id' 'in' 'ipsum' 'justo' 'lacinia' 'leo' 'libero' 'ligula' 'lorem' 'luctus' 'mattis' 'metus' 'mi' 'mollis' 'nec' 'nisi' 'non' 'nulla' 'odio' 'ornare' 'pellentesque' 'pharetra' 'porta' 'porttitor' 'purus' 'quam' 'sed' 'sem' 'sit' 'ullamcorper' 'venenatis' 'vestibulum' 'vitae'
+86	slug	0	1	 temp cbcccayiwczuqqhqwddpqkucudqvhsqwumey 	'cbcccayiwczuqqhqwddpqkucudqvhsqwumey' 'temp'
+86	title	0	1		
+86	field	41	1	 two column rich text image 	'column' 'image' 'rich' 'text' 'two'
+370	slug	0	1	 temp catafvqdellqmzpcpbsxiwqtliewabtfeffy 	'catafvqdellqmzpcpbsxiwqtliewabtfeffy' 'temp'
+370	title	0	1		
+370	field	59	1	 aenean lacinia bibendum nulla sed consectetur aenean eu leo quam pellentesque ornare sem lacinia quam venenatis vestibulum donec id elit non mi porta gravida at eget metus praesent commodo cursus magna vel scelerisque nisl consectetur et maecenas faucibus mollis interdum cras justo odio dapibus ac facilisis in egestas eget quam aenean eu leo quam pellentesque ornare sem lacinia quam venenatis vestibulum donec id elit non mi porta gravida at eget metus 	'ac' 'aenean' 'at' 'bibendum' 'commodo' 'consectetur' 'cras' 'cursus' 'dapibus' 'donec' 'egestas' 'eget' 'elit' 'et' 'eu' 'facilisis' 'faucibus' 'gravida' 'id' 'in' 'interdum' 'justo' 'lacinia' 'leo' 'maecenas' 'magna' 'metus' 'mi' 'mollis' 'nisl' 'non' 'nulla' 'odio' 'ornare' 'pellentesque' 'porta' 'praesent' 'quam' 'scelerisque' 'sed' 'sem' 'vel' 'venenatis' 'vestibulum'
+90	slug	0	1	 temp oznvkldnljllujsxhykvppymeviajukpgktm 	'oznvkldnljllujsxhykvppymeviajukpgktm' 'temp'
+90	title	0	1		
+90	field	41	1	 two column rich text video 	'column' 'rich' 'text' 'two' 'video'
+371	slug	0	1	 temp lsbrqqomgwhehpwlenqjguxwynhwxvtuubas 	'lsbrqqomgwhehpwlenqjguxwynhwxvtuubas' 'temp'
+371	title	0	1		
+371	field	59	1	 aenean lacinia bibendum nulla sed consectetur maecenas sed diam eget risus varius blandit sit amet non magna maecenas faucibus mollis interdum nullam id dolor id nibh ultricies vehicula ut id elit lorem ipsum dolor sit amet consectetur adipiscing elit cras mattis consectetur purus sit amet fermentum sed posuere consectetur est at lobortis etiam porta sem malesuada magna mollis euismod aenean eu leo quam pellentesque ornare sem lacinia quam venenatis vestibulum vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor 	'adipiscing' 'aenean' 'amet' 'at' 'auctor' 'augue' 'bibendum' 'blandit' 'consectetur' 'cras' 'diam' 'dolor' 'eget' 'elit' 'est' 'etiam' 'eu' 'euismod' 'faucibus' 'fermentum' 'id' 'interdum' 'ipsum' 'lacinia' 'lacus' 'laoreet' 'leo' 'lobortis' 'lorem' 'maecenas' 'magna' 'malesuada' 'mattis' 'mollis' 'nibh' 'non' 'nulla' 'nullam' 'ornare' 'pellentesque' 'porta' 'posuere' 'purus' 'quam' 'risus' 'rutrum' 'sagittis' 'sed' 'sem' 'sit' 'ultricies' 'ut' 'varius' 'vehicula' 'vel' 'venenatis' 'vestibulum' 'vivamus'
+92	slug	0	1	 temp qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk 	'qwbufkgpqbaqotpjjzfuhwxtbfrfvpvnvowk' 'temp'
+92	title	0	1		
+92	field	41	1	 two column image testimonial 	'column' 'image' 'testimonial' 'two'
+372	slug	0	1	 temp coxmsqxdvefhoquflttkkzhboqgltrqtjxdn 	'coxmsqxdvefhoquflttkkzhboqgltrqtjxdn' 'temp'
+372	title	0	1		
+196	field	41	1	 single column rich text 	'column' 'rich' 'single' 'text'
+373	field	41	1	 single column image 	'column' 'image' 'single'
+373	field	15	1		
+373	field	1	1		
+374	slug	0	1	 temp aripljkqlgguuwkblcylzlqiusxzliyeotre 	'aripljkqlgguuwkblcylzlqiusxzliyeotre' 'temp'
+374	title	0	1		
+375	slug	0	1	 temp fuvcollyrtqkgvyhzsgkjmharnmucsozhxur 	'fuvcollyrtqkgvyhzsgkjmharnmucsozhxur' 'temp'
+375	title	0	1		
+375	field	41	1	 single column video 	'column' 'single' 'video'
+375	field	15	1		
+375	field	1	1		
+376	slug	0	1	 temp gwmzptudmltcwjeqwphlsftdwvmrnglrwzhh 	'gwmzptudmltcwjeqwphlsftdwvmrnglrwzhh' 'temp'
+376	title	0	1		
+377	field	41	1	 testimonial single 	'single' 'testimonial'
+379	field	41	1	 testimonial slider 	'slider' 'testimonial'
+380	slug	0	1	 temp tvsmzmvnlvwlgurokojjyvjvgsomzbhxxlyl 	'temp' 'tvsmzmvnlvwlgurokojjyvjvgsomzbhxxlyl'
+380	title	0	1		
+382	slug	0	1	 temp bsdtowvzlxkexvkqqfqxgtnrlazzvwhuffoa 	'bsdtowvzlxkexvkqqfqxgtnrlazzvwhuffoa' 'temp'
+382	title	0	1		
+383	field	41	1	 callout section 	'callout' 'section'
+383	field	59	1	 sed posuere consectetur est at lobortis praesent commodo cursus magna vel scelerisque nisl consectetur et 	'at' 'commodo' 'consectetur' 'cursus' 'est' 'et' 'lobortis' 'magna' 'nisl' 'posuere' 'praesent' 'scelerisque' 'sed' 'vel'
+196	slug	0	1	 temp ssfusisbrwfzzdevczzazemjbcopowdqqvhu 	'ssfusisbrwfzzdevczzazemjbcopowdqqvhu' 'temp'
+196	title	0	1		
+76	slug	0	1	 kitchen sink 	'kitchen' 'sink'
+76	title	0	1	 kitchen sink 	'kitchen' 'sink'
+76	field	28	1	 two column rich text section subheading two column rich text call to action two column rich text image two column rich text video two column image testimonial some logos some cards single column rich text https padstone imarc io related resources single column image single column video testimonial single testimonial slider callout section sed posuere consectetur est at lobortis praesent commodo cursus magna vel scelerisque nisl consectetur et 	'action' 'at' 'call' 'callout' 'cards' 'column' 'commodo' 'consectetur' 'cursus' 'est' 'et' 'https' 'image' 'imarc' 'io' 'lobortis' 'logos' 'magna' 'nisl' 'padstone' 'posuere' 'praesent' 'related' 'resources' 'rich' 'scelerisque' 'section' 'sed' 'single' 'slider' 'some' 'subheading' 'testimonial' 'text' 'to' 'two' 'vel' 'video'
 \.
 
 
@@ -11816,11 +12890,11 @@ COPY public.seomatic_metabundles (id, "dateCreated", "dateUpdated", uid, "bundle
 4	2025-02-11 20:13:39	2025-02-20 19:12:27	d1a85f1a-14fc-456b-bead-855948f9ed6f	1.0.28	categorygroup	3	Blog Categories	blogCategories	category	\N	blog-categories/_category.twig	1	{"1":{"id":3,"groupId":3,"siteId":1,"hasUrls":true,"uriFormat":"blog?category={slug}","template":"blog-categories\\/_category.twig","language":"en-us"}}	2025-02-20 19:12:27	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ category.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ category.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ category.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ category.dateCreated |date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ category.dateCreated |atom }}","isAccessibleForFree":null,"dateCreated":"{{ category.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebPage","siteSpecificType":"","seoTitleSource":"fromField","seoTitleField":"title","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"sameAsGlobal","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"sameAsGlobal","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
 6	2025-02-11 20:13:41	2025-05-15 19:20:02	c8a7e788-c6d3-40c5-92f0-4b175c014cee	1.0.31	section	2	Service Unavailable Page	serviceUnavailablePage	single	\N	503	1	{"1":{"id":2,"sectionId":2,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"503","template":"503","language":"en-us"}}	2025-05-06 15:42:07	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
 7	2025-02-11 20:13:41	2025-05-06 16:58:48	82b02e45-c69a-46bc-934d-41a0c2f51a7d	1.0.31	section	3	Events	events	channel	\N	events/_entry.twig	1	{"1":{"id":3,"sectionId":3,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"events\\/{slug}","template":"events\\/_entry.twig","language":"en-us"}}	2025-02-20 20:28:07	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
-5	2025-02-11 20:13:40	2025-05-15 19:19:35	01d373eb-4379-4d03-9ef5-344eb6a6fd17	1.0.31	section	1	Homepage	homepage	single	\N	_index	1	{"1":{"id":1,"sectionId":1,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"__home__","template":"_index","language":"en-us"}}	2025-05-06 15:54:06	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
-10	2025-02-11 20:13:42	2025-05-15 19:19:35	9c1767a4-90d8-4f88-ba69-63ddfe37a50f	1.0.31	section	10	Blog Articles	blogArticle	channel	\N	blog/_entry.twig	1	{"1":{"id":10,"sectionId":10,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"blog\\/{slug}","template":"blog\\/_entry.twig","language":"en-us"}}	2025-02-20 19:17:08	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
-12	2025-02-11 20:13:43	2025-05-15 19:19:36	6414ab67-cc42-4ee8-9c86-b2b799ba3c9a	1.0.31	section	12	Resources	resources	channel	\N	resources/_entry.twig	1	{"1":{"id":12,"sectionId":12,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"resources\\/{slug}","template":"resources\\/_entry.twig","language":"en-us"}}	2025-02-20 20:18:56	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
+5	2025-02-11 20:13:40	2025-05-15 19:56:27	01d373eb-4379-4d03-9ef5-344eb6a6fd17	1.0.31	section	1	Homepage	homepage	single	\N	_index	1	{"1":{"id":1,"sectionId":1,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"__home__","template":"_index","language":"en-us"}}	2025-02-20 19:10:28	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
+10	2025-02-11 20:13:42	2025-05-19 14:22:47	9c1767a4-90d8-4f88-ba69-63ddfe37a50f	1.0.31	section	10	Blog Articles	blogArticle	channel	\N	blog/_entry.twig	1	{"1":{"id":10,"sectionId":10,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"blog\\/{slug}","template":"blog\\/_entry.twig","language":"en-us"}}	2025-05-15 19:47:33	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
 9	2025-02-11 20:13:41	2025-05-15 19:20:03	3ac46517-fc73-4b59-870d-5a6661c3b5b8	1.0.31	section	5	404 Page	notFoundPage	single	\N	_pages/default.twig	1	{"1":{"id":5,"sectionId":5,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"404","template":"_pages\\/default.twig","language":"en-us"}}	2025-05-06 15:54:40	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
-11	2025-02-11 20:13:43	2025-05-15 19:20:03	a6810acb-ae3c-40f7-a044-27e59ff161e0	1.0.31	section	11	Pages	pages	structure	\N	_pages/entry.twig	1	{"1":{"id":11,"sectionId":11,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"{% if object.level == 0 %}{slug}{% else %}{parent.uri}\\/{slug}{% endif %}","template":"_pages\\/entry.twig","language":"en-us"}}	2025-02-20 20:30:28	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
+12	2025-02-11 20:13:43	2025-05-19 14:22:47	6414ab67-cc42-4ee8-9c86-b2b799ba3c9a	1.0.31	section	12	Resources	resources	channel	\N	resources/_entry.twig	1	{"1":{"id":12,"sectionId":12,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"resources\\/{slug}","template":"resources\\/_entry.twig","language":"en-us"}}	2025-05-15 19:47:34	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
+11	2025-02-11 20:13:43	2025-05-20 01:38:56	a6810acb-ae3c-40f7-a044-27e59ff161e0	1.0.31	section	11	Pages	pages	structure	\N	_pages/entry.twig	1	{"1":{"id":11,"sectionId":11,"siteId":1,"enabledByDefault":true,"hasUrls":true,"uriFormat":"{% if object.level == 0 %}{slug}{% else %}{parent.uri}\\/{slug}{% endif %}","template":"_pages\\/entry.twig","language":"en-us"}}	2025-05-20 01:38:56	{"language":null,"mainEntityOfPage":"WebPage","seoTitle":"{{ entry.title }}","siteNamePosition":"","seoDescription":"","seoKeywords":"","seoImage":"","seoImageWidth":"","seoImageHeight":"","seoImageDescription":"","canonicalUrl":"{{ entry.url }}","robots":"all","ogType":"website","ogTitle":"{{ seomatic.meta.seoTitle }}","ogSiteNamePosition":"sameAsGlobal","ogDescription":"{{ seomatic.meta.seoDescription }}","ogImage":"{{ seomatic.meta.seoImage }}","ogImageWidth":"{{ seomatic.meta.seoImageWidth }}","ogImageHeight":"{{ seomatic.meta.seoImageHeight }}","ogImageDescription":"{{ seomatic.meta.seoImageDescription }}","twitterCard":"summary_large_image","twitterCreator":"{{ seomatic.site.twitterHandle }}","twitterTitle":"{{ seomatic.meta.seoTitle }}","twitterSiteNamePosition":"sameAsGlobal","twitterDescription":"{{ seomatic.meta.seoDescription }}","twitterImage":"{{ seomatic.meta.seoImage }}","twitterImageWidth":"{{ seomatic.meta.seoImageWidth }}","twitterImageHeight":"{{ seomatic.meta.seoImageHeight }}","twitterImageDescription":"{{ seomatic.meta.seoImageDescription }}","inherited":[],"overrides":[]}	{"siteName":"Padstone Craft 5","siteAlternateName":"","identity":null,"creator":null,"twitterHandle":"","facebookProfileId":"","facebookAppId":"","googleSiteVerification":"","bingSiteVerification":"","pinterestSiteVerification":"","facebookSiteVerification":"","sameAsLinks":[],"siteLinksSearchTarget":"","siteLinksQueryInput":"","referrer":"no-referrer-when-downgrade","additionalSitemapUrls":[],"additionalSitemapUrlsDateUpdated":null,"additionalSitemaps":[]}	{"sitemapUrls":true,"sitemapAssets":true,"sitemapAssetTransform":null,"newsSitemap":false,"newsPublicationName":"","sitemapFiles":true,"sitemapAltLinks":true,"sitemapChangeFreq":"weekly","sitemapPriority":0.5,"sitemapLimit":null,"sitemapPageSize":500,"structureDepth":null,"sitemapImageFieldMap":[{"property":"title","field":"title"},{"property":"caption","field":""},{"property":"geo_location","field":""},{"property":"license","field":""}],"sitemapVideoFieldMap":[{"property":"title","field":"title"},{"property":"description","field":""},{"property":"thumbnailLoc","field":""},{"property":"duration","field":""},{"property":"category","field":""}],"inherited":[],"overrides":[]}	{"MetaTagContainergeneral":{"data":[],"name":"General","description":"General Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTagContaineropengraph":{"data":[],"name":"Facebook","description":"Facebook OpenGraph Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"opengraph","include":true,"dependencies":[],"clearCache":false},"MetaTagContainertwitter":{"data":[],"name":"Twitter","description":"Twitter Card Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"twitter","include":true,"dependencies":[],"clearCache":false},"MetaTagContainermiscellaneous":{"data":[],"name":"Miscellaneous","description":"Miscellaneous Meta Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTagContainer","handle":"miscellaneous","include":true,"dependencies":[],"clearCache":false},"MetaLinkContainergeneral":{"data":[],"name":"General","description":"Link Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaLinkContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaScriptContainergeneral":{"data":[],"position":1,"name":"General","description":"Script Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaScriptContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaJsonLdContainergeneral":{"data":{"mainEntityOfPage":{"context":"http:\\/\\/schema.org","type":"{{ seomatic.meta.mainEntityOfPage }}","id":null,"graph":null,"include":true,"key":"mainEntityOfPage","environment":null,"dependencies":null,"tagAttrs":[],"nonce":null,"specialty":null,"breadcrumb":null,"lastReviewed":null,"mainContentOfPage":null,"significantLinks":null,"reviewedBy":null,"relatedLink":null,"primaryImageOfPage":null,"significantLink":null,"speakable":null,"dateModified":"{{ entry.dateUpdated |atom }}","associatedMedia":null,"publisherImprint":null,"pattern":null,"audio":null,"recordedAt":null,"hasPart":null,"awards":null,"encoding":null,"workTranslation":null,"releasedEvent":null,"workExample":null,"spatial":null,"accessModeSufficient":null,"award":null,"review":null,"interpretedAsClaim":null,"publisher":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"exampleOfWork":null,"genre":null,"translationOfWork":null,"headline":"{{ seomatic.meta.seoTitle }}","acquireLicensePage":null,"assesses":null,"creativeWorkStatus":null,"sdLicense":null,"educationalUse":null,"countryOfOrigin":null,"contentRating":null,"locationCreated":null,"creator":{"id":"{{ parseEnv(seomatic.site.creator.genericUrl) }}#creator"},"accessibilitySummary":null,"commentCount":null,"copyrightYear":"{{ entry.postDate | date(\\"Y\\") }}","isBasedOnUrl":null,"license":null,"usageInfo":null,"publication":null,"timeRequired":null,"interactivityType":null,"publishingPrinciples":null,"contributor":null,"citation":null,"conditionsOfAccess":null,"learningResourceType":null,"correction":null,"author":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"reviews":null,"isPartOf":null,"producer":null,"thumbnail":null,"accessMode":null,"editEIDR":null,"temporalCoverage":null,"copyrightHolder":{"id":"{{ parseEnv(seomatic.site.identity.genericUrl) }}#identity"},"educationalAlignment":null,"funding":null,"material":null,"alternativeHeadline":null,"version":null,"isFamilyFriendly":null,"materialExtent":null,"discussionUrl":null,"size":null,"maintainer":null,"copyrightNotice":null,"comment":null,"offers":null,"text":null,"fileFormat":null,"encodings":null,"about":null,"audience":null,"keywords":null,"spatialCoverage":null,"sponsor":null,"accessibilityAPI":null,"sdPublisher":null,"contentLocation":null,"interactionStatistic":null,"encodingFormat":null,"archivedAt":null,"mainEntity":null,"datePublished":"{{ entry.postDate |atom }}","isAccessibleForFree":null,"dateCreated":"{{ entry.dateCreated |atom }}","teaches":null,"thumbnailUrl":null,"accountablePerson":null,"typicalAgeRange":null,"sdDatePublished":null,"funder":null,"expires":null,"aggregateRating":null,"temporal":null,"accessibilityControl":null,"accessibilityFeature":null,"inLanguage":"{{ seomatic.meta.language }}","provider":null,"abstract":null,"digitalSourceType":null,"position":null,"mentions":null,"sourceOrganization":null,"video":null,"editor":null,"creditText":null,"schemaVersion":null,"translator":null,"accessibilityHazard":null,"contentReferenceTime":null,"educationalLevel":null,"character":null,"isBasedOn":null,"name":"{{ seomatic.meta.seoTitle }}","description":"{{ seomatic.meta.seoDescription }}","subjectOf":null,"url":"{{ seomatic.meta.canonicalUrl }}","identifier":null,"image":{"type":"ImageObject","url":"{{ seomatic.meta.seoImage }}"},"additionalType":null,"potentialAction":{"type":"SearchAction","target":"{{ seomatic.site.siteLinksSearchTarget }}","query-input":"{{ seomatic.helper.siteLinksQueryInput() }}"},"alternateName":null,"disambiguatingDescription":null,"sameAs":null,"mainEntityOfPage":"{{ seomatic.meta.canonicalUrl }}"}},"name":"General","description":"JsonLd Tags","class":"nystudio107\\\\seomatic\\\\models\\\\MetaJsonLdContainer","handle":"general","include":true,"dependencies":[],"clearCache":false},"MetaTitleContainergeneral":{"data":{"title":{"title":"{{ seomatic.meta.seoTitle }}","siteName":"{{ seomatic.site.siteName }}","siteNamePosition":"{{ seomatic.meta.siteNamePosition }}","separatorChar":"{{ seomatic.config.separatorChar }}","include":true,"key":"title","environment":null,"dependencies":null,"tagAttrs":[]}},"name":"General","description":"Meta Title Tag","class":"nystudio107\\\\seomatic\\\\models\\\\MetaTitleContainer","handle":"general","include":true,"dependencies":[],"clearCache":false}}	[]	{"data":[],"name":null,"description":null,"class":"nystudio107\\\\seomatic\\\\models\\\\FrontendTemplateContainer","handle":null,"include":true,"dependencies":null,"clearCache":false}	{"siteType":"CreativeWork","siteSubType":"WebSite","siteSpecificType":"","seoTitleSource":"fromCustom","seoTitleField":"","siteNamePositionSource":"sameAsGlobal","seoDescriptionSource":"fromCustom","seoDescriptionField":"","seoKeywordsSource":"fromCustom","seoKeywordsField":"","seoImageIds":[],"seoImageSource":"fromAsset","seoImageField":"","seoImageTransform":true,"seoImageTransformMode":"crop","seoImageDescriptionSource":"fromCustom","seoImageDescriptionField":"","twitterCreatorSource":"sameAsSite","twitterCreatorField":"","twitterTitleSource":"sameAsSeo","twitterTitleField":"","twitterSiteNamePositionSource":"fromCustom","twitterDescriptionSource":"sameAsSeo","twitterDescriptionField":"","twitterImageIds":[],"twitterImageSource":"sameAsSeo","twitterImageField":"","twitterImageTransform":false,"twitterImageTransformMode":"crop","twitterImageDescriptionSource":"sameAsSeo","twitterImageDescriptionField":"","ogTitleSource":"sameAsSeo","ogTitleField":"","ogSiteNamePositionSource":"fromCustom","ogDescriptionSource":"sameAsSeo","ogDescriptionField":"","ogImageIds":[],"ogImageSource":"sameAsSeo","ogImageField":"","ogImageTransform":false,"ogImageTransformMode":"crop","ogImageDescriptionSource":"sameAsSeo","ogImageDescriptionField":""}
 \.
 
 
@@ -11843,7 +12917,8 @@ COPY public.sessions (id, "userId", token, "dateCreated", "dateUpdated", uid) FR
 7	13	PPo9W4hrex_iBDxT7Jo87SRhsJaXivyv2qwxg5-uZJsN8_oOqSRdswdh1ZMRDJ9OlAy97eapT9UgYWzwfexP6MYXnjth-mFmrmSD	2025-04-15 14:33:52	2025-04-15 14:34:56	30191a3e-1ecd-4e44-961f-fe2edf7e4c67
 9	13	TpOLM8Q3E5ohcaoENJ9WQ9HG2HhTDZ1R5Nxwtxibj3tztFoe1YHmSAs0APhweyUilIWAJHguDOXRy8Ycg_t9vGxHEACWrXQSPxr6	2025-05-06 15:28:12	2025-05-06 18:39:43	5aad2ac5-970d-4027-abc0-34b0628918b4
 10	13	ZSZtDImfeYzuF6NdGAfXCQkNl0kQbQ24GmJjwUorFFedPcAptsorfuUI9Pjc3umEMbu00STsMHJtAPamqWR8eNfaVfIY5otjrfJb	2025-05-07 20:32:49	2025-05-07 20:34:32	9647eced-b95b-4849-b748-1d4d278c4b98
-12	13	QIoh7A_Y6eW4lqDd3PE8b-HaOROk5Tes_BNmdtlAv4EY2B3wMtQEVBMdPOMEmr18BkM66jr4Mm-TZV2YKTMb3Rsty6KDQskEp_U7	2025-05-15 19:19:32	2025-05-15 19:20:03	68cc3965-eda3-4318-bdb4-77e2d9600370
+14	13	RqnU_lG3Sp4w2RDgDYpKy5cYnqrPZ9h70OpmKfBRk2B_BVPquGtVFC48wMr6OAAzXOvczzbkXjr_8WkVcKGRny4og0bkdhxHsBki	2025-05-19 13:54:53	2025-05-19 13:55:12	ccb432ea-79c9-4544-afb0-b66de13c26e8
+17	13	ZIhPfHRcJTgYh9sNRi-mHvzSA1pEULS160iEcBrOTlb4glFmBHlvJzKtwi3zvmHGEECjQFtvPW3_QUNo5zu2LBBkXgjCZUAx_HfE	2025-05-20 01:17:47	2025-05-20 01:45:03	73cd719c-ab21-4bc1-a523-fe318c509c22
 \.
 
 
@@ -11891,13 +12966,6 @@ COPY public.structureelements (id, "structureId", "elementId", root, lft, rgt, l
 4	3	61	1	6	7	1	2025-02-20 19:12:13	2025-02-20 19:12:13	1d2f0561-4c16-4d46-a043-df4d040eebb8
 1	3	\N	1	1	10	0	2025-02-20 19:11:58	2025-02-20 19:12:21	248c9a20-6585-401a-9e4c-74af47315ee5
 5	3	62	1	8	9	1	2025-02-20 19:12:21	2025-02-20 19:12:21	de98c8bd-c212-4702-a406-795d47360d76
-7	4	72	6	2	5	1	2025-02-20 19:25:24	2025-02-20 19:27:16	4a704332-7c22-412a-8532-8c2043db5bd7
-8	4	76	6	3	4	2	2025-02-20 19:26:53	2025-02-20 19:27:16	03874b33-6851-4320-a4c3-731eb6738668
-10	4	148	6	7	8	2	2025-02-20 19:49:44	2025-02-20 19:50:05	bcceffb2-88c7-4f51-88e1-66fa7cc5e03f
-11	4	152	6	9	10	2	2025-02-20 19:56:58	2025-02-20 19:57:21	ec4cd5c2-cd2a-4735-bf54-da05ddb01699
-9	4	144	6	6	13	1	2025-02-20 19:49:10	2025-02-20 20:13:05	bb23e434-ed0f-4d56-a8dc-e96994562215
-12	4	156	6	11	12	2	2025-02-20 19:57:31	2025-02-20 20:13:05	6daf501a-2719-4791-89d6-a2fbcf075dd9
-6	4	\N	6	1	14	0	2025-02-20 19:25:24	2025-02-20 20:13:05	dd22f6d5-b827-4b13-bac8-b178c2ecafec
 14	1	167	13	2	3	1	2025-02-20 20:16:29	2025-02-20 20:16:29	23c290cf-1492-43dd-832f-79158376ed8d
 15	1	168	13	4	5	1	2025-02-20 20:16:36	2025-02-20 20:16:36	0ad0429e-5086-4ef6-9dd6-64e1b701ca4c
 16	1	169	13	6	7	1	2025-02-20 20:16:44	2025-02-20 20:16:44	605ff8db-2193-44e6-ae01-58675ca38391
@@ -11931,6 +12999,13 @@ COPY public.structureelements (id, "structureId", "elementId", root, lft, rgt, l
 41	5	305	23	36	45	1	2025-05-06 17:09:16	2025-05-06 17:09:24	edc1d07a-e660-4c18-acbe-9482d399509a
 45	5	313	23	43	44	2	2025-05-06 17:09:17	2025-05-06 17:09:24	59848776-9f30-43de-b904-eea39d7bcd9b
 35	5	289	23	22	23	3	2025-05-06 17:06:28	2025-05-06 17:06:43	107a4ae6-9b60-4e85-b89e-d1d9cd75a41e
+7	4	72	6	2	3	1	2025-02-20 19:25:24	2025-05-15 19:32:18	4a704332-7c22-412a-8532-8c2043db5bd7
+6	4	\N	6	1	14	0	2025-02-20 19:25:24	2025-05-15 19:32:18	dd22f6d5-b827-4b13-bac8-b178c2ecafec
+10	4	148	6	7	8	2	2025-02-20 19:49:44	2025-05-15 19:32:18	bcceffb2-88c7-4f51-88e1-66fa7cc5e03f
+11	4	152	6	9	10	2	2025-02-20 19:56:58	2025-05-15 19:32:18	ec4cd5c2-cd2a-4735-bf54-da05ddb01699
+9	4	144	6	6	13	1	2025-02-20 19:49:10	2025-05-15 19:32:18	bb23e434-ed0f-4d56-a8dc-e96994562215
+12	4	156	6	11	12	2	2025-02-20 19:57:31	2025-05-15 19:32:18	6daf501a-2719-4791-89d6-a2fbcf075dd9
+8	4	76	6	4	5	1	2025-02-20 19:26:53	2025-05-15 19:32:18	03874b33-6851-4320-a4c3-731eb6738668
 \.
 
 
@@ -11977,7 +13052,7 @@ COPY public.tags (id, "groupId", "deletedWithGroup", "dateCreated", "dateUpdated
 --
 
 COPY public.tokens (id, token, route, "usageLimit", "usageCount", "expiryDate", "dateCreated", "dateUpdated", uid) FROM stdin;
-1	UdiT6VmsYrSLQqvyDSa3oVmCL83ZG3DJ	["preview\\/preview",{"elementType":"craft\\\\elements\\\\Entry","canonicalId":3,"siteId":1,"draftId":null,"revisionId":null,"userId":13}]	\N	\N	2025-05-07 15:53:53	2025-05-06 15:53:53	2025-05-06 15:53:53	9c324ab4-f428-44db-b398-9f2a8b1f0af2
+2	BP4jd0jBxseIQ4Pu6WK0xZuvXxGdh326	["preview\\/preview",{"elementType":"craft\\\\elements\\\\Entry","canonicalId":76,"siteId":1,"draftId":null,"revisionId":null,"userId":13}]	\N	\N	2025-05-20 15:21:31	2025-05-19 15:21:31	2025-05-19 15:21:31	928cff40-81d8-4295-b283-d62bfa810633
 \.
 
 
@@ -12035,7 +13110,7 @@ COPY public.userpreferences ("userId", preferences) FROM stdin;
 --
 
 COPY public.users (id, "photoId", active, pending, locked, suspended, admin, username, "fullName", "firstName", "lastName", email, password, "lastLoginDate", "lastLoginAttemptIp", "invalidLoginWindowStart", "invalidLoginCount", "lastInvalidLoginDate", "lockoutDate", "hasDashboard", "verificationCode", "verificationCodeIssuedDate", "unverifiedEmail", "passwordResetRequired", "lastPasswordChangeDate", "dateCreated", "dateUpdated", "affiliatedSiteId") FROM stdin;
-13	\N	t	f	f	f	t	admin	\N	\N	\N	login@imarc.com	$2y$13$f3gVrj1Qm7feEfOTJ6fI3Oe5QOq.xnEjXQ6X5omXLGwGIDk9y.lSe	2025-05-15 19:19:32	\N	\N	\N	\N	\N	t	\N	\N	\N	f	2025-02-11 20:13:50	2025-02-11 20:13:50	2025-05-15 19:19:32	\N
+13	\N	t	f	f	f	t	admin	\N	\N	\N	login@imarc.com	$2y$13$f3gVrj1Qm7feEfOTJ6fI3Oe5QOq.xnEjXQ6X5omXLGwGIDk9y.lSe	2025-05-20 01:17:47	\N	\N	\N	\N	\N	t	\N	\N	\N	f	2025-02-11 20:13:50	2025-02-11 20:13:50	2025-05-20 01:17:47	\N
 \.
 
 
@@ -12141,28 +13216,28 @@ SELECT pg_catalog.setval('public.deprecationerrors_id_seq', 1, false);
 -- Name: drafts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.drafts_id_seq', 138, true);
+SELECT pg_catalog.setval('public.drafts_id_seq', 190, true);
 
 
 --
 -- Name: elements_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.elements_id_seq', 327, true);
+SELECT pg_catalog.setval('public.elements_id_seq', 454, true);
 
 
 --
 -- Name: elements_sites_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.elements_sites_id_seq', 327, true);
+SELECT pg_catalog.setval('public.elements_sites_id_seq', 454, true);
 
 
 --
 -- Name: entrytypes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.entrytypes_id_seq', 37, true);
+SELECT pg_catalog.setval('public.entrytypes_id_seq', 42, true);
 
 
 --
@@ -12183,14 +13258,14 @@ SELECT pg_catalog.setval('public.feedme_logs_id_seq', 1, false);
 -- Name: fieldlayouts_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.fieldlayouts_id_seq', 46, true);
+SELECT pg_catalog.setval('public.fieldlayouts_id_seq', 51, true);
 
 
 --
 -- Name: fields_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.fields_id_seq', 58, true);
+SELECT pg_catalog.setval('public.fields_id_seq', 62, true);
 
 
 --
@@ -12218,7 +13293,7 @@ SELECT pg_catalog.setval('public.gqltokens_id_seq', 1, false);
 -- Name: imagetransformindex_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.imagetransformindex_id_seq', 166, true);
+SELECT pg_catalog.setval('public.imagetransformindex_id_seq', 170, true);
 
 
 --
@@ -12253,7 +13328,7 @@ SELECT pg_catalog.setval('public.plugins_id_seq', 14, true);
 -- Name: queue_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.queue_id_seq', 1252, true);
+SELECT pg_catalog.setval('public.queue_id_seq', 1840, true);
 
 
 --
@@ -12267,7 +13342,7 @@ SELECT pg_catalog.setval('public.recoverycodes_id_seq', 1, false);
 -- Name: relations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.relations_id_seq', 86, true);
+SELECT pg_catalog.setval('public.relations_id_seq', 122, true);
 
 
 --
@@ -12281,28 +13356,28 @@ SELECT pg_catalog.setval('public.retour_redirects_id_seq', 1, false);
 -- Name: retour_static_redirects_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.retour_static_redirects_id_seq', 7, true);
+SELECT pg_catalog.setval('public.retour_static_redirects_id_seq', 9, true);
 
 
 --
 -- Name: retour_stats_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.retour_stats_id_seq', 1, true);
+SELECT pg_catalog.setval('public.retour_stats_id_seq', 2, true);
 
 
 --
 -- Name: revisions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.revisions_id_seq', 132, true);
+SELECT pg_catalog.setval('public.revisions_id_seq', 188, true);
 
 
 --
 -- Name: searchindexqueue_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.searchindexqueue_id_seq', 1, false);
+SELECT pg_catalog.setval('public.searchindexqueue_id_seq', 114, true);
 
 
 --
@@ -12330,7 +13405,7 @@ SELECT pg_catalog.setval('public.seomatic_metabundles_id_seq', 12, true);
 -- Name: sessions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.sessions_id_seq', 12, true);
+SELECT pg_catalog.setval('public.sessions_id_seq', 17, true);
 
 
 --
@@ -12386,7 +13461,7 @@ SELECT pg_catalog.setval('public.taggroups_id_seq', 1, true);
 -- Name: tokens_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.tokens_id_seq', 1, true);
+SELECT pg_catalog.setval('public.tokens_id_seq', 2, true);
 
 
 --
