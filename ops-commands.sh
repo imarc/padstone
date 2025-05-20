@@ -6,12 +6,6 @@ ops-craft() {
 ops-padstone-install() {
     cmd-doc "Run this only once per project to complete the Padstone install."
 
-    ops install
-}
-
-ops-install() {
-    cmd-doc "Run this after cloning the project to setup the project for local development on Ops."
-
     if [[ ! -e .env ]]; then
         echo "Copying .env.example to .env..."
         cp .env.example .env
@@ -28,14 +22,25 @@ ops-install() {
     read -p "Database Name [$DEFAULT]: " INPUT
     ops env CRAFT_DB_DATABASE ${INPUT:-$DEFAULT}
 
+    echo "Calling $(tput smul)npx @imarc/pronto@latest$(tput rmul)..."
+    npx @imarc/pronto@latest --non-interactive y ./resources y y y ./web
+
+    ops install
+}
+
+ops-install() {
+    cmd-doc "Run this after cloning the project to setup the project for local development on Ops."
+
+    if [[ ! -e .env ]]; then
+        echo "Copying .env.example to .env..."
+        cp .env.example .env
+    fi
+
     echo "Calling $(tput smul)composer install$(tput rmul)..."
     composer install --ignore-platform-reqs
 
     echo "Calling $(tput smul)npm install$(tput rmul)..."
     npm install
-
-    echo "Calling $(tput smul)npx @imarc/pronto@latest$(tput rmul)..."
-    npx @imarc/pronto@latest --non-interactive y ./resources y y y ./web
 
     # get updated settings; unusual syntax for bash 3.2.57
     source /dev/stdin <<<"$(ops env)"
