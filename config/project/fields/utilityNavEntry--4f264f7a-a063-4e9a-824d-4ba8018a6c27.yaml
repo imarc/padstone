@@ -8,7 +8,7 @@ settings:
   branchLimit: null
   defaultPlacement: end
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   selectionCondition:
     __assoc__:
