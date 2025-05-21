@@ -1,4 +1,4 @@
-dateModified: 1747705230
+dateModified: 1747847835
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -53,7 +53,7 @@ meta:
     37bd2e2c-ad20-4890-921c-d205d7db4424: 'Image Card' # Image Card
     45adbb6c-4095-4a69-b61a-fc7bcc0a73cc: 'CTA Link' # CTA Link
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
-    52ff5c36-e87c-4674-8f10-76565b13abdf: 'Padstone Craft 5' # Padstone Craft 5
+    52ff5c36-e87c-4674-8f10-76565b13abdf: Padstone # Padstone
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
     82fc6643-49ce-461f-b55b-af4e57933421: Code # Code
     89dec5ed-967b-4adc-96f4-990fe7f52da5: 'Breadcrumb Title' # Breadcrumb Title
@@ -209,9 +209,10 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'Padstone Craft 5'
+  name: Padstone
+  retryDuration: null
   schemaVersion: 5.7.0.3
-  timeZone: America/Los_Angeles
+  timeZone: America/New_York
 users:
   allowPublicRegistration: false
   defaultGroup: null
