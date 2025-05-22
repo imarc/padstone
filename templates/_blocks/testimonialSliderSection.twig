@@ -1,40 +1,75 @@
 {% import "/_macros" as macros %}
 
-<div class="slider container {{ block.headline|length ? '-withCallout' : '' }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
-    <svg class="slider__calloutIcon icon accent-primary" role="presentation">
-        <use href="/main-icons-sprite.svg#quote" />
-    </svg>
-    {% if block.headline|length %}
-        <div class="slider__callout">
-            <span class="h3">
-                {{ block.headline }}
-            </span>
+
+{% if block.testimonialSlides.count == 1 %}
+    {% set testimonial = block.testimonialSlides.one %}
+
+    <section class="section container slider {{ block.headline|length ? '-withCallout' : '' }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+        {% if block.headline %}
+            <header class="section__header">
+                <h2>{{ block.headline }}</h2>
+            </header>
+        {% endif %}
+            <div class="section__content">
+            <blockquote class="testimonial">
+                <svg class="testimonial__icon icon accent-primary" role="presentation">
+                    <use href="/main-icons-sprite.svg#quote" />
+                </svg>
+                <div class="testimonial__content">{{ testimonial.quote }}</div>
+                <footer class="testimonial__footer">
+                    <div class="testimonial__citationPhotoWrapper">
+                        {{ macros.responsiveImage(testimonial.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+                    </div>
+                    <cite class="testimonial__citation">
+                        {{ testimonial.person }}
+                        <span class="testimonial__citationTitle">
+                            {{ testimonial.jobTitle }}
+                        </span>
+                    </cite>
+                </footer>
+            </blockquote>
         </div>
-    {% endif %}
-    <div class="slider__content">
-        <p-slider slides-per-view="auto" space-between="32" navigation="true" pagination-clickable="true" loop="true">
-            {% for testimonial in block.testimonialSlides.all() %}
-                <swiper-slide loading="lazy">
-                    <blockquote class="testimonial">
-                        <div class="testimonial__content">
-                            {{ testimonial.quote }}
-                        </div>
-                        <footer class="testimonial__footer">
-                            {% if testimonial.image|length %}
-                                <div class="testimonial__citationPhotoWrapper">
-                                    {{ macros.responsiveImage(testimonial.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
-                                </div>
-                            {% endif %}
-                            <cite class="testimonial__citation">
-                                {{ testimonial.person }}
-                                <span class="testimonial__citationTitle">
-                                    {{ testimonial.jobTitle }}
-                                </span>
-                            </cite>
-                        </footer>
-                    </blockquote>
-                </swiper-slide>
-            {% endfor %}
-        </p-slider>
-    </div>
-</div>
+    </section>
+
+{% else %}
+
+  <section class="slider container {{ block.headline|length ? '-withCallout' : '' }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+      <svg class="slider__calloutIcon icon accent-primary" role="presentation">
+          <use href="/main-icons-sprite.svg#quote" />
+      </svg>
+      {% if block.headline|length %}
+          <div class="slider__callout">
+              <span class="h3">
+                  {{ block.headline }}
+              </span>
+          </div>
+      {% endif %}
+      <div class="slider__content">
+          <p-slider slides-per-view="auto" space-between="32" navigation="true" pagination-clickable="true" loop="true">
+              {% for testimonial in block.testimonialSlides.all() %}
+                  <swiper-slide loading="lazy">
+                      <blockquote class="testimonial">
+                          <div class="testimonial__content">
+                              {{ testimonial.quote }}
+                          </div>
+                          <footer class="testimonial__footer">
+                              {% if testimonial.image|length %}
+                                  <div class="testimonial__citationPhotoWrapper">
+                                      {{ macros.responsiveImage(testimonial.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+                                  </div>
+                              {% endif %}
+                              <cite class="testimonial__citation">
+                                  {{ testimonial.person }}
+                                  <span class="testimonial__citationTitle">
+                                      {{ testimonial.jobTitle }}
+                                  </span>
+                              </cite>
+                          </footer>
+                      </blockquote>
+                  </swiper-slide>
+              {% endfor %}
+          </p-slider>
+      </div>
+  </section>
+
+{% endif %}
