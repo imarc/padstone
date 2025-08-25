@@ -18,6 +18,8 @@ options:
           target: _blank
         label: 'Open in a new tab'
         mode: manual
+  mediaEmbed:
+    previewsInData: true
 toolbar:
   - heading
   - '|'
@@ -29,4 +31,5 @@ toolbar:
   - insertImage
   - undo
   - redo
+  - mediaEmbed
   - htmlEmbed
