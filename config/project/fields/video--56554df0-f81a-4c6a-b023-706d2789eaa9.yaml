@@ -4,7 +4,24 @@ instructions: 'Enter Youtube or Vimeo link'
 name: Video
 searchable: false
 settings:
+  fullGraphqlData: false
   maxLength: 255
+  showLabelField: false
+  typeSettings:
+    __assoc__:
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - ''
+            -
+              - allowAnchors
+              - ''
+            -
+              - allowCustomSchemes
+              - ''
   types:
     - url
 translationKeyFormat: null

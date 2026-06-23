@@ -13,6 +13,9 @@ settings:
         -
           - uid
           - 4536b6f0-b762-4abc-b6d1-a918619f8b4d # Testimonial
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -4,13 +4,58 @@ instructions: null
 name: 'Content (No Media)'
 searchable: true
 settings:
+  advancedLinkFields: null
   availableTransforms: ''
   availableVolumes: '*'
   characterLimit: null
-  ckeConfig: 4a38a2c5-4173-4e7c-9c4d-de781a64d071 # No Media
-  createButtonLabel: null
+  css: null
+  cssFile: null
   defaultTransform: null
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
   fullGraphqlData: true
+  headingLevels:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: img
+  js: null
+  jsFile: null
+  options:
+    __assoc__:
+      -
+        - link
+        -
+          __assoc__:
+            -
+              - decorators
+              -
+                __assoc__:
+                  -
+                    - isExternal
+                    -
+                      __assoc__:
+                        -
+                          - attributes
+                          -
+                            __assoc__:
+                              -
+                                - rel
+                                - 'noopener noreferrer'
+                              -
+                                - target
+                                - _blank
+                        -
+                          - label
+                          - 'Open in a new tab'
+                        -
+                          - mode
+                          - manual
+  parseEmbeds: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
@@ -18,6 +63,17 @@ settings:
   showWordCount: false
   sourceEditingGroups:
     - __ADMINS__
+  toolbar:
+    - heading
+    - '|'
+    - numberedList
+    - bulletedList
+    - bold
+    - italic
+    - link
+    - undo
+    - redo
+    - htmlEmbed
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

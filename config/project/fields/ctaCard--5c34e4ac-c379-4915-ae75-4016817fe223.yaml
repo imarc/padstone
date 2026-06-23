@@ -6,12 +6,16 @@ searchable: false
 settings:
   createButtonLabel: 'New CTA card'
   defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
     -
       __assoc__:
         -
           - uid
           - 21a3840e-e64f-472b-93e4-69935cee15e0 # CTA Card
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: null

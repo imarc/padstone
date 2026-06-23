@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: breadcrumbTitle
-instructions: 'You can optionally override the title of this page in the breadcrumbs the show in the hero. If nothing is provided here, the entry''s title will be used.'
+instructions: "You can optionally override the title of this page in the breadcrumbs the show in the hero. If nothing is provided here, the entry's title will be used."
 name: 'Breadcrumb Title'
 searchable: false
 settings:

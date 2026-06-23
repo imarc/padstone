@@ -13,11 +13,17 @@ settings:
         -
           - uid
           - 1a4b6ea7-240d-4c7c-86ab-ce16b55afc24 # Image
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 6a91581a-a1ff-430b-bbeb-32b131747531 # Video
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: 1
   minEntries: 1

@@ -14,7 +14,6 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -23,7 +22,6 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
-            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -41,7 +39,7 @@ fieldLayouts:
 handle: resourceTopics
 name: 'Resource Topics'
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
     hasUrls: true
     template: null
     uriFormat: 'resource-topics/{slug}'

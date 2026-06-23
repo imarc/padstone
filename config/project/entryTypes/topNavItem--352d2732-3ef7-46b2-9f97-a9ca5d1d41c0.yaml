@@ -10,10 +10,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 9affc2aa-55c3-4990-97df-9e714b7bf551 # Top Nav Entry
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -26,10 +24,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 9a6122b0-6a00-4c79-958a-465d2e6549bd # Nav Type
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -54,10 +50,8 @@ fieldLayouts:
               fieldContext: global
             fieldUid: 5c34e4ac-c379-4915-ae75-4016817fe223 # CTA Card
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

@@ -6,11 +6,12 @@ searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
+  defaultPlacement: end
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a Type'
-  showCardsInGrid: false
+  showSearchInput: true
   showSiteMenu: true
   source: 'group:cb8e727f-8cfd-4234-a8aa-3e11420418cb' # Resource Types
   targetSiteId: null

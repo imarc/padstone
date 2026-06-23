@@ -5,8 +5,17 @@ name: Cards
 searchable: false
 settings:
   createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
-    - 37bd2e2c-ad20-4890-921c-d205d7db4424 # Image Card
+    -
+      __assoc__:
+        -
+          - uid
+          - 37bd2e2c-ad20-4890-921c-d205d7db4424 # Image Card
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: 1
@@ -14,7 +23,7 @@ settings:
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: true
-  viewMode: cards
+  viewMode: cards-grid
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

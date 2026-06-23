@@ -5,22 +5,16 @@ entryTypes:
     uid: c7e04c91-15c1-4081-8d31-44ae7bf6eae9 # Navigation Item
 handle: navigation
 maxAuthors: 1
+minAuthors: 1
 name: Navigation
 previewTargets:
   -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
-      -
-        - refresh
-        - '1'
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
     enabledByDefault: true
     hasUrls: false
     template: null

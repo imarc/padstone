@@ -1,25 +1,20 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - c42320a8-209b-458c-a104-5cb1015f0efc # Author
+  -
+    uid: c42320a8-209b-458c-a104-5cb1015f0efc # Author
 handle: authors
 maxAuthors: 1
+minAuthors: 1
 name: Authors
 previewTargets:
   -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
-      -
-        - refresh
-        - '1'
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
     enabledByDefault: true
     hasUrls: false
     template: null

@@ -13,6 +13,9 @@ settings:
         -
           - uid
           - d4966cae-3474-4ee8-92bd-7d511f1758d4 # Standard Hero
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: 1
   minEntries: 1

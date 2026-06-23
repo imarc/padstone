@@ -1,25 +1,20 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 0526dbf2-583a-4dc9-83f5-f5888101378b # Event
+  -
+    uid: 0526dbf2-583a-4dc9-83f5-f5888101378b # Event
 handle: events
 maxAuthors: 1
+minAuthors: 1
 name: Events
 previewTargets:
   -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
-      -
-        - refresh
-        - '1'
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
     enabledByDefault: true
     hasUrls: true
     template: events/_entry.twig

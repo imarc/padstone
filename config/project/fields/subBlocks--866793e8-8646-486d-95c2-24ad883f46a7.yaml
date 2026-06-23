@@ -13,26 +13,41 @@ settings:
         -
           - uid
           - e9b06cc2-e638-47af-98b9-de75baf00165 # Rich Text
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 77f762ab-419d-47e9-8b43-63754dafa72f # Call To Action
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 1a4b6ea7-240d-4c7c-86ab-ce16b55afc24 # Image
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 6a91581a-a1ff-430b-bbeb-32b131747531 # Video
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 4536b6f0-b762-4abc-b6d1-a918619f8b4d # Testimonial
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: 2
   minEntries: 2

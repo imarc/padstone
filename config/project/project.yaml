@@ -1,4 +1,4 @@
-dateModified: 1747847835
+dateModified: 1782252604
 email:
   fromEmail: info@imarc.com
   fromName: 'Padstone Craft 5'
@@ -31,7 +31,6 @@ meta:
     3b057048-977f-4c40-ba97-63d84a65f907: 'Shared Blocks' # Shared Blocks
     3e4455cb-a3c6-4a1f-aece-f5b32088a23e: 'Additional Footer Code' # Additional Footer Code
     3f694951-45bb-48bb-8b85-e0d8634e227c: Background # Background
-    4a38a2c5-4173-4e7c-9c4d-de781a64d071: 'No Media' # No Media
     4d061e2c-2f20-41b2-9e12-d11cb1fded64: 'Resource Topics' # Resource Topics
     4f264f7a-a063-4e9a-824d-4ba8018a6c27: 'Utility Nav Entry' # Utility Nav Entry
     5a53a4fd-6824-4729-9a20-006558d3e221: Link # Link
@@ -55,7 +54,6 @@ meta:
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
     52ff5c36-e87c-4674-8f10-76565b13abdf: Padstone # Padstone
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
-    82fc6643-49ce-461f-b55b-af4e57933421: Code # Code
     89dec5ed-967b-4adc-96f4-990fe7f52da5: 'Breadcrumb Title' # Breadcrumb Title
     091ba845-021e-4b45-af8f-923cd0b13154: 'Blog Articles' # Blog Articles
     95bdff49-0896-47d2-86bc-9fd95e4ab8c5: 'Blog Categories' # Blog Categories
@@ -120,7 +118,6 @@ meta:
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Basic Page' # Basic Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
     c98b12f3-a5c4-4329-b13c-d59e97981978: Team # Team
-    c164bcf4-0226-4e9f-bfe0-ca08ad8056b5: Full # Full
     c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
     cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
@@ -132,7 +129,6 @@ meta:
     d69400d5-37c7-48ef-b143-e25cccdda2ac: Simple # Simple
     dab85477-9d74-4135-9cd2-a0e109e07314: Subheadline # Subheadline
     dc246a2f-01d9-4061-b2a1-bc1e6b6edf94: 'Card Section' # Card Section
-    dccf2895-2f61-4bbe-8ac6-bf389ab04527: 'Simple (No Links)' # Simple (No Links)
     dd58c3c0-4afc-4b83-a606-73c8bc282d99: Image # Image
     de18a008-1675-459b-bc1e-5f684096b0c2: 'Resource Topics' # Resource Topics
     e9b06cc2-e638-47af-98b9-de75baf00165: 'Rich Text' # Rich Text
@@ -151,7 +147,7 @@ plugins:
   ckeditor:
     edition: standard
     enabled: true
-    schemaVersion: 3.0.0.0
+    schemaVersion: 5.6.0.0
   codefield:
     edition: standard
     enabled: true
@@ -179,7 +175,7 @@ plugins:
   feed-me:
     edition: standard
     enabled: true
-    schemaVersion: 5.1.1
+    schemaVersion: 5.14.0
   field-manager:
     edition: standard
     enabled: true
@@ -211,7 +207,7 @@ system:
   live: true
   name: Padstone
   retryDuration: null
-  schemaVersion: 5.7.0.3
+  schemaVersion: 5.10.0.0
   timeZone: America/New_York
 users:
   allowPublicRegistration: false

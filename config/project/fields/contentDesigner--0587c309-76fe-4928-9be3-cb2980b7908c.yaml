@@ -13,46 +13,73 @@ settings:
         -
           - uid
           - b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a # Two Column Section
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 0df95f6f-3e7a-4765-84de-aa8585234118 # Rich Text
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 22dea229-207d-41ba-8a31-13eea8c38a5c # Media Section
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3 # Callout Section
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - dc246a2f-01d9-4061-b2a1-bc1e6b6edf94 # Card Section
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 8d9c514a-a4e4-41ce-9b73-4425594f2885 # Logo Grid
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 798877d5-1c6b-43b0-94a9-203780a1b39f # Related Resources
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - a63c9e01-02f0-422a-b717-1a8c254b0231 # Testimonial Slider
+        -
+          - group
+          - General
     -
       __assoc__:
         -
           - uid
           - 307187bf-968f-42da-b579-dbc76b7a9fa6 # Shared Section
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: null

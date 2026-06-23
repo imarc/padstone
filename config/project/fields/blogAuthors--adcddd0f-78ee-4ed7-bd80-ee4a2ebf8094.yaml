@@ -6,12 +6,15 @@ searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
+  defaultPlacement: end
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add an author'
-  showCardsInGrid: false
-  showSiteMenu: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: true
+  showUnpermittedSections: true
   sources:
     - 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Authors
   targetSiteId: null

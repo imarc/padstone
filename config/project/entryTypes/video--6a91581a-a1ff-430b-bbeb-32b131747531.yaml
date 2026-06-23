@@ -11,10 +11,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
-            includeInCards: false
             instructions: null
             label: 'Thumbnail Image'
-            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -28,10 +26,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 56554df0-f81a-4c6a-b023-706d2789eaa9 # Video
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField

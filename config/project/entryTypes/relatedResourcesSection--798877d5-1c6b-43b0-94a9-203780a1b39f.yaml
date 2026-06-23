@@ -14,7 +14,6 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -23,7 +22,6 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
-            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -40,10 +38,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: bda481fe-9876-436b-80ba-07294176972e # Cards
             handle: null
-            includeInCards: false
             instructions: null
             label: Resources
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,10 +52,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 69705774-001e-4d43-b76b-77eef5713301 # Resource Types
             handle: null
-            includeInCards: false
-            instructions: 'Resource types to pull from if 3 resources aren''t selected above.'
+            instructions: "Resource types to pull from if 3 resources aren't selected above."
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

@@ -13,6 +13,9 @@ settings:
         -
           - uid
           - 45adbb6c-4095-4a69-b61a-fc7bcc0a73cc # CTA Link
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: 2
   minEntries: null

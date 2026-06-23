@@ -11,10 +11,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3b057048-977f-4c40-ba97-63d84a65f907 # Shared Blocks
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

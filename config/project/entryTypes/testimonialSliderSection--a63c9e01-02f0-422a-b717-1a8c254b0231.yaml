@@ -11,10 +11,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -28,10 +26,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: b4fd5d6c-8267-43f3-bfed-8defac06c057 # Testimonial Slides
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -51,10 +47,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

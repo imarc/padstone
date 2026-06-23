@@ -1,25 +1,20 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - eed094b2-cdd9-4163-8ca6-fca978f404ad # Shared Sections
+  -
+    uid: eed094b2-cdd9-4163-8ca6-fca978f404ad # Shared Sections
 handle: sharedBlocks
 maxAuthors: 1
+minAuthors: 1
 name: 'Shared Blocks'
 previewTargets:
   -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
-      -
-        - refresh
-        - '1'
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone Craft 5
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
     enabledByDefault: true
     hasUrls: false
     template: null

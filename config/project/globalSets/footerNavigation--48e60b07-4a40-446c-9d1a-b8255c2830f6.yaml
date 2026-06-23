@@ -9,10 +9,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: d26a5c7a-435f-4562-91fe-d168201e7bed # Footer Navigation Items
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

@@ -11,10 +11,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -28,10 +26,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -45,10 +41,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 37581c39-ebd0-4472-aa61-c2f51a891535 # Content (No Media)
             handle: null
-            includeInCards: false
             instructions: null
             label: Content
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -62,10 +56,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 0f24b2a8-d45a-4614-b908-6c6ed9230147 # CTA Links
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -85,10 +77,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -102,10 +92,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

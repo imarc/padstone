@@ -6,12 +6,16 @@ searchable: false
 settings:
   createButtonLabel: null
   defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
     -
       __assoc__:
         -
           - uid
           - c7e04c91-15c1-4081-8d31-44ae7bf6eae9 # Navigation Item
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: 1
   minEntries: null

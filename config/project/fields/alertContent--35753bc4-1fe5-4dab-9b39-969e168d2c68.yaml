@@ -4,17 +4,43 @@ instructions: null
 name: 'Alert Content'
 searchable: false
 settings:
+  advancedLinkFields: null
   availableTransforms: ''
   availableVolumes: '*'
-  ckeConfig: d69400d5-37c7-48ef-b143-e25cccdda2ac # Simple
-  createButtonLabel: null
+  characterLimit: null
+  css: null
+  cssFile: null
   defaultTransform: null
-  enableSourceEditingForNonAdmins: false
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
+  fullGraphqlData: true
+  headingLevels:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: img
+  js: null
+  jsFile: null
+  options: null
+  parseEmbeds: false
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  toolbar:
+    - heading
+    - '|'
+    - bold
+    - italic
+    - link
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

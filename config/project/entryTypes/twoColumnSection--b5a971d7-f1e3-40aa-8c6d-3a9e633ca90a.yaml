@@ -11,10 +11,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -28,10 +26,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -45,10 +41,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -62,10 +56,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 866793e8-8646-486d-95c2-24ad883f46a7 # Sub Blocks
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -79,10 +71,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
-            includeInCards: false
             instructions: 'Fill in link to create a CTA'
             label: 'CTA Link'
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -102,10 +92,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -119,10 +107,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

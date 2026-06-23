@@ -9,10 +9,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 4f264f7a-a063-4e9a-824d-4ba8018a6c27 # Utility Nav Entry
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

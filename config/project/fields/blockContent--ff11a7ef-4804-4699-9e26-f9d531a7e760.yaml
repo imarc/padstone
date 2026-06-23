@@ -8,22 +8,52 @@ settings:
   availableVolumes:
     - 507a966d-0b69-4f8e-9d31-31b6528b14a0 # Images
   characterLimit: null
-  ckeConfig: c164bcf4-0226-4e9f-bfe0-ca08ad8056b5 # Full
-  createButtonLabel: null
+  css: null
+  cssFile: null
   defaultTransform: null
   entryTypes:
     -
-      __assoc__:
-        -
-          - uid
-          - 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
+      uid: 976d4ccf-4988-4c36-968c-53f396dce7f2 # Blog Article
   fullGraphqlData: false
+  headingLevels:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  js: null
+  jsFile: null
+  options:
+    image:
+      toolbar:
+        - imageTextAlternative
+        - imageEditor
+    link:
+      decorators:
+        isExternal:
+          attributes:
+            rel: 'noopener noreferrer'
+            target: _blank
+          label: 'Open in a new tab'
+          mode: manual
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   showWordCount: false
   sourceEditingGroups: '*'
+  toolbar:
+    - heading
+    - '|'
+    - numberedList
+    - bulletedList
+    - bold
+    - italic
+    - link
+    - insertImage
+    - undo
+    - redo
+    - htmlEmbed
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

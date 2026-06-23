@@ -5,8 +5,17 @@ name: Card
 searchable: false
 settings:
   createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
-    - b96a3c34-e3b4-46ee-9bfe-c53406033bf0 # Card
+    -
+      __assoc__:
+        -
+          - uid
+          - b96a3c34-e3b4-46ee-9bfe-c53406033bf0 # Card
+        -
+          - group
+          - General
   includeTableView: false
   maxEntries: null
   minEntries: null
