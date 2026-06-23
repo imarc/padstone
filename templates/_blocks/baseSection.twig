@@ -2,9 +2,16 @@
 
 {% if block is defined and block %}
 
-    {% set numColumns = block.children.count %}
+    {% set numColumns = 1 %}
+    {% set columnSlugsClass = '' %}
+
+    {# If the block has subBlocks, set the number of columns and the column slugs class #}
+    {% if block['subBlocks'] is defined and block.subBlocks|length %}
+        {% set numColumns = block.subBlocks.count %}
+        {% set columnSlugsClass = macros.columnsSlug(block) %}
+    {% endif %}
+
     {% set numColumnsClass = macros.numberToWord(numColumns) ~ "Column" %}
-    {% set columnSlugsClass = macros.columnsSlug(block) %}
 
     {% set background = null %}
     {% if block['background'] is defined and block.background|length %}
@@ -12,17 +19,19 @@
     {% endif %}
 
     <section class="section container basicSection -{{ block.type }} {{ numColumns > 1 ? "-#{numColumnsClass}" : "" }} -{{ columnSlugsClass }} {{ background }}"
-        {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}
+        {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}
     >
         {% block header %}
-            {% if block.eyebrow or block.headline %}
+            {% if block.eyebrow or block.headline or block.subheadline %}
                 {% include "/_partials/sectionHeader" %}
             {% endif %}
         {% endblock %}
 
-        {% block content %}
-        
-        {% endblock %}
+        <div class="basicSection__content">
+            {% block content %}
+            
+            {% endblock %}
+        </div>
 
         {% block conclusion %}
             {# {% if block.sectionConclusion is not empty or block.sectionCTA %} #}

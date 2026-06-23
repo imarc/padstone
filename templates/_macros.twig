@@ -2,10 +2,10 @@
 # The renderBlock macro renders a single block from a contentDesigner field.
 # Mostly for use by renderAllBlocks().
 #}
-{% macro renderBlock(block) %}{% apply spaceless %}
+{% macro renderBlock(block, blockLoop) %}{% apply spaceless %}
     {% import _self as macros %}
     {% if block.type == 'sharedSection' %}
-        {% for subblock in block.sharedBlocks.all() %}
+        {% for subblock in block.sharedBlocks.eagerly().all() %}
             {{ macros.renderAllBlocks(subblock.contentDesigner, loop) }}
         {% endfor %}
     {% else %}
@@ -24,7 +24,7 @@
 {% macro renderAllBlocks(field) %}{% apply spaceless %}
     {% import _self as macros %}
     {% if field is not null %}
-        {% for block in field.all() %}
+        {% for block in field.eagerly().all() %}
             {{ macros.renderBlock(block, loop) }}
         {% endfor %}
     {% endif %}
@@ -36,9 +36,9 @@
 # section. It looks for the appropriate template in /_columns/ and falls back
 # to baseColumn.twig.
 #}
-{% macro renderColumn(column) %}{% apply spaceless %}
+{% macro renderColumn(column, parentBlock) %}{% apply spaceless %}
     {% set columnName = column.type|replace('/Column$/', '') %}
-    {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] with {block: column} %}
+    {% include ['/_columns/' ~ columnName, '/_columns/baseColumn'] with {block: column, parentBlock: parentBlock} %}
 {% endapply %}{% endmacro %}
 
 
@@ -57,11 +57,11 @@
 # Instead of 'textText', 'twoText'
 # Instead of 'relatedEntryRelatedEntryRelatedEntry, 'threeRelatedEntry'
 #}
-{% macro columnsSlug(block) %}{% apply spaceless %}
+{% macro columnsSlug(block, childrenBlocksField = 'subBlocks') %}{% apply spaceless %}
     {% import _self as macros %}
 
     {% set concatenatedSlug %}{% apply spaceless %}
-        {{ block.children.all()
+        {{ attribute(block, childrenBlocksField).all()
             |map((b, i) => b.type|replace('/Column$/', ''))
             |sort
             |join(' ')
@@ -69,9 +69,10 @@
         }}
     {% endapply %}{% endset %}
 
-    {% set numChildren = block.children.count %}
+    {% set numChildren = attribute(block, childrenBlocksField).count %}
+    {{ attribute(block, childrenBlocksField)|length }}
     {% if numChildren > 1 %}
-        {% set type = block.children.one().type|replace('/Column$/', '') %}
+        {% set type = attribute(block, childrenBlocksField).one().type|replace('/Column$/', '') %}
 
         {% set repeatedSlug = '' %}
         {% for i in 1..numChildren %}

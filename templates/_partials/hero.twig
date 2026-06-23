@@ -30,8 +30,8 @@
                 {% if hero.heroEyebrow %}
                     <div class="eyebrow {{ (not background) ? 'accent-primary' : 'accent-white' }}">{{ hero.heroEyebrow }}</div>
                 {% endif %}
-
-                <h1 class="hero__heading">{{ hero.heroHeadline|default(entry.title) }}</h1>
+                
+                <h1 class="hero__heading">{{ hero.heroHeadline|default(entry is defined and entry ? entry.title : '') }}</h1>
                  
                 {% if hero.heroContent %}
                     <p class="hero__introduction">
