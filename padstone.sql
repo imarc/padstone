@@ -5761,7 +5761,7 @@ COPY public.imagetransforms (id, name, handle, mode, "position", width, height, 
 --
 
 COPY public.info (id, version, "schemaVersion", maintenance, "configVersion", "fieldVersion", "dateCreated", "dateUpdated", uid) FROM stdin;
-1	5.10.8.1	5.10.0.0	f	cotnxcbyllhe	3@omzrvxsfot	2025-02-11 20:13:37	2026-06-24 14:57:24	5586c0cf-e296-42a7-8bd0-821be5440a99
+1	5.10.8.1	5.10.0.0	f	cqshlqmnkftu	3@omzrvxsfot	2025-02-11 20:13:37	2026-06-24 15:36:28	5586c0cf-e296-42a7-8bd0-821be5440a99
 \.
 
 
@@ -5866,7 +5866,7 @@ COPY public.migrations (id, track, name, "applyTime", "dateCreated", "dateUpdate
 --
 
 COPY public.phpsessions (id, expire, data, "dateCreated", "dateUpdated", uid) FROM stdin;
-68719c0e1fac841c79e8116a11324ca3	1782315233	\\x36346566323864326633386565653366636136343834333662666639333332665f5f666c6173687c613a303a7b7d36643336646565656163316530396135313633316130353333656237393735615f5f746f6b656e7c733a3130303a22764c35336f7034512d6a6575753553454953434d7857545f395147776e726c774f6c2d46764c536d772d494f794a59794e446e696a31345070495a77623433477776725f5747626b755f4a634c4343713574536a5477346436356b646674674572686739223b36643336646565656163316530396135313633316130353333656237393735615f5f69647c693a31333b5f5f617574684b65797c733a3134343a225b22764c35336f7034512d6a6575753553454953434d7857545f395147776e726c774f6c2d46764c536d772d494f794a59794e446e696a31345070495a77623433477776725f5747626b755f4a634c4343713574536a5477346436356b646674674572686739222c6e756c6c2c223363643865663533383530313436653434623233663233323630623665323463225d223b36643336646565656163316530396135313633316130353333656237393735615f5f6578706972657c693a313738323331363636373b5f5f6475726174696f6e7c693a333630303b5f5f656c6576617465645f74696d656f75747c693a313738323331313939383b	2026-06-24 14:34:53	2026-06-24 15:09:53	eb31124e-bc0a-47f4-9ee4-0b90ce9ba4d6
+68719c0e1fac841c79e8116a11324ca3	1782316844	\\x36346566323864326633386565653366636136343834333662666639333332665f5f666c6173687c613a303a7b7d36643336646565656163316530396135313633316130353333656237393735615f5f746f6b656e7c733a3130303a22764c35336f7034512d6a6575753553454953434d7857545f395147776e726c774f6c2d46764c536d772d494f794a59794e446e696a31345070495a77623433477776725f5747626b755f4a634c4343713574536a5477346436356b646674674572686739223b36643336646565656163316530396135313633316130353333656237393735615f5f69647c693a31333b5f5f617574684b65797c733a3134343a225b22764c35336f7034512d6a6575753553454953434d7857545f395147776e726c774f6c2d46764c536d772d494f794a59794e446e696a31345070495a77623433477776725f5747626b755f4a634c4343713574536a5477346436356b646674674572686739222c6e756c6c2c223363643865663533383530313436653434623233663233323630623665323463225d223b36643336646565656163316530396135313633316130353333656237393735615f5f6578706972657c693a313738323331393030343b5f5f6475726174696f6e7c693a333630303b5f5f656c6576617465645f74696d656f75747c693a313738323331313939383b	2026-06-24 14:34:53	2026-06-24 15:36:44	eb31124e-bc0a-47f4-9ee4-0b90ce9ba4d6
 \.
 
 
@@ -6012,16 +6012,6 @@ categoryGroups.cb8e727f-8cfd-4234-a8aa-3e11420418cb.fieldLayouts.acf83cbc-7ab8-4
 categoryGroups.cb8e727f-8cfd-4234-a8aa-3e11420418cb.fieldLayouts.acf83cbc-7ab8-4a36-b66f-75cdb3c28402.tabs.0.uid	"fc1bbc7d-4b30-4685-b720-c15094340887"
 categoryGroups.cb8e727f-8cfd-4234-a8aa-3e11420418cb.fieldLayouts.acf83cbc-7ab8-4a36-b66f-75cdb3c28402.tabs.0.userCondition	null
 categoryGroups.cb8e727f-8cfd-4234-a8aa-3e11420418cb.handle	"resourceTypes"
-fs.images.hasUrls	true
-fs.images.name	"Images"
-fs.images.settings.path	"@webroot/images"
-fs.images.type	"craft\\\\fs\\\\Local"
-fs.images.url	"/images"
-fs.resources.hasUrls	true
-fs.resources.name	"Resources"
-fs.resources.settings.path	"@webroot/resources"
-fs.resources.type	"craft\\\\fs\\\\Local"
-fs.resources.url	"/resources"
 fields.bda4be51-a390-429b-856f-8ebd7905b00a.columnSuffix	null
 fields.bda4be51-a390-429b-856f-8ebd7905b00a.handle	"heroEyebrow"
 fields.bda4be51-a390-429b-856f-8ebd7905b00a.instructions	null
@@ -8006,13 +7996,23 @@ system.name	"$CRAFT_SITENAME"
 system.retryDuration	null
 system.schemaVersion	"5.10.0.0"
 system.timeZone	"America/New_York"
-dateModified	1782313044
 email.fromEmail	"info@imarc.com"
 email.fromName	"$CRAFT_SITENAME"
 email.replyToEmail	null
 email.template	null
 email.transportSettings.command	"/usr/sbin/sendmail -t -i"
 email.transportType	"craft\\\\mail\\\\transportadapters\\\\Sendmail"
+fs.images.hasUrls	true
+fs.images.name	"Images"
+fs.images.settings.path	"@webroot/assets/images"
+fs.images.type	"craft\\\\fs\\\\Local"
+fs.images.url	"/assets/images"
+dateModified	1782315388
+fs.resources.hasUrls	true
+fs.resources.name	"Resources"
+fs.resources.settings.path	"@webroot/assets/resources"
+fs.resources.type	"craft\\\\fs\\\\Local"
+fs.resources.url	"/assets/resources"
 entryTypes.656e0885-03be-47ab-8531-be346ddbfc62.titleTranslationMethod	"site"
 entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.userCondition	null
 entryTypes.8d9c514a-a4e4-41ce-9b73-4425594f2885.fieldLayouts.ba5da5df-3c24-44b2-a61a-e68b58533467.tabs.1.elements.0.warning	null
@@ -12040,26 +12040,16 @@ ee0e5b00	@imarc/craftentrytoc/assetbundles/dist
 cb2cc408	@craft/ckeditor/web/assets/ckeditor/dist
 6bb14565	@craft/web/assets/vue/dist
 a8a138c1	@craft/web/assets/utilities/dist
-1a8f064b	@nystudio107/retour/web/assets/dist
-88db837f	@nystudio107/seomatic/web/assets/dist
-f253000b	@craft/web/assets/cp/dist
-f90e1861	@craft/web/assets/tailwindreset/dist
 550e810a	@craft/web/assets/deprecationerrors/dist
-1391ff41	@craft/web/assets/animationblocker/dist
 23cc858e	@nystudio107/codeeditor/web/assets/dist
 492fb5eb	@craft/web/assets/timepicker/dist
-ce620ead	@craft/web/assets/axios/dist
-e8662642	@craft/web/assets/d3/dist
-903999e8	@craft/web/assets/garnish/dist
-2ca83441	@bower/jquery/dist
-7a5540eb	@craft/web/assets/jquerytouchevents/dist
-7f919d3e	@craft/web/assets/velocity/dist
-264fa457	@craft/web/assets/jqueryui/dist
-7a069f89	@craft/web/assets/jquerypayment/dist
+cc55c608	@craft/ckeditor/web/assets/fieldsettings/dist
+1a8f064b	@nystudio107/retour/web/assets/dist
+88db837f	@nystudio107/seomatic/web/assets/dist
 e1028dc1	@craft/web/assets/generalsettings/dist
 30066b4a	@craft/web/assets/updates/dist
-465d4557	@craft/web/assets/picturefill/dist
-fe1ba243	@craft/web/assets/selectize/dist
+f253000b	@craft/web/assets/cp/dist
+f90e1861	@craft/web/assets/tailwindreset/dist
 cbfb632b	@craft/web/assets/utilities/dist
 70cba4ab	@craft/web/assets/animationblocker/dist
 ad385547	@craft/web/assets/axios/dist
@@ -12075,14 +12065,24 @@ f363c202	@craft/web/assets/garnish/dist
 2ebfa3bd	@craft/web/assets/xregexp/dist
 dbd1f515	@craft/web/assets/fabric/dist
 805d741f	@craft/web/assets/iframeresizer/dist
+1391ff41	@craft/web/assets/animationblocker/dist
+ce620ead	@craft/web/assets/axios/dist
+e8662642	@craft/web/assets/d3/dist
+903999e8	@craft/web/assets/garnish/dist
+2ca83441	@bower/jquery/dist
+7a5540eb	@craft/web/assets/jquerytouchevents/dist
+81b7da17	@craft/web/assets/admintable/dist
+7f919d3e	@craft/web/assets/velocity/dist
+264fa457	@craft/web/assets/jqueryui/dist
+7a069f89	@craft/web/assets/jquerypayment/dist
+465d4557	@craft/web/assets/picturefill/dist
+fe1ba243	@craft/web/assets/selectize/dist
 383472fc	@craft/web/assets/fileupload/dist
 4de5f857	@craft/web/assets/xregexp/dist
-81b7da17	@craft/web/assets/admintable/dist
 b88baeff	@craft/web/assets/fabric/dist
+8634a129	@craft/web/assets/fieldsettings/dist
 e3072ff5	@craft/web/assets/iframeresizer/dist
 e0a57a47	@craft/web/assets/theme/dist
-8634a129	@craft/web/assets/fieldsettings/dist
-cc55c608	@craft/ckeditor/web/assets/fieldsettings/dist
 \.
 
 
@@ -12932,7 +12932,7 @@ COPY public.sessions (id, "userId", token, "dateCreated", "dateUpdated", uid) FR
 7	13	PPo9W4hrex_iBDxT7Jo87SRhsJaXivyv2qwxg5-uZJsN8_oOqSRdswdh1ZMRDJ9OlAy97eapT9UgYWzwfexP6MYXnjth-mFmrmSD	2025-04-15 14:33:52	2025-04-15 14:34:56	30191a3e-1ecd-4e44-961f-fe2edf7e4c67
 9	13	TpOLM8Q3E5ohcaoENJ9WQ9HG2HhTDZ1R5Nxwtxibj3tztFoe1YHmSAs0APhweyUilIWAJHguDOXRy8Ycg_t9vGxHEACWrXQSPxr6	2025-05-06 15:28:12	2025-05-06 18:39:43	5aad2ac5-970d-4027-abc0-34b0628918b4
 10	13	ZSZtDImfeYzuF6NdGAfXCQkNl0kQbQ24GmJjwUorFFedPcAptsorfuUI9Pjc3umEMbu00STsMHJtAPamqWR8eNfaVfIY5otjrfJb	2025-05-07 20:32:49	2025-05-07 20:34:32	9647eced-b95b-4849-b748-1d4d278c4b98
-22	13	vL53op4Q-jeuu5SEISCMxWT_9QGwnrlwOl-FvLSmw-IOyJYyNDnij14PpIZwb43Gwvr_WGbku_JcLCCq5tSjTw4d65kdftgErhg9	2026-06-24 14:34:58	2026-06-24 15:09:53	8fdca5fd-13dd-4828-8a85-4f1baf161cb2
+22	13	vL53op4Q-jeuu5SEISCMxWT_9QGwnrlwOl-FvLSmw-IOyJYyNDnij14PpIZwb43Gwvr_WGbku_JcLCCq5tSjTw4d65kdftgErhg9	2026-06-24 14:34:58	2026-06-24 15:36:44	8fdca5fd-13dd-4828-8a85-4f1baf161cb2
 14	13	RqnU_lG3Sp4w2RDgDYpKy5cYnqrPZ9h70OpmKfBRk2B_BVPquGtVFC48wMr6OAAzXOvczzbkXjr_8WkVcKGRny4og0bkdhxHsBki	2025-05-19 13:54:53	2025-05-19 13:55:12	ccb432ea-79c9-4544-afb0-b66de13c26e8
 \.
 

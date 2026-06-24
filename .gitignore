@@ -5,5 +5,9 @@ vendor
 web/cpresources
 .aider*
 .env
-
-web/dist
+/web/.vite
+/web/dist
+/web/assets
+/web/components
+/web/images
+web/imager

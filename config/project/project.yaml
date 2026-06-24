@@ -1,4 +1,4 @@
-dateModified: 1782313044
+dateModified: 1782315388
 email:
   fromEmail: info@imarc.com
   fromName: $CRAFT_SITENAME
@@ -12,16 +12,16 @@ fs:
     hasUrls: true
     name: Images
     settings:
-      path: '@webroot/images'
+      path: '@webroot/assets/images'
     type: craft\fs\Local
-    url: /images
+    url: /assets/images
   resources:
     hasUrls: true
     name: Resources
     settings:
-      path: '@webroot/resources'
+      path: '@webroot/assets/resources'
     type: craft\fs\Local
-    url: /resources
+    url: /assets/resources
 meta:
   __names__:
     0df95f6f-3e7a-4765-84de-aa8585234118: 'Rich Text' # Rich Text
