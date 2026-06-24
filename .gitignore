@@ -7,7 +7,7 @@ web/cpresources
 .env
 /web/.vite
 /web/dist
-/web/assets
+#/web/assets
 /web/components
 /web/images
 web/imager

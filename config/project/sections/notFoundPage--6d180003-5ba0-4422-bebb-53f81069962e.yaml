@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: c59ecd1c-c856-4983-96da-bbbac954eab0 # Basic Page
+    uid: c59ecd1c-c856-4983-96da-bbbac954eab0 # Content Designer Page
 handle: notFoundPage
 maxAuthors: 1
 minAuthors: 1
