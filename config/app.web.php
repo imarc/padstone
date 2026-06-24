@@ -17,7 +17,7 @@ return [
         },
     ],
 
-    // Enable this if site is multisite with multiple TLDs to fix issues with multiple TLDs in Craft live preview
+    // Enable this if site is multisite with multiple TLDs to fix issues with multiple TLDs in Craft live preview and enable block in Module.php (and remove Content-Security-Policy header from .htaccess)
     // Attach the headers filter to the application:
     // 'as headersFilter' => [
     //     'class' => Headers::class,
