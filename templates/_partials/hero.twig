@@ -2,7 +2,7 @@
 
 {% if hero is defined and hero is instance of('craft\\elements\\db\\MatrixBlockQuery') %}
     {% if hero.count > 0 %}
-        {% set hero = hero.one %}
+        {% set hero = hero.eagerly().one() %}
     {% else %}
         {% set hero = false %}
     {% endif %}
@@ -46,7 +46,7 @@
             </div>
             {% if hero.image|length %}
                 <div class="hero__image">
-                    {{ macros.responsiveImage(hero.image.one, { pictureClass: 'hero__asset' }) }}
+                    {{ macros.responsiveImage(hero.image.eagerly().one(), { pictureClass: 'hero__asset' }) }}
                 </div>
             {% endif %}
         </div>

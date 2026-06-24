@@ -2,7 +2,7 @@
 
 
 {% if block.testimonialSlides.count == 1 %}
-    {% set testimonial = block.testimonialSlides.one %}
+    {% set testimonial = block.testimonialSlides.eagerly().one() %}
 
     <section class="section container slider {{ block.headline|length ? '-withCallout' : '' }}" {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}>
         {% if block.headline %}
@@ -18,7 +18,7 @@
                 <div class="testimonial__content">{{ testimonial.quote }}</div>
                 <footer class="testimonial__footer">
                     <div class="testimonial__citationPhotoWrapper">
-                        {{ macros.responsiveImage(testimonial.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+                        {{ macros.responsiveImage(testimonial.image.eagerly().one(), { imgClass: 'testimonial__citationPhoto' }) }}
                     </div>
                     <cite class="testimonial__citation">
                         {{ testimonial.person }}
@@ -46,7 +46,7 @@
       {% endif %}
       <div class="slider__content">
           <p-slider slides-per-view="auto" space-between="32" navigation="true" pagination-clickable="true" loop="true">
-              {% for testimonial in block.testimonialSlides.all() %}
+              {% for testimonial in block.testimonialSlides.eagerly().all() %}
                   <swiper-slide loading="lazy">
                       <blockquote class="testimonial">
                           <div class="testimonial__content">
@@ -55,7 +55,7 @@
                           <footer class="testimonial__footer">
                               {% if testimonial.image|length %}
                                   <div class="testimonial__citationPhotoWrapper">
-                                      {{ macros.responsiveImage(testimonial.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+                                      {{ macros.responsiveImage(testimonial.image.eagerly().one(), { imgClass: 'testimonial__citationPhoto' }) }}
                                   </div>
                               {% endif %}
                               <cite class="testimonial__citation">

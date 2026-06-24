@@ -19,6 +19,7 @@ createApp({
     PYouTube: defineAsyncComponent(() => import('./components/PYouTube.vue')),
 
     ElementCollection: defineAsyncComponent(() => import('./components/ElementCollection.vue')),
+    Paginator: defineAsyncComponent(() => import('./components/Paginator.vue')),
   },
   directives: {
     directionals,

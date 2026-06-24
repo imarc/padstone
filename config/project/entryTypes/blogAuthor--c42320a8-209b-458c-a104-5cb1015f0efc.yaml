@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: null
+description: null
 fieldLayouts:
   53237f31-5112-4577-a36c-06cd404f300f:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -23,7 +26,7 @@ fieldLayouts:
             orientation: null
             placeholder: null
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -35,7 +38,9 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-08-28T15:19:07+00:00'
+            editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
             handle: null
             instructions: null
@@ -50,14 +55,16 @@ fieldLayouts:
         name: Content
         uid: 3ec9fa96-8a45-412e-b39e-54a0bc2d7c90
         userCondition: null
-handle: author
+    thumbFieldKey: null
+handle: blogAuthor
 hasTitleField: true
-icon: ''
-name: Author
+icon: null
+name: 'Blog Author'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

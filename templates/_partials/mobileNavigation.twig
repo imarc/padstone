@@ -5,8 +5,8 @@
         </template>
         <template v-slot="{ click }">
             <ul class="mobileNavigation__list">
-                {% for navItem in primaryNavigation.topNavItems.all %}
-                    {% set navEntry = navItem.topNavEntry.one ?? null %}
+                {% for navItem in primaryNavigation.topNavItems.eagerly().all() %}
+                    {% set navEntry = navItem.topNavEntry.eagerly().one() ?? null %}
                     <li class="mobileNavigation__item">
                         {% if navEntry.children.level(2).count %}
                             <p-openable class="mobileNavigation__button" name="submenu">

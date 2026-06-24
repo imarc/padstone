@@ -4,11 +4,11 @@
 {% block content %}
     {% include '_partials/breadcrumbs' with { showBreadcrumbs: entry.showBreadcrumbs } %}
 
-   {% include '_partials/hero' with { hero: entry.hero.one } %}
+   {% include '_partials/hero' with { hero: entry.hero.eagerly().one() } %}
 
     <section class="container">
         <div class="cards grid -columns-3">
-            {% for article in craft.entries.section('news').all() %}
+            {% for article in craft.entries.section('news').eagerly().all() %}
                 <div class="cell card">
                     <div class="card__content">
                         <span class="card__title h3">{{ article.link }}</span>

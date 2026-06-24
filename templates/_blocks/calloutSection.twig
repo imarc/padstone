@@ -17,7 +17,7 @@
             </div>
         {% endif %}
         <div class="callout__actions cell -span-6 -center">
-            {% for ctaLink in block.ctaLinks.all() %}
+            {% for ctaLink in block.ctaLinks.eagerly().all() %}
                 {% set ctaClass = 'button' %}
                 {% if not loop.first %}
                     {% set ctaClass = ctaClass ~ ' -outline' %}

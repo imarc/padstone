@@ -60,6 +60,13 @@
                             #}
                         </div>
                     </div>
+
+                    <paginator 
+                        v-model="params.page" 
+                        :total-elements="meta.pagination?.total" 
+                        :total-pages="meta.pagination?.total_pages" 
+                        :per-page="meta.pagination?.per_page"
+                        />
                 </div>
             </div>
     </element-collection>

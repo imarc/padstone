@@ -47,8 +47,8 @@ return [
                     return [
                         'title' => $entry->title,
                         'description' => $entry->abstract,
-                        'image' => $entry->featuredImage->one() ? $entry->featuredImage->one()->url : 'https://via.placeholder.com/350x230',
-                        'imageAltText' => $entry->featuredImage->one() ? $entry->featuredImage->one()->altText : null,
+                        'image' => $entry->featuredImage->eagerly()->one() ? $entry->featuredImage->eagerly()->one()->url : 'https://via.placeholder.com/350x230',
+                        'imageAltText' => $entry->featuredImage->eagerly()->one() ? $entry->featuredImage->eagerly()->one()->altText : null,
                         'id' => $entry->id,
                         'url' => $entry->url,
                         'cta' => 'More',
@@ -131,9 +131,9 @@ return [
             return [
                 'criteria' => $criteria,
                 'transformer' => function(Entry $entry) {
-                    if ($entry->type == 'resourceLink' && count($entry->ctaLinkBlock->all())) {
-                        $url = $entry->ctaLinkBlock->one()->ctaLink->link;
-                        $cta = $entry->ctaLinkBlock->one()->linkText ?: 'More';
+                    if ($entry->type == 'resourceLink' && count($entry->ctaLinkBlock->eagerly()->all())) {
+                        $url = $entry->ctaLinkBlock->eagerly()->one()->ctaLink->link;
+                        $cta = $entry->ctaLinkBlock->eagerly()->one()->linkText ?: 'More';
                     } else {
                         $url = $entry->url;
                         $cta = $entry->ctaText ?: 'More';
@@ -141,10 +141,10 @@ return [
 
                     return [
                         'title' => $entry->title,
-                        'type' => $entry->resourceTypes->one() ? $entry->resourceTypes->one()->title : null,
+                        'type' => $entry->resourceTypes->eagerly()->one() ? $entry->resourceTypes->eagerly()->one()->title : null,
                         'description' => $entry->abstract,
-                        'image' => $entry->featuredImage->one() ? $entry->featuredImage->one()->url : 'https://via.placeholder.com/350x230',
-                        'imageAltText' => $entry->featuredImage->one() ? $entry->featuredImage->one()->altText : null,
+                        'image' => $entry->featuredImage->eagerly()->one() ? $entry->featuredImage->eagerly()->one()->url : 'https://via.placeholder.com/350x230',
+                        'imageAltText' => $entry->featuredImage->eagerly()->one() ? $entry->featuredImage->eagerly()->one()->altText : null,
                         'id' => $entry->id,
                         'url' => $url,
                         'cta' => $cta,

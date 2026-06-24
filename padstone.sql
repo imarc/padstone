@@ -3912,7 +3912,6 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 6	5	\N	2	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:41	2025-02-11 20:13:41	\N	\N	\N	8fed106e-d0fe-44a0-a8e2-fe2810ca1b20
 8	7	\N	3	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:41	2025-02-11 20:13:41	\N	\N	\N	2707e5ad-376b-4394-bf05-7503b8f74c42
 9	3	\N	4	29	craft\\elements\\Entry	t	f	2025-02-11 20:13:43	2025-02-11 20:13:43	\N	\N	\N	1f6081f7-6d98-4889-b8e2-eacac41fd7cd
-64	63	\N	19	32	craft\\elements\\Entry	t	f	2025-02-20 19:13:00	2025-02-20 19:13:00	\N	\N	\N	3f7c3e56-ceb7-4e07-a264-1715f2561b34
 10	5	\N	5	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:43	2025-02-11 20:13:43	\N	\N	\N	1d83de8b-98c5-43f4-ab9b-274a3214ea04
 11	5	\N	6	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:44	2025-02-11 20:13:44	\N	\N	\N	a323672c-763d-4403-bf50-152cacec550e
 12	7	\N	7	31	craft\\elements\\Entry	t	f	2025-02-11 20:13:45	2025-02-11 20:13:45	\N	\N	\N	0a44e4ce-a2e8-4aaf-9c5d-f8982ef23798
@@ -3943,7 +3942,6 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 56	5	\N	17	31	craft\\elements\\Entry	t	f	2025-02-20 19:11:10	2025-02-20 19:11:10	\N	\N	\N	d169a842-7308-40b3-9a36-79d821bc3cac
 57	55	\N	18	22	craft\\elements\\Entry	t	f	2025-02-20 19:11:10	2025-02-20 19:11:10	\N	\N	\N	edd95a43-2ee3-4db4-98af-22a6347dba2d
 61	\N	\N	\N	3	craft\\elements\\Category	t	f	2025-02-20 19:12:13	2025-02-20 19:12:20	\N	\N	\N	8fc2a754-c587-4475-be4a-9d72b9c9d34e
-63	\N	\N	\N	32	craft\\elements\\Entry	t	f	2025-02-20 19:12:46	2025-02-20 19:13:00	\N	\N	\N	fad1ac18-84ef-48ae-a094-e919c3ecd831
 101	84	\N	33	20	craft\\elements\\Entry	t	f	2025-02-20 19:42:04	2025-02-20 19:42:06	\N	\N	\N	b4216b5b-264f-46eb-8469-718db54c77b0
 102	85	\N	34	24	craft\\elements\\Entry	t	f	2025-02-20 19:42:04	2025-02-20 19:42:07	\N	\N	\N	6e649eb0-e7b9-4a4a-917c-c1eddd9d9ddb
 104	87	\N	36	10	craft\\elements\\Entry	t	f	2025-02-20 19:42:04	2025-02-20 19:42:07	\N	\N	\N	555e37dd-e62f-4915-b1d5-f687d45c0d7b
@@ -3964,8 +3962,10 @@ COPY public.elements (id, "canonicalId", "draftId", "revisionId", "fieldLayoutId
 48	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:10:28	2025-05-06 15:54:06	\N	\N	\N	a6c269c4-7767-49b6-b567-ce824f260b32
 152	\N	\N	\N	17	craft\\elements\\Entry	t	f	2025-02-20 19:56:58	2025-02-20 19:57:13	\N	\N	\N	52ec4a9a-2920-48c1-ab31-a09a4f965210
 69	66	\N	22	12	craft\\elements\\Entry	t	f	2025-02-20 19:17:08	2025-02-20 19:17:09	\N	2026-06-23 22:28:25	\N	ae39dc11-8599-45dc-bb8d-6107338d5e9b
+64	63	\N	19	32	craft\\elements\\Entry	t	f	2025-02-20 19:13:00	2025-02-20 19:13:00	\N	\N	\N	3f7c3e56-ceb7-4e07-a264-1715f2561b34
 42	\N	\N	\N	20	craft\\elements\\Entry	t	f	2025-02-20 19:10:00	2025-05-15 19:47:32	\N	\N	\N	2bcc11bf-3ee8-4493-82b1-5c56d2af03a7
 27	\N	\N	\N	22	craft\\elements\\Entry	t	f	2025-02-20 19:02:33	2025-05-15 19:20:02	\N	\N	\N	c4aae27f-e878-4bac-8523-0c31580605f3
+63	\N	\N	\N	32	craft\\elements\\Entry	t	f	2025-02-20 19:12:46	2025-02-20 19:13:00	\N	\N	\N	fad1ac18-84ef-48ae-a094-e919c3ecd831
 163	160	\N	60	38	craft\\elements\\Entry	t	f	2025-02-20 20:14:00	2025-02-20 20:14:00	\N	\N	\N	1519d11e-2957-4b50-afe6-dad85b92da67
 168	\N	\N	\N	1	craft\\elements\\Category	t	f	2025-02-20 20:16:36	2025-02-20 20:16:42	\N	\N	\N	fc361490-21c6-4994-81c7-4b8ccdcb97b7
 94	76	\N	26	31	craft\\elements\\Entry	t	f	2025-02-20 19:42:05	2025-02-20 19:42:05	\N	\N	\N	4d7a69ad-af67-4263-8044-3be07d010378
@@ -5468,8 +5468,6 @@ COPY public.entries_authors ("entryId", "authorId", "sortOrder") FROM stdin;
 216	13	1
 40	13	1
 44	13	1
-63	13	1
-64	13	1
 165	13	1
 177	13	1
 67	13	1
@@ -5553,6 +5551,8 @@ COPY public.entries_authors ("entryId", "authorId", "sortOrder") FROM stdin;
 156	13	1
 76	13	1
 475	13	1
+64	13	1
+63	13	1
 \.
 
 
@@ -5567,7 +5567,6 @@ COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitl
 10	16	Alert	alert		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	07ed78bd-f9e2-4563-a544-52dfa027178e	\N	{title}	f
 23	29	Homepage	homepage		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	c46e2b3b-387a-4540-9120-ab0a15b0bbae	\N	{title}	f
 24	30	Shared Sections	sharedSections		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	eed094b2-cdd9-4163-8ca6-fca978f404ad	\N	{title}	f
-26	32	Author	author		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	c42320a8-209b-458c-a104-5cb1015f0efc	\N	{title}	f
 27	33	Event	event		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	0526dbf2-583a-4dc9-83f5-f5888101378b	\N	{title}	f
 28	34	Resource with Detail Page	resourcePage		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	656e0885-03be-47ab-8531-be346ddbfc62	\N	{title}	f
 29	35	Press Mention	press		\N	t	site	\N		t	site	\N	t	2025-02-11 20:13:40	2025-02-11 20:13:40	\N	8a9cd262-8604-45fd-a48d-b11f4d398ba7	\N	{title}	f
@@ -5592,6 +5591,7 @@ COPY public.entrytypes (id, "fieldLayoutId", name, handle, icon, color, "hasTitl
 15	21	News Page	newsPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	ca4795d4-4ac1-46d8-8a30-dea2b3369723	\N	{title}	f
 22	28	Resources Page	resourcesPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2025-05-15 19:19:55	\N	e737c446-0085-4bd6-b343-2d4c9e9f312e	\N	{title}	f
 25	31	Content Designer Page	contentDesignerPage	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2026-06-24 18:05:56	\N	c59ecd1c-c856-4983-96da-bbbac954eab0	\N	{title}	f
+26	32	Blog Author	blogAuthor	\N	\N	t	site	\N	\N	t	site	\N	t	2025-02-11 20:13:40	2026-06-24 19:28:30	\N	c42320a8-209b-458c-a104-5cb1015f0efc	\N	{title}	f
 4	10	Image	image	\N	lime	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:24:26	\N	1a4b6ea7-240d-4c7c-86ab-ce16b55afc24	\N	{title}	f
 20	26	Video	video	\N	amber	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:24:38	\N	6a91581a-a1ff-430b-bbeb-32b131747531	\N	{title}	f
 31	37	Testimonial	testimonial	\N	teal	f	site	\N	\N	f	site	\N	f	2025-02-11 20:13:40	2025-05-19 14:31:18	\N	4536b6f0-b762-4abc-b6d1-a918619f8b4d	\N	{title}	f
@@ -5667,7 +5667,6 @@ COPY public.fieldlayouts (id, type, config, "dateCreated", "dateUpdated", "dateD
 22	craft\\elements\\Entry	{"tabs": [{"uid": "7eee4f6f-eb67-482e-8631-ffe2d2015b13", "name": "Content", "elements": [{"tip": null, "uid": "4b849859-e619-4c53-a923-33a7745ac886", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bda4be51-a390-429b-856f-8ebd7905b00a", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "c24927ca-b97d-4582-af30-a791db8e082a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "fcee80e9-4667-40be-9381-e2994ff56dc0", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "8f9e4214-c090-4867-91a9-9d08c9656f7c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "458fef22-7128-4c44-80db-51f83af8dc3e", "required": false, "dateAdded": "2024-08-23T13:56:00+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "d3594f6f-d77f-4fc4-bdc3-9b49a6f549cf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-09T15:36:13+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "1a2c220b-9fdf-4f85-b3dd-9d45274f0747", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": false, "dateAdded": "2025-05-14T19:39:33+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "6f3799d0-97ad-46e0-b02a-862da48a1cbb", "name": "Settings", "elements": [{"tip": null, "uid": "06ed7e7c-4df8-432c-8798-f9503097f2a4", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-14T21:04:43+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": ["layoutElement:c24927ca-b97d-4582-af30-a791db8e082a", "layoutElement:8f9e4214-c090-4867-91a9-9d08c9656f7c"]}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	243db469-6f40-4517-a75d-a7e8f81039f2
 28	craft\\elements\\Entry	{"tabs": [{"uid": "8757fe2d-7763-48e0-a556-3a66cfeba19f", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "a09d07ea-30e5-44fc-936a-1ccf06c16b7f", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-09-18T19:01:59+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "bd7e9c80-98fa-435f-b7b8-dcce6d7069e1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "c24bec29-1fd4-4668-8c97-86a8fca94f57", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:30:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "ae2220d3-6ace-4d4c-814b-4cafd0da637a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:30:08+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "a681ecf9-eecf-4936-8233-c55a5885c08c", "name": "SEO", "elements": [{"tip": null, "uid": "76de9c3c-1373-407a-b1d2-d51f84590b46", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "ece0be33-0e59-44cd-a40e-ef70c47da6d0", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "7b7054eb-daf1-4588-adc6-48c9d6fb7e07", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T19:03:26+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	6e8b7625-f295-457b-a541-e459049f138a
 26	craft\\elements\\Entry	{"tabs": [{"uid": "348db75c-74e1-427a-8a20-a5d0ef4ffa91", "name": "Content", "elements": [{"tip": null, "uid": "3fe7f3bd-8d51-437a-94f1-7e0de56e58af", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Thumbnail Image", "width": 100, "handle": null, "warning": null, "fieldUid": "dd58c3c0-4afc-4b83-a606-73c8bc282d99", "required": true, "dateAdded": "2025-05-20T01:40:30+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "0e66c4c1-1d62-4659-9ba7-294fbd16236c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "56554df0-f81a-4c6a-b023-706d2789eaa9", "required": true, "dateAdded": "2024-08-15T19:02:41+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	adb58e3b-a1c7-48d3-a0ea-9285a000fbd7
-32	craft\\elements\\Entry	{"tabs": [{"uid": "3ec9fa96-8a45-412e-b39e-54a0bc2d7c90", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "450bdc84-b627-4bdd-9826-047ac9fd7eea", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-28T15:17:06+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "c650d49f-5464-42e7-b347-67b93c633e82", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-08-28T15:19:07+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	53237f31-5112-4577-a36c-06cd404f300f
 33	craft\\elements\\Entry	{"tabs": [{"uid": "06a0af26-9155-4550-96d8-d319faabf257", "name": "Hero", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "68903edd-a7a4-408d-b513-d8bb24749f31", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-09-18T16:33:32+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "6083a0fb-b0d3-4550-a855-e1c0ee66fb3f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "341a7fb3-3ede-4a66-8e32-25c38b986f8a", "required": true, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "6e824743-c02d-4b2c-b22a-8d37b42baa41", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "6695f59b-2131-411b-9ed2-35f957256c1a", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "3880b582-6778-46de-b9e5-3c501cee7c5c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "f155fe39-4c36-418a-829b-8e9bfcd3fa1d", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "487d91f8-d92c-42b6-a8f7-5c26b643b20f", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "da24b561-9e70-4886-a47c-98dd4dd23072", "name": "Content", "elements": [{"tip": null, "uid": "8eaf4301-724f-40e7-b096-7613b289ca3e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "c8a5850b-437e-416e-b047-6912e81d20d0", "name": "SEO", "elements": [{"tip": null, "uid": "1f47aa22-6a8e-478e-b1fd-f5fa751a37cf", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "55463759-56db-4cd5-ae6f-52b3c4cbfeeb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "d2d8843c-eb60-437e-85c2-ad7a0bd47dfb", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-09-18T16:38:42+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	ea84b4b7-06a8-4f02-9933-f73ae4a40608
 34	craft\\elements\\Entry	{"tabs": [{"uid": "1da6f715-5dbe-48bd-a3f3-172c1d58776e", "name": "Resource", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "5a3af9a0-5998-4054-b583-8200d8e97aac", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-10-07T17:16:48+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "cbf7a960-b2ef-4fc7-ba6e-46ae6c4a7690", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "bd4fb97b-3b89-49bc-9fdb-c20917cb6776", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "447d0fa4-8719-44d4-8e92-4c46e37a64f1", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1734b2b5-03f5-435f-a92a-5b5e6125f9bc", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "b22ec0a1-3672-4607-af17-891e3d37aa7e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "200bbebe-f7e1-4fbd-ba8a-6e07e14b4c8e", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "828976bc-ffad-45d7-a799-845ad6f9d086", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "880ea67a-2b41-468b-b4af-0e2799aee9b3", "required": true, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "0c774007-1b7d-448e-904b-772e67d3d673", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "69705774-001e-4d43-b76b-77eef5713301", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "5a94a4fd-16fd-458f-b471-301539066648", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 50, "handle": null, "warning": null, "fieldUid": "4d061e2c-2f20-41b2-9e12-d11cb1fded64", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "f51d3c11-6c73-47c5-abd6-7d917b61b454", "name": "Content", "elements": [{"tip": null, "uid": "0792b95b-e250-4e7d-872e-0bc3dd855531", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "8141a078-d665-4b0c-bd49-d0a37a50bd5c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ca90f539-aa6f-483e-8503-d1a8410b2af5", "name": "SEO", "elements": [{"tip": null, "uid": "af715735-dd1d-4d14-936c-e50a40cb6b97", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "e262e6b7-6c0d-4c18-a4c7-23bad5640fbe", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "5e8d96ba-1ca5-4d20-86b8-d85fd78c7f29", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2024-10-07T17:21:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	81954e3c-f364-429f-8462-287e4ce6b80e
 36	craft\\elements\\Entry	{"tabs": [{"uid": "f1d06a92-df49-47a6-b3dc-fcc4dceccbd9", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "2e1f3bc2-4270-4b43-8b34-d1bedb9360c5", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "dateAdded": "2024-08-16T14:16:55+00:00", "inputType": null, "requirable": false, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "7b092a74-e320-4b59-93d4-d85decd827d9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "c0144003-4e0b-4e16-8a3e-85fab98c9798", "required": false, "dateAdded": "2024-08-22T13:29:28+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "6d75dd77-bb92-41b0-a2a9-b5c335b2bcc8", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "Sub Links", "width": 100, "handle": null, "warning": null, "fieldUid": "6eef63ba-f2a8-4833-8b72-8a6a9d931f84", "required": false, "dateAdded": "2024-08-21T17:20:35+00:00", "instructions": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "2125fe2f-dcd5-408a-b398-7bb02a4955f5", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "2b4abe74-65a4-4e1f-a224-ab97e43e54d9", "required": false, "dateAdded": "2024-08-16T14:22:38+00:00", "instructions": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-02-11 20:13:40	2026-06-23 21:54:36	\N	4383c1fb-e88c-4b39-ad25-fff4334ad240
@@ -5686,6 +5685,7 @@ COPY public.fieldlayouts (id, type, config, "dateCreated", "dateUpdated", "dateD
 48	craft\\elements\\Entry	{"tabs": [{"uid": "eb4e437b-df66-45d6-851e-38a858af1f56", "name": "Content", "elements": [{"tip": null, "uid": "df8b6e6f-f6ba-497d-a35c-1afbe2096017", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3546d0c2-4446-4f19-beb3-1e460aa375df", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "4903969a-2b49-4984-979e-6f0ab4c238c2", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "239636d6-2511-4e4b-9ecc-52761402f8dd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "dab85477-9d74-4135-9cd2-a0e109e07314", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "04f6a9aa-cc09-4745-8012-926262ab1481", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "850e8e38-809a-494d-b643-efd7ff7c48e6", "required": true, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "cd295e4e-7d7a-44b4-9f10-0f61a4ad8b46", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": "CTA Link", "width": 100, "handle": null, "warning": null, "fieldUid": "5a53a4fd-6824-4729-9a20-006558d3e221", "required": false, "dateAdded": "2025-05-19T14:57:58+00:00", "instructions": "Fill in link to create a CTA", "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "171c531a-728b-4417-b178-c7f60f05e056", "name": "Settings", "elements": [{"tip": null, "uid": "fd9eba28-273f-4a36-969c-fbbba1453e3e", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3f694951-45bb-48bb-8b85-e0d8634e227c", "required": false, "dateAdded": "2025-05-19T14:56:23+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "98b84bfa-5af9-4977-991c-f51e17838b61", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T14:56:23+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 14:56:23	2026-06-23 21:54:36	\N	10a76dce-118a-42ab-ae61-06ddbc0dadd1
 49	craft\\elements\\Entry	{"tabs": [{"uid": "8bb431b0-1a0a-46f1-b0f0-67666181d012", "name": "Content", "elements": [{"tip": null, "uid": "1699a34c-9986-441c-a06f-a25c96247db3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3984cd0f-a133-49ff-94d0-63730cf1bf51", "required": false, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}, {"tip": null, "uid": "9def8205-92bf-4d29-8359-eae67adcb497", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "b4fd5d6c-8267-43f3-bfed-8defac06c057", "required": true, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "37a5cc06-1d8e-4c4f-a398-d94b7a0f933e", "name": "Settings", "elements": [{"tip": null, "uid": "6751c6cc-a7b5-4ae3-a07e-c7039b534a70", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "a7b59ddf-b06d-4b04-8d73-c52609ae95d3", "required": false, "dateAdded": "2025-05-19T15:09:44+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": []}	2025-05-19 15:09:44	2026-06-23 21:54:36	\N	adcccf35-575b-4fe9-a234-0fb72923e7d1
 31	craft\\elements\\Entry	{"tabs": [{"uid": "3ef4ab5f-8457-49d9-8bbb-c992bc58d5e4", "name": "Hero", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "bf6d6ccb-bfb4-4b78-8e64-fdcb5ecdc8f8", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-08-23T13:46:34+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "d9a17e8f-17d2-4dde-97a0-0c057d005c6c", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "d56b297b-0f38-4dee-abc3-57498c544f41", "required": true, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}, {"tip": null, "uid": "184732fa-28c4-4ccf-8f83-f6ffe459a8f9", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3644b740-3500-418e-a08f-7e66e4a2b99e", "required": false, "dateAdded": "2025-05-15T13:26:12+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}, {"tip": null, "uid": "ae276ea6-22f4-4e3a-b676-4bd453920754", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "89dec5ed-967b-4adc-96f4-990fe7f52da5", "required": false, "dateAdded": "2025-05-15T13:26:12+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ea3807d2-7d9c-4648-9fe8-dd0a8e27122b", "name": "Content", "elements": [{"tip": null, "uid": "d8690656-029f-4c66-a8c5-33f3f5c084fd", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "0587c309-76fe-4928-9be3-cb2980b7908c", "required": true, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}], "userCondition": null, "elementCondition": null}, {"uid": "ef1d85f0-b141-4098-a244-99988ebba7e9", "name": "SEO", "elements": [{"tip": null, "uid": "f13e53ee-02dd-4383-9d97-24d326d31d4a", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "1d7fd420-3fd4-4dc0-afca-1833e0d9a05c", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}, {"tip": null, "uid": "36659011-5201-424f-9acc-ea27307608a6", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "678939a0-3ca0-4044-b263-e25151ebb1df", "required": false, "dateAdded": "2024-08-23T14:12:50+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}, {"tip": null, "uid": "ddee4407-bcda-4ab8-9a74-f006e1ad58e3", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "3e4455cb-a3c6-4a1f-aece-f5b32088a23e", "required": false, "dateAdded": "2026-06-24T18:05:56+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": [], "thumbFieldKey": null, "generatedFields": [], "cardThumbAlignment": "end"}	2025-02-11 20:13:40	2026-06-24 18:05:56	\N	40d44b5f-abdf-4896-b9bf-c7f559ef07e7
+32	craft\\elements\\Entry	{"tabs": [{"uid": "3ec9fa96-8a45-412e-b39e-54a0bc2d7c90", "name": "Content", "elements": [{"id": null, "max": null, "min": null, "tip": null, "uid": "450bdc84-b627-4bdd-9826-047ac9fd7eea", "name": null, "size": null, "step": null, "type": "craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField", "class": null, "label": null, "title": null, "width": 100, "warning": null, "disabled": false, "readonly": false, "required": true, "dateAdded": "2024-08-28T15:17:06+00:00", "inputType": null, "autocorrect": true, "orientation": null, "placeholder": null, "autocomplete": false, "instructions": null, "userCondition": null, "autocapitalize": true, "labelAttributes": [], "elementCondition": null, "containerAttributes": [], "inputContainerAttributes": []}, {"tip": null, "uid": "c650d49f-5464-42e7-b347-67b93c633e82", "type": "craft\\\\fieldlayoutelements\\\\CustomField", "label": null, "width": 100, "handle": null, "warning": null, "fieldUid": "115744a1-512d-495b-ba38-959ebed6cec4", "required": false, "dateAdded": "2024-08-28T15:19:07+00:00", "instructions": null, "editCondition": null, "userCondition": null, "elementCondition": null, "elementEditCondition": null}], "userCondition": null, "elementCondition": null}], "cardView": [], "thumbFieldKey": null, "generatedFields": [], "cardThumbAlignment": "end"}	2025-02-11 20:13:40	2026-06-24 19:28:30	\N	53237f31-5112-4577-a36c-06cd404f300f
 \.
 
 
@@ -5808,16 +5808,16 @@ COPY public.imagetransformindex (id, "assetId", transformer, filename, format, "
 64	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_60x40_crop_center-center_none	t	f	t	2025-05-06 15:53:49	2025-05-06 15:53:49	2026-06-24 18:26:49	a390c977-fcfe-4744-a8fd-b08ce2f5cad9
 55	223	craft\\imagetransforms\\ImageTransformer	37-1000x1000.jpg	\N	_30x30_crop_center-center_none	t	f	t	2025-05-06 15:42:01	2025-05-06 15:42:01	2026-06-24 18:26:49	ac316de8-54fe-47d9-9296-b4cd603493d8
 56	223	craft\\imagetransforms\\ImageTransformer	37-1000x1000.jpg	\N	_60x60_crop_center-center_none	t	f	t	2025-05-06 15:42:01	2025-05-06 15:42:01	2026-06-24 18:26:49	8d9557d8-bcf7-494f-92da-ea0fd52d759d
-65	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	44015b61-889b-46c5-9a59-6755ceb3ab4d
-66	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	fb46a590-8c68-4c11-8fdc-6897283a7df2
-67	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	b553f3e6-7712-4ca3-9ddd-73aa45166dc2
-68	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	a003f40a-549f-4ea3-8b0c-5354c21e0ed6
-69	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	188a9ec0-312b-4e73-a969-bb9117d242af
-70	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	0d52d486-8be0-4ec2-84e5-a4c9fae81912
-71	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	addf8490-7555-42ff-9366-639298bd96dc
-72	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	626e634c-a117-4e40-ab7d-81b192953552
-73	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	ba949432-ea4a-4653-a7d1-d52bb9df4589
-74	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 18:11:05	890459b4-96e0-4624-a9b6-da459c15605f
+65	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:17	44015b61-889b-46c5-9a59-6755ceb3ab4d
+66	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:17	fb46a590-8c68-4c11-8fdc-6897283a7df2
+67	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	b553f3e6-7712-4ca3-9ddd-73aa45166dc2
+68	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	a003f40a-549f-4ea3-8b0c-5354c21e0ed6
+69	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	188a9ec0-312b-4e73-a969-bb9117d242af
+70	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	0d52d486-8be0-4ec2-84e5-a4c9fae81912
+71	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	addf8490-7555-42ff-9366-639298bd96dc
+72	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	626e634c-a117-4e40-ab7d-81b192953552
+73	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:18	ba949432-ea4a-4653-a7d1-d52bb9df4589
+74	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 15:53:53	2025-05-06 15:53:53	2026-06-24 19:25:19	890459b4-96e0-4624-a9b6-da459c15605f
 77	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:54:47	2025-05-06 15:54:47	2026-06-24 18:11:06	c4b8af12-5a59-4012-99fa-52aa7420dd7a
 78	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:54:47	2025-05-06 15:54:47	2026-06-24 18:11:06	cb5f047b-cb05-44de-af1c-f414d5a0c97f
 79	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 15:54:47	2025-05-06 15:54:47	2026-06-24 18:11:06	efe863dc-1aa8-4a95-a730-3478a3363a26
@@ -5834,49 +5834,49 @@ COPY public.imagetransformindex (id, "assetId", transformer, filename, format, "
 99	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_30x20_crop_center-center_none	t	f	t	2025-05-06 15:59:52	2025-05-06 15:59:52	2026-06-24 18:26:49	26538321-26ad-4a0b-ad3e-07371f08b1f4
 100	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_60x40_crop_center-center_none	t	f	t	2025-05-06 15:59:52	2025-05-06 15:59:52	2026-06-24 18:26:49	555abe30-0397-42d4-8eb7-8fc9ea373204
 88	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_60x40_crop_center-center_none	t	f	t	2025-05-06 15:56:36	2025-05-06 15:56:36	2026-06-24 18:26:49	8c8a3034-31fc-4781-af18-47e04e2ded11
-101	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	82efab39-7402-493b-805d-15ab46f3dd00
-102	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	188386df-f431-4aed-bf7c-bfe3a6cd8545
-103	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	77bd0706-9b1c-4a6c-a76c-7f95d41dda2f
-104	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	81111951-3583-4387-b5c0-0b970abbddda
-105	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	b21f46d4-81d2-4532-abd2-07975bda2d28
-106	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	3517b975-2771-4d52-bf3e-ae16c14a2ce0
-107	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	2017cd4e-dbd9-49f1-9d82-b249ffc40ac5
-108	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	22e96015-e909-4cd3-8b89-02523f04b939
-109	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	21de6f97-9038-42ab-b2ba-4de5282954d1
-110	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	23845f27-214b-4bae-8026-37641c8b8881
-121	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	b640c5d8-9c44-4682-9e20-952bfbfb642e
-122	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_750xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	5f875f51-8c1c-4fac-a0b6-fb12b19e9bfa
-123	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	2d7681de-8072-4b40-a5e1-d5b50152d863
-125	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	2cfbde29-c256-4ae4-a255-7ef6dfb9dc7a
-126	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.jpg	\N	_750xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	27eda35b-e9dc-4f46-8f2c-cfe0cda461a7
-127	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	5b17e71e-fb2e-40d9-a3a4-601c52103d02
-129	251	craft\\imagetransforms\\ImageTransformer	1951834-1468369652.png	\N	_400xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	95cadd50-836c-4c9d-94e4-94118aac11e3
-130	251	craft\\imagetransforms\\ImageTransformer	1951834-1468369652.webp	webp	_400xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	14ac73a9-ecde-4680-bf02-0cf6d1a9466c
-131	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	9f2feba8-400d-4602-ba5d-07ab437fb48b
-135	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	2f7d5017-280b-45b5-9cdf-56b539826982
-111	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	524def89-5b80-433b-8e53-d6f5c18a9d31
-112	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	3fb4aa3e-4091-4991-80fe-1d59a59ef5ec
-113	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	ceb62c8d-35c9-4a9d-b8bc-900e5bb1e7fb
-114	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	f08cdb45-0f87-4e17-ac9e-abfa3da32f03
-115	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	a79ba64a-1c45-4f0a-9d2e-f5e0f30903fd
-116	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	d0ec61a6-e037-41ed-93e0-6342cfd4737e
-117	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	104948d5-dfd9-48c6-9a08-62e73aa97d6c
-118	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	fbeddd73-298b-48fd-afd4-61e7d4b61771
-119	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	ec0525a2-6ed4-4101-9c6e-faba48474183
-120	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	853740c8-3670-437c-b47d-6c9fa4cf3431
-143	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_1000xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:06	d3b91d60-465b-4c2c-b9de-794e7d4a9f6a
+101	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	82efab39-7402-493b-805d-15ab46f3dd00
+102	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	188386df-f431-4aed-bf7c-bfe3a6cd8545
+103	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	77bd0706-9b1c-4a6c-a76c-7f95d41dda2f
+104	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	81111951-3583-4387-b5c0-0b970abbddda
+105	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	b21f46d4-81d2-4532-abd2-07975bda2d28
+106	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:16	3517b975-2771-4d52-bf3e-ae16c14a2ce0
+107	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:17	2017cd4e-dbd9-49f1-9d82-b249ffc40ac5
+108	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:17	22e96015-e909-4cd3-8b89-02523f04b939
+109	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:17	21de6f97-9038-42ab-b2ba-4de5282954d1
+110	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:17	23845f27-214b-4bae-8026-37641c8b8881
+121	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	b640c5d8-9c44-4682-9e20-952bfbfb642e
+122	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_750xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	5f875f51-8c1c-4fac-a0b6-fb12b19e9bfa
+123	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	2d7681de-8072-4b40-a5e1-d5b50152d863
+125	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	2cfbde29-c256-4ae4-a255-7ef6dfb9dc7a
+126	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.jpg	\N	_750xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	27eda35b-e9dc-4f46-8f2c-cfe0cda461a7
+127	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	5b17e71e-fb2e-40d9-a3a4-601c52103d02
+129	251	craft\\imagetransforms\\ImageTransformer	1951834-1468369652.png	\N	_400xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	95cadd50-836c-4c9d-94e4-94118aac11e3
+130	251	craft\\imagetransforms\\ImageTransformer	1951834-1468369652.webp	webp	_400xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	14ac73a9-ecde-4680-bf02-0cf6d1a9466c
+131	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	9f2feba8-400d-4602-ba5d-07ab437fb48b
+135	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	2f7d5017-280b-45b5-9cdf-56b539826982
+111	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	524def89-5b80-433b-8e53-d6f5c18a9d31
+112	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	3fb4aa3e-4091-4991-80fe-1d59a59ef5ec
+113	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	ceb62c8d-35c9-4a9d-b8bc-900e5bb1e7fb
+114	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	f08cdb45-0f87-4e17-ac9e-abfa3da32f03
+115	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	a79ba64a-1c45-4f0a-9d2e-f5e0f30903fd
+116	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	d0ec61a6-e037-41ed-93e0-6342cfd4737e
+117	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	104948d5-dfd9-48c6-9a08-62e73aa97d6c
+118	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	fbeddd73-298b-48fd-afd4-61e7d4b61771
+119	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:22	ec0525a2-6ed4-4101-9c6e-faba48474183
+120	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:22	853740c8-3670-437c-b47d-6c9fa4cf3431
+143	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_1000xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:22	d3b91d60-465b-4c2c-b9de-794e7d4a9f6a
 164	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	t	2025-05-15 19:19:33	2025-05-15 19:19:33	2026-06-24 18:30:07	57171b9e-f063-4151-a4dc-4d4780f2305d
 170	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	t	2025-05-19 15:26:16	2025-05-19 15:26:16	2026-06-24 18:30:08	2f3f75d7-e7c8-483a-b42c-25bdc2813d87
 166	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	t	2025-05-15 19:19:33	2025-05-15 19:19:33	2026-06-24 18:30:08	cbd72764-eb4c-4230-bde4-c25ef79f8716
 167	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	t	2025-05-19 15:24:47	2025-05-19 15:24:47	2026-06-24 18:30:08	1e3ba978-334b-4432-b065-2d27e9b556e5
 168	233	craft\\imagetransforms\\ImageTransformer	969-1500x1000.jpg	\N	_240x160_crop_center-center_none	t	f	t	2025-05-19 15:24:47	2025-05-19 15:24:47	2026-06-24 18:30:08	6aea23fa-b670-42da-886b-27454034befa
-158	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	fda016de-23bc-47be-980c-d18f7265f2ed
+158	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:15	fda016de-23bc-47be-980c-d18f7265f2ed
 155	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_30x20_crop_center-center_none	t	f	t	2025-05-06 17:21:40	2025-05-06 17:21:40	2026-06-24 18:26:49	d20badb4-dbbe-49b4-a447-f3a1fe812016
 165	247	craft\\imagetransforms\\ImageTransformer	95-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	t	2025-05-15 19:19:33	2025-05-15 19:19:33	2026-06-24 18:30:08	166e7007-92c5-4e9f-bf7f-a7368b466e0a
-159	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_900xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	ea0d1f2b-b39a-4ded-bb22-176373857fa2
-160	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	5cb7dbee-c4b8-4343-8d85-092cd13c21ed
-161	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	2ec94d47-22ac-4bd4-bf14-eec0f33eb946
-162	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_900xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	2d1564c4-9a23-47f1-a337-d2b00f43d08a
+159	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_900xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:16	ea0d1f2b-b39a-4ded-bb22-176373857fa2
+160	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:16	5cb7dbee-c4b8-4343-8d85-092cd13c21ed
+161	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:16	2ec94d47-22ac-4bd4-bf14-eec0f33eb946
+162	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.webp	webp	_900xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:16	2d1564c4-9a23-47f1-a337-d2b00f43d08a
 163	244	craft\\imagetransforms\\ImageTransformer	354-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	t	2025-05-15 19:19:33	2025-05-15 19:19:33	2026-06-24 18:30:07	f85fc990-fc3a-4b57-b2a8-5c16b312922e
 156	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_60x40_crop_center-center_none	t	f	t	2025-05-06 17:21:40	2025-05-06 17:21:40	2026-06-24 18:26:49	cd3dad29-170e-4d0a-a84e-9a5166112f93
 147	251	craft\\imagetransforms\\ImageTransformer	1951834-1468369652.png	\N	_30x22_crop_center-center_none	t	f	t	2025-05-06 16:02:30	2025-05-06 16:02:30	2026-06-24 18:26:49	acf78a82-c29c-4893-9859-251bebc8c50a
@@ -5887,28 +5887,28 @@ COPY public.imagetransformindex (id, "assetId", transformer, filename, format, "
 152	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_60x26_crop_center-center_none	t	f	t	2025-05-06 16:02:30	2025-05-06 16:02:30	2026-06-24 18:26:49	202b0ef2-9324-4002-ae1d-cc45b8c9da6c
 153	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_30x30_crop_center-center_none	t	f	t	2025-05-06 16:02:30	2025-05-06 16:02:30	2026-06-24 18:26:49	e23a8549-50ce-4675-b21f-abfd78bb073b
 154	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_60x60_crop_center-center_none	t	f	t	2025-05-06 16:02:30	2025-05-06 16:02:30	2026-06-24 18:26:49	ff58e93a-36a9-4f4b-969b-ae4558cde7b4
-128	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.webp	webp	_750xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	8af760b4-df0b-440c-a38b-f92d98cbfa79
-132	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	b717abec-2542-417d-9f36-7d0623976fe7
-133	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	238e560b-4fb0-41d1-8e71-663fe50959f6
-134	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	64b5afae-1dd6-4ed9-b77a-ab3bcc20978f
-136	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	c96290d5-0ce8-4937-b68a-0dae7543bfd3
-137	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	e5cd8895-106a-4a4d-928d-17daebdf1465
-138	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	92e976b1-a8ca-4512-88c3-80551121e289
-139	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	b2a2c8a0-2610-4025-8539-91d0ab3b4483
-140	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	6f486301-d0f1-406a-8c60-5952ed7bf613
-141	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:05	7b345cff-6a21-4b30-93e5-e1f97be8282d
-142	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:05	2da5df64-68f5-4e61-9e7e-27a400bb57d6
-144	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:06	a7e0f204-b297-454f-966f-36723d3a7cdf
-145	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_768xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:06	a9873341-ae44-4a04-aee0-0607d2d550ef
-146	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_1000xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 18:11:06	2769b2f0-db3d-4bda-867e-57031742194a
-157	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_640xAUTO_crop_center-center_none	f	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 18:11:05	04324b5e-e70c-4b5c-8868-9e8a7361cab4
-124	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.webp	webp	_750xAUTO_crop_center-center_none	f	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 18:11:05	b1dc5868-44de-47ee-a422-6918ffde37b5
+128	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.webp	webp	_750xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	8af760b4-df0b-440c-a38b-f92d98cbfa79
+132	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	b717abec-2542-417d-9f36-7d0623976fe7
+133	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	238e560b-4fb0-41d1-8e71-663fe50959f6
+134	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.jpg	\N	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	64b5afae-1dd6-4ed9-b77a-ab3bcc20978f
+136	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	c96290d5-0ce8-4937-b68a-0dae7543bfd3
+137	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	e5cd8895-106a-4a4d-928d-17daebdf1465
+138	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1024xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	92e976b1-a8ca-4512-88c3-80551121e289
+139	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1366xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:20	b2a2c8a0-2610-4025-8539-91d0ab3b4483
+140	253	craft\\imagetransforms\\ImageTransformer	74-1500x1000.webp	webp	_1500xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:21	6f486301-d0f1-406a-8c60-5952ed7bf613
+141	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:22	7b345cff-6a21-4b30-93e5-e1f97be8282d
+142	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:22	2da5df64-68f5-4e61-9e7e-27a400bb57d6
+144	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:22	a7e0f204-b297-454f-966f-36723d3a7cdf
+145	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_768xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:22	a9873341-ae44-4a04-aee0-0607d2d550ef
+146	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.webp	webp	_1000xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:54	2025-05-06 16:00:54	2026-06-24 19:25:23	2769b2f0-db3d-4bda-867e-57031742194a
 171	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_285x190_crop_center-center_none	f	f	t	2026-06-24 18:11:33	2026-06-24 18:11:33	2026-06-24 18:11:33	46424845-6b1d-41b4-9b56-0632e4e4de5a
 172	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_570x380_crop_center-center_none	f	f	t	2026-06-24 18:11:33	2026-06-24 18:11:33	2026-06-24 18:11:33	e8ae3e7e-2486-4610-bdbe-d7ba9d767523
 169	228	craft\\imagetransforms\\ImageTransformer	1059-1500x1000.jpg	\N	_120x80_crop_center-center_none	t	f	t	2025-05-19 15:26:16	2025-05-19 15:26:16	2026-06-24 18:30:08	116b9f19-9d4b-4e20-8fb0-3ba39a55b331
 91	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.png	\N	_120x52_crop_center-center_none	t	f	t	2025-05-06 15:59:01	2025-05-06 15:59:01	2026-06-24 18:30:08	6e8d7d0b-98ec-4d17-a170-0ebfd37c8904
 93	250	craft\\imagetransforms\\ImageTransformer	1951898-3360233634.jpg	\N	_120x120_crop_center-center_none	t	f	t	2025-05-06 15:59:03	2025-05-06 15:59:03	2026-06-24 18:30:08	c1862e79-f7ab-49a8-bace-df1cd196da36
 53	220	craft\\imagetransforms\\ImageTransformer	defaultImage.small_1000_1000_nofilter.jpg	\N	_120x120_crop_center-center_none	t	f	t	2025-05-06 15:30:48	2025-05-06 15:30:48	2026-06-24 18:30:08	801d8b95-38ea-424a-bbad-10c3926e9e3e
+157	320	craft\\imagetransforms\\ImageTransformer	cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	\N	_640xAUTO_crop_center-center_none	t	f	t	2025-05-06 18:09:18	2025-05-06 18:09:18	2026-06-24 19:25:15	04324b5e-e70c-4b5c-8868-9e8a7361cab4
+124	249	craft\\imagetransforms\\ImageTransformer	1951884-3669393195.webp	webp	_750xAUTO_crop_center-center_none	t	f	t	2025-05-06 16:00:53	2025-05-06 16:00:53	2026-06-24 19:25:19	b1dc5868-44de-47ee-a422-6918ffde37b5
 \.
 
 
@@ -5925,7 +5925,7 @@ COPY public.imagetransforms (id, name, handle, mode, "position", width, height, 
 --
 
 COPY public.info (id, version, "schemaVersion", maintenance, "configVersion", "fieldVersion", "dateCreated", "dateUpdated", uid) FROM stdin;
-1	5.10.8.1	5.10.0.0	f	eyuspwvrbmuz	3@xeperxqgky	2025-02-11 20:13:37	2026-06-24 18:09:35	5586c0cf-e296-42a7-8bd0-821be5440a99
+1	5.10.8.1	5.10.0.0	f	vrgcsglnlcpl	3@ygscpomedy	2025-02-11 20:13:37	2026-06-24 19:28:30	5586c0cf-e296-42a7-8bd0-821be5440a99
 \.
 
 
@@ -6030,7 +6030,7 @@ COPY public.migrations (id, track, name, "applyTime", "dateCreated", "dateUpdate
 --
 
 COPY public.phpsessions (id, expire, data, "dateCreated", "dateUpdated", uid) FROM stdin;
-ab7a7cb2e083f6bd804ef73b507b562e	1782327369	\\x36346566323864326633386565653366636136343834333662666639333332665f5f666c6173687c613a303a7b7d36643336646565656163316530396135313633316130353333656237393735615f5f746f6b656e7c733a3130303a224a51626233665f64754f72513771356156487a6f4550496d4459764f746e6e716c46765a68584e49743465696f7249542d596b7449614f62564f65474e746c31636579614b4370725f335248426547585978316b34426354593172625932727173577858223b36643336646565656163316530396135313633316130353333656237393735615f5f69647c693a31333b5f5f617574684b65797c733a3134343a225b224a51626233665f64754f72513771356156487a6f4550496d4459764f746e6e716c46765a68584e49743465696f7249542d596b7449614f62564f65474e746c31636579614b4370725f335248426547585978316b34426354593172625932727173577858222c6e756c6c2c223363643865663533383530313436653434623233663233323630623665323463225d223b36643336646565656163316530396135313633316130353333656237393735615f5f6578706972657c693a313738323332393430393b5f5f6475726174696f6e7c693a333630303b5f5f656c6576617465645f74696d656f75747c693a313738323332343630373b36346566323864326633386565653366636136343834333662666639333332665f5f617574685f6163636573737c613a31323a7b693a303b733a31353a22656469745374727563747572653a34223b693a313b733a33333a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b65793736223b693a323b733a31373a2270726576696577456c656d656e743a3736223b693a333b733a34373a22736176654173736574733a35303761393636642d306236392d346638652d396433312d333162363532386231346130223b693a343b733a33383a226d616e6167654e6573746564456c656d656e74733a3a3132393a3a6669656c643a6361726473223b693a353b733a33383a226d616e6167654e6573746564456c656d656e74733a3a3139373a3a6669656c643a6361726473223b693a363b733a33343a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b6579343730223b693a373b733a31363a227072657669657744726166743a313937223b693a383b733a33343a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b6579313434223b693a393b733a31383a2270726576696577456c656d656e743a313434223b693a31303b733a33333a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b65793732223b693a31313b733a31373a2270726576696577456c656d656e743a3732223b7d	2026-06-24 14:34:53	2026-06-24 18:32:09	eb31124e-bc0a-47f4-9ee4-0b90ce9ba4d6
+ab7a7cb2e083f6bd804ef73b507b562e	1782331792	\\x36346566323864326633386565653366636136343834333662666639333332665f5f666c6173687c613a303a7b7d36643336646565656163316530396135313633316130353333656237393735615f5f746f6b656e7c733a3130303a224a51626233665f64754f72513771356156487a6f4550496d4459764f746e6e716c46765a68584e49743465696f7249542d596b7449614f62564f65474e746c31636579614b4370725f335248426547585978316b34426354593172625932727173577858223b36643336646565656163316530396135313633316130353333656237393735615f5f69647c693a31333b5f5f617574684b65797c733a3134343a225b224a51626233665f64754f72513771356156487a6f4550496d4459764f746e6e716c46765a68584e49743465696f7249542d596b7449614f62564f65474e746c31636579614b4370725f335248426547585978316b34426354593172625932727173577858222c6e756c6c2c223363643865663533383530313436653434623233663233323630623665323463225d223b36643336646565656163316530396135313633316130353333656237393735615f5f6578706972657c693a313738323333333639343b5f5f6475726174696f6e7c693a333630303b5f5f656c6576617465645f74696d656f75747c693a313738323332343630373b36346566323864326633386565653366636136343834333662666639333332665f5f617574685f6163636573737c613a31343a7b693a303b733a31353a22656469745374727563747572653a34223b693a313b733a33333a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b65793736223b693a323b733a31373a2270726576696577456c656d656e743a3736223b693a333b733a34373a22736176654173736574733a35303761393636642d306236392d346638652d396433312d333162363532386231346130223b693a343b733a33383a226d616e6167654e6573746564456c656d656e74733a3a3132393a3a6669656c643a6361726473223b693a353b733a33383a226d616e6167654e6573746564456c656d656e74733a3a3139373a3a6669656c643a6361726473223b693a363b733a33343a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b6579343730223b693a373b733a31363a227072657669657744726166743a313937223b693a383b733a33343a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b6579313434223b693a393b733a31383a2270726576696577456c656d656e743a313434223b693a31303b733a33333a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b65793732223b693a31313b733a31373a2270726576696577456c656d656e743a3732223b693a31323b733a33333a2273656f6d6174696350726576696577417574686f72697a6174696f6e4b65793538223b693a31333b733a31373a2270726576696577456c656d656e743a3538223b7d	2026-06-24 14:34:53	2026-06-24 19:45:52	eb31124e-bc0a-47f4-9ee4-0b90ce9ba4d6
 \.
 
 
@@ -6461,7 +6461,6 @@ fields.eeef2caa-117b-428d-9f03-adb34907baec.settings.uiMode	"normal"
 fields.eeef2caa-117b-428d-9f03-adb34907baec.translationKeyFormat	null
 fields.eeef2caa-117b-428d-9f03-adb34907baec.translationMethod	"none"
 fields.eeef2caa-117b-428d-9f03-adb34907baec.type	"craft\\\\fields\\\\PlainText"
-meta.__names__.c42320a8-209b-458c-a104-5cb1015f0efc	"Author"
 meta.__names__.ca4795d4-4ac1-46d8-8a30-dea2b3369723	"News Page"
 fields.f155fe39-4c36-418a-829b-8e9bfcd3fa1d.columnSuffix	null
 fields.f155fe39-4c36-418a-829b-8e9bfcd3fa1d.handle	"eventLocation"
@@ -7085,7 +7084,6 @@ categoryGroups.de18a008-1675-459b-bc1e-5f684096b0c2.fieldLayouts.1edfb803-b38e-4
 categoryGroups.de18a008-1675-459b-bc1e-5f684096b0c2.fieldLayouts.1edfb803-b38e-4aba-aaca-3b915dfeddeb.tabs.0.elements.0.uid	"fecd3ee1-7ac4-455e-afa6-1c56b6158edd"
 categoryGroups.de18a008-1675-459b-bc1e-5f684096b0c2.fieldLayouts.1edfb803-b38e-4aba-aaca-3b915dfeddeb.tabs.0.elements.0.userCondition	null
 fields.0e078940-3caa-4bc2-84d3-c91c225cb26d.columnSuffix	null
-meta.__names__.d41feaed-9c5d-41dc-9629-8e9af1b89cbf	"Authors"
 meta.__names__.d56b297b-0f38-4dee-abc3-57498c544f41	"Hero"
 meta.__names__.d4966cae-3474-4ee8-92bd-7d511f1758d4	"Standard Hero"
 meta.__names__.d69400d5-37c7-48ef-b143-e25cccdda2ac	"Simple"
@@ -8434,7 +8432,6 @@ entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.titleFormat	null
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.titleTranslationKeyFormat	null
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.titleTranslationMethod	"site"
 entryTypes.c59ecd1c-c856-4983-96da-bbbac954eab0.uiLabelFormat	"{title}"
-dateModified	1782324575
 elementSources.craft\\elements\\Entry.0.key	"*"
 elementSources.craft\\elements\\Entry.0.page	"Entries"
 elementSources.craft\\elements\\Entry.0.type	"native"
@@ -8502,6 +8499,25 @@ elementSources.craft\\elements\\Entry.16.type	"heading"
 elementSources.craft\\elements\\Entry.17.key	"single:6d180003-5ba0-4422-bebb-53f81069962e"
 elementSources.craft\\elements\\Entry.17.page	"Entries"
 elementSources.craft\\elements\\Entry.17.type	"native"
+meta.__names__.d41feaed-9c5d-41dc-9629-8e9af1b89cbf	"Blog Authors"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.defaultPlacement	"end"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.enableVersioning	true
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.entryTypes.0.uid	"c42320a8-209b-458c-a104-5cb1015f0efc"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.handle	"blogAuthors"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.maxAuthors	1
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.minAuthors	1
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.name	"Blog Authors"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.label	"Primary entry page"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.refresh	"1"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.urlFormat	"{url}"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.propagationMethod	"all"
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.enabledByDefault	true
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.hasUrls	false
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.template	null
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.uriFormat	null
+sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.type	"channel"
+dateModified	1782329310
+meta.__names__.c42320a8-209b-458c-a104-5cb1015f0efc	"Blog Author"
 plugins.ckeditor.edition	"standard"
 plugins.ckeditor.enabled	true
 plugins.codefield.edition	"standard"
@@ -8524,6 +8540,7 @@ plugins.expanded-singles.enabled	true
 plugins.expanded-singles.schemaVersion	"1.0.0"
 plugins.feed-me.edition	"standard"
 plugins.feed-me.enabled	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.allowLineBreaksInTitles	false
 plugins.field-manager.edition	"standard"
 plugins.field-manager.enabled	true
 plugins.field-manager.schemaVersion	"1.0.0"
@@ -8546,12 +8563,74 @@ entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-
 entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.tip	null
 entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 entryTypes.22dea229-207d-41ba-8a31-13eea8c38a5c.fieldLayouts.10a76dce-118a-42ab-ae61-06ddbc0dadd1.tabs.0.elements.0.uid	"df8b6e6f-f6ba-497d-a35c-1afbe2096017"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.color	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.description	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.cardThumbAlignment	"end"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elementCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocapitalize	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocomplete	false
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocorrect	true
 users.allowPublicRegistration	false
 users.defaultGroup	null
 users.photoSubpath	null
 users.photoVolumeUid	null
 users.require2fa	false
 users.requireEmailVerification	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.class	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.dateAdded	"2024-08-28T15:17:06+00:00"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.disabled	false
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.elementCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.id	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.inputType	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.instructions	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.label	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.max	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.min	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.name	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.orientation	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.placeholder	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.readonly	false
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.required	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.size	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.step	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.tip	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.title	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.uid	"450bdc84-b627-4bdd-9826-047ac9fd7eea"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.userCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.warning	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.width	100
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.dateAdded	"2024-08-28T15:19:07+00:00"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.editCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.elementCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.elementEditCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.fieldUid	"115744a1-512d-495b-ba38-959ebed6cec4"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.handle	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.instructions	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.label	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.required	false
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.tip	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.uid	"c650d49f-5464-42e7-b347-67b93c633e82"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.userCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.warning	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.width	100
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.name	"Content"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.uid	"3ec9fa96-8a45-412e-b39e-54a0bc2d7c90"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.userCondition	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.thumbFieldKey	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.handle	"blogAuthor"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.hasTitleField	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.icon	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.name	"Blog Author"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.showSlugField	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.showStatusField	true
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.slugTranslationKeyFormat	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.slugTranslationMethod	"site"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleFormat	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleTranslationKeyFormat	null
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleTranslationMethod	"site"
+entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.uiLabelFormat	"{title}"
 fields.9a6122b0-6a00-4c79-958a-465d2e6549bd.columnSuffix	null
 fields.9a6122b0-6a00-4c79-958a-465d2e6549bd.handle	"navType"
 fields.9a6122b0-6a00-4c79-958a-465d2e6549bd.instructions	null
@@ -8789,7 +8868,6 @@ entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.tip	null
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.type	"craft\\\\fieldlayoutelements\\\\CustomField"
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.uid	"3ae000e9-a411-46fe-8ca0-7a80cba9eb7f"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleFormat	""
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.userCondition	null
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.warning	null
 entryTypes.24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.fieldLayouts.6f4fac81-ff10-4e1b-8c25-b4b48dde7724.tabs.0.elements.2.width	100
@@ -9016,7 +9094,6 @@ entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.0.label	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.0.max	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.0.min	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleTranslationKeyFormat	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.0.name	null
 plugins.pickture.edition	"standard"
 plugins.pickture.enabled	true
@@ -9078,7 +9155,6 @@ entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.elements.3.width	100
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.name	"Content"
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.uid	"9496b43c-5c13-464b-be1b-e19d58800a18"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.titleTranslationMethod	"site"
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.0.userCondition	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.1.elementCondition	null
 entryTypes.117e786c-b219-4920-ac84-48665d61a724.fieldLayouts.515e0519-13d1-4342-b699-992300b32a05.tabs.1.elements.0.dateAdded	"2024-09-18T19:06:08+00:00"
@@ -11004,59 +11080,6 @@ entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.slugTranslationMethod	"site"
 entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.titleFormat	""
 entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.titleTranslationKeyFormat	null
 entryTypes.c46e2b3b-387a-4540-9120-ab0a15b0bbae.titleTranslationMethod	"site"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.color	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elementCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocapitalize	true
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocomplete	false
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.autocorrect	true
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.class	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.dateAdded	"2024-08-28T15:17:06+00:00"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.disabled	false
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.elementCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.id	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.inputType	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.instructions	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.label	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.max	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.min	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.name	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.orientation	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.placeholder	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.readonly	false
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.requirable	false
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.size	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.step	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.tip	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.title	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.type	"craft\\\\fieldlayoutelements\\\\entries\\\\EntryTitleField"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.uid	"450bdc84-b627-4bdd-9826-047ac9fd7eea"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.userCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.warning	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.0.width	100
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.dateAdded	"2024-08-28T15:19:07+00:00"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.elementCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.fieldUid	"115744a1-512d-495b-ba38-959ebed6cec4"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.handle	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.instructions	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.label	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.required	false
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.tip	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.type	"craft\\\\fieldlayoutelements\\\\CustomField"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.uid	"c650d49f-5464-42e7-b347-67b93c633e82"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.userCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.warning	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.elements.1.width	100
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.name	"Content"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.uid	"3ec9fa96-8a45-412e-b39e-54a0bc2d7c90"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.fieldLayouts.53237f31-5112-4577-a36c-06cd404f300f.tabs.0.userCondition	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.handle	"author"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.hasTitleField	true
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.icon	""
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.name	"Author"
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.showSlugField	true
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.showStatusField	true
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.slugTranslationKeyFormat	null
-entryTypes.c42320a8-209b-458c-a104-5cb1015f0efc.slugTranslationMethod	"site"
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elementCondition	null
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elements.0.autocapitalize	true
 entryTypes.ca4795d4-4ac1-46d8-8a30-dea2b3369723.fieldLayouts.bfa1f8d8-43d5-464f-b53e-9d21a97dbd21.tabs.0.elements.0.autocomplete	false
@@ -11908,22 +11931,6 @@ sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.siteSettings.52ff5c36-e87c-4674-8f
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.template	null
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.uriFormat	null
 sections.8457c80e-39d8-4db2-8a6e-184dbf407cbe.type	"channel"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.defaultPlacement	"end"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.enableVersioning	true
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.entryTypes.0.uid	"c42320a8-209b-458c-a104-5cb1015f0efc"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.handle	"authors"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.maxAuthors	1
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.minAuthors	1
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.name	"Authors"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.label	"Primary entry page"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.refresh	"1"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.previewTargets.0.urlFormat	"{url}"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.propagationMethod	"all"
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.enabledByDefault	true
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.hasUrls	false
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.template	null
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.siteSettings.52ff5c36-e87c-4674-8f10-76565b13abdf.uriFormat	null
-sections.d41feaed-9c5d-41dc-9629-8e9af1b89cbf.type	"channel"
 sections.091ba845-021e-4b45-af8f-923cd0b13154.defaultPlacement	"end"
 sections.091ba845-021e-4b45-af8f-923cd0b13154.enableVersioning	true
 sections.091ba845-021e-4b45-af8f-923cd0b13154.entryTypes.0.uid	"976d4ccf-4988-4c36-968c-53f396dce7f2"
@@ -12276,7 +12283,6 @@ bc57ce2a	@craft/web/assets/feed/dist
 c514e8e1	@craft/web/assets/dashboard/dist
 e9ca177	@nystudio107/retour/web/assets/dist
 91f8e1f7	@nystudio107/seomatic/web/assets/dist
-e56efac3	@craft/web/assets/fieldsettings/dist
 50e60a7f	@craft/web/assets/prismjs/dist
 5ca35fc9	@Imarc/Pickture/resources
 9a54438b	@craft/web/assets/tailwindreset/dist
@@ -12294,7 +12300,7 @@ aae65dea	@nystudio107/codeeditor/web/assets/dist
 2a75ee01	@craft/web/assets/timepicker/dist
 535c30a0	@craft/web/assets/updates/dist
 c18e5680	@nystudio107/seomatic/web/assets/dist
-ee0e5b00	@imarc/craftentrytoc/assetbundles/dist
+cb2cc408	@craft/ckeditor/web/assets/ckeditor/dist
 2cdb7479	@craft/web/assets/craftsupport/dist
 8b778270	@craft/web/assets/updateswidget/dist
 4ff26fab	@bower/jquery/dist
@@ -12303,23 +12309,31 @@ b5cdc01e	@craft/web/assets/recententries/dist
 91095be1	@craft/web/assets/cp/dist
 e6ab2c2	@craft/web/assets/plugins/dist
 c14ebb7f	@nystudio107/retour/web/assets/dist
-cb2cc408	@craft/ckeditor/web/assets/ckeditor/dist
+e56efac3	@craft/web/assets/fieldsettings/dist
 df54ddab	@craft/web/assets/updater/dist
-a07aecb8	@craft/web/assets/matrix/dist
-1d01b693	@craft/web/assets/htmx/dist
-33bc5195	@craft/web/assets/prismjs/dist
-9e69599b	@imarc/regexfield/assetbundles/regexfield/dist
-d510f3a0	@craft/web/assets/conditionbuilder/dist
 12957311	@Imarc/Pickture/resources
+1d01b693	@craft/web/assets/htmx/dist
+a07aecb8	@craft/web/assets/matrix/dist
+33bc5195	@craft/web/assets/prismjs/dist
+ee0e5b00	@imarc/craftentrytoc/assetbundles/dist
+d510f3a0	@craft/web/assets/conditionbuilder/dist
+9e69599b	@imarc/regexfield/assetbundles/regexfield/dist
+cc55c608	@craft/ckeditor/web/assets/fieldsettings/dist
+81b7da17	@craft/web/assets/admintable/dist
 a8a138c1	@craft/web/assets/utilities/dist
-550e810a	@craft/web/assets/deprecationerrors/dist
-1a8f064b	@nystudio107/retour/web/assets/dist
-88db837f	@nystudio107/seomatic/web/assets/dist
-2ca83441	@bower/jquery/dist
 f253000b	@craft/web/assets/cp/dist
 f90e1861	@craft/web/assets/tailwindreset/dist
+1391ff41	@craft/web/assets/animationblocker/dist
+550e810a	@craft/web/assets/deprecationerrors/dist
+ce620ead	@craft/web/assets/axios/dist
+e8662642	@craft/web/assets/d3/dist
+903999e8	@craft/web/assets/garnish/dist
+6bb14565	@craft/web/assets/vue/dist
+7a5540eb	@craft/web/assets/jquerytouchevents/dist
 e1028dc1	@craft/web/assets/generalsettings/dist
 30066b4a	@craft/web/assets/updates/dist
+7f919d3e	@craft/web/assets/velocity/dist
+264fa457	@craft/web/assets/jqueryui/dist
 cbfb632b	@craft/web/assets/utilities/dist
 70cba4ab	@craft/web/assets/animationblocker/dist
 ad385547	@craft/web/assets/axios/dist
@@ -12335,27 +12349,20 @@ f363c202	@craft/web/assets/garnish/dist
 2ebfa3bd	@craft/web/assets/xregexp/dist
 dbd1f515	@craft/web/assets/fabric/dist
 805d741f	@craft/web/assets/iframeresizer/dist
-1391ff41	@craft/web/assets/animationblocker/dist
-ce620ead	@craft/web/assets/axios/dist
-e8662642	@craft/web/assets/d3/dist
-903999e8	@craft/web/assets/garnish/dist
-7a5540eb	@craft/web/assets/jquerytouchevents/dist
-7f919d3e	@craft/web/assets/velocity/dist
-264fa457	@craft/web/assets/jqueryui/dist
 7a069f89	@craft/web/assets/jquerypayment/dist
 465d4557	@craft/web/assets/picturefill/dist
+23cc858e	@nystudio107/codeeditor/web/assets/dist
+492fb5eb	@craft/web/assets/timepicker/dist
 fe1ba243	@craft/web/assets/selectize/dist
 383472fc	@craft/web/assets/fileupload/dist
 4de5f857	@craft/web/assets/xregexp/dist
 b88baeff	@craft/web/assets/fabric/dist
 e3072ff5	@craft/web/assets/iframeresizer/dist
-8634a129	@craft/web/assets/fieldsettings/dist
 e0a57a47	@craft/web/assets/theme/dist
-6bb14565	@craft/web/assets/vue/dist
-23cc858e	@nystudio107/codeeditor/web/assets/dist
-492fb5eb	@craft/web/assets/timepicker/dist
-cc55c608	@craft/ckeditor/web/assets/fieldsettings/dist
-81b7da17	@craft/web/assets/admintable/dist
+2ca83441	@bower/jquery/dist
+1a8f064b	@nystudio107/retour/web/assets/dist
+88db837f	@nystudio107/seomatic/web/assets/dist
+8634a129	@craft/web/assets/fieldsettings/dist
 6be9b53a	@craft/web/assets/editsection/dist
 \.
 
@@ -12375,13 +12382,13 @@ COPY public.retour_redirects (id, "dateCreated", "dateUpdated", uid, "siteId", "
 COPY public.retour_static_redirects (id, "dateCreated", "dateUpdated", uid, "siteId", "associatedElementId", enabled, "redirectSrcUrl", "redirectSrcUrlParsed", "redirectSrcMatch", "redirectMatchType", "redirectDestUrl", "redirectHttpCode", priority, "hitCount", "hitLastTime") FROM stdin;
 1	2025-02-20 19:25:48	2025-02-20 19:25:48	a9079f4b-713e-410d-a0a5-f574a4578790	\N	0	t	/__temp_plihyjfwomjeunwzaklqhiamttbsnurvvpui	/__temp_plihyjfwomjeunwzaklqhiamttbsnurvvpui	pathonly	exactmatch	/resources	301	5	0	\N
 2	2025-02-20 19:57:13	2025-02-20 19:57:13	2990ec86-d957-4d16-9baf-65af43dae1ba	\N	0	t	/__temp_cojstscinbrflbdqecyvnwkvmbvelwsuacfm	/__temp_cojstscinbrflbdqecyvnwkvmbvelwsuacfm	pathonly	exactmatch	/blog	301	5	0	\N
-3	2025-02-20 19:57:22	2025-02-20 19:57:22	6fe1f9ef-7853-4fde-a41b-6a4d2072cf37	\N	0	t	/blog	/blog	pathonly	exactmatch	/about/blog	301	5	0	\N
 4	2025-02-20 20:13:06	2025-02-20 20:13:06	be2dc361-703b-42c2-8e16-b50f8ef83ba8	\N	0	t	/contact-us	/contact-us	pathonly	exactmatch	/about/contact-us	301	5	0	\N
 5	2025-02-20 20:20:17	2025-02-20 20:20:17	fa345cb8-e6d7-42ac-96e2-10b3f91582a1	\N	0	t	/resources/__temp_zoorvpsifgfamddnjtpovejecnizleezbcop	/resources/__temp_zoorvpsifgfamddnjtpovejecnizleezbcop	pathonly	exactmatch	/resources/imarc-website	301	5	0	\N
 6	2025-02-20 20:30:28	2025-02-20 20:30:28	627e42fb-c685-464e-a8e2-1c24dd97ffa1	\N	0	t	/resources	/resources	pathonly	exactmatch	/resource-home	301	5	0	\N
 7	2025-02-20 20:30:31	2025-02-20 20:30:31	960966e0-3e25-42b5-9495-b531145d338c	\N	0	t	/resources/kitchen-sink	/resources/kitchen-sink	pathonly	exactmatch	/resource-home/kitchen-sink	301	5	0	\N
 8	2025-05-15 19:32:14	2025-05-15 19:32:14	9ddf4d16-f6b5-4ec8-9ce7-0412c34f143e	\N	0	t	/resource-home	/resource-home	pathonly	exactmatch	/resources	301	5	0	\N
 9	2025-05-15 19:32:19	2025-11-26 13:44:10	9e1aa1bf-a21f-4ed2-bca8-324f7e102666	\N	0	t	/resource-home/kitchen-sink	/resource-home/kitchen-sink	pathonly	exactmatch	/kitchen-sink	301	5	3	2025-11-26 13:44:10
+3	2025-02-20 19:57:22	2026-06-24 19:28:48	6fe1f9ef-7853-4fde-a41b-6a4d2072cf37	\N	0	t	/blog	/blog	pathonly	exactmatch	/about/blog	301	5	1	2026-06-24 19:28:48
 \.
 
 
@@ -12391,8 +12398,10 @@ COPY public.retour_static_redirects (id, "dateCreated", "dateUpdated", uid, "sit
 
 COPY public.retour_stats (id, "dateCreated", "dateUpdated", uid, "siteId", "redirectSrcUrl", "referrerUrl", "remoteIp", "userAgent", "exceptionMessage", "exceptionFilePath", "exceptionFileLine", "hitCount", "hitLastTime", "handledByRetour") FROM stdin;
 2	2025-05-15 19:43:27	2025-11-26 13:44:10	c5200c62-d9f4-4499-b456-7283a5123a2d	1	/resource-home/kitchen-sink		172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1409	3	2025-11-26 13:44:10	t
-1	2025-05-05 18:09:33	2026-06-24 18:11:06	bdea9305-383e-4092-8cc2-1bb911369493	1	/main-icons-sprite.svg	https://padstone.imarc.io/kitchen-sink	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1549	138	2026-06-24 18:11:06	f
 3	2026-06-24 18:09:44	2026-06-24 18:11:37	3fa61f78-cc41-49d6-9942-354d3efb0203	1	/assets/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg	https://padstone.imarc.io/admin/assets/edit/320-cb9c495b17bc28a44ffb50c55572ed63_XL	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1549	8	2026-06-24 18:11:37	f
+1	2025-05-05 18:09:33	2026-06-24 19:25:23	bdea9305-383e-4092-8cc2-1bb911369493	1	/main-icons-sprite.svg	https://padstone.imarc.io/kitchen-sink	172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1549	139	2026-06-24 19:25:23	f
+4	2026-06-24 19:28:48	2026-06-24 19:28:48	b8c9712a-1fbd-44c1-a20e-f82eb3f59fbf	1	/blog		172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1549	1	2026-06-24 19:28:48	t
+5	2026-06-24 19:41:31	2026-06-24 19:41:31	b161f5eb-35de-4f08-80d0-47cd0c8dd7da	1	/about/resources		172.19.0.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36	Page not found.	/var/www/html/padstone/vendor/craftcms/cms/src/web/Request.php	1549	1	2026-06-24 19:41:31	f
 \.
 
 
@@ -13142,13 +13151,13 @@ COPY public.sections (id, "structureId", name, handle, type, "enableVersioning",
 5	\N	404 Page	notFoundPage	single	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:41	2025-02-11 20:13:41	\N	6d180003-5ba0-4422-bebb-53f81069962e	1
 6	\N	Team	team	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:41	2025-02-11 20:13:41	\N	c98b12f3-a5c4-4329-b13c-d59e97981978	1
 7	\N	Shared Blocks	sharedBlocks	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:42	2025-02-11 20:13:42	\N	89839c0a-8c2a-4ef9-900f-709a4c4b77c1	1
-8	\N	Authors	authors	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:42	2025-02-11 20:13:42	\N	d41feaed-9c5d-41dc-9629-8e9af1b89cbf	1
 9	\N	Alerts	alerts	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:42	2025-02-11 20:13:42	\N	8457c80e-39d8-4db2-8a6e-184dbf407cbe	1
 10	\N	Blog Articles	blogArticle	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:42	2025-02-11 20:13:42	\N	091ba845-021e-4b45-af8f-923cd0b13154	1
 11	4	Pages	pages	structure	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:43	2025-02-11 20:13:43	\N	2d21b5d6-ed3b-489e-adb0-784f084e0537	1
 12	\N	Resources	resources	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:43	2025-02-11 20:13:43	\N	ab4da4c8-eed9-4c18-9a65-6cad926fcd59	1
 13	5	Navigation	navigation	structure	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-05-06 16:58:48	2025-05-06 16:58:48	\N	0e0a0c15-2d54-4a63-b4ae-29b75916437e	1
 2	\N	Service Unavailable Page	serviceUnavailablePage	single	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:41	2025-02-11 20:13:41	2026-06-23 22:18:19	8943bafd-8aa6-4449-8d82-21f319461410	1
+8	\N	Blog Authors	blogAuthors	channel	t	1	all	end	[{"label": "Primary entry page", "refresh": "1", "urlFormat": "{url}"}]	2025-02-11 20:13:42	2026-06-24 19:28:15	\N	d41feaed-9c5d-41dc-9629-8e9af1b89cbf	1
 \.
 
 
@@ -13159,7 +13168,6 @@ COPY public.sections (id, "structureId", name, handle, type, "enableVersioning",
 COPY public.sections_entrytypes ("sectionId", "typeId", "sortOrder", name, handle, description) FROM stdin;
 5	25	1	\N	\N	\N
 9	10	1	\N	\N	\N
-8	26	1	\N	\N	\N
 10	3	1	\N	\N	\N
 3	27	1	\N	\N	\N
 1	23	1	\N	\N	\N
@@ -13177,6 +13185,7 @@ COPY public.sections_entrytypes ("sectionId", "typeId", "sortOrder", name, handl
 2	25	1	\N	\N	\N
 7	24	1	\N	\N	\N
 6	33	1	\N	\N	\N
+8	26	1	\N	\N	\N
 \.
 
 
@@ -13239,7 +13248,7 @@ COPY public.sessions (id, "userId", token, "dateCreated", "dateUpdated", uid) FR
 7	13	PPo9W4hrex_iBDxT7Jo87SRhsJaXivyv2qwxg5-uZJsN8_oOqSRdswdh1ZMRDJ9OlAy97eapT9UgYWzwfexP6MYXnjth-mFmrmSD	2025-04-15 14:33:52	2025-04-15 14:34:56	30191a3e-1ecd-4e44-961f-fe2edf7e4c67
 9	13	TpOLM8Q3E5ohcaoENJ9WQ9HG2HhTDZ1R5Nxwtxibj3tztFoe1YHmSAs0APhweyUilIWAJHguDOXRy8Ycg_t9vGxHEACWrXQSPxr6	2025-05-06 15:28:12	2025-05-06 18:39:43	5aad2ac5-970d-4027-abc0-34b0628918b4
 10	13	ZSZtDImfeYzuF6NdGAfXCQkNl0kQbQ24GmJjwUorFFedPcAptsorfuUI9Pjc3umEMbu00STsMHJtAPamqWR8eNfaVfIY5otjrfJb	2025-05-07 20:32:49	2025-05-07 20:34:32	9647eced-b95b-4849-b748-1d4d278c4b98
-23	13	JQbb3f_duOrQ7q5aVHzoEPImDYvOtnnqlFvZhXNIt4eiorIT-YktIaObVOeGNtl1ceyaKCpr_3RHBeGXYx1k4BcTY1rbY2rqsWxX	2026-06-24 18:05:07	2026-06-24 18:32:09	74a58e22-22af-4039-83b0-411dc5de8ab9
+23	13	JQbb3f_duOrQ7q5aVHzoEPImDYvOtnnqlFvZhXNIt4eiorIT-YktIaObVOeGNtl1ceyaKCpr_3RHBeGXYx1k4BcTY1rbY2rqsWxX	2026-06-24 18:05:07	2026-06-24 19:45:52	74a58e22-22af-4039-83b0-411dc5de8ab9
 14	13	RqnU_lG3Sp4w2RDgDYpKy5cYnqrPZ9h70OpmKfBRk2B_BVPquGtVFC48wMr6OAAzXOvczzbkXjr_8WkVcKGRny4og0bkdhxHsBki	2025-05-19 13:54:53	2025-05-19 13:55:12	ccb432ea-79c9-4544-afb0-b66de13c26e8
 \.
 
@@ -13663,7 +13672,7 @@ SELECT pg_catalog.setval('public.plugins_id_seq', 14, true);
 -- Name: queue_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.queue_id_seq', 1946, true);
+SELECT pg_catalog.setval('public.queue_id_seq', 1948, true);
 
 
 --
@@ -13698,7 +13707,7 @@ SELECT pg_catalog.setval('public.retour_static_redirects_id_seq', 9, true);
 -- Name: retour_stats_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.retour_stats_id_seq', 3, true);
+SELECT pg_catalog.setval('public.retour_stats_id_seq', 5, true);
 
 
 --

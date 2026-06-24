@@ -1,7 +1,7 @@
 {% import "/_macros" as macros %}
 
 {% if block.image.count %}
-    {{ macros.responsiveImage(block.image.one, { pictureClass: 'basicSection__image' }) }}
+    {{ macros.responsiveImage(block.image.eagerly().one(), { pictureClass: 'basicSection__image' }) }}
 {% else %}
     <svg viewBox="0 0 16 9" style="background: #0002"></svg>
 {% endif %}

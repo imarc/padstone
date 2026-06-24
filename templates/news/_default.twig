@@ -4,7 +4,7 @@
 {% block content %}
     {% set breadcrumbs = [] %}
 
-    {% set index = craft.entries.section('pages').type('newsPage').one %}
+    {% set index = craft.entries.section('pages').type('newsPage').eagerly().one() %}
     {% if index %}
         {% set breadcrumbs = breadcrumbs|merge([
             {

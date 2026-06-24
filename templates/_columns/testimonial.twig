@@ -8,7 +8,7 @@
     <footer class="testimonial__footer">
         {% if block.image|length %}
             <div class="testimonial__citationPhotoWrapper">
-                {{ macros.responsiveImage(block.image.one, { imgClass: 'testimonial__citationPhoto' }) }}
+                {{ macros.responsiveImage(block.image.eagerly().one(), { imgClass: 'testimonial__citationPhoto' }) }}
             </div>
         {% endif %}
         <cite class="testimonial__citation">

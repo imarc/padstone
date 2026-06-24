@@ -4,7 +4,7 @@
     <p-you-tube>
         <template #placeholder="{ playPause, modifier }">
         <picture class="media__mask" :class="modifier">
-            {# {{ macros.responsiveImage(block.image.one) }} #}
+            {# {{ macros.responsiveImage(block.image.eagerly().one()) }} #}
             
             <source srcset="https://unsplash.it/300/150?random&gravity=center" media="(min-width: 768px)">
             <source srcset="https://unsplash.it/267/150?random&gravity=center" media="(min-width: 480px)">

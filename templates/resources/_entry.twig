@@ -12,7 +12,7 @@
 {% block content %}
     {% set breadcrumbs = [] %}
 
-    {% set index = craft.entries.section('pages').type('resourcesPage').one %}
+    {% set index = craft.entries.section('pages').type('resourcesPage').eagerly().one() %}
     {% if index %}
         {% set breadcrumbs = breadcrumbs|merge([
             {
@@ -36,7 +36,7 @@
         eyebrow: macros.commaSeparate(entry.resourceTypes),
         headline: entry.title,
         introduction: introduction,
-        backgroundImage: entry.featuredImage.one
+        backgroundImage: entry.featuredImage.eagerly().one()
     } } %}
 
     <div class="section">

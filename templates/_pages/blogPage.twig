@@ -8,7 +8,7 @@
 
       <element-collection
           url="/blogs.json"
-          v-slot="{ params, isFetching, data: blogs, meta: { pagination = {} } = {} }"
+          v-slot="{ params, isFetching, noResults, data: blogs, meta }"
       >
           <div class="section resultsSection">
               <div class="section__container container">
@@ -33,7 +33,7 @@
                   </div>
 
                   <div class="cards">
-                      <div v-if="blogs && !blogs.length && !isFetching" class="" v-cloak>No articles found.</div>
+                      <div v-if="noResults" class="" v-cloak>No articles found.</div>
                       <div v-else v-for="article in blogs" :key="article.id" class="cards__card card">
                           <div class="card__container">
                               <img class="card__background" :src="article.image" :alt="article.imageAltText">
@@ -48,6 +48,12 @@
                           </div>
                       </div>
                   </div>
+                  <paginator 
+                      v-model="params.page" 
+                      :total-elements="meta.pagination?.total" 
+                      :total-pages="meta.pagination?.total_pages" 
+                      :per-page="meta.pagination?.per_page"
+                      />
               </div>
           </div>
       </element-collection>

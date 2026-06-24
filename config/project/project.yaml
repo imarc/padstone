@@ -1,4 +1,4 @@
-dateModified: 1782324575
+dateModified: 1782329310
 elementSources:
   craft\elements\Entry:
     -
@@ -56,7 +56,7 @@ elementSources:
       page: Entries
       type: native
     -
-      key: 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Authors
+      key: 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Blog Authors
       page: Entries
       type: native
     -
@@ -210,12 +210,12 @@ meta:
     c59ecd1c-c856-4983-96da-bbbac954eab0: 'Content Designer Page' # Content Designer Page
     c76d791f-6a12-4609-94f8-66f12eb848fd: Quote # Quote
     c98b12f3-a5c4-4329-b13c-d59e97981978: Team # Team
-    c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
+    c42320a8-209b-458c-a104-5cb1015f0efc: 'Blog Author' # Blog Author
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
     cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
     d6c3cdc6-9af4-4a8e-9008-56fc71426603: $CRAFT_SITENAME # $CRAFT_SITENAME
     d26a5c7a-435f-4562-91fe-d168201e7bed: 'Footer Navigation Items' # Footer Navigation Items
-    d41feaed-9c5d-41dc-9629-8e9af1b89cbf: Authors # Authors
+    d41feaed-9c5d-41dc-9629-8e9af1b89cbf: 'Blog Authors' # Blog Authors
     d56b297b-0f38-4dee-abc3-57498c544f41: Hero # Hero
     d4966cae-3474-4ee8-92bd-7d511f1758d4: 'Standard Hero' # Standard Hero
     d69400d5-37c7-48ef-b143-e25cccdda2ac: Simple # Simple

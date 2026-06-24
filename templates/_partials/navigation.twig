@@ -2,8 +2,8 @@
 
 <nav class="siteHeader__primaryNav navigation" v-directionals>
     <ul class="navigation__list">
-        {% for navItem in primaryNavigation.topNavItems.all %}
-            {% set navEntry = navItem.topNavEntry.one ?? null %}
+        {% for navItem in primaryNavigation.topNavItems.eagerly().all() %}
+            {% set navEntry = navItem.topNavEntry.eagerly().one() ?? null %}
             {% if navEntry %}
                 <li class="navigation__item {{ navItem.navType != 'simple' ? '-wide' : '' }}" v-directionals>
                     <p-openable class="navigation__button" label="{{ navEntry.title }}" :close-on-blur="false">
@@ -53,7 +53,7 @@
                                     {% endfor %}
                                 </div>
                                 {% if navItem.ctaCard.count() %}
-                                    {% set ctaCard = navItem.ctaCard.one %}
+                                    {% set ctaCard = navItem.ctaCard.eagerly().one() %}
                                     <div class="cell -span-{{ navEntry.children.level(2).count() + 1 }}">
                                         <div class="card" style="max-width: 300px">
                                             <div class="card__content">
@@ -77,7 +77,7 @@
                                             </div>
                                             {% if ctaCard.image.count() %}
                                                 <div class="card__imageWrapper">
-                                                    {{ macros.responsiveImage(ctaCard.image.one, { imgClass: 'card__image' }) }}
+                                                    {{ macros.responsiveImage(ctaCard.image.eagerly().one(), { imgClass: 'card__image' }) }}
                                                 </div>
                                             {% endif %}
                                         </div>

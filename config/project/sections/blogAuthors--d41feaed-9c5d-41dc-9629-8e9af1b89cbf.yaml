@@ -2,11 +2,11 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: c42320a8-209b-458c-a104-5cb1015f0efc # Author
-handle: authors
+    uid: c42320a8-209b-458c-a104-5cb1015f0efc # Blog Author
+handle: blogAuthors
 maxAuthors: 1
 minAuthors: 1
-name: Authors
+name: 'Blog Authors'
 previewTargets:
   -
     label: 'Primary entry page'

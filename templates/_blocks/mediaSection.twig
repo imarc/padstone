@@ -5,7 +5,7 @@
 {% block content %}
     <div class="basicSection__content">
         {% if block.mediaSubBlocks|length %}
-            {% for subblock in block.mediaSubBlocks.all() %}
+            {% for subblock in block.mediaSubBlocks.eagerly().all() %}
                 <div class="section__item -{{ subblock.type|replace('/Column$/', '') }}">
                     {{ macros.renderColumn(subblock) }}
                 </div>

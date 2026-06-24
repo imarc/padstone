@@ -6,7 +6,7 @@
     {% for card in block.cards.limit(3) %}
         {% set cardData = [{
             headline: card.headline,
-            image: card.image.one,
+            image: card.image.eagerly().one(),
             content: card.blockContent,
             ctaLink: card.ctaLink,
             linkText: card.ctaLink ? card.ctaLink.label : "",
@@ -17,7 +17,7 @@
                 {% set element = ctaLink.element %}
                 {% set cardData = [{
                     headline: card.headline ?: element.title,
-                    image: card.image.one ?: element.featuredImage|length ? element.featuredImage.one : null,
+                    image: card.image.eagerly().one() ?: element.featuredImage|length ? element.featuredImage.eagerly().one() : null,
                     content: card.blockContent ?: element.abstract,
                     ctaLink: element.url,
                     linkText: card.ctaLink ? card.ctaLink.label : element.title,
@@ -29,10 +29,10 @@
     {% endfor %}
     {% if cardDataArray|length < 3 and block.resourceTypes|length %}
         {% set resources = craft.entries.relatedTo(block.resourceTypes).orderBy('postDate DESC').limit(3 - cardDataArray|length) %}
-        {% for resource in resources %}
+        {% for resource in resources.eagerly().all() %}
             {% set cardDataArray = cardDataArray|merge([{
                 headline: resource.title,
-                image: resource.featuredImage|length ? resource.featuredImage.one : null,
+                image: resource.featuredImage|length ? resource.featuredImage.eagerly().one() : null,
                 content: resource.abstract,
                 ctaLink: resource.ctaLink,
                 linkText: resource.ctaLink ? resource.ctaLink.label : 'Read More',

@@ -16,7 +16,7 @@ settings:
   showUnpermittedEntries: true
   showUnpermittedSections: true
   sources:
-    - 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Authors
+    - 'section:d41feaed-9c5d-41dc-9629-8e9af1b89cbf' # Blog Authors
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list
