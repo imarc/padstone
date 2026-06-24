@@ -80,7 +80,7 @@ ServerSignature Off
 </IfModule>
 
 # Content Security Policy
-
+# Remove this if site is multisite with multiple TLDs to fix issues with multiple TLDs in live preview and enable via config/app.web.php
 <IfModule mod_headers.c>
    Header set Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *;"
 </IfModule>

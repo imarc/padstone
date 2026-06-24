@@ -39,7 +39,7 @@ fieldLayouts:
 handle: resourceTypes
 name: 'Resource Types'
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # $CRAFT_SITENAME
     hasUrls: true
     template: null
     uriFormat: 'resource-types/{slug}'

@@ -1,7 +1,11 @@
-dateModified: 1782253099
+dateModified: 1782313044
 email:
   fromEmail: info@imarc.com
-  fromName: 'Padstone Craft 5'
+  fromName: $CRAFT_SITENAME
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -t -i'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   images:
@@ -52,7 +56,7 @@ meta:
     37bd2e2c-ad20-4890-921c-d205d7db4424: 'Image Card' # Image Card
     45adbb6c-4095-4a69-b61a-fc7bcc0a73cc: 'CTA Link' # CTA Link
     48e60b07-4a40-446c-9d1a-b8255c2830f6: 'Footer Navigation' # Footer Navigation
-    52ff5c36-e87c-4674-8f10-76565b13abdf: Padstone # Padstone
+    52ff5c36-e87c-4674-8f10-76565b13abdf: $CRAFT_SITENAME # $CRAFT_SITENAME
     77f762ab-419d-47e9-8b43-63754dafa72f: 'Call To Action' # Call To Action
     89dec5ed-967b-4adc-96f4-990fe7f52da5: 'Breadcrumb Title' # Breadcrumb Title
     091ba845-021e-4b45-af8f-923cd0b13154: 'Blog Articles' # Blog Articles
@@ -120,7 +124,7 @@ meta:
     c42320a8-209b-458c-a104-5cb1015f0efc: Author # Author
     ca4795d4-4ac1-46d8-8a30-dea2b3369723: 'News Page' # News Page
     cb8e727f-8cfd-4234-a8aa-3e11420418cb: 'Resource Types' # Resource Types
-    d6c3cdc6-9af4-4a8e-9008-56fc71426603: 'Padstone Craft 5' # Padstone Craft 5
+    d6c3cdc6-9af4-4a8e-9008-56fc71426603: $CRAFT_SITENAME # $CRAFT_SITENAME
     d26a5c7a-435f-4562-91fe-d168201e7bed: 'Footer Navigation Items' # Footer Navigation Items
     d41feaed-9c5d-41dc-9629-8e9af1b89cbf: Authors # Authors
     d56b297b-0f38-4dee-abc3-57498c544f41: Hero # Hero
@@ -204,7 +208,7 @@ plugins:
 system:
   edition: solo
   live: true
-  name: Padstone
+  name: $CRAFT_SITENAME
   retryDuration: null
   schemaVersion: 5.10.0.0
   timeZone: America/New_York

@@ -39,7 +39,7 @@ fieldLayouts:
 handle: blogCategories
 name: 'Blog Categories'
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # $CRAFT_SITENAME
     hasUrls: true
     template: blog-categories/_category.twig
     uriFormat: 'blog?category={slug}'

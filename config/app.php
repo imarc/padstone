@@ -17,11 +17,35 @@
  * your config/ folder, alongside this one.
  * 
  * Read more about application configuration:
- * https://craftcms.com/docs/4.x/config/app.html
+ * https://craftcms.com/docs/5.x/reference/config/app.html
  */
 
 use craft\helpers\App;
 
 return [
-    'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
+    'modules' => [
+        'site-module' => [
+            'class' => \modules\sitemodule\Module::class
+        ]
+    ],
+    'bootstrap' => [
+        'site-module'
+    ],
+    'components' => [
+        'redis' => [
+            'class'    => 'yii\redis\Connection',
+            'hostname' => App::env('REDIS_HOSTNAME') ?: 'redis',
+            'port'     => App::env('REDIS_PORT') ?: 6379,
+            'database' => App::env('REDIS_DATABASE') ?: 0,
+        ],
+        'cache' => [
+            'class' => yii\redis\Cache::class,
+            'defaultDuration' => 86400,
+            'enableReplicas' => false,
+            'keyPrefix' => App::env('REDIS_KEY_PREFIX'),
+        ],
+        'mutex' => [
+            'mutex' => 'yii\redis\Mutex'
+        ],
+    ],
 ];

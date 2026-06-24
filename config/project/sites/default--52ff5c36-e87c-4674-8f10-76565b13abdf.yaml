@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: Padstone
+name: $CRAFT_SITENAME
 primary: true
-siteGroup: d6c3cdc6-9af4-4a8e-9008-56fc71426603 # Padstone Craft 5
+siteGroup: d6c3cdc6-9af4-4a8e-9008-56fc71426603 # $CRAFT_SITENAME
 sortOrder: 1

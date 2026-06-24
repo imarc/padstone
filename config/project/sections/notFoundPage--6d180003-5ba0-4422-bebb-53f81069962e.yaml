@@ -14,7 +14,7 @@ previewTargets:
     urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  52ff5c36-e87c-4674-8f10-76565b13abdf: # Padstone
+  52ff5c36-e87c-4674-8f10-76565b13abdf: # $CRAFT_SITENAME
     enabledByDefault: true
     hasUrls: true
     template: _pages/default.twig

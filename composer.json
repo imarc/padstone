@@ -27,7 +27,8 @@
     "nystudio107/craft-vite": "^5.0.1",
     "verbb/expanded-singles": "^3.0.0",
     "verbb/field-manager": "^4.0.2",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+    "yiisoft/yii2-redis": "^2.0"
   },
   "require-dev": {
     "craftcms/generator": "^2.0.0",
@@ -46,7 +47,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.2"
+      "php": "8.4"
     }
   },
   "scripts": {

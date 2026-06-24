@@ -13,15 +13,15 @@ use craft\helpers\App;
 
 return GeneralConfig::create()
     // Set the default week start day for date pickers (0 = Sunday, 1 = Monday, etc.)
-    ->defaultWeekStartDay(1)
+    ->defaultWeekStartDay(0)
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
     // Preload Single entries as Twig variables
     ->preloadSingles()
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
-    // Set the @webroot alias so the clear-caches command knows where to find CP resources
-    ->aliases([
-        '@webroot' => dirname(__DIR__) . '/web',
-    ])
+    // Generate transforms before page load
+    ->generateTransformsBeforePageLoad(true)
+    // Set the base Control Panel URL
+    ->baseCpUrl(App::env('PRIMARY_SITE_URL'))
 ;
