@@ -4,7 +4,7 @@
 {% if block.testimonialSlides.count == 1 %}
     {% set testimonial = block.testimonialSlides.one %}
 
-    <section class="section container slider {{ block.headline|length ? '-withCallout' : '' }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+    <section class="section container slider {{ block.headline|length ? '-withCallout' : '' }}" {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}>
         {% if block.headline %}
             <header class="section__header">
                 <h2>{{ block.headline }}</h2>
@@ -33,7 +33,7 @@
 
 {% else %}
 
-  <section class="slider container {{ block.headline|length ? '-withCallout' : '' }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+  <section class="slider container {{ block.headline|length ? '-withCallout' : '' }}" {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}>
       <svg class="slider__calloutIcon icon accent-primary" role="presentation">
           <use href="/main-icons-sprite.svg#quote" />
       </svg>

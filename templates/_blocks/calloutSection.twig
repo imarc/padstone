@@ -5,7 +5,7 @@
     {% set background = block.background.value %}
 {% endif %}
 
- <div class="callout container {{ background }}" {{ block.anchor ? 'id="#' ~ block.anchor ~ "'" : ''}}>
+ <div class="callout container {{ background }}" {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}>
     <div class="grid -columns-12">
         {% if block.eyebrow %}
             <h2 class="h6 accent-primary cell -span-6 -center">{{ block.eyebrow }}</h2>
