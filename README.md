@@ -58,7 +58,7 @@ If you are building to production, run:
 
 ## What's Included
 
-### Sections [WIP]
+### Sections
 
 Padstone includes the following sections:
 
@@ -71,25 +71,24 @@ Padstone includes the following sections:
 * **Error Page** and **404 Page**
 
 
-### Plugins [WIP]
+### Plugins
 
 The following plugins are currently included and installed via [composer](https://getcomposer.org/), which is what Craft uses for the Plugin Store as well:
 
-* [Admin Bar](https://plugins.craftcms.com/admin-bar)
-* [Contact Form Honeypot](https://plugins.craftcms.com/contact-form-honeypot)
+* [CKEditor](https://plugins.craftcms.com/ckeditor)
+* [Code Field](https://plugins.craftcms.com/code-field)
 * [Contact Form](https://plugins.craftcms.com/contact-form)
+* [Contact Form Honeypot](https://plugins.craftcms.com/contact-form-honeypot)
 * [Element API](https://github.com/craftcms/element-api)
+* [Entry TOC](https://github.com/imarc/craft-entry-toc)
 * [Expanded Singles](https://plugins.craftcms.com/expanded-singles)
 * [Feed Me](https://github.com/craftcms/feed-me)
 * [Field Manager](https://github.com/verbb/field-manager)
-* [Google Custom Search](https://github.com/imarc/craft-googlecustomsearch)
-* [Mix](https://plugins.craftcms.com/mix)
-* [Redactor](https://plugins.craftcms.com/redactor)
+* [Pickture](https://github.com/imarc/craft-pickture)
+* [Regex Field](https://github.com/imarc/craft-regex-field)
 * [Retour](https://plugins.craftcms.com/retour)
-* [Sprout Fields](https://sprout.barrelstrengthdesign.com/docs/fields/)
-* [Super Table](https://github.com/verbb/super-table)
-* [Tags](https://plugins.craftcms.com/tag-manager)
-* [Typed link field](https://plugins.craftcms.com/typedlinkfield)
+* [SEOmatic](https://plugins.craftcms.com/seomatic)
+* [Vite](https://plugins.craftcms.com/vite)
 
 ### Macros
 
@@ -103,24 +102,9 @@ There is a `_macros.twig` file that provides The following macros:
 * **numberToWord** - used to convert a number from 0 through 10 to an english word.
 
 
-### Sections [WIP]
+### Content Designer Blocks
 
-The **Content Designer** Field (contentDesigner) allows CMS users to use the following sections out of the box:
-
-* **Designed Section** - the most common section, it allows you to pick a combination of up to two columns to render together out of the following:
-  * Text - a regular rich text column. Within a Text column, you can additionally add a Call to Action.
-  * Call to Action - a call to action, typically styled to look like a button.
-  * Image - an image.
-  * Related Entry - a related entry.
-  * Testimonial - a testimonial.
-  * Video - a video.
-  * Embed - an embed.
-* **Rich Text Section** - a more traditional section of just rich text, relying on redactor for styling or floating images within the content.
-* **Call to Action Section** - A full width section featuring a call to action.
-* **Related Entries Section** - A section of related entries, such as related blog articles or resources.
-* **Testimonial Section** - A section featuring a testimonial.
-* **Icon Grid Section** - An icon grid, typically used to showcase partner, brand or technology logos.
-* **Shared Section** - allows you to include a Shared Section, a separate type of entry in the CMS that itself contains a Content Designer field. This lets you build a block once (within a Shared Section) and include it into multiple pages on the site.
+The **Content Designer** field (`contentDesigner`) lets CMS users lay out a page from a set of block types (Two Column, Rich Text, Media, Callout, Card, Logo Grid, Related Resources, Testimonial Slider, Shared Section). For the full, current catalog — including what each block is for and how the nested column/card types fit together — see [`.agents/skills/content-designer/SKILL.md`](.agents/skills/content-designer/SKILL.md).
 
 ## License
 
