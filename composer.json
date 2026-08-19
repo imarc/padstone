@@ -1,4 +1,5 @@
 {
+  "name": "imarc/padstone",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "repositories": [
