@@ -1,0 +1,16 @@
+config/project/ckeditor/configs/c164bcf4-0226-4e9f-bfe0-ca08ad8056b5.yaml
+  h_fa30cb431001ee 21-22,34
+config/project/project.yaml
+  h_fa30cb431001ee 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2dffd91a8cc704a7067885c48a55c074975d8d9b",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
