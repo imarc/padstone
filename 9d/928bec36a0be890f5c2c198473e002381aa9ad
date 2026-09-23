@@ -1,0 +1,14 @@
+templates/_blocks/testimonialSliderSection.twig
+  h_fa30cb431001ee 3-30,32-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9d928bec36a0be890f5c2c198473e002381aa9ad",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
