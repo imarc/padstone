@@ -1,0 +1,14 @@
+ops-commands.sh
+  h_fa30cb431001ee 25-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9481fe23145d74263a9ec23194b549ecce7b030b",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
