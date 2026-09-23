@@ -1,0 +1,14 @@
+composer.json
+  h_fa30cb431001ee 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "180a74fb62e506325e5055807a14f706cce6d7c9",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
