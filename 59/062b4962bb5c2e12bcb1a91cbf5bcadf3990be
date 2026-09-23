@@ -1,0 +1,16 @@
+templates/_layouts/main.twig
+  h_fa30cb431001ee 30-53
+templates/_partials/navigation.twig
+  h_fa30cb431001ee 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "59062b4962bb5c2e12bcb1a91cbf5bcadf3990be",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
