@@ -1,0 +1,14 @@
+config/project/fields/utilityNavEntry--4f264f7a-a063-4e9a-824d-4ba8018a6c27.yaml
+  h_fa30cb431001ee 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c93c6d6c7c232ce66dc53b044c87e107dda3c0d3",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
