@@ -1,0 +1,16 @@
+config/project/project.yaml
+  h_fa30cb431001ee 1,56,212-213,215
+config/project/sites/default--52ff5c36-e87c-4674-8f10-76565b13abdf.yaml
+  h_fa30cb431001ee 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "732cae95bb71d67c0b5acf58f785cbba5672586c",
+  "prompts": {},
+  "humans": {
+    "h_fa30cb431001ee": {
+      "author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
