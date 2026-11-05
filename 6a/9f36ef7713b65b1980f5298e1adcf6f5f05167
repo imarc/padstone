@@ -1,0 +1,112 @@
+templates/_blocks/relatedResourcesSection.twig
+  s_20312dd100a882::t_a95e63a2aa2e2b 21
+  s_20312dd100a882::t_a78020b2625f0e 32
+  s_20312dd100a882::t_1cf715362fd3b2 16
+  s_20312dd100a882::t_f43678cbf6aea7 8,20,22
+config/project/entryTypes/testimonialSliderSection--a63c9e01-02f0-422a-b717-1a8c254b0231.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,11-26,31,43-58,63,85,100,112
+config/project/entryTypes/imageCard--37bd2e2c-ad20-4890-921c-d205d7db4424.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,12-17,19-20,23-28,30-31,33-35,43,59,75,90,92,102
+.agents/skills/content-designer/kitchen-sink.json
+  s_20312dd100a882::t_8bcb0024182d00 13-14,63-64,357-358,382-383,411-412,563-564,576-577
+  s_20312dd100a882::t_e52bb7837f2f5a 1-12,15-62,65-356,359-381,384-410,413-562,565-575,578-589
+config/project/entryTypes/relatedResourcesSection--798877d5-1c6b-43b0-94a9-203780a1b39f.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,12-13,15-17,20-36,38-55,61,63,77,79,94,96-97,99,103,106
+config/project/entryTypes/mediaSection--22dea229-207d-41ba-8a31-13eea8c38a5c.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,79,101,117,132,144
+config/project/entryTypes/logoGridSection--8d9c514a-a4e4-41ce-9b73-4425594f2885.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,79,101,116,128
+config/project/entryTypes/callToAction--77f762ab-419d-47e9-8b43-63754dafa72f.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,46,58
+templates/_blocks/logoGridSection.twig
+  s_20312dd100a882::t_1cf715362fd3b2 7-9,11-12
+  s_20312dd100a882::t_658b74d25f8ff9 10
+config/project/entryTypes/image--1a4b6ea7-240d-4c7c-86ab-ce16b55afc24.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,30,42
+resources/js/components/Paginator.vue
+  s_b02c5741445ed6::t_95785db3e2571d 17,101
+templates/_partials/sectionHeader.twig
+  s_20312dd100a882::t_1cf715362fd3b2 8-10
+config/project/entryTypes/sharedSection--307187bf-968f-42da-b579-dbc76b7a9fa6.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,30,42
+config/project/entryTypes/ctaLink--45adbb6c-4095-4a69-b61a-fc7bcc0a73cc.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,30,42
+config/project/entryTypes/cardSection--dc246a2f-01d9-4061-b2a1-bc1e6b6edf94.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,79,101,116,128
+config/project/entryTypes/richTextNoMedia--e9b06cc2-e638-47af-98b9-de75baf00165.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,30,42
+templates/_pages/resourcesPage.twig
+  s_b02c5741445ed6::t_95785db3e2571d 11,37
+  s_b02c5741445ed6::t_8a6397869c2969 66-68
+config/project/entryTypes/testimonial--4536b6f0-b762-4abc-b6d1-a918619f8b4d.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,78,90
+templates/_pages/blogPage.twig
+  s_b02c5741445ed6::t_8a6397869c2969 53-55
+resources/js/components/ElementCollection.vue
+  s_b02c5741445ed6::t_70d19be8359bb2 2
+  s_b02c5741445ed6::t_93a4bd18b572f1 29-33
+templates/_blocks/cardSection.twig
+  s_20312dd100a882::t_95608de0303db6 9-12,14-16,22,27,36,38,46
+config/project/entryTypes/richText--0df95f6f-3e7a-4765-84de-aa8585234118.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,79,101,117,132,144
+config/project/project.yaml
+  s_20312dd100a882::t_904dec35710eaf 1
+templates/_columns/video.twig
+  s_20312dd100a882::t_95b5fca6789f86 3-10,15-17,24,26
+.agents/skills/content-designer/SKILL.md
+  s_20312dd100a882::t_0508fddb784c0b 30,125-129,135,215
+  s_20312dd100a882::t_30c669398381d9 12,14-19,36-37,39
+  s_20312dd100a882::t_80221d356972ed 13,20-29,31-35,38,45-52,54,56-58,62-70,72,74,78-85,87,93-98,100,102,108-117,119,131,133,139,141-146,150,154,156-157,159,161-167,171-178,183,185,187,189,193,197,201,209,214,222
+  s_20312dd100a882::t_58b8a44d04d3f8 89
+  s_20312dd100a882::t_9db0a9a33b0809 104,121,140,152,158,160,168-170,179,205,213,217-218
+  s_20312dd100a882::t_e6051efdec3c47 148
+  s_20312dd100a882::t_427aaafac2fbb0 103
+  s_20312dd100a882::t_8825ef5ac496b3 216
+  s_20312dd100a882::t_45d211f48a564a 137
+config/project/entryTypes/calloutSection--24c6e880-c3d7-42a7-b883-a8cc4e6ae3a3.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,43-58,63,79,101,117,132,144
+config/project/entryTypes/video--6a91581a-a1ff-430b-bbeb-32b131747531.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,18,20,31,46,58
+migrations/m260923_190000_standardize_block_headings.php
+  s_20312dd100a882::t_8b270a331fd849 1-44,46-68
+  s_20312dd100a882::t_d1b49fe7743452 45
+config/project/entryTypes/twoColumnSection--b5a971d7-f1e3-40aa-8c6d-3a9e633ca90a.yaml
+  s_20312dd100a882::t_904dec35710eaf 1,3,6,15,31,47,63,79,101,117,132,144
+templates/_blocks/calloutSection.twig
+  s_20312dd100a882::t_a536e3b4a72090 14-16
+templates/_blocks/testimonialSliderSection.twig
+  s_20312dd100a882::t_a536e3b4a72090 8-9,38
+  s_20312dd100a882::t_6f2339322c3baf 40-52
+.agents/skills/craft-assets/SKILL.md
+  s_20312dd100a882::t_e1eaf4b43d796a 1-56
+resources/js/composables/FocusableElements.js
+  s_20312dd100a882::t_2d7cef4b261380 1-13
+resources/js/composables/UseDirectionalKeys.js
+  s_20312dd100a882::t_6e0ae94729ed8a 1-103
+resources/js/composables/focusWithArrows.js
+  s_20312dd100a882::t_ad3a1629a22f29 1-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6a9f36ef7713b65b1980f5298e1adcf6f5f05167",
+  "prompts": {},
+  "sessions": {
+    "s_20312dd100a882": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "08e98627-4012-459c-930f-f218eeb274f4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Kevin Hamer <kevin@imarc.com>"
+    },
+    "s_b02c5741445ed6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7e0ce64d-9520-4e71-b929-6c05efff04ea",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Kevin Hamer <kevin@imarc.com>"
+    }
+  }
+}
