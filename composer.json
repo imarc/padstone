@@ -13,7 +13,7 @@
   ],
   "require": {
     "craftcms/ckeditor": "^5.0.0",
-    "craftcms/cms": "^5.0.0",
+    "craftcms/cms": "^5.12.0.1",
     "craftcms/contact-form": "^3.1.0",
     "craftcms/contact-form-honeypot": "^2.1.0",
     "craftcms/element-api": "dev-patch-1",
