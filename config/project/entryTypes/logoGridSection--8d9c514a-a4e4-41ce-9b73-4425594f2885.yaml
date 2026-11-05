@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: orange
+description: 'Show a row of client, partner or press logos.'
 fieldLayouts:
   ba5da5df-3c24-44b2-a61a-e68b58533467:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:21:43+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:21:43+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             instructions: null
@@ -39,6 +44,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:21:43+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
             handle: null
             instructions: null
@@ -54,6 +60,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:41:44+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5217297d-5931-41b9-a7a4-a797bb339952 # Logos
             handle: null
             instructions: null
@@ -69,6 +76,7 @@ fieldLayouts:
             dateAdded: '2025-05-09T15:35:52+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -90,6 +98,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:21:43+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             instructions: null
@@ -104,6 +113,7 @@ fieldLayouts:
         name: Settings
         uid: 41b56885-307a-42c8-a285-d7be4487c4c0
         userCondition: null
+    thumbFieldKey: null
 handle: logoGridSection
 hasTitleField: false
 icon: null
@@ -115,3 +125,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

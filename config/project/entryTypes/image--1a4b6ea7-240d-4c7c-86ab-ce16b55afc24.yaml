@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: lime
+description: 'A single image.'
 fieldLayouts:
   dbf6d4f8-51c7-4924-9747-da8670c51e61:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T18:11:22+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
             instructions: null
@@ -23,6 +27,7 @@ fieldLayouts:
         name: Content
         uid: 4d2894de-76d5-4df2-980f-3f72f7e7dbc3
         userCondition: null
+    thumbFieldKey: null
 handle: image
 hasTitleField: false
 icon: null
@@ -34,3 +39,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

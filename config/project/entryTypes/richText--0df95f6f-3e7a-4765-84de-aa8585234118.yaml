@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: purple
+description: 'A full-width section of formatted text, with an optional button.'
 fieldLayouts:
   31197cc2-c34c-4f8f-9b2d-286da8c09158:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             instructions: null
@@ -39,6 +44,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
             handle: null
             instructions: null
@@ -54,6 +60,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T18:09:44+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: ff11a7ef-4804-4699-9e26-f9d531a7e760 # Content
             handle: null
             instructions: null
@@ -69,6 +76,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -90,6 +98,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
             instructions: null
@@ -105,6 +114,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:22:46+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             instructions: null
@@ -119,6 +129,7 @@ fieldLayouts:
         name: Settings
         uid: 0771c72e-e5d9-4d7c-af04-a0e733ad4a72
         userCondition: null
+    thumbFieldKey: null
 handle: richText
 hasTitleField: false
 icon: null
@@ -130,3 +141,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

@@ -2,9 +2,6 @@ import { createApp, defineAsyncComponent } from 'vue'
 import directionals from './directives/vDirectionals.js'
 import scrolllock from './directives/vScrolllock.js'
 
-// Necessary for Craft vite plugin
-import '../styles/index.scss'
-
 createApp({
   components: {
     PAccordion: defineAsyncComponent(() => import('./components/PAccordion.vue')),

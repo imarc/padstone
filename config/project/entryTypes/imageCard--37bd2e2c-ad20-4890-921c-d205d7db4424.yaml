@@ -1,25 +1,38 @@
+allowLineBreaksInTitles: false
 color: null
+description: 'A card with an image, title, short text and link.'
 fieldLayouts:
   6e6b0216-5d3f-4f54-9de4-cac73ac59725:
-    cardView:
-      - 'layoutElement:131fb942-4184-4c34-bb2d-722a8619f59a'
-      - 'layoutElement:d94a187a-a522-4c4c-b477-7c9d0ef1ebf9'
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-09-19T15:13:09+00:00'
-            editCondition: null
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: null
+            disabled: false
             elementCondition: null
-            fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
-            handle: null
+            id: null
+            inputType: null
             instructions: null
             label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
             required: false
+            size: null
+            step: null
             tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 131fb942-4184-4c34-bb2d-722a8619f59a
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2a171098-bdd8-454e-92c4-472716151042
             userCondition: null
             warning: null
             width: 100
@@ -27,6 +40,7 @@ fieldLayouts:
             dateAdded: '2024-09-19T15:09:24+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
             instructions: null
@@ -42,6 +56,7 @@ fieldLayouts:
             dateAdded: '2024-09-19T15:09:24+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: ff11a7ef-4804-4699-9e26-f9d531a7e760 # Content
             handle: null
             instructions: null
@@ -57,6 +72,7 @@ fieldLayouts:
             dateAdded: '2025-05-09T15:35:33+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -71,8 +87,9 @@ fieldLayouts:
         name: Content
         uid: a22b222b-3e6a-4f05-85cd-0916741299b0
         userCondition: null
+    thumbFieldKey: null
 handle: imageCard
-hasTitleField: false
+hasTitleField: true
 icon: null
 name: 'Image Card'
 showSlugField: true
@@ -82,3 +99,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: amber
+description: 'A YouTube or Vimeo video.'
 fieldLayouts:
   adb58e3b-a1c7-48d3-a0ea-9285a000fbd7:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,11 +12,12 @@ fieldLayouts:
             dateAdded: '2025-05-20T01:40:30+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
-            instructions: null
+            instructions: "Optional cover image. If left empty, the video's own thumbnail is used."
             label: 'Thumbnail Image'
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3fe7f3bd-8d51-437a-94f1-7e0de56e58af
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T19:02:41+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 56554df0-f81a-4c6a-b023-706d2789eaa9 # Video
             handle: null
             instructions: null
@@ -38,6 +43,7 @@ fieldLayouts:
         name: Content
         uid: 348db75c-74e1-427a-8a20-a5d0ef4ffa91
         userCondition: null
+    thumbFieldKey: null
 handle: video
 hasTitleField: false
 icon: null
@@ -49,3 +55,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

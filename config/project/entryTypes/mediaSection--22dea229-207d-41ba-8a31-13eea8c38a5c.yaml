@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: indigo
+description: 'Show one large image or video across the page.'
 fieldLayouts:
   10a76dce-118a-42ab-ae61-06ddbc0dadd1:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:57:58+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:57:58+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             instructions: null
@@ -39,6 +44,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:57:58+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
             handle: null
             instructions: null
@@ -54,6 +60,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:57:58+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 850e8e38-809a-494d-b643-efd7ff7c48e6 # Media Sub Blocks
             handle: null
             instructions: null
@@ -69,6 +76,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:57:58+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -90,6 +98,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:56:23+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
             instructions: null
@@ -105,6 +114,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:56:23+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             instructions: null
@@ -119,6 +129,7 @@ fieldLayouts:
         name: Settings
         uid: 171c531a-728b-4417-b178-c7f60f05e056
         userCondition: null
+    thumbFieldKey: null
 handle: mediaSection
 hasTitleField: false
 icon: null
@@ -130,3 +141,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

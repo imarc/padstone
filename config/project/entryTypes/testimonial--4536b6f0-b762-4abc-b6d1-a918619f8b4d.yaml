@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: teal
+description: 'A customer quote with their name, job title and photo.'
 fieldLayouts:
   315f8c9a-657d-4d28-9e41-97235cc27c25:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T19:07:05+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: c76d791f-6a12-4609-94f8-66f12eb848fd # Quote
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2025-05-20T01:24:03+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dd58c3c0-4afc-4b83-a606-73c8bc282d99 # Image
             handle: null
             instructions: null
@@ -39,6 +44,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T19:07:05+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 524e948c-591f-4e9e-a275-77e3e0709b86 # Person
             handle: null
             instructions: null
@@ -54,6 +60,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T19:07:05+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 115744a1-512d-495b-ba38-959ebed6cec4 # Job Title
             handle: null
             instructions: null
@@ -68,6 +75,7 @@ fieldLayouts:
         name: Content
         uid: b799eb00-3272-4622-b8d3-7cbaba099107
         userCondition: null
+    thumbFieldKey: null
 handle: testimonial
 hasTitleField: false
 icon: null
@@ -79,3 +87,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

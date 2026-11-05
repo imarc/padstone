@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: null
+description: 'A short line of text with a button.'
 fieldLayouts:
   25e832d4-be1c-41d4-836b-00f72ac16c5f:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T14:20:09+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 37581c39-ebd0-4472-aa61-c2f51a891535 # Content (No Media)
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2025-05-09T15:33:50+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -38,6 +43,7 @@ fieldLayouts:
         name: Content
         uid: be2b67a6-33b2-46a1-846f-e1ffc52adbba
         userCondition: null
+    thumbFieldKey: null
 handle: callToAction
 hasTitleField: false
 icon: null
@@ -49,3 +55,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

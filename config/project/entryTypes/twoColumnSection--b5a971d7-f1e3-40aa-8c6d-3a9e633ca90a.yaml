@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: sky
+description: 'Place two pieces of content side by side, like text next to a photo, video, quote or button.'
 fieldLayouts:
   0a5eb646-9689-4454-8f84-a9815142c0ce:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T17:02:36+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
             handle: null
             instructions: null
@@ -24,6 +28,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T17:02:36+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             instructions: null
@@ -39,6 +44,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T17:02:36+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
             handle: null
             instructions: null
@@ -54,6 +60,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T19:03:32+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 866793e8-8646-486d-95c2-24ad883f46a7 # Sub Blocks
             handle: null
             instructions: null
@@ -69,6 +76,7 @@ fieldLayouts:
             dateAdded: '2025-05-09T15:32:19+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: 'Fill in link to create a CTA'
@@ -90,6 +98,7 @@ fieldLayouts:
             dateAdded: '2025-05-08T20:45:29+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3f694951-45bb-48bb-8b85-e0d8634e227c # Background
             handle: null
             instructions: null
@@ -105,6 +114,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T17:02:36+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             instructions: null
@@ -119,6 +129,7 @@ fieldLayouts:
         name: Settings
         uid: f736d5ff-5c94-4017-b4d9-d33cf1ea3003
         userCondition: null
+    thumbFieldKey: null
 handle: twoColumnSection
 hasTitleField: false
 icon: null
@@ -130,3 +141,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

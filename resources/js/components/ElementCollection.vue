@@ -1,5 +1,5 @@
 <script setup>
-import { computed, toValue, reactive, isRef, isReactive } from 'vue'
+import { computed, toValue, reactive, isRef, isReactive, watch } from 'vue'
 import { useFetch, useUrlSearchParams } from '@vueuse/core'
 
 const props = defineProps({
@@ -25,6 +25,11 @@ const props = defineProps({
 })
 
 const params = props.querySync ? useUrlSearchParams('history') : reactive(props.initialValue)
+
+// Changing a filter invalidates the current page.
+watch(() => JSON.stringify({ ...params, page: undefined }), () => {
+    delete params.page
+})
 
 const url = computed(() => {
     const nonNull = Object.fromEntries(Object.entries(toValue(params))

@@ -14,7 +14,7 @@
             </li>
 
             <li v-if="!onLastPage && totalPages > 1" class="pagination__item">
-                <a class="pagination__link link"  :href="makeUrl(currentPage.value + 1)" @click.prevent="next" aria-label="Next">
+                <a class="pagination__link link"  :href="makeUrl(parseInt(currentPage) + 1)" @click.prevent="next" aria-label="Next">
                     <svg class="link__icon" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" fill="none"><polyline points="9 6 15 12 9 18" /></svg>
                 </a>
             </li>
@@ -32,9 +32,6 @@ const currentPage = defineModel({
 const props = defineProps({
     totalElements: { 
         type: Number,
-        required: true 
-    },
-    test: {
         required: true 
     },
     perPage: { 
@@ -101,7 +98,7 @@ function scrollToTop() {
 
 const makeUrl = (num) => {
     let { searchParams } = new URL(location.href);
-    if (currentPage.value === 1) {
+    if (parseInt(num) === 1) {
       searchParams.delete(props.pageParameter);
     } else {
       searchParams.set(props.pageParameter, num);

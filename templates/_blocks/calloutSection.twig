@@ -11,6 +11,9 @@
             <h2 class="h6 accent-primary cell -span-6 -center">{{ block.eyebrow }}</h2>
         {% endif %}
         <h3 class="callout__title cell -span-6 -center">{{ block.headline }}</h3>
+        {% if block.subheadline %}
+            <p class="callout__subheading cell -span-6 -center">{{ block.subheadline }}</p>
+        {% endif %}
         {% if block.blockContentNoMedia|length %}
             <div class="callout__content cell -span-6 -center">
                 {{ block.blockContentNoMedia }}

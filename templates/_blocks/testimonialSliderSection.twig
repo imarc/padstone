@@ -5,10 +5,8 @@
     {% set testimonial = block.testimonialSlides.eagerly().one() %}
 
     <section class="section container slider {{ block.headline|length ? '-withCallout' : '' }}" {% if block.anchor|length %} id="{{ block.anchor }}" {% endif %}>
-        {% if block.headline %}
-            <header class="section__header">
-                <h2>{{ block.headline }}</h2>
-            </header>
+        {% if block.eyebrow or block.headline or block.subheadline %}
+            {% include "/_partials/sectionHeader" %}
         {% endif %}
             <div class="section__content">
             <blockquote class="testimonial">
@@ -37,11 +35,21 @@
       <svg class="slider__calloutIcon icon accent-primary" role="presentation">
           <use href="/main-icons-sprite.svg#quote" />
       </svg>
-      {% if block.headline|length %}
+      {% if block.eyebrow or block.headline or block.subheadline %}
           <div class="slider__callout">
-              <span class="h3">
-                  {{ block.headline }}
-              </span>
+              <div>
+                  {% if block.eyebrow %}
+                      <h2 class="h6 accent-primary">{{ block.eyebrow }}</h2>
+                  {% endif %}
+                  {% if block.headline %}
+                      <span class="h3">
+                          {{ block.headline }}
+                      </span>
+                  {% endif %}
+                  {% if block.subheadline %}
+                      <p>{{ block.subheadline }}</p>
+                  {% endif %}
+              </div>
           </div>
       {% endif %}
       <div class="slider__content">

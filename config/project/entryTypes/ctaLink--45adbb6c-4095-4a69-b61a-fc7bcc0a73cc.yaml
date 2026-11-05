@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: null
+description: 'A button that links somewhere.'
 fieldLayouts:
   376ba6eb-1e4d-4507-b3bd-7fa32fc871db:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T17:34:32+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 5a53a4fd-6824-4729-9a20-006558d3e221 # Link
             handle: null
             instructions: null
@@ -23,6 +27,7 @@ fieldLayouts:
         name: Content
         uid: f6e6d993-4d60-44d4-addb-619afecb3c3e
         userCondition: null
+    thumbFieldKey: null
 handle: ctaLink
 hasTitleField: false
 icon: null
@@ -34,3 +39,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

@@ -1,14 +1,34 @@
+allowLineBreaksInTitles: false
 color: blue
+description: 'Show one customer quote, or several in a slider.'
 fieldLayouts:
   adcccf35-575b-4fe9-a234-0fb72923e7d1:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3546d0c2-4446-4f19-beb3-1e460aa375df # Eyebrow
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef72ddb0-2b0a-4b82-841b-84eae89b0d29
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-05-19T15:09:44+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3984cd0f-a133-49ff-94d0-63730cf1bf51 # Headline
             handle: null
             instructions: null
@@ -21,9 +41,26 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: dab85477-9d74-4135-9cd2-a0e109e07314 # Subheadline
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dae0a080-844f-45ff-9731-9f15c0bc2e03
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-05-19T15:09:44+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: b4fd5d6c-8267-43f3-bfed-8defac06c057 # Testimonial Slides
             handle: null
             instructions: null
@@ -45,6 +82,7 @@ fieldLayouts:
             dateAdded: '2025-05-19T15:09:44+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: a7b59ddf-b06d-4b04-8d73-c52609ae95d3 # Anchor
             handle: null
             instructions: null
@@ -59,6 +97,7 @@ fieldLayouts:
         name: Settings
         uid: 37a5cc06-1d8e-4c4f-a398-d94b7a0f933e
         userCondition: null
+    thumbFieldKey: null
 handle: testimonialSliderSection
 hasTitleField: false
 icon: null
@@ -70,3 +109,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

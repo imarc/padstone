@@ -7,9 +7,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       input: [
-        './resources/styles/index.scss',
         './resources/js/index.js',
-        './public/main-icons-sprite.svg',
       ],
     },
   },

@@ -1,20 +1,26 @@
 {% import "/_macros" as macros %}
 
+{% set videoUrl = block.video.url ?? (block.video ~ '') %}
+{% set youtubeId = videoUrl|replace('/^.*(?:youtu\\.be\\/|[?&]v=|embed\\/|shorts\\/)([\\w-]{11}).*$/', '$1') %}
+{% set youtubeId = youtubeId != videoUrl ? youtubeId : null %}
+
+{# Poster: the optional cover image, falling back to the YouTube thumbnail. #}
+{% set poster = block.image.eagerly().one() %}
+{% set posterUrl = poster ? poster.getUrl({ width: 1280 }) : (youtubeId ? "https://i.ytimg.com/vi/#{youtubeId}/hqdefault.jpg" : null) %}
+
 <div class="basicSection__media media accent-primary">
     <p-you-tube>
         <template #placeholder="{ playPause, modifier }">
         <picture class="media__mask" :class="modifier">
-            {# {{ macros.responsiveImage(block.image.eagerly().one()) }} #}
-            
-            <source srcset="https://unsplash.it/300/150?random&gravity=center" media="(min-width: 768px)">
-            <source srcset="https://unsplash.it/267/150?random&gravity=center" media="(min-width: 480px)">
-            <img class="lazyload" srcset="https://unsplash.it/267/150?random&gravity=center" alt="">
+            {% if posterUrl %}
+                <img src="{{ posterUrl }}" alt="">
+            {% endif %}
         </picture>
         <button class="media__trigger" :class="modifier" @click="playPause">
             <span class="srOnly">play</span>
             <svg class="media__icon icon -circle" viewBox="0 0 96 96"><use href="/main-icons-sprite.svg#play" /></svg>
         </button>
         </template>
-        <iframe src="{{ block.video }}" frameborder="0" allowfullscreen tabindex="-1"></iframe>
+        <iframe src="{{ youtubeId ? "//www.youtube.com/embed/#{youtubeId}?enablejsapi=1&html5=1" : videoUrl }}" frameborder="0" allowfullscreen tabindex="-1"></iframe>
   </p-you-tube>
 </div>

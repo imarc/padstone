@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: purple
+description: 'A column of formatted text.'
 fieldLayouts:
   a41a8bf7-9596-483f-ba98-110deb562d53:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2025-05-16T14:25:51+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 37581c39-ebd0-4472-aa61-c2f51a891535 # Content (No Media)
             handle: null
             instructions: null
@@ -23,6 +27,7 @@ fieldLayouts:
         name: Content
         uid: 15a0ef65-45ad-4409-9c8e-dd86be7683ae
         userCondition: null
+    thumbFieldKey: null
 handle: richTextNoMedia
 hasTitleField: false
 icon: null
@@ -34,3 +39,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

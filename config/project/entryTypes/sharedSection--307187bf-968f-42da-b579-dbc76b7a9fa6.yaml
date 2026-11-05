@@ -1,6 +1,9 @@
+allowLineBreaksInTitles: false
 color: cyan
+description: 'Reuse a section that is managed in one place, so edits show up everywhere it appears.'
 fieldLayouts:
   841f2f33-5104-4bd0-be00-17061f90eb1b:
+    cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
@@ -9,6 +12,7 @@ fieldLayouts:
             dateAdded: '2024-08-15T20:33:56+00:00'
             editCondition: null
             elementCondition: null
+            elementEditCondition: null
             fieldUid: 3b057048-977f-4c40-ba97-63d84a65f907 # Shared Blocks
             handle: null
             instructions: null
@@ -23,6 +27,7 @@ fieldLayouts:
         name: Content
         uid: f68e3551-5eba-4824-a3d4-9d67fb6dfd4e
         userCondition: null
+    thumbFieldKey: null
 handle: sharedSection
 hasTitleField: false
 icon: null
@@ -34,3 +39,4 @@ slugTranslationMethod: site
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+uiLabelFormat: '{title}'

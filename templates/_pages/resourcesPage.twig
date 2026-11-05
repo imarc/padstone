@@ -8,7 +8,7 @@
 
         <element-collection
             url="/resources.json"
-            v-slot="{ params, noResults, data: resources }"
+            v-slot="{ params, noResults, data: resources, meta }"
         >
             <div class="section resultsSection">
                 <div class="section__container container">
@@ -34,7 +34,7 @@
                                     :options="{{ craft.categories.group('resourceTopics').all()|json_encode }}"
                                     label="title"
                                     value-prop="slug"
-                                    v-model="params.type"
+                                    v-model="params.topic"
                                 ></p-select>
                             </label>
                         </div>
@@ -63,9 +63,9 @@
 
                     <paginator 
                         v-model="params.page" 
-                        :total-elements="meta.pagination?.total" 
-                        :total-pages="meta.pagination?.total_pages" 
-                        :per-page="meta.pagination?.per_page"
+                        :total-elements="meta?.pagination?.total" 
+                        :total-pages="meta?.pagination?.total_pages" 
+                        :per-page="meta?.pagination?.per_page"
                         />
                 </div>
             </div>

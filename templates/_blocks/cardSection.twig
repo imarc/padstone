@@ -6,31 +6,25 @@
     <div class="section__content">
         <div class="grid -columns-3">
             {% for card in block.cards.eagerly().all() %}
+                {# Cards linked to an entry fall back to that entry's title, featured image and abstract. #}
+                {% set ctaLink = card.ctaLink %}
+                {% set linked = ctaLink and ctaLink.type == 'entry' ? ctaLink.element : null %}
+                {% set linkedImage = linked.featuredImage ?? null %}
                 {% set cardData = {
-                    headline: card.headline,
-                    image: card.image.eagerly().one(),
-                    content: card.blockContent
+                    title: card.title ?: (linked.title ?? null),
+                    image: card.image.eagerly().one() ?: (linkedImage ? linkedImage.one() : null),
+                    content: card.blockContent|length ? card.blockContent : (linked.abstract ?? null)
                 } %}
                 <div class="cell">
                     <div class="card" style="max-width: 25.75rem;">
                         <div class="card__content">
                             <span class="card__title h3">
-                                {{ cardData.headline }}
+                                {{ cardData.title }}
                             </span>
                             <p class="card__description">
                                 {{ cardData.content }}
                             </p>
-                            {% if card.ctaLink %}
-                                {% if ctaLink.type == "entry" %}
-                                    {% set element = ctaLink.element %}
-                                    {% if element.type == "blogArticle" or element.type == "resource" %}
-                                        {% set cardData = cardData|merge({
-                                            headline: element.title,
-                                            image: element.featuredImage,
-                                            content: element.abstract
-                                        }) %}
-                                    {% endif %}
-                                {% endif %}
+                            {% if ctaLink %}
                                 <a href="{{ ctaLink }}" class="card__cta link -wide">
                                     {{ ctaLink.label }}
                                     <svg class="card__ctaIcon link__icon">
@@ -39,9 +33,9 @@
                                 </a>
                             {% endif %}
                         </div>
-                        {% if card.image|length %}
+                        {% if cardData.image %}
                             <div class="card__imageWrapper">
-                                {{ macros.responsiveImage(card.image.eagerly().one(), { pictureClass: 'card__image' }) }}
+                                {{ macros.responsiveImage(cardData.image, { pictureClass: 'card__image' }) }}
                             </div>
                         {% endif %}
                     </div>

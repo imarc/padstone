@@ -1,0 +1,589 @@
+{
+ "section": "pages",
+ "type": "contentDesignerPage",
+ "title": "Kitchen Sink",
+ "fields": {
+  "contentDesigner": {
+   "new1": {
+    "type": "sharedSection",
+    "enabled": true,
+    "fields": {
+     "sharedBlocks": [
+      {
+       "section": "sharedBlocks",
+       "slug": "learn-about-padstone"
+      }
+     ]
+    }
+   },
+   "new2": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Eyebrow",
+     "headline": "Two Column - Rich Text",
+     "subheadline": "Section Subheading",
+     "subBlocks": {
+      "new3": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Pellentesque euismod iaculis nibh. Duis a ante quis dolor blandit pulvinar. Integer sollicitudin leo non vulputate elementum. Pellentesque eu diam euismod, vehicula justo at, egestas neque. Duis et fermentum mi, non sodales quam. Phasellus erat dolor, venenatis ac ultrices vel, elementum in nisi. Vivamus sit amet neque a tortor pellentesque tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed a neque egestas, porta orci vitae, porttitor quam. Sed in risus sit amet dolor faucibus elementum ac at sapien. Proin fermentum, orci ut finibus faucibus, leo arcu sodales eros, a varius nisi ante ut mi. Pellentesque gravida luctus pretium. Sed tellus sem, interdum non vulputate at, tempus sed lorem. Vestibulum sagittis, nunc a dignissim sodales, neque risus lacinia erat, id rutrum ipsum felis ut felis. Etiam in venenatis nunc. Integer in justo sollicitudin, malesuada orci sit amet, tristique nisi.</p>"
+       }
+      },
+      "new4": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui.  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.</p>"
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new5": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Two Column - Rich Text & Call to Action",
+     "subheadline": "A short line of copy with a button, beside a column of text.",
+     "subBlocks": {
+      "new6": {
+       "type": "callToAction",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>",
+        "ctaLink": {
+         "type": "entry",
+         "key": {
+          "section": "homepage",
+          "slug": "homepage"
+         }
+        }
+       }
+      },
+      "new7": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.  Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>"
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new8": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Two Column Section",
+     "headline": "Two Column - Call to Action & Image",
+     "subheadline": "Shown here with the Accent background.",
+     "subBlocks": {
+      "new9": {
+       "type": "callToAction",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>A short line of supporting copy above a single button.</p>",
+        "ctaLink": {
+         "value": "https://example.com/get-started",
+         "type": "url"
+        }
+       }
+      },
+      "new10": {
+       "type": "image",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "74-1500x1000.jpg"
+         }
+        ]
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": "accent-primary",
+     "anchor": null
+    }
+   },
+   "new11": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Two Column - Rich Text & Image",
+     "subheadline": null,
+     "subBlocks": {
+      "new12": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.  Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>"
+       }
+      },
+      "new13": {
+       "type": "image",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "354-1500x1000.jpg"
+         }
+        ]
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new14": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Two Column - Rich Text & Video",
+     "subheadline": null,
+     "subBlocks": {
+      "new15": {
+       "type": "video",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "354-1500x1000.jpg"
+         }
+        ],
+        "video": {
+         "value": "https://www.youtube.com/watch?v=vgs8DB17iPE",
+         "type": "url"
+        }
+       }
+      },
+      "new16": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>"
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new17": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Two Column - Video (no cover image) & Rich Text",
+     "subheadline": "Without a cover image, the video's own YouTube thumbnail is used.",
+     "subBlocks": {
+      "new18": {
+       "type": "video",
+       "enabled": true,
+       "fields": {
+        "image": [],
+        "video": {
+         "value": "https://www.youtube.com/watch?v=vgs8DB17iPE",
+         "type": "url"
+        }
+       }
+      },
+      "new19": {
+       "type": "richTextNoMedia",
+       "enabled": true,
+       "fields": {
+        "blockContentNoMedia": "<p>Videos accept normal YouTube links; they are converted to embeds automatically.</p>"
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new20": {
+    "type": "twoColumnSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Two Column - Image & Testimonial",
+     "subheadline": null,
+     "subBlocks": {
+      "new21": {
+       "type": "testimonial",
+       "enabled": true,
+       "fields": {
+        "quote": "<p>Cras laoreet faucibus nibh, vel facilisis enim laoreet vel. Cras felis nunc, fringilla sit amet facilisis finibus, blandit ut quam. Nulla elit enim, porttitor vel porttitor sed, congue sit amet justo.</p>",
+        "image": [],
+        "person": "Julius Caesar",
+        "jobTitle": "Would Be Emperor"
+       }
+      },
+      "new22": {
+       "type": "image",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "1059-1500x1000.jpg"
+         }
+        ]
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new23": {
+    "type": "logoGridSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Logo Grid",
+     "headline": "Some Logos",
+     "subheadline": "Logos scale to fit a consistent box, in centered rows.",
+     "logos": [
+      {
+       "volume": "images",
+       "filename": "1951884-3669393195.png"
+      },
+      {
+       "volume": "images",
+       "filename": "1951898-3360233634.jpg"
+      },
+      {
+       "volume": "images",
+       "filename": "1951834-1468369652.png"
+      },
+      {
+       "volume": "images",
+       "filename": "logo-acme.png"
+      },
+      {
+       "volume": "images",
+       "filename": "logo-globex.png"
+      },
+      {
+       "volume": "images",
+       "filename": "logo-initech.png"
+      },
+      {
+       "volume": "images",
+       "filename": "logo-umbrella.png"
+      },
+      {
+       "volume": "images",
+       "filename": "logo-hooli.png"
+      }
+     ],
+     "ctaLink": null,
+     "anchor": null
+    }
+   },
+   "new24": {
+    "type": "cardSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Card Section",
+     "headline": "Some Cards",
+     "subheadline": "Cards can link anywhere. A card linked to an entry fills in any blank title, image or text from that entry.",
+     "cards": {
+      "new25": {
+       "title": "Card 1",
+       "type": "imageCard",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "74-1500x1000.jpg"
+         }
+        ],
+        "blockContent": "<p>Uglydolls are your friends</p>",
+        "ctaLink": null
+       }
+      },
+      "new26": {
+       "title": "Card with no image",
+       "type": "imageCard",
+       "enabled": true,
+       "fields": {
+        "image": [],
+        "blockContent": "<p>This card doesn't have an image</p>",
+        "ctaLink": null
+       }
+      },
+      "new27": {
+       "title": "Card 3",
+       "type": "imageCard",
+       "enabled": true,
+       "fields": {
+        "image": [],
+        "blockContent": "<p>This card has no image but it does have a link</p>",
+        "ctaLink": {
+         "value": "https://example.com/card-3",
+         "type": "url"
+        }
+       }
+      },
+      "new28": {
+       "type": "imageCard",
+       "enabled": true,
+       "fields": {
+        "image": [],
+        "blockContent": null,
+        "ctaLink": {
+         "type": "entry",
+         "key": {
+          "section": "resources",
+          "slug": "acme-resource"
+         }
+        }
+       }
+      }
+     },
+     "ctaLink": {
+      "value": "https://example.com/all-services",
+      "type": "url"
+     },
+     "anchor": null
+    }
+   },
+   "new29": {
+    "type": "richText",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Single Column Rich Text",
+     "subheadline": null,
+     "blockContent": "<p><a href=\"{entry:3@1:url||https://amesbury-agency.imarc.io/}\">Lorem Ipsum</a></p><p>Cras venenatis lectus ac metus eleifend, quis tristique lacus eleifend. Aenean ut libero diam. Proin vel ipsum a erat porttitor tempor. Mauris luctus, diam a porttitor cursus, arcu ipsum dignissim lorem, nec viverra justo libero quis lorem. Ut semper dignissim arcu, et mattis elit scelerisque at. Nam eget hendrerit ipsum. Vestibulum commodo urna mauris, quis accumsan augue mollis vitae. Praesent non feugiat velit, quis cursus felis. Donec mollis sem quis dignissim congue. Donec imperdiet vehicula neque, sed gravida nisl tincidunt eu. Quisque sit amet pretium dolor. Morbi eget libero consectetur, pellentesque felis tincidunt, venenatis mi.</p><figure class=\"image\"><img style=\"aspect-ratio:900/600;\" src=\"{asset:320:url||/assets/images/cb9c495b17bc28a44ffb50c55572ed63_XL.jpg}\" alt=\"\" width=\"900\" height=\"600\" /></figure><p><strong>Aenean lacinia bibendum nulla sed consectetur</strong>. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.  Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><h4>This is a bulleted list</h4><h5>Check It Out</h5><ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li><i>Curabitur blandit tempus porttitor.</i></li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li><li>Curabitur blandit tempus porttitor.</li></ul><h3>This is a Numbered List</h3><ol><li>Maecenas faucibus mollis interdum.</li><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Etiam porta sem malesuada magna mollis euismod.</li><li>Donec ullamcorper nulla non metus auctor fringilla.</li><li>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</li></ol><h2>This is a heading</h2><p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>",
+     "ctaLink": {
+      "type": "entry",
+      "key": {
+       "section": "homepage",
+       "slug": "homepage"
+      }
+     },
+     "background": "accent-primary",
+     "anchor": null
+    }
+   },
+   "new30": {
+    "type": "relatedResourcesSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Related Resources",
+     "headline": "Related Resources",
+     "subheadline": "Hand-picked resources first, then the newest matching resources, up to three.",
+     "cards": {
+      "new31": {
+       "title": "Headline override",
+       "type": "imageCard",
+       "enabled": true,
+       "fields": {
+        "image": [],
+        "blockContent": "<p>Content override</p>",
+        "ctaLink": null
+       }
+      }
+     },
+     "resourceTypes": [
+      {
+       "group": "resourceTypes",
+       "slug": "reports"
+      }
+     ]
+    }
+   },
+   "new32": {
+    "type": "mediaSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Single Column - Image",
+     "subheadline": null,
+     "mediaSubBlocks": {
+      "new33": {
+       "type": "image",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "95-1500x1000.jpg"
+         }
+        ]
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": "accent-primary",
+     "anchor": null
+    }
+   },
+   "new34": {
+    "type": "mediaSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": null,
+     "headline": "Single Column - Video",
+     "subheadline": null,
+     "mediaSubBlocks": {
+      "new35": {
+       "type": "video",
+       "enabled": true,
+       "fields": {
+        "image": [
+         {
+          "volume": "images",
+          "filename": "354-1500x1000.jpg"
+         }
+        ],
+        "video": {
+         "value": "https://www.youtube.com/watch?v=vgs8DB17iPE",
+         "type": "url"
+        }
+       }
+      }
+     },
+     "ctaLink": null,
+     "background": null,
+     "anchor": null
+    }
+   },
+   "new36": {
+    "type": "testimonialSliderSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Testimonial Slider",
+     "headline": "Testimonial - Single",
+     "subheadline": "A single quote shows on its own.",
+     "testimonialSlides": {
+      "new37": {
+       "type": "testimonial",
+       "enabled": true,
+       "fields": {
+        "quote": "<p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis.</p>",
+        "image": [
+         {
+          "volume": "images",
+          "filename": "defaultImage.small_1000_1000_nofilter.jpg"
+         }
+        ],
+        "person": "John Doe",
+        "jobTitle": "CEO"
+       }
+      }
+     },
+     "anchor": null
+    }
+   },
+   "new38": {
+    "type": "testimonialSliderSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Testimonial Slider",
+     "headline": "Testimonial Slider",
+     "subheadline": "Two or more quotes become a slider.",
+     "testimonialSlides": {
+      "new39": {
+       "type": "testimonial",
+       "enabled": true,
+       "fields": {
+        "quote": "<p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod.</p>",
+        "image": [],
+        "person": "Jane Doe",
+        "jobTitle": "CEO"
+       }
+      },
+      "new40": {
+       "type": "testimonial",
+       "enabled": true,
+       "fields": {
+        "quote": "<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>",
+        "image": [
+         {
+          "volume": "images",
+          "filename": "969-1500x1000.jpg"
+         }
+        ],
+        "person": "Joe Shmoe",
+        "jobTitle": "Marketing VP"
+       }
+      },
+      "new41": {
+       "type": "testimonial",
+       "enabled": true,
+       "fields": {
+        "quote": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>",
+        "image": [],
+        "person": "Jane Smith",
+        "jobTitle": "CFO"
+       }
+      }
+     },
+     "anchor": null
+    }
+   },
+   "new42": {
+    "type": "calloutSection",
+    "enabled": true,
+    "fields": {
+     "eyebrow": "Eyebrow",
+     "headline": "Callout Section",
+     "subheadline": "A centered prompt with up to two buttons.",
+     "blockContentNoMedia": "<p>Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>",
+     "ctaLinks": {
+      "new43": {
+       "type": "ctaLink",
+       "enabled": true,
+       "fields": {
+        "ctaLink": {
+         "type": "entry",
+         "key": {
+          "section": "homepage",
+          "slug": "homepage"
+         }
+        }
+       }
+      },
+      "new44": {
+       "type": "ctaLink",
+       "enabled": true,
+       "fields": {
+        "ctaLink": {
+         "type": "entry",
+         "key": {
+          "section": "pages",
+          "slug": "about"
+         }
+        }
+       }
+      }
+     },
+     "background": null,
+     "anchor": null
+    }
+   }
+  }
+ }
+}
